@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "lastGood": {
+    "ollama": "ollama:default",
+    "minimax": "minimax:global",
+    "nvidia": "nvidia:default",
+    "openrouter": "openrouter:default"
+  },
+  "usageStats": {
+    "ollama:default": {
+      "errorCount": 0,
+      "lastUsed": 1777985467885
+    },
+    "minimax:global": {
+      "errorCount": 0,
+      "lastUsed": 1779009650483
+    },
+    "nvidia:default": {
+      "errorCount": 0,
+      "lastUsed": 1778309285264
+    },
+    "openrouter:default": {
+      "errorCount": 0,
+      "lastUsed": 1778332085279
+    },
+    "google:default": {
+      "errorCount": 1,
+      "failureCounts": {
+        "rate_limit": 1
+      },
+      "lastFailureAt": 1778993727899,
+      "cooldownUntil": 1778993757899,
+      "cooldownReason": "rate_limit",
+      "cooldownModel": "gemini-3.1-pro-preview"
+    }
+  }
+}

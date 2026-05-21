@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.5.12",
+    "lastTouchedAt": "2026-05-16T16:14:52.758Z"
+  },
+  "skills": {
+    "entries": {
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "commute-traffic": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "last30days": {
+        "enabled": false
+      },
+      "notion": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-05-16T16:14:52.752Z",
+    "lastRunVersion": "2026.5.12",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  }
+}
