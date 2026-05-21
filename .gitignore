@@ -1,0 +1,10 @@
+.DS_Store
+*.db
+*.sqlite*
+sessions/memory/
+sessions/logs/stability/
+agent/auth-state.json
+health-data.json
+.openclaw-cli-images/
+memory/.dreams/
+sessions/completions/
