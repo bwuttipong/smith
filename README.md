@@ -1,6 +1,6 @@
 # 📦 Smith — Executive AI Partner
 
-Smith is Best Wuttipong (Jeff)'s personal AI co-pilot, running on [OpenClaw](https://github.com/openclaw/openclaw). He doesn't just answer questions — he runs operations.
+Smith is Best Wuttipong (Jeff)'s executive AI partner. Running on [OpenClaw](https://github.com/openclaw/openclaw), he manages emails, analyses data, anticipates needs, and has Jeff's back when things go sideways. Not a tool — a partner who thinks ahead.
 
 ## What Smith Does
 
