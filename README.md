@@ -29,7 +29,7 @@ Dry wit. Surgical precision. Calm under pressure. Lowercase by default. J.A.R.V.
 
 ## Workspace
 
-Root: `/Users/Jeff/Agents/smith`
+Root: `/Users/Jeff/Smith`
 Powered by OpenClaw agents framework.
 
 ---
