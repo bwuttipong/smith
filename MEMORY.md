@@ -62,3 +62,7 @@
 - **Status**: Delegation workflow identified but not yet automated — Jeff handles manually
 
 ## Known Issues / TODOs
+
+## Memory Backup & Recovery (Obsidian)
+- **Path**: `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Memory` (OneDrive Remotely Save plugin folder)
+- **Purpose**: If local session or memory files are ever lost, they can be recovered from this Obsidian sync vault.
