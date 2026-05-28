@@ -8,30 +8,36 @@
   },
   "usageStats": {
     "ollama:default": {
-      "errorCount": 0,
-      "lastUsed": 1777985467885
+      "lastUsed": 1777985467885,
+      "errorCount": 0
     },
     "minimax:global": {
-      "errorCount": 0,
-      "lastUsed": 1779009650483
-    },
-    "nvidia:default": {
-      "errorCount": 0,
-      "lastUsed": 1778309285264
-    },
-    "openrouter:default": {
-      "errorCount": 0,
-      "lastUsed": 1778332085279
-    },
-    "google:default": {
+      "lastUsed": 1779009650483,
+      "cooldownUntil": 1779552239722,
+      "cooldownReason": "rate_limit",
+      "cooldownModel": "MiniMax-M2.7",
       "errorCount": 1,
       "failureCounts": {
         "rate_limit": 1
       },
-      "lastFailureAt": 1778993727899,
-      "cooldownUntil": 1778993757899,
-      "cooldownReason": "rate_limit",
-      "cooldownModel": "gemini-3.1-pro-preview"
+      "lastFailureAt": 1779552209722
+    },
+    "nvidia:default": {
+      "lastUsed": 1779799028321,
+      "errorCount": 0
+    },
+    "openrouter:default": {
+      "lastUsed": 1779892336588,
+      "errorCount": 0
+    },
+    "google:default": {
+      "cooldownUntil": 1779932693848,
+      "cooldownReason": "auth",
+      "errorCount": 1,
+      "failureCounts": {
+        "auth": 1
+      },
+      "lastFailureAt": 1779932663848
     }
   }
 }

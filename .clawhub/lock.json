@@ -96,6 +96,10 @@
     "last30days-openclaw": {
       "version": "1.0.0-openclaw.1",
       "installedAt": 1779202206182
+    },
+    "notion": {
+      "version": "1.0.0",
+      "installedAt": 1779502171976
     }
   }
 }
