@@ -100,6 +100,30 @@
     "notion": {
       "version": "1.0.0",
       "installedAt": 1779502171976
+    },
+    "capability-evolver": {
+      "version": "1.53.2",
+      "installedAt": 1780135415904
+    },
+    "1password": {
+      "version": "1.0.1",
+      "installedAt": 1780216054779
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1780216973049
+    },
+    "prismfy-search": {
+      "version": "1.3.8",
+      "installedAt": 1780218745980
+    },
+    "x-search": {
+      "version": "1.0.0",
+      "installedAt": 1780219526708
+    },
+    "last30days": {
+      "version": "1.0.0",
+      "installedAt": 1780221482276
     }
   }
 }

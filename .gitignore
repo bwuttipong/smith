@@ -4,6 +4,7 @@
 sessions/memory/
 sessions/logs/stability/
 agent/auth-state.json
+agent/auth-profiles.json
 health-data.json
 .openclaw-cli-images/
 memory/.dreams/

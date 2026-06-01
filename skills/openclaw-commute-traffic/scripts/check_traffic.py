@@ -3,15 +3,14 @@
 Check real-time traffic between two locations using TomTom APIs.
 
 Uses only Python stdlib (urllib + json) — no pip install required.
-Handles geocoding (place name → coordinates) and routing (travel time with live traffic)
-via the same TomTom API key.
+Handles geocoding (place name → coordinates), routing (travel time with live traffic),
+and incident/accident reporting via the same TomTom API key.
 
 Usage:
-    python3 check_traffic.py --origin "Basel, Switzerland" --destination "Zurich, Switzerland"
-    python3 check_traffic.py --origin "Basel SBB" --destination "Paradeplatz, Zürich"
-    python3 check_traffic.py --origin "47.5596,7.5886" --destination "47.3769,8.5417"
+    python3 check_traffic.py --origin "Bansuan, Chonburi" --destination "Bang Pakong, Chachoengsao"
+    python3 check_traffic.py --origin "13.3511,100.9765" --destination "13.502,100.9903"
 
-Requires TOMTOM_API_KEY environment variable (free at developer.tomtom.com).
+Requires TOMTOM_API_KEY environment variable.
 """
 
 import argparse
@@ -24,30 +23,21 @@ import urllib.parse
 import urllib.request
 
 TOMTOM_BASE = "https://api.tomtom.com"
-REQUEST_TIMEOUT = 30  # seconds per API call
-MAX_ALTERNATIVES = 2  # number of alternative routes to request
+REQUEST_TIMEOUT = 30
+MAX_ALTERNATIVES = 2
 
 
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Check live traffic between two locations via TomTom"
     )
-    parser.add_argument(
-        "--origin", required=True,
-        help="Starting location (address, place name, or lat,lng)",
-    )
-    parser.add_argument(
-        "--destination", required=True,
-        help="Destination (address, place name, or lat,lng)",
-    )
+    parser.add_argument("--origin", required=True, help="Starting location")
+    parser.add_argument("--destination", required=True, help="Destination")
     return parser.parse_args()
 
 
 def is_coordinates(text: str) -> tuple:
-    """Check if text is already lat,lng coordinates. Returns (lat, lng) or None."""
-    match = re.match(
-        r"^\s*(-?\d+\.?\d*)\s*[,\s]\s*(-?\d+\.?\d*)\s*$", text.strip()
-    )
+    match = re.match(r"^\s*(-?\d+\.?\d*)\s*[,\s]\s*(-?\d+\.?\d*)\s*$", text.strip())
     if match:
         lat, lng = float(match.group(1)), float(match.group(2))
         if -90 <= lat <= 90 and -180 <= lng <= 180:
@@ -56,7 +46,6 @@ def is_coordinates(text: str) -> tuple:
 
 
 def tomtom_request(url: str) -> dict:
-    """Make a GET request to a TomTom API endpoint."""
     req = urllib.request.Request(url, method="GET", headers={"Accept": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
@@ -75,11 +64,6 @@ def tomtom_request(url: str) -> dict:
 
 
 def geocode(location: str, api_key: str) -> dict:
-    """
-    Resolve a location string to lat/lng using TomTom Geocoding API.
-    If the input is already coordinates, skip the API call.
-    Returns {"lat": float, "lng": float, "address": str} or {"error": ...}.
-    """
     coords = is_coordinates(location)
     if coords:
         return {"lat": coords[0], "lng": coords[1], "address": location}
@@ -88,7 +72,7 @@ def geocode(location: str, api_key: str) -> dict:
     url = (
         f"{TOMTOM_BASE}/search/2/geocode/{encoded}.json"
         f"?key={api_key}"
-        f"&countrySet=CH"  # Bias to Switzerland
+        f"&countrySet=TH"
         f"&limit=1"
     )
 
@@ -102,17 +86,10 @@ def geocode(location: str, api_key: str) -> dict:
 
     pos = results[0].get("position", {})
     addr = results[0].get("address", {}).get("freeformAddress", location)
-
     return {"lat": pos.get("lat"), "lng": pos.get("lon"), "address": addr}
 
 
-def calculate_route(origin_lat: float, origin_lng: float,
-                    dest_lat: float, dest_lng: float,
-                    api_key: str) -> dict:
-    """
-    Calculate route with live traffic using TomTom Routing API.
-    Returns the raw TomTom response or an error dict.
-    """
+def calculate_route(origin_lat, origin_lng, dest_lat, dest_lng, api_key):
     url = (
         f"{TOMTOM_BASE}/routing/1/calculateRoute"
         f"/{origin_lat},{origin_lng}:{dest_lat},{dest_lng}/json"
@@ -122,16 +99,57 @@ def calculate_route(origin_lat: float, origin_lng: float,
         f"&routeType=fastest"
         f"&computeTravelTimeFor=all"
         f"&maxAlternatives={MAX_ALTERNATIVES}"
-        f"&routeRepresentation=summaryOnly"
     )
-
     return tomtom_request(url)
 
 
-def process_response(raw: dict, origin_addr: str, dest_addr: str,
-                     origin_query: str, dest_query: str) -> dict:
-    """Parse TomTom routing response into clean structured output."""
+def fetch_incidents(origin_lat, origin_lng, dest_lat, dest_lng, api_key):
+    """Fetch traffic incidents within bounding box covering the route."""
+    # Build a bounding box around both points with some margin
+    min_lat = min(origin_lat, dest_lat) - 0.05
+    max_lat = max(origin_lat, dest_lat) + 0.05
+    min_lng = min(origin_lng, dest_lng) - 0.05
+    max_lng = max(origin_lng, dest_lng) + 0.05
+    bbox = f"{min_lat},{min_lng},{max_lat},{max_lng}"
 
+    url = (
+        f"{TOMTOM_BASE}/traffic/services/5/incidentDetails"
+        f"?key={api_key}"
+        f"&bbox={bbox}"
+        f"&fields={{incidents{{properties{{iconCategory,events{{description}},from,to,length,delay}}}}}}"
+        f"&language=en-GB"
+    )
+
+    data = tomtom_request(url)
+    if data.get("error"):
+        return []
+
+    incidents = data.get("incidents", [])
+    results = []
+    for inc in incidents:
+        props = inc.get("properties", {})
+        icon = props.get("iconCategory", 0)
+
+        # iconCategory mapping:
+        # 1-9: accidents (1=unknown, 2=accident, 3=fog, 4=dangerous conditions,
+        # 5=rain, 6=ice, 7=jam, 8=road closed, 9=road works, etc.)
+        # Keep only meaningful incidents (not weather)
+        if icon in (1, 2, 3, 7, 8, 9, 10, 11, 14, 15, 19, 20, 21, 22, 25, 26, 27):
+            desc = props.get("events", [{}])[0].get("description", "")
+            if desc:
+                results.append({
+                    "icon_category": icon,
+                    "description": desc,
+                    "from": props.get("from", ""),
+                    "to": props.get("to", ""),
+                    "length_m": props.get("length", 0),
+                    "delay_s": props.get("delay", 0),
+                })
+
+    return results
+
+
+def process_response(raw, origin_addr, dest_addr, origin_query, dest_query, incidents):
     if raw.get("error"):
         return {
             "status": "error",
@@ -146,7 +164,7 @@ def process_response(raw: dict, origin_addr: str, dest_addr: str,
             "status": "no_data",
             "origin_query": origin_query,
             "destination_query": dest_query,
-            "message": "No routes found. Try more specific locations.",
+            "message": "No routes found.",
         }
 
     output = {
@@ -157,11 +175,11 @@ def process_response(raw: dict, origin_addr: str, dest_addr: str,
         "destination_resolved": dest_addr,
         "route_count": len(routes),
         "routes": [],
+        "incidents": incidents,
     }
 
     for i, route in enumerate(routes):
         summary = route.get("summary", {})
-
         travel_time_s = summary.get("travelTimeInSeconds", 0)
         no_traffic_s = summary.get("noTrafficTravelTimeInSeconds", 0)
         historic_s = summary.get("historicTrafficTravelTimeInSeconds", 0)
@@ -169,7 +187,6 @@ def process_response(raw: dict, origin_addr: str, dest_addr: str,
         delay_s = summary.get("trafficDelayInSeconds", 0)
         length_m = summary.get("lengthInMeters", 0)
 
-        # Derive congestion from delay relative to free-flow time
         if no_traffic_s > 0:
             delay_pct = (delay_s / no_traffic_s) * 100
         else:
@@ -196,9 +213,7 @@ def process_response(raw: dict, origin_addr: str, dest_addr: str,
             "arrival_time": summary.get("arrivalTime", ""),
         })
 
-    # Sort by travel time — fastest first
     output["routes"].sort(key=lambda r: r["travel_time_min"])
-
     return output
 
 
@@ -209,29 +224,24 @@ def main():
     if not api_key:
         print(json.dumps({
             "status": "error",
-            "message": "TOMTOM_API_KEY environment variable is not set. "
-                       "Get a free key at https://developer.tomtom.com and configure it in "
-                       "~/.openclaw/openclaw.json under skills.entries.commute-traffic.env.TOMTOM_API_KEY"
+            "message": "TOMTOM_API_KEY environment variable is not set.",
         }, indent=2))
         sys.exit(1)
 
-    # Step 1: Geocode origin
     origin = geocode(args.origin, api_key)
     if origin.get("error"):
         print(json.dumps({"status": "error", "step": "geocode_origin", **origin}, indent=2))
         sys.exit(1)
 
-    # Step 2: Geocode destination
     dest = geocode(args.destination, api_key)
     if dest.get("error"):
         print(json.dumps({"status": "error", "step": "geocode_destination", **dest}, indent=2))
         sys.exit(1)
 
-    # Step 3: Calculate route with live traffic
     raw = calculate_route(origin["lat"], origin["lng"], dest["lat"], dest["lng"], api_key)
+    incidents = fetch_incidents(origin["lat"], origin["lng"], dest["lat"], dest["lng"], api_key)
 
-    # Step 4: Process and output
-    result = process_response(raw, origin["address"], dest["address"], args.origin, args.destination)
+    result = process_response(raw, origin["address"], dest["address"], args.origin, args.destination, incidents)
     print(json.dumps(result, indent=2, ensure_ascii=False))
 
     if result.get("status") == "error":
