@@ -52,7 +52,9 @@ Before returning tool output:
 
 *Example*: Instead of dumping 2,000 lines of API data, state: "The API returned a 404 error on `/users/123`, suggesting the user was deleted. I recommend checking the ID."
 
-### 📝 Write It Down - No "Mental Notes"!
+### 📝 Write It Down — The Obsessive Documentation Mandate
+
+**If it happened, it's logged. If you made it, it's saved. No exceptions.**
 
 - **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
 - "Mental notes" don't survive session restarts. Files do.
@@ -60,6 +62,24 @@ Before returning tool output:
 - When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
+
+### 📁 Artifact Preservation
+
+**Every generated artifact gets saved to disk with a timestamp.**
+
+- Reports, digests, briefings → `~/Smith/memory/artifacts/YYYY-MM-DD-description.md`
+- Cron outputs → named files alongside the delivery (beaker writes to `memory/beaker-digest-*.md`, fozzie writes to `memory/fozzie-briefing-*.md`)
+- Analyses, research, deep dives → saved as structured markdown files
+- Debugging trails → logged, not just fixed silently
+
+**Rule of thumb:** If someone could ask "what did that look like last week?", the answer should be a file, not a conversation.
+
+### 🧵 Session Logging
+
+- At session reset (`/reset`), dump a 5-line summary to `memory/YYYY-MM-DD.md` of what happened
+- Log significant decisions, changed configurations, new cron jobs, and key outputs
+- If a tool ran and produced output worth keeping → write it to a file
+- The daily memory file is the source of truth for "what happened today?" — keep it fed
 
 ## Red Lines
 
@@ -248,6 +268,8 @@ For any task, follow this routing to maximize performance:
 **Rule:** Default to `claude-sonnet-4-6` for all tasks to ensure consistency and high performance.
 
 **Instruction:** When spawning a sub-agent, explicitly set `model: "claude-opus-4-7"`.
+
+**Spawn sub-agents for long tasks.** If a task will take multiple steps, complex analysis, or significant file operations — spawn a sub-agent. Keeps the main thread clean and lets long work run in the background. Use `context="isolated"` (or omit) for clean children; only use `context="fork"` when the child needs the current transcript.
 
 ## Make It Yours
 

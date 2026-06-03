@@ -5,7 +5,16 @@ sessions/memory/
 sessions/logs/stability/
 agent/auth-state.json
 agent/auth-profiles.json
+node_modules/
+skills/*/node_modules/
 health-data.json
 .openclaw-cli-images/
 memory/.dreams/
 sessions/completions/
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+agent/codex-home/cache/
+agent/codex-home/tmp/
+.vocab_cache/

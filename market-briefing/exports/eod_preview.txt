@@ -1,0 +1,17 @@
+📊 Market Close Summary — June 02, 2026
+
+📈 Index Performance:
+- S&P 500: $7,610.40 (+0.14%)
+- NASDAQ: $27,123.97 (+0.14%)
+
+🏆 Top Movers (Watchlist):
+- SMH: $626.71 (+3.11%)
+- JEPQ: $60.80 (+0.16%)
+
+📋 Signal Activity:
+- Signals generated today: 0 (placeholder — wire TradingView/webhook source)
+- Signals acted upon: 0
+
+📅 Tomorrow's Calendar:
+- Earnings / macro: placeholder — connect econcal or similar feed
+

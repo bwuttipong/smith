@@ -1,0 +1,6570 @@
+[
+  {
+    "en": "obsessive",
+    "th": "หมกมุ่น"
+  },
+  {
+    "en": "throttled",
+    "th": "ลดกำลัง"
+  },
+  {
+    "en": "buzzing",
+    "th": "เสียงหึ่งๆ"
+  },
+  {
+    "en": "scandal",
+    "th": "เรื่องอื้อฉาว"
+  },
+  {
+    "en": "verse",
+    "th": "กลอน"
+  },
+  {
+    "en": "broadly",
+    "th": "โดยทั่วไป"
+  },
+  {
+    "en": "dodged",
+    "th": "หลบหลีก"
+  },
+  {
+    "en": "bounce",
+    "th": "กระเด้ง"
+  },
+  {
+    "en": "bounc",
+    "th": "กระเด้ง"
+  },
+  {
+    "en": "transcribe",
+    "th": "ถอดความ"
+  },
+  {
+    "en": "god",
+    "th": "พระเจ้า"
+  },
+  {
+    "en": "trio",
+    "th": "สามคน"
+  },
+  {
+    "en": "warm",
+    "th": "อบอุ่น"
+  },
+  {
+    "en": "simmer",
+    "th": "หลน"
+  },
+  {
+    "en": "pace",
+    "th": "ก้าว"
+  },
+  {
+    "en": "exclamation",
+    "th": "อุทาน"
+  },
+  {
+    "en": "obligation",
+    "th": "ภาระผูกพัน"
+  },
+  {
+    "en": "peek",
+    "th": "แอบดู"
+  },
+  {
+    "en": "Quickest",
+    "th": "เร็วที่สุด"
+  },
+  {
+    "en": "Laminate",
+    "th": "ลามิเนต"
+  },
+  {
+    "en": "cap",
+    "th": "หมวก"
+  },
+  {
+    "en": "tunable",
+    "th": "ปรับแต่งได้"
+  },
+  {
+    "en": "architectural",
+    "th": "สถาปัตยกรรม"
+  },
+  {
+    "en": "bail",
+    "th": "การประกันตัว"
+  },
+  {
+    "en": "extraneous",
+    "th": "ภายนอก"
+  },
+  {
+    "en": "preference",
+    "th": "ความพึงใจ"
+  },
+  {
+    "en": "traverse",
+    "th": "ข้ามผ่าน"
+  },
+  {
+    "en": "dangling",
+    "th": "ห้อยลงมา"
+  },
+  {
+    "en": "irreversible",
+    "th": "ไม่สามารถย้อนกลับได้"
+  },
+  {
+    "en": "reconcile",
+    "th": "ประนีประนอม"
+  },
+  {
+    "en": "abbreviation",
+    "th": "ตัวย่อ"
+  },
+  {
+    "en": "enumerate",
+    "th": "แจงนับ"
+  },
+  {
+    "en": "persistently",
+    "th": "อย่างต่อเนื่อง"
+  },
+  {
+    "en": "availability",
+    "th": "ความพร้อมใช้งาน"
+  },
+  {
+    "en": "malforme",
+    "th": "ผิดรูป"
+  },
+  {
+    "en": "malformed",
+    "th": "ผิดรูป"
+  },
+  {
+    "en": "peg",
+    "th": "ตรึง"
+  },
+  {
+    "en": "requisition",
+    "th": "คำขอ"
+  },
+  {
+    "en": "requisitions",
+    "th": "คำขอ"
+  },
+  {
+    "en": "Discrete",
+    "th": "แยกส่วน"
+  },
+  {
+    "en": "probable",
+    "th": "น่าจะเป็นไปได้"
+  },
+  {
+    "en": "hypothetical",
+    "th": "สมมติฐาน"
+  },
+  {
+    "en": "abbreviate",
+    "th": "ย่อ"
+  },
+  {
+    "en": "Intra",
+    "th": "ภายใน"
+  },
+  {
+    "en": "Infinite",
+    "th": "อนันต์"
+  },
+  {
+    "en": "replenishment",
+    "th": "การเติมเต็ม"
+  },
+  {
+    "en": "eval",
+    "th": "ประเมิน"
+  },
+  {
+    "en": "portable",
+    "th": "พกพาได้"
+  },
+  {
+    "en": "spine",
+    "th": "กระดูกสันหลัง"
+  },
+  {
+    "en": "harness",
+    "th": "สายรัด"
+  },
+  {
+    "en": "incoherent",
+    "th": "ไม่สอดคล้องกัน"
+  },
+  {
+    "en": "poke",
+    "th": "โผล่"
+  },
+  {
+    "en": "Garage",
+    "th": "โรงรถ"
+  },
+  {
+    "en": "offshore",
+    "th": "นอกชายฝั่ง"
+  },
+  {
+    "en": "itinerary",
+    "th": "กำหนดการเดินทาง"
+  },
+  {
+    "en": "consecutive",
+    "th": "ต่อเนื่อง"
+  },
+  {
+    "en": "legit",
+    "th": "ถูกต้อง"
+  },
+  {
+    "en": "observability",
+    "th": "ความสามารถในการสังเกต"
+  },
+  {
+    "en": "nudge",
+    "th": "ดุน"
+  },
+  {
+    "en": "engage",
+    "th": "หมั้น"
+  },
+  {
+    "en": "flaky",
+    "th": "เปราะบาง"
+  },
+  {
+    "en": "Upside",
+    "th": "ข้อดี"
+  },
+  {
+    "en": "impersonate",
+    "th": "ปลอมตัว"
+  },
+  {
+    "en": "completions",
+    "th": "การเสร็จสิ้น"
+  },
+  {
+    "en": "snag",
+    "th": "เกี่ยว"
+  },
+  {
+    "en": "compliments.",
+    "th": "คำชมเชย"
+  },
+  {
+    "en": "relevance",
+    "th": "ความเกี่ยวข้อง"
+  },
+  {
+    "en": "diagnose",
+    "th": "วินิจฉัย"
+  },
+  {
+    "en": "วินิจฉัย",
+    "th": "diagnose"
+  },
+  {
+    "en": "explosion errors",
+    "th": "ข้อผิดพลาดในการระเบิด"
+  },
+  {
+    "en": "excess",
+    "th": "ส่วนเกิน"
+  },
+  {
+    "en": "susceptible",
+    "th": "อ่อนไหว"
+  },
+  {
+    "en": "enable",
+    "th": "เปิดใช้งาน"
+  },
+  {
+    "en": "anomalies",
+    "th": "ความผิดปกติ"
+  },
+  {
+    "en": "inssist",
+    "th": "ยืนยัน"
+  },
+  {
+    "en": "weird",
+    "th": "แปลก"
+  },
+  {
+    "en": "refinement",
+    "th": "การปรับปรุง"
+  },
+  {
+    "en": "instability",
+    "th": "ความไม่เสถียร"
+  },
+  {
+    "en": "synthesize",
+    "th": "สังเคราะห์"
+  },
+  {
+    "en": "Eurovision",
+    "th": "ยูโรวิชั่น"
+  },
+  {
+    "en": "opinion",
+    "th": "ความคิดเห็น"
+  },
+  {
+    "en": "cases",
+    "th": "กรณี"
+  },
+  {
+    "en": "steer",
+    "th": "คัดท้าย"
+  },
+  {
+    "en": "infers",
+    "th": "อนุมานได้"
+  },
+  {
+    "en": "representative",
+    "th": "ตัวแทน"
+  },
+  {
+    "en": "endorsement",
+    "th": "การรับรอง"
+  },
+  {
+    "en": "endorsements",
+    "th": "การรับรอง"
+  },
+  {
+    "en": "nomination",
+    "th": "การเสนอชื่อ"
+  },
+  {
+    "en": "Democratic",
+    "th": "ประชาธิปไตย"
+  },
+  {
+    "en": "survive",
+    "th": "รอดชีวิต"
+  },
+  {
+    "en": "collaboration",
+    "th": "การทำงานร่วมกัน"
+  },
+  {
+    "en": "expedite",
+    "th": "เร่งรัด"
+  },
+  {
+    "en": "interventions",
+    "th": "การแทรกแซง"
+  },
+  {
+    "en": "unglamorous",
+    "th": "ไม่น่าดึงดูดใจ"
+  },
+  {
+    "en": "spaghetti",
+    "th": "สปาเก็ตตี้"
+  },
+  {
+    "en": "molting",
+    "th": "การลอกคราบ"
+  },
+  {
+    "en": "knob",
+    "th": "ปุ่ม"
+  },
+  {
+    "en": "Modalities",
+    "th": "รูปแบบต่างๆ"
+  },
+  {
+    "en": "reliance",
+    "th": "การพึ่งพา"
+  },
+  {
+    "en": "semantic",
+    "th": "ความหมาย"
+  },
+  {
+    "en": "consumption tax",
+    "th": "ภาษีการบริโภค"
+  },
+  {
+    "en": "sovereign",
+    "th": "พระมหากษัตริย์"
+  },
+  {
+    "en": "Volatility",
+    "th": "ความผันผวน"
+  },
+  {
+    "en": "chores",
+    "th": "งานบ้าน"
+  },
+  {
+    "en": "companionship",
+    "th": "มิตรภาพ"
+  },
+  {
+    "en": "scientific",
+    "th": "วิทยาศาสตร์"
+  },
+  {
+    "en": "linguistic",
+    "th": "ภาษาศาสตร์"
+  },
+  {
+    "en": "concurrency",
+    "th": "ความพร้อมกัน"
+  },
+  {
+    "en": "elephant",
+    "th": "ช้าง"
+  },
+  {
+    "en": "coherence",
+    "th": "ความสอดคล้อง"
+  },
+  {
+    "en": "rollout",
+    "th": "การเปิดตัว"
+  },
+  {
+    "en": "interests",
+    "th": "ความสนใจ"
+  },
+  {
+    "en": "Cite",
+    "th": "อ้างอิง"
+  },
+  {
+    "en": "perms",
+    "th": "ดัดผม"
+  },
+  {
+    "en": "nags",
+    "th": "บ่นพึมพำ"
+  },
+  {
+    "en": "comic",
+    "th": "การ์ตูน"
+  },
+  {
+    "en": "weirdly",
+    "th": "วิจิตรพิสดาร"
+  },
+  {
+    "en": "underlying",
+    "th": "พื้นฐาน"
+  },
+  {
+    "en": "respawn",
+    "th": "เกิดใหม่"
+  },
+  {
+    "en": "rogue",
+    "th": "โจร"
+  },
+  {
+    "en": "flawless",
+    "th": "ไร้ที่ติ"
+  },
+  {
+    "en": "harmless",
+    "th": "ไม่เป็นอันตราย"
+  },
+  {
+    "en": "housekeeping",
+    "th": "แม่บ้าน"
+  },
+  {
+    "en": "anomaly",
+    "th": "ความผิดปกติ"
+  },
+  {
+    "en": "funnel",
+    "th": "กรวย"
+  },
+  {
+    "en": "pinch",
+    "th": "หยิก"
+  },
+  {
+    "en": "Miscellaneous",
+    "th": "เบ็ดเตล็ด"
+  },
+  {
+    "en": "Intent",
+    "th": "เจตนา"
+  },
+  {
+    "en": "collide",
+    "th": "ชนกัน"
+  },
+  {
+    "en": "decline",
+    "th": "ปฏิเสธ"
+  },
+  {
+    "en": "eligible",
+    "th": "มีสิทธิ์"
+  },
+  {
+    "en": "sanctioned",
+    "th": "อนุมัติ"
+  },
+  {
+    "en": "extract",
+    "th": "สารสกัด"
+  },
+  {
+    "en": "generous",
+    "th": "ใจกว้าง"
+  },
+  {
+    "en": "compatible",
+    "th": "เข้ากันได้"
+  },
+  {
+    "en": "Spawn",
+    "th": "วางไข่"
+  },
+  {
+    "en": "boilerplate",
+    "th": "แม่แบบ"
+  },
+  {
+    "en": "affiliation",
+    "th": "สังกัด"
+  },
+  {
+    "en": "Disclosure",
+    "th": "การเปิดเผยข้อมูล"
+  },
+  {
+    "en": "decomposition",
+    "th": "การสลายตัว"
+  },
+  {
+    "en": "probe",
+    "th": "โพรบ"
+  },
+  {
+    "en": "reachability",
+    "th": "การเข้าถึง"
+  },
+  {
+    "en": "vague",
+    "th": "คลุมเครือ"
+  },
+  {
+    "en": "fire",
+    "th": "ไฟ"
+  },
+  {
+    "en": "momentarily",
+    "th": "ชั่วขณะหนึ่ง"
+  },
+  {
+    "en": "hypothesis",
+    "th": "สมมติฐาน"
+  },
+  {
+    "en": "catastrophic",
+    "th": "หายนะ"
+  },
+  {
+    "en": "congestion",
+    "th": "ความแออัด"
+  },
+  {
+    "en": "moderate",
+    "th": "ปานกลาง"
+  },
+  {
+    "en": "tenacious",
+    "th": "ดื้อรั้น"
+  },
+  {
+    "en": "Hazardous",
+    "th": "อันตราย"
+  },
+  {
+    "en": "rigorous",
+    "th": "เข้มงวด"
+  },
+  {
+    "en": "verbose",
+    "th": "วกวน"
+  },
+  {
+    "en": "ambient",
+    "th": "บรรยากาศ"
+  },
+  {
+    "en": "intriguing",
+    "th": "น่าสนใจ"
+  },
+  {
+    "en": "pertinent",
+    "th": "ที่เกี่ยวข้อง"
+  },
+  {
+    "en": "allergy",
+    "th": "ภูมิแพ้"
+  },
+  {
+    "en": "vigil",
+    "th": "การเฝ้าระวัง"
+  },
+  {
+    "en": "enthusiasm",
+    "th": "ความกระตือรือร้น"
+  },
+  {
+    "en": "repetition",
+    "th": "การทำซ้ำ"
+  },
+  {
+    "en": "Selective",
+    "th": "เลือกสรร"
+  },
+  {
+    "en": "Surgical",
+    "th": "ศัลยกรรม"
+  },
+  {
+    "en": "Ignition",
+    "th": "การจุดระเบิด"
+  },
+  {
+    "en": "whether",
+    "th": "ไม่ว่า"
+  },
+  {
+    "en": "bankrupt",
+    "th": "ล้มละลาย"
+  },
+  {
+    "en": "robust",
+    "th": "แข็งแกร่ง"
+  },
+  {
+    "en": "streamline",
+    "th": "ปรับปรุงให้คล่องตัว"
+  },
+  {
+    "en": "breadth",
+    "th": "ความกว้าง"
+  },
+  {
+    "en": "absorb",
+    "th": "ดูดซับ"
+  },
+  {
+    "en": "guilt",
+    "th": "ความรู้สึกผิด"
+  },
+  {
+    "en": "twist",
+    "th": "บิด"
+  },
+  {
+    "en": "intercept",
+    "th": "สกัดกั้น"
+  },
+  {
+    "en": "Contrary",
+    "th": "ตรงกันข้าม"
+  },
+  {
+    "en": "kit",
+    "th": "ชุด"
+  },
+  {
+    "en": "chew",
+    "th": "เคี้ยว"
+  },
+  {
+    "en": "wellbeing",
+    "th": "ความเป็นอยู่ที่ดี"
+  },
+  {
+    "en": "shuffle",
+    "th": "สับเปลี่ยน"
+  },
+  {
+    "en": "intense",
+    "th": "เข้มข้น"
+  },
+  {
+    "en": "codify",
+    "th": "ประมวล"
+  },
+  {
+    "en": "lutely",
+    "th": "ลูทลี่"
+  },
+  {
+    "en": "apocalypse",
+    "th": "วันสิ้นโลก"
+  },
+  {
+    "en": "Quantitative",
+    "th": "เชิงปริมาณ"
+  },
+  {
+    "en": "brain",
+    "th": "สมอง"
+  },
+  {
+    "en": "orchestrator",
+    "th": "ผู้ประสานงาน"
+  },
+  {
+    "en": "evaluator",
+    "th": "ผู้ประเมิน"
+  },
+  {
+    "en": "intricate",
+    "th": "ซับซ้อน"
+  },
+  {
+    "en": "deterministic",
+    "th": "กำหนดได้แน่นอน"
+  },
+  {
+    "en": "perceive",
+    "th": "รับรู้"
+  },
+  {
+    "en": "verifiable",
+    "th": "ตรวจสอบได้"
+  },
+  {
+    "en": "vault",
+    "th": "ห้องนิรภัย"
+  },
+  {
+    "en": "compose",
+    "th": "แต่ง"
+  },
+  {
+    "en": "explain",
+    "th": "อธิบาย"
+  },
+  {
+    "en": "bump",
+    "th": "กระแทก"
+  },
+  {
+    "en": "generic",
+    "th": "ทั่วไป"
+  },
+  {
+    "en": "colleague",
+    "th": "เพื่อนร่วมงาน"
+  },
+  {
+    "en": "Syphony",
+    "th": "ซิมโฟนี"
+  },
+  {
+    "en": "coach",
+    "th": "โค้ช"
+  },
+  {
+    "en": "magnifying",
+    "th": "แว่นขยาย"
+  },
+  {
+    "en": "agnostic",
+    "th": "ไม่เชื่อเรื่องพระเจ้า"
+  },
+  {
+    "en": "decayed",
+    "th": "ผุพัง"
+  },
+  {
+    "en": "blindly",
+    "th": "สุ่มสี่สุ่มห้า"
+  },
+  {
+    "en": "observation",
+    "th": "การสังเกต"
+  },
+  {
+    "en": "Demotion",
+    "th": "ลดตำแหน่ง"
+  },
+  {
+    "en": "Reflection",
+    "th": "การสะท้อนความคิด"
+  },
+  {
+    "en": "Incorporating",
+    "th": "การรวมเข้าด้วยกัน"
+  },
+  {
+    "en": "sacrifice",
+    "th": "เสียสละ"
+  },
+  {
+    "en": "retain",
+    "th": "เก็บรักษา"
+  },
+  {
+    "en": "contradiction",
+    "th": "ความขัดแย้ง"
+  },
+  {
+    "en": "synthesis",
+    "th": "สังเคราะห์"
+  },
+  {
+    "en": "synthesizing",
+    "th": "การสังเคราะห์"
+  },
+  {
+    "en": "transparency",
+    "th": "ความโปร่งใส"
+  },
+  {
+    "en": "culprit",
+    "th": "ผู้ร้าย"
+  },
+  {
+    "en": "diagnostics",
+    "th": "การวินิจฉัย"
+  },
+  {
+    "en": "ally",
+    "th": "พันธมิตร"
+  },
+  {
+    "en": "telepathic",
+    "th": "โทรจิต"
+  },
+  {
+    "en": "immigrant",
+    "th": "ผู้อพยพ"
+  },
+  {
+    "en": "periodic",
+    "th": "เป็นระยะ"
+  },
+  {
+    "en": "readiness",
+    "th": "ความพร้อม"
+  },
+  {
+    "en": "Advertisement",
+    "th": "โฆษณา"
+  },
+  {
+    "en": "superficial",
+    "th": "ผิวเผิน"
+  },
+  {
+    "en": "nonchalantly",
+    "th": "อย่างไม่ใส่ใจ"
+  },
+  {
+    "en": "exact",
+    "th": "ที่แน่นอน"
+  },
+  {
+    "en": "pivotal",
+    "th": "จุดสำคัญ"
+  },
+  {
+    "en": "equivalent",
+    "th": "เทียบเท่า"
+  },
+  {
+    "en": "wire",
+    "th": "ลวด"
+  },
+  {
+    "en": "compounding",
+    "th": "การผสม"
+  },
+  {
+    "en": "reinforcement",
+    "th": "การเสริมแรง"
+  },
+  {
+    "en": "explicitly",
+    "th": "อย่างชัดเจน"
+  },
+  {
+    "en": "linger",
+    "th": "ยังคงอยู่"
+  },
+  {
+    "en": "lingering",
+    "th": "ยังคงอยู่"
+  },
+  {
+    "en": "legal",
+    "th": "ถูกกฎหมาย"
+  },
+  {
+    "en": "deprecate",
+    "th": "เลิกใช้แล้ว"
+  },
+  {
+    "en": "shortfall",
+    "th": "การขาดแคลน"
+  },
+  {
+    "en": "brace",
+    "th": "ตัวยึด"
+  },
+  {
+    "en": "awry",
+    "th": "ผิดปกติ"
+  },
+  {
+    "en": "guardrail",
+    "th": "ราวกั้น"
+  },
+  {
+    "en": "proper",
+    "th": "เหมาะสม"
+  },
+  {
+    "en": "caveat",
+    "th": "ข้อควรระวัง"
+  },
+  {
+    "en": "coverage",
+    "th": "ความคุ้มครอง"
+  },
+  {
+    "en": "lags",
+    "th": "ความล่าช้า"
+  },
+  {
+    "en": "valid",
+    "th": "ถูกต้อง"
+  },
+  {
+    "en": "Tailor",
+    "th": "ช่างตัดเสื้อ"
+  },
+  {
+    "en": "forfeited",
+    "th": "ริบ"
+  },
+  {
+    "en": "eligibility",
+    "th": "คุณสมบัติ"
+  },
+  {
+    "en": "guidelines",
+    "th": "แนวทางปฏิบัติ"
+  },
+  {
+    "en": "repeatable",
+    "th": "ทำซ้ำได้"
+  },
+  {
+    "en": "tight",
+    "th": "แน่น"
+  },
+  {
+    "en": "inspect",
+    "th": "ตรวจสอบ"
+  },
+  {
+    "en": "repetitive",
+    "th": "ซ้ำ"
+  },
+  {
+    "en": "tribal",
+    "th": "ชนเผ่า"
+  },
+  {
+    "en": "sane",
+    "th": "สติสัมปชัญญะ"
+  },
+  {
+    "en": "fanciest",
+    "th": "หรูหราที่สุด"
+  },
+  {
+    "en": "contain",
+    "th": "บรรจุ"
+  },
+  {
+    "en": "flashiest",
+    "th": "ฉูดฉาดที่สุด"
+  },
+  {
+    "en": "recover",
+    "th": "ฟื้นตัว"
+  },
+  {
+    "en": "auditable",
+    "th": "ตรวจสอบได้"
+  },
+  {
+    "en": "narrow",
+    "th": "แคบ"
+  },
+  {
+    "en": "garnish",
+    "th": "เครื่องตกแต่ง"
+  },
+  {
+    "en": "guidance",
+    "th": "คำแนะนำ"
+  },
+  {
+    "en": "optimal",
+    "th": "เหมาะสมที่สุด"
+  },
+  {
+    "en": "widely",
+    "th": "อย่างกว้างขวาง"
+  },
+  {
+    "en": "widely known",
+    "th": "เป็นที่รู้จักกันอย่างแพร่หลาย"
+  },
+  {
+    "en": "Contrarian",
+    "th": "ผู้ต่อต้าน"
+  },
+  {
+    "en": "openly",
+    "th": "เปิดเผย"
+  },
+  {
+    "en": "poach",
+    "th": "ลักลอบล่าสัตว์"
+  },
+  {
+    "en": "potentially",
+    "th": "อาจเป็นไปได้"
+  },
+  {
+    "en": "prep",
+    "th": "การเตรียมการ"
+  },
+  {
+    "en": "saturation",
+    "th": "ความอิ่มตัว"
+  },
+  {
+    "en": "diminish",
+    "th": "ลดลง"
+  },
+  {
+    "en": "investor",
+    "th": "นักลงทุน"
+  },
+  {
+    "en": "engagement",
+    "th": "การว่าจ้าง"
+  },
+  {
+    "en": "hypertension",
+    "th": "ความดันโลหิตสูง"
+  },
+  {
+    "en": "Outline",
+    "th": "โครงร่าง"
+  },
+  {
+    "en": "precedent",
+    "th": "แบบอย่าง"
+  },
+  {
+    "en": "sage",
+    "th": "นักปราชญ์"
+  },
+  {
+    "en": "chamber",
+    "th": "ห้อง"
+  },
+  {
+    "en": "cast",
+    "th": "หล่อ"
+  },
+  {
+    "en": "extraordinary",
+    "th": "พิเศษ"
+  },
+  {
+    "en": "invasion",
+    "th": "การรุกราน"
+  },
+  {
+    "en": "restoration",
+    "th": "การบูรณะ"
+  },
+  {
+    "en": "bestiary",
+    "th": "สัตว์ประหลาด"
+  },
+  {
+    "en": "density",
+    "th": "ความหนาแน่น"
+  },
+  {
+    "en": "applicable",
+    "th": "ใช้ได้"
+  },
+  {
+    "en": "overblown",
+    "th": "เกินจริงไปหน่อย"
+  },
+  {
+    "en": "Fewer",
+    "th": "น้อยลง"
+  },
+  {
+    "en": "descriptive",
+    "th": "เชิงพรรณนา"
+  },
+  {
+    "en": "slugification",
+    "th": "การทำให้เป็นสลัก"
+  },
+  {
+    "en": "flooding",
+    "th": "น้ำท่วม"
+  },
+  {
+    "en": "annihilate",
+    "th": "ทำลาย"
+  },
+  {
+    "en": "immensely",
+    "th": "อย่างมหาศาล"
+  },
+  {
+    "en": "notation",
+    "th": "สัญกรณ์"
+  },
+  {
+    "en": "sycophancy",
+    "th": "การประจบสอพลอ"
+  },
+  {
+    "en": "arbitrarily",
+    "th": "โดยพลการ"
+  },
+  {
+    "en": "injunction",
+    "th": "คำสั่งห้าม"
+  },
+  {
+    "en": "judge",
+    "th": "ผู้พิพากษา"
+  },
+  {
+    "en": "journalism",
+    "th": "วารสารศาสตร์"
+  },
+  {
+    "en": "resurface",
+    "th": "พื้นผิวใหม่"
+  },
+  {
+    "en": "ingest",
+    "th": "กลืน"
+  },
+  {
+    "en": "flip",
+    "th": "พลิก"
+  },
+  {
+    "en": "shift",
+    "th": "กะ"
+  },
+  {
+    "en": "shifte",
+    "th": "เลื่อน"
+  },
+  {
+    "en": "stakeholder",
+    "th": "ผู้มีส่วนได้ส่วนเสีย"
+  },
+  {
+    "en": "beat",
+    "th": "ตี"
+  },
+  {
+    "en": "cull",
+    "th": "กำจัด"
+  },
+  {
+    "en": "hord",
+    "th": "ฝูง"
+  },
+  {
+    "en": "spirit",
+    "th": "วิญญาณ"
+  },
+  {
+    "en": "reunite",
+    "th": "กลับมาพบกันอีกครั้ง"
+  },
+  {
+    "en": "fellow",
+    "th": "เพื่อน"
+  },
+  {
+    "en": "slope",
+    "th": "ความลาดชัน"
+  },
+  {
+    "en": "sterile",
+    "th": "ปลอดเชื้อ"
+  },
+  {
+    "en": "problematic",
+    "th": "ปัญหา"
+  },
+  {
+    "en": "forecast",
+    "th": "พยากรณ์"
+  },
+  {
+    "en": "forecasts",
+    "th": "การพยากรณ์"
+  },
+  {
+    "en": "poisone",
+    "th": "พิษ"
+  },
+  {
+    "en": "hype",
+    "th": "กระแสความนิยม"
+  },
+  {
+    "en": "liability",
+    "th": "ความรับผิด"
+  },
+  {
+    "en": "niche",
+    "th": "ซอก"
+  },
+  {
+    "en": "accountability",
+    "th": "ความรับผิดชอบ"
+  },
+  {
+    "en": "slip",
+    "th": "ลื่น"
+  },
+  {
+    "en": "cumulative",
+    "th": "สะสม"
+  },
+  {
+    "en": "deciphering",
+    "th": "การถอดรหัส"
+  },
+  {
+    "en": "mustering",
+    "th": "การรวมพล"
+  },
+  {
+    "en": "harsh",
+    "th": "รุนแรง"
+  },
+  {
+    "en": "accountablilt",
+    "th": "รับผิดชอบ"
+  },
+  {
+    "en": "consolidated",
+    "th": "รวม"
+  },
+  {
+    "en": "venue",
+    "th": "สถานที่จัดงาน"
+  },
+  {
+    "en": "distraction",
+    "th": "สิ่งรบกวน"
+  },
+  {
+    "en": "clobber",
+    "th": "ทุบ"
+  },
+  {
+    "en": "churning",
+    "th": "การกวน"
+  },
+  {
+    "en": "musing",
+    "th": "ครุ่นคิด"
+  },
+  {
+    "en": "steroid",
+    "th": "สเตียรอยด์"
+  },
+  {
+    "en": "pitch",
+    "th": "ขว้าง"
+  },
+  {
+    "en": "thread",
+    "th": "ด้าย"
+  },
+  {
+    "en": "aggressive",
+    "th": "ก้าวร้าว"
+  },
+  {
+    "en": "Persist",
+    "th": "ยืนหยัด"
+  },
+  {
+    "en": "Compliance",
+    "th": "การปฏิบัติตามกฎระเบียบ"
+  },
+  {
+    "en": "jurisdictional",
+    "th": "เขตอำนาจศาล"
+  },
+  {
+    "en": "Explosive",
+    "th": "วัตถุระเบิด"
+  },
+  {
+    "en": "labor",
+    "th": "แรงงาน"
+  },
+  {
+    "en": "valuation",
+    "th": "การประเมินมูลค่า"
+  },
+  {
+    "en": "crisis",
+    "th": "วิกฤติ"
+  },
+  {
+    "en": "avert",
+    "th": "หลีกเลี่ยง"
+  },
+  {
+    "en": "stale",
+    "th": "เก่าแล้ว"
+  },
+  {
+    "en": "consolidate",
+    "th": "รวมเข้าด้วยกัน"
+  },
+  {
+    "en": "degradation",
+    "th": "การเสื่อมสภาพ"
+  },
+  {
+    "en": "Graceful",
+    "th": "สง่างาม"
+  },
+  {
+    "en": "Resilient",
+    "th": "ยืดหยุ่น"
+  },
+  {
+    "en": "compound",
+    "th": "สารประกอบ"
+  },
+  {
+    "en": "friction",
+    "th": "แรงเสียดทาน"
+  },
+  {
+    "en": "Spike",
+    "th": "สไปค์"
+  },
+  {
+    "en": "unreliable",
+    "th": "ไม่น่าเชื่อถือ"
+  },
+  {
+    "en": "paradigm",
+    "th": "กระบวนทัศน์"
+  },
+  {
+    "en": "implication",
+    "th": "นัยยะ"
+  },
+  {
+    "en": "imprication",
+    "th": "การจำคุก"
+  },
+  {
+    "en": "chaotic",
+    "th": "วุ่นวาย"
+  },
+  {
+    "en": "expansions",
+    "th": "การขยายตัว"
+  },
+  {
+    "en": "spun",
+    "th": "หมุน"
+  },
+  {
+    "en": "treating",
+    "th": "การรักษา"
+  },
+  {
+    "en": "bootlicking",
+    "th": "การประจบสอพลอ"
+  },
+  {
+    "en": "wild",
+    "th": "ป่า"
+  },
+  {
+    "en": "maturity",
+    "th": "วุฒิภาวะ"
+  },
+  {
+    "en": "tension",
+    "th": "ความเครียด"
+  },
+  {
+    "en": "senior",
+    "th": "อาวุโส"
+  },
+  {
+    "en": "breather",
+    "th": "ลมหายใจ"
+  },
+  {
+    "en": "Eliminate",
+    "th": "กำจัด"
+  },
+  {
+    "en": "reorganize",
+    "th": "จัดระเบียบใหม่"
+  },
+  {
+    "en": "cognitive",
+    "th": "ความรู้ความเข้าใจ"
+  },
+  {
+    "en": "consolidation",
+    "th": "การรวมกิจการ"
+  },
+  {
+    "en": "Suck",
+    "th": "ดูด"
+  },
+  {
+    "en": "bias",
+    "th": "อคติ"
+  },
+  {
+    "en": "emerge",
+    "th": "เกิดขึ้น"
+  },
+  {
+    "en": "Reliability",
+    "th": "ความน่าเชื่อถือ"
+  },
+  {
+    "en": "overflow",
+    "th": "ล้น"
+  },
+  {
+    "en": "complacent",
+    "th": "พึงพอใจ"
+  },
+  {
+    "en": "grading",
+    "th": "การให้คะแนน"
+  },
+  {
+    "en": "hedging",
+    "th": "การป้องกันความเสี่ยง"
+  },
+  {
+    "en": "redundantly",
+    "th": "ซ้ำซ้อน"
+  },
+  {
+    "en": "exfiltration",
+    "th": "การแทรกซึม"
+  },
+  {
+    "en": "aspects",
+    "th": "แง่มุม"
+  },
+  {
+    "en": "exfiltrate",
+    "th": "สกัดออก"
+  },
+  {
+    "en": "sophisticated",
+    "th": "ช่ำชอง"
+  },
+  {
+    "en": "shelve",
+    "th": "ดอง"
+  },
+  {
+    "en": "realize",
+    "th": "ตระหนัก"
+  },
+  {
+    "en": "obstacles",
+    "th": "อุปสรรค"
+  },
+  {
+    "en": "Quantization",
+    "th": "การหาปริมาณ"
+  },
+  {
+    "en": "truncation",
+    "th": "การตัดทอน"
+  },
+  {
+    "en": "Redundant",
+    "th": "ซ้ำซ้อน"
+  },
+  {
+    "en": "cosmetic",
+    "th": "เครื่องสำอาง"
+  },
+  {
+    "en": "simplify",
+    "th": "ทำให้ง่ายขึ้น"
+  },
+  {
+    "en": "embarrass",
+    "th": "น่าอับอาย"
+  },
+  {
+    "en": "enterprise",
+    "th": "องค์กร"
+  },
+  {
+    "en": "traction",
+    "th": "แรงดึง"
+  },
+  {
+    "en": "curation",
+    "th": "การคัดสรร"
+  },
+  {
+    "en": "slop",
+    "th": "น้ำหยด"
+  },
+  {
+    "en": "initiative",
+    "th": "ความคิดริเริ่ม"
+  },
+  {
+    "en": "barrier",
+    "th": "สิ่งกีดขวาง"
+  },
+  {
+    "en": "explode",
+    "th": "ระเบิด"
+  },
+  {
+    "en": "experimental",
+    "th": "การทดลอง"
+  },
+  {
+    "en": "policy",
+    "th": "นโยบาย"
+  },
+  {
+    "en": "Forge",
+    "th": "ปลอม"
+  },
+  {
+    "en": "proprietary",
+    "th": "กรรมสิทธิ์"
+  },
+  {
+    "en": "orphan",
+    "th": "เด็กกำพร้า"
+  },
+  {
+    "en": "Justify",
+    "th": "พิสูจน์"
+  },
+  {
+    "en": "Incorporate",
+    "th": "รวมเข้าด้วยกัน"
+  },
+  {
+    "en": "Genuine",
+    "th": "แท้จริง"
+  },
+  {
+    "en": "irregularly",
+    "th": "ไม่สม่ำเสมอ"
+  },
+  {
+    "en": "Fluctuate",
+    "th": "ผันผวน"
+  },
+  {
+    "en": "Intensify",
+    "th": "กระชับ"
+  },
+  {
+    "en": "ascertain",
+    "th": "ตรวจสอบ"
+  },
+  {
+    "en": "Differentiate",
+    "th": "แยกแยะ"
+  },
+  {
+    "en": "Decisive",
+    "th": "เด็ดขาด"
+  },
+  {
+    "en": "Crucial",
+    "th": "สำคัญ"
+  },
+  {
+    "en": "advantageous",
+    "th": "เป็นประโยชน์"
+  },
+  {
+    "en": "Favorable",
+    "th": "เอื้ออำนวย"
+  },
+  {
+    "en": "digest",
+    "th": "ย่อ"
+  },
+  {
+    "en": "viable",
+    "th": "เป็นไปได้"
+  },
+  {
+    "en": "tolerance",
+    "th": "ความอดทน"
+  },
+  {
+    "en": "consensus",
+    "th": "ฉันทามติ"
+  },
+  {
+    "en": "frontier",
+    "th": "พรมแดน"
+  },
+  {
+    "en": "squarely",
+    "th": "ตรงเป๊ะ"
+  },
+  {
+    "en": "arbitrary",
+    "th": "โดยพลการ"
+  },
+  {
+    "en": "dubs",
+    "th": "พากย์เสียง"
+  },
+  {
+    "en": "gist",
+    "th": "สาระสำคัญ"
+  },
+  {
+    "en": "preach",
+    "th": "สั่งสอน"
+  },
+  {
+    "en": "accountable",
+    "th": "รับผิดชอบ"
+  },
+  {
+    "en": "capital",
+    "th": "เมืองหลวง"
+  },
+  {
+    "en": "emphasis",
+    "th": "เน้น"
+  },
+  {
+    "en": "Vend",
+    "th": "ผู้ขาย"
+  },
+  {
+    "en": "belove",
+    "th": "ที่รัก"
+  },
+  {
+    "en": "nostalgic",
+    "th": "ความคิดถึง"
+  },
+  {
+    "en": "disease",
+    "th": "โรค"
+  },
+  {
+    "en": "fascinating",
+    "th": "น่าหลงใหล"
+  },
+  {
+    "en": "cannabinoids",
+    "th": "สารแคนนาบินอยด์"
+  },
+  {
+    "en": "guardrails",
+    "th": "ราวกั้น"
+  },
+  {
+    "en": "coherent",
+    "th": "สอดคล้องกัน"
+  },
+  {
+    "en": "cadence",
+    "th": "จังหวะ"
+  },
+  {
+    "en": "triage",
+    "th": "การคัดกรอง"
+  },
+  {
+    "en": "vulnerability",
+    "th": "ช่องโหว่"
+  },
+  {
+    "en": "vulnerabilitie",
+    "th": "ช่องโหว่"
+  },
+  {
+    "en": "telemetry",
+    "th": "ระบบส่งข้อมูลทางไกล"
+  },
+  {
+    "en": "hypotheses",
+    "th": "สมมติฐาน"
+  },
+  {
+    "en": "tackle",
+    "th": "เข้าปะทะ"
+  },
+  {
+    "en": "sluggish",
+    "th": "เฉื่อยชา"
+  },
+  {
+    "en": "Instrumentation",
+    "th": "เครื่องมือวัด"
+  },
+  {
+    "en": "streamlined",
+    "th": "คล่องตัว"
+  },
+  {
+    "en": "decent",
+    "th": "เหมาะสม"
+  },
+  {
+    "en": "trustworthy",
+    "th": "น่าเชื่อถือ"
+  },
+  {
+    "en": "glitch",
+    "th": "ความผิดพลาด"
+  },
+  {
+    "en": "enforce",
+    "th": "บังคับใช้"
+  },
+  {
+    "en": "glitches",
+    "th": "ข้อผิดพลาด"
+  },
+  {
+    "en": "unintended",
+    "th": "ไม่ได้ตั้งใจ"
+  },
+  {
+    "en": "frustrating",
+    "th": "น่าหงุดหงิด"
+  },
+  {
+    "en": "vastly",
+    "th": "อย่างมาก"
+  },
+  {
+    "en": "hydrate",
+    "th": "ไฮเดรต"
+  },
+  {
+    "en": "pale",
+    "th": "ซีด"
+  },
+  {
+    "en": "Verdict",
+    "th": "คำตัดสิน"
+  },
+  {
+    "en": "confession",
+    "th": "คำสารภาพ"
+  },
+  {
+    "en": "departure",
+    "th": "การออกเดินทาง"
+  },
+  {
+    "en": "invent",
+    "th": "ประดิษฐ์"
+  },
+  {
+    "en": "abuse",
+    "th": "ใช้ในทางที่ผิด"
+  },
+  {
+    "en": "bright",
+    "th": "สว่าง"
+  },
+  {
+    "en": "mislead",
+    "th": "ทำให้เข้าใจผิด"
+  },
+  {
+    "en": "misleading",
+    "th": "ทำให้เข้าใจผิด"
+  },
+  {
+    "en": "typo",
+    "th": "พิมพ์ผิด"
+  },
+  {
+    "en": "underneath",
+    "th": "ข้างใต้"
+  },
+  {
+    "en": "piles",
+    "th": "กอง"
+  },
+  {
+    "en": "disabilities",
+    "th": "ความพิการ"
+  },
+  {
+    "en": "usefulness",
+    "th": "ประโยชน์"
+  },
+  {
+    "en": "latency",
+    "th": "ความหน่วง"
+  },
+  {
+    "en": "stiff",
+    "th": "แข็ง"
+  },
+  {
+    "en": "inject",
+    "th": "ฉีด"
+  },
+  {
+    "en": "unify",
+    "th": "รวม"
+  },
+  {
+    "en": "unified",
+    "th": "รวม"
+  },
+  {
+    "en": "polish",
+    "th": "ขัด"
+  },
+  {
+    "en": "superior",
+    "th": "เหนือกว่า"
+  },
+  {
+    "en": "violence",
+    "th": "ความรุนแรง"
+  },
+  {
+    "en": "Clause",
+    "th": "มาตรา"
+  },
+  {
+    "en": "carjacking",
+    "th": "การปล้นรถ"
+  },
+  {
+    "en": "puke",
+    "th": "อ้วก"
+  },
+  {
+    "en": "extinguisher",
+    "th": "เครื่องดับเพลิง"
+  },
+  {
+    "en": "funnily",
+    "th": "ขัน"
+  },
+  {
+    "en": "visually",
+    "th": "มองเห็นได้"
+  },
+  {
+    "en": "drastically",
+    "th": "อย่างมาก"
+  },
+  {
+    "en": "indiscriminately",
+    "th": "โดยไม่เลือกปฏิบัติ"
+  },
+  {
+    "en": "bottleneck",
+    "th": "คอขวด"
+  },
+  {
+    "en": "opaque",
+    "th": "ทึบแสง"
+  },
+  {
+    "en": "flickering",
+    "th": "กระพริบ"
+  },
+  {
+    "en": "elderly",
+    "th": "ผู้สูงอายุ"
+  },
+  {
+    "en": "savage",
+    "th": "ป่าเถื่อน"
+  },
+  {
+    "en": "arithmetic",
+    "th": "เลขคณิต"
+  },
+  {
+    "en": "depletion",
+    "th": "การหมดไป"
+  },
+  {
+    "en": "derive",
+    "th": "ได้มา"
+  },
+  {
+    "en": "fleet",
+    "th": "กองเรือ"
+  },
+  {
+    "en": "philosophy",
+    "th": "ปรัชญา"
+  },
+  {
+    "en": "spare",
+    "th": "สำรอง"
+  },
+  {
+    "en": "insight",
+    "th": "ข้อมูลเชิงลึก"
+  },
+  {
+    "en": "grind",
+    "th": "บด"
+  },
+  {
+    "en": "eminence",
+    "th": "ความโดดเด่น"
+  },
+  {
+    "en": "therapist",
+    "th": "นักบำบัด"
+  },
+  {
+    "en": "deputy",
+    "th": "รอง"
+  },
+  {
+    "en": "negotiation",
+    "th": "การเจรจา"
+  },
+  {
+    "en": "reduction",
+    "th": "การลดน้อยลง"
+  },
+  {
+    "en": "hone",
+    "th": "เหลา"
+  },
+  {
+    "en": "grit",
+    "th": "ขบ"
+  },
+  {
+    "en": "hapless",
+    "th": "โชคร้าย"
+  },
+  {
+    "en": "quintessential",
+    "th": "แก่นแท้"
+  },
+  {
+    "en": "embody",
+    "th": "รวบรวม"
+  },
+  {
+    "en": "opacity",
+    "th": "ความทึบแสง"
+  },
+  {
+    "en": "retract",
+    "th": "ถอน"
+  },
+  {
+    "en": "cicarette",
+    "th": "บุหรี่"
+  },
+  {
+    "en": "solely",
+    "th": "เพียงอย่างเดียว"
+  },
+  {
+    "en": "astute",
+    "th": "ฉลาดหลักแหลม"
+  },
+  {
+    "en": "employer",
+    "th": "นายจ้าง"
+  },
+  {
+    "en": "broom",
+    "th": "ไม้กวาด"
+  },
+  {
+    "en": "dread",
+    "th": "กลัว"
+  },
+  {
+    "en": "race",
+    "th": "แข่ง"
+  },
+  {
+    "en": "threaten",
+    "th": "ข่มขู่"
+  },
+  {
+    "en": "gluten",
+    "th": "ตัง"
+  },
+  {
+    "en": "Britain",
+    "th": "สหราชอาณาจักร"
+  },
+  {
+    "en": "improvise",
+    "th": "การด้นสด"
+  },
+  {
+    "en": "pile",
+    "th": "กอง"
+  },
+  {
+    "en": "criticized",
+    "th": "ถูกวิพากษ์วิจารณ์"
+  },
+  {
+    "en": "legitimately",
+    "th": "อย่างถูกต้องตามกฎหมาย"
+  },
+  {
+    "en": "fortunately",
+    "th": "fortunately"
+  },
+  {
+    "en": "sufficient",
+    "th": "เพียงพอ"
+  },
+  {
+    "en": "digitizing",
+    "th": "การแปลงเป็นดิจิทัล"
+  },
+  {
+    "en": "ellipsis",
+    "th": "จุดไข่ปลา"
+  },
+  {
+    "en": "enlightened",
+    "th": "ผู้รู้แจ้ง"
+  },
+  {
+    "en": "poverty",
+    "th": "ความยากจน"
+  },
+  {
+    "en": "fragile",
+    "th": "บอบบาง"
+  },
+  {
+    "en": "concrete",
+    "th": "คอนกรีต"
+  },
+  {
+    "en": "purposely",
+    "th": "จงใจ"
+  },
+  {
+    "en": "geek",
+    "th": "เนิร์ด"
+  },
+  {
+    "en": "diverge",
+    "th": "แตกต่างกัน"
+  },
+  {
+    "en": "trivial",
+    "th": "เรื่องเล็กน้อย"
+  },
+  {
+    "en": "preliminary",
+    "th": "เบื้องต้น"
+  },
+  {
+    "en": "reinvent",
+    "th": "คิดค้นใหม่"
+  },
+  {
+    "en": "scenery",
+    "th": "ทิวทัศน์"
+  },
+  {
+    "en": "malicious",
+    "th": "มุ่งร้าย"
+  },
+  {
+    "en": "Receipt",
+    "th": "ใบเสร็จ"
+  },
+  {
+    "en": "surrogate",
+    "th": "ตัวแทน"
+  },
+  {
+    "en": "Insufficient",
+    "th": "ไม่เพียงพอ"
+  },
+  {
+    "en": "stage",
+    "th": "เวที"
+  },
+  {
+    "en": "inadvertently",
+    "th": "โดยไม่ตั้งใจ"
+  },
+  {
+    "en": "negligible",
+    "th": "เล็กน้อย"
+  },
+  {
+    "en": "beverage",
+    "th": "เครื่องดื่ม"
+  },
+  {
+    "en": "occupy",
+    "th": "ครอบครอง"
+  },
+  {
+    "en": "auxiliary",
+    "th": "เสริม"
+  },
+  {
+    "en": "Despite",
+    "th": "ถึงอย่างไรก็ตาม"
+  },
+  {
+    "en": "tiresome",
+    "th": "น่าเบื่อ"
+  },
+  {
+    "en": "variant",
+    "th": "ตัวแปร"
+  },
+  {
+    "en": "obsolete",
+    "th": "ล้าสมัย"
+  },
+  {
+    "en": "resolver",
+    "th": "ตัวแก้ปัญหา"
+  },
+  {
+    "en": "seriously",
+    "th": "อย่างจริงจัง"
+  },
+  {
+    "en": "propagate",
+    "th": "เผยแพร่"
+  },
+  {
+    "en": "against",
+    "th": "ขัดต่อ"
+  },
+  {
+    "en": "benchmarks",
+    "th": "เกณฑ์มาตรฐาน"
+  },
+  {
+    "en": "acronym",
+    "th": "คำย่อ"
+  },
+  {
+    "en": "Glossary",
+    "th": "คำศัพท์"
+  },
+  {
+    "en": "abbreviated",
+    "th": "ย่อ"
+  },
+  {
+    "en": "Appendix",
+    "th": "ภาคผนวก"
+  },
+  {
+    "en": "rotation",
+    "th": "การหมุน"
+  },
+  {
+    "en": "industrial",
+    "th": "ทางอุตสาหกรรม"
+  },
+  {
+    "en": "concurrent",
+    "th": "พร้อมกัน"
+  },
+  {
+    "en": "correspond",
+    "th": "สอดคล้องกัน"
+  },
+  {
+    "en": "chest",
+    "th": "หน้าอก"
+  },
+  {
+    "en": "adherence",
+    "th": "การยึดมั่น"
+  },
+  {
+    "en": "arguably",
+    "th": "เถียงกันได้"
+  },
+  {
+    "en": "Interoperability",
+    "th": "ความสามารถในการทำงานร่วมกัน"
+  },
+  {
+    "en": "prominent",
+    "th": "โดดเด่น"
+  },
+  {
+    "en": "nuance",
+    "th": "ความแตกต่างเล็กน้อย"
+  },
+  {
+    "en": "plague",
+    "th": "โรคระบาด"
+  },
+  {
+    "en": "setter",
+    "th": "ตัวเซ็ตเตอร์"
+  },
+  {
+    "en": "เกี่ยวข้อง",
+    "th": "relevant"
+  },
+  {
+    "en": "vulnerabilities",
+    "th": "ช่องโหว่"
+  },
+  {
+    "en": "cumbersome",
+    "th": "ยุ่งยาก"
+  },
+  {
+    "en": "constant",
+    "th": "คงที่"
+  },
+  {
+    "en": "encapsulate",
+    "th": "ห่อหุ้ม"
+  },
+  {
+    "en": "restriction",
+    "th": "ข้อจำกัด"
+  },
+  {
+    "en": "gotchas",
+    "th": "ข้อควรระวัง"
+  },
+  {
+    "en": "versatile",
+    "th": "อเนกประสงค์"
+  },
+  {
+    "en": "adhere",
+    "th": "ยึดติด"
+  },
+  {
+    "en": "castle",
+    "th": "ปราสาท"
+  },
+  {
+    "en": "apologize",
+    "th": "ขอโทษ"
+  },
+  {
+    "en": "apology",
+    "th": "คำขอโทษ"
+  },
+  {
+    "en": "faint",
+    "th": "เป็นลม"
+  },
+  {
+    "en": "wave",
+    "th": "คลื่น"
+  },
+  {
+    "en": "definitely",
+    "th": "อย่างแน่นอน"
+  },
+  {
+    "en": "expose",
+    "th": "เปิดเผย"
+  },
+  {
+    "en": "throwback",
+    "th": "ย้อนอดีต"
+  },
+  {
+    "en": "absence",
+    "th": "การขาดหายไป"
+  },
+  {
+    "en": "garbage",
+    "th": "ขยะ"
+  },
+  {
+    "en": "drastic",
+    "th": "รุนแรง"
+  },
+  {
+    "en": "soil",
+    "th": "ดิน"
+  },
+  {
+    "en": "dug",
+    "th": "ขุด"
+  },
+  {
+    "en": "shout",
+    "th": "ตะโกน"
+  },
+  {
+    "en": "imply",
+    "th": "บ่งบอก"
+  },
+  {
+    "en": "claims",
+    "th": "การเรียกร้อง"
+  },
+  {
+    "en": "mentor",
+    "th": "ที่ปรึกษา"
+  },
+  {
+    "en": "acres",
+    "th": "เอเคอร์"
+  },
+  {
+    "en": "crayon",
+    "th": "ดินสอสี"
+  },
+  {
+    "en": "cherish",
+    "th": "หวงแหน"
+  },
+  {
+    "en": "chore",
+    "th": "งานบ้าน"
+  },
+  {
+    "en": "distract",
+    "th": "กวนใจ"
+  },
+  {
+    "en": "inspire",
+    "th": "สร้างแรงบันดาลใจ"
+  },
+  {
+    "en": "compromise",
+    "th": "ประนีประนอม"
+  },
+  {
+    "en": "compromis",
+    "th": "การประนีประนอม"
+  },
+  {
+    "en": "sacred",
+    "th": "ศักดิ์สิทธิ์"
+  },
+  {
+    "en": "variation",
+    "th": "การเปลี่ยนแปลง"
+  },
+  {
+    "en": "thereafter",
+    "th": "หลังจากนั้น"
+  },
+  {
+    "en": "pipe",
+    "th": "ท่อ"
+  },
+  {
+    "en": "energetic",
+    "th": "กระฉับกระเฉง"
+  },
+  {
+    "en": "expenses",
+    "th": "ค่าใช้จ่าย"
+  },
+  {
+    "en": "inflation",
+    "th": "ภาวะเงินเฟ้อ"
+  },
+  {
+    "en": "explicit",
+    "th": "ชัดเจน"
+  },
+  {
+    "en": "extinction",
+    "th": "การสูญพันธุ์"
+  },
+  {
+    "en": "Irreplaceable",
+    "th": "ไม่สามารถทดแทนได้"
+  },
+  {
+    "en": "excellent",
+    "th": "ยอดเยี่ยม"
+  },
+  {
+    "en": "aesthetic",
+    "th": "เกี่ยวกับความงาม"
+  },
+  {
+    "en": "mentorship",
+    "th": "การให้คำปรึกษา"
+  },
+  {
+    "en": "marble",
+    "th": "หินอ่อน"
+  },
+  {
+    "en": "remiss",
+    "th": "บกพร่อง"
+  },
+  {
+    "en": "observe",
+    "th": "สังเกต"
+  },
+  {
+    "en": "anchor",
+    "th": "สมอ"
+  },
+  {
+    "en": "accompany",
+    "th": "ร่วมด้วย"
+  },
+  {
+    "en": "treasure",
+    "th": "สมบัติ"
+  },
+  {
+    "en": "elastic",
+    "th": "ยืดหยุ่น"
+  },
+  {
+    "en": "qualified",
+    "th": "มีคุณสมบัติ"
+  },
+  {
+    "en": "curated",
+    "th": "คัดสรร"
+  },
+  {
+    "en": "mindful",
+    "th": "มีสติ"
+  },
+  {
+    "en": "caution",
+    "th": "คำเตือน"
+  },
+  {
+    "en": "strike",
+    "th": "โจมตี"
+  },
+  {
+    "en": "vital",
+    "th": "สำคัญยิ่ง"
+  },
+  {
+    "en": "detract",
+    "th": "เบี่ยงเบน"
+  },
+  {
+    "en": "addiction",
+    "th": "การเสพติด"
+  },
+  {
+    "en": "excessive",
+    "th": "มากเกินไป"
+  },
+  {
+    "en": "misuse",
+    "th": "การใช้ในทางที่ผิด"
+  },
+  {
+    "en": "pitfall",
+    "th": "หลุมพราง"
+  },
+  {
+    "en": "facilitates",
+    "th": "อำนวยความสะดวก"
+  },
+  {
+    "en": "facility",
+    "th": "สิ่งอำนวยความสะดวก"
+  },
+  {
+    "en": "aspect",
+    "th": "ด้าน"
+  },
+  {
+    "en": "measure",
+    "th": "วัด"
+  },
+  {
+    "en": "countless",
+    "th": "นับไม่ถ้วน"
+  },
+  {
+    "en": "forbid",
+    "th": "ห้าม"
+  },
+  {
+    "en": "bucket",
+    "th": "ถัง"
+  },
+  {
+    "en": "influence",
+    "th": "อิทธิพล"
+  },
+  {
+    "en": "grain",
+    "th": "เมล็ดพืช"
+  },
+  {
+    "en": "noble",
+    "th": "ขุนนาง"
+  },
+  {
+    "en": "shiny",
+    "th": "มันวาว"
+  },
+  {
+    "en": "romcom",
+    "th": "รอมคอม"
+  },
+  {
+    "en": "phrase",
+    "th": "วลี"
+  },
+  {
+    "en": "racism",
+    "th": "การเหยียดเชื้อชาติ"
+  },
+  {
+    "en": "merchant",
+    "th": "พ่อค้า"
+  },
+  {
+    "en": "observer",
+    "th": "ผู้สังเกตการณ์"
+  },
+  {
+    "en": "pan",
+    "th": "กระทะ"
+  },
+  {
+    "en": "remediation",
+    "th": "การแก้ไข"
+  },
+  {
+    "en": "comply",
+    "th": "ปฏิบัติตาม"
+  },
+  {
+    "en": "assurance",
+    "th": "การรับประกัน"
+  },
+  {
+    "en": "negotiable",
+    "th": "ต่อรองได้"
+  },
+  {
+    "en": "coordinator",
+    "th": "ผู้ประสานงาน"
+  },
+  {
+    "en": "Vacancy",
+    "th": "ตำแหน่งงานว่าง"
+  },
+  {
+    "en": "hare",
+    "th": "กระต่าย"
+  },
+  {
+    "en": "versus",
+    "th": "เทียบกับ"
+  },
+  {
+    "en": "neighborhood",
+    "th": "ละแวกบ้าน"
+  },
+  {
+    "en": "greed",
+    "th": "ความโลภ"
+  },
+  {
+    "en": "palace",
+    "th": "พระราชวัง"
+  },
+  {
+    "en": "vine",
+    "th": "เถาวัลย์"
+  },
+  {
+    "en": "vines",
+    "th": "เถาวัลย์"
+  },
+  {
+    "en": "dirt",
+    "th": "สิ่งสกปรก"
+  },
+  {
+    "en": "participle",
+    "th": "กริยาวิเศษณ์"
+  },
+  {
+    "en": "poured",
+    "th": "เท"
+  },
+  {
+    "en": "faire",
+    "th": "แฟร์"
+  },
+  {
+    "en": "cottage",
+    "th": "กระท่อม"
+  },
+  {
+    "en": "humbled",
+    "th": "ถ่อมตน"
+  },
+  {
+    "en": "harvest",
+    "th": "เก็บเกี่ยว"
+  },
+  {
+    "en": "oldest",
+    "th": "เก่าแก่ที่สุด"
+  },
+  {
+    "en": "agriculture",
+    "th": "เกษตรกรรม"
+  },
+  {
+    "en": "impressive",
+    "th": "ประทับใจ"
+  },
+  {
+    "en": "prohibite",
+    "th": "ห้าม"
+  },
+  {
+    "en": "grasp",
+    "th": "เข้าใจ"
+  },
+  {
+    "en": "intact",
+    "th": "สมบูรณ์"
+  },
+  {
+    "en": "scatter",
+    "th": "กระจาย"
+  },
+  {
+    "en": "admire",
+    "th": "ชื่นชม"
+  },
+  {
+    "en": "joyful",
+    "th": "สนุกสนาน"
+  },
+  {
+    "en": "sharp-witted",
+    "th": "ฉลาดหลักแหลม"
+  },
+  {
+    "en": "punish",
+    "th": "ลงโทษ"
+  },
+  {
+    "en": "foretold",
+    "th": "ทำนายไว้"
+  },
+  {
+    "en": "decipher",
+    "th": "ถอดรหัส"
+  },
+  {
+    "en": "enrich",
+    "th": "เสริมสร้าง"
+  },
+  {
+    "en": "faraway",
+    "th": "ไกลออกไป"
+  },
+  {
+    "en": "resourceful",
+    "th": "มีไหวพริบ"
+  },
+  {
+    "en": "luggage",
+    "th": "กระเป๋าเดินทาง"
+  },
+  {
+    "en": "boasts",
+    "th": "อวดอ้าง"
+  },
+  {
+    "en": "filthy",
+    "th": "สกปรก"
+  },
+  {
+    "en": "drench",
+    "th": "เปียกโชก"
+  },
+  {
+    "en": "drenche",
+    "th": "เปียกโชก"
+  },
+  {
+    "en": "elegant",
+    "th": "สง่างาม"
+  },
+  {
+    "en": "embellish",
+    "th": "ประดับประดา"
+  },
+  {
+    "en": "stature",
+    "th": "ความสูง"
+  },
+  {
+    "en": "unprecedente",
+    "th": "ไม่เคยเกิดขึ้นมาก่อน"
+  },
+  {
+    "en": "unprecedented",
+    "th": "ไม่เคยเกิดขึ้นมาก่อน"
+  },
+  {
+    "en": "counsel",
+    "th": "ที่ปรึกษา"
+  },
+  {
+    "en": "legitimate",
+    "th": "ถูกต้องตามกฎหมาย"
+  },
+  {
+    "en": "preparatory",
+    "th": "การเตรียมการ"
+  },
+  {
+    "en": "nuanced",
+    "th": "ละเอียดอ่อน"
+  },
+  {
+    "en": "underestimate",
+    "th": "ประเมินต่ำเกินไป"
+  },
+  {
+    "en": "strive",
+    "th": "มุ่งมั่น"
+  },
+  {
+    "en": "recruitment",
+    "th": "การสรรหาบุคลากร"
+  },
+  {
+    "en": "cheerful",
+    "th": "ร่าเริง"
+  },
+  {
+    "en": "linear",
+    "th": "เชิงเส้น"
+  },
+  {
+    "en": "isolate",
+    "th": "แยกตัว"
+  },
+  {
+    "en": "escalate",
+    "th": "ยกระดับ"
+  },
+  {
+    "en": "foster",
+    "th": "อุปถัมภ์"
+  },
+  {
+    "en": "energized",
+    "th": "มีพลัง"
+  },
+  {
+    "en": "estimations",
+    "th": "การประมาณการ"
+  },
+  {
+    "en": "politics",
+    "th": "การเมือง"
+  },
+  {
+    "en": "insights",
+    "th": "ข้อมูลเชิงลึก"
+  },
+  {
+    "en": "transformative",
+    "th": "การเปลี่ยนแปลง"
+  },
+  {
+    "en": "regional",
+    "th": "ภูมิภาค"
+  },
+  {
+    "en": "tensions",
+    "th": "ความตึงเครียด"
+  },
+  {
+    "en": "tumultuous",
+    "th": "วุ่นวาย"
+  },
+  {
+    "en": "peaceful",
+    "th": "สงบ"
+  },
+  {
+    "en": "shady",
+    "th": "ร่มรื่น"
+  },
+  {
+    "en": "flatten",
+    "th": "เรียบ"
+  },
+  {
+    "en": "proven",
+    "th": "พิสูจน์แล้ว"
+  },
+  {
+    "en": "proficiency",
+    "th": "ความชำนาญ"
+  },
+  {
+    "en": "diagnosis",
+    "th": "การวินิจฉัย"
+  },
+  {
+    "en": "Construction",
+    "th": "การก่อสร้าง"
+  },
+  {
+    "en": "punctuality",
+    "th": "ความตรงต่อเวลา"
+  },
+  {
+    "en": "harm",
+    "th": "อันตราย"
+  },
+  {
+    "en": "malfunctioning",
+    "th": "ทำงานผิดปกติ"
+  },
+  {
+    "en": "hiatus",
+    "th": "การหยุดพัก"
+  },
+  {
+    "en": "แตกต่างกันหลากหลาย",
+    "th": "Different and varied"
+  },
+  {
+    "en": "reproducible",
+    "th": "ทำซ้ำได้"
+  },
+  {
+    "en": "counterproductive",
+    "th": "ไร้ประโยชน์"
+  },
+  {
+    "en": "downside",
+    "th": "ข้อเสีย"
+  },
+  {
+    "en": "replaceable",
+    "th": "เปลี่ยนได้"
+  },
+  {
+    "en": "realistic",
+    "th": "สมจริง"
+  },
+  {
+    "en": "cultural",
+    "th": "ทางวัฒนธรรม"
+  },
+  {
+    "en": "forth",
+    "th": "ต่อไป"
+  },
+  {
+    "en": "originate",
+    "th": "กำเนิด"
+  },
+  {
+    "en": "puddle",
+    "th": "แอ่งน้ำ"
+  },
+  {
+    "en": "compassion",
+    "th": "ความเมตตา"
+  },
+  {
+    "en": "poems",
+    "th": "บทกวี"
+  },
+  {
+    "en": "engaging",
+    "th": "การมีส่วนร่วม"
+  },
+  {
+    "en": "occupying",
+    "th": "การครอบครอง"
+  },
+  {
+    "en": "interchangeably",
+    "th": "สลับกันได้"
+  },
+  {
+    "en": "nutshell",
+    "th": "เปลือกถั่ว"
+  },
+  {
+    "en": "relative",
+    "th": "ญาติ"
+  },
+  {
+    "en": "reiterate",
+    "th": "ย้ำอีกครั้ง"
+  },
+  {
+    "en": "dirty",
+    "th": "สกปรก"
+  },
+  {
+    "en": "Indicate",
+    "th": "ระบุ"
+  },
+  {
+    "en": "cryptical",
+    "th": "ลึกลับ"
+  },
+  {
+    "en": "chassis",
+    "th": "แชสซี"
+  },
+  {
+    "en": "oversimplify",
+    "th": "ทำให้ง่ายเกินไป"
+  },
+  {
+    "en": "unlike",
+    "th": "ไม่เหมือน"
+  },
+  {
+    "en": "regardless",
+    "th": "โดยไม่คำนึงถึง"
+  },
+  {
+    "en": "isolation",
+    "th": "การแยกตัว"
+  },
+  {
+    "en": "Inclusion",
+    "th": "การรวม"
+  },
+  {
+    "en": "Integrity",
+    "th": "ความซื่อสัตย์"
+  },
+  {
+    "en": "productive",
+    "th": "มีประสิทธิผล"
+  },
+  {
+    "en": "artifact",
+    "th": "สิ่งประดิษฐ์"
+  },
+  {
+    "en": "ceremony",
+    "th": "พิธี"
+  },
+  {
+    "en": "exposure",
+    "th": "การรับสัมผัสเชื้อ"
+  },
+  {
+    "en": "blame",
+    "th": "ตำหนิ"
+  },
+  {
+    "en": "intention",
+    "th": "เจตนา"
+  },
+  {
+    "en": "clay",
+    "th": "ดินเหนียว"
+  },
+  {
+    "en": "harden",
+    "th": "แข็งตัว"
+  },
+  {
+    "en": "seashore",
+    "th": "ชายฝั่งทะเล"
+  },
+  {
+    "en": "crown",
+    "th": "มงกุฎ"
+  },
+  {
+    "en": "bless",
+    "th": "อวยพร"
+  },
+  {
+    "en": "appeal",
+    "th": "อุทธรณ์"
+  },
+  {
+    "en": "appealing",
+    "th": "น่าดึงดูด"
+  },
+  {
+    "en": "violate",
+    "th": "ละเมิด"
+  },
+  {
+    "en": "Compilation",
+    "th": "การรวบรวม"
+  },
+  {
+    "en": "Incremental",
+    "th": "เพิ่มขึ้น"
+  },
+  {
+    "en": "Adoption",
+    "th": "การรับเลี้ยงบุตรบุญธรรม"
+  },
+  {
+    "en": "achieve",
+    "th": "บรรลุ"
+  },
+  {
+    "en": "moreso",
+    "th": "ยิ่งไปกว่านั้น"
+  },
+  {
+    "en": "subtle",
+    "th": "ละเอียดอ่อน"
+  },
+  {
+    "en": "freeing",
+    "th": "การปลดปล่อย"
+  },
+  {
+    "en": "burden",
+    "th": "ภาระ"
+  },
+  {
+    "en": "mental",
+    "th": "จิต"
+  },
+  {
+    "en": "tedious",
+    "th": "น่าเบื่อ"
+  },
+  {
+    "en": "memoization",
+    "th": "การจดจำ"
+  },
+  {
+    "en": "infer",
+    "th": "อนุมาน"
+  },
+  {
+    "en": "minutiae",
+    "th": "รายละเอียดปลีกย่อย"
+  },
+  {
+    "en": "unwieldy",
+    "th": "เทอะทะ"
+  },
+  {
+    "en": "amend",
+    "th": "แก้ไข"
+  },
+  {
+    "en": "integrate",
+    "th": "บูรณาการ"
+  },
+  {
+    "en": "overused",
+    "th": "ใช้มากเกินไป"
+  },
+  {
+    "en": "incomplete",
+    "th": "ไม่สมบูรณ์"
+  },
+  {
+    "en": "decide",
+    "th": "ตัดสินใจ"
+  },
+  {
+    "en": "lacks",
+    "th": "ขาด"
+  },
+  {
+    "en": "Pluggable",
+    "th": "เสียบปลั๊กได้"
+  },
+  {
+    "en": "Diagnostic",
+    "th": "การวินิจฉัย"
+  },
+  {
+    "en": "Parcel",
+    "th": "พัสดุ"
+  },
+  {
+    "en": "Vite",
+    "th": "เชิญ"
+  },
+  {
+    "en": "constraints",
+    "th": "ข้อจำกัด"
+  },
+  {
+    "en": "encounter",
+    "th": "เผชิญ"
+  },
+  {
+    "en": "gradual",
+    "th": "ค่อยเป็นค่อยไป"
+  },
+  {
+    "en": "toes",
+    "th": "นิ้วเท้า"
+  },
+  {
+    "en": "beneath",
+    "th": "ข้างใต้"
+  },
+  {
+    "en": "breeze",
+    "th": "ลมพัด"
+  },
+  {
+    "en": "chirp",
+    "th": "เจี๊ยบ"
+  },
+  {
+    "en": "pollution",
+    "th": "มลพิษ"
+  },
+  {
+    "en": "shutter",
+    "th": "ชัตเตอร์"
+  },
+  {
+    "en": "barred",
+    "th": "ถูกห้าม"
+  },
+  {
+    "en": "barn",
+    "th": "โรงนา"
+  },
+  {
+    "en": "coop",
+    "th": "สุ่ม"
+  },
+  {
+    "en": "coops",
+    "th": "สหกรณ์"
+  },
+  {
+    "en": "tarpaulin",
+    "th": "ผ้าใบกันน้ำ"
+  },
+  {
+    "en": "haystack",
+    "th": "กองหญ้าแห้ง"
+  },
+  {
+    "en": "tie",
+    "th": "ผูก"
+  },
+  {
+    "en": "fury",
+    "th": "ความโกรธ"
+  },
+  {
+    "en": "quarter",
+    "th": "หนึ่งในสี่"
+  },
+  {
+    "en": "lantern",
+    "th": "โคมไฟ"
+  },
+  {
+    "en": "desperate",
+    "th": "หมดหวัง"
+  },
+  {
+    "en": "refusals",
+    "th": "การปฏิเสธ"
+  },
+  {
+    "en": "crop",
+    "th": "พืชผล"
+  },
+  {
+    "en": "violent",
+    "th": "รุนแรง"
+  },
+  {
+    "en": "rag",
+    "th": "ผ้าขี้ริ้ว"
+  },
+  {
+    "en": "frequent",
+    "th": "บ่อย"
+  },
+  {
+    "en": "reluctant",
+    "th": "ไม่เต็มใจ"
+  },
+  {
+    "en": "recruiment",
+    "th": "การสรรหาบุคลากร"
+  },
+  {
+    "en": "coast",
+    "th": "ชายฝั่ง"
+  },
+  {
+    "en": "solve",
+    "th": "แก้ปัญหา"
+  },
+  {
+    "en": "entirety",
+    "th": "ความสมบูรณ์"
+  },
+  {
+    "en": "satisfied",
+    "th": "พอใจ"
+  },
+  {
+    "en": "stash",
+    "th": "ซ่อนของ"
+  },
+  {
+    "en": "divergent",
+    "th": "แตกต่าง"
+  },
+  {
+    "en": "Precious",
+    "th": "ล้ำค่า"
+  },
+  {
+    "en": "ambition",
+    "th": "ความทะเยอทะยาน"
+  },
+  {
+    "en": "crunchy",
+    "th": "กรุบกรอบ"
+  },
+  {
+    "en": "accuracy",
+    "th": "ความแม่นยำ"
+  },
+  {
+    "en": "surreal",
+    "th": "เหนือจริง"
+  },
+  {
+    "en": "glimpse",
+    "th": "เหลือบ"
+  },
+  {
+    "en": "agentic",
+    "th": "ตัวแทน"
+  },
+  {
+    "en": "crops",
+    "th": "พืชผล"
+  },
+  {
+    "en": "persuasive",
+    "th": "น่าเชื่อถือ"
+  },
+  {
+    "en": "precise",
+    "th": "แม่นยำ"
+  },
+  {
+    "en": "varied",
+    "th": "หลากหลาย"
+  },
+  {
+    "en": "intuitive",
+    "th": "สัญชาตญาณ"
+  },
+  {
+    "en": "dedicate",
+    "th": "อุทิศ"
+  },
+  {
+    "en": "subtly",
+    "th": "อย่างแนบเนียน"
+  },
+  {
+    "en": "breakthrough",
+    "th": "ความก้าวหน้า"
+  },
+  {
+    "en": "ignite",
+    "th": "จุดไฟ"
+  },
+  {
+    "en": "diversity",
+    "th": "ความหลากหลาย"
+  },
+  {
+    "en": "thrille",
+    "th": "หนังระทึกขวัญ"
+  },
+  {
+    "en": "thrilled",
+    "th": "ตื่นเต้นมาก"
+  },
+  {
+    "en": "Diploma",
+    "th": "ประกาศนียบัตร"
+  },
+  {
+    "en": "delight",
+    "th": "ความยินดี"
+  },
+  {
+    "en": "luxury",
+    "th": "หรูหรา"
+  },
+  {
+    "en": "hedgerow",
+    "th": "แนวพุ่มไม้"
+  },
+  {
+    "en": "nest",
+    "th": "รัง"
+  },
+  {
+    "en": "cozy",
+    "th": "อบอุ่นสบาย"
+  },
+  {
+    "en": "nibbling",
+    "th": "การกัดแทะ"
+  },
+  {
+    "en": "sparing",
+    "th": "การประหยัด"
+  },
+  {
+    "en": "acorn",
+    "th": "ลูกโอ๊ก"
+  },
+  {
+    "en": "stalk",
+    "th": "ก้าน"
+  },
+  {
+    "en": "wheat",
+    "th": "ข้าวสาลี"
+  },
+  {
+    "en": "patronage",
+    "th": "การอุปถัมภ์"
+  },
+  {
+    "en": "stretching",
+    "th": "การยืดกล้ามเนื้อ"
+  },
+  {
+    "en": "comprehensive",
+    "th": "ครอบคลุม"
+  },
+  {
+    "en": "compensate",
+    "th": "ชดเชย"
+  },
+  {
+    "en": "compensated",
+    "th": "ชดเชย"
+  },
+  {
+    "en": "consumption",
+    "th": "การบริโภค"
+  },
+  {
+    "en": "evaluate",
+    "th": "ประเมิน"
+  },
+  {
+    "en": "evaluates",
+    "th": "ประเมินผล"
+  },
+  {
+    "en": "omit",
+    "th": "ละเว้น"
+  },
+  {
+    "en": "comprise",
+    "th": "ประกอบด้วย"
+  },
+  {
+    "en": "injecte",
+    "th": "ฉีด"
+  },
+  {
+    "en": "determination",
+    "th": "การกำหนด"
+  },
+  {
+    "en": "lung",
+    "th": "ปอด"
+  },
+  {
+    "en": "dependable",
+    "th": "เชื่อถือได้"
+  },
+  {
+    "en": "sincere",
+    "th": "จริงใจ"
+  },
+  {
+    "en": "praise",
+    "th": "ชื่นชม"
+  },
+  {
+    "en": "deed",
+    "th": "โฉนด"
+  },
+  {
+    "en": "neglect",
+    "th": "ละเลย"
+  },
+  {
+    "en": "reel",
+    "th": "รีล"
+  },
+  {
+    "en": "rely",
+    "th": "พึ่งพา"
+  },
+  {
+    "en": "ground",
+    "th": "พื้น"
+  },
+  {
+    "en": "unforgettable",
+    "th": "ที่น่าจดจำ"
+  },
+  {
+    "en": "orchestration",
+    "th": "การเรียบเรียงเสียงประสาน"
+  },
+  {
+    "en": "invaluable",
+    "th": "ล้ำค่า"
+  },
+  {
+    "en": "facilitation",
+    "th": "การอำนวยความสะดวก"
+  },
+  {
+    "en": "approachable",
+    "th": "เข้าถึงได้"
+  },
+  {
+    "en": "evolving",
+    "th": "กำลังพัฒนา"
+  },
+  {
+    "en": "energizing",
+    "th": "เติมพลัง"
+  },
+  {
+    "en": "recharged",
+    "th": "ชาร์จพลังใหม่"
+  },
+  {
+    "en": "pouring",
+    "th": "การเท"
+  },
+  {
+    "en": "shoutout",
+    "th": "การตะโกนออกไป"
+  },
+  {
+    "en": "toiling",
+    "th": "การทำงานหนัก"
+  },
+  {
+    "en": "enlightening",
+    "th": "การให้ความรู้"
+  },
+  {
+    "en": "ponder",
+    "th": "ไตร่ตรอง"
+  },
+  {
+    "en": "phenomenal",
+    "th": "ปรากฏการณ์"
+  },
+  {
+    "en": "dive",
+    "th": "ดำน้ำ"
+  },
+  {
+    "en": "Ancient",
+    "th": "โบราณ"
+  },
+  {
+    "en": "volunteer",
+    "th": "อาสาสมัคร"
+  },
+  {
+    "en": "volunteering",
+    "th": "การเป็นอาสาสมัคร"
+  },
+  {
+    "en": "volunteers",
+    "th": "อาสาสมัคร"
+  },
+  {
+    "en": "foundation",
+    "th": "พื้นฐาน"
+  },
+  {
+    "en": "optimally",
+    "th": "อย่างเหมาะสมที่สุด"
+  },
+  {
+    "en": "adhering",
+    "th": "การยึดติด"
+  },
+  {
+    "en": "poem",
+    "th": "บทกวี"
+  },
+  {
+    "en": "mutual",
+    "th": "ซึ่งกันและกัน"
+  },
+  {
+    "en": "sank",
+    "th": "จมลง"
+  },
+  {
+    "en": "mysteriously",
+    "th": "อย่างลึกลับ"
+  },
+  {
+    "en": "dress",
+    "th": "ชุด"
+  },
+  {
+    "en": "mandatory",
+    "th": "บังคับ"
+  },
+  {
+    "en": "Expansion",
+    "th": "การขยายตัว"
+  },
+  {
+    "en": "exhibit",
+    "th": "จัดแสดง"
+  },
+  {
+    "en": "perpetually",
+    "th": "ตลอด"
+  },
+  {
+    "en": "silk",
+    "th": "ผ้าไหม"
+  },
+  {
+    "en": "discipline",
+    "th": "การลงโทษ"
+  },
+  {
+    "en": "accommodate",
+    "th": "รองรับ"
+  },
+  {
+    "en": "align",
+    "th": "จัดตำแหน่ง"
+  },
+  {
+    "en": "improvement",
+    "th": "การปรับปรุง"
+  },
+  {
+    "en": "performance",
+    "th": "ผลงาน"
+  },
+  {
+    "en": "leaning",
+    "th": "การเอนตัว"
+  },
+  {
+    "en": "hardware",
+    "th": "ฮาร์ดแวร์"
+  },
+  {
+    "en": "sustainable",
+    "th": "ที่ยั่งยืน"
+  },
+  {
+    "en": "transformation",
+    "th": "การเปลี่ยนแปลง"
+  },
+  {
+    "en": "entirely",
+    "th": "ทั้งหมด"
+  },
+  {
+    "en": "culture",
+    "th": "วัฒนธรรม"
+  },
+  {
+    "en": "decation",
+    "th": "การประกาศ"
+  },
+  {
+    "en": "resigned",
+    "th": "ลาออก"
+  },
+  {
+    "en": "เศรษฐกิจ",
+    "th": "economy"
+  },
+  {
+    "en": "eager",
+    "th": "กระตือรือร้น"
+  },
+  {
+    "en": "seamlessly",
+    "th": "ได้อย่างราบรื่น"
+  },
+  {
+    "en": "quality",
+    "th": "คุณภาพ"
+  },
+  {
+    "en": "operational",
+    "th": "การดำเนินงาน"
+  },
+  {
+    "en": "environments",
+    "th": "สภาพแวดล้อม"
+  },
+  {
+    "en": "brave",
+    "th": "กล้าหาญ"
+  },
+  {
+    "en": "assisting",
+    "th": "การช่วยเหลือ"
+  },
+  {
+    "en": "digital",
+    "th": "ดิจิตอล"
+  },
+  {
+    "en": "encourages",
+    "th": "ส่งเสริม"
+  },
+  {
+    "en": "toothpick",
+    "th": "ไม้จิ้มฟัน"
+  },
+  {
+    "en": "cup",
+    "th": "ถ้วย"
+  },
+  {
+    "en": "mug",
+    "th": "แก้ว"
+  },
+  {
+    "en": "bowl",
+    "th": "ชาม"
+  },
+  {
+    "en": "particularly",
+    "th": "โดยเฉพาะ"
+  },
+  {
+    "en": "manufacturing",
+    "th": "การผลิต"
+  },
+  {
+    "en": "reputation",
+    "th": "ชื่อเสียง"
+  },
+  {
+    "en": "led",
+    "th": "นำ"
+  },
+  {
+    "en": "pharmacist",
+    "th": "เภสัชกร"
+  },
+  {
+    "en": "workmates",
+    "th": "เพื่อนร่วมงาน"
+  },
+  {
+    "en": "committee",
+    "th": "คณะกรรมการ"
+  },
+  {
+    "en": "council",
+    "th": "สภา"
+  },
+  {
+    "en": "dozens",
+    "th": "หลายสิบ"
+  },
+  {
+    "en": "minor",
+    "th": "ส่วนน้อย"
+  },
+  {
+    "en": "expertise",
+    "th": "ความเชี่ยวชาญ"
+  },
+  {
+    "en": "transition",
+    "th": "การเปลี่ยนผ่าน"
+  },
+  {
+    "en": "practical",
+    "th": "ใช้ได้จริง"
+  },
+  {
+    "en": "prioritize",
+    "th": "จัดลำดับความสำคัญ"
+  },
+  {
+    "en": "knowledge",
+    "th": "ความรู้"
+  },
+  {
+    "en": "recur",
+    "th": "เกิดขึ้นซ้ำ"
+  },
+  {
+    "en": "recurring",
+    "th": "เกิดขึ้นซ้ำๆ"
+  },
+  {
+    "en": "deepen",
+    "th": "ลึกลงไป"
+  },
+  {
+    "en": "reliable",
+    "th": "เชื่อถือได้"
+  },
+  {
+    "en": "thrive",
+    "th": "เจริญเติบโต"
+  },
+  {
+    "en": "thrives",
+    "th": "เจริญเติบโต"
+  },
+  {
+    "en": "posture",
+    "th": "ท่าทาง"
+  },
+  {
+    "en": "journalists",
+    "th": "นักข่าว"
+  },
+  {
+    "en": "expand",
+    "th": "ขยาย"
+  },
+  {
+    "en": "applicant",
+    "th": "ผู้สมัคร"
+  },
+  {
+    "en": "interviewer",
+    "th": "ผู้สัมภาษณ์"
+  },
+  {
+    "en": "crumb",
+    "th": "เศษ"
+  },
+  {
+    "en": "beggar",
+    "th": "ขอทาน"
+  },
+  {
+    "en": "rob",
+    "th": "ปล้น"
+  },
+  {
+    "en": "lure",
+    "th": "ล่อ"
+  },
+  {
+    "en": "leveraging",
+    "th": "การใช้ประโยชน์"
+  },
+  {
+    "en": "leverage",
+    "th": "เลเวอเรจ"
+  },
+  {
+    "en": "lack",
+    "th": "ขาด"
+  },
+  {
+    "en": "landscape",
+    "th": "ภูมิประเทศ"
+  },
+  {
+    "en": "delve",
+    "th": "เจาะลึก"
+  },
+  {
+    "en": "endeavor",
+    "th": "ความพยายาม"
+  },
+  {
+    "en": "alike",
+    "th": "เหมือนกัน"
+  },
+  {
+    "en": "conglomerate",
+    "th": "กลุ่มบริษัท"
+  },
+  {
+    "en": "contributor",
+    "th": "ผู้สนับสนุน"
+  },
+  {
+    "en": "contributors",
+    "th": "ผู้สนับสนุน"
+  },
+  {
+    "en": "sacrificing",
+    "th": "การเสียสละ"
+  },
+  {
+    "en": "mighty",
+    "th": "ยิ่งใหญ่"
+  },
+  {
+    "en": "illness",
+    "th": "การเจ็บป่วย"
+  },
+  {
+    "en": "Incident",
+    "th": "เหตุการณ์"
+  },
+  {
+    "en": "qualifications",
+    "th": "คุณสมบัติ"
+  },
+  {
+    "en": "courageous",
+    "th": "กล้าหาญ"
+  },
+  {
+    "en": "outgrown",
+    "th": "โตเกินกว่าจะรับไหว"
+  },
+  {
+    "en": "clever",
+    "th": "ฉลาด"
+  },
+  {
+    "en": "passersby",
+    "th": "คนเดินผ่านไปมา"
+  },
+  {
+    "en": "dip",
+    "th": "จุ่ม"
+  },
+  {
+    "en": "distant",
+    "th": "ห่างไกล"
+  },
+  {
+    "en": "enthusiastic",
+    "th": "กระตือรือร้น"
+  },
+  {
+    "en": "keen",
+    "th": "กระตือรือร้น"
+  },
+  {
+    "en": "puddles",
+    "th": "แอ่งน้ำ"
+  },
+  {
+    "en": "splash",
+    "th": "สาด"
+  },
+  {
+    "en": "countryside",
+    "th": "ชนบท"
+  },
+  {
+    "en": "modernization",
+    "th": "การปรับปรุงให้ทันสมัย"
+  },
+  {
+    "en": "anger",
+    "th": "ความโกรธ"
+  },
+  {
+    "en": "spill",
+    "th": "หก"
+  },
+  {
+    "en": "frustrate",
+    "th": "ทำให้หงุดหงิด"
+  },
+  {
+    "en": "commissioner",
+    "th": "กรรมาธิการ"
+  },
+  {
+    "en": "unsolicited",
+    "th": "ไม่ได้ร้องขอ"
+  },
+  {
+    "en": "exhaustive",
+    "th": "หมดจด"
+  },
+  {
+    "en": "publication",
+    "th": "การตีพิมพ์"
+  },
+  {
+    "en": "patents",
+    "th": "สิทธิบัตร"
+  },
+  {
+    "en": "referral",
+    "th": "การอ้างอิง"
+  },
+  {
+    "en": "Institution",
+    "th": "สถาบัน"
+  },
+  {
+    "en": "Thesis",
+    "th": "วิทยานิพนธ์"
+  },
+  {
+    "en": "specialisation",
+    "th": "ความเชี่ยวชาญ"
+  },
+  {
+    "en": "sup",
+    "th": "จีบ"
+  },
+  {
+    "en": "usurper",
+    "th": "ผู้แย่งชิง"
+  },
+  {
+    "en": "illegitimate",
+    "th": "ลูกนอกสมรส"
+  },
+  {
+    "en": "genius",
+    "th": "อัจฉริยะ"
+  },
+  {
+    "en": "grant",
+    "th": "ยินยอม"
+  },
+  {
+    "en": "laughter",
+    "th": "เสียงหัวเราะ"
+  },
+  {
+    "en": "light",
+    "th": "แสงสว่าง"
+  },
+  {
+    "en": "witness",
+    "th": "พยาน"
+  },
+  {
+    "en": "vulnerable",
+    "th": "เปราะบาง"
+  },
+  {
+    "en": "passionate",
+    "th": "หลงใหล"
+  },
+  {
+    "en": "willingness",
+    "th": "ความเต็มใจ"
+  },
+  {
+    "en": "dedication",
+    "th": "การอุทิศตน"
+  },
+  {
+    "en": "Contribution",
+    "th": "ผลงาน"
+  },
+  {
+    "en": "Contributions",
+    "th": "การบริจาค"
+  },
+  {
+    "en": "roam",
+    "th": "เร่ร่อน"
+  },
+  {
+    "en": "bond",
+    "th": "พันธบัตร"
+  },
+  {
+    "en": "intently",
+    "th": "อย่างตั้งใจ"
+  },
+  {
+    "en": "trials",
+    "th": "การทดลอง"
+  },
+  {
+    "en": "genre",
+    "th": "ประเภท"
+  },
+  {
+    "en": "dice",
+    "th": "ลูกเต๋า"
+  },
+  {
+    "en": "doubte",
+    "th": "สงสัย"
+  },
+  {
+    "en": "deduction",
+    "th": "การหักเงิน"
+  },
+  {
+    "en": "perseverance",
+    "th": "ความเพียรพยายาม"
+  },
+  {
+    "en": "obsessed",
+    "th": "หมกมุ่น"
+  },
+  {
+    "en": "piss",
+    "th": "ปัสสาวะ"
+  },
+  {
+    "en": "tidy",
+    "th": "เรียบร้อย"
+  },
+  {
+    "en": "neat",
+    "th": "ประณีต"
+  },
+  {
+    "en": "crisps",
+    "th": "มันฝรั่งทอดกรอบ"
+  },
+  {
+    "en": "quavers",
+    "th": "เสียงควอเวอร์"
+  },
+  {
+    "en": "stinks",
+    "th": "เหม็น"
+  },
+  {
+    "en": "toast",
+    "th": "ขนมปังปิ้ง"
+  },
+  {
+    "en": "nutcracker",
+    "th": "เครื่องบดถั่ว"
+  },
+  {
+    "en": "range",
+    "th": "พิสัย"
+  },
+  {
+    "en": "cheeky",
+    "th": "หน้าด้าน"
+  },
+  {
+    "en": "rainbow",
+    "th": "รุ้ง"
+  },
+  {
+    "en": "naughty",
+    "th": "ซน"
+  },
+  {
+    "en": "urinate",
+    "th": "ปัสสาวะ"
+  },
+  {
+    "en": "religion",
+    "th": "ศาสนา"
+  },
+  {
+    "en": "analogy",
+    "th": "การเปรียบเทียบ"
+  },
+  {
+    "en": "Sharpener",
+    "th": "เครื่องเหลา"
+  },
+  {
+    "en": "inept",
+    "th": "ไร้ความสามารถ"
+  },
+  {
+    "en": "extinguish",
+    "th": "ดับ"
+  },
+  {
+    "en": "aggressively",
+    "th": "อุกอาจ"
+  },
+  {
+    "en": "approximately",
+    "th": "ประมาณ"
+  },
+  {
+    "en": "insiste",
+    "th": "ยืนกราน"
+  },
+  {
+    "en": "mastery",
+    "th": "ความเชี่ยวชาญ"
+  },
+  {
+    "en": "hustle",
+    "th": "เร่งรีบ"
+  },
+  {
+    "en": "measurement",
+    "th": "การวัด"
+  },
+  {
+    "en": "urine",
+    "th": "ปัสสาวะ"
+  },
+  {
+    "en": "mute",
+    "th": "ปิดเสียง"
+  },
+  {
+    "en": "accent",
+    "th": "สำเนียง"
+  },
+  {
+    "en": "leisure",
+    "th": "เวลาว่าง"
+  },
+  {
+    "en": "entrepreneur",
+    "th": "ผู้ประกอบการ"
+  },
+  {
+    "en": "independent",
+    "th": "เป็นอิสระ"
+  },
+  {
+    "en": "violation",
+    "th": "การละเมิด"
+  },
+  {
+    "en": "seductive",
+    "th": "ยั่วยวน"
+  },
+  {
+    "en": "guard",
+    "th": "อารักขา"
+  },
+  {
+    "en": "tenant",
+    "th": "ผู้เช่า"
+  },
+  {
+    "en": "procedure",
+    "th": "ขั้นตอน"
+  },
+  {
+    "en": "simulate",
+    "th": "จำลอง"
+  },
+  {
+    "en": "numerous",
+    "th": "มากมาย"
+  },
+  {
+    "en": "pants",
+    "th": "กางเกง"
+  },
+  {
+    "en": "rapid",
+    "th": "รวดเร็ว"
+  },
+  {
+    "en": "brightest",
+    "th": "ฉลาดที่สุด"
+  },
+  {
+    "en": "constellations",
+    "th": "กลุ่มดาว"
+  },
+  {
+    "en": "wiser",
+    "th": "ฉลาดขึ้น"
+  },
+  {
+    "en": "stall",
+    "th": "แผงขายของ"
+  },
+  {
+    "en": "gathering",
+    "th": "การรวบรวม"
+  },
+  {
+    "en": "wisely",
+    "th": "อย่างชาญฉลาด"
+  },
+  {
+    "en": "glance",
+    "th": "เหลือบมอง"
+  },
+  {
+    "en": "instantaneous",
+    "th": "ทันที"
+  },
+  {
+    "en": "appropriateness",
+    "th": "ความเหมาะสม"
+  },
+  {
+    "en": "independently",
+    "th": "เป็นอิสระ"
+  },
+  {
+    "en": "excel",
+    "th": "เอ็กเซล"
+  },
+  {
+    "en": "distinguish",
+    "th": "แยกแยะ"
+  },
+  {
+    "en": "hinder",
+    "th": "ขัดขวาง"
+  },
+  {
+    "en": "proficient",
+    "th": "ชำนาญ"
+  },
+  {
+    "en": "whereas",
+    "th": "ในทางตรงกันข้าม"
+  },
+  {
+    "en": "flourishing",
+    "th": "เจริญรุ่งเรือง"
+  },
+  {
+    "en": "significant",
+    "th": "สำคัญ"
+  },
+  {
+    "en": "pavement",
+    "th": "ทางเท้า"
+  },
+  {
+    "en": "mutate",
+    "th": "กลายพันธุ์"
+  },
+  {
+    "en": "humble",
+    "th": "ถ่อมตน"
+  },
+  {
+    "en": "laundry",
+    "th": "ซักรีด"
+  },
+  {
+    "en": "enumeration",
+    "th": "การนับ"
+  },
+  {
+    "en": "hole",
+    "th": "รู"
+  },
+  {
+    "en": "vary",
+    "th": "ต่างกันไป"
+  },
+  {
+    "en": "boundaries",
+    "th": "ขอบเขต"
+  },
+  {
+    "en": "Deciding",
+    "th": "การตัดสินใจ"
+  },
+  {
+    "en": "jarring",
+    "th": "สะเทือนใจ"
+  },
+  {
+    "en": "granular",
+    "th": "เม็ดเล็ก ๆ"
+  },
+  {
+    "en": "artificial",
+    "th": "เทียม"
+  },
+  {
+    "en": "crawlers",
+    "th": "โปรแกรมรวบรวมข้อมูล"
+  },
+  {
+    "en": "reliably",
+    "th": "เชื่อถือได้"
+  },
+  {
+    "en": "contingent",
+    "th": "กองกำลังสำรอง"
+  },
+  {
+    "en": "relatively",
+    "th": "ค่อนข้าง"
+  },
+  {
+    "en": "intermediary",
+    "th": "ตัวกลาง"
+  },
+  {
+    "en": "rough",
+    "th": "ขรุขระ"
+  },
+  {
+    "en": "partially",
+    "th": "บางส่วน"
+  },
+  {
+    "en": "supply",
+    "th": "จัดหา"
+  },
+  {
+    "en": "exceed",
+    "th": "เกิน"
+  },
+  {
+    "en": "quota",
+    "th": "โควตา"
+  },
+  {
+    "en": "hallucination",
+    "th": "ภาพหลอน"
+  },
+  {
+    "en": "emphasize",
+    "th": "เน้นย้ำ"
+  },
+  {
+    "en": "ambitions",
+    "th": "ความทะเยอทะยาน"
+  },
+  {
+    "en": "topical",
+    "th": "หัวข้อ"
+  },
+  {
+    "en": "illustrate",
+    "th": "แสดงให้เห็น"
+  },
+  {
+    "en": "unintentionally",
+    "th": "โดยไม่ได้ตั้งใจ"
+  },
+  {
+    "en": "variety",
+    "th": "ความหลากหลาย"
+  },
+  {
+    "en": "significantly",
+    "th": "อย่างมีนัยสำคัญ"
+  },
+  {
+    "en": "scratch",
+    "th": "เกา"
+  },
+  {
+    "en": "penalize",
+    "th": "ลงโทษ"
+  },
+  {
+    "en": "adopt",
+    "th": "รับเลี้ยง"
+  },
+  {
+    "en": "evolved",
+    "th": "วิวัฒนาการ"
+  },
+  {
+    "en": "collisions",
+    "th": "การชนกัน"
+  },
+  {
+    "en": "instant",
+    "th": "ทันที"
+  },
+  {
+    "en": "destination",
+    "th": "ปลายทาง"
+  },
+  {
+    "en": "isolated",
+    "th": "โดดเดี่ยว"
+  },
+  {
+    "en": "persists",
+    "th": "ยังคงอยู่"
+  },
+  {
+    "en": "iterate",
+    "th": "ย้ำ"
+  },
+  {
+    "en": "instantly",
+    "th": "ทันที"
+  },
+  {
+    "en": "windy",
+    "th": "windy"
+  },
+  {
+    "en": "period",
+    "th": "ระยะเวลา"
+  },
+  {
+    "en": "occasionally",
+    "th": "เป็นครั้งคราว"
+  },
+  {
+    "en": "opportunity",
+    "th": "โอกาส"
+  },
+  {
+    "en": "abstraction",
+    "th": "ความนามธรรม"
+  },
+  {
+    "en": "Strategic",
+    "th": "เชิงกลยุทธ์"
+  },
+  {
+    "en": "embedded",
+    "th": "ฝังตัว"
+  },
+  {
+    "en": "established",
+    "th": "ที่จัดตั้งขึ้น"
+  },
+  {
+    "en": "profit",
+    "th": "กำไร"
+  },
+  {
+    "en": "grocery",
+    "th": "ร้านขายของชำ"
+  },
+  {
+    "en": "dopamine",
+    "th": "โดปามีน"
+  },
+  {
+    "en": "savory",
+    "th": "เผ็ด"
+  },
+  {
+    "en": "better",
+    "th": "ดีกว่า"
+  },
+  {
+    "en": "oppose",
+    "th": "ต่อต้าน"
+  },
+  {
+    "en": "aisle",
+    "th": "ทางเดิน"
+  },
+  {
+    "en": "deposited",
+    "th": "ฝากไว้"
+  },
+  {
+    "en": "denominator",
+    "th": "ตัวส่วน"
+  },
+  {
+    "en": "heed",
+    "th": "ใส่ใจ"
+  },
+  {
+    "en": "Prior",
+    "th": "ก่อน"
+  },
+  {
+    "en": "dehumidifier",
+    "th": "เครื่องลดความชื้น"
+  },
+  {
+    "en": "Freight",
+    "th": "การขนส่งสินค้า"
+  },
+  {
+    "en": "delicious",
+    "th": "อร่อย"
+  },
+  {
+    "en": "dentist",
+    "th": "ทันตแพทย์"
+  },
+  {
+    "en": "incredible",
+    "th": "เหลือเชื่อ"
+  },
+  {
+    "en": "simultaneously",
+    "th": "พร้อมกัน"
+  },
+  {
+    "en": "circuit",
+    "th": "วงจรไฟฟ้า"
+  },
+  {
+    "en": "worn",
+    "th": "สึกหรอ"
+  },
+  {
+    "en": "achy",
+    "th": "ปวดเมื่อย"
+  },
+  {
+    "en": "consign",
+    "th": "ฝากขาย"
+  },
+  {
+    "en": "brag",
+    "th": "คุยโว"
+  },
+  {
+    "en": "clapt",
+    "th": "ปรบมือ"
+  },
+  {
+    "en": "clapping",
+    "th": "การปรบมือ"
+  },
+  {
+    "en": "creepiest",
+    "th": "น่าขนลุกที่สุด"
+  },
+  {
+    "en": "constraint",
+    "th": "ข้อจำกัด"
+  },
+  {
+    "en": "tourist",
+    "th": "นักท่องเที่ยว"
+  },
+  {
+    "en": "magnificent",
+    "th": "งดงาม"
+  },
+  {
+    "en": "butcher",
+    "th": "คนขายเนื้อ"
+  },
+  {
+    "en": "carriage",
+    "th": "รถม้า"
+  },
+  {
+    "en": "ratio",
+    "th": "อัตราส่วน"
+  },
+  {
+    "en": "legacy system",
+    "th": "ระบบเดิม"
+  },
+  {
+    "en": "monetize",
+    "th": "สร้างรายได้"
+  },
+  {
+    "en": "presumes",
+    "th": "สันนิษฐาน"
+  },
+  {
+    "en": "infestation",
+    "th": "การระบาด"
+  },
+  {
+    "en": "exterminate",
+    "th": "กำจัด"
+  },
+  {
+    "en": "shred",
+    "th": "ฉีก"
+  },
+  {
+    "en": "carpet",
+    "th": "พรม"
+  },
+  {
+    "en": "seamless",
+    "th": "ไร้รอยต่อ"
+  },
+  {
+    "en": "perception",
+    "th": "การรับรู้"
+  },
+  {
+    "en": "obsession",
+    "th": "ความหลงใหล"
+  },
+  {
+    "en": "psychology",
+    "th": "จิตวิทยา"
+  },
+  {
+    "en": "rhythm",
+    "th": "จังหวะ"
+  },
+  {
+    "en": "intuition",
+    "th": "ปรีชา"
+  },
+  {
+    "en": "cheat",
+    "th": "โกง"
+  },
+  {
+    "en": "adopted",
+    "th": "รับเลี้ยงบุตรบุญธรรม"
+  },
+  {
+    "en": "threat",
+    "th": "ภัยคุกคาม"
+  },
+  {
+    "en": "realm",
+    "th": "อาณาจักร"
+  },
+  {
+    "en": "worthy",
+    "th": "สมควร"
+  },
+  {
+    "en": "devastate",
+    "th": "ทำลายล้าง"
+  },
+  {
+    "en": "diarrheal",
+    "th": "ท้องเสีย"
+  },
+  {
+    "en": "elementary",
+    "th": "ระดับประถมศึกษา"
+  },
+  {
+    "en": "commence",
+    "th": "เริ่มต้น"
+  },
+  {
+    "en": "polarity",
+    "th": "ขั้ว"
+  },
+  {
+    "en": "appetite",
+    "th": "ความอยากอาหาร"
+  },
+  {
+    "en": "particular",
+    "th": "โดยเฉพาะ"
+  },
+  {
+    "en": "eventually",
+    "th": "ในท้ายที่สุด"
+  },
+  {
+    "en": "relevant",
+    "th": "ที่เกี่ยวข้อง"
+  },
+  {
+    "en": "rays",
+    "th": "รังสี"
+  },
+  {
+    "en": "risen",
+    "th": "ลุกขึ้นมา"
+  },
+  {
+    "en": "thriving",
+    "th": "เจริญรุ่งเรือง"
+  },
+  {
+    "en": "extracurricular",
+    "th": "กิจกรรมนอกหลักสูตร"
+  },
+  {
+    "en": "trait",
+    "th": "ลักษณะนิสัย"
+  },
+  {
+    "en": "pussy",
+    "th": "หี"
+  },
+  {
+    "en": "bibration",
+    "th": "การสั่นสะเทือน"
+  },
+  {
+    "en": "paranoid",
+    "th": "หวาดระแวง"
+  },
+  {
+    "en": "instinct",
+    "th": "สัญชาตญาณ"
+  },
+  {
+    "en": "gut",
+    "th": "ลำไส้"
+  },
+  {
+    "en": "vibrant",
+    "th": "สดใส"
+  },
+  {
+    "en": "conposition",
+    "th": "องค์ประกอบ"
+  },
+  {
+    "en": "breed",
+    "th": "พันธุ์"
+  },
+  {
+    "en": "sustainability",
+    "th": "ความยั่งยืน"
+  },
+  {
+    "en": "mosquito",
+    "th": "ยุง"
+  },
+  {
+    "en": "collision",
+    "th": "การชนกัน"
+  },
+  {
+    "en": "concise",
+    "th": "กระชับ"
+  },
+  {
+    "en": "extremely",
+    "th": "อย่างที่สุด"
+  },
+  {
+    "en": "urnals",
+    "th": "โถปัสสาวะ"
+  },
+  {
+    "en": "carefree",
+    "th": "ไร้กังวล"
+  },
+  {
+    "en": "earner",
+    "th": "ผู้หารายได้"
+  },
+  {
+    "en": "enclosure",
+    "th": "สิ่งล้อมรอบ"
+  },
+  {
+    "en": "blesses",
+    "th": "อวยพร"
+  },
+  {
+    "en": "participate",
+    "th": "เข้าร่วม"
+  },
+  {
+    "en": "souvenire",
+    "th": "ของที่ระลึก"
+  },
+  {
+    "en": "curly",
+    "th": "หยิกงอ"
+  },
+  {
+    "en": "ensemble",
+    "th": "วงดนตรี"
+  },
+  {
+    "en": "revenge",
+    "th": "แก้แค้น"
+  },
+  {
+    "en": "loyal",
+    "th": "ซื่อสัตย์"
+  },
+  {
+    "en": "obsesse",
+    "th": "หมกมุ่น"
+  },
+  {
+    "en": "rinse",
+    "th": "ล้าง"
+  },
+  {
+    "en": "deaf",
+    "th": "หูหนวก"
+  },
+  {
+    "en": "gracefully",
+    "th": "อย่างสง่างาม"
+  },
+  {
+    "en": "resolution",
+    "th": "ปณิธาน"
+  },
+  {
+    "en": "chase",
+    "th": "ไล่ล่า"
+  },
+  {
+    "en": "arrested",
+    "th": "ถูกจับ"
+  },
+  {
+    "en": "vehicular",
+    "th": "ยานพาหนะ"
+  },
+  {
+    "en": "allegorically",
+    "th": "เชิงเปรียบเทียบ"
+  },
+  {
+    "en": "allegically",
+    "th": "ในทางทฤษฎี"
+  },
+  {
+    "en": "ness",
+    "th": "เนส"
+  },
+  {
+    "en": "indecisive",
+    "th": "ไม่เด็ดขาด"
+  },
+  {
+    "en": "existential",
+    "th": "การดำรงอยู่"
+  },
+  {
+    "en": "overwhelmed",
+    "th": "ท่วมท้น"
+  },
+  {
+    "en": "cartridges",
+    "th": "ตลับหมึก"
+  },
+  {
+    "en": "frozen",
+    "th": "แช่แข็ง"
+  },
+  {
+    "en": "spiky",
+    "th": "แหลมคม"
+  },
+  {
+    "en": "jackfruit",
+    "th": "ขนุน"
+  },
+  {
+    "en": "trainers",
+    "th": "เทรนเนอร์"
+  },
+  {
+    "en": "blister",
+    "th": "แผลพุพอง"
+  },
+  {
+    "en": "trousers",
+    "th": "กางเกงขายาว"
+  },
+  {
+    "en": "jumpers",
+    "th": "เสื้อจัมเปอร์"
+  },
+  {
+    "en": "socks",
+    "th": "ถุงเท้า"
+  },
+  {
+    "en": "sandals",
+    "th": "รองเท้าแตะ"
+  },
+  {
+    "en": "sweaters",
+    "th": "เสื้อสเวตเตอร์"
+  },
+  {
+    "en": "puppies",
+    "th": "ลูกสุนัข"
+  },
+  {
+    "en": "continent",
+    "th": "ทวีป"
+  },
+  {
+    "en": "clunky",
+    "th": "เงอะงะ"
+  },
+  {
+    "en": "proofread",
+    "th": "ตรวจทาน"
+  },
+  {
+    "en": "factual",
+    "th": "ข้อเท็จจริง"
+  },
+  {
+    "en": "brainstorm",
+    "th": "ระดมความคิด"
+  },
+  {
+    "en": "caost",
+    "th": "ชายฝั่ง"
+  },
+  {
+    "en": "racist",
+    "th": "เหยียดผิว"
+  },
+  {
+    "en": "neasty",
+    "th": "เรียบร้อย"
+  },
+  {
+    "en": "steady",
+    "th": "มั่นคง"
+  },
+  {
+    "en": "offensive",
+    "th": "ก้าวร้าว"
+  },
+  {
+    "en": "attractive",
+    "th": "มีเสน่ห์"
+  },
+  {
+    "en": "reinspection",
+    "th": "การตรวจสอบซ้ำ"
+  },
+  {
+    "en": "dispatch",
+    "th": "การจัดส่ง"
+  },
+  {
+    "en": "deem",
+    "th": "ถือว่า"
+  },
+  {
+    "en": "emerges",
+    "th": "เกิดขึ้น"
+  },
+  {
+    "en": "classification",
+    "th": "การจำแนกประเภท"
+  },
+  {
+    "en": "pertain",
+    "th": "เกี่ยวข้อง"
+  },
+  {
+    "en": "Indictment",
+    "th": "คำฟ้อง"
+  },
+  {
+    "en": "rebate",
+    "th": "ส่วนลด"
+  },
+  {
+    "en": "replenish",
+    "th": "เติมเต็ม"
+  },
+  {
+    "en": "resistance",
+    "th": "ความต้านทาน"
+  },
+  {
+    "en": "cease",
+    "th": "หยุด"
+  },
+  {
+    "en": "cave",
+    "th": "ถ้ำ"
+  },
+  {
+    "en": "furious",
+    "th": "กราดเกรี้ยว"
+  },
+  {
+    "en": "precinct",
+    "th": "เขต"
+  },
+  {
+    "en": "diabetic",
+    "th": "โรคเบาหวาน"
+  },
+  {
+    "en": "medicine",
+    "th": "ยา"
+  },
+  {
+    "en": "furnace",
+    "th": "เตาเผา"
+  },
+  {
+    "en": "firmly",
+    "th": "อย่างมั่นคง"
+  },
+  {
+    "en": "impulsive",
+    "th": "ห่าม"
+  },
+  {
+    "en": "comrades",
+    "th": "สหาย"
+  },
+  {
+    "en": "hospitable",
+    "th": "อัธยาศัยดี"
+  },
+  {
+    "en": "persistent",
+    "th": "ดื้อดึง"
+  },
+  {
+    "en": "perspective",
+    "th": "ทัศนคติ"
+  },
+  {
+    "en": "audience",
+    "th": "ผู้ชม"
+  },
+  {
+    "en": "inefficiency",
+    "th": "ความไม่มีประสิทธิภาพ"
+  },
+  {
+    "en": "fuse",
+    "th": "ฟิวส์"
+  },
+  {
+    "en": "literal",
+    "th": "ตามตัวอักษร"
+  },
+  {
+    "en": "infitrated",
+    "th": "แทรกซึม"
+  },
+  {
+    "en": "forces",
+    "th": "กองกำลัง"
+  },
+  {
+    "en": "gather",
+    "th": "รวมตัว"
+  },
+  {
+    "en": "psycho",
+    "th": "โรคจิต"
+  },
+  {
+    "en": "flipped",
+    "th": "พลิกกลับ"
+  },
+  {
+    "en": "mysterious",
+    "th": "ลึกลับ"
+  },
+  {
+    "en": "affection",
+    "th": "ความรักใคร่"
+  },
+  {
+    "en": "offend",
+    "th": "ขัดใจ"
+  },
+  {
+    "en": "mattress",
+    "th": "ที่นอน"
+  },
+  {
+    "en": "bobbers",
+    "th": "ทุ่นลอยน้ำ"
+  },
+  {
+    "en": "sailing",
+    "th": "การแล่นเรือใบ"
+  },
+  {
+    "en": "thearther",
+    "th": "โรงภาพยนตร์"
+  },
+  {
+    "en": "possibility",
+    "th": "ความเป็นไปได้"
+  },
+  {
+    "en": "resemble",
+    "th": "คล้ายคลึง"
+  },
+  {
+    "en": "meanwhile",
+    "th": "ในขณะเดียวกัน"
+  },
+  {
+    "en": "patience",
+    "th": "ความอดทน"
+  },
+  {
+    "en": "greatest",
+    "th": "ยิ่งใหญ่ที่สุด"
+  },
+  {
+    "en": "disrespectful",
+    "th": "ไม่เคารพ"
+  },
+  {
+    "en": "beyond",
+    "th": "เกิน"
+  },
+  {
+    "en": "gap",
+    "th": "ช่องว่าง"
+  },
+  {
+    "en": "rumor",
+    "th": "ข่าวลือ"
+  },
+  {
+    "en": "stringent",
+    "th": "เข้มงวด"
+  },
+  {
+    "en": "ownership",
+    "th": "การเป็นเจ้าของ"
+  },
+  {
+    "en": "stakeholders",
+    "th": "ผู้ถือผลประโยชน์"
+  },
+  {
+    "en": "Inadequate",
+    "th": "ไม่เพียงพอ"
+  },
+  {
+    "en": "utilities",
+    "th": "สาธารณูปโภค"
+  },
+  {
+    "en": "reflaction",
+    "th": "การสะท้อนกลับ"
+  },
+  {
+    "en": "disaster",
+    "th": "ภัยพิบัติ"
+  },
+  {
+    "en": "convey",
+    "th": "ถ่ายทอด"
+  },
+  {
+    "en": "potential",
+    "th": "ศักยภาพ"
+  },
+  {
+    "en": "advoid",
+    "th": "หลีกเลี่ยง"
+  },
+  {
+    "en": "repayment",
+    "th": "การชำระหนี้"
+  },
+  {
+    "en": "expense",
+    "th": "ค่าใช้จ่าย"
+  },
+  {
+    "en": "loan",
+    "th": "เงินกู้"
+  },
+  {
+    "en": "debt",
+    "th": "หนี้"
+  },
+  {
+    "en": "restrictions",
+    "th": "ข้อจำกัด"
+  },
+  {
+    "en": "reflect",
+    "th": "สะท้อน"
+  },
+  {
+    "en": "vast",
+    "th": "กว้างใหญ่"
+  },
+  {
+    "en": "utility",
+    "th": "คุณประโยชน์"
+  },
+  {
+    "en": "Annexe",
+    "th": "ภาคผนวก"
+  },
+  {
+    "en": "Annexed",
+    "th": "แนบท้าย"
+  },
+  {
+    "en": "respect",
+    "th": "เคารพ"
+  },
+  {
+    "en": "convenience",
+    "th": "ความสะดวก"
+  },
+  {
+    "en": "rise",
+    "th": "ลุกขึ้น"
+  },
+  {
+    "en": "sesame",
+    "th": "งา"
+  },
+  {
+    "en": "strategy",
+    "th": "กลยุทธ์"
+  },
+  {
+    "en": "idol",
+    "th": "รูปเคารพ"
+  },
+  {
+    "en": "designate",
+    "th": "กำหนด"
+  },
+  {
+    "en": "anxious",
+    "th": "กังวล"
+  },
+  {
+    "en": "pleasant",
+    "th": "เพลิดเพลิน"
+  },
+  {
+    "en": "anemy",
+    "th": "ศัตรู"
+  },
+  {
+    "en": "innumerable",
+    "th": "นับไม่ถ้วน"
+  },
+  {
+    "en": "diagnosed",
+    "th": "การวินิจฉัย"
+  },
+  {
+    "en": "applause",
+    "th": "เสียงปรบมือ"
+  },
+  {
+    "en": "regulation",
+    "th": "ระเบียบข้อบังคับ"
+  },
+  {
+    "en": "instrument",
+    "th": "อุปกรณ์"
+  },
+  {
+    "en": "ridiculous",
+    "th": "น่าขัน"
+  },
+  {
+    "en": "cuss",
+    "th": "คำสบถ"
+  },
+  {
+    "en": "risque",
+    "th": "บทประพันธ์"
+  },
+  {
+    "en": "sideburns",
+    "th": "จอน"
+  },
+  {
+    "en": "majority",
+    "th": "ส่วนใหญ่"
+  },
+  {
+    "en": "undivided",
+    "th": "ไม่แบ่งแยก"
+  },
+  {
+    "en": "undivide",
+    "th": "แบ่งแยก"
+  },
+  {
+    "en": "dilemma",
+    "th": "ปัญหาที่น่าหนักใจ"
+  },
+  {
+    "en": "anxiety",
+    "th": "ความวิตกกังวล"
+  },
+  {
+    "en": "pity",
+    "th": "สงสาร"
+  },
+  {
+    "en": "cynical",
+    "th": "คนเยาะเย้ยถากถาง"
+  },
+  {
+    "en": "prison",
+    "th": "คุก"
+  },
+  {
+    "en": "neatly",
+    "th": "อย่างเรียบร้อย"
+  },
+  {
+    "en": "Readinesse",
+    "th": "ความพร้อม"
+  },
+  {
+    "en": "instance",
+    "th": "ตัวอย่าง"
+  },
+  {
+    "en": "rigorously",
+    "th": "อย่างเคร่งครัด"
+  },
+  {
+    "en": "naked",
+    "th": "เปลือยกาย"
+  },
+  {
+    "en": "obstacle",
+    "th": "อุปสรรค"
+  },
+  {
+    "en": "flirting",
+    "th": "การเกี้ยวพาราสี"
+  },
+  {
+    "en": "authority",
+    "th": "อำนาจ"
+  },
+  {
+    "en": "Punishment",
+    "th": "การลงโทษ"
+  },
+  {
+    "en": "carrier",
+    "th": "ผู้ให้บริการ"
+  },
+  {
+    "en": "intertwined",
+    "th": "พันกัน"
+  },
+  {
+    "en": "balcony",
+    "th": "ระเบียง"
+  },
+  {
+    "en": "quit",
+    "th": "ล้มเลิก"
+  },
+  {
+    "en": "disturb",
+    "th": "รบกวน"
+  },
+  {
+    "en": "colour",
+    "th": "สี"
+  },
+  {
+    "en": "convince",
+    "th": "โน้มน้าวใจ"
+  },
+  {
+    "en": "thirsty",
+    "th": "กระหายน้ำ"
+  },
+  {
+    "en": "defensive",
+    "th": "การป้องกัน"
+  },
+  {
+    "en": "therapy",
+    "th": "การบำบัด"
+  },
+  {
+    "en": "dehydrated",
+    "th": "ขาดน้ำ"
+  },
+  {
+    "en": "appreciate",
+    "th": "ชื่นชม"
+  },
+  {
+    "en": "evidence",
+    "th": "หลักฐาน"
+  },
+  {
+    "en": "encourage",
+    "th": "ให้กำลังใจ"
+  },
+  {
+    "en": "critical",
+    "th": "วิกฤต"
+  },
+  {
+    "en": "defective",
+    "th": "มีข้อบกพร่อง"
+  },
+  {
+    "en": "escape",
+    "th": "หนี"
+  },
+  {
+    "en": "react",
+    "th": "ตอบสนอง"
+  },
+  {
+    "en": "irregular",
+    "th": "ไม่สม่ำเสมอ"
+  },
+  {
+    "en": "cutlery",
+    "th": "ช้อนส้อม"
+  },
+  {
+    "en": "priest",
+    "th": "พระสงฆ์"
+  },
+  {
+    "en": "consistent",
+    "th": "สม่ำเสมอ"
+  },
+  {
+    "en": "tropical",
+    "th": "เขตร้อน"
+  },
+  {
+    "en": "hospitality",
+    "th": "การต้อนรับ"
+  },
+  {
+    "en": "collectively",
+    "th": "โดยรวม"
+  },
+  {
+    "en": "ambiguity",
+    "th": "ความคลุมเครือ"
+  },
+  {
+    "en": "opposed",
+    "th": "คัดค้าน"
+  },
+  {
+    "en": "consent",
+    "th": "ยินยอม"
+  },
+  {
+    "en": "flaw",
+    "th": "ข้อบกพร่อง"
+  },
+  {
+    "en": "toodles",
+    "th": "ลูกเต๋า"
+  },
+  {
+    "en": "head south east",
+    "th": "มุ่งหน้าไปทางทิศตะวันออกเฉียงใต้"
+  },
+  {
+    "en": "doubt",
+    "th": "สงสัย"
+  },
+  {
+    "en": "avoid",
+    "th": "หลีกเลี่ยง"
+  },
+  {
+    "en": "synonym",
+    "th": "คำพ้องความหมาย"
+  },
+  {
+    "en": "antonym",
+    "th": "คำตรงข้าม"
+  },
+  {
+    "en": "crowd",
+    "th": "ฝูงชน"
+  },
+  {
+    "en": "spank",
+    "th": "ตี"
+  },
+  {
+    "en": "circumstance",
+    "th": "สถานการณ์"
+  },
+  {
+    "en": "circumstances",
+    "th": "สถานการณ์"
+  },
+  {
+    "en": "laid",
+    "th": "วาง"
+  },
+  {
+    "en": "liar",
+    "th": "คนโกหก"
+  },
+  {
+    "en": "confess",
+    "th": "สารภาพ"
+  },
+  {
+    "en": "familiar",
+    "th": "คุ้นเคย"
+  },
+  {
+    "en": "outage",
+    "th": "ไฟดับ"
+  },
+  {
+    "en": "resurrecting",
+    "th": "การฟื้นคืนชีพ"
+  },
+  {
+    "en": "extent",
+    "th": "ขอบเขต"
+  },
+  {
+    "en": "intelligence",
+    "th": "ปัญญา"
+  },
+  {
+    "en": "suffer",
+    "th": "ทุกข์ทรมาน"
+  },
+  {
+    "en": "preserve",
+    "th": "อนุรักษ์"
+  },
+  {
+    "en": "preserves",
+    "th": "เก็บรักษา"
+  },
+  {
+    "en": "examine",
+    "th": "พิจารณา"
+  },
+  {
+    "en": "bread",
+    "th": "ขนมปัง"
+  },
+  {
+    "en": "butter",
+    "th": "เนย"
+  },
+  {
+    "en": "slightly",
+    "th": "เล็กน้อย"
+  },
+  {
+    "en": "convenient",
+    "th": "สะดวก"
+  },
+  {
+    "en": "obvious",
+    "th": "ชัดเจน"
+  },
+  {
+    "en": "fraudulent",
+    "th": "หลอกลวง"
+  },
+  {
+    "en": "hesitate",
+    "th": "ลังเล"
+  },
+  {
+    "en": "hysterical",
+    "th": "ตีโพยตีพาย"
+  },
+  {
+    "en": "patient",
+    "th": "อดทน"
+  },
+  {
+    "en": "prosperous",
+    "th": "รุ่งเรือง"
+  },
+  {
+    "en": "nervous",
+    "th": "ประหม่า"
+  },
+  {
+    "en": "preferences",
+    "th": "การตั้งค่า"
+  },
+  {
+    "en": "greet",
+    "th": "ทักทาย"
+  },
+  {
+    "en": "effort",
+    "th": "ความพยายาม"
+  },
+  {
+    "en": "straightforward",
+    "th": "ตรงไปตรงมา"
+  },
+  {
+    "en": "frustration",
+    "th": "แห้ว"
+  },
+  {
+    "en": "franchise",
+    "th": "แฟรนไชส์"
+  },
+  {
+    "en": "decision",
+    "th": "การตัดสินใจ"
+  },
+  {
+    "en": "essential",
+    "th": "จำเป็น"
+  },
+  {
+    "en": "insistent",
+    "th": "ยืนกราน"
+  },
+  {
+    "en": "fence",
+    "th": "รั้ว"
+  },
+  {
+    "en": "Impedance",
+    "th": "ความต้านทาน"
+  },
+  {
+    "en": "estimation",
+    "th": "การประมาณค่า"
+  },
+  {
+    "en": "visualize",
+    "th": "เห็นภาพ"
+  },
+  {
+    "en": "Easier",
+    "th": "ง่ายขึ้น"
+  },
+  {
+    "en": "Emergency",
+    "th": "ภาวะฉุกเฉิน"
+  },
+  {
+    "en": "pride",
+    "th": "ความภาคภูมิใจ"
+  },
+  {
+    "en": "contrast",
+    "th": "ตัดกัน"
+  },
+  {
+    "en": "appetizer",
+    "th": "อาหารเรียกน้ำย่อย"
+  },
+  {
+    "en": "bragging",
+    "th": "เป้อเย้อ"
+  },
+  {
+    "en": "blow",
+    "th": "เป่า"
+  },
+  {
+    "en": "olden",
+    "th": "แก่ลง"
+  },
+  {
+    "en": "ruined",
+    "th": "เจ๊ง"
+  },
+  {
+    "en": "bastard",
+    "th": "ไอ้สารเลว"
+  },
+  {
+    "en": "idiots",
+    "th": "งี่เง่า"
+  },
+  {
+    "en": "tolerate",
+    "th": "ทนต่อ"
+  },
+  {
+    "en": "authentic",
+    "th": "แท้"
+  },
+  {
+    "en": "legally",
+    "th": "ถูกต้องตามกฎหมาย"
+  },
+  {
+    "en": "chemistry",
+    "th": "เคมี"
+  },
+  {
+    "en": "admaire",
+    "th": "ชื่นชม"
+  },
+  {
+    "en": "delightful",
+    "th": "น่ารื่นรมย์"
+  },
+  {
+    "en": "deceitful",
+    "th": "หลอกลวง"
+  },
+  {
+    "en": "flirty",
+    "th": "จีบ"
+  },
+  {
+    "en": "awfully",
+    "th": "อย่างมาก"
+  },
+  {
+    "en": "suspect",
+    "th": "สงสัย"
+  },
+  {
+    "en": "resist",
+    "th": "ต้านทาน"
+  },
+  {
+    "en": "tongue",
+    "th": "ลิ้น"
+  },
+  {
+    "en": "acquire",
+    "th": "ได้รับ"
+  },
+  {
+    "en": "courage",
+    "th": "ความกล้าหาญ"
+  },
+  {
+    "en": "influencer",
+    "th": "ผู้มีอิทธิพล"
+  },
+  {
+    "en": "fuel",
+    "th": "เชื้อเพลิง"
+  },
+  {
+    "en": "plane",
+    "th": "เครื่องบิน"
+  },
+  {
+    "en": "commitment",
+    "th": "ความมุ่งมั่น"
+  },
+  {
+    "en": "consistency",
+    "th": "ความสม่ำเสมอ"
+  },
+  {
+    "en": "gorgeous",
+    "th": "งดงาม"
+  },
+  {
+    "en": "sauce",
+    "th": "ซอส"
+  },
+  {
+    "en": "misplacement",
+    "th": "การวางผิดที่"
+  },
+  {
+    "en": "cushion",
+    "th": "เบาะ"
+  },
+  {
+    "en": "fold",
+    "th": "พับ"
+  },
+  {
+    "en": "appreciating",
+    "th": "ชื่นชม"
+  },
+  {
+    "en": "distracted",
+    "th": "ฟุ้งซ่าน"
+  },
+  {
+    "en": "spread",
+    "th": "การแพร่กระจาย"
+  },
+  {
+    "en": "cure",
+    "th": "รักษา"
+  },
+  {
+    "en": "irritation",
+    "th": "การระคายเคือง"
+  },
+  {
+    "en": "workbench",
+    "th": "โต๊ะทำงาน"
+  },
+  {
+    "en": "bound",
+    "th": "ผูกพัน"
+  },
+  {
+    "en": "mechanism",
+    "th": "กลไก"
+  },
+  {
+    "en": "splunk",
+    "th": "ความกล้าหาญ"
+  },
+  {
+    "en": "milestones",
+    "th": "เหตุการณ์สำคัญ"
+  },
+  {
+    "en": "insist",
+    "th": "ยืนกราน"
+  },
+  {
+    "en": "ruin",
+    "th": "ทำลาย"
+  },
+  {
+    "en": "specialize",
+    "th": "เชี่ยวชาญ"
+  },
+  {
+    "en": "Intelligent",
+    "th": "ฉลาด"
+  },
+  {
+    "en": "Calibration",
+    "th": "การสอบเทียบ"
+  },
+  {
+    "en": "thoughts",
+    "th": "ความคิด"
+  },
+  {
+    "en": "stencil",
+    "th": "ลายฉลุ"
+  },
+  {
+    "en": "flirt",
+    "th": "เจ้าชู้"
+  },
+  {
+    "en": "bounded",
+    "th": "ขอบเขต"
+  },
+  {
+    "en": "estimate",
+    "th": "ประมาณการ"
+  },
+  {
+    "en": "dismantle",
+    "th": "รื้อ"
+  },
+  {
+    "en": "raise",
+    "th": "ยก"
+  },
+  {
+    "en": "scuffed",
+    "th": "ถลอก"
+  },
+  {
+    "en": "shortage",
+    "th": "การขาดแคลน"
+  },
+  {
+    "en": "plural",
+    "th": "พหูพจน์"
+  },
+  {
+    "en": "agencies",
+    "th": "หน่วยงาน"
+  },
+  {
+    "en": "coordinate",
+    "th": "ประสานงาน"
+  },
+  {
+    "en": "exclude",
+    "th": "ไม่รวม"
+  },
+  {
+    "en": "curiosity",
+    "th": "ความอยากรู้"
+  },
+  {
+    "en": "myth",
+    "th": "ตำนาน"
+  },
+  {
+    "en": "satisfying",
+    "th": "น่าพอใจ"
+  },
+  {
+    "en": "Investigate",
+    "th": "สอบสวน"
+  },
+  {
+    "en": "Demotivated",
+    "th": "ลดระดับ"
+  },
+  {
+    "en": "Criteria",
+    "th": "เกณฑ์"
+  },
+  {
+    "en": "Acceptance",
+    "th": "การยอมรับ"
+  },
+  {
+    "en": "Pioneer",
+    "th": "ผู้บุกเบิก"
+  },
+  {
+    "en": "thus",
+    "th": "ดังนั้น"
+  },
+  {
+    "en": "honor",
+    "th": "ให้เกียรติ"
+  },
+  {
+    "en": "shame",
+    "th": "ความอัปยศ"
+  },
+  {
+    "en": "establish",
+    "th": "สร้าง"
+  },
+  {
+    "en": "Automobile",
+    "th": "รถยนต์"
+  },
+  {
+    "en": "alternative",
+    "th": "ทางเลือก"
+  },
+  {
+    "en": "indirect",
+    "th": "ทางอ้อม"
+  },
+  {
+    "en": "pour",
+    "th": "เท"
+  },
+  {
+    "en": "railyard",
+    "th": "ลานรถไฟ"
+  },
+  {
+    "en": "delighted",
+    "th": "ดีใจ"
+  },
+  {
+    "en": "costly",
+    "th": "มีราคาแพง"
+  },
+  {
+    "en": "peripheral",
+    "th": "อุปกรณ์ต่อพ่วง"
+  },
+  {
+    "en": "intermediate",
+    "th": "ระดับกลาง"
+  },
+  {
+    "en": "confront",
+    "th": "เผชิญหน้า"
+  },
+  {
+    "en": "existence",
+    "th": "การดำรงอยู่"
+  },
+  {
+    "en": "launched",
+    "th": "เปิดตัว"
+  },
+  {
+    "en": "slash",
+    "th": "เฉือน"
+  },
+  {
+    "en": "adaptation",
+    "th": "การปรับตัว"
+  },
+  {
+    "en": "stare",
+    "th": "จ้อง"
+  },
+  {
+    "en": "arrest",
+    "th": "จับกุม"
+  },
+  {
+    "en": "dictator",
+    "th": "เผด็จการ"
+  },
+  {
+    "en": "testimony",
+    "th": "คำให้การ"
+  },
+  {
+    "en": "express",
+    "th": "ด่วน"
+  },
+  {
+    "en": "cosmopolitan",
+    "th": "ความเป็นสากล"
+  },
+  {
+    "en": "senator",
+    "th": "วุฒิสมาชิก"
+  },
+  {
+    "en": "genocide",
+    "th": "การฆ่าล้างเผ่าพันธุ์"
+  },
+  {
+    "en": "buffer",
+    "th": "กันชน"
+  },
+  {
+    "en": "polishing",
+    "th": "ขัด"
+  },
+  {
+    "en": "solder",
+    "th": "ประสาน"
+  },
+  {
+    "en": "reflow",
+    "th": "ไหลซ้ำ"
+  },
+  {
+    "en": "oxidation",
+    "th": "ออกซิเดชัน"
+  },
+  {
+    "en": "cheap",
+    "th": "ราคาถูก"
+  },
+  {
+    "en": "thoroughly",
+    "th": "อย่างละเอียด"
+  },
+  {
+    "en": "exposed",
+    "th": "ถูกเปิดเผย"
+  },
+  {
+    "en": "exporsed",
+    "th": "เปิดเผย"
+  },
+  {
+    "en": "rumours",
+    "th": "ข่าวลือ"
+  },
+  {
+    "en": "rumors",
+    "th": "ข่าวลือ"
+  },
+  {
+    "en": "alarmed",
+    "th": "ตื่นตระหนก"
+  },
+  {
+    "en": "collude",
+    "th": "สมรู้ร่วมคิด"
+  },
+  {
+    "en": "conclude",
+    "th": "สรุป"
+  },
+  {
+    "en": "insult",
+    "th": "สบประมาท"
+  },
+  {
+    "en": "appropriate",
+    "th": "เหมาะสม"
+  },
+  {
+    "en": "penalty",
+    "th": "การลงโทษ"
+  },
+  {
+    "en": "inconvenient",
+    "th": "ไม่สะดวก"
+  },
+  {
+    "en": "annual",
+    "th": "ประจำปี"
+  },
+  {
+    "en": "discuss",
+    "th": "หารือ"
+  },
+  {
+    "en": "vibe",
+    "th": "บรรยากาศ"
+  },
+  {
+    "en": "leake",
+    "th": "รั่วไหล"
+  },
+  {
+    "en": "upon",
+    "th": "เมื่อ"
+  },
+  {
+    "en": "hold",
+    "th": "ถือ"
+  },
+  {
+    "en": "transmission",
+    "th": "การแพร่เชื้อ"
+  },
+  {
+    "en": "prohibit",
+    "th": "ห้าม"
+  },
+  {
+    "en": "instruction",
+    "th": "คำแนะนำ"
+  },
+  {
+    "en": "desire",
+    "th": "ความต้องการ"
+  },
+  {
+    "en": "polite",
+    "th": "สุภาพ"
+  },
+  {
+    "en": "launch",
+    "th": "ปล่อย"
+  },
+  {
+    "en": "fluent",
+    "th": "คล่องแคล่ว"
+  },
+  {
+    "en": "mature",
+    "th": "เป็นผู้ใหญ่"
+  },
+  {
+    "en": "thermal",
+    "th": "ความร้อน"
+  },
+  {
+    "en": "manner",
+    "th": "มารยาท"
+  },
+  {
+    "en": "promptly",
+    "th": "ทันที"
+  },
+  {
+    "en": "unlawful",
+    "th": "ผิดกฎหมาย"
+  },
+  {
+    "en": "distribute",
+    "th": "แจกจ่าย"
+  },
+  {
+    "en": "disseminate",
+    "th": "เผยแพร่"
+  },
+  {
+    "en": "reproduce",
+    "th": "ทำซ้ำ"
+  },
+  {
+    "en": "recipient",
+    "th": "ผู้รับ"
+  },
+  {
+    "en": "intend",
+    "th": "ตั้งใจ"
+  },
+  {
+    "en": "privileged",
+    "th": "มีสิทธิพิเศษ"
+  },
+  {
+    "en": "confidential",
+    "th": "เป็นความลับ"
+  },
+  {
+    "en": "conclusion",
+    "th": "บทสรุป"
+  },
+  {
+    "en": "jealous",
+    "th": "อิจฉา"
+  },
+  {
+    "en": "sweater",
+    "th": "เสื้อกันหนาว"
+  },
+  {
+    "en": "stain",
+    "th": "คราบ"
+  },
+  {
+    "en": "massive",
+    "th": "มโหฬาร"
+  },
+  {
+    "en": "guarantee",
+    "th": "รับประกัน"
+  },
+  {
+    "en": "literally",
+    "th": "อย่างแท้จริง"
+  },
+  {
+    "en": "reach",
+    "th": "เข้าถึง"
+  },
+  {
+    "en": "satisfaction",
+    "th": "ความพึงพอใจ"
+  },
+  {
+    "en": "surgery",
+    "th": "การผ่าตัด"
+  },
+  {
+    "en": "rewind",
+    "th": "ย้อนกลับ"
+  },
+  {
+    "en": "revenue",
+    "th": "รายได้"
+  },
+  {
+    "en": "consequences",
+    "th": "ผลที่ตามมา"
+  },
+  {
+    "en": "ease",
+    "th": "ผ่อนปรน"
+  },
+  {
+    "en": "endure",
+    "th": "อดทน"
+  },
+  {
+    "en": "embrace",
+    "th": "โอบกอด"
+  },
+  {
+    "en": "toughest",
+    "th": "ยากที่สุด"
+  },
+  {
+    "en": "candles",
+    "th": "เทียน"
+  },
+  {
+    "en": "gradually",
+    "th": "ค่อยๆ"
+  },
+  {
+    "en": "emerged",
+    "th": "โผล่ออกมา"
+  },
+  {
+    "en": "tightly",
+    "th": "แน่น"
+  },
+  {
+    "en": "burdensome",
+    "th": "เป็นภาระ"
+  },
+  {
+    "en": "announcement",
+    "th": "ประกาศ"
+  },
+  {
+    "en": "over",
+    "th": "มากกว่า"
+  },
+  {
+    "en": "pretend",
+    "th": "แกล้งทำ"
+  },
+  {
+    "en": "it'll go having an attendance metting",
+    "th": "มันจะไปมีการประชุมเข้าร่วมประชุม"
+  },
+  {
+    "en": "I'll go having an attendance meeting",
+    "th": "ฉันจะไปประชุมงาน"
+  },
+  {
+    "en": "attendent",
+    "th": "ผู้เข้าร่วม"
+  },
+  {
+    "en": "election",
+    "th": "การเลือกตั้ง"
+  },
+  {
+    "en": "renewal",
+    "th": "ต่ออายุ"
+  },
+  {
+    "en": "muscle",
+    "th": "กล้ามเนื้อ"
+  },
+  {
+    "en": "entire",
+    "th": "ทั้งหมด"
+  },
+  {
+    "en": "pressures",
+    "th": "ความกดดัน"
+  },
+  {
+    "en": "adorable",
+    "th": "น่ารัก"
+  },
+  {
+    "en": "apparently",
+    "th": "เห็นได้ชัดว่า"
+  },
+  {
+    "en": "obviously",
+    "th": "อย่างชัดเจน"
+  },
+  {
+    "en": "Vacation",
+    "th": "Vacation"
+  },
+  {
+    "en": "situation",
+    "th": "สถานการณ์"
+  },
+  {
+    "en": "cafeteria",
+    "th": "โรงอาหาร"
+  },
+  {
+    "en": "Illegal",
+    "th": "ผิดกฎหมาย"
+  },
+  {
+    "en": "bitter",
+    "th": "苦的"
+  },
+  {
+    "en": "treat",
+    "th": "รักษา"
+  },
+  {
+    "en": "favorite",
+    "th": "ที่ชื่นชอบ"
+  },
+  {
+    "en": "taught",
+    "th": "สอน"
+  },
+  {
+    "en": "cruel",
+    "th": "โหดร้าย"
+  },
+  {
+    "en": "straight",
+    "th": "ตรง"
+  },
+  {
+    "en": "previously",
+    "th": "ก่อนหน้านี้"
+  },
+  {
+    "en": "seldom",
+    "th": "ไม่ค่อย"
+  },
+  {
+    "en": "เช็คใหม่",
+    "th": "new check"
+  },
+  {
+    "en": "something",
+    "th": "บางสิ่งบางอย่าง"
+  },
+  {
+    "en": "nasty",
+    "th": "น่ารังเกียจ"
+  },
+  {
+    "en": "earlier",
+    "th": "ก่อนหน้านี้"
+  },
+  {
+    "en": "repository",
+    "th": "ที่เก็บ"
+  },
+  {
+    "en": "a lot of times",
+    "th": "เวลาเยอะ"
+  },
+  {
+    "en": "defects",
+    "th": "ข้อบกพร่อง"
+  },
+  {
+    "en": "เจ็บปวด",
+    "th": "painful"
+  },
+  {
+    "en": "i have business to do",
+    "th": "ฉันมีธุระต้องทำ"
+  },
+  {
+    "en": "ประเมิน",
+    "th": "Estimate"
+  },
+  {
+    "en": "สถาบัน",
+    "th": "Institution"
+  },
+  {
+    "en": "holder",
+    "th": "เจ้าของ"
+  }
+]

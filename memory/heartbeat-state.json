@@ -1,9 +1,10 @@
 {
   "lastChecks": {
-    "email": 1748238780,
-    "calendar": 1748238780,
-    "weather": 1748238780
+    "email": 1748948400,
+    "calendar": 1748948400,
+    "weather": 1748329200
   },
-  "lastMorningBriefing": "2026-06-01T07:53+07:00",
-  "lastEveningShutdown": "2026-05-15T19:44+07:00"
+  "lastMorningBriefing": "2026-06-02T07:00+07:00",
+  "lastEveningShutdown": "2026-06-03T20:09+07:00",
+  "lastHeartbeat": "2026-06-03T22:15+07:00"
 }

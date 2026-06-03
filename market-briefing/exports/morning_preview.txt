@@ -1,0 +1,21 @@
+📊 Pre-Market Briefing — June 02, 2026
+
+🌍 Global Markets:
+- S&P 500 Futures: ES: None (n/a)
+- NASDAQ Futures: NQ: None (n/a)
+- European Markets: FTSE: not open / no data; DAX: not open / no data; CAC: not open / no data
+- Asian Markets: Shanghai: closed / no data; Nikkei proxy unavailable — using Alibaba ADR: closed / no data
+
+📰 Key Events Today:
+- US earnings on deck: check finviz/econcal for today’s releases
+- Economic data: see economic calendar for scheduled macro prints
+- Fed/central banks: no auto feed — confirm via calendar source
+
+📈 Watchlist Updates:
+- O: $59.83 overnight (+0.13%)
+- SMH: $628.50 overnight (+3.34%)
+- JEPQ: $60.82 overnight (+0.30%)
+
+⚠️ Risk Alerts:
+- VIX: 16.06 (+0.06%) — quiet-ish
+

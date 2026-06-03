@@ -3,8 +3,8 @@
 ```json
 {
   "lastChecks": {
-    "heartbeat": 1779519960000,
-    "evening-shutdown": 1780208040000,
+    "heartbeat": 1780499722000,
+    "evening-shutdown": 1780492140000,
     "morning-briefing": 1779282840000
   }
 }
