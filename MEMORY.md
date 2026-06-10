@@ -3,7 +3,7 @@
 ## User Info
 - **Name**: Best Wuttipong
 - **Discord**: best.wuttipong (id: 1313876113776312391)
-- **Email**: bed.wuttipong@gmail.com
+- **Email**: bed.wuttipong@gmail.com (also has **Hotmail** — personal)
 
 ## Personal Preferences
 - Style: lowercase only, emojis everywhere, casual 😎
@@ -16,16 +16,20 @@
 
 ## Tools & Integrations
 
-### Todoist
-- **Skill**: `skills/todoist/SKILL.md`
-- **CLI**: `~/.npm-global/bin/todoist`
-- **Token**: stored at `~/.config/todoist-cli/config.json`
-- **Commands**: today, tasks, add, done, projects, search
-- **Setup**: Installed `todoist-ts-cli@^0.2.0`, authenticated on 2026-05-11
-- **Stale onboarding tasks to delete (from July):**
-  - `66JVrQMcwJVpWWJP` — productivity method quiz
-  - `66JWCcCpRVxWqjfw` — free apps and plugins  
-  - `66JWQjRr2p4QXj4w` — getting started guide
+### ~~Todoist~~ (deprecated 2026-06-05)
+- **Status**: No longer used — switched to Slack Project tracker
+- **Reason**: Jeff prefers the Slack List workflow for task tracking
+- **Legacy info**: CLI at `~/.npm-global/bin/todoist`, token at `~/.config/todoist-cli/config.json`
+
+### Slack Project Tracker (active task system)
+- **Added**: 2026-06-05
+- **File ID**: `F0AQ9CED5MF`
+- **Location**: Slack workspace `T0AMK5LU20P`
+- **Columns**: Task, Assignee, Due date, Priority (⭐1-3), Status, Description
+- **Statuses**: Not started (gray), In progress (purple), Blocked (pink), Done (green)
+- **Views**: Record, All items, Status (board), Not done, Done, Priority, Assigned to me, Incomplete items, Completed items, To-do list
+- **Current tasks**: ~27 items (as of 2026-06-05)
+- **Usage**: Jeff adds tasks here going forward — no more Todoist
 
 ### Commute Traffic
 - **Skill**: `openclaw-commute-traffic` (TomTom API)
@@ -36,12 +40,13 @@
 ### Morning Briefing
 - **Script**: `bash skills/morning-briefing/morning-briefing.sh`
 - **Run**: During morning heartbeats (7-9 AM) or on demand
-- **Pulls**: weather, Todoist today, AgentMail inbox, Obsidian recent note
+- **Pulls**: weather, **Slack Project tracker** (not Todoist), AgentMail inbox, Obsidian recent note
 
 ### Weekly Review
 - **Script**: `bash skills/weekly-review/weekly-review.sh`
 - **Run**: Fridays (evening) or Saturdays (morning)
-- **Cleans**: stale Todoist tasks, captures weekly wins/priorities
+- **Cleans**: ~~stale Todoist tasks~~ (now uses Slack Project tracker), captures weekly wins/priorities
+- **Note**: Todoist audit section should be updated to check Slack Project tracker status instead
 
 ## Active Projects
 
@@ -60,6 +65,23 @@
   - Fozzie: `1501897131508760647`
   - Kermit: `1501837287439470693`
 - **Status**: Delegation workflow identified but not yet automated — Jeff handles manually
+
+### Slack Files, Canvases & Lists Operations Guide
+- **Guide location**: `~/Smith/skills/slack/SLACK_GUIDE.md`
+- **Created**: 2026-06-05
+- **Key insight**: The `message` tool has limited Slack file/canvas support — use `curl` with `$SLACK_BOT_TOKEN` for advanced operations
+- **Never say "I can't access Slack files/canvases"** — use HTTP API directly instead
+- **Quick reference**:
+  - Create canvas: `POST /canvases.create` with `document_content: {type: "markdown", markdown: "..."}`
+  - Share canvas: `POST /chat.postMessage` with canvas link (files.share requires user token)
+  - List/search files: `GET /files.list?types=quip&count=20`
+  - Get file info: `GET /files.info?file=FILE_ID`
+- **Known IDs**:
+  - Project tracker list: `F0AQ9CED5MF`
+  - Team (FlexpakHQ): `T0AMK5LU20P`
+  - DM with Jeff: `D0AV4PTTKDK`
+  - #proj-ebox: `C0ANY2EULCA`
+- **Canvas URL pattern**: `https://flexpakhq.slack.com/docs/T0AMK5LU20P/FILE_ID`
 
 ## Known Issues / TODOs
 

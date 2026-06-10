@@ -2,7 +2,6 @@
   "generatedBy": "openclaw-plugin-model-catalog-v1",
   "providers": {
     "nvidia": {
-      "api": "openai-completions",
       "baseUrl": "https://integrate.api.nvidia.com/v1",
       "models": [
         {
@@ -66,6 +65,7 @@
           "reasoning": false
         }
       ],
+      "api": "openai-completions",
       "apiKey": "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"
     }
   }

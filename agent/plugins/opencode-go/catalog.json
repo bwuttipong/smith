@@ -3,7 +3,6 @@
   "providers": {
     "opencode-go": {
       "baseUrl": "https://opencode.ai/zen/go/v1",
-      "api": "openai-completions",
       "models": [
         {
           "id": "deepseek-v4-flash",
@@ -52,6 +51,7 @@
           }
         }
       ],
+      "api": "openai-completions",
       "apiKey": "OPENCODE_API_KEY"
     }
   }

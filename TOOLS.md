@@ -37,6 +37,15 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+## LINE Channel Gotchas
+
+### ⚠️ Markdown code blocks stripped
+LINE **eats** content wrapped in triple backticks (` ``` `). When sending shell commands, code, or anything inside code fences via LINE, the content goes blank.
+
+**Fix:** Write commands as plain text, no fences. Works every time.
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
 
 ## Bear Notes (via grizzly CLI)

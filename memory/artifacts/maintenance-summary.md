@@ -1,28 +1,28 @@
-# Memory Maintenance Summary
-## Date: Wednesday, June 3rd, 2026
+# Midnight Memory Maintenance Summary (2026-06-10)
 
-### Step 1: Exec memory-maintenance.sh
-- Command: ~/Smith/scripts/memory-maintenance.sh
-- Timeout: 600s
-- Output: (no output)
-- Status: Completed (assuming success as no error reported)
+## qmd update
+- Memory collection: 0 new, 0 updated, 15 unchanged.
+- Workspaces collection: 1 new, 1 updated, 258 unchanged.
+- Other collections: no changes.
 
-### Step 2: Wiki Lint
-- Issues: 7 total (0 errors, 7 warnings)
-- Contradictions: 0
-- Open questions: 0
-- Provenance gaps: 0
-- Report: reports/lint.md
-- Status: Completed with warnings
+## Embedding
+- Memory: all content hashes already have embeddings (no new embeddings). 
+- Workspaces: 2 chunks from 2 documents embedded.
 
-### Step 3: Memory Search Index Check
-- Query: "test"
-- MaxResults: 1
-- Results: [] (empty)
-- Backend: qmd
-- SearchMs: 365
-- Hits: 0
-- Status: Index is functional (returned empty results, not error)
+## Cleanup
+- Removed 1 orphaned embedding chunk.
+- Database vacuumed.
 
-### Overall Status
-All steps completed. Wiki lint reported 7 warnings; review reports/lint.md for details.
+## qmd status
+- Size: 259.7 MB
+- Vectors embedded: 12 101
+- Pending embeddings: 138
+- Last update: 5 hours ago.
+
+## Wiki lint
+- 7 warnings, 0 errors. Details in `reports/lint.md`.
+
+## Memory index check
+- Memory search query returned 0 results, indicating the index is operational.
+
+**All steps succeeded. No failures detected.**

@@ -43,3 +43,30 @@ Docker build fails on Apple Silicon due to platform mismatch
 
 ---
 
+
+## [LRN-20250609-001] correction
+
+**Logged**: 2025-06-09T15:14:00+07:00
+**Priority**: high
+**Status**: promoted
+**Area**: docs
+
+### Summary
+LINE strips markdown code blocks — commands wrapped in triple backticks get eaten entirely
+
+### Details
+When sending shell commands, code snippets, or anything wrapped in markdown code fences through the LINE channel, LINE strips the content, leaving only the surrounding text. The recipient sees placeholder text but the actual code is blank.
+
+This happened repeatedly in the 2026-06-09 session while sending nuget install instructions. The user had to correct me several times.
+
+### Suggested Action
+For LINE messages, NEVER use markdown code fences. Instead:
+- Write commands as plain text on their own line
+- Keep commands unformatted for visibility
+- Never wrap in ``` fences — LINE eats them
+
+### Metadata
+- Source: user_feedback
+- Tags: line, formatting, code_blocks
+
+---

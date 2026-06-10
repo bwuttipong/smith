@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "profiles": {
+    "ollama:default": {
+      "type": "api_key",
+      "provider": "ollama",
+      "key": "ollama-local"
+    },
+    "google:default": {
+      "type": "api_key",
+      "provider": "google",
+      "key": "AQ.Ab8RN6LVehizT-R0zzChIL0kI-wmDySxQ7yni-QwnX0upEJhDA"
+    },
+    "openrouter:default": {
+      "type": "api_key",
+      "provider": "openrouter",
+      "key": "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"
+    },
+    "minimax:global": {
+      "type": "api_key",
+      "provider": "minimax",
+      "key": "sk-cp-nrtUivjkC9J0eeV7Jatngl3bMfZTaIrBkl3fc3KMyWMYgOsG7ryKzDKuF9ZorgDqEzdQLFFpTOybDxTLSnsmn8gKaNF0WmngqnO7ro4Lje0DmL9gw3XfPMI"
+    },
+    "nvidia:default": {
+      "type": "api_key",
+      "provider": "nvidia",
+      "key": "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"
+    },
+    "lmstudio:default": {
+      "type": "api_key",
+      "provider": "lmstudio",
+      "keyRef": {
+        "source": "env",
+        "provider": "default",
+        "id": "LM_API_TOKEN"
+      }
+    },
+    "opencode:default": {
+      "type": "api_key",
+      "provider": "opencode",
+      "key": "sk-a4P2M9dlqBxqbjMhL5sq8BxnHNqwNGajeM3yNVoOMV7lhOAJwjn2Ts2LkGpfqM0i"
+    },
+    "opencode-go:default": {
+      "type": "api_key",
+      "provider": "opencode-go",
+      "key": "sk-a4P2M9dlqBxqbjMhL5sq8BxnHNqwNGajeM3yNVoOMV7lhOAJwjn2Ts2LkGpfqM0i"
+    },
+    "xai:bed.wuttipong@gmail.com": {
+      "type": "oauth",
+      "provider": "xai",
+      "email": "bed.wuttipong@gmail.com",
+      "access": "eyJ0eXAiOiJhdCtqd3QiLCJhbGciOiJFUzI1NiIsImtpZCI6Im9hdXRoMi1wcm9kdWN0aW9uLTIwMjYtMDItMTkifQ.eyJpc3MiOiJodHRwczovL2F1dGgueC5haSIsInN1YiI6IjViODc5MjJlLWVjMmYtNGNkMy05MDE1LTA4ZGY4YjYyOWJmZCIsImF1ZCI6ImIxYTAwNDkyLTA3M2EtNDdlYS04MTZmLTRjMzI5MjY0YTgyOCIsImV4cCI6MTc4MDQ3MjcyMiwiaWF0IjoxNzgwNDUxMTIyLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIG9mZmxpbmVfYWNjZXNzIGdyb2stY2xpOmFjY2VzcyBhcGk6YWNjZXNzIiwicHJpbmNpcGFsX3R5cGUiOiJVc2VyIiwicHJpbmNpcGFsX2lkIjoiNWI4NzkyMmUtZWMyZi00Y2QzLTkwMTUtMDhkZjhiNjI5YmZkIiwiY2xpZW50X2lkIjoiYjFhMDA0OTItMDczYS00N2VhLTgxNmYtNGMzMjkyNjRhODI4IiwianRpIjoiNDA2MTgwYmMtZTJjMS00NmM5LTk3YzctMWExNDk1NTFjOGE5IiwidGVhbV9pZCI6IjE2NmYzMjRhLTNkM2YtNGVlZi05NGEzLTViMGQ0MzY4YTQxZiIsInJlZmVycmVyIjoib3BlbmNsYXcifQ.879HTKvXvk3E0srME1pcsDBNrGgknoOSqJC8KtaajjSt0BlfaXaSM-eNC__FvmJQfZ2of00w102igeliH8HT0Q",
+      "refresh": "wAEBZpFL_Al8M7ke8g2f9Oj50SY0-Gxd3-93tc5fVedHYwI7VWvNih48KCqzgpP-oagXO5UcLAW4mknQaFbp1w",
+      "idToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6Im9hdXRoMi1wcm9kdWN0aW9uLTIwMjYtMDItMTkifQ.eyJpc3MiOiJodHRwczovL2F1dGgueC5haSIsInN1YiI6IjViODc5MjJlLWVjMmYtNGNkMy05MDE1LTA4ZGY4YjYyOWJmZCIsImF1ZCI6ImIxYTAwNDkyLTA3M2EtNDdlYS04MTZmLTRjMzI5MjY0YTgyOCIsImV4cCI6MTc4MDQzNTgxNSwiaWF0IjoxNzgwNDE0MjE1LCJub25jZSI6IjQwNTRhZDRiM2JjNGQ0YTQxODMzMjZmYzU1Yjk1YTEzIiwiZ2l2ZW5fbmFtZSI6Ild1dHRpcG9uZyIsImZhbWlseV9uYW1lIjoiVGhvbmdtb24iLCJlbWFpbCI6ImJlZC53dXR0aXBvbmdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9.y-V4M-E4aw8we6Kes4SZjBUYY1QbvNytECeWG7Nfax0Bsrh447KQDbebiKK42-VsRDIIPmQsxNaFqprX_38viQ",
+      "accountId": "5b87922e-ec2f-4cd3-9015-08df8b629bfd",
+      "expires": 1780472722847
+    },
+    "openai-codex:bed.wuttipong@gmail.com": {
+      "type": "oauth",
+      "provider": "openai-codex",
+      "email": "bed.wuttipong@gmail.com",
+      "access": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfRU1vYW1FRVo3M2YwQ2tYYVhwN2hyYW5uIiwiZXhwIjoxNzgxMzU1MTg1LCJodHRwczovL2FwaS5vcGVuYWkuY29tL2F1dGgiOnsiY2hhdGdwdF9hY2NvdW50X2lkIjoiNGRiZWVlZDktZGUwNy00ZmRlLWI1NDYtZTFkNDlhNmY5MjUxIiwiY2hhdGdwdF9hY2NvdW50X3VzZXJfaWQiOiJ1c2VyLVd6djlXaDdxYVJVR001UXVuRjR3NW9GSl9fNGRiZWVlZDktZGUwNy00ZmRlLWI1NDYtZTFkNDlhNmY5MjUxIiwiY2hhdGdwdF9jb21wdXRlX3Jlc2lkZW5jeSI6Im5vX2NvbnN0cmFpbnQiLCJjaGF0Z3B0X3BsYW5fdHlwZSI6ImZyZWUiLCJjaGF0Z3B0X3VzZXJfaWQiOiJ1c2VyLVd6djlXaDdxYVJVR001UXVuRjR3NW9GSiIsImxvY2FsaG9zdCI6dHJ1ZSwidXNlcl9pZCI6InVzZXItV3p2OVdoN3FhUlVHTTVRdW5GNHc1b0ZKIn0sImh0dHBzOi8vYXBpLm9wZW5haS5jb20vcHJvZmlsZSI6eyJlbWFpbCI6ImJlZC53dXR0aXBvbmdAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJpYXQiOjE3ODA0OTExODQsImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiMjAwNTE5NTAtZTAzMi00MzNjLTljMDktODY4MmU2Y2E0ODIxIiwibmJmIjoxNzgwNDkxMTg0LCJwd2RfYXV0aF90aW1lIjoxNzgwNDkxMTg0MDI4LCJzY3AiOlsib3BlbmlkIiwicHJvZmlsZSIsImVtYWlsIiwib2ZmbGluZV9hY2Nlc3MiXSwic2Vzc2lvbl9pZCI6ImF1dGhzZXNzXzZPQkNJYm5vTzlqQlYzMWtBZ1ZUUkVPViIsInNsIjp0cnVlLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExNTMwODg4NDU0MDMwMjU0OTc1OSJ9.dMPU8NWcIk6_Sd216JGfangq5hOc36jJEOrBhSAjhctlh6bA7j_alTr1UsYoPQPjfOlNvhlECshvEPPpx4Zaa6FzxDpvLWzt-smy3hPqlqFI1aAxXoe1QPYr5dEDdaDT06kMis10t2eSOigF9HakP7k4P17VhfPdHYEnpEm73N2IK8Hed2krQu0bomyntsMpqpfQh6sF4hePHb_-vSmUWX4IlzHgEqW7PJ1K6Fg9YsM9k8eL6DcYCnEdf2gSY8RYytkLx4jI4hTW7v4XnfxTuNEUgR0dUkD6zFgOGN76WuP9fEn51oGV3KQURCS2eN9XkazPR9brroxDEItbFDMdoFaUwTEOyzqj8y0Ug09HvzwmDTPmLomZI4QUFl2sVT7ol_lQSBnw2s7aErLBveRc1ngM5WB24uxMBAMlRT21EOV8P1FBbzop2mj__Nine56HH-vMda8bQY0CHBfBqxwYOdqqb35knE98x0dKHl7hzCOcd4UuTzoFLE6z5Pvg392hADML-ym2YKv1_uiD7T3_A7E1X0w1O-_jfgaskKIgIiActK8mjTVkruueWga0kIXDp_FY1JIYXPtdrtWuXStWhrbmOq3OAigMC0vwwC6GCb3sfiCxNE2-RHWJmYQd716ZGWI5J5SDMA0q2UA8exuNfXfT_XHQXa7HEMnHk5rXx18",
+      "refresh": "rt_x7yTedyFqlj2gLaGczptuCBVoE7YKH0tuvnT-5yMOs8.C3idciAWeBkM19f0G5davjetD2cwdqesUjXyFK6yLGo",
+      "accountId": "4dbeeed9-de07-4fde-b546-e1d49a6f9251",
+      "chatgptPlanType": "free",
+      "expires": 1781355184263
+    }
+  }
+}

@@ -67,11 +67,11 @@ def build_eod(date_val=None):
     lines.append(mov(worst[0], worst[1]))
 
     lines.append("\n📋 Signal Activity:")
-    lines.append("- Signals generated today: 0 (placeholder — wire TradingView/webhook source)")
-    lines.append("- Signals acted upon: 0")
+    lines.append("- Signals generated today: [PLACEHOLDER — wire TradingView/webhook source]")
+    lines.append("- Signals acted upon: [PLACEHOLDER — awaiting integration]")
 
     lines.append("\n📅 Tomorrow's Calendar:")
-    lines.append("- Earnings / macro: placeholder — connect econcal or similar feed")
+    lines.append("- Earnings / macro: [PLACEHOLDER — connect econcal or similar feed]")
 
     return "\n".join(lines) + "\n"
 

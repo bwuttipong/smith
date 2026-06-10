@@ -1,0 +1,1 @@
+2026-06-09 11:02 - Daily vocab cron: picked 'hustle', saved to used-vocab.txt, but LINE send failed (429 rate limited after 3 retries)
