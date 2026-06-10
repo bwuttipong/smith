@@ -86,5 +86,6 @@
 ## Known Issues / TODOs
 
 ## Memory Backup & Recovery (Obsidian)
-- **Path**: `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Memory` (OneDrive Remotely Save plugin folder)
+- **Path (macOS)**: `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Memory` (OneDrive Remotely Save plugin folder)
+- **Path (Windows)**: `C:\Users\Wuttipong.t\OneDrive\Apps\remotely-save\Memory Vault` (second Memory Vault)
 - **Purpose**: If local session or memory files are ever lost, they can be recovered from this Obsidian sync vault.
