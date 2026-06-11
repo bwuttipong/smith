@@ -1,6 +1,7 @@
 import urllib.request
 import json
 import sys
+from datetime import datetime
 
 def get_open_tasks():
     token = "xoxb-10733190954023-11007119797409-bvdNvd4DHktaostusaMP8fvd"
@@ -49,7 +50,7 @@ def get_open_tasks():
                 }
 
                 records = content_json.get("list_records", [])
-                open_tasks = []
+                all_open_tasks = []
 
                 for rec in records:
                     fields = rec.get("fields", [])
@@ -87,10 +88,36 @@ def get_open_tasks():
                             task_info["description"] = f.get("text") or val
                             
                     if not task_info["completed"] and task_info["status"] != "Done":
-                        open_tasks.append(task_info)
+                        all_open_tasks.append(task_info)
                 
-                print(f"Total Open Tasks: {len(open_tasks)}")
-                for idx, t in enumerate(open_tasks, 1):
+                # Filter for "In progress" tasks first
+                in_progress_tasks = [t for t in all_open_tasks if t["status"] == "In progress"]
+                
+                # If we don't have enough "In progress" tasks, we'll top up with others
+                other_tasks = [t for t in all_open_tasks if t["status"] != "In progress"]
+                
+                # Sort function:
+                # - due_date empty should go to the end
+                # - sort by due_date ascending (overdue/earlier first)
+                # - then sort by priority descending (P3, P2, P1)
+                def sort_key(t):
+                    due = t["due_date"]
+                    # If no due date, set to a far future date so it sorts last
+                    due_val = due if due else "9999-12-31"
+                    # Priority is numeric (e.g. 3, 2, 1). To sort descending, we negate it.
+                    prio_val = -t["priority"]
+                    return (due_val, prio_val)
+                
+                in_progress_tasks.sort(key=sort_key)
+                other_tasks.sort(key=sort_key)
+                
+                # Select top 3 tasks from In Progress first, then fallback to others if needed
+                selected_tasks = in_progress_tasks[:3]
+                if len(selected_tasks) < 3:
+                    selected_tasks.extend(other_tasks[:(3 - len(selected_tasks))])
+                
+                print(f"Total Open Tasks: {len(all_open_tasks)} | Showing Top 3 Priority/Due Items:")
+                for idx, t in enumerate(selected_tasks, 1):
                     p_str = "P" + str(t["priority"]) if t["priority"] else "No priority"
                     due = t["due_date"] if t["due_date"] else "No due date"
                     assignee = t["assignee"] if t["assignee"] else "Unassigned"
@@ -102,6 +129,7 @@ def get_open_tasks():
                     print(f"{idx}. [{t['status']}] {task_clean} | Priority: {p_str} | Due: {due} | Assignee: {assignee}")
                     if desc_clean:
                         print(f"   Description: {desc_clean}")
+                        
     except Exception as e:
         print("Failed to load list:", e)
 
