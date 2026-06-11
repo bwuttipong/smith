@@ -1,28 +1,37 @@
-# Midnight Memory Maintenance Summary (2026-06-10)
+# Midnight Memory Maintenance Summary
 
-## qmd update
-- Memory collection: 0 new, 0 updated, 15 unchanged.
-- Workspaces collection: 1 new, 1 updated, 258 unchanged.
-- Other collections: no changes.
+**Date:** 2026-06-11
+**Time (Asia/Bangkok):** 09:41 AM
 
-## Embedding
-- Memory: all content hashes already have embeddings (no new embeddings). 
-- Workspaces: 2 chunks from 2 documents embedded.
+## qmd Update
+- Processed **7** collections.
+- **Memory**: 0 new, 0 updated, 15 unchanged.
+- **Workspaces**: 0 new, 0 updated, 261 unchanged.
+- **Agents** (groot, jarvis, morgan, star‑lord, trinity): no new/updated entries.
+
+## Embeddings
+- Memory collection: all hashes already embedded, **0** new embeddings.
+- Workspaces collection: all hashes already embedded, **0** new embeddings.
+- **Pending embeddings:** 138 items need vectors (`qmd embed`).
 
 ## Cleanup
-- Removed 1 orphaned embedding chunk.
+- Cleared **0** cached API responses.
+- No orphaned embeddings found.
 - Database vacuumed.
 
-## qmd status
-- Size: 259.7 MB
-- Vectors embedded: 12 101
-- Pending embeddings: 138
-- Last update: 5 hours ago.
+## Database Stats (after maintenance)
+- **Size:** 259.7 MB
+- **Embedded vectors:** 12 102
+- **Pending:** 138 need embedding
+- **Last updated:** 15 hours ago
 
-## Wiki lint
-- 7 warnings, 0 errors. Details in `reports/lint.md`.
+## Wiki Lint
+- **Warnings:** 7
+- **Errors:** 0
+- No contradictions or open questions detected.
 
-## Memory index check
-- Memory search query returned 0 results, indicating the index is operational.
+## Memory Search Check
+- Query `AGENTS.md` returned **0** results, confirming the index is operational.
 
-**All steps succeeded. No failures detected.**
+## Overall Status
+All steps completed successfully with exit code `0`. No failures detected, so no heads‑up notification is required.

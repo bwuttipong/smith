@@ -20,7 +20,10 @@
             "image"
           ],
           "name": "minimax-m3:cloud",
-          "reasoning": true
+          "reasoning": true,
+          "params": {
+            "num_ctx": 524288
+          }
         },
         {
           "contextWindow": 32768,
