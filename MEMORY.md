@@ -37,10 +37,11 @@
 - **Trigger**: "traffic from X to Y", "how's traffic?", "commute time", etc.
 - **Status**: ✅ operational (SSL certs fixed)
 
-### Morning Briefing
-- **Script**: `bash skills/morning-briefing/morning-briefing.sh`
-- **Run**: During morning heartbeats (7-9 AM) or on demand
-- **Pulls**: weather, **Slack Project tracker** (not Todoist), AgentMail inbox, Obsidian recent note
+### Morning Briefing (automated)
+- **Schedule**: Daily at 8:15 AM BKK time (`15 8 * * *`)
+- **Pulls**: AI/tech/startup news (web search), Slack Project tracker (`F0AQ9CED5MF`)
+- **Generates**: Content outlines/scripts, automated task recommendations
+- **Delivers**: Slack DM (`D0AV4PTTKDK`) using `scripts/post_to_slack.py`
 
 ### Weekly Review
 - **Script**: `bash skills/weekly-review/weekly-review.sh`
