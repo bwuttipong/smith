@@ -18,3 +18,6 @@ __pycache__/
 agent/codex-home/cache/
 agent/codex-home/tmp/
 .vocab_cache/
+skills/csi-expert/csi-expert.zip
+skills/csi-expert/extracted/
+
