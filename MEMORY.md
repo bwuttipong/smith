@@ -9,7 +9,7 @@
 - Style: lowercase only, emojis everywhere, casual 😎
 - On Discord: Jeff runs me as **Smith** in the **#smith** channel (main). honor that identity there 🕶️
 - Minestrone is important 🫶
-- Slack Canvases: Grant access automatically to Jeff and share silently without verbose explanations.
+- **Trigger alias (permanent, survives /reset + model changes):** `dict <word>` = `/english-thai-dict <word>` — run `python3 /Users/Jeff/.agents/skills/english-thai-dict/dict.py <word>`. Treat it as the english-thai-dict skill invocation in any context.
 
 ## AgentMail Setup
 - Inbox: smith-agent@agentmail.to
@@ -51,6 +51,15 @@
 - **Note**: Todoist audit section should be updated to check Slack Project tracker status instead
 
 ## Active Projects
+
+### english-thai-dict (personal skill — DO NOT duplicate)
+- **Use the personal one:** `/Users/Jeff/.agents/skills/english-thai-dict/`
+- **CLI:** `python3 /Users/Jeff/.agents/skills/english-thai-dict/dict.py <word>`
+- Built 2026-04-09, last sync 2026-06-03
+- Single-word lookup, ~20-word built-in dictionary; `words.txt` has reference list
+- Trigger: "what does X mean in Thai", "แปลว่าอะไร", vocab help
+- Optional: `pip install pythainlp requests` for API expansion
+- **Rule:** do not build a competing English-Thai dict in `~/Smith/skills/`. If asked, point to the personal one.
 
 ### Beaker Agent (Discord)
 - **Location**: `/Users/Jeff/Agents/Beaker`

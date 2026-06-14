@@ -124,6 +124,11 @@
     "last30days": {
       "version": "1.0.0",
       "installedAt": 1780221482276
+    },
+    "pdf": {
+      "version": "0.1.0",
+      "installedAt": 1781255518933,
+      "registry": "https://clawhub.ai"
     }
   }
 }

@@ -157,6 +157,16 @@ python3 skills/openclaw-commute-traffic/scripts/check_traffic.py \
 
 Use these skills when Wuttipong wants to practice or learn English:
 
+### english-thai-dict (personal — primary)
+- **Use for:** Single-word English → Thai lookups with pronunciation, part of speech, and 2 bilingual examples
+- **Location:** `/Users/Jeff/.agents/skills/english-thai-dict/`
+- **CLI:** `python3 /Users/Jeff/.agents/skills/english-thai-dict/dict.py <word>`
+- **Triggers:** "what does X mean in Thai", "แปลว่าอะไร", "X ภาษาไทยคืออะไร", English/Thai vocab help
+- **Limits:** Single-word only. Built-in dictionary is ~20 words (see `words.txt` for seed list, `dict.py` for full entries)
+- **Expansion:** `pip install pythainlp requests` for API-backed lookups (Lexitron/Google/DeepL)
+- **Rule:** DO NOT build a competing English-Thai dict in `~/Smith/skills/`. Point to this personal skill instead.
+- **Verified:** 2026-06-14 13:13 — wired up with YAML frontmatter, `openclaw skills list` shows it as `✓ ready`
+
 ### english-learning-coach
 - **Use for:** Reading, writing, grammar, exam prep (IELTS/TOEFL)
 - **Trigger:** "coach", "grammar", "writing", "reading", "exam"

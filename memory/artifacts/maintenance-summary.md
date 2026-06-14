@@ -1,37 +1,58 @@
-# Midnight Memory Maintenance Summary
+# Midnight Memory Maintenance Summary (2026-06-14)
 
-**Date:** 2026-06-11
-**Time (Asia/Bangkok):** 09:41 AM
+**Script:** `~/Smith/scripts/memory-maintenance.sh`
+**Log:** `~/Smith/memory/artifacts/maintenance-2026-06-14.log`
 
-## qmd Update
-- Processed **7** collections.
-- **Memory**: 0 new, 0 updated, 15 unchanged.
-- **Workspaces**: 0 new, 0 updated, 261 unchanged.
-- **Agents** (groot, jarvis, morgan, star‑lord, trinity): no new/updated entries.
+**Status:** ✅ Success (all steps exited with 0)
 
-## Embeddings
-- Memory collection: all hashes already embedded, **0** new embeddings.
-- Workspaces collection: all hashes already embedded, **0** new embeddings.
-- **Pending embeddings:** 138 items need vectors (`qmd embed`).
+## qmd Status
+- Size: 259.5 MB
+- Vectors: 12,104 embedded
+- Pending embeddings: 140 (requires `qmd embed`)
+- Last updated: ~0h ago (just now)
 
-## Cleanup
-- Cleared **0** cached API responses.
-- No orphaned embeddings found.
-- Database vacuumed.
-
-## Database Stats (after maintenance)
-- **Size:** 259.7 MB
-- **Embedded vectors:** 12 102
-- **Pending:** 138 need embedding
-- **Last updated:** 15 hours ago
+## Key Updates (this run)
+- **memory collection**: 0 new, 0 updated, 15 unchanged
+- **workspaces collection**: 0 new, 1 updated, 260 unchanged, 1 orphan cleaned
+- **embed (memory)**: all content hashes already have embeddings
+- **embed (workspaces)**: 2 chunks from 1 document embedded
+- **cleanup**: removed 2 orphaned embedding chunks, database vacuumed
 
 ## Wiki Lint
-- **Warnings:** 7
-- **Errors:** 0
-- No contradictions or open questions detected.
+- Issues: 7 warnings, 0 errors, 0 contradictions, 0 open questions, 0 provenance gaps
 
-## Memory Search Check
-- Query `AGENTS.md` returned **0** results, confirming the index is operational.
+## Memory Search Test
+- Query: "qmd"
+- Results: 0 hits (expected)
 
-## Overall Status
-All steps completed successfully with exit code `0`. No failures detected, so no heads‑up notification is required.
+No failures detected. No heads‑up required.
+
+# Midnight Memory Maintenance Summary (2026-06-13)
+
+**Script:** `~/Smith/scripts/memory-maintenance.sh`
+**Log:** `~/Smith/memory/artifacts/maintenance-2026-06-13.log`
+
+**Status:** ✅ Success (all steps exited with 0)
+
+## qmd Status
+- Size: 259.5 MB
+- Vectors: 12,104 embedded
+- Pending embeddings: 140 (requires `qmd embed`)
+- Last updated: 49m ago
+
+## Key Updates (this run)
+- **memory collection**: 0 new, 0 updated, 15 unchanged
+- **workspaces collection**: 1 new, 1 updated, 260 unchanged, 1 orphan cleaned
+- **trinity sessions**: 2 new, 0 updated, 2 unchanged
+- **embed (memory)**: all up to date
+- **embed (workspaces)**: 3 chunks from 2 documents embedded
+
+## Wiki Lint
+- Issues: 7 warnings, 0 errors, 0 contradictions, 0 open questions, 0 provenance gaps
+
+## Memory Search Test
+- Query: "qmd"
+- Results: 0 hits (searchMs: 314, backend: qmd)
+- Note: This is expected — "qmd" is a tool name, not a document concept
+
+No failures detected. No heads‑up required.

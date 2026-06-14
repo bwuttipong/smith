@@ -1,0 +1,18 @@
+📊 eod briefing — june 12, 2026
+
+📈 index performance
+• s&p 500 400 — $7,394.00 (+1.75%)
+• nasdaq 100 — $25,809.66 (+2.54%)
+
+🏆 watchlist top movers
+• smh — $609.45 (+6.75%)
+• o — $61.97 (-0.23%)
+
+⚠️ signal activity
+• signals generated today: placeholder — wire tradingview/webhook source
+• signals acted upon: placeholder — wire tradingview/webhook source
+
+📅 tomorrow’s calendar
+• earnings / macro: placeholder — connect econcal or similar feed
+
+status: use this template after live feeds are integrated; placeholder fields unchanged from prior delivery.
