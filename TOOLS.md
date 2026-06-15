@@ -164,7 +164,7 @@ Use these skills when Wuttipong wants to practice or learn English:
 - **Triggers:** "what does X mean in Thai", "แปลว่าอะไร", "X ภาษาไทยคืออะไร", English/Thai vocab help
 - **Limits:** Single-word only. Built-in dictionary is ~20 words (see `words.txt` for seed list, `dict.py` for full entries)
 - **Expansion:** `pip install pythainlp requests` for API-backed lookups (Lexitron/Google/DeepL)
-- **Rule:** DO NOT build a competing English-Thai dict in `~/Smith/skills/`. Point to this personal skill instead.
+- **Rule:** workspace copy now exists at `~/Smith/skills/english-thai-dict/` (mirrored 2026-06-15, push to Smith repo). The personal one is still the source of truth — if you change the personal one, re-sync into workspace.
 - **Verified:** 2026-06-14 13:13 — wired up with YAML frontmatter, `openclaw skills list` shows it as `✓ ready`
 
 ### english-learning-coach

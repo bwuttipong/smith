@@ -52,14 +52,15 @@
 
 ## Active Projects
 
-### english-thai-dict (personal skill — DO NOT duplicate)
-- **Use the personal one:** `/Users/Jeff/.agents/skills/english-thai-dict/`
-- **CLI:** `python3 /Users/Jeff/.agents/skills/english-thai-dict/dict.py <word>`
+### english-thai-dict (personal skill + workspace mirror)
+- **Personal (source of truth):** `/Users/Jeff/.agents/skills/english-thai-dict/`
+- **Workspace mirror (added 2026-06-15):** `~/Smith/skills/english-thai-dict/` — pushed to github.com/bwuttipong/smith
+- **CLI:** `python3 /Users/Jeff/.agents/skills/english-thai-dict/dict.py <word>` (both paths work)
 - Built 2026-04-09, last sync 2026-06-03
 - Single-word lookup, ~20-word built-in dictionary; `words.txt` has reference list
 - Trigger: "what does X mean in Thai", "แปลว่าอะไร", vocab help
 - Optional: `pip install pythainlp requests` for API expansion
-- **Rule:** do not build a competing English-Thai dict in `~/Smith/skills/`. If asked, point to the personal one.
+- **Sync rule:** personal is the source of truth — if you change it, mirror to workspace and push.
 
 ### Beaker Agent (Discord)
 - **Location**: `/Users/Jeff/Agents/Beaker`

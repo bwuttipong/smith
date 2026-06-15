@@ -1,0 +1,18 @@
+# Animals
+elephant
+tiger
+dolphin
+butterfly
+
+# Feelings
+happy
+brave
+delicious
+beautiful
+
+# Daily life
+sunrise
+beginning
+school
+family
+dream
