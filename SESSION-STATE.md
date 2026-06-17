@@ -7,9 +7,7 @@
 
 ## Current Task
 
-*What's actively being worked on right now*
-
-<!-- Fill in as convos happen -->
+- initialized git repository, refactored contexts to load config path via environment variable, set up env variable, and created VS Code launch/build configurations.
 
 ---
 
@@ -17,9 +15,9 @@
 
 | Field | Value |
 |-------|-------|
-| **Project** | |
-| **Channel** | LINE (direct) |
-| **Last Updated** | 2026-04-28 |
+| **Project** | OutsourceEF9 |
+| **Channel** | IDE (direct) |
+| **Last Updated** | 2026-06-17 |
 
 ---
 
@@ -27,7 +25,7 @@
 
 | Decision | When | Details |
 |----------|------|---------|
-| | | |
+| initialized git repo and cleaned obj folders | 2026-06-17 | staged files and ignored build directories |
 
 ---
 
@@ -55,7 +53,7 @@
 
 | Detail | Value |
 |--------|-------|
-| | |
+| Config File Path | `\\192.168.10.2\ShareCenter\Program\Outsource\config.json` |
 
 ---
 
@@ -81,4 +79,4 @@
 
 ---
 
-*Last write: 2026-04-28*
+*Last write: 2026-06-17*

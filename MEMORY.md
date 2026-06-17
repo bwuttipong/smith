@@ -78,6 +78,13 @@
   - Kermit: `1501837287439470693`
 - **Status**: Delegation workflow identified but not yet automated — Jeff handles manually
 
+### OutsourceEF9 (tpn-outsource)
+- **Location**: `c:\Users\Wuttipong.t\Workspaces\OutsourceEF9`
+- **Framework**: WinForms, .NET 9.0 (windows), EF Core 9.0.0, ClosedXML 0.105.0
+- **Database Config**: `config.json` path resolved dynamically via `OUTSOURCE_CONFIG_PATH` environment variable, falling back to `\\192.168.95.200\TPKShare\IT\Outsource\config.json`.
+- **Deploy**: Run `./publish.ps1` script to build and copy ClickOnce setup files to `\\192.168.95.200\TPKShare\IT\Outsource\OutsourceEF9\`.
+- **Repository**: Initialized Git to track source control.
+
 ### Slack Files, Canvases & Lists Operations Guide
 - **Guide location**: `~/Smith/skills/slack/SLACK_GUIDE.md`
 - **Created**: 2026-06-05

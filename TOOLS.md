@@ -218,3 +218,26 @@ Use these skills when Wuttipong wants to practice or learn English:
 - **CLI**: `~/.npm-global/bin/todoist`
 - **Commands**: `todoist today` · `todoist tasks` · `todoist add "..." --due "today"` · `todoist done <id>` · `todoist projects` · `todoist search "..."`
 - **Auth**: Token stored at `~/.config/todoist-cli/config.json`
+
+---
+
+## Sticky Notes (Windows)
+
+- **Use for**: Programmatically creating a new Sticky Note and writing/pasting text to it.
+- **Commands**:
+  - Launch UWP Sticky Notes (classic): `Start-Process "explorer.exe" -ArgumentList "shell:AppsFolder\Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe!App"`
+  - Launch OneNote-integrated Sticky Notes (new): `Start-Process "C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE" -ArgumentList "/stickynotes"`
+  - Automation Helper (PowerShell script):
+    ```powershell
+    # Copy text to clipboard
+    Set-Clipboard -Value "Summary text"
+    # Launch new Sticky Notes app
+    Start-Process "C:\Program Files\Microsoft Office\root\Office16\ONENOTE.EXE" -ArgumentList "/stickynotes"
+    Start-Sleep -Seconds 5
+    # Send Ctrl+N to create a new note, then Ctrl+V to paste Unicode text
+    $wshell = New-Object -ComObject Wscript.Shell
+    $wshell.SendKeys("^n")
+    Start-Sleep -Seconds 1
+    $wshell.SendKeys("^v")
+    ```
+
