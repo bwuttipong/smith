@@ -46,6 +46,13 @@ LINE **eats** content wrapped in triple backticks (` ``` `). When sending shell 
 
 ---
 
+## Work Devices
+
+- **FX-Programmer-NB1** → `10.100.99.24` (Jeff's company laptop, TPN internal network @ Wellgrow)
+- **Employer ID** → `3253768` (TPN Flexpak)
+
+---
+
 Add whatever helps you do your job. This is your cheat sheet.
 
 ## Bear Notes (via grizzly CLI)
