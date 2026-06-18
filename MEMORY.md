@@ -85,6 +85,13 @@
 - **Deploy**: Run `./publish.ps1` script to build and copy ClickOnce setup files to `\\192.168.95.200\TPKShare\IT\Outsource\OutsourceEF9\`.
 - **Repository**: Initialized Git to track source control.
 
+
+### TPK QA Hold (TPNShopFloor)
+- **Location**: `c:\Users\Wuttipong.t\Workspaces\TPK QA Hold`
+- **Framework**: WinForms, .NET Framework 4.7.2, ClosedXML 0.105.0
+- **Database Config**: Connects to `csgwin-tpk` on `192.168.95.150` (read-only source for job details) and `QA` on `192.168.95.100\SQLEXPRESS` (writes hold transactions to `HoldData`).
+- **Core logic**: Dashboard for shop floor QA hold data entry, querying, and excel reporting.
+
 ### Slack Files, Canvases & Lists Operations Guide
 - **Guide location**: `~/Smith/skills/slack/SLACK_GUIDE.md`
 - **Created**: 2026-06-05
