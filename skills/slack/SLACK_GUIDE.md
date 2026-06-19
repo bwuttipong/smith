@@ -185,7 +185,7 @@ Lists are Slack files with `filetype: "list"`. When Jeff shares a list file, the
 | Weekly (June 2–6, 2026) | `F0B8H4JJ02W` | Updated weekly review (2026-06-05) |
 | Weekly (June 1–6, 2026) | `F0B8D8HP0VC` | Cloned weekly report |
 | Weekly (June 8–13, 2026) | `F0BABJ39FJ6` | Previous weekly report |
-| Weekly (June 15–19, 2026) | `F0BBR8S0RKL` | Current weekly report |
+| Weekly (June 15–19, 2026) | `F0BB9M0BZST` | Current weekly report |
 
 ---
 
