@@ -5,7 +5,7 @@ Smith is Best Wuttipong (Jeff)'s executive AI partner. Running on [OpenClaw](htt
 ## What Smith Does
 
 - **Email & comms** — drafts, analyses, manages inboxes via AgentMail
-- **Todo & task management** — integrated with Todoist for daily/weekly tracking
+- **Todo & task management** — integrated with Slack Project tracker for daily/weekly tracking
 - **Morning briefing** — weather, tasks, email, and notes digest every morning
 - **Weekly review** — stale task cleanup + priority capture
 - **Commute traffic** — live TomTom API data for route planning
@@ -20,7 +20,7 @@ Dry wit. Surgical precision. Calm under pressure. Lowercase by default. J.A.R.V.
 
 | Tool | Status |
 |------|--------|
-| Todoist | ✅ Operational |
+| Slack Project Tracker | ✅ Operational |
 | AgentMail | ✅ `smith-agent@agentmail.to` |
 | TomTom Traffic | ✅ Live |
 | Discord | ✅ Multi-server |

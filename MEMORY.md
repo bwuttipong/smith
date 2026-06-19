@@ -17,11 +17,6 @@
 
 ## Tools & Integrations
 
-### ~~Todoist~~ (deprecated 2026-06-05)
-- **Status**: No longer used — switched to Slack Project tracker
-- **Reason**: Jeff prefers the Slack List workflow for task tracking
-- **Legacy info**: CLI at `~/.npm-global/bin/todoist`, token at `~/.config/todoist-cli/config.json`
-
 ### Slack Project Tracker (active task system)
 - **Added**: 2026-06-05
 - **File ID**: `F0AQ9CED5MF`
@@ -47,8 +42,8 @@
 ### Weekly Review
 - **Script**: `bash skills/weekly-review/weekly-review.sh`
 - **Run**: Fridays (evening) or Saturdays (morning)
-- **Cleans**: ~~stale Todoist tasks~~ (now uses Slack Project tracker), captures weekly wins/priorities
-- **Note**: Todoist audit section should be updated to check Slack Project tracker status instead
+- **Cleans**: captures weekly wins/priorities and syncs Slack Project tracker
+- **Note**: checks Slack Project tracker status instead
 
 ## Active Projects
 

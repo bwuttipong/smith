@@ -217,17 +217,6 @@ Use these skills when Wuttipong wants to practice or learn English:
 - **Vault Path**: `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Wuttipong Vault/`
 - **Primary Use**: Syncing memories, logging daily notes, storing structured knowledge
 
-## Todoist
-
-- **Skill**: `skills/todoist/SKILL.md`
-- **Use for**: Creating, listing, completing, searching tasks in Todoist
-- **Trigger**: "todoist", "task", "add todo", "to-do"
-- **CLI**: `~/.npm-global/bin/todoist`
-- **Commands**: `todoist today` · `todoist tasks` · `todoist add "..." --due "today"` · `todoist done <id>` · `todoist projects` · `todoist search "..."`
-- **Auth**: Token stored at `~/.config/todoist-cli/config.json`
-
----
-
 ## Sticky Notes (Windows)
 
 - **Use for**: Programmatically creating a new Sticky Note and writing/pasting text to it.
