@@ -5,6 +5,9 @@
 - **Discord**: best.wuttipong (id: 1313876113776312391)
 - **Email**: bed.wuttipong@gmail.com (also has **Hotmail** — personal)
 
+## Personal
+- **Pay days**: 7th and 22nd of every month
+
 ## Personal Preferences
 - Style: lowercase only, emojis everywhere, casual 😎
 - On Discord: Jeff runs me as **Smith** in the **#smith** channel (main). honor that identity there 🕶️
