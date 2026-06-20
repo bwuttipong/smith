@@ -1,0 +1,57 @@
+# 2026-06-15
+
+## morning — git commit & push (06:54–07:13)
+
+Jeff asked for "commit and put yesterday onto GitHub too". Did a local commit
+(`d0039e0`) covering:
+
+- `memory/2026-06-14.md` + 2 session snippets
+- yesterday's artifacts (ad-hoc morning brief, openclaw 2026.6.6 review)
+- maintenance logs 12–15 + summary refresh
+- new `skills/pdf` toolkit
+- `market-briefing/telegram_summary_eod.txt` (jun 12 eod)
+- MEMORY.md / TOOLS.md / `.clawhub/lock.json`
+
+merge pop had to be resolved on MEMORY.md (origin had changed a line right
+above the new english-thai-dict section). Kept local addition, dropped the
+upstream line. ff-push clean.
+
+`trinity/` excluded — separate self-contained git repo.
+
+## mid-day — windows `which` question (14:53–14:57)
+
+Jeff asked about `which` in Windows context. Answered with `where` (cmd / PS)
+and `Get-Command` (PS). He came back saying `where` returned nothing → binary
+not on PATH. Asked him which command + which shell to debug. **He never
+answered** — bounced to "Pull your repo from work today" at 18:54. The PATH
+issue is **unresolved** as of end of day.
+
+## evening — two-smiths workflow (18:54–19:04)
+
+Pulled origin (was 1 commit ahead: `22160dd` — work machine mirror of
+`english-thai-dict` into `~/Smith/skills/`, MEMORY+TOOLS refresh). ff-pull
+clean.
+
+Jeff asked me to summarize his work day. Honest answer: I can only see what
+crossed smith's git log + this telegram thread. He clarified: **work machine
+has Smith running too**, so commits land on GitHub throughout the day →
+GitHub log is the bridge between the two instances.
+
+I proposed three options for a daily recap:
+1. on-demand only ("summarize work day" → pull + report)
+2. daily 18:30 cron (auto-DM recap at end of day)
+3. both
+
+**Jeff hasn't picked yet** — pending follow-up.
+
+## what's open / unresolved
+
+- ⏳ work-day recap cadence: 1 / 2 / 3 (Jeff's call)
+- 🪟 windows PATH issue: which command + which shell still unknown
+- 🔄 morning-briefing cron fired earlier (per #13554 thread about 2026.6.6
+  vs 6.7 stable — 6.7 still beta-only as of 2026-06-15)
+
+## one-liner principle for memory discipline
+
+If a future-me would need to ask "wait, what happened with X?" — the file
+already exists. Daily notes = raw log. MEMORY.md = curated. No exceptions.

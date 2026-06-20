@@ -142,9 +142,6 @@
       ],
       "apiKey": "sk-cp-nrtUivjkC9J0eeV7Jatngl3bMfZTaIrBkl3fc3KMyWMYgOsG7ryKzDKuF9ZorgDqEzdQLFFpTOybDxTLSnsmn8gKaNF0WmngqnO7ro4Lje0DmL9gw3XfPMI"
     },
-    "opencode": {
-      "models": []
-    },
     "opencode-qwen": {
       "api": "anthropic-messages",
       "apiKey": "OPENCODE_API_KEY",

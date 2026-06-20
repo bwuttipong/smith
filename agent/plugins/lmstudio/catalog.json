@@ -2,6 +2,9 @@
   "generatedBy": "openclaw-plugin-model-catalog-v1",
   "providers": {
     "lmstudio": {
+      "api": "openai-completions",
+      "apiKey": "LM_API_TOKEN",
+      "auth": "api-key",
       "baseUrl": "http://localhost:1234/v1",
       "models": [
         {
@@ -39,10 +42,7 @@
           "name": "Qwen3.5 9B",
           "reasoning": true
         }
-      ],
-      "apiKey": "LM_API_TOKEN",
-      "auth": "api-key",
-      "api": "openai-completions"
+      ]
     }
   }
 }

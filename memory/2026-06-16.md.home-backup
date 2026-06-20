@@ -1,0 +1,40 @@
+# 2026-06-16
+
+## 06:48 — heartbeat
+
+Heartbeat executed at 06:48 (Tue 2026-06-16 GMT+7).
+
+**Status:** ok
+**Note:** First heartbeat of the day. Subagent passes (queued twice overnight) failed to execute — sandbox lacked `exec`/`write`. Picked up in main session, completed all three housekeeping ops: rsync → Obsidian ✅, heartbeat-state.md updated ✅ (`heartbeat: 1781567302000`), this note created ✅.
+
+- `rsync` → 177 files synced to `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Wuttipong Vault/memory/`
+- `heartbeat-state.md` → `lastChecks.heartbeat` = `1781567302000`
+- Daily note → created (didn't exist yet)
+
+**Up next:** morning-briefing at 08:15, evening-shutdown at 18:00–20:00. Will run those on their cron triggers unless something urgent comes up first.
+
+## 19:48 — Resume Document Generation 🎩
+
+- parsed and formatted the pdf resume of mr. nattawat thonmon.
+- corrected minor spelling, typos, and syntax errors (e.g., "frail english" -> "conversational / fair english", "spaceutilayzation", "decrees" -> "decrease", and various formatting inconsistencies) to elevate the resume's professionalism.
+- created a scratch virtual environment and installed `python-docx`.
+- wrote and executed a generation script to produce a beautifully structured, styled word document.
+- output file saved successfully to [Nattawat_Thonmon_Resume.docx](file:///Users/Jeff/Smith/Nattawat_Thonmon_Resume.docx).
+- copied the final file to the user's desktop at `/Users/Jeff/Desktop/Nattawat_Thonmon_Resume.docx` for easier access.
+
+## 21:15 — Resume Grammar Fixes & PDF Generation 🎩
+
+- user requested a grammar review of an updated resume version (including a new job as WH/PC Leader at San-en Thailand from June 2023 - Present, salary adjustment to 33,000 THB, and 30-day notice).
+- corrected all grammatical errors, typos, and style issues in the new section (e.g., "Jone 2023" -> "June 2023", "Responsible on store" -> "Responsible for store operations", "Kizen" -> "Kaizen", etc.).
+- created an updated HTML structure and compiled it to a professional PDF on the user's Desktop using headless Google Chrome (`Nattawat_Thonmon_Resume.pdf`).
+- updated the matching Microsoft Word version on the user's Desktop as well (`Nattawat_Thonmon_Resume.docx`).
+
+## 21:21 — Chronological Resume Refactoring 🎩
+
+- restructured the entire work experience timeline to be strictly chronological and linked the "Warehouse Foreman" and "Warehouse Leader" roles directly to **Oizuru Chugen Packaging System Co., Ltd.** based on the promotion flow identified in the raw resume.
+- grouped the yearly duties (2020-2023) under a unified company entry for Oizuru instead of duplicate headers, creating a much more cohesive presentation.
+- re-compiled both [Nattawat_Thonmon_Resume.pdf](file:///Users/Jeff/Desktop/Nattawat_Thonmon_Resume.pdf) and [Nattawat_Thonmon_Resume.docx](file:///Users/Jeff/Desktop/Nattawat_Thonmon_Resume.docx) on the user's Desktop.
+
+## 21:35 — Clean PDF Compiling (No Headers/Footers) 🎩
+
+- re-compiled [Nattawat_Thonmon_Resume.pdf](file:///Users/Jeff/Desktop/Nattawat_Thonmon_Resume.pdf) using Chrome's `--no-pdf-header-footer` flag to remove the default print date, title, and file url on the top and bottom margins, making it look 100% clean and professional.
