@@ -20,6 +20,17 @@
 
 ## Tools & Integrations
 
+### Samantha (my dedicated general assistant)
+- **Agent ID:** `samantha` | **Model:** `groq/compound-beta` (primary) / `opencode-go/minimax-m3` (fallback)
+- **Config:** `~/Agents/Samantha/agent/` (SOUL.md, IDENTITY.md, AGENTS.md, USER.md)
+- **Delegation policy:** route all general-purpose work to her by default — weather, traffic, research, file ops, gog/calendar ops, summaries, data pulls, web searches, routine reporting
+- **Use proactively:** don't wait for Jeff to ask — if a task fits her range, delegate it. check commute times before he asks, pull research when context suggests it, tidy files, verify data, etc.
+- **How:** `sessions_spawn(agentId="samantha", task=..., taskName=...)`
+- **Artifacts:** save to `~/Smith/memory/` with descriptive filenames
+- **Keep smith free for:** strategy, config changes, high-stakes reasoning, multi-step orchestration, conversational continuity
+- **Status:** ✅ live (added 2026-06-21), whitelisted via `agents.defaults.subagents.allowAgents`
+- **Verified runs:** weather check, holiday research, gog calendar lookup — all clean, no fallbacks triggered
+
 ### Slack Project Tracker (active task system)
 - **Added**: 2026-06-05
 - **File ID**: `F0AQ9CED5MF`
@@ -65,6 +76,7 @@
 - **Discord channel**: #beaker (need channel ID)
 - **Fix applied**: Symlinked USER.md/TOOLS.md replaced with actual files (OpenClaw sandbox blocks symlinks outside workspace)
 - **Jeff handling**: Shared config setup himself
+- **Research routing**: all US stock / market analysis / financial data queries → kermit (discord channel 1501837287439470693, message tool, not beaker)
 
 ### Team Delegation (Neo, Groot, Luffy, Hinata)
 - **Discord channel IDs:**

@@ -2,47 +2,10 @@
   "generatedBy": "openclaw-plugin-model-catalog-v1",
   "providers": {
     "lmstudio": {
-      "api": "openai-completions",
-      "apiKey": "LM_API_TOKEN",
-      "auth": "api-key",
       "baseUrl": "http://localhost:1234/v1",
-      "models": [
-        {
-          "compat": {
-            "reasoningEffortMap": {
-              "adaptive": "xhigh",
-              "max": "xhigh",
-              "none": "none",
-              "off": "none"
-            },
-            "supportedReasoningEfforts": [
-              "none",
-              "minimal",
-              "low",
-              "medium",
-              "high",
-              "xhigh"
-            ],
-            "supportsReasoningEffort": true
-          },
-          "contextTokens": 64000,
-          "contextWindow": 262144,
-          "cost": {
-            "cacheRead": 0,
-            "cacheWrite": 0,
-            "input": 0,
-            "output": 0
-          },
-          "id": "qwen/qwen3.5-9b",
-          "input": [
-            "text",
-            "image"
-          ],
-          "maxTokens": 8192,
-          "name": "Qwen3.5 9B",
-          "reasoning": true
-        }
-      ]
+      "models": [],
+      "api": "openai-completions",
+      "apiKey": "LM_API_TOKEN"
     }
   }
 }

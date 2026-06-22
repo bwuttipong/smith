@@ -5,174 +5,31 @@
       "baseUrl": "https://api.groq.com/openai/v1",
       "models": [
         {
-          "id": "groq/compound",
-          "name": "Compound",
-          "api": "openai-completions",
-          "baseUrl": "https://api.groq.com/openai/v1",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 8192
-        },
-        {
-          "id": "groq/compound-mini",
-          "name": "Compound Mini",
-          "api": "openai-completions",
-          "baseUrl": "https://api.groq.com/openai/v1",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 8192
-        },
-        {
-          "id": "llama-3.1-8b-instant",
-          "name": "Llama 3.1 8B Instant",
-          "api": "openai-completions",
-          "baseUrl": "https://api.groq.com/openai/v1",
-          "reasoning": false,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0.05,
-            "output": 0.08,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 131072
-        },
-        {
-          "id": "llama-3.3-70b-versatile",
-          "name": "Llama 3.3 70B Versatile",
-          "api": "openai-completions",
-          "baseUrl": "https://api.groq.com/openai/v1",
-          "reasoning": false,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0.59,
-            "output": 0.79,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 32768
-        },
-        {
-          "id": "meta-llama/llama-4-scout-17b-16e-instruct",
-          "name": "Llama 4 Scout 17B",
-          "api": "openai-completions",
-          "baseUrl": "https://api.groq.com/openai/v1",
-          "reasoning": false,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0.11,
-            "output": 0.34,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 8192,
-          "mediaInput": {
-            "image": {
-              "maxPixels": 33177600,
-              "preferredSidePx": 2048,
-              "tokenMode": "provider"
-            }
-          }
-        },
-        {
-          "id": "openai/gpt-oss-120b",
-          "name": "GPT OSS 120B",
-          "api": "openai-completions",
-          "baseUrl": "https://api.groq.com/openai/v1",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0.15,
-            "output": 0.6,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 65536
-        },
-        {
-          "id": "openai/gpt-oss-20b",
-          "name": "GPT OSS 20B",
-          "api": "openai-completions",
-          "baseUrl": "https://api.groq.com/openai/v1",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0.075,
-            "output": 0.3,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 65536
-        },
-        {
-          "id": "openai/gpt-oss-safeguard-20b",
-          "name": "Safety GPT OSS 20B",
-          "api": "openai-completions",
-          "baseUrl": "https://api.groq.com/openai/v1",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0.075,
-            "output": 0.3,
-            "cacheRead": 0.037,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 65536
-        },
-        {
           "id": "qwen/qwen3-32b",
           "name": "Qwen3 32B",
-          "api": "openai-completions",
-          "baseUrl": "https://api.groq.com/openai/v1",
-          "reasoning": true,
           "input": [
             "text"
           ],
-          "cost": {
-            "input": 0.29,
-            "output": 0.59,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 40960
+          "maxTokens": 4096,
+          "reasoning": true
+        },
+        {
+          "id": "llama-3.1-70b-versatile",
+          "name": "Llama 3.1 70B Versatile",
+          "input": [
+            "text"
+          ],
+          "maxTokens": 1024,
+          "reasoning": false
+        },
+        {
+          "id": "compound-beta",
+          "name": "Groq Compound",
+          "input": [
+            "text"
+          ],
+          "maxTokens": 1024,
+          "reasoning": false
         }
       ],
       "api": "openai-completions",

@@ -214,7 +214,7 @@ Use these skills when Wuttipong wants to practice or learn English:
 - **Skill**: `skills/obsidian/SKILL.md`
 - **Use for**: Creating, reading, editing, searching notes in Obsidian vaults
 - **Trigger**: "obsidian", "vault", "note"
-- **Vault Path**: `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Wuttipong Vault/`
+- **Vault Path**: `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Memory — Obsidian Vault/`
 - **Primary Use**: Syncing memories, logging daily notes, storing structured knowledge
 
 ## Sticky Notes (Windows)

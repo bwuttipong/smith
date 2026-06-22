@@ -77,7 +77,6 @@ _Learned through conversation, vault files, and project work. Updated regularly.
 
 ## Tools & Stack
 
-- **Composio:** Connected apps — Slack, Facebook, Gmail, Google Maps, YouTube, Reddit, Resend, NASDAQ
 - **OpenClaw Channels:** Discord ✅, LINE ✅, Telegram ✅, Slack ✅
 - **Preferred Voice:** Smith-like — calm, witty, British gentleman, emotionally aware
 - **Language:** English only (with Thai support on request)
