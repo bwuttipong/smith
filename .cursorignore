@@ -1,0 +1,14 @@
+﻿# Keep Cursor index lean — large or noisy dirs
+memory/
+sessions/
+.openclaw/
+.openclaw-cli-images/
+.clawhub/
+.remember/
+vocab/
+agent/codex-home/
+skills/*/node_modules/
+node_modules/
+__pycache__/
+*.pyc
+.git/

@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "name": "Smith",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.openclaw": true,
+      "**/.openclaw-cli-images": true,
+      "**/node_modules": true,
+      "**/__pycache__": true
+    },
+    "search.exclude": {
+      "memory": true,
+      "sessions": true,
+      ".openclaw": true,
+      "vocab": true
+    }
+  }
+}

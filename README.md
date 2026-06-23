@@ -29,8 +29,28 @@ Dry wit. Surgical precision. Calm under pressure. Lowercase by default. J.A.R.V.
 
 ## Workspace
 
-Root: `/Users/Jeff/Smith`
+| Environment | Path |
+|-------------|------|
+| Windows (work) | `C:\Users\Wuttipong.t\Smith` |
+| macOS (home) | `/Users/Jeff/Smith` |
+
 Powered by OpenClaw agents framework.
+
+### Cursor IDE
+
+Open the workspace in Cursor:
+
+```bash
+cursor "C:\Users\Wuttipong.t\Smith\Smith.code-workspace"
+```
+
+Or: **File → Open Workspace from File** → `Smith.code-workspace`
+
+Cursor picks up:
+
+- `AGENTS.md` — session rules, memory, artifacts
+- `.cursor/rules/smith-workspace.mdc` — Smith persona and startup checklist
+- `.cursorignore` — excludes `memory/`, `sessions/`, caches from indexing
 
 ---
 
