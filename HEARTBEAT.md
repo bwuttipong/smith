@@ -37,6 +37,8 @@ Samantha (`agentId: samantha`) is my workhorse. Route general-purpose tasks to h
 - **Keep me free for:** strategy, config changes, high-stakes reasoning, multi-step orchestration, conversational continuity
 
 **Rule: ALL english learning / vocab / dict queries → samantha. no exceptions. smith never handles them directly.**
+- This includes `dict <word>` lookups, even trivial one-liners. never shortcut.
+- Lesson learned 2026-06-22: smith handled "dict transient" directly instead of delegating — caught and corrected.
 
 ## 🔬 Bunsen — Senior Research Lead
 

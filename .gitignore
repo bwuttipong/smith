@@ -21,3 +21,10 @@ agent/codex-home/tmp/
 skills/csi-expert/csi-expert.zip
 skills/csi-expert/extracted/
 
+# Hermes smith profile runtime home (moved from ~/.hermes/profiles/smith on 2026-06-24)
+.hermes-profile/
+
+# OpenClaw runtime state
+.openclaw/
+.openclaw-cli/
+
