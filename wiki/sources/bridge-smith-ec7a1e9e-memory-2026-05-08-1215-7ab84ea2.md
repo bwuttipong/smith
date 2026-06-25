@@ -1,0 +1,131 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-05-08-1215-7ab84ea2
+title: "Memory Bridge (smith): 2026-05-08-1215"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-05-08-1215.md
+bridgeRelativePath: memory/2026-05-08-1215.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-05-08T05:15:21.625Z
+---
+
+# Memory Bridge (smith): 2026-05-08-1215
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-05-08-1215.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-05-08T05:15:21.625Z
+
+## Content
+````markdown
+# Session: 2026-05-08 12:15:21 GMT+7
+
+- **Session Key**: agent:main:discord:channel:1501811915159240915
+- **Session ID**: 475ccbe7-c4c3-4a57-aa85-78fb69d1b9e3
+- **Source**: discord
+
+## Conversation Summary
+
+user: hey! can you update OpenClaw apparently, it has updates available.
+assistant: 
+
+sure, let me check what's available
+
+assistant: 
+
+looks like you're already on the latest version, sir — **2026.5.7**. no updates needed. 🎩
+user: make any progress!
+assistant: nothing major since our last check — you're already on the latest OpenClaw version (2026.5.7). nothing to update there, sir 🎩
+user: make any progress!
+assistant: ha, thought I already answered that! you're fully up to date, sir — **2026.5.7** is the latest 🎩
+user: so, what's new in this version? Brief me
+user: Conversation info (untrusted metadata):
+```json
+{
+  "chat_id": "channel:1501811915159240915",
+  "message_id": "1502175043768156241",
+  "sender_id": "1313876113776312391",
+  "conversation_label": "#smith channel id:1501811915159240915",
+  "sender": "Best Wuttipong",
+  "timestamp": "Fri 2026-05-08 12:07 GMT+7",
+  "group_subject": "#smith",
+  "group_channel": "#smith",
+  "group_space": "1487738757326049391",
+  "is_group_chat": true
+}
+```
+
+Sender (untrusted metadata):
+```json
+{
+  "label": "Best Wuttipong (1313876113776312391)",
+  "id": "1313876113776312391",
+  "name": "Best Wuttipong",
+  "username": "best.wuttipong",
+  "tag": "best.wuttipong"
+}
+```
+
+so, what's new in this version? Brief me
+assistant: Here's the latest drop from **May 7, 2026** (v2026.5.7):
+
+**🛠️ Fixes & Improvements:**
+- **Plugin publishing** — better retry logic for ClawHub installs, faster recovery on partial publishes
+- **OpenAI** — `openai/chat-latest` now works as an explicit model override
+- **Cron CLI** — `cron list --json` and `cron show --json` now include computed status (disabled/running/ok/error/skipped/idle)
+- **Channels CLI** — cleaner channel-only listing, `--all` flag for bundled/catalog channels, model auth moved to `openclaw models auth list`
+- **Native commands** — owner enforcement now honored for native command handlers
+- **Active Memory** — admin scope required for global memory toggles
+- **Sessions** — cached skill snapshots cleared on `/new` and `sessions.reset`, so long-lived channel sessions rebuild their skill list properly
+- **Auto-reply** — inline skill tool dispatch now gated through before-tool-call auth hooks
+- **Tavily** — `SecretRef`-backed API keys now resolve correctly instead of hitting tools unresolved
+- **Discord** — provider-prefixed targets like `discord:channel:` now route correctly instead of misrouting channel IDs
+
+**Bottom line:** mostly polish and bug fixes — nothing groundbreaking, but some solid quality-of-life improvements, especially around the CLI and session management. You're good to stay on this version, sir 🎩
+user: going!
+assistant: have a good one, sir 👋
+user: Conversation info (untrusted metadata):
+```json
+{
+  "chat_id": "channel:1501811915159240915",
+  "message_id": "1502175684137844787",
+  "sender_id": "1313876113776312391",
+  "conversation_label": "#smith channel id:1501811915159240915",
+  "sender": "Best Wuttipong",
+  "timestamp": "Fri 2026-05-08 12:09 GMT+7",
+  "group_subject": "#smith",
+  "group_channel": "#smith",
+  "group_space": "1487738757326049391",
+  "is_group_chat": true
+}
+```
+
+Sender (untrusted metadata):
+```json
+{
+  "label": "Best Wuttipong (1313876113776312391)",
+  "id": "1313876113776312391",
+  "name": "Best Wuttipong",
+  "username": "best.wuttipong",
+  "tag": "best.wuttipong"
+}
+```
+
+going!
+assistant: see ya! 👋
+
+````
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

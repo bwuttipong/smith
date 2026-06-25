@@ -1,0 +1,129 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-20-1331-066da836
+title: "Memory Bridge (smith): 2026-06-20-1331"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-20-1331.md
+bridgeRelativePath: memory/2026-06-20-1331.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-20T06:31:05.907Z
+---
+
+# Memory Bridge (smith): 2026-06-20-1331
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-20-1331.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-20T06:31:05.907Z
+
+## Content
+```markdown
+# Session: 2026-06-20 13:31:05 GMT+7
+
+- **Session Key**: agent:smith:telegram:default:direct:alice
+- **Session ID**: c4bc82d2-c145-4a5c-b968-dd4a63a85c38
+- **Source**: telegram
+
+## Conversation Summary
+
+assistant: Restarting the gateway to regenerate the plugin index. Let me check if the warnings are cleared:
+
+
+assistant: Good news — the **main warning about conflicting plugin install metadata is gone**! ✓
+
+Two minor warnings remain. Let me clean those up:
+
+
+assistant: Let me check the configuration context for these two plugins:
+
+
+assistant: 
+</think>
+
+Good, I've removed both the `anthropic` empty config entry and the `openclaw-web-search` duplicate config entry. Now let me restart the gateway to apply these changes and verify the warnings are cleared.
+
+
+assistant: The warning changed — now it's about `plugins.allow` still listing `openclaw-web-search`. Let me remove it from the allow list:
+
+
+assistant: Let me check the exact format of the plugins.allow list:
+
+
+assistant: Got it — now I can see the exact format. Let me remove `openclaw-web-search` from the allow list:
+
+
+assistant: 
+</think>
+
+
+assistant: Plugin uninstalled. Let me restart and verify:
+
+
+assistant: The plugin is still present in a different location: `~/.openclaw/npm/node_modules/`. Let me find and remove all instances:
+
+
+assistant: Found the duplicates! There are three locations. Let me remove them all to resolve the conflict:
+
+
+assistant: all clean now 🎩
+
+here's what was going on and what we fixed:
+
+**1. conflicting plugin install metadata** (the big one)
+- legacy `installs.json` was stuck on version `2026.5.28` while sqlite had already migrated to `2026.6.8`
+- migration couldn't reconcile the two, so it kept warning on every startup
+- **fix**: deleted the stale `installs.json` — sqlite is the source of truth now
+
+**2. duplicate `openclaw-web-search` plugin**
+- this plugin was installed in **three different locations** simultaneously:
+  - `~/.openclaw/extensions/`
+  - `~/.openclaw/npm/projects/`
+  - `~/.openclaw/npm/node_modules/`
+- all fighting with the bundled version, causing duplicate ID conflicts
+- **fix**: nuked all three copies, removed from `plugins.allow` and `plugins.entries`
+
+**3. anthropic ghost config**
+- plugin was disabled but still had an empty `config: {}` block lingering
+- **fix**: removed the entire entry
+
+zero warnings on `openclaw status` now ✅
+assistant: all clean now 🎩
+
+here's what was going on and what we fixed:
+
+**1. conflicting plugin install metadata** (the big one)
+- legacy `installs.json` was stuck on version `2026.5.28` while sqlite had already migrated to `2026.6.8`
+- migration couldn't reconcile the two, so it kept warning on every startup
+- **fix**: deleted the stale `installs.json` — sqlite is the source of truth now
+
+**2. duplicate `openclaw-web-search` plugin**
+- this plugin was installed in **three different locations** simultaneously:
+  - `~/.openclaw/extensions/`
+  - `~/.openclaw/npm/projects/`
+  - `~/.openclaw/npm/node_modules/`
+- all fighting with the bundled version, causing duplicate ID conflicts
+- **fix**: nuked all three copies, removed from `plugins.allow` and `plugins.entries`
+
+**3. anthropic ghost config**
+- plugin was disabled but still had an empty `config: {}` block lingering
+- **fix**: removed the entire entry
+
+zero warnings on `openclaw status` now ✅
+user: [OpenClaw heartbeat poll]
+assistant: HEARTBEAT_OK
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

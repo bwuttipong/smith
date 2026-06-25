@@ -1,0 +1,132 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-artifacts-2026-06-14-openclaw-2026-6-6-review-d6697404
+title: "Memory Bridge (smith): artifacts / 2026-06-14-openclaw-2026-6-6-review"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/artifacts/2026-06-14-openclaw-2026-6-6-review.md
+bridgeRelativePath: memory/artifacts/2026-06-14-openclaw-2026-6-6-review.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-14T03:28:13.332Z
+---
+
+# Memory Bridge (smith): artifacts / 2026-06-14-openclaw-2026-6-6-review
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/artifacts/2026-06-14-openclaw-2026-6-6-review.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-14T03:28:13.332Z
+
+## Content
+```markdown
+# OpenClaw 2026.6.6 — Ad-hoc Update Review — 2026-06-14 10:30 GMT+7
+
+_Jeff asked what's new. Pulled local CHANGELOG + GitHub releases. Local install: 2026.6.6 (8c802aa). New monthly patch scheme YYYY.M.PATCH; June floor pinned at 2026.6.5._
+
+---
+
+## What landed: 2026.6.6 (stable, shipped June 12 11:04 UTC)
+
+### 🟢 Stuff Jeff will actually feel
+
+- **Telegram delivery cleaned up**
+  - account-scoped topics route to the right agent
+  - streamed text survives tool calls (no more vanishing mid-response when I run a long tool)
+  - `/compact` works on generic ingress
+  - draft chunking is shared (no more garbled multi-message replies)
+  - durable dispatch dedupe moved into the SDK
+  - **unauthorized DM text stays out of cache and prompt context** (privacy + accuracy)
+- **Control UI startup is faster** — cached model metadata, removal of the startup catalog wait, lazy slash-command loading
+- **TUI plugins prewarm** — snappier on startup
+- **`/models` no longer thrashes** — fixed the "derived-registry rescan storm" bug when changing models
+- **Dense text-delta snapshots trimmed** — less memory churn on long replies
+
+### 🔒 Security — biggest single theme of this release
+
+- **exec approvals now fail closed on timeout** (no silent approval if I don't hear back in time)
+- Tighter boundaries across: transcripts, sandbox binds, host environment inheritance, MCP stdio, Codex HTTP access, native search policy, elevated sender checks, deleted-agent ACP bypasses, loopback tools, Discord moderation, Teams group actions
+- Suppression of Codex/Harmony protocol artifacts in user-visible content
+- Neutralized browser and LanceDB memory media directives (stops prompt-injection via image URLs)
+- Redacted transcript images
+
+This is primarily a **security hardening release** dressed up as a feature release. The shape says: somebody found an attack surface, the team closed it, the same thing is happening in 5 different places, and they're shipping it as a monthly rollup.
+
+### 🧠 Provider/model
+
+- **Claude Fable 5 adaptive thinking** — added. Then ~4 hours later, the US government forced Anthropic to kill Fable 5. *Comedic timing.*
+- **OpenRouter OAuth onboarding** — cleaner flow for new OpenRouter account connections
+- **Codex context-engine compaction ownership** — your compaction is more reliable now
+- **Gemma 4 reasoning replay preserved** — they didn't break the recent Gemma update
+- **Local models skip guardian review** — fewer false-positive blocks on Ollama/etc
+- **Dynamic tool progress normalizes cleanly**
+- **llama.cpp moved into its own provider plugin** — cleaner separation for local model runs
+- **local model persistence**: agent model catalog cache persists, batched embeddings across files
+- **QMD JSON search** stays one-shot (no extra round trips)
+- **Anthropic plugin disabled in Jeff's config** (per `openclaw status`) — matches; he's running on opencode-go/minimax-m3
+
+### 📱 Channels/mobile
+
+- **QQBot** group mention toggle (irrelevant to Jeff)
+- **iPad / iPhone control surfaces** improved (slight — only matters if you talk to the gateway from a tablet)
+- Active connection host exposed in TUI footer (nice for debugging)
+- WebChat backscroll survives streaming (when 6.8 stable lands)
+
+### 🛠️ Plumbing you'll never see but should know about
+
+- ClawHub: dogfood reusable package publishing; managed plugin version drift reported
+- Memory: local llama.cpp runtime extracted; embeddings batched; agent model catalog cached
+- Plugin auto-enable fanout deduped (no more redundant plugin spawns)
+- Trust diagnostics can now capture tool input/output content
+- Native hooks: bounded relay lifetimes (abandoned hook connections can't linger)
+
+### Fixes worth noting (non-security)
+
+- Stale approval follow-ups dropped after session rebind
+- Codex synthetic usage line restored
+- Anthropic thinking replay repaired
+- Ollama provider-declared thinking default honored in SDK sessions
+- `config.patch` now replaces arrays explicitly (no more silent merge damage)
+- `replacePaths` consent no longer widens to whole arrays
+- iOS reconnects stale foreground gateways
+
+---
+
+## ⚠️ Three open issues in Jeff's install (from `openclaw status`)
+
+1. **Conflicting plugin install metadata** for: brave, codex, discord, line, lobster, openclaw-web-search, slack. Leftover from old installs / reinstalls. Not breaking anything, but doctor warns.
+2. **Duplicate plugin id** for `openclaw-web-search` (global plugin being overridden by global plugin — same plugin, two install paths). Same root cause.
+3. **Anthropic plugin is disabled in config** — config is present but plugin is disabled. Currently fine because he's on opencode-go/minimax-m3, but it'll cause confusion if he ever tries to use Anthropic.
+
+All three are fixable with `openclaw doctor --fix`. Not urgent. Will offer to run on his green-light.
+
+---
+
+## 🩸 In beta right now (not installed)
+
+- **6.7-beta.1** (June 13 09:42 UTC) — Kimi K2.7 Code support, Slack finals persist in transcripts, Telegram expandable blockquotes, source-message tool replies no longer stop agent progress
+- **6.8-beta.1** (June 13 21:49 UTC) — Telegram structured rich text (tables, lists, expandable blockquotes — *this* is the one Jeff will feel), `/usage` native footer renderer, GLM-5.2 provider, Claude Haiku 4.5 catalog, WhatsApp ACP bindings, iOS stale gateway reconnect
+
+**My take**: wait for 6.7 stable. If 6.7 ships without regressions, the 6.8 Telegram rich-text is the next thing worth caring about. No reason to chase betas unless Jeff wants the Telegram tables feature specifically.
+
+---
+
+## 🧠 Net read for Jeff
+
+This is a "stay patched" release, not a "go play with new toys" release. The security work matters (especially exec-approvals-fail-closed and the prompt-injection via image URLs fix), the Telegram cleanup is a quiet quality-of-life win, and the Fable 5 timing is genuinely funny in a sad way. Skip the betas, wait for 6.7 stable, and let me doctor --fix the three warnings when you have 2 min.
+
+_Saved: 2026-06-14 10:32 GMT+7, ad-hoc on Telegram request._
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

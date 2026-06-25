@@ -1,0 +1,80 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-21-0051-68caede8
+title: "Memory Bridge (smith): 2026-06-21-0051"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-21-0051.md
+bridgeRelativePath: memory/2026-06-21-0051.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-20T17:51:57.206Z
+---
+
+# Memory Bridge (smith): 2026-06-21-0051
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-21-0051.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-20T17:51:57.206Z
+
+## Content
+```markdown
+# Session: 2026-06-21 00:51:57 GMT+7
+
+- **Session Key**: agent:smith:telegram:default:direct:alice
+- **Session ID**: e249dd13-afdb-4294-8222-b5f3b4ec4d4f
+- **Source**: telegram
+
+## Conversation Summary
+
+user: maybe Groq can't use
+assistant: [assistant turn failed before producing content]
+user: working
+assistant: yeah, i'm back up 👍 looks like there was a model hiccup earlier — all good now. what's up?
+assistant: yeah, i'm back up 👍 looks like there was a model hiccup earlier — all good now. what's up?
+user: maybe Groq can't use
+assistant: yeah looks like the Groq model was down or misconfigured — caused the first two failures. switched over to something else and we're rolling now 🎩
+assistant: yeah looks like the Groq model was down or misconfigured — caused the first two failures. switched over to something else and we're rolling now 🎩
+user: could you spawn to give some easy task this model groq/qwen3-32b
+assistant: spawning now with `groq/qwen3-32b` — let's see if it picks up 👀
+
+
+assistant: spawning now with `groq/qwen3-32b` — let's see if it picks up 👀
+assistant: confirmed — `groq/qwen3-32b` is not available on your Groq setup. Error says the model wasn't found by the provider.
+
+could be one of:
+- the model ID `qwen3-32b` doesn't exist on Groq (might need a different name like `qwen-32b` or `qwen3-32b-v3`)
+- it hasn't been deployed to Groq's endpoint yet
+- Groq dropped it from their catalog
+
+want me to check what models Groq actually has available, or try a different model ID?
+user: is that saying back?
+assistant: yeah that's right — the spawn failed and the error confirms it:
+
+> **The selected model was not found by the provider**
+
+`groq/qwen3-32b` doesn't exist on Groq's end. either the model name is wrong or Groq doesn't have it.
+
+want me to check what models Groq actually offers right now?
+assistant: yeah that's right — the spawn failed and the error confirms it:
+
+> **The selected model was not found by the provider**
+
+`groq/qwen3-32b` doesn't exist on Groq's end. either the model name is wrong or Groq doesn't have it.
+
+want me to check what models Groq actually offers right now?
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

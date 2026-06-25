@@ -1,0 +1,105 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-05-29-2206-66a811f5
+title: "Memory Bridge (smith): 2026-05-29-2206"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-05-29-2206.md
+bridgeRelativePath: memory/2026-05-29-2206.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-05-29T15:06:43.533Z
+---
+
+# Memory Bridge (smith): 2026-05-29-2206
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-05-29-2206.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-05-29T15:06:43.533Z
+
+## Content
+```markdown
+# Session: 2026-05-29 22:06:43 GMT+7
+
+- **Session Key**: agent:smith:telegram:default:direct:alice
+- **Session ID**: 5b7a6674-cd07-4f8f-af5c-9deb10e1597b
+- **Source**: telegram
+
+## Conversation Summary
+
+user: which provider?
+assistant: openrouter — that's the route deepseek v4 flash comes through on this setup.
+
+they're acting as the API proxy, handling the routing and the billing layer. gives decent reliability and fallback coverage if the primary endpoint hiccups.
+
+good friday night question 🎩 you deep-diving config or just curious?
+assistant: openrouter — that's the route deepseek v4 flash comes through on this setup.
+
+they're acting as the API proxy, handling the routing and the billing layer. gives decent reliability and fallback coverage if the primary endpoint hiccups.
+
+good friday night question 🎩 you deep-diving config or just curious?
+user: not Groq
+assistant: ah, good catch — that's an interesting one. the config for smith has the primary model set as:
+
+`groq/openrouter/deepseek/deepseek-v4-flash`
+
+so the routing chain goes:
+- **model**: deepseek v4 flash (hosted on openrouter)
+- **API endpoint**: groq's infrastructure (the `groq/` prefix routes it through groq as the API gateway)
+- **ultimate origin**: openrouter hosts the actual deepseek inference
+
+basically groq is acting as the API proxy/router here, forwarding to openrouter's deepseek deployment. most people don't set up a double-proxy like that — curious if that was intentional or a config artifact from one of the model-tuning sessions 🎩
+
+want me to simplify the route to just `openrouter/deepseek/deepseek-v4-flash` and cut out the middleman?
+assistant: ah, good catch — that's an interesting one. the config for smith has the primary model set as:
+
+`groq/openrouter/deepseek/deepseek-v4-flash`
+
+so the routing chain goes:
+- **model**: deepseek v4 flash (hosted on openrouter)
+- **API endpoint**: groq's infrastructure (the `groq/` prefix routes it through groq as the API gateway)
+- **ultimate origin**: openrouter hosts the actual deepseek inference
+
+basically groq is acting as the API proxy/router here, forwarding to openrouter's deepseek deployment. most people don't set up a double-proxy like that — curious if that was intentional or a config artifact from one of the model-tuning sessions 🎩
+
+want me to simplify the route to just `openrouter/deepseek/deepseek-v4-flash` and cut out the middleman?
+user: Oh! wait. lets me check a moment
+assistant: take your time — no rush 🎩
+
+fwiw, i might've been reading the routing wrong. the config shows your defaults primary model is `groq/llama-3.3-70b-versatile`, but the smith agent overrides to `groq/openrouter/deepseek/deepseek-v4-flash`. i assumed the `groq/` prefix routes through groq's endpoint, but if you're saying it's *not* groq... maybe that prefix is a custom tag or group label rather than a provider route.
+
+curious what you find 🤔
+assistant: take your time — no rush 🎩
+
+fwiw, i might've been reading the routing wrong. the config shows your defaults primary model is `groq/llama-3.3-70b-versatile`, but the smith agent overrides to `groq/openrouter/deepseek/deepseek-v4-flash`. i assumed the `groq/` prefix routes through groq's endpoint, but if you're saying it's *not* groq... maybe that prefix is a custom tag or group label rather than a provider route.
+
+curious what you find 🤔
+user: hey there!
+assistant: hey! 🎩 back from digging through the config?
+
+so what's the verdict on that `groq/openrouter/deepseek/deepseek-v4-flash` model id? custom tag, or did i nail it?
+assistant: hey! 🎩 back from digging through the config?
+
+so what's the verdict on that `groq/openrouter/deepseek/deepseek-v4-flash` model id? custom tag, or did i nail it?
+user: how are you doing
+assistant: doing well — enjoying a chill friday evening convo about model routing with you 🎩
+
+no pressure on the config mystery — whenever you've got the answer, i'm curious. but also happy to just shoot the breeze if you're winding down. what about you?
+assistant: doing well — enjoying a chill friday evening convo about model routing with you 🎩
+
+no pressure on the config mystery — whenever you've got the answer, i'm curious. but also happy to just shoot the breeze if you're winding down. what about you?
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

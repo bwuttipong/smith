@@ -1,0 +1,76 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-21-5db6fc0d
+title: "Memory Bridge (smith): 2026-06-21"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-21.md
+bridgeRelativePath: memory/2026-06-21.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-21T13:31:31.014Z
+---
+
+# Memory Bridge (smith): 2026-06-21
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-21.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-21T13:31:31.014Z
+
+## Content
+```markdown
+## 2026-06-21
+
+### 🌸 Samantha Agent — First Run Complete
+- **Spawned:** 01:41 BKK
+- **Agent ID:** `samantha` | **Model:** `groq/compound-beta`
+- **Task:** Weather check for Monday 2026-06-22, Chon Buri
+- **Result:** Clean report with hourly breakdown + commute notes
+- **File:** `memory/samantha-first-task-weather-2026-06-22.md`
+- **Runtime:** 43s, 20.9k tokens (19.3k in / 1.6k out)
+- **Verdict:** Good shakedown. She reads workspace files, runs tools (wttr.in), saves artifacts, and delivers clean output. No hallucination detected — weather data matches wttr.in feed.
+- **Next:** Give her more tasks to verify range (traffic, research, file ops, summaries).
+
+### 🌸 Samantha Delegation Policy (from Jeff)
+Jeff explicitly wants samantha used for **all general-related tasks** as much as possible. Route weather, traffic, research, file ops, calendar lookups, summaries, data pulls, and similar general assistant work to her via `sessions_spawn(agentId="samantha")`. Keep me (smith) for strategy, high-stakes reasoning, config work, and conversational continuity. She's my dedicated workhorse — use her.
+
+### 🔧 Samantha Voice/Identity Fix (2026-06-21 12:10)
+Jeff flagged: samantha should reference **smith** by name in her output ("smith asked me to...") instead of generic "main session" language. Updated her AGENTS.md with delegation context section.
+
+### ⚙️ OpenClaw Core Update (2026-06-21 14:05)
+- Stopped the gateway daemon, updated OpenClaw core from version `2026.6.8` to `2026.6.9`, and restarted the gateway successfully 🔄.
+
+### 📦 Created openclaw-update Skill (2026-06-21 14:07)
+- packaged the stop, update, and start steps into a reusable skill (`openclaw-update`) at `/Users/Jeff/.agents/skills/openclaw-update/SKILL.md` 🎩.
+
+
+
+### 🔧 SysOps Config Fixes (17:55 BKK)
+- **cookie agent sandbox** → already in place (no-op)
+- **decommissioned groq model** → `llama-3.1-70b` → `llama-3.3-70b` in `agents.defaults.models`
+- **groq/ prefix strip** → `groq/compound-beta` → `compound-beta`, `groq/qwen/qwen3-32b` → `qwen/qwen3-32b`, samantha's primary model fixed
+- **gateway** → hot-reloaded (SIGUSR1) ✅
+- **workboard card** → `722ef9a0` marked done
+
+### 🧪 Beaker — CI/CD Research Brief (20:29 BKK)
+- first research task: CI/CD + DevOps for VB.NET WinForms + SQL Server + ClickOnce
+- first run: timed out (13 min)
+- second run: ✅ success, 140 lines saved to `memory/beaker-cicd-research-2026-06-21.md`
+- verdict: GitHub Actions wins for this stack
+- Docker: WinForms GUI cannot run in containers — containerize backend services only
+- migration path: 5 steps from "this week" to "long-term MSIX"
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

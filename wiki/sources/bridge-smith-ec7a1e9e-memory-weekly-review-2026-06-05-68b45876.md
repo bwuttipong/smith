@@ -1,0 +1,108 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-weekly-review-2026-06-05-68b45876
+title: "Memory Bridge (smith): weekly-review-2026-06-05"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/weekly-review-2026-06-05.md
+bridgeRelativePath: memory/weekly-review-2026-06-05.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-05T07:15:09.626Z
+---
+
+# Memory Bridge (smith): weekly-review-2026-06-05
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/weekly-review-2026-06-05.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-05T07:15:09.626Z
+
+## Content
+```markdown
+# Weekly Review — Saturday, June 05, 2026
+
+**Period:** May 31 – June 5, 2026
+
+---
+
+## 📋 Status at a Glance
+
+| Project | Status | Key Update | Blocker |
+|---|---|---|---|
+| Vocab System | 🟢 On Track | Daily drip built (1,642 words + 99 Apple Notes) | — |
+| Obsidian Sync | 🟢 On Track | Smith Notes folder created, memory files synced | — |
+| Documentation Identity | 🟢 Done | 📝 Archivist mode baked into SOUL.md + AGENTS.md | — |
+| last30days Skill | 🟡 In Progress | Brave, YouTube, HN, Polymarket working | X API credits drained, Reddit/TikTok need API key |
+| Market Briefing | 🟡 In Progress | TradingView email alert path chosen | — |
+
+---
+
+## 📋 Executive Summary
+
+📌 *Sun 31 May – Fri 5 Jun 2026* — Vocab system buildout complete: daily drip cron running (5×/day BKK) with 1,642 words from Google Translate sheet + Apple Notes English drip (99 notes, 3×/day). Obsidian sync infrastructure established with Smith Notes folder and consistent heartbeat sync going forward. Documentation identity upgrade baked into SOUL.md (📝 archivist mode) and AGENTS.md (obsessive documentation mandate + artifact preservation guidelines). Slack operations guide created — discovered HTTP API direct access via curl with $SLACK_BOT_TOKEN unlocks canvas, file, and list operations beyond the message tool. Canvas IDs documented for weekly drafts and MRP reports. last30days-openclaw skill partially operational — Brave, YouTube, HN, Polymarket working; X API credits exhausted (403), Reddit/TikTok/Instagram need ScrapeCreators API key. Market briefing infrastructure started with TradingView free plan email alert path.
+
+## 🚀 This Week
+
+- ✅ [Vocab] Daily vocab drip built — cron at 09·11·13·15·17 BKK, model: nemotron-3-super-120b
+- ✅ [Vocab] Apple Notes English drip built — 99 notes, cron at 10·14·16 BKK, model: kimi-k2.6
+- ✅ [Vocab] Installed deep-translator, eng-to-ipa, pythainlp for english-thai-dict skill
+- ✅ [Obsidian] Smith Notes folder created in Wuttipong Vault
+- ✅ [Obsidian] All memory files + MEMORY.md copied over, README written
+- ✅ [Identity] 📝 Archivist mode added to SOUL.md — logging identity, archive/log proactive behaviours
+- ✅ [Identity] AGENTS.md updated — obsessive documentation mandate, artifact preservation guidelines, session logging practices
+- ✅ [System] Created memory/artifacts/ directory
+- ✅ [System] Midnight memory maintenance — qmd update/embed/cleanup passed
+- ✅ [System] Wiki lint ran — 7 warnings, 0 errors
+- 🟡 [last30days] Brave search working via API key
+- 🟡 [last30days] YouTube, HackerNews, Polymarket working (no keys needed)
+- 🟡 [last30days] X via xAI API — credits drained (403 error)
+- 🟡 [Market] TradingView free plan setup, email alert path chosen for signal ingestion
+- ✅ [Agent] Fozzie's leave-work reminder configured (M-F 16:50, LINE delivery)
+- ✅ [System] Evening shutdowns ran consistently (Mon, Wed, Thu)
+- ✅ [System] Morning briefings ran (Mon, Tue)
+- ✅ [Slack] Operations guide created — HTTP API direct access pattern documented
+- ✅ [Slack] Canvas IDs discovered and documented (weekly drafts, MRP reports)
+- ✅ [Slack] Learned: document_content needs markdown wrapper, canvases need chat.postMessage to appear
+
+## 🥅 Next Week
+
+- [ ] [last30days] Get X working — log into x.com in Safari on this Mac so bird-search can read cookies
+- [ ] [last30days] Install missing npm deps for bird-search (`@steipete/sweet-cookie`)
+- [ ] [last30days] Wire as slash command (`/last30days`)
+- [ ] [last30days] Get ScrapeCreators API key for Reddit, TikTok, Instagram
+- [ ] [Vocab] Test daily drip cron reliability — monitor for failures
+- [ ] [Obsidian] Verify heartbeat sync is consistent
+- [ ] [Market] Build out market briefing infrastructure further
+
+## 🔥 Notes to Self
+
+- last30days X direct search quickest path: log into x.com in Safari → bird-search auto-reads cookies
+- Vocab cron models chosen for reliability: nemotron (free, no timeout issues) and kimi-k2.6 (primed after first timeout)
+- Obsidian sync now part of heartbeat routine — should be automatic going forward
+- Documentation identity is core now — if it happened, there's a record; if I produced it, it's saved
+- Todoist skill disabled in config as of Tue — CLI may still work but skill commands unavailable
+- Slack guide unlock: never say "I can't access Slack files/canvases" — use curl with $SLACK_BOT_TOKEN instead
+
+## 📅 Work Schedule
+
+- Work Day: Saturday June 6 (off)
+- Next cycle: Monday June 8
+
+---
+
+_Generated by Smith | Data from memory files + session logs_
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

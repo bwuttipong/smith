@@ -1,0 +1,112 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-18-820108df
+title: "Memory Bridge (smith): 2026-06-18"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-18.md
+bridgeRelativePath: memory/2026-06-18.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-18T23:54:23.237Z
+---
+
+# Memory Bridge (smith): 2026-06-18
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-18.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-18T23:54:23.237Z
+
+## Content
+```markdown
+# 2026-06-18 — Thursday
+
+## Morning Commute
+- Left ~6:53 AM from Ban Suan
+- Traffic: 🟢 light, ~47 min via Bang Na-Trad, no incidents
+- Back gate entry to Wellgrow — smooth arrival around 7:42 AM
+
+## Vibes
+- **Hype track of the week**: "Euphoria" by Kendrick Lamar 🎵
+- Generated a custom instrumental morning hype track
+- Jeff cranked Kendrick through car Bluetooth en route — proper sound system moment
+
+## Dict Lookups
+- **sovereignty** (ซอฟ-เริน-ที) n. อธิปไตย
+- **ล้ำค่า** (lám-kâa) adj. precious, invaluable, priceless
+
+## Notes
+- Jeff called the morning "a beautiful day" and said the whole convo was precious — logged here per his request ✨
+
+## Heartbeat Check
+- Morning briefing executed successfully at 08:14 AM (Bangkok).
+- `memory/heartbeat-state.md` updated with new timestamp for morning briefing.
+
+## Session Notes (08:50 AM BKK)
+- Session startup: Smith online.
+- Integrated the SignalR notification service using constructor DI on `Consumable.vb`, solving the hardcoded localhost connection string bug.
+- Added client `ConnectAsync` call to `Consumable_Load` so client PCs auto-connect on application load.
+- Added structured JSON payload support (Title, Message, Type) to `SignalRNotificationService`.
+- Centralized `toast.Show()` inside `OnNotificationReceived`, ensuring that receiving client PCs properly show native desktop toast notifications on broadcast.
+- Wired up real-time business flows:
+  - **Production**: Success alerts on Production box returns.
+  - **Delivery**: Info alerts when boxes are dispatched.
+  - **Stock FG**: Info alerts when boxes go to FG stock.
+  - **Stock Alert**: Warning alerts when a box's stock level drops below its `MinQty` threshold.
+- Simplified callers in `IssueOrderOpenControl.vb` and `NotificationDemoForm.vb`.
+- Verified build and ran tests successfully.
+- Updated `appsettings.json` to route primary SignalR hub traffic to `.100` (`http://192.168.95.100:5085`) and fallback to `localhost:5085`.
+- Rewrote the fallback mechanism in `SignalRNotificationService.vb` to asynchronously connect to the fallback hub when the primary connection times out or throws an exception, avoiding compiler await-in-catch limitations.
+- Published and redeployed build outputs to `C:\Users\Wuttipong.t\Desktop\CirculatingBox_Test`.
+- Added thread safety checks (`InvokeRequired` and `BeginInvoke`) in `NotificationBellControl.vb` to safely marshal background SignalR event triggers to the main UI thread, ensuring real-time badge updates without needing a tab switch.
+- Terminated running test client instance automatically to allow Robocopy to successfully overwrite build files on desktop.
+- Diagnosed connection failure to the server at `192.168.95.100:5085`.
+- Verified connectivity using `Test-NetConnection -ComputerName 192.168.95.100 -Port 5085` which returned `TcpTestSucceeded : True`, proving the network path is open and the firewall is NOT blocking port 5085.
+- Identified the root cause of the connection failure: the client was attempting to connect to the raw root URL `http://192.168.95.100:5085` which results in a `404 Not Found` because the ASP.NET Core hub route is mapped at `/notificationHub`.
+- Modified `NotificationClientService.vb`'s constructor to automatically detect and append `/notificationHub` if the configured URL lacks the suffix.
+- Killed the locked `CirculatingBox.exe` process and rebuilt/republished the client app with the fix.
+- Deployed the updated build to `C:\Users\Wuttipong.t\Desktop\CirculatingBox_Test`.
+- User verified the fix on the desktop test build and confirmed the connection is now working successfully.
+
+## Session Notes (11:15 AM BKK)
+- Switched context to the `TPK QA Hold` (TPNShopFloor) project.
+- Researched the codebase: confirmed it is a .NET Framework 4.7.2 Windows Forms application connecting to an ERP SQL Server DB (`csgwin-tpk` on `.150`) and a local/QA server SQL Server DB (`QA` on `.100\SQLEXPRESS`).
+- Initialized workspace customization rules by creating `.agents/AGENTS.md` and `.agents/agent.md` in the workspace root.
+- Performed Clean Architecture refactoring by organizing the project into logical subfolders (`Core/Domain`, `Core/Interfaces`, `Infrastructure/Data`, `Infrastructure/Services`, `Presentation`).
+- Relocated all Windows Forms UI files (`frmMain.*`, `frmQAlert.*`) into the new `Presentation/` subdirectory, updating `.csproj` paths.
+- Decoupled all database access (ADO.NET) and spreadsheet generation (ClosedXML) from the UI layer (`frmMain.cs`), introducing repositories and contracts.
+- Configured constructor chaining in `frmMain.cs` to allow injecting `IHoldRepository`, `IErpJobRepository`, and `IExcelExporter` implementations while retaining designer compatibility.
+- Verified compilation using MSBuild, confirming zero compilation errors.
+
+## Session Notes (01:25 PM BKK)
+- Verified that all manual C# code files are strictly compliant with the < 500 lines limit (all files range between 8 to 374 lines; the only file exceeding this is the auto-generated `frmMain.Designer.cs` at ~2270 lines which must remain intact for VS Designer compatibility).
+- Staged all files, including new Clean Architecture folders, and committed to git under master branch.
+- Updated the local walkthrough artifact (`walkthrough.md`) to reflect the code structure and partial class splits for `frmMain.cs`.
+- Re-ran MSBuild build verification successfully.
+
+## Session Notes (01:40 PM BKK)
+- Designed and injected a dynamic UI modernizer (`FormModernizer.cs`) to give the legacy WinForms app a beautiful, flat, modern dashboard aesthetic.
+- Avoided touching `frmMain.Designer.cs` entirely to ensure Visual Studio designer stability.
+- Applied Segoe UI fonts, a modern Slate theme, flat button styles with color-coded context (Emerald, Rose, Royal Blue), and web-style `DataGridView` formatting.
+- Integrated the modernizer into the `frmMain` and `frmQAlert` constructors.
+- Compiled successfully with 0 errors via MSBuild.
+- Executed a bulk regex rename across the Presentation layer files to give default structural controls meaningful names (e.g., `groupBox1` to `grpSearchHold`, `tabControl1` to `tabMain`, `panel1` to `pnlInOutStatus`).
+
+## Evening Shutdown
+- Evening shutdown executed successfully at 06:44 PM (Bangkok).
+- `memory/heartbeat-state.md` updated with new timestamp for evening shutdown.
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

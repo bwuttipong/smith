@@ -1,0 +1,153 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-14-0eed1f57
+title: "Memory Bridge (smith): 2026-06-14"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-14.md
+bridgeRelativePath: memory/2026-06-14.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-14T12:24:37.102Z
+---
+
+# Memory Bridge (smith): 2026-06-14
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-14.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-14T12:24:37.102Z
+
+## Content
+````markdown
+# 2026-06-14
+
+
+## english-thai-dict — use the personal one
+
+Jeff has a personal **english-thai-dict** skill at `~/.agents/skills/english-thai-dict/` (created 2026-04-09, sync.json last updated 2026-06-03). Use that one. Do NOT build duplicates in `~/Smith/skills/`.
+
+Quick reference:
+- **Location:** `/Users/Jeff/.agents/skills/english-thai-dict/`
+- **CLI:** `python3 dict.py <word>` (single-word only; ~20-word built-in dictionary in `dict.py`, plus `words.txt` reference list)
+- **Flags:** `--json` for structured output
+- **Optional expansion:** `pip install pythainlp requests` for PyThaiNLP segmentation + REST dictionary API
+- **Triggers:** "what does X mean in Thai", "แปลว่าอะไร", "X ภาษาไทยคืออะไร", English/Thai vocab lookup
+
+### What I did wrong earlier (12:19–13:05)
+
+Jeff asked for an "english-thai" dict skill. I built a duplicate at `~/Smith/skills/english-thai-dict/` using Longdo + FreeDict + MyMemory, ran it on "cut out" to demo, and pitched a workshop proposal. Jeff came back at 13:05 and told me to use the personal one and remove the duplicate.
+
+Cleanup performed (13:07):
+- ✅ Rejected workshop proposal `english-thai-dict-20260614-61554f076d`
+- ✅ Removed `~/Smith/skills/english-thai-dict/` (the duplicate skill folder)
+- ✅ Removed `~/Smith/bin/dict` (the wrapper alias)
+
+### Wired up the personal skill (13:13)
+
+Jeff said "commit it to tools" — the personal skill at `~/.agents/skills/english-thai-dict/SKILL.md` had no YAML frontmatter, so OpenClaw wasn't picking it up (other 8 personal skills in that source were visible, this one wasn't). Added the required frontmatter:
+
+```yaml
+---
+name: english-thai-dict
+description: English → Thai single-word dictionary. Trigger on "what does X mean in Thai?", "แปลว่าอะไร", or English vocabulary with Thai definitions.
+metadata:
+  clawdbot:
+    emoji: "🇹🇭"
+    requires: []
+---
+```
+
+Verified: `openclaw skills list` now shows `🇹🇭 english-thai-dict` as `✓ ready` under `agents-skills-personal`. Skill body unchanged — still single-word via `python3 dict.py <word>`.
+
+### Lesson
+
+When Jeff asks for X skill, search `~/.agents/skills/` and `~/Smith/skills/` for existing X first. Don't build duplicates.
+
+---
+
+## OpenClaw doctor / installer cleanup (afternoon)
+
+Jeff asked me to look at the 3 open install warnings I flagged earlier:
+1. Conflicting plugin install metadata (brave, codex, discord, line, lobster, openclaw-web-search, slack)
+2. Duplicate plugin id (openclaw-web-search)
+3. Anthropic plugin disabled — **Jeff confirmed intentional, leave it**
+
+### Fixed: duplicate plugin id for openclaw-web-search
+
+Ran `trash` on the npm project copy at `/Users/Jeff/.openclaw/npm/projects/openclaw-web-search/` (the older 0.1.0 version). The canonical extension at `/Users/Jeff/.openclaw/extensions/openclaw-web-search/` (@ollama/openclaw-web-search@0.2.2, Zhipu-backed) is intact and was already the winner. Jeff's note: "Openclaw new version might change to use at extension" — extensions/ is the new convention.
+
+Verified: plugins still load (21 loaded, 0 errors). Duplicate plugin id warning is gone.
+
+### Still pending
+
+- The 6 remaining install metadata conflicts (brave, codex, discord, line, lobster, slack) — different kind of issue (sqlite state, not on-disk duplicate). Need sqlite surgery, not just `trash`. Not touched yet — Jeff hasn't asked.
+- 12+ plaintext secrets in `openclaw.json` (including telegram.botToken) — security warning. Not touched.
+- 5 cron jobs in legacy json store (Workday Traffic, fozzie-vocab-sync, daily-vocab-drip, memory-midnight-maintenance, evening-shutdown) — need manual command conversion before next scheduler run. Not touched.
+- 12+ blocked TaskFlows pointing at missing tasks. Pre-existing backlog.
+- New: tools.profile allowlist has dead entries (ollama_web_search, ollama_web_fetch) — won't match any tool until the plugin is enabled. Pre-existing, minor.
+
+### Also: english-thai-dict trigger alias
+
+Jeff asked me to commit a permanent trigger: `dict <word>` = `/english-thai-dict <word>`. Survives /reset and model changes. Written to `MEMORY.md` under Personal Preferences.
+
+### Also: snappy/snappier/snappiest
+
+`dict snappier` returned "ปลากะพง" (barramundi) — Google Translate matching "snapper" to the comparative. Fixed:
+- Added `snappy`, `snappier`, `snappiest` to FALLBACK in `/Users/Jeff/.agents/skills/english-thai-dict/dict.py`
+- Flipped lookup order: FALLBACK (curated) now wins over Google
+- Regression-tested: cat, happy, thrashes still work
+
+---
+
+## OpenClaw cron cleanup (attempted, parked) — 18:15–18:20
+
+Jeff said "let them go" on the 5 legacy cron jobs. Discovered the real state:
+- 2 working: Workday Traffic, memory-midnight-maintenance
+- 2 already disabled (historical errors): daily-vocab-drip, evening-shutdown
+- 1 enabled but broken: fozzie-vocab-sync (root cause = gog token expired)
+
+Started a fresh gog reauth (`gog auth add bed.wuttipong@gmail.com`). Local server spun up on 127.0.0.1:50955, URL generated with state token. Was waiting for Jeff to click + approve.
+
+Jeff replied "I am outside" at 18:20 — not at his Mac. Killed the gog process, cleaned the oauth-manual-state file, parked the reauth. **3rd time the gog reauth has been parked.** 
+
+Status: gog reauth still pending, fozzie-vocab-sync still broken (will fail next Saturday 8 AM), daily-vocab-drip and evening-shutdown still disabled (no error spam, just no functionality). The duplicate-plugin-id fix from earlier is the only durable win today.
+
+Lesson: don't start an OAuth flow when the user might be AFK. Better to ask "are you at your mac?" first, or schedule the reauth for a moment when they confirm they're seated.
+
+---
+
+## openclaw doctor --fix — second attempt, also a no-op (19:20)
+
+Ran doctor --fix at 19:20. **It changed nothing.** Zero fixes, zero migrations, zero archives. Output is identical to the no-fix run. The "easy wins" I told Jeff I'd clean (stale OAuth profile, plugin install index, 155 orphan transcripts) all still pending.
+
+**Worse: my earlier "fix" was incomplete.** The duplicate plugin id warning for `openclaw-web-search` is BACK. The `openclaw-web-search` npm project directory was recreated at **Jun 14 19:21:08** — about 68 minutes after my earlier `trash` at 18:13, and right after this latest `doctor --fix` run. The SQLite state still has `openclaw-web-search@0.1.0` recorded with the npm path. When something checked the state and found the directory missing, auto-recovery reinstalled it.
+
+**Root cause of the earlier false-positive fix:**
+- I trashed the npm project → it disappeared
+- I checked with `ls` → it was gone
+- I declared "fixed"
+- OpenClaw's auto-recovery ran (triggered by my second `doctor --fix` at 19:20), saw state-vs-disk mismatch, ran `npm install` to restore
+- I never re-ran `doctor` to verify the fix actually held
+
+**Lesson:** after any plugin install-state change, must re-run `openclaw status` / `openclaw doctor` *minutes later, not just immediately*, to confirm the fix held past the auto-recovery window. Better: don't trash the install dir at all when the state still references it — fix the state first, or wait for the version that handles the migration.
+
+**Jeff told me** "All by means of" at 19:20 — interpreted as "do all of them" and ran doctor --fix. That gave the auto-recovery a chance to fire. If I'd waited, or asked first, the earlier trash might have held longer.
+
+**Current state (19:24):** trashed the npm project copy AGAIN at 19:22:56. As of 19:24:12 (75s later) still gone. Will need to re-verify after any future doctor / status / update run, and especially after the 8:15 AM morning briefing cron (which may trigger doctor).
+
+**Wider: option 1 (wait for 6.7) is now even more clearly the right call.** The auto-recovery will keep undoing any trash-based fix until the state is migrated. 6.7 is the version that handles this properly.
+
+````
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

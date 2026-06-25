@@ -28,6 +28,13 @@ skills/csi-expert/extracted/
 .openclaw/
 .openclaw-cli/
 
+# Wiki tool configs (not content)
+wiki/.obsidian/
+wiki/.openclaw-wiki/
+wiki/AGENTS.md
+wiki/WIKI.md
+wiki/Untitled.base
+
 # Hermes profile runtime (merged into ~/Smith/ on 2026-06-25)
 .env
 .hermes_history
