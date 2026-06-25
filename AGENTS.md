@@ -242,6 +242,13 @@ Periodically (every few days), use a heartbeat to:
 
 Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
 
+## 🧠 Wiki (LLM Knowledge Base)
+
+When asked about past work, projects, or anything from session history:
+1. **Check `~/Smith/wiki/index.md`** first — 278 pages of bridged session memory, entities, concepts, reports
+2. **Search `~/Smith/wiki/`** for relevant pages before guessing from scratch
+3. The wiki syncs to OneDrive (Obsidian vault) and GitHub — cross-platform
+
 ## 🧵 Session Management (Cost Control)
 
 You operate in sessions that accumulate context over time.
