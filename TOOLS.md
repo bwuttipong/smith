@@ -123,6 +123,7 @@ oracle session <id> --render
 - **Trigger**: "traffic from X to Y", "how's traffic?", "should I leave now?", "bad traffic", "commute time"
 - **CLI**: Python script at `skills/openclaw-commute-traffic/scripts/check_traffic.py`
 - **Requires**: `TOMTOM_API_KEY` env var (already set: `mCItvnFsSp2n92bRGBALDztzp2QIFble`)
+- **Geo fix 2026-06-25**: Script was hardcoded to `countrySet=CH` (Switzerland) — patched to `countrySet=TH` (Thailand). All example locations updated.
 - **Emoji**: 🚗
 
 **Usage:** Just say the origin and destination — I'll run the check and report back with:
