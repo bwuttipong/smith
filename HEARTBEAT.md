@@ -41,13 +41,14 @@ Samantha is my workhorse. **Route all general-purpose tasks to her by default** 
 | 📅 **Calendar & email** | gog/gmail/calendar reads, event lookups |
 | 🔍 **Web searches** | quick lookups, research gathering |
 | 📋 **Routine reporting** | summaries, data pulls, document lookups |
+| ⏰ **Cron & scheduling** | recurring tasks, duty checks, scheduled reports |
 
 ### What she does NOT handle (stays with smith)
 
 | Category | Examples |
 |----------|---------|
 | 🧠 **Strategy & decisions** | config changes, architecture calls, trade-off analysis |
-| 🔧 **System ops** | openclaw config, gateway, cron, plugins, deployments |
+| 🔧 **System ops** | openclaw config, gateway, plugins, deployments |
 | 💬 **Conversation continuity** | keeping the thread alive with Jeff, reading the room |
 | 🎯 **High-stakes reasoning** | anything that needs careful multi-step logic |
 
