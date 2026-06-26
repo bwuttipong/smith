@@ -9,7 +9,7 @@ bridgeWorkspaceDir: /Users/Jeff/Smith
 bridgeAgentIds:
   - smith
 status: active
-updatedAt: 2026-06-22T01:57:45.186Z
+updatedAt: 2026-06-24T15:29:50.206Z
 ---
 
 # Memory Bridge (smith): artifacts / 2026-06-22-todoist-migration
@@ -19,7 +19,7 @@ updatedAt: 2026-06-22T01:57:45.186Z
 - Relative path: `memory/artifacts/2026-06-22-todoist-migration.md`
 - Kind: `markdown`
 - Agents: smith
-- Updated: 2026-06-22T01:57:45.186Z
+- Updated: 2026-06-24T15:29:50.206Z
 
 ## Content
 ```markdown

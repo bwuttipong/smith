@@ -3,14 +3,14 @@ pageType: report
 id: report.stale-pages
 title: Stale Pages
 status: active
-updatedAt: 2026-06-24T12:18:19.551Z
+updatedAt: 2026-06-26T00:04:00.372Z
 ---
 
 # Stale Pages
 
 ## Generated
 <!-- openclaw:wiki:stale-pages:start -->
-- Stale pages: 103
+- Stale pages: 105
 
 - [[sources/bridge-beaker-5f941680-memory-2026-05-17-0053-a4807cbc|Memory Bridge (beaker): 2026-05-17-0053]]: aging (2026-05-16T17:53:24.223Z)
 - [[sources/bridge-beaker-5f941680-memory-2026-05-18-2204-e15b4758|Memory Bridge (beaker): 2026-05-18-2204]]: aging (2026-05-18T15:04:27.137Z)
@@ -108,6 +108,8 @@ updatedAt: 2026-06-24T12:18:19.551Z
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-05-23-1131-7a513383|Memory Bridge (smith): 2026-05-23-1131]]: aging (2026-05-23T04:31:57.689Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-05-24-f0dce1ca|Memory Bridge (smith): 2026-05-24]]: aging (2026-05-24T09:16:15.529Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-05-24-1435-84dee29a|Memory Bridge (smith): 2026-05-24-1435]]: aging (2026-05-24T07:35:52.744Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-05-25-7e5d4e21|Memory Bridge (smith): 2026-05-25]]: aging (2026-05-25T15:23:00.361Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-05-26-a8f858bc|Memory Bridge (smith): 2026-05-26]]: aging (2026-05-26T15:44:54.562Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-dreams-events-jsonl-38a7dd37|Memory Bridge (smith): event journal]]: aging (2026-05-07T07:19:20.466Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-feedback-discord-memory-f793926a|Memory Bridge (smith): feedback_discord_memory]]: aging (2026-05-07T07:19:20.457Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-preferences-88045bf4|Memory Bridge (smith): preferences]]: aging (2026-05-21T10:05:07.702Z)

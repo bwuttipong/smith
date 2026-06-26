@@ -95,7 +95,100 @@
     },
     "notion": {
       "version": "1.0.0",
-      "installedAt": 1779502171976
+      "installedAt": 1782095526926,
+      "registry": "https://clawhub.ai",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "830aa35a00b7fe25482246d865428a188da8ed048b4529ad8ce636f69d4f5bad",
+        "integrity": "sha256-gwqjWgC3/iVIIkbYZUKKGI2o7QSLRSmtjOY29p1PW60="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "1002bcb8230ff496b65c2cb030737ed561c8c85fa1f823bed9192550e282a6fa"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/notion/card?ownerHandle=steipete&version=1.0.0",
+          "sha256": "e0cb38eb0bf12d350a132e02066ef67025d88922cfc53a5c8998a816d19a7c42",
+          "size": 1957,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": null,
+          "bundleFingerprints": [
+            "3783fe56a07c3e24e7287606019515915bfbd599d19d1316f3a04c2d90f35592"
+          ],
+          "files": [
+            {
+              "path": "SKILL.md",
+              "size": 5039,
+              "sha256": "1002bcb8230ff496b65c2cb030737ed561c8c85fa1f823bed9192550e282a6fa",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This Notion helper is documentation-only and its credential use and Notion write operations match its stated purpose.",
+          "model": "gpt-5.5",
+          "checkedAt": 1779912364033,
+          "signals": {
+            "staticScan": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "reasonCodes": [],
+              "summary": "No suspicious patterns detected.",
+              "engineVersion": "v2.4.5",
+              "checkedAt": 1777524883184
+            },
+            "virusTotal": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "verdict": "benign",
+              "analysis": "Type: OpenClaw Skill\nName: notion\nVersion: 1.0.0\n\nThe skill is designed to interact with the Notion API. It instructs the user to store their Notion API key locally in `~/.config/notion/api_key` and then uses `cat` to read this key for authentication with `curl` commands. All network requests are directed to the legitimate Notion API endpoint (`https://api.notion.com`). There is no evidence of data exfiltration to unauthorized endpoints, malicious execution, persistence mechanisms, or prompt injection attempts aimed at subverting the agent for harmful purposes. The file access and network calls are directly aligned with the stated purpose of providing Notion API functionality.",
+              "source": "palm",
+              "scanner": "code_insight",
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 65
+              },
+              "checkedAt": 1779159618327
+            },
+            "skillSpector": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "score": 20,
+              "severity": "LOW",
+              "recommendation": "SAFE",
+              "issueCount": 2,
+              "scannerVersion": "2.0.0",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1779912340884
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
     },
     "capability-evolver": {
       "version": "1.53.2",

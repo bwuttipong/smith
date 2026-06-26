@@ -9,7 +9,7 @@ bridgeWorkspaceDir: /Users/Jeff/Smith
 bridgeAgentIds:
   - smith
 status: active
-updatedAt: 2026-06-22T06:51:29.819Z
+updatedAt: 2026-06-24T15:29:50.202Z
 ---
 
 # Memory Bridge (smith): 2026-06-22-1351
@@ -19,7 +19,7 @@ updatedAt: 2026-06-22T06:51:29.819Z
 - Relative path: `memory/2026-06-22-1351.md`
 - Kind: `markdown`
 - Agents: smith
-- Updated: 2026-06-22T06:51:29.819Z
+- Updated: 2026-06-24T15:29:50.202Z
 
 ## Content
 ```markdown

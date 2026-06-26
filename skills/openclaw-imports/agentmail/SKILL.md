@@ -7,7 +7,14 @@ env:
 
 # AgentMail Skill
 
-Use the `exec` tool to run curl commands against the AgentMail API.
+Use curl commands against the AgentMail API, or Python's `urllib` when the API key has special characters that bash mangles.
+
+## API Key
+
+Lives in `~/.openclaw/.env`:
+```
+AGENTMAIL_API_KEY=your...rce it with `source ~/.openclaw/.env` before curl commands,
+or read it directly in Python. See `references/setup.md` for full auth details.
 
 ## API Base URL
 
@@ -17,34 +24,29 @@ https://api.agentmail.to/v0
 
 ## Authentication
 
-Include your API key in the Authorization header:
+```
+Authorization: Bearer $AGENT...L_KEY
+```
 
-```
-Authorization: Bearer $AGENTMAIL_API_KEY
-```
+The API key lives in `~/.openclaw/.env` — source that file before using the variable.
+See `references/setup.md` for key location, auth gotchas, and verification steps.
 
 ## Common Operations
 
 ### List inboxes
 
 ```bash
-curl -s -H "Authorization: Bearer $AGENTMAIL_API_KEY" \
-  https://api.agentmail.to/v0/inboxes
-```
-
-### Create an inbox
-
-```bash
-curl -s -X POST -H "Authorization: Bearer $AGENTMAIL_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d '{"display_name": "My Agent"}' \
+source ~/.openclaw/.env
+curl -s -H "Authorization: Bearer $AGENT...EY" \
   https://api.agentmail.to/v0/inboxes
 ```
 
 ### Send an email
 
 ```bash
-curl -s -X POST -H "Authorization: Bearer $AGENTMAIL_API_KEY" \
+source ~/.openclaw/.env
+curl -s -X POST \
+  -H "Authorization: Bearer $AGENT...EY" \
   -H "Content-Type: application/json" \
   -d '{
     "to": ["recipient@example.com"],
@@ -57,15 +59,41 @@ curl -s -X POST -H "Authorization: Bearer $AGENTMAIL_API_KEY" \
 ### List messages in an inbox
 
 ```bash
-curl -s -H "Authorization: Bearer $AGENTMAIL_API_KEY" \
+source ~/.openclaw/.env
+curl -s -H "Authorization: Bearer $AGENT...EY" \
   https://api.agentmail.to/v0/inboxes/{inbox_id}/messages
 ```
 
 ### Reply to a message
 
 ```bash
-curl -s -X POST -H "Authorization: Bearer $AGENTMAIL_API_KEY" \
+source ~/.openclaw/.env
+curl -s -X POST \
+  -H "Authorization: Bearer $AGENT...EY" \
   -H "Content-Type: application/json" \
   -d '{"text": "Thanks for your email!"}' \
   https://api.agentmail.to/v0/inboxes/{inbox_id}/messages/{message_id}/reply
+```
+
+## Python Send (for special chars in API key)
+
+```python
+import os, json, urllib.request
+key = os.environ.get('AGENTMAIL_API_KEY')
+payload = json.dumps({
+    "to": ["recipient@example.com"],
+    "subject": "Subject",
+    "text": "Body"
+}).encode()
+req = urllib.request.Request(
+    'https://api.agentmail.to/v0/inboxes/smith-agent@agentmail.to/messages/send',
+    data=payload,
+    headers={
+        'Authorization': f'Bearer {key}',
+        'Content-Type': 'application/json'
+    },
+    method='POST'
+)
+with urllib.request.urlopen(req) as resp:
+    print(resp.read().decode())
 ```

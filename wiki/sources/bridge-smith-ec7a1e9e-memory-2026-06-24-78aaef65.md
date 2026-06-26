@@ -1,0 +1,93 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-24-78aaef65
+title: "Memory Bridge (smith): 2026-06-24"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-24.md
+bridgeRelativePath: memory/2026-06-24.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-24T16:24:05.602Z
+---
+
+# Memory Bridge (smith): 2026-06-24
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-24.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-24T16:24:05.602Z
+
+## Content
+```markdown
+# Wednesday 2026-06-24
+
+## Work Session (11:31 AM BKK)
+- Started session. Jeff requested a summary of yesterday's work.
+- Updated `2026-06-23.md` to properly reflect the CirculatingBox and system changes we shipped.
+- Tested the `CIRCULATINGBOX_ENV` override logic by creating a dummy config file; verified it successfully overrode the connection string.
+- Fixed a ClickOnce deployment bug (`0x8007007E`) with `WebView2Loader.dll` in `CirculatingBox.vbproj`. Switched to explicit runtime inclusion (x64, x86, arm64) with `<PublishState>Included</PublishState>` so the WebView2 SDK dynamically selects the correct native architecture at runtime. Jeff confirmed the fix worked.
+
+## Work Session (Late Afternoon BKK)
+- The `WebView2Loader.dll` issue re-emerged (`0x8007007E`) during subsequent updates. We discovered that .NET 8's `<PublishSingleFile>True</PublishSingleFile>` is fundamentally incompatible with standard ClickOnce deployment when native C++ libraries (like WebView2) and `Content` files are involved. MSBuild would separate the launcher and the content into nested folders (e.g., `CirculatingBox\`), breaking `Application.StartupPath` and causing the loader to fail.
+- Switched `ClickOnceProfile.pubxml` back to `<PublishSingleFile>False</PublishSingleFile>` to restore the native multi-file structure.
+- **SMB Share / Offline Files Bug:** Reverting to multi-file deployment triggered a Windows Offline Files sync timeout (`0x80070c89`) because test dependencies (`MSTest`, `Moq`) and `Uno.UI` in the main `.vbproj` were inflating the manifest to 1,170 files (over 940MB of localized resources).
+- Fixed the bloated payload by setting `<ExcludeAssets>runtime</ExcludeAssets>` on `MSTest`, `Moq`, `EFCore.Tools`, and `Uno.UI`. This brought the ClickOnce payload back down to a clean 84 files, bypassing the network sync error and resolving the deployment cleanly (v23).
+- Wrapped up the day.
+
+## Evening
+- **17:08** — Jeff checked in, asked to verify Samantha works
+- **17:10** — Spawned Samantha health check → ✅ operational
+- **17:17** — Checked commute traffic (Wellgrow → Ban Suan): 🟢 light, 47 min
+- **17:20** — Spawned Samantha for "surprise Jeff" → created Rubber Duck English Challenge
+- **18:33** — Jeff asked "Rubber Duck" meaning → Samantha handled full Thai/English translation + concept breakdown ✅
+- **18:43** — Introduced Rubber Duck English Challenge game
+- **19:04** — Jeff sent voice note ("today") — first attempt at the challenge 🎉
+- **19:20** — Jeff asked to disable Fozzie — morning tech briefing cron → disabled (was already broken with model typo `opencode-qwen/qwen3.7-max`)
+
+### Config Changes
+- disabled cron: `Fozzie — morning tech briefing` (agent: fozzie, id: 2de90ad8-b8fb-4a6...)
+  - Reason: Jeff requested it. Also was already failing (model mismatch).
+
+## Night (~19:20–22:30 GMT+7) — Telegram handoff + profile merge
+
+- **19:30** — Jeff asked "do you know of Samantha" — Smith initially claimed she wasn't set up. Was wrong. Memory file pulls showed 8+ artifacts of her working since 2026-06-21 (weather, audits, calendar, healthcheck). Lesson: verify before declaring.
+- **19:40** — User style reinforcement: "you don't need you just swawn her" — verb was clear, Smith had given 4-option matrix. Encoded the lesson.
+- **~20:00** — Openclaw agents list check: samantha registered (workspace `~/Agents/Samantha`, agent dir `~/Agents/Samantha/agent`, model `openrouter/google/gemma-4-26b-a4b-it:free`), but **0 routing rules** — invisible to incoming traffic. `openclaw agents bind samantha telegram` is the spawn step.
+- **~20:10** — Discord skill check: bare name `discord` is ambiguous (2 copies). Real skill is at `openclaw-imports/discord`. Same for `telegram` (designer skill, not operator tool).
+- **~20:20** — Telegram collapse diagnosis: streaming-edit pattern in `gateway.log` (`Suppressing normal final send ... streamed=True previewed=False content_delivered=True`). Every reply is a single `editMessageText` on a placeholder, so chunks squash into one bubble. Fix: shorter replies going forward.
+- **~20:30** — Jeff asked to merge `~/.hermes/profiles/smith/` into `~/Smith/`. He wants one home for everything Smith.
+- **~20:45** — Wrote runbook: `~/Smith/docs/hermes-profile-merge-to-workspace.md`. **Subdir merge** (`~/Smith/.hermes-profile/`), not top-level. Includes: preflight + tarball backup, `launchctl stop` (not `-9`), rsync move, plist updates via `plutil`, verification, rollback, 10 pitfalls (Discord token conflict, qmd MCP failure, session DB lock, etc).
+- **~21:00** — Jeff wants the runbook also in memory so "Smith on Antigravity" (next session) knows the plan. **Cross-session memory saved** + this daily log updated.
+- **21:55** — Executed profile merge to `~/Smith/.hermes-profile/`. Stopped gateway, backed up profile to `~/.hermes/` tarball, snapshot `openclaw.json`, moved files via `rsync`. Created symlink `~/.hermes/profiles/smith` pointing to new location. Updated plist and successfully started the service via `launchctl` bootstrap.
+- **22:00** — Reverted Telegram binding back to `smith` per user instruction (Samantha is only a sub-agent, no Telegram binding needed). Smith routing is now back to default.
+- **22:15** — Telegram streaming-edit bug confirmed upstream: hermes-agent issues **#49536**, **#44428**, **#49452** (all P2, open last 2 weeks). Root cause: streaming finalization path uses `editMessageText` (MarkdownV2) instead of `sendMessage` with rich formatting, leaving stale chunks visible. Saved in `memory/pending-telegram-streaming-bug.md` for tomorrow.
+|- **22:30** — Jeff pushed tonight's work to GitHub. Profile-merge runbook + bug note + gitignore for `.hermes-profile/` runtime state all committed.
+|- **~22:35** — Post-push: merge conflict resolved (remote had earlier 2026-06-24 log via antigravity), rebased cleanly. System-noise files stashed, only smith-profile changes committed.
+|- **22:40** — Noted: Smith's repo is private (github.com/bwuttipong/smith, master branch). Cross-session memory saved so future sessions don't expose it.
+|- **~22:45** — IP lookup for work laptop (FX-Programmer-NB1 at TPN Flexpak): found in TOOLS.md at `10.100.99.24`. Lesson: check TOOLS.md first when asked about device IPs.
+|- **~22:50** — Hermes version checked: v0.17.0 (build 2026.6.19), 6 commits behind upstream. Telegram streaming-edit bug (#49536) is in current release.
+|- **~22:55** — Jeff noticed telegram's inline-reply feature. Conversation flow feels more natural with thread context visible.
+|- **~23:00** — Jeff asked about Obsidian vault maintenance. Vault located at `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Memory — Obsidian Vault/` (per TOOLS.md). `OBSIDIAN_VAULT_PATH` env var unset; skill resolves manually. Vault has structured content: WIKI.md, concepts/, entities/, inbox.md, index.md.
+|- **23:10** — Session concluded. Jeff heading to sleep. Streaming-bug work tracked for tomorrow.
+
+### Files Touched
+- `~/Smith/docs/hermes-profile-merge-to-workspace.md` (created, 14.6KB, 10-section runbook)
+- `~/Smith/memory/2026-06-24.md` (this file, updated)
+- `~/Smith/memory/pending-telegram-streaming-bug.md` (created, upstream issue reference)
+- `~/Smith/.gitignore` (added `.hermes-profile/`, `.openclaw/`, `.openclaw-cli/`)
+- `~/Library/LaunchAgents/ai.hermes.gateway-smith.plist` (updated HERMES_HOME, WorkingDirectory, logs paths)
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

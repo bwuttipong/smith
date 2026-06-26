@@ -3,12 +3,12 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `obsidian`
-- Total pages: 268
+- Total pages: 272
 - Claims: 0
-- Sources: 258
+- Sources: 261
 - Entities: 0
 - Concepts: 0
-- Syntheses: 0
+- Syntheses: 1
 - Reports: 10
 
 ### Sources
@@ -217,10 +217,12 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-22-2215-6cb8a27e|Memory Bridge (smith): 2026-06-22-2215]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-22-traffic-work-to-home-f79ab983|Memory Bridge (smith): 2026-06-22-traffic-work-to-home]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-23-fcded1df|Memory Bridge (smith): 2026-06-23]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-24-78aaef65|Memory Bridge (smith): 2026-06-24]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-24-1707-ee7ee874|Memory Bridge (smith): 2026-06-24-1707]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-24-rubber-duck-thai-9d10f486|Memory Bridge (smith): 2026-06-24-rubber-duck-thai]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-24-samantha-healthcheck-8dd9238a|Memory Bridge (smith): 2026-06-24-samantha-healthcheck]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-24-samantha-surprise-3a094d26|Memory Bridge (smith): 2026-06-24-samantha-surprise]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-25-5d2903b9|Memory Bridge (smith): 2026-06-25]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-gmail-draft-thai-6580c92c|Memory Bridge (smith): artifacts / 2026-06-05-weekly-gmail-draft-thai]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-june1-6-thai-d49e4984|Memory Bridge (smith): artifacts / 2026-06-05-weekly-june1-6-thai]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-report-thai-4a85c7d1|Memory Bridge (smith): artifacts / 2026-06-05-weekly-report-thai]]
@@ -253,6 +255,7 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-2d62c497|Memory Bridge (smith): MEMORY]]
 - [[sources/bridge-smith-ec7a1e9e-memory-memory-3cabbde2|Memory Bridge (smith): MEMORY]]
 - [[sources/bridge-smith-ec7a1e9e-memory-morning-briefing-2026-06-21-c39ad970|Memory Bridge (smith): morning-briefing-2026-06-21]]
+- [[sources/bridge-smith-ec7a1e9e-memory-pending-telegram-streaming-bug-8094c1d4|Memory Bridge (smith): pending-telegram-streaming-bug]]
 - [[sources/bridge-smith-ec7a1e9e-memory-preferences-88045bf4|Memory Bridge (smith): preferences]]
 - [[sources/bridge-smith-ec7a1e9e-memory-project-best-work-schedule-cab6268d|Memory Bridge (smith): project_best_work_schedule]]
 - [[sources/bridge-smith-ec7a1e9e-memory-project-calendar-tpn-2cce053c|Memory Bridge (smith): project_calendar_tpn]]
@@ -278,7 +281,7 @@
 - No concepts yet.
 
 ### Syntheses
-- No syntheses yet.
+- [[syntheses/system-audit-2026-06-26|System Audit — 2026-06-26]]
 
 ### Reports
 - [[reports/claim-health|Claim Health]]

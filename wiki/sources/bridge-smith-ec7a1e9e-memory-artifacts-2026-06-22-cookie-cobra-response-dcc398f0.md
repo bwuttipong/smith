@@ -9,7 +9,7 @@ bridgeWorkspaceDir: /Users/Jeff/Smith
 bridgeAgentIds:
   - smith
 status: active
-updatedAt: 2026-06-22T01:27:43.379Z
+updatedAt: 2026-06-24T15:29:50.206Z
 ---
 
 # Memory Bridge (smith): artifacts / 2026-06-22-cookie-cobra-response
@@ -19,7 +19,7 @@ updatedAt: 2026-06-22T01:27:43.379Z
 - Relative path: `memory/artifacts/2026-06-22-cookie-cobra-response.md`
 - Kind: `markdown`
 - Agents: smith
-- Updated: 2026-06-22T01:27:43.379Z
+- Updated: 2026-06-24T15:29:50.206Z
 
 ## Content
 ```markdown

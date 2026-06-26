@@ -1,0 +1,65 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-25-5d2903b9
+title: "Memory Bridge (smith): 2026-06-25"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-25.md
+bridgeRelativePath: memory/2026-06-25.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-25T10:51:48.449Z
+---
+
+# Memory Bridge (smith): 2026-06-25
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-25.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-25T10:51:48.449Z
+
+## Content
+```markdown
+# 2026-06-25
+
+## Morning
+- 06:22 — online, jeff asked about commute traffic
+- found + patched bug in `check_traffic.py`: hardcoded `countrySet=CH` (switzerland) instead of `TH` (thailand), making geocoding fail for jeff's route
+  - fixed at `~/Smith/skills/openclaw-commute-traffic/scripts/check_traffic.py` (profile symlinked at `~/.hermes/profiles/smith/`)
+- traffic result: 55 min via Bang Na-Trad, 🟢 light, 0 delay
+
+## Profile consolidation
+- merged `self-improving-agent` (openclaw-imports) + `xiucheng-self-improving-agent` into one canonical skill at `openclaw-imports/self-improving-agent/`
+  - merged SKILL.md combines procedures + python module features
+  - copied `self_improving.py` and `skill.yaml` from xiucheng into scripts/
+  - removed 3 duplicate copies of xiucheng-self-improving-agent
+- unified profile root: `~/.hermes/profiles/smith` now points to `~/Smith/` instead of `~/Smith/.hermes-profile/`
+  - merged all `.hermes-profile/` contents into `~/Smith/` (cron/, memories/, sessions/, config, etc.)
+  - removed `~/Smith/.hermes-profile/` entirely
+  - all skills (73) consolidated under `~/Smith/skills/`
+  - all config/platform files at `~/Smith/config.yaml`, `~/Smith/channel_directory.json`, etc.
+  - workspace files (SOUL.md, AGENTS.md, etc.) untouched
+
+- **08:10 AM:** Session started. "Hey, Good Morning Smith".
+- **08:13 AM:** Pulled workspace from GitHub as requested.
+- **08:14 AM:** Ready for work on CirculatingBox.
+
+## Afternoon
+- 17:40 � Fixed major ClickOnce deployment bug in CirculatingBox project.
+  - Root cause: MSBuild ClickOnce subfolder assembly separation bug for .NET 8 apps.
+  - Fix: Enabled PublishSingleFile=True and SelfContained=False in ClickOnceProfile.pubxml to bundle all dependencies into a single executable, resolving the silent startup crash where the runtime couldn't locate ConfigurationManager.dll and deps.json.
+  - Bumped version to 3.1.0.30 and manually deployed to the local network share.
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-06-04T10:11:41.192527Z",
-  "etag": "W/\"896926c6e19b81ac74ed39a9159cd7ae\"",
-  "client_version": "0.135.0",
+  "fetched_at": "2026-06-24T10:00:24.952282Z",
+  "etag": "W/\"9f92b50bea68a6551319b0ed7242fdd9\"",
+  "client_version": "0.139.0",
   "models": [
     {
       "slug": "gpt-5.5",
@@ -65,7 +65,8 @@
         "text",
         "image"
       ],
-      "supports_search_tool": true
+      "supports_search_tool": true,
+      "use_responses_lite": false
     },
     {
       "slug": "gpt-5.4-mini",
@@ -127,7 +128,8 @@
         "text",
         "image"
       ],
-      "supports_search_tool": true
+      "supports_search_tool": true,
+      "use_responses_lite": false
     },
     {
       "slug": "codex-auto-review",
@@ -189,7 +191,8 @@
         "text",
         "image"
       ],
-      "supports_search_tool": true
+      "supports_search_tool": true,
+      "use_responses_lite": false
     }
   ]
 }

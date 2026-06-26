@@ -9,7 +9,7 @@ bridgeWorkspaceDir: /Users/Jeff/Smith
 bridgeAgentIds:
   - smith
 status: active
-updatedAt: 2026-06-24T11:34:04.737Z
+updatedAt: 2026-06-24T15:29:50.205Z
 ---
 
 # Memory Bridge (smith): 2026-06-24-rubber-duck-thai
@@ -19,7 +19,7 @@ updatedAt: 2026-06-24T11:34:04.737Z
 - Relative path: `memory/2026-06-24-rubber-duck-thai.md`
 - Kind: `markdown`
 - Agents: smith
-- Updated: 2026-06-24T11:34:04.737Z
+- Updated: 2026-06-24T15:29:50.205Z
 
 ## Content
 ```markdown
