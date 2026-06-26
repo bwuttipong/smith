@@ -1,13 +1,17 @@
-# SESSION-STATE.md — Active Working Memory (WAL Target)
+# SESSION-STATE.md � Active Working Memory (WAL Target)
 
-> **Law:** Chat history is a BUFFER, not storage. This file is your "RAM" — the ONLY place specific details are safe.
-> **Rule:** If it's important enough to remember, write it down NOW — not later.
+> **Law:** Chat history is a BUFFER, not storage. This file is your "RAM" � the ONLY place specific details are safe.
+> **Rule:** If it's important enough to remember, write it down NOW � not later.
 
 ---
 
 ## Current Task
 
-- initialized git repository, refactored contexts to load config path via environment variable, set up env variable, and created VS Code launch/build configurations.
+- Resolved a major ClickOnce deployment bug in the CirculatingBox project.
+- Fixed the silent startup crash where the runtime couldn't locate ConfigurationManager.dll and deps.json due to MSBuild subfolder assembly separation.
+- Enforced <PublishSingleFile>True</PublishSingleFile> and <IncludeNativeLibrariesForSelfExtract>True</IncludeNativeLibrariesForSelfExtract> to fix missing WebView2Loader.dll.
+- Bumped versions up to 3.1.0.31 and successfully deployed to the local network share (\\192.168.95.200\TPKShare\IT\Box\).
+- Committed all changes to the local Git repository for the CirculatingBox project.
 
 ---
 
@@ -15,9 +19,9 @@
 
 | Field | Value |
 |-------|-------|
-| **Project** | OutsourceEF9 |
+| **Project** | CirculatingBox |
 | **Channel** | IDE (direct) |
-| **Last Updated** | 2026-06-17 |
+| **Last Updated** | 2026-06-26 |
 
 ---
 
@@ -25,58 +29,22 @@
 
 | Decision | When | Details |
 |----------|------|---------|
-| initialized git repo and cleaned obj folders | 2026-06-17 | staged files and ignored build directories |
-
----
-
-## Corrections Log
-
-| Correction | When | Details |
-|------------|------|---------|
-| | | |
-
----
-
-## Preferences
-
-| Category | Preference |
-|----------|------------|
-| Tone | lowercase, witty, British gentleman |
-| Emoji | yes, tastefully |
-| Language | English |
-| External actions | always get approval first |
-| Slack canvases | grant access automatically and share silently without verbose explanations |
-
----
-
-## Key Details (Proper Nouns, Numbers, URLs)
-
-| Detail | Value |
-|--------|-------|
-| Config File Path | `\\192.168.10.2\ShareCenter\Program\Outsource\config.json` |
+| Enable SingleFile and IncludeNativeLibs | 2026-06-26 | Bypasses ClickOnce folder separation bug and fixes WebView2Loader missing native dll crash. |
+| Commit to local Git | 2026-06-26 | No remote configured, so changes are securely versioned locally. |
 
 ---
 
 ## WAL Triggers (scan every message for these)
 
-- ✏️ Corrections — "It's X, not Y" / "Actually..." / "No, I meant..."
-- 📍 Proper nouns — Names, places, companies, products
-- 🎨 Preferences — "I like/don't like"
-- 📋 Decisions — "Let's do X" / "Go with Y" / "Use Z"
-- 📝 Draft changes — Edits to something being worked on
-- 🔢 Specific values — Numbers, dates, IDs, URLs
+- ?? Corrections � "It's X, not Y" / "Actually..." / "No, I meant..."
+- ?? Proper nouns � Names, places, companies, products
+- ?? Preferences � "I like/don't like"
+- ?? Decisions � "Let's do X" / "Go with Y" / "Use Z"
+- ?? Draft changes � Edits to something being worked on
+- ?? Specific values � Numbers, dates, IDs, URLs
 
-**If ANY of these appear: STOP → WRITE to this file → THEN respond**
-
----
-
-## Danger Zone Protocol
-
-- **Threshold:** 60% context (check via `session_status`)
-- **When triggered:** Start logging to `memory/working-buffer.md`
-- **Every message after 60%:** Append both human message + agent summary
-- **After compaction:** Read buffer FIRST, extract context into this file
+**If ANY of these appear: STOP  WRITE to this file  THEN respond**
 
 ---
 
-*Last write: 2026-06-17*
+*Last write: 2026-06-26*
