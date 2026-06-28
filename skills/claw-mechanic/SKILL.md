@@ -11,7 +11,9 @@ For broad, mixed, or post-update symptoms, skim [references/root-failure-taxonom
 
 ## Execution Context
 
-- First classify whether you are an external operator agent or an OpenClaw-hosted agent dispatched through ACP, a channel, or cron. External agents can survive gateway restarts; OpenClaw-hosted agents may lose their own runtime when they restart or reinstall the gateway.
+- First classify whether you are an external operator agent (e.g. Hermes) or an OpenClaw-hosted agent dispatched through ACP, a channel, or cron.
+  - **External agents (Hermes):** CAN safely restart the OpenClaw gateway — Hermes and OpenClaw are separate process trees. `launchctl kickstart` works fine from here.
+  - **OpenClaw-hosted agents:** May lose their own runtime when they restart or reinstall the gateway. Before triggering `gateway restart`, `gateway stop`, update, or service reinstall, arrange a continuation or wake-up path for post-restart verification.
 - When running inside OpenClaw, prefer native Gateway tools such as config, cron, and message RPCs when available, because they expose less secret material than shell commands.
 - Before an in-gateway agent triggers `gateway restart`, `gateway stop`, update, or service reinstall, arrange a continuation or wake-up path for post-restart verification.
 
@@ -103,6 +105,7 @@ Use this shape when the user asks for a plan rather than immediate repair:
 
 ## Good Defaults From Prior Incidents
 
+- **Gateway crash-loops on startup with `SecretRefResolutionError` for `OPENCLAW_GATEWAY_TOKEN`**: the token is likely set in the user's shell profile (`.zshrc`, `.bashrc`) but absent from the launchagent's service env file at `~/.openclaw/service-env/ai.openclaw.gateway.env`. launchd does not source shell profiles. Fix: read the token value from `.zshrc` (it's usually a static fallback in `${VAR:-default}` form), add `export OPENCLAW_GATEWAY_TOKEN='***'` to the env file, then kickstart: `launchctl kickstart -k "gui/$(id -u)/ai.openclaw.gateway"`. Verify with `openclaw gateway status --deep` — should show "Runtime: running" and "Established clients" instead of connectivity failure.
 - A clean `plugins doctor` is necessary but not sufficient; still check tasks, cron, model smokes, and logs.
 - Remote macOS SSH often has a tiny PATH. Locate `/opt/homebrew/bin/openclaw`, `/opt/homebrew/opt/node/bin`, or `~/.local/bin/openclaw` and prepend them explicitly.
 - One gateway means one managed listener on the configured port. Do not leave detached duplicate gateway processes behind.

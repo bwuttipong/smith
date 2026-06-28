@@ -1,7 +1,7 @@
 ---
 name: llm-wiki
 description: "Karpathy's LLM Wiki: build/query interlinked markdown KB."
-version: 2.1.0
+version: 2.2.0
 author: Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -93,6 +93,26 @@ Only after orientation should you ingest, query, or lint. This prevents:
 
 For large wikis (100+ pages), also run a quick `search_files` for the topic
 at hand before creating anything new.
+
+### Variant: OpenClaw-Managed Wiki
+
+If the wiki contains a `.openclaw-wiki/` folder and `AGENTS.md`, it's an
+OpenClaw-managed wiki — not a vanilla Karpathy wiki. Adjust accordingly:
+
+**Orientation:**
+- Skip SCHEMA.md (likely absent). Read `AGENTS.md` for plugin rules.
+- The index has `<!-- openclaw:wiki:...:start -->` markers — these sections
+  are **plugin-owned**. Never write inside them.
+- `sources/` is auto-populated from memory bridges — don't create files there.
+
+**Ingest:**
+- Create `raw/articles/` if absent (plugin doesn't create this).
+- Use `browser_navigate` + `browser_console`(JS `.innerText` extraction)
+  for web articles when `web_extract` isn't available.
+- Create concept/entity pages outside the generated marker blocks.
+- Append human-curated index sections after
+  `<!-- openclaw:wiki:index:end -->` so the plugin won't overwrite them.
+- Create `log.md` if absent (separate from `.openclaw-wiki/log.jsonl`).
 
 ## Initializing a New Wiki
 

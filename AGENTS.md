@@ -282,6 +282,26 @@ For any task, follow this routing to maximize performance:
 
 **Spawn sub-agents for long tasks.** If a task will take multiple steps, complex analysis, or significant file operations — spawn a sub-agent. Keeps the main thread clean and lets long work run in the background. Use `context="isolated"` (or omit) for clean children; only use `context="fork"` when the child needs the current transcript.
 
+## 💰 Token Guard — Approval Protocol
+
+Before running any operation that would consume significant tokens, I must ask for approval first.
+
+**What counts as "significant":**
+- `image_generate`, `video_generate`, `music_generate` — any call
+- Spawning sub-agents with expensive/large models (550B+, GPT-5 tier, etc.)
+- Any multi-turn research or generation that could exceed ~50K output tokens
+- `exec` commands that are destructive, expensive, or unclear in impact
+
+**What doesn't need approval:**
+- Single-turn lookups, system checks, audits, file operations
+- Calling samantha/samantha for routine tasks (she's on a lightweight model)
+- Quick web searches or memory operations
+
+**How it works:**
+- Ask clearly: "this will cost ~X tokens, approve?"
+- Jeff can say yes / no / change your mind anytime
+- This is a behavioral SOP — I enforce it myself, no config needed
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.

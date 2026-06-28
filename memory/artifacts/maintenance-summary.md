@@ -1,12 +1,39 @@
-# Maintenance Summary - 2026-06-22
+# Memory Maintenance Summary
+**Date:** 2026-06-28 13:36 ICT (UTC 06:36)
+**Trigger:** Cron `memory-midnight-maintenance`
+**Duration:** ~4 seconds
 
-- **Started:** Mon Jun 22 00:03:06 +07 2026
-- **Finished:** Mon Jun 22 00:03:10 +07 2026
-- **Total vector DB size:** 259.5 MB
-- **Embedded vectors:** 12,106
-- **Pending embeddings:** 140 (needs embedding)
-- **Last qmd update:** 5 hours ago
-- **Wiki lint warnings:** 7 (no errors)
-- **Memory search test:** query returned 0 hits (index functional)
+## Steps
 
-All tasks completed successfully; no errors detected. No heads‑up needed.
+| Step | Result |
+|------|--------|
+| **qmd update** (7 collections) | ✅ — 1 doc updated in workspaces, all others unchanged |
+| **qmd embed** (memory) | ✅ — Already embedded, no action needed |
+| **qmd embed** (workspaces) | ✅ — 2 chunks from 1 doc embedded |
+| **qmd cleanup** | ✅ — 2 orphaned chunks removed, DB vacuumed |
+| **wiki lint** | ⚠️ 7 warnings, 0 errors, 0 contradictions |
+| **memory search** | ✅ — Index healthy, results returning |
+
+## Details
+
+### Collections
+- `memory`: 15 files indexed, 0 new
+- `workspaces`: 265 files indexed, 1 updated
+- Groot: 136 sessions
+- Jarvis: 2 sessions
+- Morgan: 0 sessions
+- Star Lord: 0 sessions
+- Trinity: 4 sessions
+
+### qmd Status
+- **Total vectors:** 12,107 embedded
+- **Pending:** 140 need embedding (runs `qmd embed`)
+- **Database size:** 259.5 MB
+- **Updated:** 3h ago
+
+### Wiki Lint (7 warnings)
+All warnings, no errors. No contradictions or open questions.
+Full report: `reports/lint.md`
+
+## Health
+🟢 All systems nominal. No failures.

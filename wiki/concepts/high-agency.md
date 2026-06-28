@@ -51,3 +51,8 @@ Optimism = glass half full. Pessimism = glass half empty. **High agency = you're
 ## Source
 
 Contains content from [[raw/articles/high-agency-in-30-minutes.md]] by George Mack.
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

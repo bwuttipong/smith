@@ -97,3 +97,10 @@ skills/.usage.json.lock
 # Hermes smith profile (legacy, no longer used)
 .hermes-profile/
 
+# Google Antigravity global files (moved to workspace)
+.gemini/
+
+# Claude Code global files (moved to workspace)
+.claude/
+
+

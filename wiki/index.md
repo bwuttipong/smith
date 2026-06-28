@@ -3,11 +3,11 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `obsidian`
-- Total pages: 277
+- Total pages: 281
 - Claims: 0
-- Sources: 266
-- Entities: 0
-- Concepts: 0
+- Sources: 268
+- Entities: 1
+- Concepts: 1
 - Syntheses: 1
 - Reports: 10
 
@@ -225,6 +225,7 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-25-5d2903b9|Memory Bridge (smith): 2026-06-25]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-26-eb3dcc1c|Memory Bridge (smith): 2026-06-26]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-27-fefa2fa8|Memory Bridge (smith): 2026-06-27]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-28-fb49bac0|Memory Bridge (smith): 2026-06-28]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-gmail-draft-thai-6580c92c|Memory Bridge (smith): artifacts / 2026-06-05-weekly-gmail-draft-thai]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-june1-6-thai-d49e4984|Memory Bridge (smith): artifacts / 2026-06-05-weekly-june1-6-thai]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-report-thai-4a85c7d1|Memory Bridge (smith): artifacts / 2026-06-05-weekly-report-thai]]
@@ -242,6 +243,7 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-22-us-stock-weekly-review-fb3e8c98|Memory Bridge (smith): artifacts / 2026-06-22-us-stock-weekly-review]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-23-0714-traffic-bansuan-to-wellgrow-7d8961bd|Memory Bridge (smith): artifacts / 2026-06-23-0714-traffic-bansuan-to-wellgrow]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-26-audit-followup-6a201888|Memory Bridge (smith): artifacts / 2026-06-26-audit-followup]]
+- [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-28-traffic-ai-summary-5e2acc8c|Memory Bridge (smith): artifacts / 2026-06-28-traffic-ai-summary]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-evolution-2026-06-04-cron-delivery-548854d0|Memory Bridge (smith): artifacts / evolution-2026-06-04-cron-delivery]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-maintenance-summary-4d0d6933|Memory Bridge (smith): artifacts / maintenance-summary]]
 - [[sources/bridge-smith-ec7a1e9e-memory-beaker-cicd-research-2026-06-21-ad1ff23d|Memory Bridge (smith): beaker-cicd-research-2026-06-21]]
@@ -280,10 +282,10 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-working-buffer-f0781217|Memory Bridge (smith): working-buffer]]
 
 ### Entities
-- No entities yet.
+- [[entities/george-mack|George Mack]]
 
 ### Concepts
-- No concepts yet.
+- [[concepts/high-agency|High Agency]]
 
 ### Syntheses
 - [[syntheses/system-audit-2026-06-26|System Audit — 2026-06-26]]

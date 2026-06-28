@@ -9,7 +9,7 @@ bridgeWorkspaceDir: /Users/Jeff/Smith
 bridgeAgentIds:
   - smith
 status: active
-updatedAt: 2026-06-22T00:01:49.211Z
+updatedAt: 2026-06-28T10:41:21.627Z
 ---
 
 # Memory Bridge (smith): MEMORY
@@ -19,7 +19,7 @@ updatedAt: 2026-06-22T00:01:49.211Z
 - Relative path: `MEMORY.md`
 - Kind: `markdown`
 - Agents: smith
-- Updated: 2026-06-22T00:01:49.211Z
+- Updated: 2026-06-28T10:41:21.627Z
 
 ## Content
 ```markdown
@@ -145,6 +145,11 @@ updatedAt: 2026-06-22T00:01:49.211Z
 - **Canvas URL pattern**: `https://flexpakhq.slack.com/docs/T0AMK5LU20P/FILE_ID`
 
 ## Known Issues / TODOs
+
+### 🧠 Cron Job Lessons
+- **CLI backend + `toolsAllow` = error.** Google Gemini CLI and similar CLI-backed models can't enforce tool restrictions (`toolsAllow`). Use embedded runtimes (opencode-go, nvidia, openai) instead. Cron auto-injects `toolsAllow` even when omitted from job config — so CLI-backend models will always fail on isolated agentTurn jobs.
+
+## Memory Backup & Recovery (Obsidian)
 
 ## Memory Backup & Recovery (Obsidian)
 - **Path (macOS)**: `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Memory` (OneDrive Remotely Save plugin folder)

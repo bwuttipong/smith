@@ -2,5 +2,5 @@
 
 ## Generated
 <!-- openclaw:wiki:entities:index:start -->
-- No entities yet.
+- [[entities/george-mack|George Mack]]
 <!-- openclaw:wiki:entities:index:end -->

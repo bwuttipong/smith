@@ -2,5 +2,5 @@
 
 ## Generated
 <!-- openclaw:wiki:concepts:index:start -->
-- No concepts yet.
+- [[concepts/high-agency|High Agency]]
 <!-- openclaw:wiki:concepts:index:end -->

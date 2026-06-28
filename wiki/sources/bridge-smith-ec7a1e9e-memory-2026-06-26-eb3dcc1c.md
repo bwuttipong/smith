@@ -1,0 +1,54 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-26-eb3dcc1c
+title: "Memory Bridge (smith): 2026-06-26"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-26.md
+bridgeRelativePath: memory/2026-06-26.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-28T10:41:20.318Z
+---
+
+# Memory Bridge (smith): 2026-06-26
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-26.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-28T10:41:20.318Z
+
+## Content
+```markdown
+# 2026-06-26
+
+- pulled latest commits from github
+- successfully merged and updated repository files in `wiki/` and `memory/`
+
+- **08:24 AM:** Session started. "howdy, smith!*"
+
+- **10:30 AM:** CirculatingBox Session Summary
+  - Fixed a crash in IssueOrderOpenControl by selectively migrating business logic (Notifications, Reporting hooks) from a local backup while preserving the working UI designer files.
+  - Implemented native Windows 11 Desktop Toasts in the client-side MockNotificationService (Microsoft.Toolkit.Uwp.Notifications).
+  - Added app activation logic in Program.vb so clicking a notification brings the app to the front for better multitasking.
+  - Deployed the application to production via ClickOnce (bumped version to 3.1.0.32) using the circulatingbox-publish skill.
+
+- **04:56 PM:** QA Tester Skill Creation and Audit
+  - Diagnosed and fixed a bug where Nullable generic types were failing to save correctly in Master Data entries using Nullable.GetUnderlyingType.
+  - Created a global QA Tester skill (qa-tester) to audit builds, tests, and database scenarios.
+  - Deployed the qa-tester skill to the central c:/Users/Wuttipong.t/Smith/skills/qa_tester/ directory for cross-platform access.
+  - Successfully executed a manual DB audit scenario via the new tester skill for Operator 76, assigning Team PD, Department IT, and Position IT Support. The build was fixed and the test passed with green lights.
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

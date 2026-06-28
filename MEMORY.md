@@ -121,6 +121,11 @@
 
 ## Known Issues / TODOs
 
+### 🧠 Cron Job Lessons
+- **CLI backend + `toolsAllow` = error.** Google Gemini CLI and similar CLI-backed models can't enforce tool restrictions (`toolsAllow`). Use embedded runtimes (opencode-go, nvidia, openai) instead. Cron auto-injects `toolsAllow` even when omitted from job config — so CLI-backend models will always fail on isolated agentTurn jobs.
+
+## Memory Backup & Recovery (Obsidian)
+
 ## Memory Backup & Recovery (Obsidian)
 - **Path (macOS)**: `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Memory` (OneDrive Remotely Save plugin folder)
 - **Path (Windows)**: `C:\Users\Wuttipong.t\OneDrive\Apps\remotely-save\Memory Vault` (second Memory Vault)

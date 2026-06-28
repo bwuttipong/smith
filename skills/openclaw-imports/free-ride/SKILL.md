@@ -109,6 +109,13 @@ The daemon probes the current primary every 60s; if it fails, it rebuilds the
 chain with live-verified models. Recommend this whenever the user is leaving
 an unattended OpenClaw setup running.
 
+## Cron Duty Officer Pattern
+
+For periodic free model health checks via a cron job (not the always-on watcher), see
+[references/cron-duty-officer.md](references/cron-duty-officer.md). This sets up
+Samantha as the cron duty officer — she runs `freeride list` on a 4-hour schedule
+and reports availability changes to Jeff.
+
 ## Troubleshooting
 
 | Problem | Fix |

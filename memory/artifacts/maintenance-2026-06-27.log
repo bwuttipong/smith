@@ -1,0 +1,75 @@
+=== 🌙 Midnight Memory Maintenance ===
+Started: Sat Jun 27 08:21:58 +07 2026
+
+--- Step 1: qmd update ---
+Updating 7 collection(s)...
+
+[1/7] memory (**/*.md)
+Collection: /Users/Jeff/.openclaw/jarvis/memory (**/*.md)
+
+Indexed: 0 new, 0 updated, 15 unchanged, 0 removed
+
+[2/7] workspaces (**/*.md)
+Collection: /Users/Jeff/.openclaw/workspaces (**/*.md)
+
+Indexed: 1 new, 1 updated, 263 unchanged, 0 removed
+Cleaned up 1 orphaned content hash(es)
+
+[3/7] avengers-groot (*.jsonl)
+Collection: /Users/Jeff/.openclaw/agents/groot/sessions (*.jsonl)
+
+Indexed: 0 new, 0 updated, 136 unchanged, 0 removed
+
+[4/7] avengers-jarvis (*.jsonl)
+Collection: /Users/Jeff/.openclaw/agents/jarvis/sessions (*.jsonl)
+
+Indexed: 0 new, 0 updated, 2 unchanged, 0 removed
+
+[5/7] avengers-morgan (*.jsonl)
+Collection: /Users/Jeff/.openclaw/agents/morgan/sessions (*.jsonl)
+
+Indexed: 0 new, 0 updated, 0 unchanged, 0 removed
+
+[6/7] avengers-starlord (*.jsonl)
+Collection: /Users/Jeff/.openclaw/agents/star-lord/sessions (*.jsonl)
+
+Indexed: 0 new, 0 updated, 0 unchanged, 0 removed
+
+[7/7] matrix-trinity (*.jsonl)
+Collection: /Users/Jeff/.openclaw/agents/trinity/sessions (*.jsonl)
+
+Indexed: 0 new, 0 updated, 4 unchanged, 0 removed
+
+✓ All collections updated.
+
+Run 'qmd embed' to update embeddings (142 unique hashes need vectors)
+exit: 0
+
+--- Step 2: qmd embed (memory collection, max-batch-mb 64) ---
+✓ All content hashes already have embeddings.
+exit: 0
+
+--- Step 3: qmd embed (workspaces collection, max-batch-mb 64) ---
+Model: embeddinggemma-300M-Q8_0.gguf
+
+Batch: 64 docs / 64.0 MB
+
+[?25l[?25h██████████████████████████████ 100%                                    
+
+✓ Done! Embedded 3 chunks from 2 documents in 1s
+exit: 0
+
+--- Step 4: qmd cleanup ---
+✓ Cleared 0 cached API responses
+✓ Removed 2 orphaned embedding chunks
+✓ Database vacuumed
+exit: 0
+
+--- Final: qmd status ---
+Size:  259.5 MB
+  Vectors:  12107 embedded
+  Pending:  140 need embedding (run 'qmd embed')
+  Updated:  22h ago
+
+Finished: Sat Jun 27 08:22:02 +07 2026
+=== Done ===

@@ -21,3 +21,8 @@ Writer and creator of the "High Agency in 30 Minutes" essay published at [[raw/a
 The High Agency essay took 7 months to write, written with no financial incentive — just "to create great art that I would like to consume."
 
 Thanks Eric Weinstein and Tim Ferriss for first putting the idea in his head.
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

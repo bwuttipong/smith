@@ -1,0 +1,86 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-27-fefa2fa8
+title: "Memory Bridge (smith): 2026-06-27"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-27.md
+bridgeRelativePath: memory/2026-06-27.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-28T10:41:20.318Z
+---
+
+# Memory Bridge (smith): 2026-06-27
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-27.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-28T10:41:20.318Z
+
+## Content
+```markdown
+# Session Summary: 2026-06-27 (CirculatingBox)
+
+**Project:** CirculatingBox
+**User:** Jeff
+
+## Key Accomplishments
+
+### 1. Fixed "Doubling Quantity" Transfer Bug
+*   **Root Cause 1:** The `TransferForm` UI calculated the available quantity by summing up a box's stock across *all* locations in the warehouse, rather than just the selected source location. This caused users to think they had more stock at a specific location, and when they transferred it, it looked like the quantity miraculously doubled at the destination.
+*   **Root Cause 2:** `_stockLayerService.GetLayersByBox` was incorrectly being passed the numerical `Id` instead of the string `BoxNo`, leading to mismatched or empty queries.
+*   **Fix:** Updated `TransferForm.vb` to listen for `cmbFromLoc` changes and display the stock for *only* the selected location. Updated the query to use `GetLayersByBoxId(box.Id)`.
+*   **Bonus Fix:** Refactored `TransferService.vb` to merge quantities properly into existing destination layers rather than creating fragmented database rows when transferring full quantities.
+
+### 2. Location Standardization (Production DB)
+*   **Task:** Standardized the `Name` column in the `Location` table for dynamically matched location codes (e.g., changing `B01/01` to `B 1 ชั้นที่ 1`).
+*   **Action:** Ran a direct `UPDATE` query on the production database using `sqlcmd`.
+*   **Result:** Successfully updated 176 rows matching the `[Letter][Number]/[Number]` pattern, ignoring unrelated rows. Also supplied the user with several verified empty locations (e.g., A03/03).
+
+### 3. Build & Deployment
+*   **Desktop Test Build:** Built a self-contained executable of the application and placed it on the user's desktop (`CirculatingBox_Test\CirculatingBox.exe`) for manual verification.
+*   **Production Deployment:** Used the `circulatingbox-publish` skill to bump the version to **3.1.0.33** and execute the ClickOnce deployment script (`DEPLOY_TO_SERVER.cmd`).
+
+### 4. Master Data UI Polish
+*   **Task:** Improve the display of master data references in the UI.
+*   **Action:** Updated `MasterDataViewControl` so that `Department`, `Team`, and `Position` fields correctly resolve and display human-readable names instead of raw IDs.
+
+### 5. Added Application About Form & User Manual
+*   **Task:** Give users a way to learn about the application and access documentation.
+*   **Action:** Created `AboutForm.vb` to display a project summary and the company logo. Wired this and the provided `Circulating Box - User Manual v1.0.3.pdf` to the Help menu. Added both assets to `CirculatingBox.vbproj` to package them during deployment.
+
+### 6. Addressed ClickOnce Pathing Quirks & Redeployed
+*   **Task:** Ensure newly embedded assets open properly in production.
+*   **Action:** Fixed a .NET 8 ClickOnce deployment quirk where assets are nested inside a subfolder relative to the executable (`Assembly Path Splitting`). Updated asset resolution logic to fall back to the subfolder.
+*   **Result:** Bumped the version to **3.1.0.35** and successfully pushed to the production server.
+
+### 7. MRP Workbench Troubleshooting & Customer Order Alignment
+*   **Requisition Line Ghost Recommendation:** Resolved a ghost Purchase Requisition (PREQ) recommendation showing up in the Material Planner Workbench. Found that while the generated Purchase Order was fully received and Complete (which MRP ignores), the original Requisition Line was stuck in 'Approved' status instead of being closed out. Manually closing it (changing status to Converted/History) resolves the ghost recommend.
+*   **Customer Order Cross-Reference Item Mismatch:** Investigated and documented the cross-reference error occurring when the item code on the Customer Order Line mismatches the item code produced on the linked Job. Documented the steps to break the link (switching source to Inventory and clearing Job) and resolving the mismatch (either alignment of the order line or inventory adjustments).
+
+### 8. Move Apps (Project) IT Alignment
+*   **Alignment Meeting:** Met with TPN and TPK IT teams on Friday. They decided to keep and maintain the source database at TPK, resolving the centralization and database hosting blocker that was preventing migration.
+
+### 9. 6-Hour Training Course
+*   **Training:** Attended a 6-hour training course on Accounting & Basic Patient Assistance (June 25) along with 18 participants from IT, QA, Safety, Warehouse, and other departments.
+
+## Next Steps / Open Items
+*   **[Box]** Monitor if users report any further anomalies with stock quantity reporting now that the database and UI sum mechanics align perfectly.
+*   **[Move Apps]** Begin Outsource migration deployment based on TPK database hosting decision.
+*   **[MRP]** Clear backlog Customer Orders (CO) and Purchase Order Requisitions (PR) and optimize workbench profiles in the Test DB environment.
+
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

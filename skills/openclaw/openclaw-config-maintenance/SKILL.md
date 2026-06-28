@@ -92,6 +92,63 @@ Root cause: streaming finalization path uses `editMessageText` (MarkdownV2) inst
 - The provider block can stay; calls will fail again once billing is restored not because config is wrong, but because the account status changes.
 - Before removing a provider as a “fix,” confirm the error source is the account status page, then either wait for payment or remove it intentionally.
 
+## Gateway service env file debugging
+
+When the OpenClaw gateway crash-loops with `SecretRefResolutionError: Environment variable "OPENCLAW_GATEWAY_TOKEN" is missing or empty.`:
+
+1. The launchagent at `~/Library/LaunchAgents/ai.openclaw.gateway.plist` uses a wrapper:
+   - Script: `~/.openclaw/service-env/ai.openclaw.gateway-env-wrapper.sh`
+   - Env file: `~/.openclaw/service-env/ai.openclaw.gateway.env`
+2. The wrapper sources the env file before running the gateway **but does NOT source `.zshrc` / shell profiles**.
+3. If `OPENCLAW_GATEWAY_TOKEN` is set in `.zshrc` but missing from the env file, the gateway won't find it.
+4. **Fix:** add `export OPENCLAW_GATEWAY_TOKEN='***'` to the env file, then:
+   ```bash
+   launchctl kickstart -k "gui/$(id -u)/ai.openclaw.gateway"
+   ```
+5. Verify with `openclaw gateway status --deep` — should show `Runtime: running`.
+
+## Agent model fallback chain management
+
+Each agent in `agents.list` can have a prioritized fallback chain. When the primary is rate-limited or fails, OpenClaw tries fallbacks in order.
+
+### Structure in openclaw.json
+
+```json
+{
+  "id": "samantha",
+  "model": {
+    "primary": "nvidia/nemotron-3-ultra-550b-a55b",
+    "fallbacks": [
+      "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+      "openrouter/openrouter/owl-alpha",
+      "openrouter/qwen/qwen3-coder:free",
+      "nvidia/openai/gpt-oss-120b",
+      "ollama/gemma4:31b-cloud",
+      "opencode/big-pickle",
+      "openai/gpt-5.4-mini",
+      "opencode-go/minimax-m3"
+    ]
+  }
+}
+```
+
+### Rules for building fallback chains
+
+- **Order = priority** — list from highest to lowest performance. The chain exhausts left to right.
+- **Free → local → paid** is the standard cost-conscious pattern. Free models burn through rate limits first, local is free, paid is the reliable last resort.
+- **Every model in `fallbacks` must also be registered** in the `defaults.models` allowlist (same file). Unregistered models will fail silently.
+- OpenRouter free models use the format `openrouter/<provider>/<model>:free` (e.g. `openrouter/nvidia/nemotron-3-super-120b-a12b:free`).
+- The `freeride auto -f` CLI auto-configures fallbacks from OpenRouter free models, but may produce double-prefixed IDs — always verify with `freeride status`.
+- **Never let the chain end with a free model** — always include at least one paid/locally-reliable model as the last resort so inference never stops.
+
+### Workflow
+
+1. Read the agent block in `openclaw.json` to see current primary + fallbacks.
+2. Edit with `patch` — surgical, preserves surrounding context.
+3. Verify all model IDs exist in the `defaults.models` allowlist.
+4. Restart gateway: `launchctl kickstart -k "gui/$(id -u)/ai.openclaw.gateway"`
+5. Verify with `openclaw gateway status --deep`.
+
 ## Safety rules
 - Edit within `.openclaw/` by default unless cross-profile changes are explicitly approved.
 - Do not alter auth tokens, channel tokens, or secrets unless the user explicitly requests it.

@@ -1,3 +1,28 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-28-fb49bac0
+title: "Memory Bridge (smith): 2026-06-28"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-28.md
+bridgeRelativePath: memory/2026-06-28.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-28T14:24:15.329Z
+---
+
+# Memory Bridge (smith): 2026-06-28
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-28.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-28T14:24:15.329Z
+
+## Content
+```markdown
 # Sunday 2026-06-28
 
 ## Afternoon Session (17:21 BKK)
@@ -52,3 +77,14 @@ _session ended 21:21 ICT_
 _session ended 21:22 ICT_
 
 _session ended 21:24 ICT_
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

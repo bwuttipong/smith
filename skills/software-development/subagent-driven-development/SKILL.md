@@ -203,6 +203,17 @@ git add -A && git commit -m "feat: complete [feature name] implementation"
 
 ## Red Flags — Never Do These
 
+- **Dispatching a subagent impersonating a registered agent without loading their real identity.** When delegating to a registered subagent (one with their own workspace dir, SOUL.md, IDENTITY.md), never say "pretend you're X" or describe their persona from memory. Have the subagent read their own `SOUL.md` and `IDENTITY.md` from their workspace file system so their identity is authentic. An agent acting as someone else without their own files is a hollow performance, not the real agent.
+  - **Concrete failure from 2026-06-26:** spawned a subagent with `goal="pretend you're Samantha"` instead of `goal="Read your SOUL.md and IDENTITY.md from ~/Agents/Samantha/, then [task]"`. The delegation worked but the identity was fabricated. The user had to correct me to re-do it properly.
+  - **Pattern:** `delegate_task(goal="Read ~/Agents/<AgentName>/SOUL.md and IDENTITY.md, then <task>", toolsets=['terminal', 'file'])` — always include `terminal`+`file` in toolsets so the subagent can actually read its files.
+
+- **Bundling multiple tasks into one delegate_task goal when separate responses are expected.** A single `delegate_task(goal="Do A and B")` returns ONE combined response. If you want separate, independent responses from each task, use the batch `tasks` array: `delegate_task(tasks=[{goal: "A"}, {goal: "B"}])`. Each batch task spawns its own subagent and returns its own result message. Choosing the wrong shape means the user sees one reply instead of the expected two.
+  - **Concrete failure from 2026-06-26:** user asked for two tasks (weather + free model check). I bundled them as one goal — one combined response. User asked why only one result came back. Switched to `tasks` array — two separate responses arrived. Lesson: think about response shape before dispatching.
+  - **Pattern:** For independent parallel tasks the user expects to see individually → `delegate_task(tasks=[...])`. For a single broader goal where one summary is fine → `delegate_task(goal=...)`.
+
+- **Re-sending a delegation that didn't return without investigating first.** When a `delegate_task` dispatch completes without any result appearing in the conversation, do NOT blindly re-dispatch. First investigate: check `process(action="list")` for running processes, search session history for the completion message, or look for error indicators. The first batch may still arrive — re-sending creates duplicate work and confusing duplicate results.
+  - **Concrete failure from 2026-06-26:** delegated bunsen+beaker research. No result arrived after ~30s. User asked "been a while." Instead of investigating, I re-dispatched the same tasks. The first batch then arrived minutes later, followed by the duplicate batch. Double the work, double the confusion.
+  - **Pattern:** delegation missing → check process list + session logs FIRST → only re-dispatch if you can confirm the original failed.
 - Start implementation without a plan
 - Skip reviews (spec compliance OR code quality)
 - Proceed with unfixed critical/important issues
@@ -348,5 +359,6 @@ When the orchestration involves significant context usage, long review loops, or
 
 - **`references/context-budget-discipline.md`** — Four-tier context degradation model (PEAK / GOOD / DEGRADING / POOR), read-depth rules that scale with context window size, and early warning signs of silent degradation. Load when a run will clearly consume significant context (multi-phase plans, many subagents, large artifacts).
 - **`references/gates-taxonomy.md`** — The four canonical gate types (Pre-flight, Revision, Escalation, Abort) with behavior, recovery, and examples. Load when designing or reviewing any workflow that has validation checkpoints — use the vocabulary explicitly so each gate has defined entry, failure behavior, and resumption rules.
+- **`references/delegation-cron-pattern.md`** — Using cron jobs to delegate recurring work to subagents (duty officer pattern). Load when creating a cron job that should be handled by a specific subagent rather than the main session agent.
 
 Both references adapted from gsd-build/get-shit-done (MIT © 2025 Lex Christopherson).

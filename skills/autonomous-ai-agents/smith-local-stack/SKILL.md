@@ -178,6 +178,134 @@ Profile merges, workspace moves, directory renames can happen between sessions. 
 
 This is an extension of the "verification discipline" principle above — but path-structure verification is its own class because workspace configuration can change without a conversation-memory update.
 
+## Antigravity — Remote Execution Environment
+
+Antigravity is Jeff's **remote host** (Windows work laptop at TPN Flexpak, or another named machine). It runs its own OpenClaw/Hermes instance that can independently push to the Smith repo and execute tasks.
+
+Referenced in session history as "Smith on Antigravity" or "Jeff executes on Antigravity."
+
+### What it is
+- **This is NOT an AI model or LLM provider** — despite the name, it is a physical/virtual machine
+- Has its own Hermes/OpenClaw session history and memory
+- Can clone, push, and merge to the Smith repo independently
+- Meant to pick up runbooks and persistent work between sessions
+
+### Handoff trigger
+The user mentions Antigravity when handing off project-state from the primary Mac to the remote machine. Key phrases:
+- "Make sure Smith on Antigravity knows..."
+- "Jeff executes [runbook/step] on Antigravity"
+- "The next session / me on Antigravity should see this"
+
+### Answering the "Antigravity model" question
+If someone asks "can we use Antigravity model with Hermes" — the answer is **no, because Antigravity is a host, not an LLM provider.** It is Jeff's remote execution environment. Hermes on the Mac cannot "connect to Antigravity as a provider." The actual relationship: there is a separate Hermes instance running *on* Antigravity.
+
+## Agent delegation routing — Samantha as Smith's general assistant (2026-06-26)
+
+Samantha (`agentId: samantha`) is Smith's general-purpose assistant and **cron duty officer**. She is **not** a separate conversational surface (no channel binding per Jeff's decision). The only way to reach her is through Smith delegating tasks via `delegate_task`.
+
+### Routing decision table
+
+When Jeff asks for something, classify it:
+
+| Category | Route to | Examples |
+|----------|----------|---------|
+| 🗣️ English / grammar / vocab / dict | **samantha** — always, no exceptions | word meanings, pronunciation, sentence checks, grammar questions |
+| 🌤️ Weather & traffic | **samantha** | current weather, forecasts, commute times |
+| 📁 File / calendar / email | **samantha** | read/write files, check calendar, look up emails |
+| 🔍 Web research / lookups | **samantha** | quick searches, doc lookups, data gathering |
+| 📋 Routine reporting | **samantha** | summaries, data pulls, document lookups |
+| ⏰ **Cron & scheduling** | **samantha** | recurring tasks, duty checks, scheduled reports |
+| 🧠 Strategy / system ops | **smith** (me) | config changes, gateway, deployments, architecture calls |
+| 💬 Conversation continuity | **smith** | keeping the thread, reading the room, high-stakes reasoning |
+
+**Hard rule: ALL english/grammar/vocab queries → samantha. No exceptions, not even trivial one-word lookups.**
+
+### How to route properly
+
+```python
+# RIGHT — delegate with full context
+delegate_task(goal="...", context="...")
+
+# RIGHT — for samantha specifically, have her load her own identity
+# Include 'Read your files from ~/Agents/Samantha/ and then...' in context
+
+# WRONG — impersonating a registered agent
+# Do NOT say "pretend you're Samantha" in the goal.
+# Have the subagent read her actual SOUL.md / IDENTITY.md from disk.
+```
+
+### Red flag — the impersonation trap (lesson 2026-06-26)
+
+When delegating to a named registered agent (Samantha, beaker, bunsen, etc.), **the subagent must load its own identity files from disk.** Never say "pretend you're X" or describe their persona from memory. This was a documented red flag in `subagent-driven-development` that I violated today — the proper approach is:
+
+```python
+delegate_task(
+    goal="Read your SOUL.md and IDENTITY.md from ~/Agents/Samantha/, then [task description]",
+    context="...",
+    toolsets=['terminal', 'file']
+)
+```
+
+### Setting up a cron for a subagent (the cron duty officer pattern)
+
+Samantha is the designated cron duty officer. Recurring tasks that she owns should be set up as cron jobs that specify her as the runner in their prompt:
+
+```
+cronjob(
+    action="create",
+    name="samantha-duty-check",
+    prompt="You are Samantha, Jeff's general assistant and cron duty officer. [checklist]",
+    schedule="0 */4 * * *",
+    ...
+)
+```
+
+**Key design decisions for subagent crons:**
+- The cron prompt should explicitly state "You are [subagent name]" so the agent knows which persona to use.
+- Include the exact checklist of tasks for each duty shift in the prompt.
+- Save logs to `~/Smith/memory/<topic>-YYYY-MM-DD.md` for traceability.
+- Delivery goes to `origin` (the chat where the cron was created) unless the user wants elsewhere.
+- The subagent does NOT need a heartbeat or channel binding — cron is sufficient for periodic work.
+
+**When to use cron vs heartbeat:**
+- **Cron** (with subagent prompt) — for Samantha's scheduled duty checks. Exact timing matters, isolated session, no context bleed.
+- **Heartbeat** — for Smith's own ambient checks (inbox peek, quick system status). Flexible timing, conversational context available.
+
+### Free model fallback chain
+
+Jeff's model routing strategy: **burn through free models first, hit paid only when everything else is depleted.**
+
+Configure fallbacks via `freeride auto -f` (keeps current primary, adds free fallbacks) then manually extend with `patch` on `openclaw.json` for models outside OpenRouter's free tier.
+
+**Canonical fallback order** (high→low performance, free→paid):
+
+```
+defaults.model.fallbacks = [
+  "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "openrouter/openrouter/owl-alpha",
+  "openrouter/qwen/qwen3-coder:free",
+  "nvidia/openai/gpt-oss-120b",
+  "ollama/gemma4:31b-cloud",
+  "openai/gpt-5.4-mini"         # paid — last resort
+]
+```
+
+Samantha's duty check cron includes `freeride list` to monitor which free models still have tokens.
+
+### Canonical source
+
+The full routing rules live in `~/Smith/HEARTBEAT.md` (Samantha section). Update this skill section only when the topology changes (new agents added, routing rules restructured).
+
+### Pitfalls
+
+- **Don't delegate via `subagent-driven-development` review pattern for general tasks.** That skill is for TDD-style implementation with 2-stage review. Samantha is a general assistant — one-shot delegation is fine, no need for spec/quality reviewers.
+- **Don't hoard.** If a task doesn't need strategic reasoning, delegate it. Over-delegation is better than under-delegation.
+- **Don't impersonate.** Always have the subagent read its own workspace identity files.
+- **Model mismatch.** Samantha runs `nvidia/nemotron-3-ultra-550b-a55b` primary with free OpenRouter fallbacks. She's fast and cheap. Don't hesitate to use her for anything on her list.
+- **freeride double-prefix bug.** `freeride auto -f` may prepend `openrouter/` to model IDs, producing `openrouter/openrouter/free` or `openrouter/nvidia/...`. After running freeride, verify the fallback IDs in `openclaw.json` and patch if they look wrong — the canonical format is `provider/model-name`, not `openrouter/provider/model-name`.
+- **Restart gateway after model config changes.** `launchctl kickstart -k "gui/$(id -u)/ai.openclaw.gateway"` after editing `openclaw.json` fallbacks. `freeride` commands don't auto-restart.
+
 ## Agent lifecycle — spawn / bind / unbind (lesson from 2026-06-24)
 
 When Jeff says "spawn X" or "set X up," the verb already implies the action: make the agent live / reachable. **Don't ask 4 options — take the most direct interpretation, do it, report.** The mechanics:
