@@ -3,9 +3,9 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `obsidian`
-- Total pages: 272
+- Total pages: 277
 - Claims: 0
-- Sources: 261
+- Sources: 266
 - Entities: 0
 - Concepts: 0
 - Syntheses: 1
@@ -223,6 +223,8 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-24-samantha-healthcheck-8dd9238a|Memory Bridge (smith): 2026-06-24-samantha-healthcheck]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-24-samantha-surprise-3a094d26|Memory Bridge (smith): 2026-06-24-samantha-surprise]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-25-5d2903b9|Memory Bridge (smith): 2026-06-25]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-26-eb3dcc1c|Memory Bridge (smith): 2026-06-26]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-27-fefa2fa8|Memory Bridge (smith): 2026-06-27]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-gmail-draft-thai-6580c92c|Memory Bridge (smith): artifacts / 2026-06-05-weekly-gmail-draft-thai]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-june1-6-thai-d49e4984|Memory Bridge (smith): artifacts / 2026-06-05-weekly-june1-6-thai]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-report-thai-4a85c7d1|Memory Bridge (smith): artifacts / 2026-06-05-weekly-report-thai]]
@@ -239,6 +241,7 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-22-todoist-migration-f70fbe25|Memory Bridge (smith): artifacts / 2026-06-22-todoist-migration]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-22-us-stock-weekly-review-fb3e8c98|Memory Bridge (smith): artifacts / 2026-06-22-us-stock-weekly-review]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-23-0714-traffic-bansuan-to-wellgrow-7d8961bd|Memory Bridge (smith): artifacts / 2026-06-23-0714-traffic-bansuan-to-wellgrow]]
+- [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-26-audit-followup-6a201888|Memory Bridge (smith): artifacts / 2026-06-26-audit-followup]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-evolution-2026-06-04-cron-delivery-548854d0|Memory Bridge (smith): artifacts / evolution-2026-06-04-cron-delivery]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-maintenance-summary-4d0d6933|Memory Bridge (smith): artifacts / maintenance-summary]]
 - [[sources/bridge-smith-ec7a1e9e-memory-beaker-cicd-research-2026-06-21-ad1ff23d|Memory Bridge (smith): beaker-cicd-research-2026-06-21]]
@@ -251,6 +254,8 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-dreams-events-jsonl-38a7dd37|Memory Bridge (smith): event journal]]
 - [[sources/bridge-smith-ec7a1e9e-memory-feedback-discord-memory-f793926a|Memory Bridge (smith): feedback_discord_memory]]
 - [[sources/bridge-smith-ec7a1e9e-memory-feedback-weekly-report-format-daf75c0e|Memory Bridge (smith): feedback_weekly_report_format]]
+- [[sources/bridge-smith-ec7a1e9e-memory-freeride-2026-06-26-01d99a82|Memory Bridge (smith): freeride-2026-06-26]]
+- [[sources/bridge-smith-ec7a1e9e-memory-freeride-2026-06-27-effaa212|Memory Bridge (smith): freeride-2026-06-27]]
 - [[sources/bridge-smith-ec7a1e9e-memory-heartbeat-state-59e3911b|Memory Bridge (smith): heartbeat-state]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2d62c497|Memory Bridge (smith): MEMORY]]
 - [[sources/bridge-smith-ec7a1e9e-memory-memory-3cabbde2|Memory Bridge (smith): MEMORY]]
@@ -295,3 +300,12 @@
 - [[reports/relationship-graph|Relationship Graph]]
 - [[reports/stale-pages|Stale Pages]]
 <!-- openclaw:wiki:index:end -->
+
+## Concepts (Human-curated)
+- [[concepts/high-agency|High Agency]] — The ability to act independently, question assumptions, and shape reality rather than passively accepting it
+
+## Entities (Human-curated)
+- [[entities/george-mack|George Mack]] — Writer and creator of "High Agency in 30 Minutes"
+
+## Raw Sources
+- [[raw/articles/high-agency-in-30-minutes|High Agency in 30 Minutes]] — Essay by George Mack (~30 min read)
