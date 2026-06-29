@@ -108,6 +108,17 @@ Create if missing. Append entries in this format:
 - **Cross-reference** with `[[wikilinks]]` between pages when possible
 - **Tags are optional** (the OpenClaw wiki doesn't enforce a strict taxonomy)
 
+## Answering Questions From the Wiki (added 2026-06-29)
+
+The wiki is the user's **curated knowledge base about themselves.** Use it before guessing:
+
+- **Before answering any question that touches on the user's context** — work, projects, past conversations, tools, people they work with, preferences — search the wiki first via `search_files` with `target="content"` across `*.md` files under the wiki root.
+- **Search order:** check `entities/` and `concepts/` for distilled knowledge about people/things/ideas. Check `reports/` for system audits and analyses. Check `sources/` for raw session history if the topic is time-specific.
+- **If the wiki has relevant info, cite it.** Mention the source page so the user knows where the answer came from. If it doesn't have an answer, say so plainly and offer to create a page.
+- **Don't guess from scratch** when the wiki has relevant pages. The 283-page corpus contains memory bridges going back to April 2026 — use it.
+
+This is distinct from the "ingest and maintain" workflow below. This section is about *querying*; the sections below are about *building*.
+
 ## Pitfalls
 
 - **Don't modify files in `sources/`** — those are auto-generated from memory bridges and will be overwritten

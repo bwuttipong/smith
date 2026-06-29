@@ -5,23 +5,25 @@
       "baseUrl": "http://127.0.0.1:11434",
       "models": [
         {
-          "contextWindow": 262144,
-          "cost": {
-            "cacheRead": 0,
-            "cacheWrite": 0,
-            "input": 0,
-            "output": 0
-          },
           "id": "gemma4:31b-cloud",
+          "name": "gemma4:31b-cloud",
+          "reasoning": true,
           "input": [
             "text",
             "image"
           ],
-          "name": "gemma4:31b-cloud",
-          "reasoning": true,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
           "params": {
             "num_ctx": 262144
-          }
+          },
+          "maxTokens": 8192,
+          "api": "ollama"
         }
       ],
       "apiKey": "ollama-local",
@@ -31,91 +33,29 @@
       "baseUrl": "https://ollama.com",
       "models": [
         {
-          "id": "ministral-3:14b",
-          "name": "ministral-3:14b",
+          "id": "minimax-m2.1",
+          "name": "minimax-m2.1",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 204800,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "ministral-3:3b",
+          "name": "ministral-3:3b",
           "reasoning": false,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 262144,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "gemini-3-flash-preview",
-          "name": "gemini-3-flash-preview",
-          "reasoning": true,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 1048576,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "deepseek-v4-pro",
-          "name": "deepseek-v4-pro",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 524288,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "gpt-oss:120b",
-          "name": "gpt-oss:120b",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "gemma4:31b",
-          "name": "gemma4:31b",
-          "reasoning": true,
           "input": [
             "text",
             "image"
@@ -154,29 +94,8 @@
           }
         },
         {
-          "id": "qwen3.5:397b",
-          "name": "qwen3.5:397b",
-          "reasoning": true,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 262144,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "glm-5.2",
-          "name": "glm-5.2",
+          "id": "glm-5.1",
+          "name": "glm-5.1",
           "reasoning": true,
           "input": [
             "text"
@@ -187,7 +106,7 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 1000000,
+          "contextWindow": 202752,
           "maxTokens": 8192,
           "compat": {
             "supportsTools": true,
@@ -195,29 +114,8 @@
           }
         },
         {
-          "id": "kimi-k2.5",
-          "name": "kimi-k2.5",
-          "reasoning": true,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 262144,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "nemotron-3-nano:30b",
-          "name": "nemotron-3-nano:30b",
+          "id": "minimax-m2.7",
+          "name": "minimax-m2.7",
           "reasoning": true,
           "input": [
             "text"
@@ -228,7 +126,7 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 262144,
+          "contextWindow": 196608,
           "maxTokens": 8192,
           "compat": {
             "supportsTools": true,
@@ -236,8 +134,8 @@
           }
         },
         {
-          "id": "gemma3:4b",
-          "name": "gemma3:4b",
+          "id": "ministral-3:14b",
+          "name": "ministral-3:14b",
           "reasoning": false,
           "input": [
             "text",
@@ -249,37 +147,16 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 131072,
+          "contextWindow": 262144,
           "maxTokens": 8192,
           "compat": {
-            "supportsTools": false,
+            "supportsTools": true,
             "supportsUsageInStreaming": true
           }
         },
         {
-          "id": "gemma3:12b",
-          "name": "gemma3:12b",
-          "reasoning": false,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": false,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "nemotron-3-ultra",
-          "name": "nemotron-3-ultra",
+          "id": "glm-4.7",
+          "name": "glm-4.7",
           "reasoning": true,
           "input": [
             "text"
@@ -290,7 +167,27 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 262144,
+          "contextWindow": 202752,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "gpt-oss:120b",
+          "name": "gpt-oss:120b",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
           "maxTokens": 8192,
           "compat": {
             "supportsTools": true,
@@ -319,72 +216,9 @@
           }
         },
         {
-          "id": "ministral-3:3b",
-          "name": "ministral-3:3b",
+          "id": "devstral-2:123b",
+          "name": "devstral-2:123b",
           "reasoning": false,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 262144,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "mistral-large-3:675b",
-          "name": "mistral-large-3:675b",
-          "reasoning": false,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 262144,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "gemma3:27b",
-          "name": "gemma3:27b",
-          "reasoning": false,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": false,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "glm-4.7",
-          "name": "glm-4.7",
-          "reasoning": true,
           "input": [
             "text"
           ],
@@ -394,7 +228,7 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 202752,
+          "contextWindow": 262144,
           "maxTokens": 8192,
           "compat": {
             "supportsTools": true,
@@ -402,8 +236,50 @@
           }
         },
         {
-          "id": "glm-5.1",
-          "name": "glm-5.1",
+          "id": "gemini-3-flash-preview",
+          "name": "gemini-3-flash-preview",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "ministral-3:8b",
+          "name": "ministral-3:8b",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "glm-5",
+          "name": "glm-5",
           "reasoning": true,
           "input": [
             "text"
@@ -442,48 +318,8 @@
           }
         },
         {
-          "id": "qwen3-coder-next",
-          "name": "qwen3-coder-next",
-          "reasoning": false,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 262144,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "devstral-2:123b",
-          "name": "devstral-2:123b",
-          "reasoning": false,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 262144,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "minimax-m2.1",
-          "name": "minimax-m2.1",
+          "id": "deepseek-v4-pro",
+          "name": "deepseek-v4-pro",
           "reasoning": true,
           "input": [
             "text"
@@ -494,7 +330,7 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 204800,
+          "contextWindow": 524288,
           "maxTokens": 8192,
           "compat": {
             "supportsTools": true,
@@ -502,8 +338,49 @@
           }
         },
         {
-          "id": "kimi-k2.7-code",
-          "name": "kimi-k2.7-code",
+          "id": "gpt-oss:20b",
+          "name": "gpt-oss:20b",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "devstral-small-2:24b",
+          "name": "devstral-small-2:24b",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "qwen3.5:397b",
+          "name": "qwen3.5:397b",
           "reasoning": true,
           "input": [
             "text",
@@ -523,8 +400,8 @@
           }
         },
         {
-          "id": "deepseek-v3.2",
-          "name": "deepseek-v3.2",
+          "id": "nemotron-3-ultra",
+          "name": "nemotron-3-ultra",
           "reasoning": true,
           "input": [
             "text"
@@ -535,7 +412,27 @@
             "cacheRead": 0,
             "cacheWrite": 0
           },
-          "contextWindow": 163840,
+          "contextWindow": 262144,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "qwen3-coder-next",
+          "name": "qwen3-coder-next",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
           "maxTokens": 8192,
           "compat": {
             "supportsTools": true,
@@ -583,8 +480,111 @@
           }
         },
         {
-          "id": "ministral-3:8b",
-          "name": "ministral-3:8b",
+          "id": "nemotron-3-nano:30b",
+          "name": "nemotron-3-nano:30b",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "minimax-m2.5",
+          "name": "minimax-m2.5",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 196608,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "gemma3:12b",
+          "name": "gemma3:12b",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": false,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "kimi-k2.6",
+          "name": "kimi-k2.6",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "kimi-k2.7-code",
+          "name": "kimi-k2.7-code",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "mistral-large-3:675b",
+          "name": "mistral-large-3:675b",
           "reasoning": false,
           "input": [
             "text",
@@ -604,9 +604,91 @@
           }
         },
         {
-          "id": "devstral-small-2:24b",
-          "name": "devstral-small-2:24b",
+          "id": "gemma3:4b",
+          "name": "gemma3:4b",
           "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": false,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "gemma3:27b",
+          "name": "gemma3:27b",
+          "reasoning": false,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 131072,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": false,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "glm-5.2",
+          "name": "glm-5.2",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1000000,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "deepseek-v3.2",
+          "name": "deepseek-v3.2",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 163840,
+          "maxTokens": 8192,
+          "compat": {
+            "supportsTools": true,
+            "supportsUsageInStreaming": true
+          }
+        },
+        {
+          "id": "gemma4:31b",
+          "name": "gemma4:31b",
+          "reasoning": true,
           "input": [
             "text",
             "image"
@@ -645,48 +727,8 @@
           }
         },
         {
-          "id": "glm-5",
-          "name": "glm-5",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 202752,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "minimax-m2.7",
-          "name": "minimax-m2.7",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 196608,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "kimi-k2.6",
-          "name": "kimi-k2.6",
+          "id": "kimi-k2.5",
+          "name": "kimi-k2.5",
           "reasoning": true,
           "input": [
             "text",
@@ -699,46 +741,6 @@
             "cacheWrite": 0
           },
           "contextWindow": 262144,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "gpt-oss:20b",
-          "name": "gpt-oss:20b",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 131072,
-          "maxTokens": 8192,
-          "compat": {
-            "supportsTools": true,
-            "supportsUsageInStreaming": true
-          }
-        },
-        {
-          "id": "minimax-m2.5",
-          "name": "minimax-m2.5",
-          "reasoning": true,
-          "input": [
-            "text"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 196608,
           "maxTokens": 8192,
           "compat": {
             "supportsTools": true,

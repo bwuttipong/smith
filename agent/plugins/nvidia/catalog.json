@@ -5,28 +5,25 @@
       "baseUrl": "https://integrate.api.nvidia.com/v1",
       "models": [
         {
+          "id": "nvidia/mistralai/mistral-7b-instruct-v0.3",
+          "name": "Mistral 7B Instruct",
           "api": "openai-completions",
-          "compat": {
-            "requiresStringContent": true
-          },
-          "contextWindow": 262144,
-          "cost": {
-            "cacheRead": 0,
-            "cacheWrite": 0,
-            "input": 0,
-            "output": 0
-          },
-          "id": "nvidia/openai/gpt-oss-120b",
+          "reasoning": false,
           "input": [
             "text"
           ],
-          "maxTokens": 8192,
-          "name": "OpenAI GPT OSS 120B",
-          "reasoning": false
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 32768,
+          "maxTokens": 4096
         }
       ],
       "api": "openai-completions",
-      "apiKey": "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"
+      "apiKey": "NVIDIA_API_KEY"
     }
   }
 }

@@ -1,0 +1,108 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-06-29-1518-2a0b45bc
+title: "Memory Bridge (smith): 2026-06-29-1518"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-06-29-1518.md
+bridgeRelativePath: memory/2026-06-29-1518.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-06-29T08:18:23.194Z
+---
+
+# Memory Bridge (smith): 2026-06-29-1518
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-06-29-1518.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-06-29T08:18:23.194Z
+
+## Content
+```markdown
+# Session: 2026-06-29 15:18:23 GMT+7
+
+- **Session Key**: agent:smith:telegram:default:direct:alice
+- **Session ID**: 555baef0-2a97-4bd5-97fa-d26f5739d46a
+- **Source**: telegram
+
+## Conversation Summary
+
+assistant: oh, you've got `bestwuttipong.dev` — that changes the equation. the biggest blocker for publishing is having a domain you own + control, and you've already got one. here's what we'd need:
+
+1. **privacy policy page** — i can write one and we can host it on your domain (github pages works, or wherever you host it)
+2. **verify the domain** in google search console — takes 5 mins (txt record or html file)
+3. **oauth consent screen** → fill in name, support email, privacy policy url, switch to production
+4. **google reviews** — typically a few days for personal projects
+
+not bad at all. want to tackle it?
+
+quickest path i see: i draft a privacy page, you put it on your domain, i walk you through search console verify, then we flip the switch. done in an afternoon.
+
+your call 🎩
+user: keep this to your notes too
+assistant: logged and saved 🎩
+assistant: done — saved to **memory/2026-06-29.md** + added a **GOG section to TOOLS.md** with the client secret path, domain, and re-auth command so it's all there when we need it 🎩
+assistant: done — saved to **memory/2026-06-29.md** + added a **GOG section to TOOLS.md** with the client secret path, domain, and re-auth command so it's all there when we need it 🎩
+user: You've been no longer using Bear Notes lately.
+assistant: you're right, i have. been leaning on obsidian + markdown files in the smith workspace instead. bear's still wired up and ready to go though if you want me to use it for something specific 🐻
+
+was there something you wanted in bear, or just calling me out on my lazy note-taking habits? 😅
+assistant: you're right, i have. been leaning on obsidian + markdown files in the smith workspace instead. bear's still wired up and ready to go though if you want me to use it for something specific 🐻
+
+was there something you wanted in bear, or just calling me out on my lazy note-taking habits? 😅
+user: forgot that we've changed to use Bear Notes instead for a while
+assistant: my bad, you're right. let me search my memory on that switch.
+assistant: i can't find the memory of that switch anywhere in my notes. when did we decide that? can you fill me in so i can update my workflow? if we're supposed to be using bear, i'll start writing there instead of the markdown files 🎩
+
+i can't find the memory of that switch anywhere in my notes. when did we decide that? can you fill me in so i can update my workflow? if we're supposed to be using bear, i'll start writing there instead of the markdown files 🎩
+assistant: i can't find the memory of that switch anywhere in my notes. when did we decide that? can you fill me in so i can update my workflow? if we're supposed to be using bear, i'll start writing there instead of the markdown files 🎩
+user: Obsidian is just memory Wiki not Notes
+assistant: ah, that clicks now. got the separation clear:
+
+- **obsidian** = memory wiki (long-term knowledge vault) 🧠
+- **bear notes** = actual daily notes, logs, thoughts 🐻
+
+i've been writing daily logs to `~/Smith/memory/` markdown files instead of bear — that's the gap. 
+
+let me start using bear properly then. i'll write the daily logs through grizzly going forward. want me to also move today's log over to bear? 🎩
+
+ah, that clicks now. got the separation clear:
+
+- **obsidian** = memory wiki (long-term knowledge vault) 🧠
+- **bear notes** = actual daily notes, logs, thoughts 🐻
+
+i've been writing daily logs to `~/Smith/memory/` markdown files instead of bear — that's the gap. 
+
+let me start using bear properly then. i'll write the daily logs through grizzly going forward. want me to also move today's log over to bear? 🎩
+assistant: ah, that clicks now. got the separation clear:
+
+- **obsidian** = memory wiki (long-term knowledge vault) 🧠
+- **bear notes** = actual daily notes, logs, thoughts 🐻
+
+i've been writing daily logs to `~/Smith/memory/` markdown files instead of bear — that's the gap. 
+
+let me start using bear properly then. i'll write the daily logs through grizzly going forward. want me to also move today's log over to bear? 🎩
+
+ah, that clicks now. got the separation clear:
+
+- **obsidian** = memory wiki (long-term knowledge vault) 🧠
+- **bear notes** = actual daily notes, logs, thoughts 🐻
+
+i've been writing daily logs to `~/Smith/memory/` markdown files instead of bear — that's the gap. 
+
+let me start using bear properly then. i'll write the daily logs through grizzly going forward. want me to also move today's log over to bear? 🎩
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

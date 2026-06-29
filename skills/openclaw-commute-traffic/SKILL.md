@@ -1,17 +1,19 @@
 ---
 name: commute-traffic
-description: Check real-time traffic conditions for a route between two locations using TomTom. Use when the user asks about traffic, commute time, best time to leave, driving conditions, or road congestion. The user provides origin and destination conversationally — extract them from context.
-version: 2.0.0
+description: Check real-time traffic conditions for a route between two locations using Google Maps. Use when the user asks about traffic, commute time, best time to leave, driving conditions, or road congestion. The user provides origin and destination conversationally — extract them from context.
+version: 3.0.0
 user-invocable: true
 metadata:
-  {"openclaw": {"emoji": "🚗", "requires": {"bins": ["python3"], "env": ["TOMTOM_API_KEY"]}, "primaryEnv": "TOMTOM_API_KEY"}}
+  {"openclaw": {"emoji": "🚗", "requires": {"bins": ["python3"], "files": ["~/.config/gmaps/api_key"]}, "primaryEnv": "GOOGLE_MAPS_API_KEY"}}
 ---
 
-# Commute Traffic Checker (TomTom)
+# Commute Traffic Checker (Google Maps)
 
 ## Purpose
 
-Query real-time traffic data from TomTom for any route and provide the user with actionable travel advice. The script handles geocoding (resolving place names to coordinates) and routing (calculating travel time with live traffic) — all via the same TomTom API key.
+Query real-time traffic data from Google Maps for any route and provide the user with actionable travel advice. The script handles geocoding (resolving place names to coordinates) and routing (calculating travel time with live traffic) via the Google Geocoding API and Directions API.
+
+API key is read from `~/.config/gmaps/api_key` by default, with fallback to the `GOOGLE_MAPS_API_KEY` environment variable.
 
 ## Determining Origin and Destination
 
@@ -33,15 +35,15 @@ The origin and destination are **not static** — you must determine them from w
 Execute the script with origin and destination as arguments:
 
 ```bash
-python3 {baseDir}/scripts/check_traffic.py --origin "<ORIGIN>" --destination "<DESTINATION>"
+python3 {baseDir}/scripts/check_traffic_google.py --origin "<ORIGIN>" --destination "<DESTINATION>"
 ```
 
 **Examples:**
 
 ```bash
-python3 {baseDir}/scripts/check_traffic.py --origin "Basel, Switzerland" --destination "Zurich, Switzerland"
-python3 {baseDir}/scripts/check_traffic.py --origin "Basel SBB" --destination "Paradeplatz, Zürich"
-python3 {baseDir}/scripts/check_traffic.py --origin "Aeschenplatz, Basel" --destination "ETH Zürich"
+python3 {baseDir}/scripts/check_traffic_google.py --origin "Bansuan, Chonburi" --destination "Wellgrow Industrial Estate"
+python3 {baseDir}/scripts/check_traffic_google.py --origin "Ban Suan, Chon Buri" --destination "Bang Pakong, Chachoengsao"
+python3 {baseDir}/scripts/check_traffic_google.py --origin "13.3511,100.9765" --destination "13.502,100.9903"
 ```
 
 ## Interpreting the Output
@@ -52,13 +54,11 @@ The script returns JSON with one or more route alternatives. For each route:
 |-------|---------|
 | `travel_time_min` | Total travel time **with current live traffic** |
 | `no_traffic_time_min` | Travel time with zero traffic (free-flow) |
-| `historic_traffic_time_min` | Typical travel time based on historical patterns |
-| `live_traffic_time_min` | Time including live incident data |
 | `traffic_delay_min` | Extra delay caused by current traffic |
 | `traffic_delay_pct` | Delay as percentage of free-flow time |
 | `congestion` | Derived level: `light`, `moderate`, or `heavy` |
 | `distance_km` | Route distance in kilometers |
-| `departure_time` / `arrival_time` | Departure and estimated arrival timestamps |
+| `main_roads` | Key roads/instructions along the route |
 
 ### Congestion classification:
 - **Light**: traffic delay adds less than 20% to free-flow time
@@ -79,6 +79,7 @@ Keep it concise and practical. The user wants to know: *"How long will it take a
 ## Error Handling
 
 - If the script returns `{"status": "error"}`, relay the error message to the user.
-- If `TOMTOM_API_KEY` is not configured, tell the user to set it up in `~/.openclaw/openclaw.json`.
+- If no API key is found, tell the user to create `~/.config/gmaps/api_key` with their Google Maps API key, or set the `GOOGLE_MAPS_API_KEY` environment variable.
 - If geocoding fails (no coordinates found), the location may be too vague — ask the user to be more specific.
+- If the Directions API returns `REQUEST_DENIED`, the API key may have restrictions — ensure Directions API and Geocoding API are enabled in the Google Cloud Console and added to the key's allowed APIs.
 - If no routes are returned, suggest trying different location descriptions.

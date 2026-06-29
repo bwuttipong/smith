@@ -32,7 +32,7 @@ You wake up fresh each session. These files are your continuity:
 
 For this workspace, write durable Smith-directory setup changes into the local `memory/YYYY-MM-DD.md` file, for example `memory/2026-04-28.md`.
 
-The long-term vault memory lives at `C:\Users\Wuttipong.t\OneDrive\Apps\remotely-save\Memory Vault`.
+The long-term vault memory lives at `~/Smith/wiki/`.
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 
@@ -271,14 +271,14 @@ For any task, follow this routing to maximize performance:
 
 | Task Type | Model | Why |
 |-----------|-------|-----|
-| **Coding/Engineering** | `claude-sonnet-4-6` | High precision and context. |
-| **Short Notifications/Timers** | `claude-haiku-4-5` (cloud) | Consistent performance. |
-| **Deep Reasoning/Research/Writing** | `claude-opus-4-7` (cloud) | 200K+ context, full reasoning, best quality. |
-| **Heavy Coding (complex tasks)** | Spawn sub-agent with `model: "claude-opus-4-7"` | Isolate heavy coding tasks while maintaining quality. |
+| **Coding/Engineering** | `openrouter/owl-alpha` | High precision and context. |
+| **Short Notifications/Timers** | `ollama/gemma4:31b-cloud` (cloud) | Consistent performance. |
+| **Deep Reasoning/Research/Writing** | `google/gemini-3.1-pro-preview` (cloud) | 200K+ context, full reasoning, best quality. |
+| **Heavy Coding (complex tasks)** | Spawn sub-agent with `model: "opencode/qwen3.7-max"` | Isolate heavy coding tasks while maintaining quality. |
 
-**Rule:** Default to `claude-sonnet-4-6` for all tasks to ensure consistency and high performance.
+**Rule:** Default to `opencode-go/minimax-m3` for all tasks to ensure consistency and high performance.
 
-**Instruction:** When spawning a sub-agent, explicitly set `model: "claude-opus-4-7"`.
+**Instruction:** When spawning a sub-agent, explicitly set `model: "opencode-go/deepseek-v4-flash"`.
 
 **Spawn sub-agents for long tasks.** If a task will take multiple steps, complex analysis, or significant file operations — spawn a sub-agent. Keeps the main thread clean and lets long work run in the background. Use `context="isolated"` (or omit) for clean children; only use `context="fork"` when the child needs the current transcript.
 

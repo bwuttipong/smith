@@ -116,27 +116,31 @@ oracle session <id> --render
 
 ---
 
-## Commute Traffic (TomTom)
+## Commute Traffic (Google Maps)
 
 - **Skill**: `skills/openclaw-commute-traffic/SKILL.md`
 - **Use for**: Real-time traffic checks before commuting — check if route is 🟢 light or 🔴 bad
 - **Trigger**: "traffic from X to Y", "how's traffic?", "should I leave now?", "bad traffic", "commute time"
-- **CLI**: Python script at `skills/openclaw-commute-traffic/scripts/check_traffic.py`
-- **Requires**: `TOMTOM_API_KEY` env var (already set: `mCItvnFsSp2n92bRGBALDztzp2QIFble`)
-- **Geo fix 2026-06-25**: Script was hardcoded to `countrySet=CH` (Switzerland) — patched to `countrySet=TH` (Thailand). All example locations updated.
+- **CLI**: Python script at `skills/openclaw-commute-traffic/scripts/check_traffic_google.py`
+- **API Key**: `~/.config/gmaps/api_key` (file) or `GOOGLE_MAPS_API_KEY` env var
+- **Requires**: Google Cloud project with Directions API + Geocoding API enabled
 - **Emoji**: 🚗
+- **Migrated from TomTom → Google Maps on 2026-06-29**
 
 **Usage:** Just say the origin and destination — I'll run the check and report back with:
 - Fastest route + estimated travel time
 - Traffic delay (minutes + %)
 - Congestion level: 🟢 light / 🟡 moderate / 🔴 heavy
 - Alternative routes if available
+- Key roads along each route
 
 **Quick example:**
 ```bash
-python3 skills/openclaw-commute-traffic/scripts/check_traffic.py \
-  --origin "Basel, Switzerland" --destination "Zurich, Switzerland"
+python3 skills/openclaw-commute-traffic/scripts/check_traffic_google.py \
+  --origin "Ban Suan, Chonburi" --destination "Wellgrow Industrial Estate"
 ```
+
+**Coverage note:** Crash/incident detection via TomTom is decent for major Thai highways (route 34, Bang Na-Trad, motorway) but thinner on local sois/side roads. Large accidents on main routes should show up; smaller incidents may not.
 
 **Jeff's use case:** Checks traffic before commuting to decide if route is bad or light.
 
@@ -210,12 +214,23 @@ Use these skills when Wuttipong wants to practice or learn English:
 - **Add**: `remindctl add --title "..." --due tomorrow`
 - **Complete**: `remindctl complete <id>`
 
+## GOG (Google CLI)
+
+- **Skill**: `skills/gog/SKILL.md`
+- **Use for**: Google Calendar, Gmail, Drive, Contacts, Sheets, Docs via CLI
+- **CLI**: `/opt/homebrew/bin/gog` v0.12.0
+- **Client secret**: `~/Documents/client_secret_311285817608-bhve0hp4oq6cmr3n5ic0r6l15mn4uk9d.apps.googleusercontent.com.json`
+- **Account**: `bed.wuttipong@gmail.com`
+- **Domain for publishing**: `bestwuttipong.dev`
+- **Token**: Testing mode — refresh token expires in 7 days. Re-auth needed weekly unless we publish the OAuth app.
+- **Re-auth quick**: `gog auth credentials ~/Documents/client_secret_...json && gog auth add bed.wuttipong@gmail.com --services gmail,calendar,drive,contacts,sheets,docs`
+
 ## Obsidian Vault
 
 - **Skill**: `skills/obsidian/SKILL.md`
 - **Use for**: Creating, reading, editing, searching notes in Obsidian vaults
 - **Trigger**: "obsidian", "vault", "note"
-- **Vault Path**: `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Memory — Obsidian Vault/`
+- **Vault Path**: `~/Smith/wiki/`
 - **Primary Use**: Syncing memories, logging daily notes, storing structured knowledge
 
 ## Sticky Notes (Windows)
