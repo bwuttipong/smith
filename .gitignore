@@ -1,4 +1,6 @@
 .DS_Store
+*.tail*.ts.net.crt
+*.tail*.ts.net.key
 node_modules/
 .venv/
 __pycache__/
