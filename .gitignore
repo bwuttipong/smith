@@ -37,7 +37,6 @@ wiki/Untitled.base
 
 # Hermes profile runtime (merged into ~/Smith/ on 2026-06-25)
 .env
-.hermes_history
 .update_check
 auth.json
 auth.lock
