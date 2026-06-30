@@ -82,6 +82,9 @@ agent/google-gemini-cli-home/
 agent/models.json
 agent/plugins/*/catalog.json
 .clawhub/lock.json
+*.tail*.ts.net.crt
+*.tail*.ts.net.key
+.skills_prompt_snapshot.json
 memory/heartbeat-state.json
 skills/*/.clawhub/origin.json
 
