@@ -1,0 +1,4 @@
+- [x] Explore workspace to understand project type and environment <!-- id: 0 -->
+- [x] Search for database configuration or connection strings <!-- id: 1 -->
+- [x] Determine if the issue is related to VS Code extension configuration or project dependencies <!-- id: 2 -->
+- [x] Provide explanation and potential fixes for the "no data provider registered" error <!-- id: 3 -->

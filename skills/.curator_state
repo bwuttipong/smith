@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/Users/Jeff/.hermes/profiles/smith/logs/curator/20260624-165910",
+  "last_run_at": "2026-06-24T16:59:10.011347+00:00",
+  "last_run_duration_seconds": 0.518694,
+  "last_run_summary": "auto: no changes; llm: skipped (consolidation off)",
+  "last_run_summary_shown_at": "2026-06-24T16:59:10.011347+00:00",
+  "paused": false,
+  "run_count": 5
+}

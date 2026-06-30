@@ -1,0 +1,32 @@
+- `[x]` Step 1: Preflight checks and backups
+    - `[x]` Confirm gateway is reachable
+    - `[x]` Check free disk space
+    - `[x]` Backup profile to `~/.hermes/` tarball
+    - `[x]` Snapshot `openclaw.json`
+    - `[x]` Inspect what will move
+    - `[x]` Read current plist file
+- `[x]` Step 2: Stop gateway cleanly
+    - `[x]` Stop gateway via `launchctl stop`
+    - `[x]` Verify gateway stopped
+    - `[x]` Remove stale PID/lock files
+- `[x]` Step 3: Move profile contents to `~/Smith/.hermes-profile`
+    - `[x]` Create `~/Smith/.hermes-profile`
+    - `[x]` Sync contents using `rsync`
+    - `[x]` Verify contents match
+    - `[x]` Delete original profile source
+- `[x]` Step 4: Update launchd plist
+    - `[x]` Backup plist file
+    - `[x]` Edit plist keys with `plutil`
+    - `[x]` Validate plist file
+    - `[x]` Reload and start the gateway service
+- `[x]` Step 5: Verification & post-merge checks
+    - `[x]` Verify process is running
+    - `[x]` Check gateway log for clean startup
+    - `[x]` Confirm old path is gone and new logs are active
+    - `[x]` Smoke test client channels
+    - `[x]` Optional symlink trick
+- `[x]` Step 6: Bind Telegram to Samantha agent
+    - `[x]` Run `openclaw agents bind samantha telegram`
+    - `[x]` Verify Samantha is responding on Telegram
+- `[x]` Step 7: Final documentation and logging
+    - `[x]` Log outcomes in `/Users/Jeff/Smith/memory/2026-06-24.md`

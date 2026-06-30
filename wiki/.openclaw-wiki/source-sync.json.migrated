@@ -1,0 +1,1333 @@
+{
+  "version": 1,
+  "entries": {
+    "/Users/Jeff/Agents/Beaker/memory/2026-05-17-0053.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-beaker-5f941680-memory-2026-05-17-0053-a4807cbc.md",
+      "sourcePath": "/Users/Jeff/Agents/Beaker/memory/2026-05-17-0053.md",
+      "sourceUpdatedAtMs": 1778954004223.3516,
+      "sourceSize": 183,
+      "renderFingerprint": "37d456ed26817803d2d5a886157c4d56b6fc657f"
+    },
+    "/Users/Jeff/Agents/Beaker/memory/2026-05-18-2204.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-beaker-5f941680-memory-2026-05-18-2204-e15b4758.md",
+      "sourcePath": "/Users/Jeff/Agents/Beaker/memory/2026-05-18-2204.md",
+      "sourceUpdatedAtMs": 1779116667137.139,
+      "sourceSize": 367,
+      "renderFingerprint": "e7c3d40e09ae329fdefa063327c5a1e32ecae83d"
+    },
+    "/Users/Jeff/Agents/Beaker/memory/2026-05-19-0728.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-beaker-5f941680-memory-2026-05-19-0728-ddaa1e8d.md",
+      "sourcePath": "/Users/Jeff/Agents/Beaker/memory/2026-05-19-0728.md",
+      "sourceUpdatedAtMs": 1779150510702.3806,
+      "sourceSize": 12865,
+      "renderFingerprint": "b2cfb9db56b6d6c53ffba34ede6e3f8b8f2410c3"
+    },
+    "/Users/Jeff/Agents/Beaker/memory/2026-05-19-0759.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-beaker-5f941680-memory-2026-05-19-0759-5ad0285f.md",
+      "sourcePath": "/Users/Jeff/Agents/Beaker/memory/2026-05-19-0759.md",
+      "sourceUpdatedAtMs": 1779152350659.7603,
+      "sourceSize": 5110,
+      "renderFingerprint": "bb3cb8c20fc953b4579e1e3d4ae43bb512ac302c"
+    },
+    "/Users/Jeff/Agents/Beaker/memory/2026-05-19-1320.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-beaker-5f941680-memory-2026-05-19-1320-8240c45f.md",
+      "sourcePath": "/Users/Jeff/Agents/Beaker/memory/2026-05-19-1320.md",
+      "sourceUpdatedAtMs": 1779171626970.377,
+      "sourceSize": 4054,
+      "renderFingerprint": "d8b95e7f3327f748263bec51c42077ad77a1fd0d"
+    },
+    "/Users/Jeff/Agents/Beaker/memory/beaker-personality.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-beaker-5f941680-memory-beaker-personality-a3f7a157.md",
+      "sourcePath": "/Users/Jeff/Agents/Beaker/memory/beaker-personality.md",
+      "sourceUpdatedAtMs": 1779170628666.6372,
+      "sourceSize": 437,
+      "renderFingerprint": "2e1d1bd2fbdb22eeebc9c7046a4c8f0b21408787"
+    },
+    "/Users/Jeff/Agents/Cookie/memory/2026-05-19-0729.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-cookie-25f8420b-memory-2026-05-19-0729-a794747e.md",
+      "sourcePath": "/Users/Jeff/Agents/Cookie/memory/2026-05-19-0729.md",
+      "sourceUpdatedAtMs": 1779150564099.2,
+      "sourceSize": 6968,
+      "renderFingerprint": "b1a61c3e671cdf00a8470405a5c8a88918e5f952"
+    },
+    "/Users/Jeff/Agents/Cookie/memory/2026-05-19-1009.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-cookie-25f8420b-memory-2026-05-19-1009-777ebe39.md",
+      "sourcePath": "/Users/Jeff/Agents/Cookie/memory/2026-05-19-1009.md",
+      "sourceUpdatedAtMs": 1779160152490.294,
+      "sourceSize": 13209,
+      "renderFingerprint": "5141a1fef024feef093a51602b741e42b250048b"
+    },
+    "/Users/Jeff/Agents/Cookie/memory/2026-05-19-1321.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-cookie-25f8420b-memory-2026-05-19-1321-68f82d86.md",
+      "sourcePath": "/Users/Jeff/Agents/Cookie/memory/2026-05-19-1321.md",
+      "sourceUpdatedAtMs": 1779171691225.5872,
+      "sourceSize": 11337,
+      "renderFingerprint": "df2cc0f36436e47f4f378c94bbdce4b8b4437682"
+    },
+    "/Users/Jeff/Agents/Cookie/memory/2026-05-20-0650.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-cookie-25f8420b-memory-2026-05-20-0650-49b2cf47.md",
+      "sourcePath": "/Users/Jeff/Agents/Cookie/memory/2026-05-20-0650.md",
+      "sourceUpdatedAtMs": 1779234602414.1687,
+      "sourceSize": 183,
+      "renderFingerprint": "86cc7375c9b37333ea51de24cb4a668642bdd2fe"
+    },
+    "/Users/Jeff/Agents/Cookie/memory/typing_style.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-cookie-25f8420b-memory-typing-style-16e7c0cc.md",
+      "sourcePath": "/Users/Jeff/Agents/Cookie/memory/typing_style.md",
+      "sourceUpdatedAtMs": 1779170632687.653,
+      "sourceSize": 120,
+      "renderFingerprint": "ee3206215ae89555f6de8563952af655e8e1f97c"
+    },
+    "/Users/Jeff/Agents/Fozzie/MEMORY.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-fozzie-06c82b1a-memory-2d62c497.md",
+      "sourcePath": "/Users/Jeff/Agents/Fozzie/MEMORY.md",
+      "sourceUpdatedAtMs": 1779421242547.0645,
+      "sourceSize": 3994,
+      "renderFingerprint": "e7825546b12252a8f3e06845144283bfb60cf298"
+    },
+    "/Users/Jeff/Agents/Fozzie/memory/2026-05-19-0735.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-fozzie-06c82b1a-memory-2026-05-19-0735-70bb7eae.md",
+      "sourcePath": "/Users/Jeff/Agents/Fozzie/memory/2026-05-19-0735.md",
+      "sourceUpdatedAtMs": 1779150940016.7595,
+      "sourceSize": 1452,
+      "renderFingerprint": "57df4caf27d7515fd953e9ce564361a60736479a"
+    },
+    "/Users/Jeff/Agents/Fozzie/memory/2026-05-19-0844.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-fozzie-06c82b1a-memory-2026-05-19-0844-c2183541.md",
+      "sourcePath": "/Users/Jeff/Agents/Fozzie/memory/2026-05-19-0844.md",
+      "sourceUpdatedAtMs": 1779161951236.466,
+      "sourceSize": 1747,
+      "renderFingerprint": "1e5cfd92ea36b8165e3487c7a8e12ca158993d53"
+    },
+    "/Users/Jeff/Agents/Fozzie/memory/2026-05-20-1030-self-improvement.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-fozzie-06c82b1a-memory-2026-05-20-1030-self-improvement-5968ba05.md",
+      "sourcePath": "/Users/Jeff/Agents/Fozzie/memory/2026-05-20-1030-self-improvement.md",
+      "sourceUpdatedAtMs": 1779248717251.6677,
+      "sourceSize": 2825,
+      "renderFingerprint": "f14c9f686f510de9e0ffae6c661cce7d684d19ee"
+    },
+    "/Users/Jeff/Agents/Kermit/memory/commute.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-kermit-0b2c00cd-memory-commute-1e44527e.md",
+      "sourcePath": "/Users/Jeff/Agents/kermit/memory/commute.md",
+      "sourceUpdatedAtMs": 1779184990799.0303,
+      "sourceSize": 138,
+      "renderFingerprint": "ab3801b36a222268ba70c78a415ba2778b3256f0"
+    },
+    "/Users/Jeff/Smith/MEMORY.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2d62c497.md",
+      "sourcePath": "/Users/Jeff/Smith/MEMORY.md",
+      "sourceUpdatedAtMs": 1780886915711.8335,
+      "sourceSize": 4127,
+      "renderFingerprint": "cb99da57207f36aed72443d8bd9966073ea60b31"
+    },
+    "/Users/Jeff/Smith/memory/.dreams/events.jsonl": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-dreams-events-jsonl-38a7dd37.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/.dreams/events.jsonl",
+      "sourceUpdatedAtMs": 1778138360466.7485,
+      "sourceSize": 1980,
+      "renderFingerprint": "fd571393ea2604b4f8bb6346988c25f52802db06"
+    },
+    "/Users/Jeff/Smith/memory/2026-04-28.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-04-28-81fdd06a.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-04-28.md",
+      "sourceUpdatedAtMs": 1778138360460.8577,
+      "sourceSize": 668,
+      "renderFingerprint": "dddd6d633b5aeab587ba8db22e5c1056669f9f1a"
+    },
+    "/Users/Jeff/Smith/memory/2026-04-29.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-04-29-a64ebf27.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-04-29.md",
+      "sourceUpdatedAtMs": 1778138360459.2126,
+      "sourceSize": 5083,
+      "renderFingerprint": "5321182b6579df1a1a12f374ba83195dc1917f5f"
+    },
+    "/Users/Jeff/Smith/memory/2026-04-30-slack-webhook-domain-setup.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-04-30-slack-webhook-domain-setup-0136757d.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-04-30-slack-webhook-domain-setup.md",
+      "sourceUpdatedAtMs": 1778138360461.8174,
+      "sourceSize": 5929,
+      "renderFingerprint": "98d810ecaf05d8814144b0d4323a2c0cd72f3395"
+    },
+    "/Users/Jeff/Smith/memory/2026-04-30.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-04-30-52290f0c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-04-30.md",
+      "sourceUpdatedAtMs": 1778138360463.2495,
+      "sourceSize": 474,
+      "renderFingerprint": "39547ebacfcc7a9316cfbdf4355e9492aa25decf"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-01-1929.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-01-1929-a56a780c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-01-1929.md",
+      "sourceUpdatedAtMs": 1778138360456.5132,
+      "sourceSize": 182,
+      "renderFingerprint": "2bf32d51c7071adb8fd23a9e1d8635cb02264b57"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-01-pairing-fix.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-01-pairing-fix-841931d6.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-01-pairing-fix.md",
+      "sourceUpdatedAtMs": 1778138360464.931,
+      "sourceSize": 2653,
+      "renderFingerprint": "e754b30faa659943fc3e07650f691a8e6c353b74"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-01.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-01-4f2dbbd9.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-01.md",
+      "sourceUpdatedAtMs": 1778138360464.1777,
+      "sourceSize": 5927,
+      "renderFingerprint": "def22bcfe1595631d0d8122c77e8fdb182aa41ae"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-02.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-02-48620753.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-02.md",
+      "sourceUpdatedAtMs": 1778138360459.899,
+      "sourceSize": 2528,
+      "renderFingerprint": "a7eb6a91aea9bcc02a5726915a0e1e3a3f58779a"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-04-runtime-audit.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-04-runtime-audit-3e545285.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-04-runtime-audit.md",
+      "sourceUpdatedAtMs": 1777911236318.2454,
+      "sourceSize": 3719,
+      "renderFingerprint": "ebb91e4072f5d7c9a092cc750b82620cc5c45c67"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-05-bot-swap.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-05-bot-swap-658494dc.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-05-bot-swap.md",
+      "sourceUpdatedAtMs": 1777994020574.866,
+      "sourceSize": 3254,
+      "renderFingerprint": "3d3a504d6fa8cd2285ec6aa2d828b9f89eb50a8e"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-05-first-meeting.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-05-first-meeting-9408813c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-05-first-meeting.md",
+      "sourceUpdatedAtMs": 1777943954979.893,
+      "sourceSize": 1725,
+      "renderFingerprint": "fc1cc6b5573fd3aa385dd06321fbaccf8203316f"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-05-no-mention.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-05-no-mention-f8d31586.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-05-no-mention.md",
+      "sourceUpdatedAtMs": 1777974996602.6104,
+      "sourceSize": 2472,
+      "renderFingerprint": "dd1b102d86708828a363522fea3a73ef74896035"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-05-slack-canvas-access.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-05-slack-canvas-access-abce9a56.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-05-slack-canvas-access.md",
+      "sourceUpdatedAtMs": 1777991108515.9636,
+      "sourceSize": 1139,
+      "renderFingerprint": "74ba86351656454376d80ee44c2a2a5e49cc8898"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-06-2043.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-06-2043-53ecd057.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-06-2043.md",
+      "sourceUpdatedAtMs": 1778075039900.0188,
+      "sourceSize": 140,
+      "renderFingerprint": "75f6066d53386ce8e34251bc0a0404a5ceaaa0f9"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-06-2047.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-06-2047-c79d5ccc.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-06-2047.md",
+      "sourceUpdatedAtMs": 1778075222944.1294,
+      "sourceSize": 140,
+      "renderFingerprint": "f21521e4e71f430024b0cf704c03ec5c2edf2970"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-06-2107.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-06-2107-7f91d177.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-06-2107.md",
+      "sourceUpdatedAtMs": 1778076421610.6687,
+      "sourceSize": 140,
+      "renderFingerprint": "d38ea463dee43f8b9bc1e9025732c0367e269bc5"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-06.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-06-12f279cd.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-06.md",
+      "sourceUpdatedAtMs": 1778039463538.7888,
+      "sourceSize": 948,
+      "renderFingerprint": "055f9c2211553fba1f0e7897c88edcb6f418b147"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-07-0954.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-07-0954-6f6c661e.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-07-0954.md",
+      "sourceUpdatedAtMs": 1778122464490.4258,
+      "sourceSize": 173,
+      "renderFingerprint": "c56cb8ec2c2a4ce55628bcf0501b1dbad8e1bf4e"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-07-discord-bot-setup.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-07-discord-bot-setup-486c9124.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-07-discord-bot-setup.md",
+      "sourceUpdatedAtMs": 1778127960743.1445,
+      "sourceSize": 2547,
+      "renderFingerprint": "a7fee43c3426c0b9e645471899a70012968fd5f8"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-07-discord-setup.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-07-discord-setup-7e1454d9.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-07-discord-setup.md",
+      "sourceUpdatedAtMs": 1778134881710.9778,
+      "sourceSize": 6569,
+      "renderFingerprint": "f1c7294168302bd042b479bf4971690302a578cc"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-07.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-07-8f863fd0.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-07.md",
+      "sourceUpdatedAtMs": 1778144727489.33,
+      "sourceSize": 459,
+      "renderFingerprint": "0c4f69f172d192b20b94074cd9cf7d4632dca8a0"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-08-1211.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-08-1211-ffe1ee8e.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-08-1211.md",
+      "sourceUpdatedAtMs": 1778217115359.0916,
+      "sourceSize": 226,
+      "renderFingerprint": "62bf1993b3575043d48a576882f54a589fbae2b2"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-08-1215.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-08-1215-7ab84ea2.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-08-1215.md",
+      "sourceUpdatedAtMs": 1778217321625.383,
+      "sourceSize": 3629,
+      "renderFingerprint": "aa12c0352da27ad810f123a562ef9a23336954d1"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-08-1411.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-08-1411-9b099619.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-08-1411.md",
+      "sourceUpdatedAtMs": 1778224308684.7275,
+      "sourceSize": 2472,
+      "renderFingerprint": "cb4ad7cafac15ac3c6cb9f8f7d33b48d34ca1004"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-08.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-08-c013e906.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-08.md",
+      "sourceUpdatedAtMs": 1778231069190.328,
+      "sourceSize": 155,
+      "renderFingerprint": "deaf3020e3b45ae51293474a83a5192fcf6e2e36"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-09-0826.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-09-0826-a9c21bff.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-09-0826.md",
+      "sourceUpdatedAtMs": 1778290002009.8672,
+      "sourceSize": 173,
+      "renderFingerprint": "ce0e7d5c737c19803f14d6173c1e7b5c9cfd9fd6"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-09-1259.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-09-1259-90e6bfb2.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-09-1259.md",
+      "sourceUpdatedAtMs": 1778306384758.0076,
+      "sourceSize": 1602,
+      "renderFingerprint": "bf129cbcb4fff0fd7059ff142e6003f47e2bf962"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-09-2044.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-09-2044-d9137b4f.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-09-2044.md",
+      "sourceUpdatedAtMs": 1778334272606.4714,
+      "sourceSize": 1949,
+      "renderFingerprint": "bd0eabb9d30c96a4fbc71ba090bedfa5f8b4c3f1"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-09-2051.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-09-2051-a094cddf.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-09-2051.md",
+      "sourceUpdatedAtMs": 1778334692225.708,
+      "sourceSize": 612,
+      "renderFingerprint": "ef5b0b82ab2cf021d1545030bd22bbbf5c7691bc"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-09-2055.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-09-2055-c576a987.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-09-2055.md",
+      "sourceUpdatedAtMs": 1778334927502.5913,
+      "sourceSize": 231,
+      "renderFingerprint": "f5d014dbd4928348d4deb7cf23d4b00c5409cd45"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-10-1024.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-10-1024-9af8be4b.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-10-1024.md",
+      "sourceUpdatedAtMs": 1778383454595.5886,
+      "sourceSize": 1205,
+      "renderFingerprint": "3221c6be71ac897337670960ce4d0190d3957dc4"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-10-2049.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-10-2049-05bb55c9.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-10-2049.md",
+      "sourceUpdatedAtMs": 1778420994751.7698,
+      "sourceSize": 3686,
+      "renderFingerprint": "60ee026b08e2454c6c4b471e4c104cf77bb7e7d1"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-11.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-11-e0369940.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-11.md",
+      "sourceUpdatedAtMs": 1778497107049.5989,
+      "sourceSize": 548,
+      "renderFingerprint": "f5989279bd667b62c141af7ec579d272fbfedfe4"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-12-2249.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-12-2249-4c2fc56f.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-12-2249.md",
+      "sourceUpdatedAtMs": 1778600997918.651,
+      "sourceSize": 4086,
+      "renderFingerprint": "954281b8976b55c83d9e4fb26192dc7e65b6871b"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-13-0655.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-13-0655-44e8784c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-13-0655.md",
+      "sourceUpdatedAtMs": 1778630140174.2434,
+      "sourceSize": 181,
+      "renderFingerprint": "d117723f7f8c62e4487fc63cc6cc40d635b7cb4d"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-13-1040.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-13-1040-b0a39330.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-13-1040.md",
+      "sourceUpdatedAtMs": 1778643651139.2969,
+      "sourceSize": 182,
+      "renderFingerprint": "141c3e320f357dc3c12670cc0745d7e0fede8ffd"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-13-1058.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-13-1058-6aca0658.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-13-1058.md",
+      "sourceUpdatedAtMs": 1778645442830.488,
+      "sourceSize": 1902,
+      "renderFingerprint": "19347e149f571ef5414b1c83e149779b9e874fe6"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-14-1048.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-14-1048-6a7efca9.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-14-1048.md",
+      "sourceUpdatedAtMs": 1778730499895.027,
+      "sourceSize": 141,
+      "renderFingerprint": "08fb26ecabe9de2a95859f12be7f966322558454"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-14-1113.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-14-1113-10006017.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-14-1113.md",
+      "sourceUpdatedAtMs": 1778732020589.2368,
+      "sourceSize": 155,
+      "renderFingerprint": "611ffb36077f08f3e461682fdf5f0ad896a82b5a"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-14-1606.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-14-1606-4f77aeb4.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-14-1606.md",
+      "sourceUpdatedAtMs": 1778749591073.7302,
+      "sourceSize": 217,
+      "renderFingerprint": "fd75135b9ce8fe6c2abc035e123518bbb824a349"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-14-2118.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-14-2118-e21abd0c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-14-2118.md",
+      "sourceUpdatedAtMs": 1778768302566.9011,
+      "sourceSize": 141,
+      "renderFingerprint": "b4e5379b93eadf4e81f262134550eb37cd40cc19"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-14.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-14-ccf7d3d5.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-14.md",
+      "sourceUpdatedAtMs": 1778730533513.5847,
+      "sourceSize": 2219,
+      "renderFingerprint": "7a6df83ad296be5859f165259b4707c9b1456d4b"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-15-0829.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-15-0829-00c0f443.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-15-0829.md",
+      "sourceUpdatedAtMs": 1778808585935.401,
+      "sourceSize": 141,
+      "renderFingerprint": "33f4a37c703859e360fb1f801d3ad3a3c4fee35f"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-15-1016.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-15-1016-7fe993ba.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-15-1016.md",
+      "sourceUpdatedAtMs": 1778814988171.1543,
+      "sourceSize": 141,
+      "renderFingerprint": "78358c4ca817ebc077389b022a8e9b696b8e78e4"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-15-1054.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-15-1054-fc4ce3b5.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-15-1054.md",
+      "sourceUpdatedAtMs": 1778817289036.7112,
+      "sourceSize": 155,
+      "renderFingerprint": "09e1f7c2031c3e208232dc3df53313af1c0630cd"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-15-1055.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-15-1055-e5a7e4f6.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-15-1055.md",
+      "sourceUpdatedAtMs": 1778817309828.0479,
+      "sourceSize": 155,
+      "renderFingerprint": "aca3897cc7341cfdca3f2ad77a1c4d00e4812410"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-15.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-15-cd083573.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-15.md",
+      "sourceUpdatedAtMs": 1778843665818.9802,
+      "sourceSize": 686,
+      "renderFingerprint": "6eac51ff48e95c722d0e148d5a53c6b98d195b37"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-16-1439.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-16-1439-24d01a92.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-16-1439.md",
+      "sourceUpdatedAtMs": 1778917186935.8394,
+      "sourceSize": 326,
+      "renderFingerprint": "7ad20176e80ff65f53edd1a8d71aca76fbf3273c"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-16.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-16-082aed0e.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-16.md",
+      "sourceUpdatedAtMs": 1778944862325.309,
+      "sourceSize": 2714,
+      "renderFingerprint": "d00ad6261bc4c4a4ca189945a02b13e502bc1d22"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-17-0135.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-17-0135-0f87087c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-17-0135.md",
+      "sourceUpdatedAtMs": 1778956541482.2788,
+      "sourceSize": 7709,
+      "renderFingerprint": "2f2f7c0c5a958fc1147488004e7b107a7e8b0967"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-17-1221.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-17-1221-1fc7fd74.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-17-1221.md",
+      "sourceUpdatedAtMs": 1778995311636.6775,
+      "sourceSize": 4001,
+      "renderFingerprint": "dd27c44b8bd37b1359d53e4a1a3117e393f03613"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-17.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-17-ee663478.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-17.md",
+      "sourceUpdatedAtMs": 1779030537998.3,
+      "sourceSize": 1395,
+      "renderFingerprint": "52c48dc9ae278017172631dbc222382e4cce7f32"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-18-2140.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-18-2140-d1c1d790.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-18-2140.md",
+      "sourceUpdatedAtMs": 1779115240793.2405,
+      "sourceSize": 334,
+      "renderFingerprint": "fd8e0f074e4296fdeafec49644c67c86718f2633"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-18-2205.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-18-2205-8e3076c6.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-18-2205.md",
+      "sourceUpdatedAtMs": 1779116728250.8882,
+      "sourceSize": 1741,
+      "renderFingerprint": "6abc796ace4c13e032ea9a8dde23e9318eaa148b"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-18.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-18-a75cea56.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-18.md",
+      "sourceUpdatedAtMs": 1779119062719.2307,
+      "sourceSize": 769,
+      "renderFingerprint": "de53a59de3c201eb81fd75d4f552d059129f8feb"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-19-0727.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-19-0727-83ecbb98.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-19-0727.md",
+      "sourceUpdatedAtMs": 1779150456814.8738,
+      "sourceSize": 7950,
+      "renderFingerprint": "79aa303ed8ecd02156653026a47b08d84f5c23f7"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-19-0737.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-19-0737-74acf138.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-19-0737.md",
+      "sourceUpdatedAtMs": 1779151074958.9358,
+      "sourceSize": 933,
+      "renderFingerprint": "a7878fb5a80bbc4aa150f3c6ee0dc134c0df67c3"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-19-0758.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-19-0758-052a904c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-19-0758.md",
+      "sourceUpdatedAtMs": 1779152327528.0989,
+      "sourceSize": 182,
+      "renderFingerprint": "1873dece2aff999d4df650ac4e7deaa95f071a40"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-19-0759-2.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-19-0759-2-ef5832b3.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-19-0759-2.md",
+      "sourceUpdatedAtMs": 1779152377632.455,
+      "sourceSize": 950,
+      "renderFingerprint": "0d9469129d4b710efcb4b73a929e230135332118"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-19-0759-3.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-19-0759-3-cb8bd57b.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-19-0759-3.md",
+      "sourceUpdatedAtMs": 1779152388858.4463,
+      "sourceSize": 941,
+      "renderFingerprint": "53453aef2b8dd4b73d1bfb0fc491d4163efbf1b6"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-19-0759.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-19-0759-5ad0285f.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-19-0759.md",
+      "sourceUpdatedAtMs": 1779152369265.9653,
+      "sourceSize": 961,
+      "renderFingerprint": "a4aa8a55f72108b7781ff2e2a616fceb8de7db89"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-19-0905.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-19-0905-07dc525b.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-19-0905.md",
+      "sourceUpdatedAtMs": 1779156352050.599,
+      "sourceSize": 182,
+      "renderFingerprint": "c5578fd0b93bed54d18d7e69e2d6176e5d7a1aed"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-19-1320.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-19-1320-8240c45f.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-19-1320.md",
+      "sourceUpdatedAtMs": 1779171635926.384,
+      "sourceSize": 182,
+      "renderFingerprint": "ebeddab5f39458361f85c57ea249bb434687a526"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-19.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-19-9ccb468e.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-19.md",
+      "sourceUpdatedAtMs": 1779209059559.1924,
+      "sourceSize": 1166,
+      "renderFingerprint": "41b8c8e3a826f7027b0154f937467f107d93a832"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-20.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-20-4e379609.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-20.md",
+      "sourceUpdatedAtMs": 1779293890206.3381,
+      "sourceSize": 796,
+      "renderFingerprint": "4406f7cc905dba96dbad702b14babc2a46d94268"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-21-1324.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-21-1324-6046797e.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-21-1324.md",
+      "sourceUpdatedAtMs": 1779344652672.7336,
+      "sourceSize": 151,
+      "renderFingerprint": "e426cd23eee7f79be8f8fe0229a7076a371e4dce"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-21-1332.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-21-1332-77608ece.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-21-1332.md",
+      "sourceUpdatedAtMs": 1779345156980.8657,
+      "sourceSize": 151,
+      "renderFingerprint": "e6af5c8e5b9aab178332227888b31ad4c79dd857"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-21-1513-2.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-21-1513-2-152832c2.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-21-1513-2.md",
+      "sourceUpdatedAtMs": 1779351229208.2043,
+      "sourceSize": 151,
+      "renderFingerprint": "cdb6a1315e8b7bf00970f5f599b09a8c4fec678e"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-21-1513.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-21-1513-eb0b579a.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-21-1513.md",
+      "sourceUpdatedAtMs": 1779351216152.3552,
+      "sourceSize": 151,
+      "renderFingerprint": "3b42f8322ef5b6e301036363d6d0d3fdbdc9be8c"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-21-1514-2.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-21-1514-2-df7d178b.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-21-1514-2.md",
+      "sourceUpdatedAtMs": 1779351292164.5247,
+      "sourceSize": 151,
+      "renderFingerprint": "7f9f0a1b3b99191e2869eead75d456800eaefacb"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-21-1514.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-21-1514-747c9204.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-21-1514.md",
+      "sourceUpdatedAtMs": 1779351247430.0747,
+      "sourceSize": 151,
+      "renderFingerprint": "233d6638577f5ad5807bfb5288a8edbfcc3ca2d2"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-21-1515.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-21-1515-2a728c11.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-21-1515.md",
+      "sourceUpdatedAtMs": 1779351300837.4817,
+      "sourceSize": 151,
+      "renderFingerprint": "99cdbe4e678233cc168ae90673ceaa3794f2fdb4"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-21.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-21-0894f0dc.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-21.md",
+      "sourceUpdatedAtMs": 1779375490025.6182,
+      "sourceSize": 1093,
+      "renderFingerprint": "26e44e0443d524fed75dde97407d598cce8c4bbe"
+    },
+    "/Users/Jeff/Smith/memory/feedback_discord_memory.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-feedback-discord-memory-f793926a.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/feedback_discord_memory.md",
+      "sourceUpdatedAtMs": 1778138360457.4146,
+      "sourceSize": 609,
+      "renderFingerprint": "9ab23cba5324630dfd33c5eb768044b135c39515"
+    },
+    "/Users/Jeff/Smith/memory/heartbeat-state.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-heartbeat-state-59e3911b.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/heartbeat-state.md",
+      "sourceUpdatedAtMs": 1780928070144.2964,
+      "sourceSize": 166,
+      "renderFingerprint": "d39ac7c3b249b6ba9bd70ba3710566fd7d0f3f06"
+    },
+    "/Users/Jeff/Smith/memory/MEMORY.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-memory-3cabbde2.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/MEMORY.md",
+      "sourceUpdatedAtMs": 1779872719904.7056,
+      "sourceSize": 834,
+      "renderFingerprint": "4928592e50ba534546909bb4de821f03a5bd6642"
+    },
+    "/Users/Jeff/Smith/memory/preferences.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-preferences-88045bf4.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/preferences.md",
+      "sourceUpdatedAtMs": 1779357907702.7583,
+      "sourceSize": 693,
+      "renderFingerprint": "20a047dcf8494791fd4554eee2556d61577e832b"
+    },
+    "/Users/Jeff/Smith/memory/reference_returnable_box.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-reference-returnable-box-a42091c4.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/reference_returnable_box.md",
+      "sourceUpdatedAtMs": 1778553555062.2224,
+      "sourceSize": 503,
+      "renderFingerprint": "6d2d6e799c1b8b8fc8f6f4183632c49a5851c559"
+    },
+    "/Users/Jeff/Smith/memory/weekly-review-2026-05-16.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-16-8081a35b.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/weekly-review-2026-05-16.md",
+      "sourceUpdatedAtMs": 1778903389786.184,
+      "sourceSize": 1461,
+      "renderFingerprint": "b98da9ee7557fcd1c48769c519416cd78d09bfbd"
+    },
+    "/Users/Jeff/Smith/memory/working-buffer.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-working-buffer-f0781217.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/working-buffer.md",
+      "sourceUpdatedAtMs": 1778138360457.9365,
+      "sourceSize": 655,
+      "renderFingerprint": "3fd837d31c185908e55ecfcb5f2229c89f2a5d5b"
+    },
+    "/Users/Jeff/Agents/Cookie/memory/2026-05-22-0703.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-cookie-25f8420b-memory-2026-05-22-0703-91a17de1.md",
+      "sourcePath": "/Users/Jeff/Agents/Cookie/memory/2026-05-22-0703.md",
+      "sourceUpdatedAtMs": 1779408236438.313,
+      "sourceSize": 2966,
+      "renderFingerprint": "8dc3ccbc08c3536cc8b7807513c9f8840e245f8d"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-22.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-22-ebb408d5.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-22.md",
+      "sourceUpdatedAtMs": 1779458707439.9084,
+      "sourceSize": 94,
+      "renderFingerprint": "181850afdb3f0bc212c79d8a87986b2c9e7665c3"
+    },
+    "/Users/Jeff/Agents/Cookie/memory/2026-05-27-2112.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-cookie-25f8420b-memory-2026-05-27-2112-32f4937c.md",
+      "sourcePath": "/Users/Jeff/Agents/Cookie/memory/2026-05-27-2112.md",
+      "sourceUpdatedAtMs": 1779891136865.121,
+      "sourceSize": 729,
+      "renderFingerprint": "d021b1e72dc52af58969a55f2e4a98a87999f037"
+    },
+    "/Users/Jeff/Agents/Fozzie/memory/2026-05-22-1030-self-improvement.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-fozzie-06c82b1a-memory-2026-05-22-1030-self-improvement-c70632df.md",
+      "sourcePath": "/Users/Jeff/Agents/Fozzie/memory/2026-05-22-1030-self-improvement.md",
+      "sourceUpdatedAtMs": 1779421198517.9827,
+      "sourceSize": 2462,
+      "renderFingerprint": "7f58a4fbc4e71b74c62c2391ea030b9ef5eb1756"
+    },
+    "/Users/Jeff/Agents/Fozzie/memory/2026-05-27-2115.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-fozzie-06c82b1a-memory-2026-05-27-2115-4d22b642.md",
+      "sourcePath": "/Users/Jeff/Agents/Fozzie/memory/2026-05-27-2115.md",
+      "sourceUpdatedAtMs": 1779891324066.8042,
+      "sourceSize": 721,
+      "renderFingerprint": "a8a7b81a34befa79f0d327d7e2161bdeb6273dfa"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-23-1131.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-23-1131-7a513383.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-23-1131.md",
+      "sourceUpdatedAtMs": 1779510717689.6733,
+      "sourceSize": 1266,
+      "renderFingerprint": "3722b1e1139d28b131478636803b560b07aa0fb7"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-23.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-23-1b314f1a.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-23.md",
+      "sourceUpdatedAtMs": 1779553214732.2048,
+      "sourceSize": 4576,
+      "renderFingerprint": "0319816acc481bba589e763b524c8d07efdd2cc6"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-24-1435.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-24-1435-84dee29a.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-24-1435.md",
+      "sourceUpdatedAtMs": 1779608152744.6912,
+      "sourceSize": 207,
+      "renderFingerprint": "d3b9ff0862c308d2c9d21c5071afb9dba8a708f8"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-24.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-24-f0dce1ca.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-24.md",
+      "sourceUpdatedAtMs": 1779614175529.8228,
+      "sourceSize": 148,
+      "renderFingerprint": "8c32616b11d470ec6eba21fdd58e58896f9f0d2e"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-25.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-25-7e5d4e21.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-25.md",
+      "sourceUpdatedAtMs": 1779722580361.7058,
+      "sourceSize": 504,
+      "renderFingerprint": "d66f2b9bc9d34f79efc1aa141fe05431da95c9e0"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-26.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-26-a8f858bc.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-26.md",
+      "sourceUpdatedAtMs": 1779810294562.944,
+      "sourceSize": 418,
+      "renderFingerprint": "cb69ee838558efaddd6598ff76420b6a4d738a94"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-27.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-27-758a02b2.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-27.md",
+      "sourceUpdatedAtMs": 1779890953067.778,
+      "sourceSize": 1218,
+      "renderFingerprint": "846c30c3230c97d1be5900192996b98b01b0a68e"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-28-0749.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-28-0749-e1afc466.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-28-0749.md",
+      "sourceUpdatedAtMs": 1779929398795.267,
+      "sourceSize": 4174,
+      "renderFingerprint": "858452a5a6d81e07e4064c5e6314daf7804650dd"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-28-0854.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-28-0854-7832f92d.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-28-0854.md",
+      "sourceUpdatedAtMs": 1779933268909.8154,
+      "sourceSize": 580,
+      "renderFingerprint": "80ea0e0596f634fdda1478ad6b0ccd295e0a14bd"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-28-1240.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-28-1240-2a3942c6.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-28-1240.md",
+      "sourceUpdatedAtMs": 1779946803046.264,
+      "sourceSize": 3183,
+      "renderFingerprint": "6845394c6dcc76776458a2290cac210fa1ca8306"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-28-1653.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-28-1653-6c34de42.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-28-1653.md",
+      "sourceUpdatedAtMs": 1779961992700.149,
+      "sourceSize": 534,
+      "renderFingerprint": "ebe870c10cd79fa23c622fba3ff02b4c3c9139d1"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-29-2009.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2009-d38da344.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-29-2009.md",
+      "sourceUpdatedAtMs": 1780060187788.7612,
+      "sourceSize": 6907,
+      "renderFingerprint": "ea4fef9cfea88cd8a0381ab3f735f9ef4031774b"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-29-2131.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2131-0d177412.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-29-2131.md",
+      "sourceUpdatedAtMs": 1780065068148.9395,
+      "sourceSize": 1162,
+      "renderFingerprint": "5ff8b16e0e25b33c0ba1ec75f5388c853a63501b"
+    },
+    "/Users/Jeff/Smith/memory/feedback_weekly_report_format.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-feedback-weekly-report-format-daf75c0e.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/feedback_weekly_report_format.md",
+      "sourceUpdatedAtMs": 1779872707753.5518,
+      "sourceSize": 2321,
+      "renderFingerprint": "9ad34844c4f4b567ac9ca78920965c020033254e"
+    },
+    "/Users/Jeff/Smith/memory/project_best_work_schedule.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-project-best-work-schedule-cab6268d.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/project_best_work_schedule.md",
+      "sourceUpdatedAtMs": 1779872693645.6128,
+      "sourceSize": 1298,
+      "renderFingerprint": "4388b007e08b7a3c67bf8e2938cbb3d21e62d3df"
+    },
+    "/Users/Jeff/Smith/memory/project_calendar_tpn.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-project-calendar-tpn-2cce053c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/project_calendar_tpn.md",
+      "sourceUpdatedAtMs": 1779872696880.522,
+      "sourceSize": 487,
+      "renderFingerprint": "31c083ffe7014018fa948a980b5a409def0ffc1c"
+    },
+    "/Users/Jeff/Smith/memory/weekly-review-2026-05-23.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-23-f7ae8a0e.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/weekly-review-2026-05-23.md",
+      "sourceUpdatedAtMs": 1779503461313.0867,
+      "sourceSize": 1160,
+      "renderFingerprint": "a20221b0f7546f296d2847e15731b35ae5ac8923"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-29-2149.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2149-230e2f15.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-29-2149.md",
+      "sourceUpdatedAtMs": 1780066182252.3818,
+      "sourceSize": 581,
+      "renderFingerprint": "8a72584a84f02426ced7c78da3ad2e8170b71934"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-29-2152.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2152-c5ab873a.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-29-2152.md",
+      "sourceUpdatedAtMs": 1780066327793.15,
+      "sourceSize": 455,
+      "renderFingerprint": "2dba95073291edb525adcb3f258e23df4fc9a040"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-29-2155.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2155-95522597.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-29-2155.md",
+      "sourceUpdatedAtMs": 1780066501719.8384,
+      "sourceSize": 455,
+      "renderFingerprint": "248e16e6983fcf34d0a1a2ef3cba20f7e0c7fc91"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-29-2206.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2206-66a811f5.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-29-2206.md",
+      "sourceUpdatedAtMs": 1780067203533.4756,
+      "sourceSize": 4298,
+      "renderFingerprint": "b313235102dff244df88449ebf7568908141db6b"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-29-2214-2.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2214-2-a9dee08e.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-29-2214-2.md",
+      "sourceUpdatedAtMs": 1780067667431.635,
+      "sourceSize": 177,
+      "renderFingerprint": "d5ddcf199a60f1970781d4c88ed781677d525f5a"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-29-2214.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2214-cae9525b.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-29-2214.md",
+      "sourceUpdatedAtMs": 1780067643376.9016,
+      "sourceSize": 945,
+      "renderFingerprint": "4912aa6230b48a9049cd3585224824ff85651334"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-29-2222.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2222-008c04a2.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-29-2222.md",
+      "sourceUpdatedAtMs": 1780068120860.2117,
+      "sourceSize": 1530,
+      "renderFingerprint": "7af7bcfcdb558bc492afe0a4a0d86d91f6814841"
+    },
+    "/Users/Jeff/Agents/Beaker/MEMORY.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-beaker-5f941680-memory-2d62c497.md",
+      "sourcePath": "/Users/Jeff/Agents/Beaker/MEMORY.md",
+      "sourceUpdatedAtMs": 1780211731501.0933,
+      "sourceSize": 1831,
+      "renderFingerprint": "36601af7d3891eeac19ff9daa7f2dbdde4769fa3"
+    },
+    "/Users/Jeff/Agents/Beaker/memory/2026-05-31-1303.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-beaker-5f941680-memory-2026-05-31-1303-99db6154.md",
+      "sourcePath": "/Users/Jeff/Agents/Beaker/memory/2026-05-31-1303.md",
+      "sourceUpdatedAtMs": 1780207392624.3213,
+      "sourceSize": 1728,
+      "renderFingerprint": "9a45775de42624f2c8735d8c1fea3ddb2d828cbd"
+    },
+    "/Users/Jeff/Agents/Beaker/memory/2026-05-31-1307.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-beaker-5f941680-memory-2026-05-31-1307-0cdaae2e.md",
+      "sourcePath": "/Users/Jeff/Agents/Beaker/memory/2026-05-31-1307.md",
+      "sourceUpdatedAtMs": 1780207634388.805,
+      "sourceSize": 341,
+      "renderFingerprint": "bc5d9a26aa967fbc940f8cabbfcf36eea234e492"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-31-1832.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-31-1832-ea4c4f0d.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-31-1832.md",
+      "sourceUpdatedAtMs": 1780227156498.3684,
+      "sourceSize": 8234,
+      "renderFingerprint": "7de5dbfcc59ecd731434c11380ddf38d366fcf59"
+    },
+    "/Users/Jeff/Smith/memory/2026-05-31.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-05-31-3e900aba.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-05-31.md",
+      "sourceUpdatedAtMs": 1780226068942.7158,
+      "sourceSize": 169,
+      "renderFingerprint": "9d554a50dbee8d421b4be9029ceeda61d45c3324"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-01.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-01-d64f6802.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-01.md",
+      "sourceUpdatedAtMs": 1780312466425.7207,
+      "sourceSize": 966,
+      "renderFingerprint": "434b1e0fd66a080434c3cc439372f133a591930d"
+    },
+    "/Users/Jeff/Smith/memory/weekly-review-2026-05-30-th.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-30-th-7397cbed.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/weekly-review-2026-05-30-th.md",
+      "sourceUpdatedAtMs": 1780124653344.9739,
+      "sourceSize": 8491,
+      "renderFingerprint": "fea9c9108375ae6ef87e7547eb874fed310b5519"
+    },
+    "/Users/Jeff/Smith/memory/weekly-review-2026-05-30.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-30-88aa15cd.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/weekly-review-2026-05-30.md",
+      "sourceUpdatedAtMs": 1780631687681.696,
+      "sourceSize": 310,
+      "renderFingerprint": "55d050e84df38480c9587a50c30ae0b7dfa8bff3"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-01-2133.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-01-2133-228c1ef4.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-01-2133.md",
+      "sourceUpdatedAtMs": 1780324414980.9805,
+      "sourceSize": 4494,
+      "renderFingerprint": "d8a106bacb7f7f1a1d33c5b67019741cc0cd9c9e"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-01-2139.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-01-2139-191f73e8.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-01-2139.md",
+      "sourceUpdatedAtMs": 1780324749910.2146,
+      "sourceSize": 3152,
+      "renderFingerprint": "0c782e6ae4a3a231f9384dee9eabaa323be9ae03"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-02-0821.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-02-0821-76db5100.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-02-0821.md",
+      "sourceUpdatedAtMs": 1780363262595.138,
+      "sourceSize": 2727,
+      "renderFingerprint": "711204b65ac2ba36f63c728eaeae27c58217488f"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-02.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-02-cad477f4.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-02.md",
+      "sourceUpdatedAtMs": 1780353868017.0889,
+      "sourceSize": 419,
+      "renderFingerprint": "6ab71c5b740c1da4447a2791528056b3b7954cad"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-02-0838.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-02-0838-ae5ed1cc.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-02-0838.md",
+      "sourceUpdatedAtMs": 1780364299661.5874,
+      "sourceSize": 419,
+      "renderFingerprint": "4401ea249a4aeaa5ca8bbe86cdd3549582cbfdd7"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-02-0944.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-02-0944-d4057d2f.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-02-0944.md",
+      "sourceUpdatedAtMs": 1780368283574.1492,
+      "sourceSize": 300,
+      "renderFingerprint": "93c4958cd359961f8ad5bcb4bbf51cd88b23f9b2"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-03.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-03-485eb77f.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-03.md",
+      "sourceUpdatedAtMs": 1780497714440.69,
+      "sourceSize": 2631,
+      "renderFingerprint": "c5b03b6389159e1b3e07a8d82ba8a02a74a04f48"
+    },
+    "/Users/Jeff/Smith/memory/artifacts/maintenance-summary.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-artifacts-maintenance-summary-4d0d6933.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/artifacts/maintenance-summary.md",
+      "sourceUpdatedAtMs": 1780938162764.1738,
+      "sourceSize": 324,
+      "renderFingerprint": "8a731f8cf658f766bfdc4f5465484720ac8262b1"
+    },
+    "/Users/Jeff/Agents/Kermit/memory/2026-06-03-2008.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-kermit-0b2c00cd-memory-2026-06-03-2008-b2c53b6f.md",
+      "sourcePath": "/Users/Jeff/Agents/kermit/memory/2026-06-03-2008.md",
+      "sourceUpdatedAtMs": 1780492082692.3777,
+      "sourceSize": 962,
+      "renderFingerprint": "bdf4288ce20cb29b5cbf6b4dc124c6ce9f11d1e8"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-04.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-04-77f74920.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-04.md",
+      "sourceUpdatedAtMs": 1780549840800.4707,
+      "sourceSize": 1159,
+      "renderFingerprint": "8a25f728e6f9351d6e45ea5b847d77a532deb9fb"
+    },
+    "/Users/Jeff/Smith/memory/artifacts/evolution-2026-06-04-cron-delivery.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-artifacts-evolution-2026-06-04-cron-delivery-548854d0.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/artifacts/evolution-2026-06-04-cron-delivery.md",
+      "sourceUpdatedAtMs": 1780532288720.1167,
+      "sourceSize": 5137,
+      "renderFingerprint": "4808de12caa3e18c7255a109298df25341de0ade"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-04-1646.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-04-1646-bb52d0e5.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-04-1646.md",
+      "sourceUpdatedAtMs": 1780566384888.62,
+      "sourceSize": 1107,
+      "renderFingerprint": "b46cd8b0092ba2f3d669c99293921d93f4835def"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-04-1648.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-04-1648-92659f6c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-04-1648.md",
+      "sourceUpdatedAtMs": 1780566488904.7673,
+      "sourceSize": 193,
+      "renderFingerprint": "96ef5e517b7ffdc8d37bfaf9dd0f88ebf37480f0"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-04-2115.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-04-2115-44307f53.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-04-2115.md",
+      "sourceUpdatedAtMs": 1780582518455.854,
+      "sourceSize": 3918,
+      "renderFingerprint": "effed663d287be82ab2b1e5538621590a7e81da7"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-05-1310.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-05-1310-e18b8c0b.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-05-1310.md",
+      "sourceUpdatedAtMs": 1780639859753.2834,
+      "sourceSize": 2978,
+      "renderFingerprint": "88e1005d774ced4bd2e246158b1ff5e8c7604952"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-05-1459.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-05-1459-cbed48a6.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-05-1459.md",
+      "sourceUpdatedAtMs": 1780646374825.8584,
+      "sourceSize": 760,
+      "renderFingerprint": "b8acf07d796a7cfe404a4b6ef05c5ac945cab172"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-05-1637.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-05-1637-53471ad1.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-05-1637.md",
+      "sourceUpdatedAtMs": 1780652247176.463,
+      "sourceSize": 2761,
+      "renderFingerprint": "e3344d61c994570fc7b23790c36b8f4fcca74f10"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-05.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-05-1a53ab8e.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-05.md",
+      "sourceUpdatedAtMs": 1780645228723.5552,
+      "sourceSize": 2456,
+      "renderFingerprint": "e8015320904861b7c3ffdee33a7c3978dbfcb67f"
+    },
+    "/Users/Jeff/Smith/memory/artifacts/2026-06-05-weekly-gmail-draft-thai.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-gmail-draft-thai-6580c92c.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/artifacts/2026-06-05-weekly-gmail-draft-thai.md",
+      "sourceUpdatedAtMs": 1780651682596.213,
+      "sourceSize": 1351,
+      "renderFingerprint": "63ac01b4d2fbb5920ff1fe77b80de206268be826"
+    },
+    "/Users/Jeff/Smith/memory/artifacts/2026-06-05-weekly-june1-6-thai.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-june1-6-thai-d49e4984.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/artifacts/2026-06-05-weekly-june1-6-thai.md",
+      "sourceUpdatedAtMs": 1780652939904.8748,
+      "sourceSize": 5016,
+      "renderFingerprint": "4b96708d96d7a8f0387aac1964890a58a704b203"
+    },
+    "/Users/Jeff/Smith/memory/artifacts/2026-06-05-weekly-report-thai.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-report-thai-4a85c7d1.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/artifacts/2026-06-05-weekly-report-thai.md",
+      "sourceUpdatedAtMs": 1780651911450.6907,
+      "sourceSize": 6413,
+      "renderFingerprint": "5e8a1bb50c9af44972dff9454d8c2cb8f2d7324d"
+    },
+    "/Users/Jeff/Smith/memory/Draft Weekly (July 1 - 6, 2026).md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-draft-weekly-july-1-6-2026-2b5fd493.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/Draft Weekly (July 1 - 6, 2026).md",
+      "sourceUpdatedAtMs": 1780632791957.6897,
+      "sourceSize": 434,
+      "renderFingerprint": "4902bd04a089c895b5ab76eaad1e9869359da3f7"
+    },
+    "/Users/Jeff/Smith/memory/weekly-review-2026-05-25-30-summary.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-25-30-summary-17c1c0a7.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/weekly-review-2026-05-25-30-summary.md",
+      "sourceUpdatedAtMs": 1780634995140.353,
+      "sourceSize": 2181,
+      "renderFingerprint": "96cbcecb8372087ca1f1250598c0b463cf75d79a"
+    },
+    "/Users/Jeff/Smith/memory/weekly-review-2026-06-05.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-06-05-68b45876.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/weekly-review-2026-06-05.md",
+      "sourceUpdatedAtMs": 1780643709626.6172,
+      "sourceSize": 4621,
+      "renderFingerprint": "23485d9ebdc309f1e2db4fab43ea9163055cb9e5"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-06-1934.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-06-1934-4ba69d33.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-06-1934.md",
+      "sourceUpdatedAtMs": 1780749244672.028,
+      "sourceSize": 3663,
+      "renderFingerprint": "9c628adcf55b6129ceee2543c6b5c99cabdb9cce"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-06-1941.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-06-1941-0e5919c3.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-06-1941.md",
+      "sourceUpdatedAtMs": 1780749699619.4226,
+      "sourceSize": 3753,
+      "renderFingerprint": "db4e7079d7006a190e61987c1b4582d125f6b049"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-06-2149.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-06-2149-c33f6ccd.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-06-2149.md",
+      "sourceUpdatedAtMs": 1780757383319.8945,
+      "sourceSize": 2931,
+      "renderFingerprint": "eb1c77dd567ed31c6e782098aa09545d0891817f"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-06.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-06-9443d2dd.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-06.md",
+      "sourceUpdatedAtMs": 1780757621110.3125,
+      "sourceSize": 577,
+      "renderFingerprint": "0af2a7a08583385aba59bef8904691a6724ecd42"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-07-2223.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-07-2223-256974d3.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-07-2223.md",
+      "sourceUpdatedAtMs": 1780845807076.409,
+      "sourceSize": 2934,
+      "renderFingerprint": "4373a0d1753fd2f2ba177d688b6bfc5a3095dde8"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-08.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-08-1cadfb6d.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-08.md",
+      "sourceUpdatedAtMs": 1780924522830.4614,
+      "sourceSize": 358,
+      "renderFingerprint": "e593a871668c745a6829d59e55524767f0fbf55c"
+    },
+    "/Users/Jeff/Smith/memory/2026-06-09.md": {
+      "group": "bridge",
+      "pagePath": "sources/bridge-smith-ec7a1e9e-memory-2026-06-09-4ae04795.md",
+      "sourcePath": "/Users/Jeff/Smith/memory/2026-06-09.md",
+      "sourceUpdatedAtMs": 1780977649663.6716,
+      "sourceSize": 2085,
+      "renderFingerprint": "9eb4084a0df2b79ac92f4bbff14240ff1d0d84e0"
+    }
+  }
+}

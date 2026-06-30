@@ -1,0 +1,13 @@
+{
+  "tipsShown": 10,
+  "startupWarningCounts": {
+    "home-directory": 1,
+    "true-color": 3
+  },
+  "defaultBannerShownCount": {
+    "04ca63928e29c17b8eef10c5900d774be1f71eff1dfc8b0ffe5fa4c51dcd8757": 5,
+    "0bb64b0e8440afc305a336bede152f9389ede841378cda7df768c6b35b16ce11": 5,
+    "21e52f476d259e1042a8a5288d4aac95d255037d2448247e55c45c5464bab726": 2
+  },
+  "terminalSetupPromptShown": true
+}

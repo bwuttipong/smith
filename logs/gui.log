@@ -1,0 +1,39 @@
+2026-06-19 22:41:41,715 INFO hermes_cli.web_server: oauth/device: nous login completed (session=VKzvP1vVwFJxbGQyL7s5gA)
+2026-06-21 13:01:07,544 INFO tui_gateway.ws: ws closed peer=127.0.0.1:51659 reason=client_disconnect(code=1006,reason=) messages=6463 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=2
+2026-06-24 19:17:05,901 INFO tui_gateway.ws: ws closed peer=127.0.0.1:58456 reason=client_disconnect(code=1001,reason=) messages=2853 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=2
+2026-06-24 20:36:54,535 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:53252
+2026-06-24 20:36:54,715 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-06-24 20:36:55,300 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:53259
+2026-06-24 20:36:58,171 WARNING tui_gateway.server: config.yaml has empty section(s): `context_file_max_chars`, `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-24 20:36:58,261 WARNING tui_gateway.server: config.yaml has empty section(s): `context_file_max_chars`, `max_concurrent_sessions`. Remove the line(s) or set them to `{}` — empty sections silently drop nested settings.
+2026-06-24 20:37:41,104 INFO tui_gateway.ws: ws closed peer=127.0.0.1:53252 reason=client_disconnect(code=1001,reason=) messages=1 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=1 detached_sessions=0
+2026-06-24 20:37:41,108 INFO tui_gateway.ws: ws closed peer=127.0.0.1:53259 reason=client_disconnect(code=1005,reason=) messages=63 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=1
+2026-06-25 22:10:49,999 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-25 22:10:50,035 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-25 22:10:50,575 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:53241
+2026-06-25 22:12:15,577 INFO tui_gateway.ws: ws closed peer=127.0.0.1:53241 reason=client_disconnect(code=1012,reason=) messages=16 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-06-25 22:12:32,506 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-25 22:12:32,547 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-26 21:37:49,452 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:53597
+2026-06-26 21:38:16,895 INFO tui_gateway.ws: ws closed peer=127.0.0.1:53597 reason=client_disconnect(code=1012,reason=) messages=8 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-06-26 21:38:33,417 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-26 21:38:33,459 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-26 21:47:19,018 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-26 21:47:19,061 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-26 21:47:19,488 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:54187
+2026-06-26 21:47:22,618 INFO tui_gateway.ws: ws closed peer=127.0.0.1:54187 reason=client_disconnect(code=1001,reason=) messages=6 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-06-26 21:47:56,207 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:54231
+2026-06-26 21:47:58,171 INFO tui_gateway.ws: ws closed peer=127.0.0.1:54231 reason=client_disconnect(code=1001,reason=) messages=6 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-06-27 22:16:56,642 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:60142
+2026-06-27 22:17:14,247 INFO tui_gateway.ws: ws closed peer=127.0.0.1:60142 reason=client_disconnect(code=1012,reason=) messages=8 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-06-27 22:18:03,992 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-27 22:18:04,035 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-27 22:18:04,501 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:60258
+2026-06-27 22:18:25,244 INFO tui_gateway.ws: ws closed peer=127.0.0.1:60258 reason=client_disconnect(code=1001,reason=) messages=8 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-06-28 14:35:50,573 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:55725
+2026-06-29 12:31:03,462 INFO tui_gateway.ws: ws closed peer=127.0.0.1:55725 reason=client_disconnect(code=1012,reason=) messages=3082 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-06-29 12:31:19,120 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-29 12:31:19,157 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-29 12:31:35,062 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-29 12:31:35,094 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-29 12:31:36,056 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:54347

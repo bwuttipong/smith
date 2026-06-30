@@ -1,0 +1,8 @@
+Tasks audit: 5 findings · 0 errors · 5 warnings
+Task findings: 2 · TaskFlow findings: 3
+Scope    Severity Code                   Item       Status     Age      Detail
+TaskFlow warn     stale_blocked          a87f1950-… blocked    4d15h    blocked TaskFlow has not advanced recently
+TaskFlow warn     stale_blocked          68cf49d9-… blocked    4d15h    blocked TaskFlow has not advanced recently
+Task     warn     delivery_failed        20908f37-… cancelled  3d6h     terminal update delivery failed
+TaskFlow warn     stale_blocked          6a794bc0-… blocked    3d6h     blocked TaskFlow has not advanced recently
+Task     warn     delivery_failed        c52aecf9-… succeeded  3d6h     terminal update delivery failed

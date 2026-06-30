@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-06-28T21:05:42+07:00
+Prompt: Check test command output
+Early Termination: task-101
+
+[2026-06-28T21:05:42+07:00] Timer fired.

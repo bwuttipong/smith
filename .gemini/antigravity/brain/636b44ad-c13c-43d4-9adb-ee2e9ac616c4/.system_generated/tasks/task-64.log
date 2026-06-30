@@ -1,0 +1,2 @@
+jeff             50790   0.0  0.0 435300096   1376   ??  S     9:56PM   0:00.00 grep -i hermes
+jeff             50756   0.0  0.0 435307920   2496   ??  S     9:56PM   0:00.01 zsh -c kill -TERM 93596 && sleep 2 && ps aux | grep -i hermes

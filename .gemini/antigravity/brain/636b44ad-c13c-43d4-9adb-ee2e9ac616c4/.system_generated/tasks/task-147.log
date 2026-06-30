@@ -1,0 +1,5 @@
+⚠ Deprecated .env settings detected:
+  ⚠ MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  Move to config.yaml instead:  terminal:\n    cwd: /your/project/path
+  Then remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env
+

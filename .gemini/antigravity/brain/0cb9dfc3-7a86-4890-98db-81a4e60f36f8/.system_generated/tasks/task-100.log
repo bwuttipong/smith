@@ -1,0 +1,34 @@
+Tasks audit: 31 findings · 0 errors · 31 warnings
+Task findings: 2 · TaskFlow findings: 29
+Scope    Severity Code                   Item       Status     Age      Detail
+TaskFlow warn     stale_blocked          1089c9b1-… blocked    21d16h   blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   1089c9b1-… blocked    21d16h   blocked TaskFlow points at missing task ad57f885-e8a0-4417-bd01-4a755d8afdf0
+TaskFlow warn     stale_blocked          aac0e899-… blocked    21d15h   blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   aac0e899-… blocked    21d15h   blocked TaskFlow points at missing task 2583e906-ed06-4e45-9509-c4bcee767b80
+TaskFlow warn     stale_blocked          4dfac2f7-… blocked    21d15h   blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   4dfac2f7-… blocked    21d15h   blocked TaskFlow points at missing task 0ca6d078-fe8c-4b50-aa51-64c0e8cfb9de
+TaskFlow warn     stale_blocked          87208b86-… blocked    21d15h   blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   87208b86-… blocked    21d15h   blocked TaskFlow points at missing task 039bf36e-5301-4689-a783-d63a23978bab
+TaskFlow warn     stale_blocked          1d0aa6d2-… blocked    21d15h   blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   1d0aa6d2-… blocked    21d15h   blocked TaskFlow points at missing task ca89d6e7-3e24-4ffa-9ec3-bb69f51ae71e
+TaskFlow warn     stale_blocked          ad1399da-… blocked    21d15h   blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   ad1399da-… blocked    21d15h   blocked TaskFlow points at missing task 706c7f24-1e62-443b-bf8a-972a29437281
+TaskFlow warn     stale_blocked          71cd0e8b-… blocked    21d15h   blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   71cd0e8b-… blocked    21d15h   blocked TaskFlow points at missing task 2de0de77-f79d-4cbe-9b4f-57763a84bfd0
+TaskFlow warn     stale_blocked          691d6e7d-… blocked    21d15h   blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   691d6e7d-… blocked    21d15h   blocked TaskFlow points at missing task 496f0b9f-a5d6-4450-b8f5-03f642509db4
+TaskFlow warn     stale_blocked          21183860-… blocked    18d5h    blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   21183860-… blocked    18d5h    blocked TaskFlow points at missing task a3f5150a-56f8-42a3-a51a-f7de5b98456a
+TaskFlow warn     stale_blocked          d211a158-… blocked    17d15h   blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   d211a158-… blocked    17d15h   blocked TaskFlow points at missing task 553a0633-6caf-40be-8473-df23d0e3d3f3
+TaskFlow warn     stale_blocked          7dbee71f-… blocked    17d5h    blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   7dbee71f-… blocked    17d5h    blocked TaskFlow points at missing task dcb1edfa-602a-448f-b85d-065c44b29641
+TaskFlow warn     stale_blocked          3ff9ee12-… blocked    17d5h    blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   3ff9ee12-… blocked    17d5h    blocked TaskFlow points at missing task 723d50b4-0aec-4a79-83af-6880ece4a5b1
+TaskFlow warn     stale_blocked          cd51e298-… blocked    11d4h    blocked TaskFlow has not advanced recently
+TaskFlow warn     blocked_task_missing   cd51e298-… blocked    11d4h    blocked TaskFlow points at missing task 4feecaeb-33d6-43e7-be20-d7c20fd57d7c
+TaskFlow warn     stale_blocked          a87f1950-… blocked    4d15h    blocked TaskFlow has not advanced recently
+TaskFlow warn     stale_blocked          68cf49d9-… blocked    4d15h    blocked TaskFlow has not advanced recently
+Task     warn     delivery_failed        20908f37-… cancelled  3d6h     terminal update delivery failed
+TaskFlow warn     stale_blocked          6a794bc0-… blocked    3d6h     blocked TaskFlow has not advanced recently
+Task     warn     delivery_failed        c52aecf9-… succeeded  3d6h     terminal update delivery failed

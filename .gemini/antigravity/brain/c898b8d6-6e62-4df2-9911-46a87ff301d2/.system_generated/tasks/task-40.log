@@ -1,0 +1,182 @@
+/opt/homebrew/bin/openclaw
+│
+◇  Doctor warnings ──────────────────────────────────────────────────────╮
+│                                                                        │
+│  - Left plugin install index in place because shared SQLite state has  │
+│    conflicting plugin install metadata for: brave, codex, discord,     │
+│    line, lobster, openclaw-web-search, slack                           │
+│                                                                        │
+├────────────────────────────────────────────────────────────────────────╯
+│
+◇  Config warnings ────────────────────────────────────────────────────────────╮
+│                                                                              │
+│  - plugins.entries.openclaw-web-search: plugin openclaw-web-search:          │
+│    duplicate plugin id detected; global plugin will be overridden by         │
+│    global plugin                                                             │
+│    (/Users/Jeff/.openclaw/npm/projects/openclaw-web-search/node_modules/ope  │
+│  nclaw-web-search/dist/index.js)                                             │
+│  - plugins.entries.anthropic: plugin disabled (disabled in config) but       │
+│    config is present                                                         │
+│                                                                              │
+├──────────────────────────────────────────────────────────────────────────────╯
+[state-migrations] Legacy state migration warnings:
+- Left plugin install index in place because shared SQLite state has conflicting plugin install metadata for: brave, codex, discord, line, lobster, openclaw-web-search, slack
+│
+◇  Doctor warnings ──────────────────────────────────────────────────────╮
+│                                                                        │
+│  - Left plugin install index in place because shared SQLite state has  │
+│    conflicting plugin install metadata for: brave, codex, discord,     │
+│    line, lobster, openclaw-web-search, slack                           │
+│                                                                        │
+├────────────────────────────────────────────────────────────────────────╯
+Secret diagnostics:
+- gateway.auth.token: secret ref is configured on an inactive surface; skipping command-time assignment.
+
+OpenClaw status
+
+Overview
+┌──────────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Item                 │ Value                                                                                         │
+├──────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────┤
+│ OS                   │ macos 26.5.1 (arm64) · node 26.0.0                                                            │
+│ Dashboard            │ http://127.0.0.1:18789/                                                                       │
+│ Tailscale exposure   │ serve · wuttipong-1.tail6c0b11.ts.net · https://wuttipong-1.tail6c0b11.ts.net                 │
+│ Channel              │ stable (default)                                                                              │
+│ Update               │ npm · deps ok                                                                                 │
+│ Gateway              │ local · ws://127.0.0.1:18789 (local loopback) · reachable 26ms · auth token · wuttipong (192. │
+│                      │ 168.1.122) app 2026.6.5 macos 26.5.1                                                          │
+│ Gateway self         │ wuttipong (192.168.1.122) app 2026.6.5 macos 26.5.1                                           │
+│ Gateway service      │ LaunchAgent installed · loaded · running (pid 54698, state active)                            │
+│ Node service         │ LaunchAgent not installed                                                                     │
+│ Agents               │ 5 · no workspaces bootstrapping · sessions 162 · default smith active 4m ago                  │
+│ Memory               │ enabled (plugin memory-core) · not checked                                                    │
+│ Plugin compatibility │ none                                                                                          │
+│ Probes               │ skipped (use --deep)                                                                          │
+│ Events               │ none                                                                                          │
+│ Tasks                │ 1 active · 0 queued · 1 running · 72 issues · audit 7 warn · 139 tracked                      │
+│ Heartbeat            │ 30m (smith), disabled (beaker), disabled (cookie), disabled (fozzie), disabled (kermit)       │
+│ Sessions             │ 162 active · default minimax-m3:cloud (524k ctx) · 5 stores                                   │
+└──────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Model selection
+Session agent:smith:dashboard:025e5402-b41f-40ed-9d5a-2… is pinned to google/gemini-2.5-flash; config primary openrouter/nvidia/nemotron-3-ultra-550b-a55b:free will apply to new/unpinned sessions.
+  Configured default: openrouter/nvidia/nemotron-3-ultra-550b-a55b:free
+  Session selected: google/gemini-2.5-flash
+  Reason: session override
+  Clear with: /model openrouter/nvidia/nemotron-3-ultra-550b-a55b:free or /reset
+  Docs: https://docs.openclaw.ai/concepts/models#selection-source-and-fallback-behavior
+Session agent:smith:main is pinned to google/gemini-2.5-flash; config primary openrouter/nvidia/nemotron-3-ultra-550b-a55b:free will apply to new/unpinned sessions.
+  Configured default: openrouter/nvidia/nemotron-3-ultra-550b-a55b:free
+  Session selected: google/gemini-2.5-flash
+  Reason: session override
+  Clear with: /model openrouter/nvidia/nemotron-3-ultra-550b-a55b:free or /reset
+  Docs: https://docs.openclaw.ai/concepts/models#selection-source-and-fallback-behavior
+
+Security audit
+Skipped in fast status. Full report: openclaw security audit
+Deep probe: openclaw status --deep
+
+Channels
+┌──────────┬─────────┬────────┬────────────────────────────────────────────────────────────────────────────────────────┐
+│ Channel  │ Enabled │ State  │ Detail                                                                                 │
+├──────────┼─────────┼────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ discord  │ ON      │ SETUP  │ configured; status unavailable in fast mode                                            │
+│ line     │ ON      │ SETUP  │ configured; status unavailable in fast mode                                            │
+│ slack    │ ON      │ SETUP  │ configured; status unavailable in fast mode                                            │
+│ telegram │ ON      │ SETUP  │ configured; status unavailable in fast mode                                            │
+└──────────┴─────────┴────────┴────────────────────────────────────────────────────────────────────────────────────────┘
+
+Sessions
+┌──────┬────────┬─────────┬────────────────────────────────────────┬──────────────────┬────────────────────────────────┐
+│ Key  │ Kind   │ Age     │ Model                                  │ Runtime          │ Tokens                         │
+├──────┼────────┼─────────┼────────────────────────────────────────┼──────────────────┼────────────────────────────────┤
+│ agen │ direct │ 4m ago  │ gemini-2.5-flash                       │ Gemini CLI       │ unknown/200k (?%)              │
+│ t:sm │        │         │                                        │                  │                                │
+│ ith: │        │         │                                        │                  │                                │
+│ dash │        │         │                                        │                  │                                │
+│ boar │        │         │                                        │                  │                                │
+│ d:02 │        │         │                                        │                  │                                │
+│ 5e54 │        │         │                                        │                  │                                │
+│ 02-… │        │         │                                        │                  │                                │
+│ agen │ cron   │ 4m ago  │ nvidia/nemotron-3-ultra-550b-a55b:free │ OpenClaw Default │ unknown/524k (?%)              │
+│ t:sm │        │         │                                        │                  │                                │
+│ ith: │        │         │                                        │                  │                                │
+│ cron │        │         │                                        │                  │                                │
+│ :6b8 │        │         │                                        │                  │                                │
+│ 45fb │        │         │                                        │                  │                                │
+│ 8-   │        │         │                                        │                  │                                │
+│ f321 │        │         │                                        │                  │                                │
+│ -…   │        │         │                                        │                  │                                │
+│ agen │ direct │ 8m ago  │ gemini-2.5-flash                       │ Gemini CLI       │ 62k/524k (12%)                 │
+│ t:sm │        │         │                                        │                  │                                │
+│ ith: │        │         │                                        │                  │                                │
+│ main │        │         │                                        │                  │                                │
+│ agen │ direct │ 9h ago  │ nvidia/nemotron-3-ultra-550b-a55b:free │ OpenClaw Default │ 39k/1000k (4%)                 │
+│ t:sm │        │         │                                        │                  │                                │
+│ ith: │        │         │                                        │                  │                                │
+│ line │        │         │                                        │                  │                                │
+│ :def │        │         │                                        │                  │                                │
+│ ault │        │         │                                        │                  │                                │
+│ :dir │        │         │                                        │                  │                                │
+│ ect… │        │         │                                        │                  │                                │
+│ agen │ direct │ 11h ago │ deepseek-v4-flash                      │ OpenClaw Default │ 59k/1000k (6%) · 🗄️ 18% cached │
+│ t:sm │        │         │                                        │                  │                                │
+│ ith: │        │         │                                        │                  │                                │
+│ tele │        │         │                                        │                  │                                │
+│ gram │        │         │                                        │                  │                                │
+│ :def │        │         │                                        │                  │                                │
+│ ault │        │         │                                        │                  │                                │
+│ :di… │        │         │                                        │                  │                                │
+│ agen │ cron   │ 11h ago │ deepseek-v4-flash                      │ OpenClaw Default │ unknown/524k (?%)              │
+│ t:sm │        │         │                                        │                  │                                │
+│ ith: │        │         │                                        │                  │                                │
+│ cron │        │         │                                        │                  │                                │
+│ :859 │        │         │                                        │                  │                                │
+│ d4bf │        │         │                                        │                  │                                │
+│ 5-   │        │         │                                        │                  │                                │
+│ 3ad7 │        │         │                                        │                  │                                │
+│ -…   │        │         │                                        │                  │                                │
+│ agen │ cron   │ 13h ago │ qwen3.7-max                            │ OpenClaw Default │ 34k/1000k (3%) · 🗄️ 37% cached │
+│ t:fo │        │         │                                        │                  │                                │
+│ zzie │        │         │                                        │                  │                                │
+│ :cro │        │         │                                        │                  │                                │
+│ n:2d │        │         │                                        │                  │                                │
+│ e90a │        │         │                                        │                  │                                │
+│ d8-  │        │         │                                        │                  │                                │
+│ b8fb │        │         │                                        │                  │                                │
+│ …    │        │         │                                        │                  │                                │
+│ agen │ cron   │ 14h ago │ deepseek/deepseek-v4-flash             │ OpenClaw Default │ 29k/200k (15%) · 🗄️ 32% cached │
+│ t:sm │        │         │                                        │                  │                                │
+│ ith: │        │         │                                        │                  │                                │
+│ cron │        │         │                                        │                  │                                │
+│ :079 │        │         │                                        │                  │                                │
+│ 347b │        │         │                                        │                  │                                │
+│ b-   │        │         │                                        │                  │                                │
+│ 7360 │        │         │                                        │                  │                                │
+│ -…   │        │         │                                        │                  │                                │
+│ agen │ cron   │ 14h ago │ qwen3.7-max                            │ OpenClaw Default │ 21k/1000k (2%) · 🗄️ 49% cached │
+│ t:be │        │         │                                        │                  │                                │
+│ aker │        │         │                                        │                  │                                │
+│ :cro │        │         │                                        │                  │                                │
+│ n:98 │        │         │                                        │                  │                                │
+│ 0648 │        │         │                                        │                  │                                │
+│ 14-  │        │         │                                        │                  │                                │
+│ 2cc9 │        │         │                                        │                  │                                │
+│ …    │        │         │                                        │                  │                                │
+│ agen │ cron   │ 20h ago │ openai/gpt-oss-120b:free               │ OpenClaw Default │ 11k/200k (5%) · 🗄️ 88% cached  │
+│ t:sm │        │         │                                        │                  │                                │
+│ ith: │        │         │                                        │                  │                                │
+│ cron │        │         │                                        │                  │                                │
+│ :738 │        │         │                                        │                  │                                │
+│ fd15 │        │         │                                        │                  │                                │
+│ 9-   │        │         │                                        │                  │                                │
+│ 1308 │        │         │                                        │                  │                                │
+│ -…   │        │         │                                        │                  │                                │
+└──────┴────────┴─────────┴────────────────────────────────────────┴──────────────────┴────────────────────────────────┘
+
+FAQ: https://docs.openclaw.ai/faq
+Troubleshooting: https://docs.openclaw.ai/troubleshooting
+Next steps:
+  Need to share?      openclaw status --all
+  Need to debug live? openclaw logs --follow
+  Need to test channels? openclaw status --deep

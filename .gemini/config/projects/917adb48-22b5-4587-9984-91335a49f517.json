@@ -1,0 +1,17 @@
+{
+  "id": "917adb48-22b5-4587-9984-91335a49f517",
+  "name": ".ollama",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///Users/Jeff/.ollama"
+      }
+    ]
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ASK",
+    "internetPolicy": "AGENT_SETTING_POLICY_ASK",
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_OFF",
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_ALWAYS"
+  }
+}

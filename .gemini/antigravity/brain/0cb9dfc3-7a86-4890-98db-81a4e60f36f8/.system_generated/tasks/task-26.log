@@ -1,0 +1,30 @@
+Agents:
+- smith (default) (Smith)
+  Identity: yes, tastefully ✌️ Smith (IDENTITY.md)
+  Workspace: ~/Smith
+  Agent dir: ~/Smith/agent
+  Model: opencode-go/minimax-m3
+  Routing rules: 3
+  Routing: default (no explicit rules)
+- kermit (Kermit)
+  Workspace: ~/Agents/kermit
+  Agent dir: ~/Agents/kermit/agent
+  Model: openai/gpt-5.5
+  Routing rules: 1
+- cookie (Cookie)
+  Workspace: ~/Agents/Cookie
+  Agent dir: ~/Agents/Cookie/agent
+  Model: google/gemini-3.1-pro-preview
+  Routing rules: 1
+- beaker (Beaker)
+  Workspace: ~/Agents/Beaker
+  Agent dir: ~/Agents/Beaker/agent
+  Model: opencode-qwen/qwen3.7-max
+  Routing rules: 1
+- fozzie (Fozzie)
+  Workspace: ~/Agents/Fozzie
+  Agent dir: ~/Agents/Fozzie/agent
+  Model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+  Routing rules: 1
+Routing rules map channel/account/peer to an agent. Use --bindings for full rules.
+Channel status reflects local config/creds. For live health: openclaw channels status --probe.

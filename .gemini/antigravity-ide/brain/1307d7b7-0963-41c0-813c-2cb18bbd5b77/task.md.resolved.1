@@ -1,0 +1,3 @@
+- [x] Diagnose the cause of 'classList' error <!-- id: 0 -->
+- [x] Fix selector in dropdown.js <!-- id: 1 -->
+- [x] Verify potential null safety for other elements <!-- id: 2 -->

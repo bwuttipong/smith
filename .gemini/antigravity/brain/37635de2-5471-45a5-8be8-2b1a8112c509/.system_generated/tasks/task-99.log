@@ -1,0 +1,42 @@
+Updating OpenClaw...
+
+
+Update Result: OK
+  Root: /opt/homebrew/lib/node_modules/openclaw
+  Before: 2026.6.8
+  After: 2026.6.9
+
+Steps:
+  ✓ global update (7.49s)
+  ✓ global install swap (1.53s)
+  ! openclaw doctor (21.16s)
+      Skipped package-manager repair for configured plugin "groq" during package update; rerun "openclaw doctor --fix" after the update completes.
+      Post-install doctor reported a recoverable update-time repair warning after the package install was verified; continuing with post-core plugin convergence.
+
+Total time: 30.57s
+
+Updating plugins...
+Installing @openclaw/brave-plugin into /Users/Jeff/.openclaw/npm/projects/openclaw-brave-plugin-11fe9e3aa3…
+Linked peerDependency "openclaw" -> /opt/homebrew/lib/node_modules/openclaw
+Plugin manifest id "brave" differs from npm package name "@openclaw/brave-plugin"; using manifest id as the config key.
+Installing @openclaw/codex into /Users/Jeff/.openclaw/npm/projects/openclaw-codex-8902d781d4…
+Linked peerDependency "openclaw" -> /opt/homebrew/lib/node_modules/openclaw
+Installing @openclaw/discord into /Users/Jeff/.openclaw/npm/projects/openclaw-discord-c0892df945…
+Linked peerDependency "openclaw" -> /opt/homebrew/lib/node_modules/openclaw
+Installing @openclaw/line into /Users/Jeff/.openclaw/npm/projects/openclaw-line-25e2dd4581…
+Linked peerDependency "openclaw" -> /opt/homebrew/lib/node_modules/openclaw
+Installing @openclaw/lobster into /Users/Jeff/.openclaw/npm/projects/openclaw-lobster-15c8c69744…
+Linked peerDependency "openclaw" -> /opt/homebrew/lib/node_modules/openclaw
+Installing @openclaw/slack into /Users/Jeff/.openclaw/npm/projects/openclaw-slack-b25c10c1bd…
+Linked peerDependency "openclaw" -> /opt/homebrew/lib/node_modules/openclaw
+Installed missing configured plugin "deepseek" from @openclaw/deepseek-provider.
+Installed missing configured plugin "groq" from @openclaw/groq-provider.
+Installed missing configured plugin "perplexity" from @openclaw/perplexity-plugin.
+Installed missing configured plugin "qwen" from @openclaw/qwen-provider.
+npm plugins: 6 updated, 0 unchanged, 1 skipped.
+
+Restarting service...
+Gateway: restarted and verified.
+Daemon restart completed.
+
+I've seen things you wouldn't believe. Anyway, I'm updated.

@@ -1,0 +1,17 @@
+{
+  "id": "0678751e-f924-4839-81ac-f859a90deffc",
+  "name": ".openclaw",
+  "projectResources": {
+    "resources": [
+      {
+        "folderUri": "file:///Users/Jeff/.openclaw"
+      }
+    ]
+  },
+  "settings": {
+    "fileAccessPolicy": "AGENT_SETTING_POLICY_ASK",
+    "internetPolicy": "AGENT_SETTING_POLICY_ASK",
+    "autoExecutionPolicy": "CASCADE_COMMANDS_AUTO_EXECUTION_OFF",
+    "artifactReviewMode": "ARTIFACT_REVIEW_MODE_ALWAYS"
+  }
+}

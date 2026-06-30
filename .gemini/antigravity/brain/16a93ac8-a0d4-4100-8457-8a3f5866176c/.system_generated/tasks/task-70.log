@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-06-28T21:01:05+07:00
+Prompt: Check brew info task
+Early Termination: task-68
+
+[2026-06-28T21:01:05+07:00] Timer fired.

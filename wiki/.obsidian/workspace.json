@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "796531199b92e480",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1ffe7e72ab1281f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23c5862be61db566",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis-view",
+              "state": {
+                "lastActive": 1781946313300
+              },
+              "icon": "waypoints",
+              "title": "Graph analysis"
+            }
+          },
+          {
+            "id": "a45559811ded7c7a",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9840a8df02e21c57",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fd1a88d8187a0c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c99385ca75c3454",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ce28fc07e2a6433d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "72ed317432fa3024",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f45fe120865cdaae",
+    "type": "split",
+    "children": [
+      {
+        "id": "3aeac8e6a569aabe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6280937b3782d2d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "28f435240208475c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e1a85a020808e43c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "85f3850d3ee54323",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "a9f2710cec565a6f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "knowledge-graph-analysis:Graph analysis view": false
+    }
+  },
+  "active": "6280937b3782d2d4",
+  "lastOpenFiles": [
+    "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-13-weekly-report-june-8-13-961a51c7.md",
+    "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-13-weekly-report-june-8-13-th-e47b0536.md",
+    "sources/bridge-smith-ec7a1e9e-memory-2026-06-15-979bf395.md",
+    "sources/bridge-smith-ec7a1e9e-memory-2026-06-13-d61bada5.md",
+    "sources/bridge-smith-ec7a1e9e-memory-2026-06-12-00eb4f85.md",
+    "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-14-openclaw-2026-6-6-review-d6697404.md",
+    "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-14-ad-hoc-morning-brief-256a58a0.md",
+    "sources/bridge-smith-ec7a1e9e-memory-2026-06-14-0eed1f57.md",
+    "sources/bridge-smith-ec7a1e9e-memory-2026-06-14-1223-42dc16d2.md",
+    "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-12-mrp-manufacturing-flow-714228cb.md",
+    "sources/bridge-smith-ec7a1e9e-memory-2026-06-12-2133-f0f783fa.md",
+    "WIKI.md",
+    "Untitled.base",
+    "index.md",
+    "inbox.md",
+    "AGENTS.md",
+    "syntheses/index.md",
+    "2026-06-11.md",
+    "2026-06-03.md",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "sources/index.md",
+    "sources/bridge-smith-ec7a1e9e-memory-artifacts-maintenance-summary-4d0d6933.md",
+    "reports/lint.md",
+    "sources/bridge-smith-ec7a1e9e-memory-2026-06-03-485eb77f.md",
+    "entities/index.md"
+  ]
+}

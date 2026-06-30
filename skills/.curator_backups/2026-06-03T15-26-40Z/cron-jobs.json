@@ -1,0 +1,101 @@
+{
+  "jobs": [
+    {
+      "id": "f5750c197996",
+      "name": "morning-market-brief",
+      "prompt": "It is now the scheduled run for the morning pre-market briefing. Follow these steps exactly:\n\n1. Read the current date in ET from the terminal/system context.\n2. Run the script at /Users/Jeff/Smith/market-briefing/scripts/pre_market_briefing.py using the project venv or the working virtualenv so it executes reliably on macOS 12+. If the built-in failover indicates the script should be re-executed with a project-local Python, run it with the project venv or the fallback Python path indicated.\n3. Capture the output of that script. Treat that as the briefing text.\n4. Format the briefing as lowercase markdown messages suitable for Telegram. Include emojis. Keep sections global markets, watchlist updates, risk alerts, and a note that key events / calendar are placeholders until a source is wired in.\n5. Send the formatted briefing back to this conversation and mark this memo complete. Do not invent prices or market text beyond what the script generated.",
+      "skills": [],
+      "skill": null,
+      "model": "stepfun/step-3.7-flash:free",
+      "provider": "nous",
+      "base_url": null,
+      "script": "pre_market_briefing.py",
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 20 * * 1-5",
+        "display": "0 20 * * 1-5"
+      },
+      "schedule_display": "0 20 * * 1-5",
+      "repeat": {
+        "times": null,
+        "completed": 2
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-02T23:18:04.995850+07:00",
+      "next_run_at": "2026-06-04T20:00:00+07:00",
+      "last_run_at": "2026-06-03T20:01:30.668120+07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1506666587418263633",
+        "chat_name": "best.wuttipong",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "web",
+        "discord"
+      ],
+      "workdir": null,
+      "profile": null
+    },
+    {
+      "id": "d521fb8f90b9",
+      "name": "evening-market-close",
+      "prompt": "It is now the scheduled end-of-day run. Follow these steps exactly:\n\n1. Determine the current market date from local/US Eastern time context.\n2. Run /Users/Jeff/Smith/market-briefing/scripts/eod_summary.py and capture its output.\n3. If the script reports placeholder sections or missing data, rewrite those lines explicitly as placeholders so the user knows those fields are still awaiting data integration.\n4. Produce a lowercase emoji-rich summary message for Telegram: index performance, watchlist top moves, signal activity, and tomorrow calendar placeholders.\n5. Send that formatted end-of-day summary back to this conversation and close the task.",
+      "skills": [],
+      "skill": null,
+      "model": "stepfun/step-3.7-flash:free",
+      "provider": "nous",
+      "base_url": null,
+      "script": "eod_summary.py",
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * 2-6",
+        "display": "0 3 * * 2-6"
+      },
+      "schedule_display": "0 3 * * 2-6",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-02T23:18:06.056075+07:00",
+      "next_run_at": "2026-06-04T03:00:00+07:00",
+      "last_run_at": "2026-06-03T03:01:07.969463+07:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "discord",
+        "chat_id": "1506666587418263633",
+        "chat_name": "best.wuttipong",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "web",
+        "discord"
+      ],
+      "workdir": null,
+      "profile": null
+    }
+  ],
+  "updated_at": "2026-06-03T20:01:30.669639+07:00"
+}

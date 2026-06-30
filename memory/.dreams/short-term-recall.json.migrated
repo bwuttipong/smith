@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-30T03:25:41.989Z",
+  "entries": {
+    "memory:memory/2026-04-28.md:1:19": {
+      "key": "memory:memory/2026-04-28.md:1:19",
+      "path": "memory/2026-04-28.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "# Memory — 2026-04-28 ## Session Context - Pre-compaction memory flush at 2026-04-28 21:51 ICT (Bangkok) - Session runtime: agent=jarvis | model=minimax-portal/MiniMax-M2.7 | channel=telegram ## Workspace State - Workspace: /Users/Jeff/.openclaw/workspaces/jarvis - User: Wuttipong Thongmon (Jeff) — Bangkok/Chon Buri area - Active project: proj-ebox (box tracking system) on Slack `#proj-ebox` ## Pending / In-Progress - (No known pending items at time of flush) ## Notes - Daily vocab and English learning continue per usual schedule - proj-ebox channel active on Slack for box tracking system development - TPN Flexpak work via company laptop (wuttipong.t)",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.898337759981093,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-29T05:55:09.087Z",
+      "lastRecalledAt": "2026-04-30T03:25:41.989Z",
+      "queryHashes": [
+        "3d4ca9e6bd0d",
+        "643e595a43a1",
+        "554b01c7dd09",
+        "6842282900db"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "pre-compaction",
+        "minimax-portal/minimax-m2.7",
+        "users/jeff",
+        "openclaw/workspaces/jarvis",
+        "bangkok/chon",
+        "proj-ebox",
+        "in-progress",
+        "wuttipong.t"
+      ]
+    },
+    "memory:memory/2026-04-29.md:30:50": {
+      "key": "memory:memory/2026-04-29.md:30:50",
+      "path": "memory/2026-04-29.md",
+      "startLine": 30,
+      "endLine": 50,
+      "source": "memory",
+      "snippet": "- Heartbeat ran cleanly; no urgent items flagged - Workspace files intact, no bootstrap resets needed - No new pending items or action items generated ## Workspace State - Workspace: /Users/Jeff/.openclaw/workspaces/jarvis - User: Wuttipong Thongmon (Jeff) — Bangkok/Chon Buri area - Active project: proj-ebox (box tracking system) on Slack `#proj-ebox` - Connected channels: LINE ✅, Telegram ✅, Slack ✅ - Smith persona active (supportive, dry wit, emotionally aware) ## Ongoing Context - Jeff's goals: DevOps, CI/CD, Docker — automating deployment and scaling workflows - Primary stack: VB.NET, SQL Server 2019, real-time data logging (SPI/API machines) - English learning continues via vault (One",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6318534188679718,
+      "maxScore": 0.6318534188679718,
+      "firstRecalledAt": "2026-04-29T05:55:09.087Z",
+      "lastRecalledAt": "2026-04-29T05:55:09.087Z",
+      "queryHashes": [
+        "3d4ca9e6bd0d"
+      ],
+      "recallDays": [
+        "2026-04-29"
+      ],
+      "conceptTags": [
+        "users/jeff",
+        "openclaw/workspaces/jarvis",
+        "bangkok/chon",
+        "proj-ebox",
+        "ci/cd",
+        "vb.net",
+        "real-time",
+        "spi/api"
+      ]
+    },
+    "memory:memory/2026-04-29.md:1:37": {
+      "key": "memory:memory/2026-04-29.md:1:37",
+      "path": "memory/2026-04-29.md",
+      "startLine": 1,
+      "endLine": 37,
+      "source": "memory",
+      "snippet": "# Memory — 2026-04-29 ## Session Context - Pre-compaction memory flush at 2026-04-29 07:42 ICT (Bangkok) - Session runtime: agent=jarvis | model=minimax-portal/MiniMax-M2.7 | channel=telegram ## Workspace State - Workspace: /Users/Jeff/.openclaw/workspaces/jarvis - User: Wuttipong Thongmon (Jeff) — Bangkok/Chon Buri area - Active project: proj-ebox (box tracking system) on Slack `#proj-ebox` - Connected channels: LINE ✅, Telegram ✅, Slack ✅ ## Pending / In-Progress - (No known pending items at time of flush) ## Notes - Daily English learning continues per usual schedule (Tightly Remember, Contrast Words, Daily Vocab) - Vault stored on OneDrive → Wuttipong Vault → Easy English - proj-ebox",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3.87188931225234,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-29T05:55:09.087Z",
+      "lastRecalledAt": "2026-04-30T03:25:41.989Z",
+      "queryHashes": [
+        "3d4ca9e6bd0d",
+        "643e595a43a1",
+        "5b2e44ece80d",
+        "554b01c7dd09",
+        "6842282900db"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "pre-compaction",
+        "minimax-portal/minimax-m2.7",
+        "users/jeff",
+        "openclaw/workspaces/jarvis",
+        "bangkok/chon",
+        "proj-ebox",
+        "in-progress",
+        "context"
+      ]
+    },
+    "memory:memory/2026-04-29.md:30:68": {
+      "key": "memory:memory/2026-04-29.md:30:68",
+      "path": "memory/2026-04-29.md",
+      "startLine": 30,
+      "endLine": 68,
+      "source": "memory",
+      "snippet": "- Heartbeat ran cleanly; no urgent items flagged - Workspace files intact, no bootstrap resets needed - No new pending items or action items generated ## Workspace State - Workspace: /Users/Jeff/.openclaw/workspaces/jarvis - User: Wuttipong Thongmon (Jeff) — Bangkok/Chon Buri area - Active project: proj-ebox (box tracking system) on Slack `#proj-ebox` - Connected channels: LINE ✅, Telegram ✅, Slack ✅ - Smith persona active (supportive, dry wit, emotionally aware) ## Ongoing Context - Jeff's goals: DevOps, CI/CD, Docker — automating deployment and scaling workflows - Primary stack: VB.NET, SQL Server 2019, real-time data logging (SPI/API machines) - English learning continues via vault (One",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2.875341898233564,
+      "maxScore": 0.9804599862746528,
+      "firstRecalledAt": "2026-04-29T14:28:31.560Z",
+      "lastRecalledAt": "2026-04-30T03:25:41.989Z",
+      "queryHashes": [
+        "643e595a43a1",
+        "5b2e44ece80d",
+        "554b01c7dd09",
+        "6842282900db"
+      ],
+      "recallDays": [
+        "2026-04-29",
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "users/jeff",
+        "openclaw/workspaces/jarvis",
+        "bangkok/chon",
+        "proj-ebox",
+        "ci/cd",
+        "vb.net",
+        "real-time",
+        "spi/api"
+      ]
+    },
+    "memory:memory/2026-04-29.md:58:107": {
+      "key": "memory:memory/2026-04-29.md:58:107",
+      "path": "memory/2026-04-29.md",
+      "startLine": 58,
+      "endLine": 107,
+      "source": "memory",
+      "snippet": "- Session closed via Claude Code (SMITH persona) - Review above entries for any context written during this session --- ## Claude Code Session — 16:33 ICT - Session closed via Claude Code (SMITH persona) - Review above entries for any context written during this session --- ## Claude Code Session — 16:39 ICT - Session closed via Claude Code (SMITH persona) - Review above entries for any context written during this session --- ## Claude Code Session — 16:41 ICT - Session closed via Claude Code (SMITH persona) - Review above entries for any context written during this session --- ## Claude Code Session — 16:41 ICT - Session closed via Claude Code (SMITH persona) - Review above entries for",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 0.6374094557623294,
+      "maxScore": 0.6374094557623294,
+      "firstRecalledAt": "2026-04-29T23:52:32.814Z",
+      "lastRecalledAt": "2026-04-29T23:52:32.814Z",
+      "queryHashes": [
+        "5b2e44ece80d"
+      ],
+      "recallDays": [
+        "2026-04-30"
+      ],
+      "conceptTags": [
+        "closed",
+        "via",
+        "claude",
+        "code",
+        "smith",
+        "persona",
+        "review",
+        "above"
+      ]
+    }
+  }
+}

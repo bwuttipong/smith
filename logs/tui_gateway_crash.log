@@ -1,0 +1,65 @@
+[tui-parent] 2026-06-24T13:34:54.391Z [lifecycle] spawned gateway child pid=84565 killed=false exitCode=null signal=null python=/Users/Jeff/.hermes/hermes-agent/venv/bin/python cwd=/Users/Jeff/.hermes/hermes-agent
+[tui-parent] 2026-06-24T13:37:39.450Z graceful-exit received signal=SIGHUP → killing gateway
+[tui-parent] 2026-06-24T13:37:39.453Z [lifecycle] GatewayClient.kill reason=graceful-exit-cleanup pid=none killResult=none
+[tui-parent] 2026-06-24T14:00:24.537Z graceful-exit received signal=SIGTERM → killing gateway
+[tui-parent] 2026-06-24T14:00:24.538Z [lifecycle] GatewayClient.kill reason=graceful-exit-cleanup pid=84565 killed=true exitCode=null signal=null killResult=true
+
+=== SIGTERM received · 2026-06-24 21:00:24 ===
+main-thread stack at signal delivery:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/entry.py", line 347, in <module>
+    main()
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/entry.py", line 323, in main
+    for raw in sys.stdin:
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/entry.py", line 113, in _log_signal
+    f.write("".join(traceback.format_stack(sys._current_frames().get(tid))))
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/traceback.py", line 214, in format_stack
+    return format_list(extract_stack(f, limit=limit))
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/traceback.py", line 228, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/traceback.py", line 390, in extract
+    return klass._extract_from_extended_frame_gen(
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/traceback.py", line 402, in _extract_from_extended_frame_gen
+    limit = getattr(sys, 'tracebacklimit', None)
+
+--- thread MainThread (id=8300142208) ---
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/entry.py", line 347, in <module>
+    main()
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/entry.py", line 323, in main
+    for raw in sys.stdin:
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/entry.py", line 113, in _log_signal
+    f.write("".join(traceback.format_stack(sys._current_frames().get(tid))))
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/traceback.py", line 214, in format_stack
+    return format_list(extract_stack(f, limit=limit))
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/traceback.py", line 228, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/traceback.py", line 390, in extract
+    return klass._extract_from_extended_frame_gen(
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/traceback.py", line 402, in _extract_from_extended_frame_gen
+    limit = getattr(sys, 'tracebacklimit', None)
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/entry.py", line 113, in _log_signal
+    f.write("".join(traceback.format_stack(sys._current_frames().get(tid))))
+
+--- thread Thread-2 (_loop) (id=6141849600) ---
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/threading.py", line 1002, in _bootstrap
+    self._bootstrap_inner()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/server.py", line 745, in _loop
+    time.sleep(_REAPER_SCAN_S)
+
+=== SIGTERM received · 2026-06-24 21:00:24 ===
+main-thread stack at signal delivery:
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/entry.py", line 347, in <module>
+    main()
+  File "/Users/Jeff/.hermes/hermes-agent/tui_gateway/entry.py", line 323, in main
+    for raw in sys.stdin:
+
+--- thread MainThread (id=8300142208) ---

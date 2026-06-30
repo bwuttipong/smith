@@ -1,0 +1,771 @@
+Skills (73/92 ready)
+┌──────────┬──────────────────────────────────────────────────────────┬───────────────────────┬────────────────────────┐
+│ Status   │ Skill                                                    │ Description           │ Source                 │
+├──────────┼──────────────────────────────────────────────────────────┼───────────────────────┼────────────────────────┤
+│ ✓ ready  │ 🔐 1password                                             │ Set up and use        │ openclaw-workspace     │
+│          │                                                          │ 1Password CLI (op).   │                        │
+│          │                                                          │ Use when installing   │                        │
+│          │                                                          │ the CLI, enabling     │                        │
+│          │                                                          │ desktop app           │                        │
+│          │                                                          │ integration, signing  │                        │
+│          │                                                          │ in (single or multi-  │                        │
+│          │                                                          │ account), or reading/ │                        │
+│          │                                                          │ injecting/running     │                        │
+│          │                                                          │ secrets via op.       │                        │
+│ ✓ ready  │ agentmail                                                │ Send and receive      │ agents-skills-personal │
+│          │                                                          │ emails using          │                        │
+│          │                                                          │ AgentMail             │                        │
+│ ✓ ready  │ 📝 apple-notes                                           │ Manage Apple Notes    │ openclaw-workspace     │
+│          │                                                          │ via the `memo` CLI    │                        │
+│          │                                                          │ on macOS (create,     │                        │
+│          │                                                          │ view, edit, delete,   │                        │
+│          │                                                          │ search, move, and     │                        │
+│          │                                                          │ export notes). Use    │                        │
+│          │                                                          │ when a user asks      │                        │
+│          │                                                          │ Clawdbot to add a     │                        │
+│          │                                                          │ note, list notes,     │                        │
+│          │                                                          │ search notes, or      │                        │
+│          │                                                          │ manage note folders.  │                        │
+│ ✓ ready  │ ⏰ apple-reminders                                       │ List, add, edit,      │ openclaw-bundled       │
+│          │                                                          │ complete, or delete   │                        │
+│          │                                                          │ Apple Reminders and   │                        │
+│          │                                                          │ reminder lists via    │                        │
+│          │                                                          │ remindctl.            │                        │
+│ ✓ ready  │ 🐻 bear-notes                                            │ Create, search, and   │ openclaw-bundled       │
+│          │                                                          │ manage Bear notes     │                        │
+│          │                                                          │ via grizzly CLI.      │                        │
+│ disabled │ 📰 blogwatcher                                           │ Monitor blogs and     │ openclaw-bundled       │
+│          │                                                          │ RSS/Atom feeds for    │                        │
+│          │                                                          │ updates using the     │                        │
+│          │                                                          │ blogwatcher CLI.      │                        │
+│ disabled │ 🫐 blucli                                                │ BluOS CLI (blu) for   │ openclaw-bundled       │
+│          │                                                          │ discovery, playback,  │                        │
+│          │                                                          │ grouping, and volume. │                        │
+│ ✓ ready  │ brave-search                                             │ Web search and        │ openclaw-workspace     │
+│          │                                                          │ content extraction    │                        │
+│          │                                                          │ via Brave Search API. │                        │
+│          │                                                          │ Use for searching     │                        │
+│          │                                                          │ documentation,        │                        │
+│          │                                                          │ facts, or any web     │                        │
+│          │                                                          │ content.              │                        │
+│          │                                                          │ Lightweight, no       │                        │
+│          │                                                          │ browser required.     │                        │
+│ disabled │ 📸 camsnap                                               │ Capture frames or     │ openclaw-bundled       │
+│          │                                                          │ clips from RTSP/      │                        │
+│          │                                                          │ ONVIF cameras.        │                        │
+│ ✓ ready  │ 🖼️ canvas                                                │ Present HTML on       │ openclaw-bundled       │
+│          │                                                          │ connected OpenClaw    │                        │
+│          │                                                          │ node canvases,        │                        │
+│          │                                                          │ navigate/eval/        │                        │
+│          │                                                          │ snapshot, and debug   │                        │
+│          │                                                          │ canvas host URLs.     │                        │
+│ disabled │ capability-evolver                                       │ A self-evolution      │ agents-skills-personal │
+│          │                                                          │ engine for AI agents. │                        │
+│          │                                                          │ Analyzes runtime      │                        │
+│          │                                                          │ history to identify   │                        │
+│          │                                                          │ improvements and      │                        │
+│          │                                                          │ applies protocol-     │                        │
+│          │                                                          │ constrained           │                        │
+│          │                                                          │ evolution.            │                        │
+│          │                                                          │ Communicates with     │                        │
+│          │                                                          │ EvoMap Hub via local  │                        │
+│          │                                                          │ Proxy mailbox.        │                        │
+│ ✓ ready  │ claw-mechanic                                            │ Diagnose, audit, and  │ openclaw-workspace     │
+│          │                                                          │ repair OpenClaw       │                        │
+│          │                                                          │ hosts when an agent,  │                        │
+│          │                                                          │ gateway, plugin,      │                        │
+│          │                                                          │ cron, model route,    │                        │
+│          │                                                          │ memory engine,        │                        │
+│          │                                                          │ channel, approval     │                        │
+│          │                                                          │ policy, or update     │                        │
+│          │                                                          │ looks broken,         │                        │
+│          │                                                          │ expensive, slow,      │                        │
+│          │                                                          │ looping, stale, or    │                        │
+│          │                                                          │ misconfigured. Use    │                        │
+│          │                                                          │ for focused OpenClaw  │                        │
+│          │                                                          │ health checks, post-  │                        │
+│          │                                                          │ update triage,        │                        │
+│          │                                                          │ plugin update         │                        │
+│          │                                                          │ verification, model   │                        │
+│          │                                                          │ provider/API wiring   │                        │
+│          │                                                          │ audits, cron timeout/ │                        │
+│          │                                                          │ root-cause work,      │                        │
+│          │                                                          │ exec approval/        │                        │
+│          │                                                          │ reviewer problems,    │                        │
+│          │                                                          │ and rectification     │                        │
+│          │                                                          │ plans that need live  │                        │
+│          │                                                          │ proof against         │                        │
+│          │                                                          │ openclaw.ai docs      │                        │
+│          │                                                          │ instead of guesses.   │                        │
+│ ✓ ready  │ clawhub                                                  │ Search, install,      │ openclaw-bundled       │
+│          │                                                          │ update, sync, or      │                        │
+│          │                                                          │ publish agent skills  │                        │
+│          │                                                          │ with the ClawHub CLI  │                        │
+│          │                                                          │ and registry.         │                        │
+│ ✓ ready  │ 🧩 coding-agent                                          │ Delegate coding work  │ openclaw-bundled       │
+│          │                                                          │ to Codex, Claude      │                        │
+│          │                                                          │ Code, or OpenCode as  │                        │
+│          │                                                          │ background workers;   │                        │
+│          │                                                          │ not simple edits or   │                        │
+│          │                                                          │ read-only code        │                        │
+│          │                                                          │ lookup.               │                        │
+│ ✓ ready  │ 🚗 commute-traffic                                       │ Check real-time       │ openclaw-workspace     │
+│          │                                                          │ traffic conditions    │                        │
+│          │                                                          │ for a route between   │                        │
+│          │                                                          │ two locations using   │                        │
+│          │                                                          │ TomTom. Use when the  │                        │
+│          │                                                          │ user asks about       │                        │
+│          │                                                          │ traffic, commute      │                        │
+│          │                                                          │ time, best time to    │                        │
+│          │                                                          │ leave, driving        │                        │
+│          │                                                          │ conditions, or road   │                        │
+│          │                                                          │ congestion. The user  │                        │
+│          │                                                          │ provides origin and   │                        │
+│          │                                                          │ destination           │                        │
+│          │                                                          │ conversationally —    │                        │
+│          │                                                          │ extract them from     │                        │
+│          │                                                          │ context.              │                        │
+│ ✓ ready  │ 💥 crash-check                                           │ Check for car         │ openclaw-workspace     │
+│          │                                                          │ accidents on a        │                        │
+│          │                                                          │ commute route using   │                        │
+│          │                                                          │ TomTom traffic        │                        │
+│          │                                                          │ incident data. Use    │                        │
+│          │                                                          │ when the user asks    │                        │
+│          │                                                          │ about crashes,        │                        │
+│          │                                                          │ accidents, or         │                        │
+│          │                                                          │ incidents along       │                        │
+│          │                                                          │ their drive.          │                        │
+│ ✓ ready  │ 🧭 diagram-maker                                         │ Create SVG/HTML or    │ openclaw-bundled       │
+│          │                                                          │ Excalidraw diagrams   │                        │
+│          │                                                          │ for concepts,         │                        │
+│          │                                                          │ architecture, flows,  │                        │
+│          │                                                          │ and whiteboards.      │                        │
+│ ✓ ready  │ discord                                                  │ Use when you need to  │ openclaw-workspace     │
+│          │                                                          │ control Discord from  │                        │
+│          │                                                          │ Clawdbot via the      │                        │
+│          │                                                          │ discord tool: send    │                        │
+│          │                                                          │ messages, react,      │                        │
+│          │                                                          │ post or upload        │                        │
+│          │                                                          │ stickers, upload      │                        │
+│          │                                                          │ emojis, run polls,    │                        │
+│          │                                                          │ manage threads/pins/  │                        │
+│          │                                                          │ search, fetch         │                        │
+│          │                                                          │ permissions or        │                        │
+│          │                                                          │ member/role/channel   │                        │
+│          │                                                          │ info, or handle       │                        │
+│          │                                                          │ moderation actions    │                        │
+│          │                                                          │ in Discord DMs or     │                        │
+│          │                                                          │ channels.             │                        │
+│ ✓ ready  │ 🛌 eightctl                                              │ Control Eight Sleep   │ openclaw-bundled       │
+│          │                                                          │ pods (status,         │                        │
+│          │                                                          │ temperature, alarms,  │                        │
+│          │                                                          │ schedules).           │                        │
+│ ✓ ready  │ 🇹🇭 english-thai-dict                                     │ English → Thai        │ openclaw-workspace     │
+│          │                                                          │ single-word           │                        │
+│          │                                                          │ dictionary. Trigger   │                        │
+│          │                                                          │ on "what does X mean  │                        │
+│          │                                                          │ in Thai?",            │                        │
+│          │                                                          │ "แปลว่าอะไร", or       │                        │
+│          │                                                          │ English vocabulary    │                        │
+│          │                                                          │ with Thai             │                        │
+│          │                                                          │ definitions.          │                        │
+│ ✓ ready  │ 🌙 evening-shutdown                                      │ Jeff's end-of-day     │ agents-skills-personal │
+│          │                                                          │ shutdown routine —    │                        │
+│          │                                                          │ reviews tomorrow's    │                        │
+│          │                                                          │ calendar, clears      │                        │
+│          │                                                          │ today's tasks, logs   │                        │
+│          │                                                          │ a brief reflection,   │                        │
+│          │                                                          │ and prepares the      │                        │
+│          │                                                          │ workspace for         │                        │
+│          │                                                          │ tomorrow. Run during  │                        │
+│          │                                                          │ evening heartbeats    │                        │
+│          │                                                          │ (6-8 PM Bangkok       │                        │
+│          │                                                          │ time) or when Jeff    │                        │
+│          │                                                          │ asks for an "evening  │                        │
+│          │                                                          │ check-in" / "end of   │                        │
+│          │                                                          │ day" / "shutdown".    │                        │
+│ ✓ ready  │ 🔍 find-skills                                           │ Search and discover   │ openclaw-workspace     │
+│          │                                                          │ OpenClaw skills from  │                        │
+│          │                                                          │ various sources. Use  │                        │
+│          │                                                          │ when: user wants to   │                        │
+│          │                                                          │ find available        │                        │
+│          │                                                          │ skills, search for    │                        │
+│          │                                                          │ specific              │                        │
+│          │                                                          │ functionality, or     │                        │
+│          │                                                          │ discover new skills   │                        │
+│          │                                                          │ to install.           │                        │
+│ ✓ ready  │ freeride                                                 │ Manages free AI       │ openclaw-workspace     │
+│          │                                                          │ models from           │                        │
+│          │                                                          │ OpenRouter for        │                        │
+│          │                                                          │ OpenClaw.             │                        │
+│          │                                                          │ Automatically ranks   │                        │
+│          │                                                          │ models by quality,    │                        │
+│          │                                                          │ configures fallbacks  │                        │
+│          │                                                          │ for rate-limit        │                        │
+│          │                                                          │ handling, and         │                        │
+│          │                                                          │ updates openclaw.     │                        │
+│          │                                                          │ json. Use when the    │                        │
+│          │                                                          │ user mentions free    │                        │
+│          │                                                          │ AI, OpenRouter,       │                        │
+│          │                                                          │ model switching,      │                        │
+│          │                                                          │ rate limits, or       │                        │
+│          │                                                          │ wants to reduce AI    │                        │
+│          │                                                          │ costs.                │                        │
+│ ✓ ready  │ ♊️ gemini                                                │ Gemini CLI for one-   │ openclaw-workspace     │
+│          │                                                          │ shot Q&A, summaries,  │                        │
+│          │                                                          │ and generation.       │                        │
+│ ✓ ready  │ gh-issues                                                │ Fetch GitHub issues,  │ openclaw-bundled       │
+│          │                                                          │ select candidates,    │                        │
+│          │                                                          │ spawn background fix  │                        │
+│          │                                                          │ agents, open PRs,     │                        │
+│          │                                                          │ and optionally        │                        │
+│          │                                                          │ process PR review     │                        │
+│          │                                                          │ comments.             │                        │
+│ disabled │ 🧲 gifgrep                                               │ Search GIF providers  │ openclaw-bundled       │
+│          │                                                          │ with CLI/TUI,         │                        │
+│          │                                                          │ download results,     │                        │
+│          │                                                          │ and extract stills/   │                        │
+│          │                                                          │ sheets.               │                        │
+│ ✓ ready  │ 🐙 github                                                │ GitHub CLI for        │ openclaw-bundled       │
+│          │                                                          │ issues, PRs, CI/      │                        │
+│          │                                                          │ check logs,           │                        │
+│          │                                                          │ comments, reviews,    │                        │
+│          │                                                          │ releases, repos, and  │                        │
+│          │                                                          │ gh api queries.       │                        │
+│ ✓ ready  │ 🎮 gog                                                   │ Google Workspace CLI  │ openclaw-workspace     │
+│          │                                                          │ for Gmail, Calendar,  │                        │
+│          │                                                          │ Drive, Contacts,      │                        │
+│          │                                                          │ Sheets, and Docs.     │                        │
+│ ✓ ready  │ 📍 goplaces                                              │ Query Google Places   │ openclaw-bundled       │
+│          │                                                          │ for text search,      │                        │
+│          │                                                          │ place details,        │                        │
+│          │                                                          │ resolve, reviews, or  │                        │
+│          │                                                          │ scriptable JSON via   │                        │
+│          │                                                          │ goplaces.             │                        │
+│ ✓ ready  │ healthcheck                                              │ Track water and       │ openclaw-workspace     │
+│          │                                                          │ sleep with JSON file  │                        │
+│          │                                                          │ storage               │                        │
+│ ✓ ready  │ 📧 himalaya                                              │ Himalaya CLI for      │ openclaw-bundled       │
+│          │                                                          │ IMAP/SMTP mail:       │                        │
+│          │                                                          │ list, read, search,   │                        │
+│          │                                                          │ compose, reply,       │                        │
+│          │                                                          │ forward, copy, move,  │                        │
+│          │                                                          │ delete.               │                        │
+│ ✓ ready  │ 📨 imsg                                                  │ iMessage/SMS CLI for  │ openclaw-bundled       │
+│          │                                                          │ listing chats,        │                        │
+│          │                                                          │ history, and sending  │                        │
+│          │                                                          │ messages via          │                        │
+│          │                                                          │ Messages.app.         │                        │
+│ ✓ ready  │ 📰 last30days                                            │ Research a topic      │ openclaw-workspace     │
+│          │                                                          │ from the last 30      │                        │
+│          │                                                          │ days. Also triggered  │                        │
+│          │                                                          │ by 'last30'.          │                        │
+│          │                                                          │ Sources: Reddit, X,   │                        │
+│          │                                                          │ YouTube, web. Become  │                        │
+│          │                                                          │ an expert and write   │                        │
+│          │                                                          │ copy-paste-ready      │                        │
+│          │                                                          │ prompts.              │                        │
+│ ✓ ready  │ last30days-openclaw                                      │ OpenClaw adaptation   │ agents-skills-personal │
+│          │                                                          │ of @mvanhorn's        │                        │
+│          │                                                          │ last30days skill.     │                        │
+│          │                                                          │ Research any topic    │                        │
+│          │                                                          │ from the last 30      │                        │
+│          │                                                          │ days across Reddit,   │                        │
+│          │                                                          │ X, YouTube, TikTok,   │                        │
+│          │                                                          │ Instagram, Hacker     │                        │
+│          │                                                          │ News, Polymarket,     │                        │
+│          │                                                          │ and web. Includes     │                        │
+│          │                                                          │ watchlists, briefing  │                        │
+│          │                                                          │ generation, and       │                        │
+│          │                                                          │ historical query      │                        │
+│          │                                                          │ mode.                 │                        │
+│ ✓ ready  │ line                                                     │ LINE Messaging API    │ openclaw-workspace     │
+│          │                                                          │ webhook handler for   │                        │
+│          │                                                          │ Smith (Work)          │                        │
+│ ✓ ready  │ 📦 mcporter                                              │ List, configure,      │ openclaw-bundled       │
+│          │                                                          │ authenticate, call,   │                        │
+│          │                                                          │ and inspect MCP       │                        │
+│          │                                                          │ servers/tools with    │                        │
+│          │                                                          │ mcporter over HTTP    │                        │
+│          │                                                          │ or stdio.             │                        │
+│ ✓ ready  │ 🖼️ meme-maker                                            │ Search meme           │ openclaw-bundled       │
+│          │                                                          │ templates, suggest    │                        │
+│          │                                                          │ formats, and          │                        │
+│          │                                                          │ generate local or     │                        │
+│          │                                                          │ hosted image memes.   │                        │
+│ ✓ ready  │ 📊 model-usage                                           │ Use CodexBar CLI      │ openclaw-workspace     │
+│          │                                                          │ local cost usage to   │                        │
+│          │                                                          │ summarize per-model   │                        │
+│          │                                                          │ usage for Codex or    │                        │
+│          │                                                          │ Claude, including     │                        │
+│          │                                                          │ the current (most     │                        │
+│          │                                                          │ recent) model or a    │                        │
+│          │                                                          │ full model breakdown. │                        │
+│          │                                                          │ Trigger when asked    │                        │
+│          │                                                          │ for model-level       │                        │
+│          │                                                          │ usage/cost data from  │                        │
+│          │                                                          │ codexbar, or when     │                        │
+│          │                                                          │ you need a            │                        │
+│          │                                                          │ scriptable per-model  │                        │
+│          │                                                          │ summary from          │                        │
+│          │                                                          │ codexbar cost JSON.   │                        │
+│ ✓ ready  │ 🌅 morning-briefing                                      │ Generate a morning    │ agents-skills-personal │
+│          │                                                          │ briefing for Jeff —   │                        │
+│          │                                                          │ weather, today's      │                        │
+│          │                                                          │ calendar, urgent      │                        │
+│          │                                                          │ emails, Todoist       │                        │
+│          │                                                          │ tasks, and any other  │                        │
+│          │                                                          │ relevant items. Run   │                        │
+│          │                                                          │ during morning        │                        │
+│          │                                                          │ heartbeats or when    │                        │
+│          │                                                          │ Jeff asks for a       │                        │
+│          │                                                          │ "morning update" /    │                        │
+│          │                                                          │ "daily briefing".     │                        │
+│ ✓ ready  │ 📄 nano-pdf                                              │ Edit PDFs with        │ openclaw-bundled       │
+│          │                                                          │ natural-language      │                        │
+│          │                                                          │ instructions using    │                        │
+│          │                                                          │ the nano-pdf CLI.     │                        │
+│ ✓ ready  │ news-summary                                             │ This skill should be  │ openclaw-workspace     │
+│          │                                                          │ used when the user    │                        │
+│          │                                                          │ asks for news         │                        │
+│          │                                                          │ updates, daily        │                        │
+│          │                                                          │ briefings, or what's  │                        │
+│          │                                                          │ happening in the      │                        │
+│          │                                                          │ world. Fetches news   │                        │
+│          │                                                          │ from trusted          │                        │
+│          │                                                          │ international RSS     │                        │
+│          │                                                          │ feeds and can create  │                        │
+│          │                                                          │ voice summaries.      │                        │
+│ ✓ ready  │ node-connect                                             │ Diagnose OpenClaw     │ openclaw-bundled       │
+│          │                                                          │ Android, iOS, or      │                        │
+│          │                                                          │ macOS node pairing,   │                        │
+│          │                                                          │ QR/setup code,        │                        │
+│          │                                                          │ route, auth, and      │                        │
+│          │                                                          │ connection failures.  │                        │
+│ ✓ ready  │ 🪲 node-inspect-debugger                                 │ Debug Node.js with    │ openclaw-bundled       │
+│          │                                                          │ node inspect, --      │                        │
+│          │                                                          │ inspect,              │                        │
+│          │                                                          │ breakpoints, CDP,     │                        │
+│          │                                                          │ heap, and CPU         │                        │
+│          │                                                          │ profiles.             │                        │
+│ disabled │ 📝 notion                                                │ Notion API for        │ openclaw-workspace     │
+│          │                                                          │ creating and          │                        │
+│          │                                                          │ managing pages,       │                        │
+│          │                                                          │ databases, and        │                        │
+│          │                                                          │ blocks.               │                        │
+│ disabled │ 💎 obsidian                                              │ Work with Obsidian    │ openclaw-bundled       │
+│          │                                                          │ vaults using the      │                        │
+│          │                                                          │ official obsidian     │                        │
+│          │                                                          │ CLI: read/search/     │                        │
+│          │                                                          │ create/edit notes,    │                        │
+│          │                                                          │ tasks, links,         │                        │
+│          │                                                          │ properties, plugins.  │                        │
+│ ✓ ready  │ obsidian-vault-maintainer                                │ Maintain an Obsidian- │ openclaw-extra         │
+│          │                                                          │ friendly memory wiki  │                        │
+│          │                                                          │ vault with            │                        │
+│          │                                                          │ wikilinks,            │                        │
+│          │                                                          │ frontmatter, and      │                        │
+│          │                                                          │ official Obsidian     │                        │
+│          │                                                          │ CLI awareness.        │                        │
+│ ✓ ready  │ 🎤 openai-whisper                                        │ Local speech-to-text  │ openclaw-bundled       │
+│          │                                                          │ with the Whisper CLI  │                        │
+│          │                                                          │ (no API key).         │                        │
+│ ✓ ready  │ 🌐 openai-whisper-api                                    │ OpenAI Audio          │ openclaw-bundled       │
+│          │                                                          │ Transcriptions API    │                        │
+│          │                                                          │ via curl; gpt-4o-     │                        │
+│          │                                                          │ transcribe, mini,     │                        │
+│          │                                                          │ diarize, or whisper-  │                        │
+│          │                                                          │ 1.                    │                        │
+│ ✓ ready  │ openclaw-update                                          │ Stop OpenClaw         │ agents-skills-personal │
+│          │                                                          │ gateway, update       │                        │
+│          │                                                          │ OpenClaw core to the  │                        │
+│          │                                                          │ latest version, and   │                        │
+│          │                                                          │ start the gateway     │                        │
+│          │                                                          │ service back up.      │                        │
+│ disabled │ 💡 openhue                                               │ Control Philips Hue   │ openclaw-bundled       │
+│          │                                                          │ lights and scenes     │                        │
+│          │                                                          │ via the OpenHue CLI.  │                        │
+│ ✓ ready  │ 🧿 oracle                                                │ Oracle CLI second-    │ openclaw-bundled       │
+│          │                                                          │ model review/debug/   │                        │
+│          │                                                          │ refactor/design with  │                        │
+│          │                                                          │ selected files, dry-  │                        │
+│          │                                                          │ run token checks,     │                        │
+│          │                                                          │ API or browser        │                        │
+│          │                                                          │ engine.               │                        │
+│ disabled │ 🛵 ordercli                                              │ Foodora-only CLI for  │ openclaw-bundled       │
+│          │                                                          │ checking past orders  │                        │
+│          │                                                          │ and active order      │                        │
+│          │                                                          │ status (Deliveroo     │                        │
+│          │                                                          │ WIP).                 │                        │
+│ ✓ ready  │ pdf                                                      │ Comprehensive PDF     │ openclaw-workspace     │
+│          │                                                          │ manipulation toolkit  │                        │
+│          │                                                          │ for extracting text   │                        │
+│          │                                                          │ and tables, creating  │                        │
+│          │                                                          │ new PDFs, merging/    │                        │
+│          │                                                          │ splitting documents,  │                        │
+│          │                                                          │ and handling forms.   │                        │
+│          │                                                          │ When Claude needs to  │                        │
+│          │                                                          │ fill in a PDF form    │                        │
+│          │                                                          │ or programmatically   │                        │
+│          │                                                          │ process, generate,    │                        │
+│          │                                                          │ or analyze PDF        │                        │
+│          │                                                          │ documents at scale.   │                        │
+│ disabled │ 👀 peekaboo                                              │ Capture and automate  │ openclaw-bundled       │
+│          │                                                          │ macOS UI with the     │                        │
+│          │                                                          │ Peekaboo CLI.         │                        │
+│ ✓ ready  │ 📊 polymarket                                            │ Query and trade on    │ openclaw-workspace     │
+│          │                                                          │ Polymarket            │                        │
+│          │                                                          │ prediction markets —  │                        │
+│          │                                                          │ check odds, trending  │                        │
+│          │                                                          │ markets, search       │                        │
+│          │                                                          │ events, view order    │                        │
+│          │                                                          │ books, place trades,  │                        │
+│          │                                                          │ and manage positions. │                        │
+│          │                                                          │ Now available to US   │                        │
+│          │                                                          │ developers.           │                        │
+│ ✓ ready  │ 🔍 prismfy-search                                        │ Default web search    │ openclaw-workspace     │
+│          │                                                          │ for OpenClaw. Search  │                        │
+│          │                                                          │ the web across 10     │                        │
+│          │                                                          │ engines — Google,     │                        │
+│          │                                                          │ Reddit, GitHub,       │                        │
+│          │                                                          │ arXiv, Hacker News,   │                        │
+│          │                                                          │ and more — using      │                        │
+│          │                                                          │ Prismfy. Free tier    │                        │
+│          │                                                          │ included, no credit   │                        │
+│          │                                                          │ card required.        │                        │
+│          │                                                          │ Includes a bundled    │                        │
+│          │                                                          │ `search.sh` helper    │                        │
+│          │                                                          │ for web search,       │                        │
+│          │                                                          │ quota checks, and     │                        │
+│          │                                                          │ engine/time/domain    │                        │
+│          │                                                          │ filters.              │                        │
+│          │                                                          │ Automatically set as  │                        │
+│          │                                                          │ the default OpenClaw  │                        │
+│          │                                                          │ search tool on        │                        │
+│          │                                                          │ install. Use when     │                        │
+│          │                                                          │ you need live web     │                        │
+│          │                                                          │ results, recent       │                        │
+│          │                                                          │ news, code examples,  │                        │
+│          │                                                          │ Reddit discussions,   │                        │
+│          │                                                          │ or academic papers.   │                        │
+│ ✓ ready  │ prompt-engineering-expert                                │ Advanced expert in    │ openclaw-workspace     │
+│          │                                                          │ prompt engineering,   │                        │
+│          │                                                          │ custom instructions   │                        │
+│          │                                                          │ design, and prompt    │                        │
+│          │                                                          │ optimization for AI   │                        │
+│          │                                                          │ agents                │                        │
+│ ✓ ready  │ python-debugpy                                           │ Debug Python with     │ openclaw-bundled       │
+│          │                                                          │ pdb, breakpoint(),    │                        │
+│          │                                                          │ post-mortem           │                        │
+│          │                                                          │ inspection, and       │                        │
+│          │                                                          │ debugpy remote        │                        │
+│          │                                                          │ attach.               │                        │
+│ ✓ ready  │ 📝 qmd                                                   │ Local search/         │ agents-skills-personal │
+│          │                                                          │ indexing CLI (BM25 +  │                        │
+│          │                                                          │ vectors + rerank)     │                        │
+│          │                                                          │ with MCP mode.        │                        │
+│ disabled │ 🔊 sag                                                   │ ElevenLabs text-to-   │ openclaw-bundled       │
+│          │                                                          │ speech with mac-      │                        │
+│          │                                                          │ style say UX.         │                        │
+│ ✓ ready  │ self-improvement                                         │ Captures learnings,   │ openclaw-managed       │
+│          │                                                          │ errors, and           │                        │
+│          │                                                          │ corrections to        │                        │
+│          │                                                          │ enable continuous     │                        │
+│          │                                                          │ improvement. Use      │                        │
+│          │                                                          │ when: (1) A command   │                        │
+│          │                                                          │ or operation fails    │                        │
+│          │                                                          │ unexpectedly, (2)     │                        │
+│          │                                                          │ User corrects Claude  │                        │
+│          │                                                          │ ('No, that's wrong... │                        │
+│          │                                                          │ ', 'Actually...'),    │                        │
+│          │                                                          │ (3) User requests a   │                        │
+│          │                                                          │ capability that       │                        │
+│          │                                                          │ doesn't exist, (4)    │                        │
+│          │                                                          │ An external API or    │                        │
+│          │                                                          │ tool fails, (5)       │                        │
+│          │                                                          │ Claude realizes its   │                        │
+│          │                                                          │ knowledge is          │                        │
+│          │                                                          │ outdated or           │                        │
+│          │                                                          │ incorrect, (6) A      │                        │
+│          │                                                          │ better approach is    │                        │
+│          │                                                          │ discovered for a      │                        │
+│          │                                                          │ recurring task. Also  │                        │
+│          │                                                          │ review learnings      │                        │
+│          │                                                          │ before major tasks.   │                        │
+│ ✓ ready  │ self-improving-agent                                     │ Self-improving agent  │ openclaw-workspace     │
+│          │                                                          │ system that analyzes  │                        │
+│          │                                                          │ conversation          │                        │
+│          │                                                          │ quality, identifies   │                        │
+│          │                                                          │ improvement           │                        │
+│          │                                                          │ opportunities, and    │                        │
+│          │                                                          │ continuously          │                        │
+│          │                                                          │ optimizes response    │                        │
+│          │                                                          │ strategies.           │                        │
+│ ✓ ready  │ 📜 session-logs                                          │ Search and analyze    │ openclaw-workspace     │
+│          │                                                          │ your own session      │                        │
+│          │                                                          │ logs (older/parent    │                        │
+│          │                                                          │ conversations) using  │                        │
+│          │                                                          │ jq.                   │                        │
+│ disabled │ 🔉 sherpa-onnx-tts                                       │ Local text-to-speech  │ openclaw-bundled       │
+│          │                                                          │ via sherpa-onnx       │                        │
+│          │                                                          │ (offline, no cloud)   │                        │
+│ ✓ ready  │ 🔍 Skill Finder (Find ClawHub skills + Search Skills.sh) │ Find, compare, and    │ openclaw-workspace     │
+│          │                                                          │ install agent skills  │                        │
+│          │                                                          │ across ClawHub and    │                        │
+│          │                                                          │ Skills.sh when the    │                        │
+│          │                                                          │ user needs new        │                        │
+│          │                                                          │ capabilities, better  │                        │
+│          │                                                          │ workflows, stronger   │                        │
+│          │                                                          │ tools, or safer       │                        │
+│          │                                                          │ alternatives. Use     │                        │
+│          │                                                          │ when (1) they ask     │                        │
+│          │                                                          │ how to do something,  │                        │
+│          │                                                          │ how to improve or     │                        │
+│          │                                                          │ automate it, or what  │                        │
+│          │                                                          │ to install; (2) a     │                        │
+│          │                                                          │ skill could extend    │                        │
+│          │                                                          │ the agent, replace a  │                        │
+│          │                                                          │ weak manual           │                        │
+│          │                                                          │ approach, or close a  │                        │
+│          │                                                          │ capability gap; (3)   │                        │
+│          │                                                          │ you need the best-    │                        │
+│          │                                                          │ fit option, not just  │                        │
+│          │                                                          │ a direct answer.      │                        │
+│ ✓ ready  │ skill-creator                                            │ Create, edit, audit,  │ openclaw-bundled       │
+│          │                                                          │ tidy, validate, or    │                        │
+│          │                                                          │ restructure           │                        │
+│          │                                                          │ AgentSkills and       │                        │
+│          │                                                          │ SKILL.md files.       │                        │
+│ ✓ ready  │ skill-vetter                                             │ Security-first skill  │ openclaw-workspace     │
+│          │                                                          │ vetting for AI        │                        │
+│          │                                                          │ agents. Use before    │                        │
+│          │                                                          │ installing any skill  │                        │
+│          │                                                          │ from ClawdHub,        │                        │
+│          │                                                          │ GitHub, or other      │                        │
+│          │                                                          │ sources. Checks for   │                        │
+│          │                                                          │ red flags,            │                        │
+│          │                                                          │ permission scope,     │                        │
+│          │                                                          │ and suspicious        │                        │
+│          │                                                          │ patterns.             │                        │
+│ ✓ ready  │ slack                                                    │ Use when you need to  │ agents-skills-personal │
+│          │                                                          │ control Slack from    │                        │
+│          │                                                          │ Clawdbot via the      │                        │
+│          │                                                          │ slack tool,           │                        │
+│          │                                                          │ including reacting    │                        │
+│          │                                                          │ to messages or        │                        │
+│          │                                                          │ pinning/unpinning     │                        │
+│          │                                                          │ items in Slack        │                        │
+│          │                                                          │ channels or DMs.      │                        │
+│ ✓ ready  │ 🌊 songsee                                               │ Generate              │ openclaw-bundled       │
+│          │                                                          │ spectrograms and      │                        │
+│          │                                                          │ feature-panel         │                        │
+│          │                                                          │ visualizations from   │                        │
+│          │                                                          │ audio with the        │                        │
+│          │                                                          │ songsee CLI.          │                        │
+│ ✓ ready  │ 🔊 sonoscli                                              │ Control Sonos         │ openclaw-bundled       │
+│          │                                                          │ speakers (discover/   │                        │
+│          │                                                          │ status/play/volume/   │                        │
+│          │                                                          │ group).               │                        │
+│ ✓ ready  │ 🧪 spike                                                 │ Run throwaway         │ openclaw-bundled       │
+│          │                                                          │ prototypes to         │                        │
+│          │                                                          │ validate              │                        │
+│          │                                                          │ feasibility, compare  │                        │
+│          │                                                          │ approaches, and       │                        │
+│          │                                                          │ report a verdict.     │                        │
+│ disabled │ 🎵 spotify-player                                        │ Terminal Spotify      │ openclaw-bundled       │
+│          │                                                          │ playback/search via   │                        │
+│          │                                                          │ spogo (preferred) or  │                        │
+│          │                                                          │ spotify_player.       │                        │
+│ ✓ ready  │ sticky-notes                                             │ Launches the OneNote  │ openclaw-workspace     │
+│          │                                                          │ Sticky Notes          │                        │
+│          │                                                          │ application on        │                        │
+│          │                                                          │ Windows, copies the   │                        │
+│          │                                                          │ provided text to the  │                        │
+│          │                                                          │ clipboard, and        │                        │
+│          │                                                          │ simulates keyboard    │                        │
+│          │                                                          │ shortcuts to paste    │                        │
+│          │                                                          │ the text into a new   │                        │
+│          │                                                          │ note.                 │                        │
+│ ✓ ready  │ stock-monitor                                            │ 股票价格实时监控。支  │ openclaw-workspace     │
+│          │                                                          │ 持多只股票监控，使用  │                        │
+│          │                                                          │ Yahoo Finance API     │                        │
+│          │                                                          │ 获取实时股价，自定义  │                        │
+│          │                                                          │ 涨跌阈值提醒。当股价  │                        │
+│          │                                                          │ 波动超过设定阈值时自  │                        │
+│          │                                                          │ 动发送提醒，支持首次  │                        │
+│          │                                                          │ 预警和续警机制。用于  │                        │
+│          │                                                          │ ：(1)                 │                        │
+│          │                                                          │ 监控持仓股票价格波动  │                        │
+│          │                                                          │ (2) 设置价格提醒 (3)  │                        │
+│          │                                                          │ 定期检查股价变化      │                        │
+│ ✓ ready  │ 🧾 summarize                                             │ Summarize or          │ openclaw-bundled       │
+│          │                                                          │ transcribe URLs,      │                        │
+│          │                                                          │ YouTube/videos,       │                        │
+│          │                                                          │ podcasts, articles,   │                        │
+│          │                                                          │ transcripts, PDFs,    │                        │
+│          │                                                          │ and local files.      │                        │
+│ ✓ ready  │ 🪝 taskflow                                              │ Coordinate multi-     │ openclaw-bundled       │
+│          │                                                          │ step detached tasks   │                        │
+│          │                                                          │ as one durable        │                        │
+│          │                                                          │ TaskFlow job with     │                        │
+│          │                                                          │ owner context,        │                        │
+│          │                                                          │ state, waits, and     │                        │
+│          │                                                          │ child tasks.          │                        │
+│ ✓ ready  │ 📥 taskflow-inbox-triage                                 │ Example TaskFlow      │ openclaw-bundled       │
+│          │                                                          │ pattern for inbox     │                        │
+│          │                                                          │ triage, intent        │                        │
+│          │                                                          │ routing, waiting on   │                        │
+│          │                                                          │ replies, and later    │                        │
+│          │                                                          │ summaries.            │                        │
+│ ✓ ready  │ telegram                                                 │ OpenClaw skill for    │ openclaw-workspace     │
+│          │                                                          │ designing Telegram    │                        │
+│          │                                                          │ Bot API workflows     │                        │
+│          │                                                          │ and command-driven    │                        │
+│          │                                                          │ conversations using   │                        │
+│          │                                                          │ direct HTTPS          │                        │
+│          │                                                          │ requests (no SDKs).   │                        │
+│ ✓ ready  │ ✅ things-mac                                            │ Add, update, list,    │ openclaw-bundled       │
+│          │                                                          │ search, or inspect    │                        │
+│          │                                                          │ Things 3 todos,       │                        │
+│          │                                                          │ inbox, today,         │                        │
+│          │                                                          │ projects, areas, and  │                        │
+│          │                                                          │ tags on macOS.        │                        │
+│ ✓ ready  │ 🧵 tmux                                                  │ Control tmux          │ openclaw-bundled       │
+│          │                                                          │ sessions/panes for    │                        │
+│          │                                                          │ interactive CLIs:     │                        │
+│          │                                                          │ list, capture         │                        │
+│          │                                                          │ output, send keys,    │                        │
+│          │                                                          │ paste text, monitor   │                        │
+│          │                                                          │ prompts.              │                        │
+│ disabled │ ✅ todoist                                               │ Manage tasks and      │ agents-skills-personal │
+│          │                                                          │ projects in Todoist.  │                        │
+│          │                                                          │ Use when user asks    │                        │
+│          │                                                          │ about tasks, to-dos,  │                        │
+│          │                                                          │ reminders, or         │                        │
+│          │                                                          │ productivity.         │                        │
+│ ✓ ready  │ token-optimizer                                          │ Reduce OpenClaw       │ openclaw-workspace     │
+│          │                                                          │ token usage and API   │                        │
+│          │                                                          │ costs through smart   │                        │
+│          │                                                          │ model routing,        │                        │
+│          │                                                          │ heartbeat             │                        │
+│          │                                                          │ optimization, budget  │                        │
+│          │                                                          │ tracking, and native  │                        │
+│          │                                                          │ 2026.2.15 features    │                        │
+│          │                                                          │ (session pruning,     │                        │
+│          │                                                          │ bootstrap size        │                        │
+│          │                                                          │ limits, cache TTL     │                        │
+│          │                                                          │ alignment). Use when  │                        │
+│          │                                                          │ token costs are       │                        │
+│          │                                                          │ high, API rate        │                        │
+│          │                                                          │ limits are being      │                        │
+│          │                                                          │ hit, or hosting       │                        │
+│          │                                                          │ multiple agents at    │                        │
+│          │                                                          │ scale. The 4          │                        │
+│          │                                                          │ executable scripts    │                        │
+│          │                                                          │ (context_optimizer,   │                        │
+│          │                                                          │ model_router,         │                        │
+│          │                                                          │ heartbeat_optimizer,  │                        │
+│          │                                                          │ token_tracker) are    │                        │
+│          │                                                          │ local-only — no       │                        │
+│          │                                                          │ network requests, no  │                        │
+│          │                                                          │ subprocess calls, no  │                        │
+│          │                                                          │ system modifications. │                        │
+│          │                                                          │ Reference files       │                        │
+│          │                                                          │ (PROVIDERS.md,        │                        │
+│          │                                                          │ config-patches.json)  │                        │
+│          │                                                          │ document optional     │                        │
+│          │                                                          │ multi-provider        │                        │
+│          │                                                          │ strategies that       │                        │
+│          │                                                          │ require external API  │                        │
+│          │                                                          │ keys and network      │                        │
+│          │                                                          │ access if you choose  │                        │
+│          │                                                          │ to use them. See      │                        │
+│          │                                                          │ SECURITY.md for full  │                        │
+│          │                                                          │ breakdown.            │                        │
+│ disabled │ 📋 trello                                                │ Manage Trello         │ openclaw-bundled       │
+│          │                                                          │ boards, lists, and    │                        │
+│          │                                                          │ cards via the Trello  │                        │
+│          │                                                          │ REST API.             │                        │
+│ ✓ ready  │ us-stock-analysis                                        │ Comprehensive US      │ openclaw-workspace     │
+│          │                                                          │ stock analysis        │                        │
+│          │                                                          │ including             │                        │
+│          │                                                          │ fundamental analysis  │                        │
+│          │                                                          │ (financial metrics,   │                        │
+│          │                                                          │ business quality,     │                        │
+│          │                                                          │ valuation),           │                        │
+│          │                                                          │ technical analysis    │                        │
+│          │                                                          │ (indicators, chart    │                        │
+│          │                                                          │ patterns, support/    │                        │
+│          │                                                          │ resistance), stock    │                        │
+│          │                                                          │ comparisons, and      │                        │
+│          │                                                          │ investment report     │                        │
+│          │                                                          │ generation. Use when  │                        │
+│          │                                                          │ user requests         │                        │
+│          │                                                          │ analysis of US stock  │                        │
+│          │                                                          │ tickers (e.g.,        │                        │
+│          │                                                          │ "analyze AAPL",       │                        │
+│          │                                                          │ "compare TSLA vs      │                        │
+│          │                                                          │ NVDA", "give me a     │                        │
+│          │                                                          │ report on             │                        │
+│          │                                                          │ Microsoft"),          │                        │
+│          │                                                          │ evaluation of         │                        │
+│          │                                                          │ financial metrics,    │                        │
+│          │                                                          │ technical chart       │                        │
+│          │                                                          │ analysis, or          │                        │
+│          │                                                          │ investment            │                        │
+│          │                                                          │ recommendations for   │                        │
+│          │                                                          │ American stocks.      │                        │
+│ ✓ ready  │ 🎬 video-frames                                          │ Extract frames or     │ openclaw-bundled       │
+│          │                                                          │ short clips from      │                        │
+│          │                                                          │ videos using ffmpeg.  │                        │
+│ disabled │ 📞 voice-call                                            │ Start voice calls     │ openclaw-bundled       │
+│          │                                                          │ via the OpenClaw      │                        │
+│          │                                                          │ voice-call plugin.    │                        │
+│ disabled │ 📱 wacli                                                 │ Send third-party      │ openclaw-bundled       │
+│          │                                                          │ WhatsApp messages or  │                        │
+│          │                                                          │ sync/search WhatsApp  │                        │
+│          │                                                          │ history via wacli,    │                        │
+│          │                                                          │ not normal active     │                        │
+│          │                                                          │ chats.                │                        │
+│ ✓ ready  │ 🌤️ weather                                               │ Get current weather   │ openclaw-workspace     │
+│          │                                                          │ and forecasts (no     │                        │
+│          │                                                          │ API key required).    │                        │
+│ ✓ ready  │ 🧹 weekly-review                                         │ Jeff's weekly review  │ agents-skills-personal │
+│          │                                                          │ ritual — audits       │                        │
+│          │                                                          │ Todoist stale tasks,  │                        │
+│          │                                                          │ logs the week's wins  │                        │
+│          │                                                          │ and next week's       │                        │
+│          │                                                          │ priorities, and       │                        │
+│          │                                                          │ previews the          │                        │
+│          │                                                          │ calendar. Run         │                        │
+│          │                                                          │ Fridays (evening) or  │                        │
+│          │                                                          │ Saturdays (morning)   │                        │
+│          │                                                          │ or on demand.         │                        │
+│ ✓ ready  │ wiki-maintainer                                          │ Maintain the          │ openclaw-extra         │
+│          │                                                          │ OpenClaw memory wiki  │                        │
+│          │                                                          │ vault with            │                        │
+│          │                                                          │ deterministic pages,  │                        │
+│          │                                                          │ managed blocks, and   │                        │
+│          │                                                          │ source-backed         │                        │
+│          │                                                          │ updates.              │                        │
+│ disabled │ 𝕏 x-search                                               │ Search X (Twitter)    │ openclaw-workspace     │
+│          │                                                          │ posts using the xAI   │                        │
+│          │                                                          │ API. Use when the     │                        │
+│          │                                                          │ user wants to find    │                        │
+│          │                                                          │ tweets, search X/     │                        │
+│          │                                                          │ Twitter, look up      │                        │
+│          │                                                          │ what people are       │                        │
+│          │                                                          │ saying on X, or find  │                        │
+│          │                                                          │ social media posts    │                        │
+│          │                                                          │ about a topic.        │                        │
+│ disabled │ 🐦 xurl                                                  │ xurl CLI for          │ openclaw-bundled       │
+│          │                                                          │ authenticated X       │                        │
+│          │                                                          │ posts, replies,       │                        │
+│          │                                                          │ reads/search, DMs,    │                        │
+│          │                                                          │ media upload,         │                        │
+│          │                                                          │ followers, auth       │                        │
+│          │                                                          │ status, or raw v2     │                        │
+│          │                                                          │ API calls.            │                        │
+└──────────┴──────────────────────────────────────────────────────────┴───────────────────────┴────────────────────────┘
+
+Tip: use `openclaw skills search`, `openclaw skills install`, and `openclaw skills update` for ClawHub-backed skills.

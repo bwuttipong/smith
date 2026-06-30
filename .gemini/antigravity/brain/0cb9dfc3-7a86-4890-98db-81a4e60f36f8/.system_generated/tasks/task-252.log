@@ -1,0 +1,174 @@
+Secret diagnostics:
+- gateway.auth.token: secret ref is configured on an inactive surface; skipping command-time assignment.
+
+OpenClaw status
+
+Overview
+┌──────────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────┐
+│ Item                 │ Value                                                                                         │
+├──────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────┤
+│ OS                   │ macos 26.5.1 (arm64) · node 26.0.0                                                            │
+│ Dashboard            │ http://127.0.0.1:18789/                                                                       │
+│ Tailscale exposure   │ serve · wuttipong-1.tail6c0b11.ts.net · https://wuttipong-1.tail6c0b11.ts.net                 │
+│ Channel              │ stable (default)                                                                              │
+│ Update               │ npm · deps ok                                                                                 │
+│ Gateway              │ local · ws://127.0.0.1:18789 (local loopback) · reachable 27ms · auth token · wuttipong (192. │
+│                      │ 168.1.122) app 2026.6.8 macos 26.5.1                                                          │
+│ Gateway self         │ wuttipong (192.168.1.122) app 2026.6.8 macos 26.5.1                                           │
+│ Gateway service      │ LaunchAgent installed · loaded · running (pid 19075, state active)                            │
+│ Node service         │ LaunchAgent not installed                                                                     │
+│ Agents               │ 5 · no workspaces bootstrapping · sessions 166 · default smith active 2m ago                  │
+│ Memory               │ enabled (plugin memory-core) · not checked                                                    │
+│ Plugin compatibility │ none                                                                                          │
+│ Probes               │ skipped (use --deep)                                                                          │
+│ Events               │ none                                                                                          │
+│ Tasks                │ 0 active · 0 queued · 0 running · 6 issues · audit 2 warn · 55 tracked                        │
+│ Heartbeat            │ 30m (smith), disabled (beaker), disabled (cookie), disabled (fozzie), disabled (kermit)       │
+│ Sessions             │ 166 active · default gemma4:12b (262k ctx) · 5 stores                                         │
+└──────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Model selection
+Session agent:smith:main is pinned to google/gemini-2.5-flash; config primary opencode-go/glm-5.2 will apply to new/unpinned sessions.
+  Configured default: opencode-go/glm-5.2
+  Session selected: google/gemini-2.5-flash
+  Reason: session override
+  Clear with: /model opencode-go/glm-5.2 or /reset
+  Docs: https://docs.openclaw.ai/concepts/models#selection-source-and-fallback-behavior
+Session agent:smith:telegram:default:direct:alice is pinned to opencode-qwen/qwen3.7-max; config primary opencode-go/glm-5.2 will apply to new/unpinned sessions.
+  Configured default: opencode-go/glm-5.2
+  Session selected: opencode-qwen/qwen3.7-max
+  Reason: session override
+  Clear with: /model opencode-go/glm-5.2 or /reset
+  Docs: https://docs.openclaw.ai/concepts/models#selection-source-and-fallback-behavior
+
+Security audit
+Skipped in fast status. Full report: openclaw security audit
+Deep probe: openclaw status --deep
+
+Channels
+┌──────────┬─────────┬────────┬────────────────────────────────────────────────────────────────────────────────────────┐
+│ Channel  │ Enabled │ State  │ Detail                                                                                 │
+├──────────┼─────────┼────────┼────────────────────────────────────────────────────────────────────────────────────────┤
+│ discord  │ ON      │ SETUP  │ configured; status unavailable in fast mode                                            │
+│ line     │ ON      │ SETUP  │ configured; status unavailable in fast mode                                            │
+│ slack    │ ON      │ SETUP  │ configured; status unavailable in fast mode                                            │
+│ telegram │ ON      │ SETUP  │ configured; status unavailable in fast mode                                            │
+└──────────┴─────────┴────────┴────────────────────────────────────────────────────────────────────────────────────────┘
+
+Sessions
+┌─────┬────────────┬─────────┬──────────────────────────────────────┬─────────────────┬────────────────────────────────┐
+│ Key │ Kind       │ Age     │ Model                                │ Runtime         │ Tokens                         │
+├─────┼────────────┼─────────┼──────────────────────────────────────┼─────────────────┼────────────────────────────────┤
+│ age │ direct     │ 2m ago  │ gemini-2.5-flash                     │ Gemini CLI      │ unknown/200k (?%)              │
+│ nt: │            │         │                                      │                 │                                │
+│ smi │            │         │                                      │                 │                                │
+│ th: │            │         │                                      │                 │                                │
+│ mai │            │         │                                      │                 │                                │
+│ n   │            │         │                                      │                 │                                │
+│ age │ direct     │ 2h ago  │ qwen3.7-max                          │ OpenClaw        │ unknown/1.0m (?%)              │
+│ nt: │            │         │                                      │ Default         │                                │
+│ smi │            │         │                                      │                 │                                │
+│ th: │            │         │                                      │                 │                                │
+│ tel │            │         │                                      │                 │                                │
+│ egr │            │         │                                      │                 │                                │
+│ am: │            │         │                                      │                 │                                │
+│ def │            │         │                                      │                 │                                │
+│ aul │            │         │                                      │                 │                                │
+│ t:d │            │         │                                      │                 │                                │
+│ i…  │            │         │                                      │                 │                                │
+│ age │ cron       │ 7h ago  │ nvidia/nemotron-3-super-120b-        │ OpenClaw        │ unknown/262k (?%)              │
+│ nt: │            │         │ a12b:free                            │ Default         │                                │
+│ foz │            │         │                                      │                 │                                │
+│ zie │            │         │                                      │                 │                                │
+│ :cr │            │         │                                      │                 │                                │
+│ on: │            │         │                                      │                 │                                │
+│ e5f │            │         │                                      │                 │                                │
+│ 5a0 │            │         │                                      │                 │                                │
+│ 59- │            │         │                                      │                 │                                │
+│ 7d7 │            │         │                                      │                 │                                │
+│ 6…  │            │         │                                      │                 │                                │
+│ age │ group      │ 8h ago  │ gemma4:12b                           │ OpenClaw        │ unknown/262k (?%)              │
+│ nt: │            │         │                                      │ Default         │                                │
+│ foz │            │         │                                      │                 │                                │
+│ zie │            │         │                                      │                 │                                │
+│ :di │            │         │                                      │                 │                                │
+│ sco │            │         │                                      │                 │                                │
+│ rd: │            │         │                                      │                 │                                │
+│ cha │            │         │                                      │                 │                                │
+│ nne │            │         │                                      │                 │                                │
+│ l:1 │            │         │                                      │                 │                                │
+│ 5…  │            │         │                                      │                 │                                │
+│ age │ cron       │ 8h ago  │ qwen3.7-max                          │ OpenClaw        │ 49k/1.0m (5%) · 🗄️ 71% cached  │
+│ nt: │            │         │                                      │ Default         │                                │
+│ foz │            │         │                                      │                 │                                │
+│ zie │            │         │                                      │                 │                                │
+│ :cr │            │         │                                      │                 │                                │
+│ on: │            │         │                                      │                 │                                │
+│ 2de │            │         │                                      │                 │                                │
+│ 90a │            │         │                                      │                 │                                │
+│ d8- │            │         │                                      │                 │                                │
+│ b8f │            │         │                                      │                 │                                │
+│ b…  │            │         │                                      │                 │                                │
+│ age │ group      │ 15h ago │ gemma4:12b                           │ OpenClaw        │ 1.2m/262k (472%) · 🗄️ 94%      │
+│ nt: │            │         │                                      │ Default         │ cached                         │
+│ smi │            │         │                                      │                 │                                │
+│ th: │            │         │                                      │                 │                                │
+│ dis │            │         │                                      │                 │                                │
+│ cor │            │         │                                      │                 │                                │
+│ d:c │            │         │                                      │                 │                                │
+│ han │            │         │                                      │                 │                                │
+│ nel │            │         │                                      │                 │                                │
+│ :15 │            │         │                                      │                 │                                │
+│ 0…  │            │         │                                      │                 │                                │
+│ age │ cron       │ 15h ago │ openai/gpt-oss-120b:free             │ OpenClaw        │ 20k/200k (10%) · 🗄️ 78% cached │
+│ nt: │            │         │                                      │ Default         │                                │
+│ smi │            │         │                                      │                 │                                │
+│ th: │            │         │                                      │                 │                                │
+│ cro │            │         │                                      │                 │                                │
+│ n:7 │            │         │                                      │                 │                                │
+│ 38f │            │         │                                      │                 │                                │
+│ d15 │            │         │                                      │                 │                                │
+│ 9-  │            │         │                                      │                 │                                │
+│ 130 │            │         │                                      │                 │                                │
+│ 8-… │            │         │                                      │                 │                                │
+│ age │ cron       │ 33h ago │ deepseek/deepseek-v4-flash           │ OpenClaw        │ 32k/200k (16%) · 🗄️ 66% cached │
+│ nt: │            │         │                                      │ Default         │                                │
+│ smi │            │         │                                      │                 │                                │
+│ th: │            │         │                                      │                 │                                │
+│ cro │            │         │                                      │                 │                                │
+│ n:0 │            │         │                                      │                 │                                │
+│ 793 │            │         │                                      │                 │                                │
+│ 47b │            │         │                                      │                 │                                │
+│ b-  │            │         │                                      │                 │                                │
+│ 736 │            │         │                                      │                 │                                │
+│ 0-… │            │         │                                      │                 │                                │
+│ age │ direct     │ 3d ago  │ minimax-m3                           │ OpenClaw        │ 40k/205k (20%) · 🗄️ 34% cached │
+│ nt: │            │         │                                      │ Default         │                                │
+│ smi │            │         │                                      │                 │                                │
+│ th: │            │         │                                      │                 │                                │
+│ lin │            │         │                                      │                 │                                │
+│ e:d │            │         │                                      │                 │                                │
+│ efa │            │         │                                      │                 │                                │
+│ ult │            │         │                                      │                 │                                │
+│ :di │            │         │                                      │                 │                                │
+│ rec │            │         │                                      │                 │                                │
+│ t…  │            │         │                                      │                 │                                │
+│ age │ spawn-     │ 3d ago  │ minimax-m3                           │ OpenClaw        │ 16k/205k (8%) · 🗄️ 75% cached  │
+│ nt: │ child      │         │                                      │ Default         │                                │
+│ smi │            │         │                                      │                 │                                │
+│ th: │            │         │                                      │                 │                                │
+│ sub │            │         │                                      │                 │                                │
+│ age │            │         │                                      │                 │                                │
+│ nt: │            │         │                                      │                 │                                │
+│ b51 │            │         │                                      │                 │                                │
+│ 126 │            │         │                                      │                 │                                │
+│ 26- │            │         │                                      │                 │                                │
+│ a…  │            │         │                                      │                 │                                │
+└─────┴────────────┴─────────┴──────────────────────────────────────┴─────────────────┴────────────────────────────────┘
+
+FAQ: https://docs.openclaw.ai/faq
+Troubleshooting: https://docs.openclaw.ai/troubleshooting
+Next steps:
+  Need to share?      openclaw status --all
+  Need to debug live? openclaw logs --follow
+  Need to test channels? openclaw status --deep

@@ -1,0 +1,12 @@
+=== LOGS BEFORE ===
+2026-06-24 21:57:25,210 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-24 21:57:25,216 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-24 21:57:26,218 INFO gateway.run: Press Ctrl+C to stop
+2026-06-24 21:57:26,243 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-24 21:57:26,259 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/.hermes/kanban/.dispatcher.lock)
+=== LOGS AFTER ===
+2026-06-24 21:57:25,210 INFO gateway.run: Gateway running with 1 platform(s)
+2026-06-24 21:57:25,216 INFO gateway.run: Channel directory built: 1 target(s)
+2026-06-24 21:57:26,218 INFO gateway.run: Press Ctrl+C to stop
+2026-06-24 21:57:26,243 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-06-24 21:57:26,259 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/.hermes/kanban/.dispatcher.lock)

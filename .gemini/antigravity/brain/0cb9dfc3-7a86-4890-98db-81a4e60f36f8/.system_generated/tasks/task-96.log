@@ -1,0 +1,22 @@
+
+OpenClaw 2026.6.8 (844f405) — All your chats, one OpenClaw.
+
+Usage: openclaw tasks [options] [command]
+
+Inspect durable background tasks and TaskFlow state
+
+Options:
+  -h, --help        Display help for command
+  --json            Output as JSON (default: false)
+  --runtime <name>  Filter by kind (subagent, acp, cron, cli)
+  --status <name>   Filter by status (queued, running, succeeded, failed,
+                    timed_out, cancelled, lost)
+
+Commands:
+  audit             Show stale or broken background tasks and TaskFlows
+  cancel            Cancel a running background task
+  flow              Inspect durable TaskFlow state under tasks
+  list              List tracked background tasks
+  maintenance       Preview or apply tasks and TaskFlow maintenance
+  notify            Set task notify policy
+  show              Show one background task by task id, run id, or session key

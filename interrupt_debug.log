@@ -1,0 +1,2 @@
+20:27:36 ENTER: queued interrupt msg='what was I just doing today?', agent_running=True
+20:27:36 interrupt fired: msg='what was I just doing today?', children=0, parent._interrupt=True

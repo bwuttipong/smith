@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-06-28T21:14:40+07:00
+Prompt: Check capture-pane output
+Early Termination: task-241
+
+[2026-06-28T21:14:40+07:00] Timer fired.

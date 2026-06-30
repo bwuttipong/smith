@@ -1,0 +1,6 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-06-28T21:15:55+07:00
+Prompt: Check restart task output
+Early Termination: task-271
+
+[2026-06-28T21:15:55+07:00] Timer fired.

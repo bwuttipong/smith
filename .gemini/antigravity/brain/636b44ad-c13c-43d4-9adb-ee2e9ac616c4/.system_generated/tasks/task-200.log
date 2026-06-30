@@ -1,0 +1,61 @@
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.openclaw-web-search: plugin openclaw-web-search:      │
+│    installed plugin package requires compiled runtime output for         │
+│    TypeScript entry index.ts: expected ./dist/index.js,                  │
+│    ./dist/index.mjs, ./dist/index.cjs, index.js, index.mjs, index.cjs.   │
+│    This is a plugin packaging issue, not a local config problem; update  │
+│    or reinstall the plugin after the publisher ships compiled            │
+│    JavaScript, or disable/uninstall the plugin until then. TypeScript    │
+│    source fallback is only supported for source checkouts and local      │
+│    development paths.                                                    │
+│  - plugins.entries.openclaw-web-search: plugin not found:                │
+│    openclaw-web-search (stale config entry ignored; remove it from       │
+│    plugins config)                                                       │
+│  - plugins.allow: plugin not found: openclaw-web-search (stale config    │
+│    entry ignored; remove it from plugins config)                         │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+Agents:
+- smith (default) (Smith)
+  Identity: yes, tastefully ✌️ Smith (IDENTITY.md)
+  Workspace: ~/Smith
+  Agent dir: ~/Smith/agent
+  Model: opencode-go/deepseek-v4-flash
+  Routing rules: 3
+  Routing: default (no explicit rules)
+- kermit (Kermit)
+  Workspace: ~/Agents/kermit
+  Agent dir: ~/Agents/kermit/agent
+  Model: opencode/big-pickle
+  Routing rules: 1
+- cookie (Cookie)
+  Workspace: ~/Agents/Cookie
+  Agent dir: ~/Agents/Cookie/agent
+  Model: ollama/gemma4:31b-cloud
+  Routing rules: 1
+- beaker (Beaker)
+  Identity: 🧪 Beaker (IDENTITY.md)
+  Workspace: ~/Agents/Beaker
+  Agent dir: ~/Agents/Beaker/agent
+  Model: openrouter/owl-alpha
+  Routing rules: 1
+- fozzie (Fozzie)
+  Workspace: ~/Agents/Fozzie
+  Agent dir: ~/Agents/Fozzie/agent
+  Model: nvidia/openai/gpt-oss-120b
+  Routing rules: 1
+- samantha (Samantha)
+  Workspace: ~/Agents/Samantha
+  Agent dir: ~/Agents/Samantha/agent
+  Model: openrouter/google/gemma-4-26b-a4b-it:free
+  Routing rules: 0
+- bunsen (Bunsen)
+  Identity: 🔬 Dr. Bunsen Honeydew (Bunsen) (IDENTITY.md)
+  Workspace: ~/Agents/Bunsen
+  Agent dir: ~/Agents/Bunsen/agent
+  Model: google/gemini-3.1-pro-preview
+  Routing rules: 0
+Routing rules map channel/account/peer to an agent. Use --bindings for full rules.
+Channel status reflects local config/creds. For live health: openclaw channels status --probe.

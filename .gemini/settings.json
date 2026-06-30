@@ -1,0 +1,19 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "gemini-api-key"
+    }
+  },
+  "ui": {
+    "theme": "Default"
+  },
+  "context": {
+    "includeDirectories": [
+      "/Users/Jeff/Agents/shared"
+    ]
+  },
+  "ide": {
+    "hasSeenNudge": true,
+    "enabled": true
+  }
+}

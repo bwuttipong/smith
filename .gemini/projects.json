@@ -1,0 +1,30 @@
+{
+  "projects": {
+    "/Users/Jeff/.openclaw": "openclaw",
+    "/Users/Jeff": "jeff",
+    "/": "project",
+    "/Users/Jeff/.openclaw/workspace": "workspace",
+    "/Users/Jeff/Local Sites/humweb": "humweb",
+    "/Users/Jeff/Workspaces/go-basics": "go-basics",
+    "/Users/Jeff/Repos/bumblebee/bumblebee": "bumblebee",
+    "/Users/Jeff/.openclaw/workspace-jarvis": "workspace-jarvis",
+    "/Users/Jeff/.openclaw/workspaces/main": "main",
+    "/Users/Jeff/.openclaw/workspaces/rocket": "rocket",
+    "/Users/Jeff/.openclaw/.openclaw": "openclaw-1",
+    "/Users/Jeff/.openclaw/.openclaw/workspace/starlord": "starlord",
+    "/Users/Jeff/.openclaw/workspaces/star-lord": "star-lord",
+    "/Users/Jeff/.openclaw/workspaces/trinity": "trinity",
+    "/Users/Jeff/.openclaw/jarvis": "jarvis",
+    "/Users/Jeff/.openclaw/workspaces/jarvis": "jarvis-1",
+    "/Users/Jeff/.openclaw/workspaces/luffy": "luffy",
+    "/Users/Jeff/.clawdbot": "clawdbot",
+    "/Users/Jeff/Agents/Beaker": "beaker",
+    "/Users/Jeff/Smith": "smith",
+    "/Users/Jeff/Agents/Fozzie": "fozzie",
+    "/Users/Jeff/Agents": "agents",
+    "/Users/Jeff/.hermes": "hermes",
+    "/Users/Jeff/Agents/Cookie": "cookie",
+    "/Users/Jeff/Agents/Kermit": "kermit",
+    "/Users/Jeff/.ollama": "ollama"
+  }
+}

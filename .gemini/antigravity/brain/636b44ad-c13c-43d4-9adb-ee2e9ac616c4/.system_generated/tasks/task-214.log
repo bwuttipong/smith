@@ -1,0 +1,27 @@
+│
+◇  Config warnings ────────────────────────────────────────────────────────╮
+│                                                                          │
+│  - plugins.entries.openclaw-web-search: plugin openclaw-web-search:      │
+│    installed plugin package requires compiled runtime output for         │
+│    TypeScript entry index.ts: expected ./dist/index.js,                  │
+│    ./dist/index.mjs, ./dist/index.cjs, index.js, index.mjs, index.cjs.   │
+│    This is a plugin packaging issue, not a local config problem; update  │
+│    or reinstall the plugin after the publisher ships compiled            │
+│    JavaScript, or disable/uninstall the plugin until then. TypeScript    │
+│    source fallback is only supported for source checkouts and local      │
+│    development paths.                                                    │
+│  - plugins.entries.openclaw-web-search: plugin not found:                │
+│    openclaw-web-search (stale config entry ignored; remove it from       │
+│    plugins config)                                                       │
+│  - plugins.allow: plugin not found: openclaw-web-search (stale config    │
+│    entry ignored; remove it from plugins config)                         │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+Routing bindings:
+- smith <- line
+- smith <- discord accountId=default
+- kermit <- discord accountId=kermit
+- cookie <- discord accountId=cookie
+- beaker <- discord accountId=beaker
+- fozzie <- discord accountId=fozzie
+- smith <- telegram
