@@ -8,8 +8,11 @@ __pycache__/
 *.egg-info/
 *.db
 *.sqlite*
+.gemini/
+.agents/
+.claude/
+.cursor/
 .openclaw/
-.gemini/tmp/
 sessions/
 state.db
 state.db-shm
