@@ -35949,3 +35949,971 @@ What's
 2026-06-30 08:47:20,134 INFO run_agent: OpenAI client closed (cache_evict, shared=True, tcp_force_closed=0) thread=agent-cache-idle-agent:main:telegram:dm:8:12901707776 provider=opencode-go base_url=https://opencode.ai/zen/go/v1 model=deepseek-v4-flash
 2026-06-30 08:47:20,134 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
 2026-06-30 10:01:20,260 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-06-30 12:32:40,067 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-06-30 15:56:55,955 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error, scheduling reconnect: httpx.RemoteProtocolError: Server disconnected without sending a response.
+2026-06-30 15:56:55,961 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.RemoteProtocolError: Server disconnected without sending a response.
+2026-06-30 15:57:02,153 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-06-30 16:01:23,819 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-06-30 18:32:41,053 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-06-30 22:01:25,378 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-06-30 22:45:09,211 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-06-30 22:45:09,212 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-06-30 22:45:09,212 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-06-30 22:45:09,263 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-06-30 22:45:09,263 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-06-30 22:45:09,264 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-06-30 22:45:09,264 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-06-30 22:45:09,264 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-06-30 22:45:09,264 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-06-30 22:45:09,265 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-06-30 22:45:09,268 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-06-30 22:45:09,268 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-06-30 22:45:09,270 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-06-30 22:45:09,270 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-06-30 22:45:09,271 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-06-30 22:45:09,272 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-06-30 22:45:09,272 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-06-30 22:45:09,272 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-06-30 22:45:09,273 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-06-30 22:45:09,273 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-06-30 22:45:09,278 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-06-30 22:45:12,462 INFO hermes_cli.backup: State snapshot created: 20260630-154512-pre-update (7 files)
+2026-06-30 22:46:03,941 INFO tui_gateway.ws: ws closed peer=127.0.0.1:54347 reason=client_disconnect(code=1012,reason=) messages=4292 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=0 detached_sessions=0
+2026-06-30 22:46:19,935 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-06-30 22:46:19,937 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-06-30 22:46:19,938 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-06-30 22:46:20,001 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-06-30 22:46:20,003 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-06-30 22:46:20,005 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-06-30 22:46:20,006 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-06-30 22:46:20,008 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-06-30 22:46:20,008 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-06-30 22:46:20,011 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-06-30 22:46:20,043 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-06-30 22:46:20,046 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-06-30 22:46:20,049 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-06-30 22:46:20,050 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-06-30 22:46:20,051 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-06-30 22:46:20,054 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-06-30 22:46:20,056 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-06-30 22:46:20,057 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-06-30 22:46:20,058 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-06-30 22:46:20,060 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-06-30 22:46:20,067 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-06-30 22:46:20,326 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-06-30 22:46:20,374 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-06-30 22:46:20,514 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-06-30 22:46:21,529 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-06-30 22:46:23,546 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-06-30 22:46:27,564 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-06-30 22:46:27,565 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-06-30 22:46:27,566 INFO tools.mcp_tool: MCP: registered 0 tool(s) from 0 server(s) (1 failed)
+2026-06-30 22:46:27,566 INFO tools.mcp_tool:   MCP: 0 tool(s) from 0 server(s) (1 failed)
+2026-06-30 22:47:21,454 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-06-30 23:02:32,597 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-06-30 23:02:32,621 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Working' reply_to_id=None reply_to_text=''
+2026-06-30 23:02:33,280 INFO [20260630_064724_e753ba1d] run_agent: OpenAI client created (agent_init, shared=True) thread=asyncio_3:6383988736 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free
+2026-06-30 23:02:35,983 INFO [20260630_064724_e753ba1d] agent.turn_context: conversation turn: session=20260630_064724_e753ba1d model=nvidia/nemotron-3-ultra-550b-a55b:free provider=openrouter platform=telegram history=59 msg='Working'
+2026-06-30 23:02:35,985 INFO [20260630_064724_e753ba1d] agent.conversation_loop: Stored system prompt for session 20260630_064724_e753ba1d has stale runtime identity; rebuilding for model=nvidia/nemotron-3-ultra-550b-a55b:free provider=openrouter.
+2026-06-30 23:02:36,043 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-2727 (_call):12901707776 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free
+2026-06-30 23:02:36,549 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-06-30 23:02:36,551 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-2727 (_call):12901707776 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free
+2026-06-30 23:02:36,559 INFO [20260630_064724_e753ba1d] agent.credential_pool: credential pool: marking OPENROUTER_API_KEY exhausted (status=401), rotating
+2026-06-30 23:02:36,559 INFO [20260630_064724_e753ba1d] agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-06-30 23:02:36,560 WARNING [20260630_064724_e753ba1d] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=asyncio_3:6383988736 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free summary=HTTP 401: User not found.
+2026-06-30 23:02:36,663 ERROR [20260630_064724_e753ba1d] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-06-30 23:02:36,679 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=4.1s api_calls=1 response=28 chars
+2026-06-30 23:02:36,680 INFO gateway.run: Transient agent failure in session 20260630_064724_e753ba1d — persisting user message so conversation context is preserved on retry.
+2026-06-30 23:02:36,684 INFO gateway.platforms.base: [Telegram] Sending response (114 chars) to 8611951691
+2026-07-01 00:04:08,351 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:telegram:dm:8611951691 (idle=3692s)
+2026-07-01 00:04:08,357 INFO run_agent: OpenAI client closed (cache_evict, shared=True, tcp_force_closed=0) thread=agent-cache-idle-agent:main:telegram:dm:8:12901707776 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free
+2026-07-01 00:04:08,358 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-07-01 04:01:26,757 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 04:04:40,942 INFO gateway.run: Session expiry: 1 sessions to finalize (telegram:1)
+2026-07-01 04:04:40,950 INFO gateway.run: Session expiry done: 1 finalized
+2026-07-01 04:47:22,655 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 06:17:09,105 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (24 chars)
+2026-07-01 06:17:09,118 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Hey dude, how’s traffic?' reply_to_id=None reply_to_text=''
+2026-07-01 06:17:09,244 INFO [20260630_064724_e753ba1d] run_agent: OpenAI client created (agent_init, shared=True) thread=asyncio_2:6232551424 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free
+2026-07-01 06:17:11,919 INFO [20260630_064724_e753ba1d] hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 06:17:13,369 INFO [20260630_064724_e753ba1d] hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 06:17:13,815 INFO [20260701_061709_bf668ce5] agent.turn_context: conversation turn: session=20260701_061709_bf668ce5 model=nvidia/nemotron-3-ultra-550b-a55b:free provider=openrouter platform=telegram history=0 msg='Hey dude, how’s traffic?'
+2026-07-01 06:17:13,863 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-2728 (_call):12901707776 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free
+2026-07-01 06:17:14,311 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-07-01 06:17:14,312 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-2728 (_call):12901707776 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free
+2026-07-01 06:17:14,319 INFO [20260701_061709_bf668ce5] agent.credential_pool: credential pool: marking OPENROUTER_API_KEY exhausted (status=401), rotating
+2026-07-01 06:17:14,319 INFO [20260701_061709_bf668ce5] agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 06:17:14,320 WARNING [20260701_061709_bf668ce5] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=asyncio_2:6232551424 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free summary=HTTP 401: User not found.
+2026-07-01 06:17:14,373 ERROR [20260701_061709_bf668ce5] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-07-01 06:17:14,422 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=5.3s api_calls=1 response=28 chars
+2026-07-01 06:17:14,423 INFO gateway.run: Transient agent failure in session 20260701_061709_bf668ce5 — persisting user message so conversation context is preserved on retry.
+2026-07-01 06:17:14,428 INFO gateway.platforms.base: [Telegram] Sending response (114 chars) to 8611951691
+2026-07-01 07:20:09,862 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:telegram:dm:8611951691 (idle=3776s)
+2026-07-01 07:20:09,867 INFO run_agent: OpenAI client closed (cache_evict, shared=True, tcp_force_closed=0) thread=agent-cache-idle-agent:main:telegram:dm:8:12901707776 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free
+2026-07-01 07:20:09,867 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-07-01 10:47:22,704 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 16:01:29,455 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 16:47:24,033 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 19:28:57,245 INFO hermes_cli.backup: State snapshot created: 20260701-122857-pre-update (7 files)
+2026-07-01 19:29:00,576 INFO tools.lazy_deps: Lazy-installing google-auth==2.55.1 for feature 'provider.vertex'
+2026-07-01 19:29:03,893 INFO tools.lazy_deps: Lazy install complete for feature 'provider.vertex'
+2026-07-01 19:29:03,896 INFO tools.lazy_deps: Lazy-installing mautrix[encryption]==0.21.0 aiosqlite==0.22.1 asyncpg==0.31.0 aiohttp-socks==0.11.0 for feature 'platform.matrix'
+2026-07-01 19:29:19,497 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 19:29:19,498 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 19:29:19,499 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 19:29:19,544 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 19:29:19,546 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 19:29:19,547 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 19:29:19,548 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 19:29:19,549 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 19:29:19,549 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 19:29:19,551 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 19:29:19,559 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 19:29:19,561 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 19:29:19,564 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 19:29:19,565 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 19:29:19,566 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 19:29:19,570 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 19:29:19,571 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 19:29:19,572 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 19:29:19,573 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 19:29:19,575 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 19:29:19,580 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 19:29:19,754 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-07-01 19:29:19,794 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-07-01 19:29:19,875 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 19:29:20,885 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 19:29:22,910 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 19:29:26,934 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 19:29:26,936 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-01 19:29:26,936 INFO tools.mcp_tool: MCP: registered 0 tool(s) from 0 server(s) (1 failed)
+2026-07-01 19:29:26,936 INFO tools.mcp_tool:   MCP: 0 tool(s) from 0 server(s) (1 failed)
+2026-07-01 19:30:20,737 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 20:51:02,499 INFO hermes_cli.backup: State snapshot created: 20260701-135102-pre-update (7 files)
+2026-07-01 20:51:05,761 INFO tools.lazy_deps: Lazy-installing mautrix[encryption]==0.21.0 aiosqlite==0.22.1 asyncpg==0.31.0 aiohttp-socks==0.11.0 for feature 'platform.matrix'
+2026-07-01 20:51:19,561 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 20:51:19,565 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 20:51:19,566 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 20:51:19,623 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 20:51:19,625 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 20:51:19,626 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 20:51:19,628 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 20:51:19,630 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 20:51:19,630 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 20:51:19,632 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 20:51:19,642 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 20:51:19,646 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 20:51:19,649 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 20:51:19,650 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 20:51:19,652 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 20:51:19,657 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 20:51:19,658 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 20:51:19,659 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 20:51:19,660 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 20:51:19,663 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 20:51:19,669 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 20:51:19,880 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-07-01 20:51:19,922 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-07-01 20:51:20,056 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 20:51:21,067 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 20:51:23,084 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 20:51:48,642 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-07-01 20:51:48,672 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='working' reply_to_id=None reply_to_text=''
+2026-07-01 20:51:48,847 INFO [20260630_064724_e753ba1d] run_agent: OpenAI client created (agent_init, shared=True) thread=asyncio_3:6383988736 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 20:51:52,012 INFO [20260630_064724_e753ba1d] hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 20:51:53,087 INFO [20260630_064724_e753ba1d] hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 20:51:53,381 INFO [20260701_061709_bf668ce5] agent.turn_context: conversation turn: session=20260701_061709_bf668ce5 model=mimo-v2-flash provider=xiaomi platform=telegram history=1 msg='working'
+2026-07-01 20:51:53,385 INFO [20260701_061709_bf668ce5] agent.conversation_loop: Stored system prompt for session 20260701_061709_bf668ce5 has stale runtime identity; rebuilding for model=mimo-v2-flash provider=xiaomi.
+2026-07-01 20:51:53,755 INFO [20260701_061709_bf668ce5] agent.conversation_loop: Repaired 1 message-alternation violations before request (session=20260701_061709_bf668ce5)
+2026-07-01 20:51:53,767 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-2729 (_call):12901707776 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 20:51:54,030 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo-v2-flash'}}
+2026-07-01 20:51:54,030 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-2729 (_call):12901707776 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 20:51:54,031 WARNING [20260701_061709_bf668ce5] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=asyncio_3:6383988736 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 400: Param Incorrect
+2026-07-01 20:51:54,083 ERROR [20260701_061709_bf668ce5] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo-v2-flash'}}
+2026-07-01 20:51:54,133 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=5.5s api_calls=1 response=28 chars
+2026-07-01 20:51:54,134 INFO gateway.run: Transient agent failure in session 20260701_061709_bf668ce5 — persisting user message so conversation context is preserved on retry.
+2026-07-01 20:51:54,138 INFO gateway.platforms.base: [Telegram] Sending response (120 chars) to 8611951691
+2026-07-01 20:52:06,174 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 20:52:06,175 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 20:52:06,175 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 20:52:06,223 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 20:52:06,223 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 20:52:06,223 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 20:52:06,224 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 20:52:06,224 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 20:52:06,224 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 20:52:06,225 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 20:52:06,229 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 20:52:06,229 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 20:52:06,231 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 20:52:06,231 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 20:52:06,231 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 20:52:06,232 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 20:52:06,233 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 20:52:06,233 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 20:52:06,234 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 20:52:06,234 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 20:52:06,239 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 20:52:07,211 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 20:52:07,212 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 20:52:07,214 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 20:52:07,319 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:07,320 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:07,633 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 20:52:07,633 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:07,638 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,045 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 20:52:09,057 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 20:52:09,060 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,061 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,062 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,128 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 20:52:09,129 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,136 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,136 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,161 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,162 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,162 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,165 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,166 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,169 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:12,485 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 20:52:13,026 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-01 20:52:13,158 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-3 (process_loop):6280458240 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 20:52:13,312 INFO [20260701_205206_f617e7] agent.turn_context: conversation turn: session=20260701_205206_f617e7 model=mimo-v2-flash provider=xiaomi platform=cli history=0 msg='working'
+2026-07-01 20:52:15,056 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6381416448 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 20:52:15,444 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo-v2-flash'}}
+2026-07-01 20:52:15,445 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-6 (_call):6381416448 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 20:52:15,448 WARNING [20260701_205206_f617e7] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=Thread-5 (run_agent):6364590080 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 400: Param Incorrect
+2026-07-01 20:52:15,493 ERROR [20260701_205206_f617e7] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo-v2-flash'}}
+2026-07-01 20:55:17,495 INFO cli: CLI cleanup calling memory shutdown for session 20260701_205206_f617e7 with 1 message(s)
+2026-07-01 20:56:32,145 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 20:56:32,145 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 20:56:32,146 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 20:56:32,194 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 20:56:32,194 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 20:56:32,195 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 20:56:32,195 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 20:56:32,195 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 20:56:32,195 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 20:56:32,196 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 20:56:32,199 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 20:56:32,199 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 20:56:32,201 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 20:56:32,201 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 20:56:32,201 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 20:56:32,202 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 20:56:32,203 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 20:56:32,203 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 20:56:32,204 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 20:56:32,204 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 20:56:32,209 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 20:56:32,911 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 20:56:32,911 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 20:56:32,912 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 20:56:32,929 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:32,930 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,167 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 20:56:33,168 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,169 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,968 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 20:56:33,989 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 20:56:33,993 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,995 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,995 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,067 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 20:56:34,068 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,073 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,073 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,079 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,079 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,080 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,083 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,083 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,086 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:36,456 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-01 20:56:36,481 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-3 (process_loop):6285045760 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 20:56:36,693 INFO [20260701_205632_ac4297] agent.turn_context: conversation turn: session=20260701_205632_ac4297 model=mimo-v2-flash provider=xiaomi platform=cli history=0 msg='working'
+2026-07-01 20:56:37,220 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6386003968 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 20:56:37,265 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 20:56:37,512 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 20:56:37,513 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-6 (_call):6386003968 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 20:56:37,522 INFO [20260701_205632_ac4297] agent.credential_pool: credential pool: marking XIAOMI_API_KEY exhausted (status=401), rotating
+2026-07-01 20:56:37,523 INFO [20260701_205632_ac4297] agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 20:56:37,523 WARNING [20260701_205632_ac4297] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6369177600 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 401: Invalid API Key
+2026-07-01 20:56:37,563 ERROR [20260701_205632_ac4297] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:01:20,973 INFO cli: CLI cleanup calling memory shutdown for session 20260701_205632_ac4297 with 1 message(s)
+2026-07-01 21:02:16,444 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:02:16,444 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:02:16,445 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:02:16,486 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:02:16,487 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:02:16,487 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:02:16,487 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:02:16,487 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:02:16,487 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:02:16,488 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:02:16,491 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:02:16,491 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:02:16,493 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:02:16,493 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:02:16,493 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:02:16,494 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:02:16,495 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:02:16,495 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:02:16,496 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:02:16,496 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:02:16,500 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:02:17,207 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 21:02:17,208 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 21:02:17,208 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 21:02:17,225 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:17,226 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:17,466 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:02:17,466 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:17,467 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,441 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:02:18,462 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:02:18,465 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,466 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,467 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,531 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:02:18,532 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,536 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,536 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,542 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,542 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,542 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,545 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,546 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,549 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:22,059 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-01 21:02:22,083 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-3 (process_loop):6217871360 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:02:22,216 INFO [20260701_210216_dbc179] agent.turn_context: conversation turn: session=20260701_210216_dbc179 model=mimo-v2-flash provider=xiaomi platform=cli history=0 msg='working'
+2026-07-01 21:02:22,541 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:02:22,696 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6318829568 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:02:22,995 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:02:22,997 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-6 (_call):6318829568 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:02:23,005 INFO [20260701_210216_dbc179] agent.credential_pool: credential pool: marking XIAOMI_API_KEY exhausted (status=401), rotating
+2026-07-01 21:02:23,006 INFO [20260701_210216_dbc179] agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:02:23,007 WARNING [20260701_210216_dbc179] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6302003200 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 401: Invalid API Key
+2026-07-01 21:02:23,048 ERROR [20260701_210216_dbc179] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:02:35,404 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:02:35,405 INFO [20260701_210216_dbc179] agent.turn_context: conversation turn: session=20260701_210216_dbc179 model=mimo-v2-flash provider=xiaomi platform=cli history=1 msg='hi'
+2026-07-01 21:02:35,407 INFO [20260701_210216_dbc179] agent.conversation_loop: Repaired 1 message-alternation violations before request (session=20260701_210216_dbc179)
+2026-07-01 21:02:35,425 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-8 (_call):6302003200 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:02:35,660 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:02:35,662 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-8 (_call):6302003200 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:02:35,663 INFO [20260701_210216_dbc179] agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:02:35,663 WARNING [20260701_210216_dbc179] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-7 (run_agent):6184218624 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 401: Invalid API Key
+2026-07-01 21:02:35,714 ERROR [20260701_210216_dbc179] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:02:40,169 INFO cli: CLI cleanup calling memory shutdown for session 20260701_210216_dbc179 with 1 message(s)
+2026-07-01 21:03:47,931 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:03:47,931 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:03:47,932 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:03:47,982 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:03:47,982 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:03:47,982 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:03:47,983 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:03:47,983 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:03:47,983 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:03:47,984 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:03:47,987 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:03:47,988 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:03:47,989 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:03:47,989 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:03:47,990 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:03:47,991 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:03:47,991 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:03:47,991 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:03:47,992 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:03:47,992 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:03:47,997 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:03:48,742 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 21:03:48,743 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 21:03:48,743 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 21:03:48,746 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:48,747 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:48,981 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:03:48,982 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:48,983 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,832 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:03:51,853 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:03:51,856 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,857 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,857 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,923 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:03:51,924 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,928 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,928 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,934 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,934 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,934 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,937 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,938 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,941 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:55,175 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:03:58,068 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:03:58,081 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:03:58,088 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-01 21:03:58,141 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-3 (process_loop):6206697472 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:03:58,275 INFO [20260701_210348_1d8a35] agent.turn_context: conversation turn: session=20260701_210348_1d8a35 model=mimo-v2-flash provider=xiaomi platform=cli history=0 msg='working'
+2026-07-01 21:03:58,755 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6307655680 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:03:59,111 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo-v2-flash'}}
+2026-07-01 21:03:59,113 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-6 (_call):6307655680 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:03:59,115 WARNING [20260701_210348_1d8a35] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=Thread-5 (run_agent):6290829312 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 400: Param Incorrect
+2026-07-01 21:03:59,163 ERROR [20260701_210348_1d8a35] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo-v2-flash'}}
+2026-07-01 21:04:09,791 INFO cli: CLI cleanup calling memory shutdown for session 20260701_210348_1d8a35 with 1 message(s)
+2026-07-01 21:05:23,583 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:05:23,583 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:05:23,584 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:05:23,631 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:05:23,631 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:05:23,632 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:05:23,632 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:05:23,632 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:05:23,632 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:05:23,633 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:05:23,636 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:05:23,637 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:05:23,638 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:05:23,638 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:05:23,639 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:05:23,639 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:05:23,640 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:05:23,640 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:05:23,641 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:05:23,641 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:05:23,645 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:05:24,408 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 21:05:24,408 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 21:05:24,408 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 21:05:24,412 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:24,413 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:24,647 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:05:24,648 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:24,648 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,143 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:05:26,163 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:05:26,167 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,168 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,168 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,235 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:05:26,237 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,241 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,241 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,247 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,247 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,247 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,250 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,251 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,253 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:30,574 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:05:32,919 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:05:32,929 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:05:32,934 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-01 21:05:32,987 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-3 (process_loop):6254424064 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:05:33,355 INFO [20260701_210524_a795d2] agent.turn_context: conversation turn: session=20260701_210524_a795d2 model=mimo-v2-flash provider=xiaomi platform=cli history=0 msg='working'
+2026-07-01 21:05:33,824 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6355382272 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:05:34,654 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:05:34,656 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-6 (_call):6355382272 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:05:34,658 WARNING [20260701_210524_a795d2] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6338555904 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 401: Invalid API Key
+2026-07-01 21:05:34,706 ERROR [20260701_210524_a795d2] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:05:53,945 INFO cli: CLI cleanup calling memory shutdown for session 20260701_210524_a795d2 with 1 message(s)
+2026-07-01 21:07:17,331 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:07:17,332 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:07:17,332 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:07:17,380 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:07:17,380 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:07:17,380 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:07:17,381 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:07:17,381 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:07:17,381 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:07:17,381 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:07:17,385 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:07:17,385 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:07:17,387 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:07:17,387 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:07:17,387 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:07:17,388 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:07:17,389 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:07:17,389 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:07:17,389 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:07:17,390 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:07:17,394 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:07:18,089 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 21:07:18,090 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 21:07:18,090 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 21:07:18,116 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:18,117 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:18,356 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:07:18,357 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:18,358 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,687 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:07:19,707 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:07:19,710 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,711 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,712 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,776 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:07:19,777 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,781 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,781 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,787 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,787 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,788 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,790 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,791 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,794 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:22,319 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:07:22,332 INFO agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:07:22,339 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-01 21:07:22,367 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-3 (process_loop):6289518592 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-pro
+2026-07-01 21:07:22,778 INFO [20260701_210717_08c3fd] agent.turn_context: conversation turn: session=20260701_210717_08c3fd model=mimo-v2-pro provider=xiaomi platform=cli history=0 msg='working'
+2026-07-01 21:07:23,279 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:07:23,288 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6390476800 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-pro
+2026-07-01 21:07:24,102 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:07:24,103 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-6 (_call):6390476800 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-pro
+2026-07-01 21:07:24,105 WARNING [20260701_210717_08c3fd] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6373650432 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-pro summary=HTTP 401: Invalid API Key
+2026-07-01 21:07:24,153 ERROR [20260701_210717_08c3fd] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:07:32,554 INFO cli: CLI cleanup calling memory shutdown for session 20260701_210717_08c3fd with 1 message(s)
+2026-07-01 21:10:50,657 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:10:50,658 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:10:50,658 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:10:50,707 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:10:50,708 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:10:50,708 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:10:50,708 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:10:50,709 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:10:50,709 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:10:50,709 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:10:50,713 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:10:50,713 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:10:50,714 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:10:50,714 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:10:50,715 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:10:50,716 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:10:50,716 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:10:50,716 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:10:50,717 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:10:50,717 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:10:50,722 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:10:51,484 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 21:10:51,484 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 21:10:51,484 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 21:10:51,487 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:51,488 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:51,743 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:10:51,743 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:51,744 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,335 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:10:53,358 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:10:53,362 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,363 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,363 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,426 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:10:53,427 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,431 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,431 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,437 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,437 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,437 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,440 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,441 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,444 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:55,446 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-01 21:10:55,470 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-3 (process_loop):6214676480 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-pro
+2026-07-01 21:10:55,659 INFO [20260701_211051_61ad97] agent.turn_context: conversation turn: session=20260701_211051_61ad97 model=mimo-v2-pro provider=xiaomi platform=cli history=0 msg='working'
+2026-07-01 21:10:56,212 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6315634688 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-pro
+2026-07-01 21:10:56,509 INFO agent.chat_completion_helpers: Streaming failed before delivery: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:10:56,510 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=1) thread=Thread-6 (_call):6315634688 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-pro
+2026-07-01 21:10:56,515 INFO [20260701_211051_61ad97] agent.credential_pool: credential pool: marking XIAOMI_API_KEY exhausted (status=401), rotating
+2026-07-01 21:10:56,516 INFO [20260701_211051_61ad97] agent.credential_pool: credential pool: no available entries (all exhausted or empty)
+2026-07-01 21:10:56,516 WARNING [20260701_211051_61ad97] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6298808320 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-pro summary=HTTP 401: Invalid API Key
+2026-07-01 21:10:56,554 ERROR [20260701_211051_61ad97] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:10:56,770 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:12:52,267 INFO cli: CLI cleanup calling memory shutdown for session 20260701_211051_61ad97 with 1 message(s)
+2026-07-01 21:14:26,540 INFO gateway.run: Received SIGTERM as a planned gateway stop — exiting cleanly
+2026-07-01 21:14:26,541 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=3.12 parent_cmdline='(unknown)'
+2026-07-01 21:14:26,583 INFO gateway.run: Stopping gateway...
+2026-07-01 21:14:27,747 INFO gateway.run: Sent shutdown notification to home channel telegram:8611951691
+2026-07-01 21:14:27,747 INFO gateway.run: Shutdown phase: notify_active_sessions done at +1.16s
+2026-07-01 21:14:27,751 INFO gateway.run: Shutdown phase: drain done at +1.17s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-07-01 21:14:27,753 INFO run_agent: OpenAI client closed (agent_close, shared=True, tcp_force_closed=0) thread=MainThread:8300142208 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash
+2026-07-01 21:14:31,337 INFO telegram.ext.Application: Application is stopping. This might take a moment.
+2026-07-01 21:14:31,338 INFO telegram.ext.Application: Application.stop() complete
+2026-07-01 21:14:31,346 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Disconnected from Telegram
+2026-07-01 21:14:31,346 INFO gateway.run: ✓ telegram disconnected (3.59s)
+2026-07-01 21:14:31,347 INFO gateway.run: Shutdown phase: all adapters disconnected at +4.76s
+2026-07-01 21:14:31,349 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +4.77s
+2026-07-01 21:14:31,384 INFO gateway.run: Shutdown phase: SessionDB close done at +4.80s
+2026-07-01 21:14:31,388 INFO gateway.run: Gateway stopped (total teardown 4.81s)
+2026-07-01 21:14:31,389 INFO gateway.run: Gateway housekeeping stopped
+2026-07-01 21:14:33,806 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:14:33,807 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:14:33,807 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:14:33,833 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:14:33,833 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:14:33,833 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:14:33,834 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:14:33,834 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:14:33,834 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:14:33,835 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:14:33,836 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:14:33,836 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:14:33,838 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:14:33,838 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:14:33,838 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:14:33,839 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:14:33,840 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:14:33,840 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:14:33,840 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:14:33,841 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:14:33,842 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:14:34,017 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-01 21:14:34,017 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-01 21:14:35,321 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 21:14:35,322 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 21:14:35,322 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 21:14:35,322 INFO gateway.run: Starting Hermes Gateway...
+2026-07-01 21:14:35,322 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-01 21:14:35,324 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-01 21:14:35,324 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-01 21:14:35,325 INFO gateway.run: Active profile: custom
+2026-07-01 21:14:35,331 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-01 21:14:35,345 INFO gateway.run: Connecting to telegram...
+2026-07-01 21:14:35,346 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-01 21:14:35,530 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-07-01 21:14:35,546 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-07-01 21:14:35,579 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-01 21:14:36,167 INFO telegram.ext.Application: Application started
+2026-07-01 21:14:36,559 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-01 21:14:36,710 INFO gateway.run: ✓ telegram connected
+2026-07-01 21:14:36,710 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-01 21:14:36,713 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-01 21:14:37,081 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (52 cmds)
+2026-07-01 21:14:37,448 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (52 cmds)
+2026-07-01 21:14:37,718 INFO gateway.run: Press Ctrl+C to stop
+2026-07-01 21:14:37,745 INFO cron.scheduler_provider: In-process cron scheduler started (interval=60s)
+2026-07-01 21:14:37,750 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-07-01 21:14:37,767 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/.hermes/kanban/.dispatcher.lock)
+2026-07-01 21:14:37,819 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (52 cmds)
+2026-07-01 21:14:42,767 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-07-01 21:32:23,096 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:32:23,097 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:32:23,097 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:32:23,147 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:32:23,147 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:32:23,147 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:32:23,148 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:32:23,148 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:32:23,148 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:32:23,149 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:32:23,152 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:32:23,153 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:32:23,154 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:32:23,154 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:32:23,155 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:32:23,156 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:32:23,156 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:32:23,156 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:32:23,157 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:32:23,157 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:32:23,162 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:32:23,850 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 21:32:23,851 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 21:32:23,851 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 21:32:25,833 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:25,837 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:26,087 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:32:26,087 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:26,088 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,418 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:32:27,439 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:32:27,443 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,444 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,444 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,513 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:32:27,514 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,518 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,518 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,524 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,524 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,525 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,527 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,528 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,531 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:39:46,548 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:39:46,548 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:39:46,549 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:39:46,597 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:39:46,598 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:39:46,598 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:39:46,598 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:39:46,599 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:39:46,599 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:39:46,599 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:39:46,603 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:39:46,603 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:39:46,605 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:39:46,605 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:39:46,605 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:39:46,606 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:39:46,607 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:39:46,607 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:39:46,607 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:39:46,608 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:39:46,612 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:39:58,271 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:40:01,422 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:40:01,422 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:40:01,422 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:40:01,448 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:40:01,448 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:40:01,449 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:40:01,449 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:40:01,449 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:40:01,449 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:40:01,450 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:40:01,451 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:40:01,451 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:40:01,451 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:40:01,452 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:40:01,452 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:40:01,452 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:40:01,452 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:40:01,452 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:40:01,453 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:40:01,453 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:40:01,454 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:40:01,456 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,458 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,458 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,458 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,459 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,461 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,462 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,592 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:40:02,611 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:40:02,613 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,614 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,614 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,633 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:40:02,638 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,638 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,639 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,643 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:41:53,657 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:41:53,658 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:41:53,659 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:41:53,688 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:41:53,689 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:41:53,689 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:41:53,689 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:41:53,690 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:41:53,690 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:41:53,690 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:41:53,691 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:41:53,691 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:41:53,693 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:41:53,693 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:41:53,694 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:41:53,694 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:41:53,695 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:41:53,704 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:41:53,705 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:41:53,705 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:41:53,706 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:51:20,608 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-01 21:51:20,609 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=no parent_pid=98186 parent_name=? loadavg_1m=6.67 parent_cmdline='(unknown)'
+2026-07-01 21:51:20,616 INFO gateway.run: Stopping gateway...
+2026-07-01 21:51:21,855 INFO gateway.run: Sent shutdown notification to home channel telegram:8611951691
+2026-07-01 21:51:21,856 INFO gateway.run: Shutdown phase: notify_active_sessions done at +1.24s
+2026-07-01 21:51:21,860 INFO gateway.run: Shutdown phase: drain done at +1.24s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-07-01 21:51:25,454 INFO telegram.ext.Application: Application is stopping. This might take a moment.
+2026-07-01 21:51:25,455 INFO telegram.ext.Application: Application.stop() complete
+2026-07-01 21:51:25,460 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Disconnected from Telegram
+2026-07-01 21:51:25,461 INFO gateway.run: ✓ telegram disconnected (3.60s)
+2026-07-01 21:51:25,462 INFO gateway.run: Shutdown phase: all adapters disconnected at +4.85s
+2026-07-01 21:51:25,525 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +4.91s
+2026-07-01 21:51:25,527 INFO gateway.run: Shutdown phase: SessionDB close done at +4.91s
+2026-07-01 21:51:25,528 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-01 21:51:25,529 INFO gateway.run: Gateway stopped (total teardown 4.91s)
+2026-07-01 21:51:25,529 INFO gateway.run: Gateway housekeeping stopped
+2026-07-01 21:51:25,550 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+2026-07-01 21:51:26,331 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:51:26,332 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:51:26,332 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:51:26,380 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:51:26,381 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:51:26,384 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:51:26,384 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:51:26,385 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:51:26,385 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:51:26,385 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:51:26,389 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:51:26,390 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:51:26,391 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:51:26,391 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:51:26,392 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:51:26,393 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:51:26,393 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:51:26,393 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:51:26,394 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:51:26,394 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:51:26,399 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:51:26,712 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-01 21:51:26,712 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-01 21:51:27,975 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 21:51:27,975 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 21:51:27,975 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 21:51:27,976 INFO gateway.run: Starting Hermes Gateway...
+2026-07-01 21:51:27,976 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-01 21:51:27,976 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-01 21:51:27,976 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-01 21:51:27,977 INFO gateway.run: Active profile: custom
+2026-07-01 21:51:27,981 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-01 21:51:27,994 INFO gateway.run: Connecting to telegram...
+2026-07-01 21:51:27,995 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-01 21:51:28,184 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-07-01 21:51:28,200 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-07-01 21:51:28,233 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-01 21:51:28,817 INFO telegram.ext.Application: Application started
+2026-07-01 21:51:29,213 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-01 21:51:29,333 INFO gateway.run: ✓ telegram connected
+2026-07-01 21:51:29,333 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-01 21:51:29,335 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-01 21:51:29,717 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (52 cmds)
+2026-07-01 21:51:30,113 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (52 cmds)
+2026-07-01 21:51:30,341 INFO gateway.run: Press Ctrl+C to stop
+2026-07-01 21:51:30,376 INFO cron.scheduler_provider: In-process cron scheduler started (interval=60s)
+2026-07-01 21:51:30,378 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-07-01 21:51:30,398 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/.hermes/kanban/.dispatcher.lock)
+2026-07-01 21:51:30,666 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (52 cmds)
+2026-07-01 21:51:35,399 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-07-01 21:52:08,490 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:52:33,809 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:52:35,117 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:52:35,137 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:53:11,685 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-01 21:53:11,686 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-01 21:53:11,686 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-01 21:53:11,735 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-01 21:53:11,735 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-01 21:53:11,735 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-01 21:53:11,736 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-01 21:53:11,736 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-01 21:53:11,736 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-01 21:53:11,736 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-01 21:53:11,740 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-01 21:53:11,740 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-01 21:53:11,742 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-01 21:53:11,742 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-01 21:53:11,742 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-01 21:53:11,743 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-01 21:53:11,744 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-01 21:53:11,744 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-01 21:53:11,744 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-01 21:53:11,745 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-01 21:53:11,749 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-01 21:53:12,399 INFO tools.mcp_tool: MCP server 'qmd' (stdio): registered 6 tool(s): mcp_qmd_query, mcp_qmd_get, mcp_qmd_multi_get, mcp_qmd_status, mcp_qmd_list_resources, mcp_qmd_read_resource
+2026-07-01 21:53:12,401 INFO tools.mcp_tool: MCP: registered 6 tool(s) from 1 server(s)
+2026-07-01 21:53:12,401 INFO tools.mcp_tool:   MCP: 6 tool(s) from 1 server(s)
+2026-07-01 21:53:12,469 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:12,471 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:12,707 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:53:12,708 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:12,709 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,237 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:53:14,258 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:53:14,263 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,264 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,265 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,328 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:53:14,329 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,719 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,720 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,731 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,732 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,732 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,737 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,738 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,743 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:21,265 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:53:23,046 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-01 21:53:23,096 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=Thread-3 (process_loop):6222114816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 21:53:23,230 INFO [20260701_215312_88a618] agent.turn_context: conversation turn: session=20260701_215312_88a618 model=mimo-v2.5-pro provider=xiaomi platform=cli history=0 msg='working'
+2026-07-01 21:53:23,713 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6323073024 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 21:53:27,306 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-6 (_call):6323073024 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 21:53:27,307 INFO [20260701_215312_88a618] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=24439 out=69 total=24508 latency=3.6s
+2026-07-01 21:53:27,453 INFO [20260701_215312_88a618] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=1/90 budget=1/90 tool_turns=0 last_msg_role=assistant response_len=32 session=20260701_215312_88a618
+2026-07-01 21:53:27,665 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider xiaomi (mimo-v2.5-pro)
+2026-07-01 21:53:27,666 INFO agent.auxiliary_client: Auxiliary title_generation: using auto (mimo-v2.5-pro) at https://token-plan-sgp.xiaomimimo.com/v1/
+2026-07-01 21:54:13,099 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8611951691 → 1 (session_reset)
+2026-07-01 21:54:17,529 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-07-01 21:54:17,536 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='working' reply_to_id=None reply_to_text=''
+2026-07-01 21:54:17,561 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-01 21:54:18,224 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_0:6314733568 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 21:54:18,228 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:18,229 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:18,236 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:54:18,236 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:18,238 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:19,090 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:54:19,111 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-01 21:54:19,115 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:19,117 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:19,117 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:19,145 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-01 21:54:19,147 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:19,284 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=0 msg='working'
+2026-07-01 21:54:19,766 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-1 (_call):6331559936 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 21:54:24,457 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-1 (_call):6331559936 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 21:54:24,459 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=27801 out=95 total=27896 latency=4.7s cache=6144/27801 (22%)
+2026-07-01 21:54:24,627 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=1/90 budget=1/90 tool_turns=0 last_msg_role=assistant response_len=56 session=20260701_215413_22f4151a
+2026-07-01 21:54:24,651 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider xiaomi (mimo-v2.5-pro)
+2026-07-01 21:54:24,652 INFO agent.auxiliary_client: Auxiliary title_generation: using auto (mimo-v2.5-pro) at https://token-plan-sgp.xiaomimimo.com/v1/
+2026-07-01 21:54:25,713 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 21:54:25,714 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=8.2s api_calls=1 response=56 chars
+2026-07-01 21:59:28,724 INFO cli: CLI cleanup calling memory shutdown for session 20260701_215312_88a618 with 2 message(s)
+2026-07-01 22:49:35,253 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (48 chars)
+2026-07-01 22:49:35,267 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Did you pull anything from GitHub, you workspace' reply_to_id=None reply_to_text=''
+2026-07-01 22:49:35,323 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=2 msg='Did you pull anything from GitHub, you workspace'
+2026-07-01 22:49:35,342 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-2 (_call):6331559936 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:49:40,551 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-2 (_call):6331559936 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:49:40,553 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #2: model=mimo-v2.5-pro provider=xiaomi in=27912 out=123 total=28035 latency=5.2s cache=27776/27912 (100%)
+2026-07-01 22:49:40,762 INFO [20260701_215413_22f4151a] tools.terminal_tool: Creating new local environment for task default...
+2026-07-01 22:49:41,051 INFO [20260701_215413_22f4151a] tools.environments.base: Session snapshot created (session=5fba1a61325b, cwd=/Users/Jeff/Smith)
+2026-07-01 22:49:41,051 INFO [20260701_215413_22f4151a] tools.terminal_tool: local environment ready for task default
+2026-07-01 22:49:41,433 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.68s, 4564 chars)
+2026-07-01 22:49:41,442 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:49:45,532 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-6 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:49:45,534 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #3: model=mimo-v2.5-pro provider=xiaomi in=29820 out=101 total=29921 latency=4.1s cache=27904/29820 (94%)
+2026-07-01 22:49:51,758 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (6.22s, 650 chars)
+2026-07-01 22:49:51,780 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-8 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:49:56,391 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-8 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:49:56,392 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #4: model=mimo-v2.5-pro provider=xiaomi in=30145 out=93 total=30238 latency=4.6s cache=29760/30145 (99%)
+2026-07-01 22:49:57,701 WARNING [20260701_215413_22f4151a] agent.tool_executor: Tool terminal returned error (1.30s): {"output": "From https://github.com/bwuttipong/smith\n * branch              master     -> FETCH_HEAD\nerror: The following untracked working tree files would be overwritten by merge:\n\tmemory/2026-0
+2026-07-01 22:49:57,727 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-10 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:50:02,771 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-10 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:50:02,773 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #5: model=mimo-v2.5-pro provider=xiaomi in=30378 out=165 total=30543 latency=5.1s cache=30080/30378 (99%)
+2026-07-01 22:50:02,885 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.11s, 123 chars)
+2026-07-01 22:50:02,896 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-12 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:50:08,653 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-12 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:50:08,654 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #6: model=mimo-v2.5-pro provider=xiaomi in=30614 out=84 total=30698 latency=5.8s cache=30336/30614 (99%)
+2026-07-01 22:50:08,772 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.11s, 1349 chars)
+2026-07-01 22:50:08,783 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-14 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:50:13,848 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-14 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:50:13,850 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #7: model=mimo-v2.5-pro provider=xiaomi in=31079 out=127 total=31206 latency=5.1s cache=30592/31079 (98%)
+2026-07-01 22:50:15,157 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (1.30s, 1487 chars)
+2026-07-01 22:50:15,166 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-16 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:50:24,543 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-16 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:50:24,545 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #8: model=mimo-v2.5-pro provider=xiaomi in=31718 out=223 total=31941 latency=9.4s cache=31040/31718 (98%)
+2026-07-01 22:50:24,557 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=7/90 budget=7/90 tool_turns=6 last_msg_role=assistant response_len=650 session=20260701_215413_22f4151a
+2026-07-01 22:50:25,571 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 22:50:25,573 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=50.3s api_calls=7 response=650 chars
+2026-07-01 22:51:37,423 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (17 chars)
+2026-07-01 22:51:37,437 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Then , good night' reply_to_id=None reply_to_text=''
+2026-07-01 22:51:37,689 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=16 msg='Then , good night'
+2026-07-01 22:51:37,701 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-17 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:51:44,891 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-17 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:51:44,892 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #9: model=mimo-v2.5-pro provider=xiaomi in=31952 out=144 total=32096 latency=7.2s cache=31680/31952 (99%)

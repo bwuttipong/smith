@@ -10679,3 +10679,110 @@
 2026-06-30 07:44:36,245 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=8.0s api_calls=1 response=478 chars
 2026-06-30 08:47:20,128 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:telegram:dm:8611951691 (idle=3765s)
 2026-06-30 08:47:20,134 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-06-30 15:56:55,955 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error, scheduling reconnect: httpx.RemoteProtocolError: Server disconnected without sending a response.
+2026-06-30 15:56:55,961 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.RemoteProtocolError: Server disconnected without sending a response.
+2026-06-30 15:57:02,153 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-06-30 23:02:32,597 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-06-30 23:02:32,621 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Working' reply_to_id=None reply_to_text=''
+2026-06-30 23:02:36,679 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=4.1s api_calls=1 response=28 chars
+2026-06-30 23:02:36,680 INFO gateway.run: Transient agent failure in session 20260630_064724_e753ba1d — persisting user message so conversation context is preserved on retry.
+2026-06-30 23:02:36,684 INFO gateway.platforms.base: [Telegram] Sending response (114 chars) to 8611951691
+2026-07-01 00:04:08,351 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:telegram:dm:8611951691 (idle=3692s)
+2026-07-01 00:04:08,358 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-07-01 04:04:40,942 INFO gateway.run: Session expiry: 1 sessions to finalize (telegram:1)
+2026-07-01 04:04:40,950 INFO gateway.run: Session expiry done: 1 finalized
+2026-07-01 06:17:09,105 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (24 chars)
+2026-07-01 06:17:09,118 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Hey dude, how’s traffic?' reply_to_id=None reply_to_text=''
+2026-07-01 06:17:14,422 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=5.3s api_calls=1 response=28 chars
+2026-07-01 06:17:14,423 INFO gateway.run: Transient agent failure in session 20260701_061709_bf668ce5 — persisting user message so conversation context is preserved on retry.
+2026-07-01 06:17:14,428 INFO gateway.platforms.base: [Telegram] Sending response (114 chars) to 8611951691
+2026-07-01 07:20:09,862 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:telegram:dm:8611951691 (idle=3776s)
+2026-07-01 07:20:09,867 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-07-01 20:51:48,642 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-07-01 20:51:48,672 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='working' reply_to_id=None reply_to_text=''
+2026-07-01 20:51:54,133 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=5.5s api_calls=1 response=28 chars
+2026-07-01 20:51:54,134 INFO gateway.run: Transient agent failure in session 20260701_061709_bf668ce5 — persisting user message so conversation context is preserved on retry.
+2026-07-01 20:51:54,138 INFO gateway.platforms.base: [Telegram] Sending response (120 chars) to 8611951691
+2026-07-01 21:14:26,540 INFO gateway.run: Received SIGTERM as a planned gateway stop — exiting cleanly
+2026-07-01 21:14:26,541 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=3.12 parent_cmdline='(unknown)'
+2026-07-01 21:14:26,583 INFO gateway.run: Stopping gateway...
+2026-07-01 21:14:27,747 INFO gateway.run: Sent shutdown notification to home channel telegram:8611951691
+2026-07-01 21:14:27,747 INFO gateway.run: Shutdown phase: notify_active_sessions done at +1.16s
+2026-07-01 21:14:27,751 INFO gateway.run: Shutdown phase: drain done at +1.17s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-07-01 21:14:31,346 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Disconnected from Telegram
+2026-07-01 21:14:31,346 INFO gateway.run: ✓ telegram disconnected (3.59s)
+2026-07-01 21:14:31,347 INFO gateway.run: Shutdown phase: all adapters disconnected at +4.76s
+2026-07-01 21:14:31,349 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +4.77s
+2026-07-01 21:14:31,384 INFO gateway.run: Shutdown phase: SessionDB close done at +4.80s
+2026-07-01 21:14:31,388 INFO gateway.run: Gateway stopped (total teardown 4.81s)
+2026-07-01 21:14:31,389 INFO gateway.run: Gateway housekeeping stopped
+2026-07-01 21:14:35,322 INFO gateway.run: Starting Hermes Gateway...
+2026-07-01 21:14:35,322 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-01 21:14:35,324 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-01 21:14:35,324 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-01 21:14:35,325 INFO gateway.run: Active profile: custom
+2026-07-01 21:14:35,331 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-01 21:14:35,345 INFO gateway.run: Connecting to telegram...
+2026-07-01 21:14:35,346 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-01 21:14:35,530 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-07-01 21:14:35,546 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-07-01 21:14:35,579 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-01 21:14:36,559 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-01 21:14:36,710 INFO gateway.run: ✓ telegram connected
+2026-07-01 21:14:36,710 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-01 21:14:36,713 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-01 21:14:37,081 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (52 cmds)
+2026-07-01 21:14:37,448 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (52 cmds)
+2026-07-01 21:14:37,718 INFO gateway.run: Press Ctrl+C to stop
+2026-07-01 21:14:37,750 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-07-01 21:14:37,767 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/.hermes/kanban/.dispatcher.lock)
+2026-07-01 21:14:37,819 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (52 cmds)
+2026-07-01 21:14:42,767 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-07-01 21:51:20,608 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-01 21:51:20,609 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=no parent_pid=98186 parent_name=? loadavg_1m=6.67 parent_cmdline='(unknown)'
+2026-07-01 21:51:20,616 INFO gateway.run: Stopping gateway...
+2026-07-01 21:51:21,855 INFO gateway.run: Sent shutdown notification to home channel telegram:8611951691
+2026-07-01 21:51:21,856 INFO gateway.run: Shutdown phase: notify_active_sessions done at +1.24s
+2026-07-01 21:51:21,860 INFO gateway.run: Shutdown phase: drain done at +1.24s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-07-01 21:51:25,460 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Disconnected from Telegram
+2026-07-01 21:51:25,461 INFO gateway.run: ✓ telegram disconnected (3.60s)
+2026-07-01 21:51:25,462 INFO gateway.run: Shutdown phase: all adapters disconnected at +4.85s
+2026-07-01 21:51:25,525 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +4.91s
+2026-07-01 21:51:25,527 INFO gateway.run: Shutdown phase: SessionDB close done at +4.91s
+2026-07-01 21:51:25,528 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-01 21:51:25,529 INFO gateway.run: Gateway stopped (total teardown 4.91s)
+2026-07-01 21:51:25,529 INFO gateway.run: Gateway housekeeping stopped
+2026-07-01 21:51:25,550 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+2026-07-01 21:51:27,976 INFO gateway.run: Starting Hermes Gateway...
+2026-07-01 21:51:27,976 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-01 21:51:27,976 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-01 21:51:27,976 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-01 21:51:27,977 INFO gateway.run: Active profile: custom
+2026-07-01 21:51:27,981 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-01 21:51:27,994 INFO gateway.run: Connecting to telegram...
+2026-07-01 21:51:27,995 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-01 21:51:28,184 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-07-01 21:51:28,200 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-07-01 21:51:28,233 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-01 21:51:29,213 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-01 21:51:29,333 INFO gateway.run: ✓ telegram connected
+2026-07-01 21:51:29,333 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-01 21:51:29,335 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-01 21:51:29,717 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (52 cmds)
+2026-07-01 21:51:30,113 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (52 cmds)
+2026-07-01 21:51:30,341 INFO gateway.run: Press Ctrl+C to stop
+2026-07-01 21:51:30,378 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-07-01 21:51:30,398 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/.hermes/kanban/.dispatcher.lock)
+2026-07-01 21:51:30,666 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (52 cmds)
+2026-07-01 21:51:35,399 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-07-01 21:54:13,099 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8611951691 → 1 (session_reset)
+2026-07-01 21:54:17,529 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-07-01 21:54:17,536 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='working' reply_to_id=None reply_to_text=''
+2026-07-01 21:54:25,713 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 21:54:25,714 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=8.2s api_calls=1 response=56 chars
+2026-07-01 22:49:35,253 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (48 chars)
+2026-07-01 22:49:35,267 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Did you pull anything from GitHub, you workspace' reply_to_id=None reply_to_text=''
+2026-07-01 22:50:25,571 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 22:50:25,573 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=50.3s api_calls=7 response=650 chars
+2026-07-01 22:51:37,423 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (17 chars)
+2026-07-01 22:51:37,437 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Then , good night' reply_to_id=None reply_to_text=''

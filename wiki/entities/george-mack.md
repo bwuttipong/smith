@@ -1,4 +1,6 @@
 ---
+id: entities/george-mack
+pageType: entity
 title: George Mack
 created: 2026-06-28
 updated: 2026-06-28
@@ -10,7 +12,7 @@ confidence: medium
 
 # George Mack
 
-Writer and creator of the "High Agency in 30 Minutes" essay published at [[raw/articles/high-agency-in-30-minutes.md]].
+Writer and creator of the "High Agency in 30 Minutes" essay published at [highagency.com](https://www.highagency.com/).
 
 - Published at [highagency.com](https://www.highagency.com/)
 - Active on X: @george__mack

@@ -1,0 +1,143 @@
+{
+  "generatedBy": "openclaw-plugin-model-catalog-v1",
+  "providers": {
+    "xiaomi": {
+      "baseUrl": "https://api.xiaomimimo.com/v1",
+      "models": [
+        {
+          "id": "mimo-v2-flash",
+          "name": "Xiaomi MiMo V2 Flash",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 8192
+        },
+        {
+          "id": "mimo-v2-pro",
+          "name": "Xiaomi MiMo V2 Pro",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 32000
+        },
+        {
+          "id": "mimo-v2-omni",
+          "name": "Xiaomi MiMo V2 Omni",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 262144,
+          "maxTokens": 32000
+        }
+      ],
+      "apiKey": "XIAOMI_API_KEY",
+      "api": "openai-completions"
+    },
+    "xiaomi-token-plan": {
+      "baseUrl": "https://token-plan-sgp.xiaomimimo.com/v1",
+      "models": [
+        {
+          "id": "mimo-v2.5-pro",
+          "name": "Xiaomi MiMo V2.5 Pro",
+          "reasoning": true,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 1,
+            "output": 3,
+            "cacheRead": 0.2,
+            "cacheWrite": 0,
+            "tieredPricing": [
+              {
+                "input": 1,
+                "output": 3,
+                "cacheRead": 0.2,
+                "cacheWrite": 0,
+                "range": [
+                  0,
+                  256000
+                ]
+              },
+              {
+                "input": 1,
+                "output": 3,
+                "cacheRead": 0.4,
+                "cacheWrite": 0,
+                "range": [
+                  256000
+                ]
+              }
+            ]
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 32000
+        },
+        {
+          "id": "mimo-v2.5",
+          "name": "Xiaomi MiMo V2.5",
+          "reasoning": true,
+          "input": [
+            "text",
+            "image"
+          ],
+          "cost": {
+            "input": 0.4,
+            "output": 2,
+            "cacheRead": 0.08,
+            "cacheWrite": 0,
+            "tieredPricing": [
+              {
+                "input": 0.4,
+                "output": 2,
+                "cacheRead": 0.08,
+                "cacheWrite": 0,
+                "range": [
+                  0,
+                  256000
+                ]
+              },
+              {
+                "input": 0.4,
+                "output": 2,
+                "cacheRead": 0.16,
+                "cacheWrite": 0,
+                "range": [
+                  256000
+                ]
+              }
+            ]
+          },
+          "contextWindow": 1048576,
+          "maxTokens": 32000
+        }
+      ],
+      "apiKey": "tp-spqk7eh3616lc3wazp7v8s6n8w9rbllxcaxbxb1n00bmej7q",
+      "api": "openai-completions"
+    }
+  }
+}

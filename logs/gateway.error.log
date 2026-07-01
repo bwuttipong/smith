@@ -7377,3 +7377,19 @@ WARNING agent.tool_executor: Tool read_file returned error (0.00s): {"error": "B
 WARNING tools.skills_tool: Skill name collision for 'commute-traffic': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/openclaw-commute-traffic/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/openclaw-commute-traffic/SKILL.md
 WARNING agent.tool_executor: Tool skill_view returned error (0.11s): {"success": false, "error": "Ambiguous skill name 'commute-traffic': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "
 WARNING agent.tool_executor: Tool execute_code returned error (21.32s): {"status": "error", "error": "BLOCKED: execute_code script denied by user. The user has NOT consented to running this code. Do NOT retry, do NOT rephrase the script, and do NOT attempt the same outcom
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+WARNING agent.tool_executor: Tool terminal returned error (1.30s): {"output": "From https://github.com/bwuttipong/smith\n * branch              master     -> FETCH_HEAD\nerror: The following untracked working tree files would be overwritten by merge:\n\tmemory/2026-0

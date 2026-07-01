@@ -34,7 +34,7 @@ updatedAt: 2026-05-05T09:56:36.602Z
 user: Set up yourself no mention on this channel 1487738757804327024 tho
 assistant: 
 
-[[reply_to_current]]
+
 
 Not totally sure what you mean — a few possibilities:
 

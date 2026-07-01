@@ -6445,3 +6445,217 @@ openai.AuthenticationError: Error code: 401 - {'error': {'message': 'User not fo
 2026-06-30 06:58:33,904 WARNING [20260630_064724_e753ba1d] agent.tool_executor: Tool terminal returned error (0.16s): {"output": "/bin/bash: eval: line 2: syntax error near unexpected token `)'\n/bin/bash: eval: line 2: `cd ~/Smith/agent-reach && export PATH=\"$HOME/.local/bin:$PATH\" && export TWITTER_AUTH_TOKEN=***
 2026-06-30 06:58:35,143 WARNING [20260630_064724_e753ba1d] agent.tool_executor: Tool terminal returned error (0.09s): {"output": "/bin/bash: eval: line 2: syntax error near unexpected token `)'\n/bin/bash: eval: line 2: `cd ~/Smith/agent-reach && export PATH=\"$HOME/.local/bin:$PATH\" && export TWITTER_AUTH_TOKEN=***
 2026-06-30 07:00:31,670 WARNING [20260630_064724_e753ba1d] agent.tool_executor: Tool terminal returned error (0.29s): {"output": "Usage: twitter search [OPTIONS] [QUERY]\nTry 'twitter search --help' for help.\n\nError: No such option '--compact'.", "exit_code": 2, "error": null}
+2026-06-30 15:56:55,955 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error, scheduling reconnect: httpx.RemoteProtocolError: Server disconnected without sending a response.
+2026-06-30 15:56:55,961 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.RemoteProtocolError: Server disconnected without sending a response.
+2026-06-30 22:46:20,514 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-06-30 22:46:21,529 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-06-30 22:46:23,546 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-06-30 22:46:27,564 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-06-30 22:46:27,565 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-06-30 23:02:36,560 WARNING [20260630_064724_e753ba1d] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=asyncio_3:6383988736 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free summary=HTTP 401: User not found.
+2026-06-30 23:02:36,663 ERROR [20260630_064724_e753ba1d] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-07-01 06:17:14,320 WARNING [20260701_061709_bf668ce5] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=asyncio_2:6232551424 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free summary=HTTP 401: User not found.
+2026-07-01 06:17:14,373 ERROR [20260701_061709_bf668ce5] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-07-01 19:29:19,875 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 19:29:20,885 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 19:29:22,910 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 19:29:26,934 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 19:29:26,936 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-01 20:51:20,056 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 20:51:21,067 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 20:51:23,084 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-01 20:51:54,031 WARNING [20260701_061709_bf668ce5] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=asyncio_3:6383988736 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 400: Param Incorrect
+2026-07-01 20:51:54,083 ERROR [20260701_061709_bf668ce5] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo-v2-flash'}}
+2026-07-01 20:52:07,319 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:07,320 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:07,633 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:07,638 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,060 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,061 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,062 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,129 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,136 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,136 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,161 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,162 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,162 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,165 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,166 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:09,169 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:52:15,448 WARNING [20260701_205206_f617e7] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=Thread-5 (run_agent):6364590080 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 400: Param Incorrect
+2026-07-01 20:52:15,493 ERROR [20260701_205206_f617e7] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo-v2-flash'}}
+2026-07-01 20:56:32,929 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:32,930 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,168 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,169 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,993 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,995 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:33,995 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,068 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,073 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,073 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,079 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,079 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,080 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,083 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,083 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:34,086 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 20:56:37,523 WARNING [20260701_205632_ac4297] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6369177600 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 401: Invalid API Key
+2026-07-01 20:56:37,563 ERROR [20260701_205632_ac4297] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:02:17,225 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:17,226 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:17,466 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:17,467 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,465 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,466 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,467 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,532 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,536 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,536 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,542 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,542 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,542 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,545 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,546 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:18,549 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:02:23,007 WARNING [20260701_210216_dbc179] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6302003200 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 401: Invalid API Key
+2026-07-01 21:02:23,048 ERROR [20260701_210216_dbc179] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:02:35,663 WARNING [20260701_210216_dbc179] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-7 (run_agent):6184218624 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 401: Invalid API Key
+2026-07-01 21:02:35,714 ERROR [20260701_210216_dbc179] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:03:48,746 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:48,747 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:48,982 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:48,983 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,856 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,857 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,857 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,924 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,928 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,928 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,934 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,934 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,934 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,937 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,938 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:51,941 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:03:59,115 WARNING [20260701_210348_1d8a35] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=Thread-5 (run_agent):6290829312 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 400: Param Incorrect
+2026-07-01 21:03:59,163 ERROR [20260701_210348_1d8a35] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model mimo-v2-flash'}}
+2026-07-01 21:05:24,412 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:24,413 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:24,648 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:24,648 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,167 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,168 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,168 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,237 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,241 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,241 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,247 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,247 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,247 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,250 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,251 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:26,253 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:05:34,658 WARNING [20260701_210524_a795d2] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6338555904 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-flash summary=HTTP 401: Invalid API Key
+2026-07-01 21:05:34,706 ERROR [20260701_210524_a795d2] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:07:18,116 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:18,117 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:18,357 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:18,358 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,710 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,711 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,712 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,777 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,781 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,781 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,787 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,787 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,788 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,790 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,791 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:19,794 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:07:24,105 WARNING [20260701_210717_08c3fd] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6373650432 provider=xiaomi base_url=https://token-plan-cn.xiaomimimo.com/v1 model=mimo-v2-pro summary=HTTP 401: Invalid API Key
+2026-07-01 21:07:24,153 ERROR [20260701_210717_08c3fd] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:10:51,487 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:51,488 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:51,743 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:51,744 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,362 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,363 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,363 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,427 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,431 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,431 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,437 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,437 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,437 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,440 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,441 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:53,444 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:10:56,516 WARNING [20260701_211051_61ad97] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-5 (run_agent):6298808320 provider=xiaomi base_url=https://api.xiaomimimo.com/v1 model=mimo-v2-pro summary=HTTP 401: Invalid API Key
+2026-07-01 21:10:56,554 ERROR [20260701_211051_61ad97] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'param': 'Please provide valid API Key', 'code': '401', 'type': 'invalid_key'}}
+2026-07-01 21:14:26,541 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=3.12 parent_cmdline='(unknown)'
+2026-07-01 21:14:34,017 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-01 21:14:34,017 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-01 21:14:35,346 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-01 21:14:35,579 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-01 21:32:25,833 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:25,837 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:26,087 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:26,088 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,443 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,444 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,444 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,514 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,518 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,518 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,524 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,524 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,525 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,527 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,528 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:32:27,531 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,456 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,458 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,458 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,458 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,459 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,461 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:01,462 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,613 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,614 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,614 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,638 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,638 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,639 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:40:02,643 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:51:20,609 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=no parent_pid=98186 parent_name=? loadavg_1m=6.67 parent_cmdline='(unknown)'
+2026-07-01 21:51:26,712 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-01 21:51:26,712 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-01 21:51:27,995 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-01 21:51:28,233 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-01 21:53:12,469 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:12,471 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:12,708 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:12,709 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,263 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,264 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,265 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,329 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,719 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,720 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,731 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,732 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,732 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,737 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,738 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:53:14,743 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:18,228 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:18,229 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:18,236 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:18,238 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:19,115 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:19,117 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:19,117 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-01 21:54:19,147 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-01 22:49:57,701 WARNING [20260701_215413_22f4151a] agent.tool_executor: Tool terminal returned error (1.30s): {"output": "From https://github.com/bwuttipong/smith\n * branch              master     -> FETCH_HEAD\nerror: The following untracked working tree files would be overwritten by merge:\n\tmemory/2026-0

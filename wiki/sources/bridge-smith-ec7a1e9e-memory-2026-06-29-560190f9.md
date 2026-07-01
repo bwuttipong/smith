@@ -9,7 +9,7 @@ bridgeWorkspaceDir: /Users/Jeff/Smith
 bridgeAgentIds:
   - smith
 status: active
-updatedAt: 2026-06-29T07:56:56.003Z
+updatedAt: 2026-06-29T15:22:06.191Z
 ---
 
 # Memory Bridge (smith): 2026-06-29
@@ -19,33 +19,22 @@ updatedAt: 2026-06-29T07:56:56.003Z
 - Relative path: `memory/2026-06-29.md`
 - Kind: `markdown`
 - Agents: smith
-- Updated: 2026-06-29T07:56:56.003Z
+- Updated: 2026-06-29T15:22:06.191Z
 
 ## Content
 ```markdown
+# 2026-06-29
 
-## commute traffic migrated: tomtom → google maps
+## Agent-Reach installed & wired into Hermes
+- Cloned Panniantong/Agent-Reach (45k stars) to ~/Smith/agent-reach
+- Installed via uv venv, created Hermes skill at skills/research/agent-reach/
+- **Zero-config channels live:** web (Jina Reader), YouTube (yt-dlp), GitHub (gh CLI), V2EX, RSS (feedparser), Bilibili (bili-cli)
+- **Twitter/X configured:** twitter-cli v0.8.5 with auth_token + ct0 cookies
+- **Reddit configured:** rdt-cli v0.4.2 auto-authed from browser cookies
+- User noted cookie security in chat — ok with current setup
 
-- switched from tomtom (TOMTOM_API_KEY) to google maps (GOOGLE_MAPS_API_KEY)
-- new script: `skills/openclaw-commute-traffic/scripts/check_traffic_google.py`
-- api key stored at `~/.config/gmaps/api_key` (file-based, not in chat)
-- requires google cloud project with directions api + geocoding api enabled
-- updated skill: `skills/openclaw-commute-traffic/SKILL.md` → v3.0.0 (google maps)
-- updated tools: `TOOLS.md` commute traffic section
-- test result: ban suan → wellgrow industrial estate = 30 min, light traffic ✅
-
-## commute traffic: incident detection + coverage note
-- added tomtom crash/incident detection to the google traffic script (check_traffic_google.py)
-- incidents fetched via tomtom traffic incidents api (same TOMTOM_API_KEY)
-- added coverage note to TOOLS.md — tomtom coverage is best on major thai highways, thinner on local roads
-- 3 sources: openstreetmap (geocoding) + google routes api (traffic/routing) + tomtom (incidents)
-
-## gog re-auth + domain info
-- **gog**: re-authed successfully with all services (calendar, gmail, drive, contacts, sheets, docs)
-- **client secret path**: `~/Documents/client_secret_311285817608-bhve0hp4oq6cmr3n5ic0r6l15mn4uk9d.apps.googleusercontent.com.json`
-- **token lifespan**: testing mode → refresh token expires in 7 days
-- **publishing option**: domain `bestwuttipong.dev` can be used for privacy policy URL + domain verification
-- **gog install**: `/opt/homebrew/bin/gog` v0.12.0
+## Other
+- Skills directory now at ~/Smith/skills/ (moved from ~/.hermes/skills/)
 
 ```
 

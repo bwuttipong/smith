@@ -1,4 +1,6 @@
 ---
+id: concepts/high-agency
+pageType: concept
 title: High Agency
 created: 2026-06-28
 updated: 2026-06-28
@@ -50,7 +52,7 @@ Optimism = glass half full. Pessimism = glass half empty. **High agency = you're
 
 ## Source
 
-Contains content from [[raw/articles/high-agency-in-30-minutes.md]] by George Mack.
+Contains content from *High Agency in 30 Minutes* by George Mack.
 
 ## Related
 <!-- openclaw:wiki:related:start -->

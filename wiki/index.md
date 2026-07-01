@@ -3,12 +3,12 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `obsidian`
-- Total pages: 283
+- Total pages: 284
 - Claims: 0
 - Sources: 270
 - Entities: 1
 - Concepts: 1
-- Syntheses: 1
+- Syntheses: 2
 - Reports: 10
 
 ### Sources
@@ -291,6 +291,7 @@
 
 ### Syntheses
 - [[syntheses/system-audit-2026-06-26|System Audit — 2026-06-26]]
+- [[syntheses/workspace-git-setup-platform-context|Workspace Git Setup & Platform Context]]
 
 ### Reports
 - [[reports/claim-health|Claim Health]]

@@ -47,7 +47,7 @@ Hey! Still waiting on those answers if you've got 'em 😄
 user: @Assistant hey over here
 assistant: 
 
-[[reply_to_current]]
+
 
 Hey! I'm still getting set up — we haven't figured out my name or vibe yet. 
 

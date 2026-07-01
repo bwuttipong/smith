@@ -34,8 +34,8 @@
       7309
     ],
     "autonomous-ai-agents/hermes-agent/SKILL.md": [
-      1782643281628487306,
-      51596
+      1782913863204543485,
+      51586
     ],
     "autonomous-ai-agents/smith-local-stack/SKILL.md": [
       1782643281628656389,
@@ -90,8 +90,8 @@
       10434
     ],
     "creative/claude-design/SKILL.md": [
-      1779286310000000000,
-      19859
+      1782834313298140117,
+      25117
     ],
     "creative/comfyui/SKILL.md": [
       1779286310000000000,
@@ -1390,7 +1390,7 @@
       "skill_name": "kanban-worker",
       "category": "devops",
       "frontmatter_name": "kanban-worker",
-      "description": "",
+      "description": "Pitfalls, examples, and edge cases for Hermes Kanban work...",
       "platforms": [
         "linux",
         "macos",

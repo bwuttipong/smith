@@ -3,7 +3,7 @@
     "entity": 1,
     "concept": 1,
     "source": 270,
-    "synthesis": 1,
+    "synthesis": 2,
     "report": 10
   },
   "claimCount": 0,
@@ -21,6 +21,7 @@
   "contradictionClusters": [],
   "pages": [
     {
+      "id": "concepts/high-agency",
       "title": "High Agency",
       "kind": "concept",
       "path": "concepts/high-agency.md",
@@ -32,11 +33,13 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "concept",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
     },
     {
+      "id": "entities/george-mack",
       "title": "George Mack",
       "kind": "entity",
       "path": "entities/george-mack.md",
@@ -48,6 +51,7 @@
       "notEnoughFor": [],
       "relationshipCount": 0,
       "topRelationships": [],
+      "pageType": "entity",
       "freshnessLevel": "unknown",
       "claimCount": 0,
       "topClaims": []
@@ -4341,7 +4345,7 @@
       "topRelationships": [],
       "pageType": "source",
       "freshnessLevel": "fresh",
-      "lastTouchedAt": "2026-06-29T07:56:56.003Z",
+      "lastTouchedAt": "2026-06-29T15:22:06.191Z",
       "claimCount": 0,
       "topClaims": []
     },
@@ -5389,6 +5393,27 @@
       "pageType": "synthesis",
       "freshnessLevel": "fresh",
       "lastTouchedAt": "2026-06-26T00:04:00.418Z",
+      "claimCount": 0,
+      "topClaims": []
+    },
+    {
+      "id": "synthesis.workspace-git-setup-platform-context",
+      "title": "Workspace Git Setup & Platform Context",
+      "kind": "synthesis",
+      "path": "syntheses/workspace-git-setup-platform-context.md",
+      "aliases": [],
+      "sourceIds": [
+        "sum_chat_2026-06-30_workspace_git_setup"
+      ],
+      "questions": [],
+      "contradictions": [],
+      "bestUsedFor": [],
+      "notEnoughFor": [],
+      "relationshipCount": 0,
+      "topRelationships": [],
+      "pageType": "synthesis",
+      "freshnessLevel": "fresh",
+      "lastTouchedAt": "2026-06-30T03:36:11.439Z",
       "claimCount": 0,
       "topClaims": []
     }
