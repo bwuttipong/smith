@@ -44,3 +44,7 @@
 2026-07-01 19:29:19,794 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
 2026-07-01 20:51:19,880 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
 2026-07-01 20:51:19,922 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-07-02 20:18:48,588 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-07-02 20:18:48,619 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-07-02 20:18:49,781 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:61214
+2026-07-02 20:19:02,560 WARNING hermes_cli.web_server: event loop stalled 11.9s (GIL pressure suspected)

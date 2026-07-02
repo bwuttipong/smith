@@ -42,7 +42,7 @@
 - **Usage**: Jeff adds tasks here going forward — no more Todoist
 
 ### Commute Traffic
-- **Skill**: `openclaw-commute-traffic` (TomTom API)
+- **Skill**: `commute-traffic` (Google Maps API)
 - **API Key**: `mCItvnFsSp2n92bRGBALDztzp2QIFble` (key 2 — correct)
 - **Trigger**: "traffic from X to Y", "how's traffic?", "commute time", etc.
 - **Status**: ✅ operational (SSL certs fixed)

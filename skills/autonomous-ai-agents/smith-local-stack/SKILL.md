@@ -137,6 +137,19 @@ When updating, restarting, or troubleshooting the gateway:
 
 When constructing file paths for any hermes operation: `~/Smith/<subdir>` — there is no intermediate `.hermes-profile/` segment anymore.
 
+### Jeff's preference: no symlinks (2026-07-01)
+
+Jeff explicitly said "No link please" when asked about the `~/.hermes/profiles/smith` → `~/Smith/` symlink. He wants Hermes to point directly to `~/Smith/` without any symlink indirection.
+
+**The constraint:** Hermes hardcodes profiles under `~/.hermes/profiles/<name>` — there is no `--profile-dir` flag or config option to change the base directory. The `hermes profile show smith` output always shows the symlink path, not the resolved path.
+
+**Options if the symlink must go:**
+1. **Reverse the symlink** — make `~/.hermes/profiles/smith` the real directory, make `~/Smith` a symlink to it. Hermes sees a real path; git repo moves to `~/.hermes/profiles/smith/`. Trade-off: `~/Smith` becomes the symlink.
+2. **Eliminate `~/Smith` entirely** — everything lives at `~/.hermes/profiles/smith/`. Update git remote URL if needed. Trade-off: longer path, loses the clean `~/Smith` workspace name.
+3. **Wait for Hermes to support custom profile dirs** — file a feature request upstream. No current support.
+
+**Current state (2026-07-01):** still using the symlink. No migration completed yet. Jeff was asked to choose between option a (reverse symlink) and option b (eliminate `~/Smith`).
+
 Full runbook (preflight, rsync, plist updates, pitfalls): `~/Smith/docs/hermes-profile-merge-to-workspace.md`. See `references/profile-merge.md` for the trigger conditions and when to consult it.
 
 ## Verification discipline (lesson from 2026-06-24)

@@ -52212,3 +52212,161 @@ Node.js v24.15.0
 ===== [2026-07-01 21:51:27] starting MCP server 'qmd' =====
 
 ===== [2026-07-01 21:53:11] starting MCP server 'qmd' =====
+
+===== [2026-07-02 09:02:27] starting MCP server 'memory-bridge' =====
+
+===== [2026-07-02 09:02:28] starting MCP server 'memory-bridge' =====
+
+===== [2026-07-02 09:02:30] starting MCP server 'memory-bridge' =====
+
+===== [2026-07-02 09:02:34] starting MCP server 'memory-bridge' =====
+
+===== [2026-07-02 09:02:39] starting MCP server 'memory-bridge' =====
+[memory-bridge] indexed 1 files, updated 0, skipped 552
+
+===== [2026-07-02 09:02:45] starting MCP server 'memory-bridge' =====
+[memory-bridge] indexed 0 files, updated 0, skipped 553
+
+===== [2026-07-02 09:06:21] starting MCP server 'memory-bridge' =====
+[memory-bridge] indexed 0 files, updated 0, skipped 553
+
+===== [2026-07-02 09:23:49] starting MCP server 'memory-bridge' =====
+[memory-bridge] indexed 0 files, updated 0, skipped 553
+
+===== [2026-07-02 09:59:53] starting MCP server 'qmd' =====
+
+===== [2026-07-02 09:59:53] starting MCP server 'memory-bridge' =====
+node:internal/modules/cjs/loader:1988
+  return process.dlopen(module, path.toNamespacedPath(filename));
+                 ^
+
+Error: The module '/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 147. This version of Node.js requires
+NODE_MODULE_VERSION 137. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object..node (node:internal/modules/cjs/loader:1988:18)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at bindings (/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/bindings/bindings.js:112:48)
+    at new Database (/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/better-sqlite3/lib/database.js:48:64)
+    at openDatabase (file:///opt/homebrew/lib/node_modules/@tobilu/qmd/dist/db.js:58:12)
+    at createStore (file:///opt/homebrew/lib/node_modules/@tobilu/qmd/dist/store.js:1395:16) {
+  code: 'ERR_DLOPEN_FAILED'
+}
+
+Node.js v24.15.0
+[memory-bridge] indexed 0 files, updated 1, skipped 552
+
+===== [2026-07-02 09:59:55] starting MCP server 'qmd' =====
+node:internal/modules/cjs/loader:1988
+  return process.dlopen(module, path.toNamespacedPath(filename));
+                 ^
+
+Error: The module '/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 147. This version of Node.js requires
+NODE_MODULE_VERSION 137. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object..node (node:internal/modules/cjs/loader:1988:18)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at bindings (/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/bindings/bindings.js:112:48)
+    at new Database (/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/better-sqlite3/lib/database.js:48:64)
+    at openDatabase (file:///opt/homebrew/lib/node_modules/@tobilu/qmd/dist/db.js:58:12)
+    at createStore (file:///opt/homebrew/lib/node_modules/@tobilu/qmd/dist/store.js:1395:16) {
+  code: 'ERR_DLOPEN_FAILED'
+}
+
+Node.js v24.15.0
+
+===== [2026-07-02 09:59:57] starting MCP server 'qmd' =====
+node:internal/modules/cjs/loader:1988
+  return process.dlopen(module, path.toNamespacedPath(filename));
+                 ^
+
+Error: The module '/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 147. This version of Node.js requires
+NODE_MODULE_VERSION 137. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object..node (node:internal/modules/cjs/loader:1988:18)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at bindings (/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/bindings/bindings.js:112:48)
+    at new Database (/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/better-sqlite3/lib/database.js:48:64)
+    at openDatabase (file:///opt/homebrew/lib/node_modules/@tobilu/qmd/dist/db.js:58:12)
+    at createStore (file:///opt/homebrew/lib/node_modules/@tobilu/qmd/dist/store.js:1395:16) {
+  code: 'ERR_DLOPEN_FAILED'
+}
+
+Node.js v24.15.0
+
+===== [2026-07-02 10:00:01] starting MCP server 'qmd' =====
+node:internal/modules/cjs/loader:1988
+  return process.dlopen(module, path.toNamespacedPath(filename));
+                 ^
+
+Error: The module '/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 147. This version of Node.js requires
+NODE_MODULE_VERSION 137. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Object..node (node:internal/modules/cjs/loader:1988:18)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at bindings (/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/bindings/bindings.js:112:48)
+    at new Database (/opt/homebrew/lib/node_modules/@tobilu/qmd/node_modules/better-sqlite3/lib/database.js:48:64)
+    at openDatabase (file:///opt/homebrew/lib/node_modules/@tobilu/qmd/dist/db.js:58:12)
+    at createStore (file:///opt/homebrew/lib/node_modules/@tobilu/qmd/dist/store.js:1395:16) {
+  code: 'ERR_DLOPEN_FAILED'
+}
+
+Node.js v24.15.0
+
+===== [2026-07-02 10:02:54] starting MCP server 'memory-bridge' =====
+[memory-bridge] indexed 0 files, updated 0, skipped 553
+
+===== [2026-07-02 20:18:48] starting MCP server 'qmd' =====
+
+===== [2026-07-02 20:18:48] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/tools/mcp-memory-bridge/server.py", line 20, in <module>
+    from mcp.server import Server
+ModuleNotFoundError: No module named 'mcp'
+
+===== [2026-07-02 20:18:49] starting MCP server 'qmd' =====
+
+===== [2026-07-02 20:18:49] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/tools/mcp-memory-bridge/server.py", line 20, in <module>
+    from mcp.server import Server
+ModuleNotFoundError: No module named 'mcp'
+
+===== [2026-07-02 20:18:51] starting MCP server 'qmd' =====
+
+===== [2026-07-02 20:18:51] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/tools/mcp-memory-bridge/server.py", line 20, in <module>
+    from mcp.server import Server
+ModuleNotFoundError: No module named 'mcp'
+
+===== [2026-07-02 20:18:55] starting MCP server 'qmd' =====
+
+===== [2026-07-02 20:18:55] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/tools/mcp-memory-bridge/server.py", line 20, in <module>
+    from mcp.server import Server
+ModuleNotFoundError: No module named 'mcp'

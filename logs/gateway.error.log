@@ -7393,3 +7393,28 @@ WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False;
 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
 WARNING agent.tool_executor: Tool terminal returned error (1.30s): {"output": "From https://github.com/bwuttipong/smith\n * branch              master     -> FETCH_HEAD\nerror: The following untracked working tree files would be overwritten by merge:\n\tmemory/2026-0
+WARNING agent.tool_executor: Tool skill_manage returned error (0.07s): {"success": false, "error": "Refusing background curator patch for skill 'github': the current SKILL.md content has not been loaded in this review turn. Call skill_view(name) for SKILL.md, or skill_vi
+WARNING gateway.run: Persisted transcript lagged live cached history for session agent:main:telegram:dm:8611951691 (disk=30, memory=32); preserving live conversation context (possible FTS write corruption)
+WARNING agent.tool_executor: Tool terminal returned error (0.09s): {"output": "", "exit_code": 1, "error": null}
+WARNING gateway.run: Persisted transcript lagged live cached history for session agent:main:telegram:dm:8611951691 (disk=50, memory=54); preserving live conversation context (possible FTS write corruption)
+WARNING agent.tool_executor: Tool memory returned error (0.01s): {"success": false, "error": "Memory at 2,109/2,200 chars. Adding this entry (288 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+WARNING agent.tool_executor: Tool memory returned error (0.00s): {"error": "content is required for 'replace' action.", "success": false}
+WARNING agent.tool_executor: Tool memory returned error (0.00s): {"success": false, "error": "Memory at 2,036/2,200 chars. Adding this entry (221 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+WARNING agent.tool_executor: Tool memory returned error (0.00s): {"error": "content is required for 'replace' action.", "success": false}
+WARNING gateway.run: Persisted transcript lagged live cached history for session agent:main:telegram:dm:8611951691 (disk=70, memory=74); preserving live conversation context (possible FTS write corruption)
+WARNING gateway.run: Persisted transcript lagged live cached history for session agent:main:telegram:dm:8611951691 (disk=72, memory=76); preserving live conversation context (possible FTS write corruption)
+WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+/Users/Jeff/.hermes/hermes-agent/plugins/platforms/telegram/adapter.py:1556: PTBUserWarning: Please use 'Bot.editMessageText' instead of 'Bot.do_api_request("editMessageText", ...)'
+  await self._bot.do_api_request("editMessageText", api_kwargs=payload)
+WARNING agent.tool_executor: Tool terminal returned error (0.39s): {"output": "Error: 'hermes mcp configure' requires an interactive terminal.", "exit_code": 1, "error": null}
+WARNING agent.tool_executor: Tool execute_code returned error (4.18s): {"status": "error", "output": "\n--- stderr ---\nTraceback (most recent call last):\n  File \"/var/folders/jw/mz45fg8s26zgz3cx72ztxxgw0000gn/T/hermes_sandbox_op6hhqxs/script.py\", line 4, in <module>\
+WARNING agent.tool_executor: Tool execute_code returned error (5.94s): {"status": "error", "output": "=== TEST 1: MCP Memory Bridge Stats ===\n{\n  \"indexed_files\": 553,\n  \"structured_entries\": 2,\n  \"total_size_bytes\": 2212887,\n  \"watch_paths\": [\n    \"/Users
+WARNING agent.tool_executor: Tool execute_code returned error (3.64s): {"status": "error", "output": "=== TEST 2: Search 'Returnable Box' (top 3) ===\n  1. score=?  path=/Users/Jeff/Smith/wiki/sources/bridge-smith-ec7a1e9e-memory-reference-returnable-box-a42091c4.md\n   
+WARNING agent.tool_executor: Tool execute_code returned error (64.58s): {"status": "error", "output": "=== TEST 3: Smith→Hermes Write ===\n  write_entry returned: {\"id\": \"6a5499df618a\", \"title\": \"Audit Test Entry from Smith\", \"created_at\": \"2026-07-02T02:26:14.

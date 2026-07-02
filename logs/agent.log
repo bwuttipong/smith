@@ -36917,3 +36917,850 @@ What's
 2026-07-01 22:51:37,701 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-17 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
 2026-07-01 22:51:44,891 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-17 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
 2026-07-01 22:51:44,892 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #9: model=mimo-v2.5-pro provider=xiaomi in=31952 out=144 total=32096 latency=7.2s cache=31680/31952 (99%)
+2026-07-01 22:51:45,623 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.72s, 1128 chars)
+2026-07-01 22:51:45,638 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-19 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:51:50,817 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-19 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:51:50,818 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #10: model=mimo-v2.5-pro provider=xiaomi in=32529 out=62 total=32591 latency=5.2s cache=31936/32529 (98%)
+2026-07-01 22:51:51,044 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.22s, 2166 chars)
+2026-07-01 22:51:51,072 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-21 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:51:54,663 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-21 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:51:54,665 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #11: model=mimo-v2.5-pro provider=xiaomi in=33640 out=41 total=33681 latency=3.6s cache=32512/33640 (97%)
+2026-07-01 22:51:57,272 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (2.59s, 128 chars)
+2026-07-01 22:51:57,297 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-23 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:52:00,669 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-23 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 22:52:00,671 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #12: model=mimo-v2.5-pro provider=xiaomi in=33744 out=36 total=33780 latency=3.4s cache=33600/33744 (100%)
+2026-07-01 22:52:00,703 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=4/90 budget=4/90 tool_turns=9 last_msg_role=assistant response_len=49 session=20260701_215413_22f4151a
+2026-07-01 22:52:01,850 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 22:52:01,851 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=24.4s api_calls=4 response=49 chars
+2026-07-01 22:57:43,858 INFO tools.terminal_tool: Cleaned up inactive environment for task: default
+2026-07-01 23:05:02,553 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (992 chars)
+2026-07-01 23:05:02,564 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Hey dude, can I move all of these if contains smith, just move inside smith root' reply_to_id=None reply_to_text=''
+2026-07-01 23:05:03,140 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=24 msg='Hey dude, can I move all of these if contains smith, just move inside smith root...'
+2026-07-01 23:05:03,149 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-24 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:11,197 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-24 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:11,198 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #13: model=mimo-v2.5-pro provider=xiaomi in=34067 out=304 total=34371 latency=8.1s cache=33728/34067 (99%)
+2026-07-01 23:05:11,361 INFO [20260701_215413_22f4151a] tools.terminal_tool: Creating new local environment for task default...
+2026-07-01 23:05:11,567 INFO [20260701_215413_22f4151a] tools.environments.base: Session snapshot created (session=357ff69af807, cwd=/Users/Jeff/Smith)
+2026-07-01 23:05:11,567 INFO [20260701_215413_22f4151a] tools.terminal_tool: local environment ready for task default
+2026-07-01 23:05:11,688 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.33s, 6277 chars)
+2026-07-01 23:05:11,696 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-27 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:27,143 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-27 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:27,145 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #14: model=mimo-v2.5-pro provider=xiaomi in=37535 out=546 total=38081 latency=15.5s cache=34048/37535 (91%)
+2026-07-01 23:05:27,249 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.10s, 2575 chars)
+2026-07-01 23:05:27,260 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-29 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:46,257 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-29 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:46,260 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #15: model=mimo-v2.5-pro provider=xiaomi in=39401 out=107 total=39508 latency=19.0s cache=37504/39401 (95%)
+2026-07-01 23:05:46,386 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.12s, 252 chars)
+2026-07-01 23:05:46,395 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-31 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:51,108 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-31 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:51,110 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #16: model=mimo-v2.5-pro provider=xiaomi in=39646 out=95 total=39741 latency=4.7s cache=39360/39646 (99%)
+2026-07-01 23:05:51,119 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=4/90 budget=4/90 tool_turns=12 last_msg_role=assistant response_len=176 session=20260701_215413_22f4151a
+2026-07-01 23:05:51,161 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=bg-review:6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:51,613 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=32 msg='Review the conversation above and update the skill library. Be ACTIVE — most ses...'
+2026-07-01 23:05:51,630 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-32 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:05:52,438 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 23:05:52,439 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=49.9s api_calls=4 response=176 chars
+2026-07-01 23:06:01,044 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-32 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:01,046 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=40860 out=245 total=41105 latency=9.4s
+2026-07-01 23:06:01,127 INFO [20260701_215413_22f4151a] agent.tool_executor: tool skills_list completed (0.08s, 28911 chars)
+2026-07-01 23:06:01,135 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-33 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:06,774 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-33 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:06,775 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #2: model=mimo-v2.5-pro provider=xiaomi in=48092 out=180 total=48272 latency=5.6s cache=40832/48092 (85%)
+2026-07-01 23:06:06,877 INFO agent.tool_executor: tool skill_view completed (0.10s, 26156 chars)
+2026-07-01 23:06:06,878 INFO agent.tool_executor: tool skill_view completed (0.10s, 6583 chars)
+2026-07-01 23:06:06,884 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-34 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:24,562 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-34 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:24,566 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #3: model=mimo-v2.5-pro provider=xiaomi in=56953 out=585 total=57538 latency=17.7s cache=48064/56953 (84%)
+2026-07-01 23:06:24,642 WARNING [20260701_215413_22f4151a] agent.tool_executor: Tool skill_manage returned error (0.07s): {"success": false, "error": "Refusing background curator patch for skill 'github': the current SKILL.md content has not been loaded in this review turn. Call skill_view(name) for SKILL.md, or skill_vi
+2026-07-01 23:06:24,651 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-35 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:26,865 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-35 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:26,866 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #4: model=mimo-v2.5-pro provider=xiaomi in=57625 out=39 total=57664 latency=2.2s cache=56896/57625 (99%)
+2026-07-01 23:06:26,956 INFO [20260701_215413_22f4151a] agent.tool_executor: tool skill_view completed (0.09s, 6583 chars)
+2026-07-01 23:06:26,963 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-36 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:40,176 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-36 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:40,177 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #5: model=mimo-v2.5-pro provider=xiaomi in=59461 out=340 total=59801 latency=13.2s cache=57600/59461 (97%)
+2026-07-01 23:06:40,256 INFO [20260701_215413_22f4151a] agent.tool_executor: tool skill_manage completed (0.08s, 359 chars)
+2026-07-01 23:06:40,264 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-37 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:57,209 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-37 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:06:57,210 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #6: model=mimo-v2.5-pro provider=xiaomi in=59910 out=215 total=60125 latency=17.0s cache=59456/59910 (99%)
+2026-07-01 23:06:57,218 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=6/16 budget=6/16 tool_turns=17 last_msg_role=assistant response_len=317 session=20260701_215413_22f4151a
+2026-07-01 23:06:57,223 INFO [20260701_215413_22f4151a] run_agent: OpenAI client closed (agent_close, shared=True, tcp_force_closed=0) thread=bg-review:6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:07:33,577 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (53 chars)
+2026-07-01 23:07:33,586 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Also , change Hermes points to there, those new paths' reply_to_id=None reply_to_text=''
+2026-07-01 23:07:33,794 WARNING [20260701_215413_22f4151a] gateway.run: Persisted transcript lagged live cached history for session agent:main:telegram:dm:8611951691 (disk=30, memory=32); preserving live conversation context (possible FTS write corruption)
+2026-07-01 23:07:33,796 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=32 msg='Also , change Hermes points to there, those new paths'
+2026-07-01 23:07:33,807 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-38 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:07:37,142 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-38 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:07:37,144 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #17: model=mimo-v2.5-pro provider=xiaomi in=39759 out=96 total=39855 latency=3.3s cache=39616/39759 (100%)
+2026-07-01 23:07:37,267 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.11s, 189 chars)
+2026-07-01 23:07:37,276 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-40 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:07:41,998 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-40 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:07:42,000 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #18: model=mimo-v2.5-pro provider=xiaomi in=39937 out=129 total=40066 latency=4.7s cache=39744/39937 (100%)
+2026-07-01 23:07:42,099 WARNING [20260701_215413_22f4151a] agent.tool_executor: Tool terminal returned error (0.09s): {"output": "", "exit_code": 1, "error": null}
+2026-07-01 23:07:42,114 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-42 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:07:51,491 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-42 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:07:51,493 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #19: model=mimo-v2.5-pro provider=xiaomi in=40093 out=120 total=40213 latency=9.4s cache=39872/40093 (99%)
+2026-07-01 23:07:51,638 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.14s, 16349 chars)
+2026-07-01 23:07:51,650 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-44 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:07:58,071 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-44 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:07:58,072 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #20: model=mimo-v2.5-pro provider=xiaomi in=45522 out=220 total=45742 latency=6.4s cache=39872/45522 (88%)
+2026-07-01 23:07:58,456 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.38s, 1232 chars)
+2026-07-01 23:07:58,469 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-46 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:02,033 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-46 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:02,035 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #21: model=mimo-v2.5-pro provider=xiaomi in=46129 out=74 total=46203 latency=3.6s cache=45504/46129 (99%)
+2026-07-01 23:08:02,552 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.51s, 553 chars)
+2026-07-01 23:08:02,561 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-48 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:12,795 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-48 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:12,797 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #22: model=mimo-v2.5-pro provider=xiaomi in=46373 out=112 total=46485 latency=10.2s cache=46080/46373 (99%)
+2026-07-01 23:08:13,020 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.22s, 1286 chars)
+2026-07-01 23:08:13,028 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-50 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:18,115 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-50 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:18,116 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #23: model=mimo-v2.5-pro provider=xiaomi in=46752 out=148 total=46900 latency=5.1s cache=46336/46752 (99%)
+2026-07-01 23:08:18,236 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.11s, 79 chars)
+2026-07-01 23:08:18,270 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-52 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:38,886 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-52 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:38,887 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #24: model=mimo-v2.5-pro provider=xiaomi in=46937 out=221 total=47158 latency=20.6s cache=46720/46937 (100%)
+2026-07-01 23:08:39,317 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.40s, 870 chars)
+2026-07-01 23:08:39,329 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-54 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:46,567 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-54 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:08:46,570 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #25: model=mimo-v2.5-pro provider=xiaomi in=47373 out=223 total=47596 latency=7.2s cache=46720/47373 (99%)
+2026-07-01 23:08:47,091 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.51s, 226 chars)
+2026-07-01 23:08:47,102 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-56 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:09:08,017 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-56 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:09:08,020 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #26: model=mimo-v2.5-pro provider=xiaomi in=47678 out=623 total=48301 latency=20.9s cache=47360/47678 (99%)
+2026-07-01 23:09:08,148 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.12s, 45 chars)
+2026-07-01 23:09:08,158 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-58 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:09:22,167 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-58 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:09:22,169 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #27: model=mimo-v2.5-pro provider=xiaomi in=48328 out=196 total=48524 latency=14.0s cache=47616/48328 (99%)
+2026-07-01 23:09:22,180 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=11/90 budget=11/90 tool_turns=22 last_msg_role=assistant response_len=387 session=20260701_215413_22f4151a
+2026-07-01 23:09:23,336 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 23:09:23,338 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=109.8s api_calls=11 response=387 chars
+2026-07-01 23:09:53,256 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (14 chars)
+2026-07-01 23:09:53,265 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='No link please' reply_to_id=None reply_to_text=''
+2026-07-01 23:09:53,469 WARNING [20260701_215413_22f4151a] gateway.run: Persisted transcript lagged live cached history for session agent:main:telegram:dm:8611951691 (disk=50, memory=54); preserving live conversation context (possible FTS write corruption)
+2026-07-01 23:09:53,471 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=54 msg='No link please'
+2026-07-01 23:09:53,484 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-59 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:05,730 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-59 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:05,732 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #28: model=mimo-v2.5-pro provider=xiaomi in=48534 out=367 total=48901 latency=12.3s cache=48320/48534 (100%)
+2026-07-01 23:10:06,046 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.31s, 106 chars)
+2026-07-01 23:10:06,055 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-61 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:09,514 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-61 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:09,515 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #29: model=mimo-v2.5-pro provider=xiaomi in=48942 out=61 total=49003 latency=3.5s cache=48512/48942 (99%)
+2026-07-01 23:10:09,740 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.22s, 1325 chars)
+2026-07-01 23:10:09,748 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-63 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:18,237 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-63 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:18,239 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #30: model=mimo-v2.5-pro provider=xiaomi in=49279 out=223 total=49502 latency=8.5s cache=48896/49279 (99%)
+2026-07-01 23:10:19,346 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.95s, 1222 chars)
+2026-07-01 23:10:19,358 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-65 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:26,280 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-65 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:26,282 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #31: model=mimo-v2.5-pro provider=xiaomi in=49859 out=131 total=49990 latency=6.9s cache=49216/49859 (99%)
+2026-07-01 23:10:26,405 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.12s, 45 chars)
+2026-07-01 23:10:26,415 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-67 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:30,757 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-67 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:30,759 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #32: model=mimo-v2.5-pro provider=xiaomi in=50017 out=87 total=50104 latency=4.3s cache=49216/50017 (98%)
+2026-07-01 23:10:30,862 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.10s, 45 chars)
+2026-07-01 23:10:30,874 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-69 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:34,672 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-69 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:34,674 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #33: model=mimo-v2.5-pro provider=xiaomi in=50131 out=115 total=50246 latency=3.8s cache=49984/50131 (100%)
+2026-07-01 23:10:35,415 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.73s, 1136 chars)
+2026-07-01 23:10:35,427 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-71 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:38,109 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-71 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:38,110 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #34: model=mimo-v2.5-pro provider=xiaomi in=50589 out=61 total=50650 latency=2.7s cache=49984/50589 (99%)
+2026-07-01 23:10:38,232 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.11s, 318 chars)
+2026-07-01 23:10:38,244 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-73 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:53,045 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-73 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:10:53,048 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #35: model=mimo-v2.5-pro provider=xiaomi in=50753 out=95 total=50848 latency=14.8s cache=50560/50753 (100%)
+2026-07-01 23:10:53,361 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.31s, 2494 chars)
+2026-07-01 23:10:53,370 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-75 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:11:03,421 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-75 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:11:03,422 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #36: model=mimo-v2.5-pro provider=xiaomi in=51440 out=116 total=51556 latency=10.1s cache=50688/51440 (99%)
+2026-07-01 23:11:03,818 INFO [20260701_215413_22f4151a] agent.tool_executor: tool terminal completed (0.39s, 2473 chars)
+2026-07-01 23:11:03,827 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-77 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:11:28,504 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-77 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:11:28,506 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #37: model=mimo-v2.5-pro provider=xiaomi in=52153 out=519 total=52672 latency=24.7s cache=51392/52153 (99%)
+2026-07-01 23:11:28,552 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=10/90 budget=10/90 tool_turns=31 last_msg_role=assistant response_len=505 session=20260701_215413_22f4151a
+2026-07-01 23:11:28,590 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=bg-review:6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:11:28,750 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=74 msg='Review the conversation above and update the skill library. Be ACTIVE — most ses...'
+2026-07-01 23:11:28,774 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-78 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:11:29,726 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 23:11:29,729 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=96.5s api_calls=10 response=505 chars
+2026-07-01 23:11:57,583 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-78 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:11:57,586 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=53791 out=384 total=54175 latency=28.8s cache=36864/53791 (69%)
+2026-07-01 23:11:57,666 INFO [20260701_215413_22f4151a] agent.tool_executor: tool skills_list completed (0.08s, 28911 chars)
+2026-07-01 23:11:57,674 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-79 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:05,346 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-79 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:05,348 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #2: model=mimo-v2.5-pro provider=xiaomi in=61162 out=64 total=61226 latency=7.7s cache=53760/61162 (88%)
+2026-07-01 23:12:05,432 INFO [20260701_215413_22f4151a] agent.tool_executor: tool skill_view completed (0.08s, 26156 chars)
+2026-07-01 23:12:05,441 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-80 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:09,635 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-80 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:09,637 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #3: model=mimo-v2.5-pro provider=xiaomi in=68117 out=90 total=68207 latency=4.2s cache=61120/68117 (90%)
+2026-07-01 23:12:09,710 INFO [20260701_215413_22f4151a] agent.tool_executor: tool skill_view completed (0.07s, 4690 chars)
+2026-07-01 23:12:09,720 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-81 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:30,769 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-81 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:30,770 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #4: model=mimo-v2.5-pro provider=xiaomi in=69544 out=1729 total=71273 latency=21.1s cache=68096/69544 (98%)
+2026-07-01 23:12:30,847 INFO [20260701_215413_22f4151a] agent.tool_executor: tool skill_manage completed (0.07s, 535 chars)
+2026-07-01 23:12:30,857 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-82 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:34,517 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-82 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:34,519 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #5: model=mimo-v2.5-pro provider=xiaomi in=71437 out=125 total=71562 latency=3.7s cache=69504/71437 (97%)
+2026-07-01 23:12:34,527 WARNING [20260701_215413_22f4151a] agent.tool_executor: Tool memory returned error (0.01s): {"success": false, "error": "Memory at 2,109/2,200 chars. Adding this entry (288 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-07-01 23:12:34,551 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-83 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:38,508 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-83 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:38,509 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #6: model=mimo-v2.5-pro provider=xiaomi in=72313 out=180 total=72493 latency=4.0s cache=71424/72313 (99%)
+2026-07-01 23:12:38,510 WARNING [20260701_215413_22f4151a] agent.tool_executor: Tool memory returned error (0.00s): {"error": "content is required for 'replace' action.", "success": false}
+2026-07-01 23:12:38,539 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-84 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:50,170 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-84 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:50,173 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #7: model=mimo-v2.5-pro provider=xiaomi in=72522 out=81 total=72603 latency=11.6s cache=72256/72522 (100%)
+2026-07-01 23:12:50,181 INFO [20260701_215413_22f4151a] agent.tool_executor: tool memory completed (0.01s, 203 chars)
+2026-07-01 23:12:50,207 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-85 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:53,138 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-85 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:53,140 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #8: model=mimo-v2.5-pro provider=xiaomi in=72685 out=100 total=72785 latency=2.9s cache=72512/72685 (100%)
+2026-07-01 23:12:53,146 WARNING [20260701_215413_22f4151a] agent.tool_executor: Tool memory returned error (0.00s): {"success": false, "error": "Memory at 2,036/2,200 chars. Adding this entry (221 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-07-01 23:12:53,172 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-86 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:56,065 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-86 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:12:56,066 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #9: model=mimo-v2.5-pro provider=xiaomi in=73513 out=124 total=73637 latency=2.9s cache=72512/73513 (99%)
+2026-07-01 23:12:56,068 WARNING [20260701_215413_22f4151a] agent.tool_executor: Tool memory returned error (0.00s): {"error": "content is required for 'replace' action.", "success": false}
+2026-07-01 23:12:56,096 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-87 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:02,779 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-87 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:02,781 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #10: model=mimo-v2.5-pro provider=xiaomi in=73666 out=412 total=74078 latency=6.7s cache=73472/73666 (100%)
+2026-07-01 23:13:02,789 INFO [20260701_215413_22f4151a] agent.tool_executor: tool memory completed (0.01s, 212 chars)
+2026-07-01 23:13:02,814 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-88 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:08,284 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-88 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:08,285 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #11: model=mimo-v2.5-pro provider=xiaomi in=74164 out=101 total=74265 latency=5.5s cache=73472/74164 (99%)
+2026-07-01 23:13:08,294 INFO [20260701_215413_22f4151a] agent.tool_executor: tool memory completed (0.01s, 203 chars)
+2026-07-01 23:13:08,319 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-89 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:08,867 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (31 chars)
+2026-07-01 23:13:08,877 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Ah I get it then it is all good' reply_to_id=None reply_to_text=''
+2026-07-01 23:13:09,105 WARNING [20260701_215413_22f4151a] gateway.run: Persisted transcript lagged live cached history for session agent:main:telegram:dm:8611951691 (disk=70, memory=74); preserving live conversation context (possible FTS write corruption)
+2026-07-01 23:13:09,107 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=74 msg='Ah I get it then it is all good'
+2026-07-01 23:13:09,118 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-90 (_call):6382039040 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:14,489 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-89 (_call):6365212672 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:14,490 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #12: model=mimo-v2.5-pro provider=xiaomi in=74347 out=257 total=74604 latency=6.2s cache=74112/74347 (100%)
+2026-07-01 23:13:14,497 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=12/16 budget=12/16 tool_turns=42 last_msg_role=assistant response_len=567 session=20260701_215413_22f4151a
+2026-07-01 23:13:14,502 INFO [20260701_215413_22f4151a] run_agent: OpenAI client closed (agent_close, shared=True, tcp_force_closed=0) thread=bg-review:6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:16,461 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-90 (_call):6382039040 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:16,463 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #38: model=mimo-v2.5-pro provider=xiaomi in=52688 out=67 total=52755 latency=7.4s cache=52096/52688 (99%)
+2026-07-01 23:13:16,473 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=1/90 budget=1/90 tool_turns=31 last_msg_role=assistant response_len=141 session=20260701_215413_22f4151a
+2026-07-01 23:13:17,541 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 23:13:17,542 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=8.7s api_calls=1 response=141 chars
+2026-07-01 23:13:26,071 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (16 chars)
+2026-07-01 23:13:26,080 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='See you tomorrow' reply_to_id=None reply_to_text=''
+2026-07-01 23:13:26,276 WARNING [20260701_215413_22f4151a] gateway.run: Persisted transcript lagged live cached history for session agent:main:telegram:dm:8611951691 (disk=72, memory=76); preserving live conversation context (possible FTS write corruption)
+2026-07-01 23:13:26,278 INFO [20260701_215413_22f4151a] agent.turn_context: conversation turn: session=20260701_215413_22f4151a model=mimo-v2.5-pro provider=xiaomi platform=telegram history=76 msg='See you tomorrow'
+2026-07-01 23:13:26,291 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-91 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:34,264 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-91 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-01 23:13:34,266 INFO [20260701_215413_22f4151a] agent.conversation_loop: API call #39: model=mimo-v2.5-pro provider=xiaomi in=52765 out=32 total=52797 latency=8.0s cache=52672/52765 (100%)
+2026-07-01 23:13:34,276 INFO [20260701_215413_22f4151a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=1/90 budget=1/90 tool_turns=31 last_msg_role=assistant response_len=13 session=20260701_215413_22f4151a
+2026-07-01 23:13:35,526 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-01 23:13:35,528 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=9.4s api_calls=1 response=13 chars
+2026-07-01 23:16:51,738 INFO tools.terminal_tool: Cleaned up inactive environment for task: default
+2026-07-02 00:17:46,779 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:telegram:dm:8611951691 (idle=3853s)
+2026-07-02 00:17:46,784 INFO run_agent: OpenAI client closed (cache_evict, shared=True, tcp_force_closed=0) thread=agent-cache-idle-agent:main:telegram:dm:8:6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 00:17:46,785 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-07-02 00:50:32,960 INFO agent.curator_backup: Curator snapshot created: 2026-07-01T17-50-31Z (pre-curator-run)
+2026-07-02 00:50:32,960 INFO gateway.run: curator: curator: snapshot created (2026-07-01T17-50-31Z)
+2026-07-02 00:50:33,047 INFO gateway.run: curator: curator: auto: no changes; llm: skipped (consolidation off)
+2026-07-02 03:52:28,789 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 04:03:15,587 INFO gateway.run: Session expiry: 1 sessions to finalize (telegram:1)
+2026-07-02 04:03:15,593 INFO gateway.run: Session expiry done: 1 finalized
+2026-07-02 09:02:27,460 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'python3 /Users/Jeff/Smith/tools/mcp-memory-bridge/server.py'
+2026-07-02 09:02:28,477 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'python3 /Users/Jeff/Smith/tools/mcp-memory-bridge/server.py'
+2026-07-02 09:02:30,498 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'python3 /Users/Jeff/Smith/tools/mcp-memory-bridge/server.py'
+2026-07-02 09:02:34,525 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'python3 /Users/Jeff/Smith/tools/mcp-memory-bridge/server.py'
+2026-07-02 09:06:14,216 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 09:21:33,461 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (53 chars)
+2026-07-02 09:21:33,475 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='📖 Read: from ~/Smith/tools/mcp-memory-bridge/AUDIT.md' reply_to_id=None reply_to_text=''
+2026-07-02 09:21:35,161 INFO [20260701_215413_22f4151a] run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_0:6314733568 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:21:37,632 WARNING [20260701_215413_22f4151a] tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-02 09:21:37,639 WARNING [20260701_215413_22f4151a] tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-02 09:21:37,657 INFO [20260701_215413_22f4151a] agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-02 09:21:37,658 WARNING [20260701_215413_22f4151a] tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-02 09:21:37,659 WARNING [20260701_215413_22f4151a] tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-02 09:21:38,828 INFO [20260701_215413_22f4151a] hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 09:21:38,858 INFO [20260701_215413_22f4151a] hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 09:21:38,862 WARNING [20260701_215413_22f4151a] tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-02 09:21:38,864 WARNING [20260701_215413_22f4151a] tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-02 09:21:38,865 WARNING [20260701_215413_22f4151a] tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-02 09:21:38,876 INFO [20260701_215413_22f4151a] agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-02 09:21:38,878 WARNING [20260701_215413_22f4151a] tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-02 09:21:39,289 INFO [20260702_092133_3357cfef] agent.turn_context: conversation turn: session=20260702_092133_3357cfef model=mimo-v2.5-pro provider=xiaomi platform=telegram history=0 msg='📖 Read: from ~/Smith/tools/mcp-memory-bridge/AUDIT.md'
+2026-07-02 09:21:39,417 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-92 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:21:41,977 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-92 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:21:41,978 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=27793 out=39 total=27832 latency=2.6s
+2026-07-02 09:21:42,156 INFO [20260702_092133_3357cfef] tools.file_tools: Creating new local environment for task default...
+2026-07-02 09:21:42,472 INFO [20260702_092133_3357cfef] tools.environments.base: Session snapshot created (session=209a80ed803d, cwd=/Users/Jeff/Smith)
+2026-07-02 09:21:42,473 INFO [20260702_092133_3357cfef] tools.file_tools: local environment ready for task default
+2026-07-02 09:21:42,576 INFO [20260702_092133_3357cfef] agent.tool_executor: tool read_file completed (0.43s, 6389 chars)
+2026-07-02 09:21:42,585 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-99 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:21:53,910 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-99 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:21:53,912 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #2: model=mimo-v2.5-pro provider=xiaomi in=30223 out=507 total=30730 latency=11.3s cache=27776/30223 (92%)
+2026-07-02 09:21:54,060 INFO agent.tool_executor: tool read_file completed (0.14s, 690 chars)
+2026-07-02 09:21:54,066 INFO agent.tool_executor: tool read_file completed (0.14s, 291 chars)
+2026-07-02 09:21:54,102 INFO agent.tool_executor: tool search_files completed (0.18s, 18 chars)
+2026-07-02 09:21:54,111 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-115 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:21:57,120 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-115 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:21:57,122 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #3: model=mimo-v2.5-pro provider=xiaomi in=31079 out=116 total=31195 latency=3.0s cache=30208/31079 (97%)
+2026-07-02 09:21:57,263 INFO agent.tool_executor: tool read_file completed (0.13s, 1231 chars)
+2026-07-02 09:21:57,283 INFO agent.tool_executor: tool search_files completed (0.15s, 18 chars)
+2026-07-02 09:21:57,292 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-125 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:22:02,905 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-125 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:22:02,906 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #4: model=mimo-v2.5-pro provider=xiaomi in=31601 out=221 total=31822 latency=5.6s cache=31040/31601 (98%)
+2026-07-02 09:22:03,025 INFO [20260702_092133_3357cfef] agent.tool_executor: tool search_files completed (0.10s, 84 chars)
+2026-07-02 09:22:04,070 INFO [20260702_092133_3357cfef] agent.tool_executor: tool mcp_qmd_status completed (0.03s, 1591 chars)
+2026-07-02 09:22:04,085 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-129 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:22:24,659 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-129 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:22:24,661 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #5: model=mimo-v2.5-pro provider=xiaomi in=32582 out=1095 total=33677 latency=20.6s cache=31552/32582 (97%)
+2026-07-02 09:22:24,671 INFO [20260702_092133_3357cfef] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=5/90 budget=5/90 tool_turns=4 last_msg_role=assistant response_len=3302 session=20260702_092133_3357cfef
+2026-07-02 09:22:24,689 INFO agent.auxiliary_client: Auxiliary title_generation: using auto (mimo-v2.5-pro) at https://token-plan-sgp.xiaomimimo.com/v1/
+2026-07-02 09:22:25,832 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-02 09:22:25,835 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=52.4s api_calls=5 response=3302 chars
+2026-07-02 09:23:36,427 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (13 chars)
+2026-07-02 09:23:36,435 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='All by means.' reply_to_id=None reply_to_text=''
+2026-07-02 09:23:36,653 INFO [20260702_092133_3357cfef] run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_0:6314733568 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:36,771 INFO [20260702_092133_3357cfef] agent.turn_context: conversation turn: session=20260702_092133_3357cfef model=mimo-v2.5-pro provider=xiaomi platform=telegram history=14 msg='All by means.'
+2026-07-02 09:23:36,789 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-130 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:39,447 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-130 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:39,448 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=33663 out=47 total=33710 latency=2.7s cache=10240/33663 (30%)
+2026-07-02 09:23:39,577 INFO [20260702_092133_3357cfef] agent.tool_executor: tool skill_view completed (0.10s, 53688 chars)
+2026-07-02 09:23:39,590 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-131 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:42,901 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-131 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:42,902 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #2: model=mimo-v2.5-pro provider=xiaomi in=47575 out=123 total=47698 latency=3.3s cache=33600/47575 (71%)
+2026-07-02 09:23:43,458 INFO [20260702_092133_3357cfef] agent.tool_executor: tool terminal completed (0.55s, 116 chars)
+2026-07-02 09:23:43,468 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-133 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:45,993 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-133 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:45,995 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #3: model=mimo-v2.5-pro provider=xiaomi in=47747 out=61 total=47808 latency=2.5s cache=47552/47747 (100%)
+2026-07-02 09:23:46,411 INFO [20260702_092133_3357cfef] agent.tool_executor: tool terminal completed (0.39s, 357 chars)
+2026-07-02 09:23:46,420 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-135 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:49,607 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-135 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:49,608 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #4: model=mimo-v2.5-pro provider=xiaomi in=47911 out=82 total=47993 latency=3.2s cache=47744/47911 (100%)
+2026-07-02 09:23:50,540 INFO [20260702_092133_3357cfef] agent.tool_executor: tool terminal completed (0.93s, 843 chars)
+2026-07-02 09:23:50,548 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-137 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:58,112 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-137 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:23:58,113 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #5: model=mimo-v2.5-pro provider=xiaomi in=48178 out=296 total=48474 latency=7.6s cache=47872/48178 (99%)
+2026-07-02 09:23:58,507 WARNING [20260702_092133_3357cfef] agent.tool_executor: Tool terminal returned error (0.39s): {"output": "Error: 'hermes mcp configure' requires an interactive terminal.", "exit_code": 1, "error": null}
+2026-07-02 09:23:58,520 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-139 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:01,584 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-139 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:01,586 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #6: model=mimo-v2.5-pro provider=xiaomi in=48515 out=92 total=48607 latency=3.1s cache=48128/48515 (99%)
+2026-07-02 09:24:02,297 INFO [20260702_092133_3357cfef] agent.tool_executor: tool terminal completed (0.71s, 54 chars)
+2026-07-02 09:24:02,334 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-141 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:14,635 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-141 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:14,637 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #7: model=mimo-v2.5-pro provider=xiaomi in=48637 out=628 total=49265 latency=12.3s cache=48512/48637 (100%)
+2026-07-02 09:24:18,713 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-02 09:24:18,824 WARNING [20260702_092133_3357cfef] agent.tool_executor: Tool execute_code returned error (4.18s): {"status": "error", "output": "\n--- stderr ---\nTraceback (most recent call last):\n  File \"/var/folders/jw/mz45fg8s26zgz3cx72ztxxgw0000gn/T/hermes_sandbox_op6hhqxs/script.py\", line 4, in <module>\
+2026-07-02 09:24:18,840 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-145 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:21,654 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-145 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:21,655 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #8: model=mimo-v2.5-pro provider=xiaomi in=49523 out=95 total=49618 latency=2.8s cache=48576/49523 (98%)
+2026-07-02 09:24:21,792 INFO agent.tool_executor: tool read_file completed (0.13s, 1038 chars)
+2026-07-02 09:24:21,802 INFO agent.tool_executor: tool read_file completed (0.14s, 1127 chars)
+2026-07-02 09:24:21,812 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-156 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:33,929 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-156 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:33,931 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #9: model=mimo-v2.5-pro provider=xiaomi in=50340 out=790 total=51130 latency=12.1s cache=49472/50340 (98%)
+2026-07-02 09:24:39,773 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-02 09:24:39,885 WARNING [20260702_092133_3357cfef] agent.tool_executor: Tool execute_code returned error (5.94s): {"status": "error", "output": "=== TEST 1: MCP Memory Bridge Stats ===\n{\n  \"indexed_files\": 553,\n  \"structured_entries\": 2,\n  \"total_size_bytes\": 2212887,\n  \"watch_paths\": [\n    \"/Users
+2026-07-02 09:24:39,898 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-160 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:56,181 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-160 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:24:56,183 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #10: model=mimo-v2.5-pro provider=xiaomi in=51597 out=1013 total=52610 latency=16.3s cache=50304/51597 (97%)
+2026-07-02 09:24:59,720 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-02 09:24:59,833 WARNING [20260702_092133_3357cfef] agent.tool_executor: Tool execute_code returned error (3.64s): {"status": "error", "output": "=== TEST 2: Search 'Returnable Box' (top 3) ===\n  1. score=?  path=/Users/Jeff/Smith/wiki/sources/bridge-smith-ec7a1e9e-memory-reference-returnable-box-a42091c4.md\n   
+2026-07-02 09:24:59,847 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-164 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:25:09,502 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-164 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:25:09,505 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #11: model=mimo-v2.5-pro provider=xiaomi in=53468 out=437 total=53905 latency=9.7s cache=51584/53468 (96%)
+2026-07-02 09:26:13,981 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-02 09:26:14,091 WARNING [20260702_092133_3357cfef] agent.tool_executor: Tool execute_code returned error (64.58s): {"status": "error", "output": "=== TEST 3: Smith→Hermes Write ===\n  write_entry returned: {\"id\": \"6a5499df618a\", \"title\": \"Audit Test Entry from Smith\", \"created_at\": \"2026-07-02T02:26:14.
+2026-07-02 09:26:14,106 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-168 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:26:18,032 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-168 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:26:18,033 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #12: model=mimo-v2.5-pro provider=xiaomi in=54438 out=113 total=54551 latency=3.9s cache=53440/54438 (98%)
+2026-07-02 09:26:18,137 INFO [20260702_092133_3357cfef] agent.tool_executor: tool search_files completed (0.09s, 160 chars)
+2026-07-02 09:26:18,153 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-172 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:26:21,691 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-172 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:26:21,693 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #13: model=mimo-v2.5-pro provider=xiaomi in=54613 out=93 total=54706 latency=3.5s cache=54400/54613 (100%)
+2026-07-02 09:26:35,468 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-02 09:26:35,680 INFO [20260702_092133_3357cfef] agent.tool_executor: tool execute_code completed (13.98s, 172 chars)
+2026-07-02 09:26:35,690 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-176 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:26:57,927 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-176 (_call):6348386304 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:26:57,929 INFO [20260702_092133_3357cfef] agent.conversation_loop: API call #14: model=mimo-v2.5-pro provider=xiaomi in=54788 out=825 total=55613 latency=22.2s cache=54592/54788 (100%)
+2026-07-02 09:26:58,087 INFO [20260702_092133_3357cfef] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=14/90 budget=9/90 tool_turns=17 last_msg_role=assistant response_len=2516 session=20260702_092133_3357cfef
+2026-07-02 09:26:59,056 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-02 09:26:59,058 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=202.6s api_calls=14 response=2516 chars
+2026-07-02 09:32:01,530 INFO tools.terminal_tool: Cleaned up inactive environment for task: default
+2026-07-02 09:52:29,794 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 09:59:47,482 INFO gateway.platforms.base: [Telegram] Sending response (119 chars) to 8611951691
+2026-07-02 09:59:47,555 INFO gateway.run: Stopping gateway for restart...
+2026-07-02 09:59:47,556 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-02 09:59:47,558 INFO gateway.run: Shutdown phase: drain done at +0.00s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0)
+2026-07-02 09:59:47,561 INFO [20260702_092133_3357cfef] run_agent: OpenAI client closed (agent_close, shared=True, tcp_force_closed=0) thread=hermes-gateway_0:6314733568 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 09:59:51,157 INFO telegram.ext.Application: Application is stopping. This might take a moment.
+2026-07-02 09:59:51,158 INFO telegram.ext.Application: Application.stop() complete
+2026-07-02 09:59:51,162 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Disconnected from Telegram
+2026-07-02 09:59:51,162 INFO gateway.run: ✓ telegram disconnected (3.60s)
+2026-07-02 09:59:51,162 INFO gateway.run: Shutdown phase: all adapters disconnected at +3.61s
+2026-07-02 09:59:51,167 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +3.61s
+2026-07-02 09:59:51,194 INFO gateway.run: Shutdown phase: SessionDB close done at +3.64s
+2026-07-02 09:59:51,196 INFO gateway.run: Gateway stopped (total teardown 3.64s)
+2026-07-02 09:59:51,197 INFO gateway.run: Gateway housekeeping stopped
+2026-07-02 09:59:53,028 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-02 09:59:53,028 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-02 09:59:53,029 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-02 09:59:53,054 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-02 09:59:53,054 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-02 09:59:53,055 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-02 09:59:53,055 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-02 09:59:53,055 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-02 09:59:53,055 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-02 09:59:53,056 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-02 09:59:53,057 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-02 09:59:53,058 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-02 09:59:53,059 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-02 09:59:53,060 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-02 09:59:53,060 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-02 09:59:53,062 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-02 09:59:53,062 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-02 09:59:53,063 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-02 09:59:53,063 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-02 09:59:53,064 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-02 09:59:53,064 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-02 09:59:53,139 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-02 09:59:53,139 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-02 09:59:54,223 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-02 09:59:54,493 INFO tools.mcp_tool: MCP server 'memory-bridge' (stdio): registered 7 tool(s): mcp_memory_bridge_memory_bridge_scan, mcp_memory_bridge_memory_bridge_search, mcp_memory_bridge_memory_bridge_read, mcp_memory_bridge_memory_bridge_write, mcp_memory_bridge_memory_bridge_list, mcp_memory_bridge_memory_bridge_get, mcp_memory_bridge_memory_bridge_stats
+2026-07-02 09:59:55,413 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-02 09:59:57,593 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-02 10:00:01,773 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-02 10:00:01,773 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): Connection closed
+2026-07-02 10:00:01,774 INFO tools.mcp_tool: MCP: registered 7 tool(s) from 1 server(s) (1 failed)
+2026-07-02 10:00:01,774 INFO tools.mcp_tool:   MCP: 7 tool(s) from 1 server(s) (1 failed)
+2026-07-02 10:00:01,774 INFO gateway.run: Starting Hermes Gateway...
+2026-07-02 10:00:01,774 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-02 10:00:01,775 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-02 10:00:01,775 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-02 10:00:01,775 INFO gateway.run: Active profile: custom
+2026-07-02 10:00:01,780 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-02 10:00:01,794 INFO gateway.run: Connecting to telegram...
+2026-07-02 10:00:01,794 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-02 10:00:01,942 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-07-02 10:00:01,957 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-07-02 10:00:01,989 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-02 10:00:02,581 INFO telegram.ext.Application: Application started
+2026-07-02 10:00:02,983 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-02 10:00:03,156 INFO gateway.run: ✓ telegram connected
+2026-07-02 10:00:03,157 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-02 10:00:03,158 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-02 10:00:03,635 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (52 cmds)
+2026-07-02 10:00:04,000 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (52 cmds)
+2026-07-02 10:00:04,400 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (52 cmds)
+2026-07-02 10:00:05,117 INFO gateway.run: Queued inbound message during gateway startup restore: platform=telegram chat=8611951691
+2026-07-02 10:00:05,329 INFO gateway.run: Sent restart notification to telegram:8611951691
+2026-07-02 10:00:05,334 INFO gateway.run: Drained 1 inbound message(s) queued during startup restore
+2026-07-02 10:00:05,337 INFO gateway.run: Press Ctrl+C to stop
+2026-07-02 10:00:05,379 INFO cron.scheduler_provider: In-process cron scheduler started (interval=60s)
+2026-07-02 10:00:05,382 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-07-02 10:00:05,414 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/.hermes/kanban/.dispatcher.lock)
+2026-07-02 10:00:08,355 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8611951691 → 1 (session_reset)
+2026-07-02 10:00:10,416 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-07-02 10:02:54,495 WARNING tools.mcp_tool: MCP server 'memory-bridge' keepalive failed, triggering reconnect: 
+2026-07-02 10:02:54,499 INFO tools.mcp_tool: MCP server 'memory-bridge': reconnecting (OAuth recovery or manual refresh)
+2026-07-02 10:30:20,348 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (131 chars)
+2026-07-02 10:30:20,361 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Can help to compare these models between Nemotron 3 Ultra (free) and Laguna M.1 ' reply_to_id=None reply_to_text=''
+2026-07-02 10:30:20,388 INFO run_agent: Loaded environment variables from /Users/Jeff/.hermes/profiles/smith/.env
+2026-07-02 10:30:21,042 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_0:6302265344 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:23,007 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-02 10:30:23,013 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-02 10:30:23,349 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-02 10:30:23,349 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-02 10:30:23,350 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-02 10:30:24,780 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 10:30:24,805 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 10:30:24,809 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-02 10:30:24,810 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-02 10:30:24,811 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-02 10:30:24,839 INFO agent.auxiliary_client: Vision auto-detect: using main provider xiaomi (mimo-v2.5)
+2026-07-02 10:30:24,841 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-02 10:30:25,341 INFO [20260702_100008_7a48ae28] agent.turn_context: conversation turn: session=20260702_100008_7a48ae28 model=mimo-v2.5-pro provider=xiaomi platform=telegram history=0 msg='Can help to compare these models between Nemotron 3 Ultra (free) and Laguna M.1 ...'
+2026-07-02 10:30:25,907 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-1 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:30,186 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-1 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:30,188 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=26812 out=106 total=26918 latency=4.3s cache=3072/26812 (11%)
+2026-07-02 10:30:30,455 WARNING [20260702_100008_7a48ae28] tools.skills_tool: Skill name collision for 'last30days': 7 candidates — /Users/Jeff/.hermes/profiles/smith/skills/last30days/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/last30days-openclaw/variants/open/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/last30days-skill/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/last30days-skill/variants/open/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/last30days-openclaw/variants/open/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/last30days-skill/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/last30days-skill/variants/open/SKILL.md
+2026-07-02 10:30:30,455 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_view returned error (0.10s): {"success": false, "error": "Ambiguous skill name 'last30days': 7 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "match
+2026-07-02 10:30:30,461 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-2 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:32,382 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-2 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:32,384 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #2: model=mimo-v2.5-pro provider=xiaomi in=27219 out=49 total=27268 latency=1.9s cache=26752/27219 (98%)
+2026-07-02 10:30:32,467 WARNING [20260702_100008_7a48ae28] tools.skills_tool: Skill name collision for 'last30days-skill': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/last30days-skill/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/last30days-skill/SKILL.md
+2026-07-02 10:30:32,467 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_view returned error (0.06s): {"success": false, "error": "Ambiguous skill name 'last30days-skill': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", 
+2026-07-02 10:30:32,474 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-3 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:34,833 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-3 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:34,834 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #3: model=mimo-v2.5-pro provider=xiaomi in=27424 out=51 total=27475 latency=2.4s cache=27200/27424 (99%)
+2026-07-02 10:30:34,910 WARNING [20260702_100008_7a48ae28] tools.skills_tool: Skill security warning for 'openclaw-imports/last30days-skill': skill content contains patterns that may indicate prompt injection
+2026-07-02 10:30:34,916 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skill_view completed (0.07s, 21830 chars)
+2026-07-02 10:30:34,924 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-4 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:35,536 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (12 chars)
+2026-07-02 10:30:35,542 INFO [20260702_100008_7a48ae28] run_agent: OpenAI client aborted (stream_interrupt_abort, shared=False, tcp_force_closed=1, deferred_close=stranger_thread) thread=hermes-gateway_0:6302265344 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:35,544 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-4 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:35,551 INFO [20260702_100008_7a48ae28] agent.conversation_loop: Turn ended: reason=interrupted_during_api_call model=mimo-v2.5-pro api_calls=4/90 budget=4/90 tool_turns=3 last_msg_role=assistant response_len=65 session=20260702_100008_7a48ae28
+2026-07-02 10:30:35,575 INFO agent.auxiliary_client: Auxiliary auto-detect: using main provider xiaomi (mimo-v2.5-pro)
+2026-07-02 10:30:35,577 INFO agent.auxiliary_client: Auxiliary title_generation: using auto (mimo-v2.5-pro) at https://token-plan-sgp.xiaomimimo.com/v1/
+2026-07-02 10:30:36,392 INFO [20260702_100008_7a48ae28] agent.turn_context: conversation turn: session=20260702_100008_7a48ae28 model=mimo-v2.5-pro provider=xiaomi platform=telegram history=8 msg='In OpenRoute'
+2026-07-02 10:30:36,402 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-5 (_call):6335918080 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:39,456 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-5 (_call):6335918080 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:39,457 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #4: model=mimo-v2.5-pro provider=xiaomi in=33455 out=69 total=33524 latency=3.1s cache=33408/33455 (100%)
+2026-07-02 10:30:39,531 WARNING [20260702_100008_7a48ae28] tools.skills_tool: Skill name collision for 'brave-search': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/brave-search/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/brave-search/SKILL.md
+2026-07-02 10:30:39,531 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_view returned error (0.07s): {"success": false, "error": "Ambiguous skill name 'brave-search': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "mat
+2026-07-02 10:30:39,539 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-6 (_call):6335918080 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:41,778 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-6 (_call):6335918080 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:41,779 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #5: model=mimo-v2.5-pro provider=xiaomi in=33671 out=48 total=33719 latency=2.2s cache=33408/33671 (99%)
+2026-07-02 10:30:41,828 INFO [20260702_100008_7a48ae28] tools.browser_tool: Started inactivity cleanup thread (timeout: 120s)
+2026-07-02 10:30:41,830 INFO [20260702_100008_7a48ae28] tools.browser_tool: Created local browser session h_b53c0458e5 for task 20260702_100008_7a48ae28
+2026-07-02 10:30:47,860 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (6.07s, 8759 chars)
+2026-07-02 10:30:47,888 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-7 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:49,984 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-7 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:49,985 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #6: model=mimo-v2.5-pro provider=xiaomi in=36171 out=59 total=36230 latency=2.1s cache=33664/36171 (93%)
+2026-07-02 10:30:50,271 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_type completed (0.28s, 57 chars)
+2026-07-02 10:30:50,282 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-8 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:52,838 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-8 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:52,839 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #7: model=mimo-v2.5-pro provider=xiaomi in=36329 out=38 total=36367 latency=2.6s cache=36160/36329 (100%)
+2026-07-02 10:30:53,206 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_snapshot completed (0.34s, 7833 chars)
+2026-07-02 10:30:53,222 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-9 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:55,675 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-9 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:55,676 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #8: model=mimo-v2.5-pro provider=xiaomi in=38608 out=60 total=38668 latency=2.5s cache=36288/38608 (94%)
+2026-07-02 10:30:56,013 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_click completed (0.33s, 37 chars)
+2026-07-02 10:30:56,024 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-10 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:58,897 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-10 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:30:58,897 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #9: model=mimo-v2.5-pro provider=xiaomi in=38760 out=41 total=38801 latency=2.9s cache=38592/38760 (100%)
+2026-07-02 10:30:59,401 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_snapshot completed (0.50s, 8414 chars)
+2026-07-02 10:30:59,413 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-11 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:01,690 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-11 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:01,691 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #10: model=mimo-v2.5-pro provider=xiaomi in=41157 out=48 total=41205 latency=2.3s cache=38720/41157 (94%)
+2026-07-02 10:31:02,492 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_back completed (0.79s, 76 chars)
+2026-07-02 10:31:02,513 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-12 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:04,880 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-12 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:04,881 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #11: model=mimo-v2.5-pro provider=xiaomi in=41307 out=44 total=41351 latency=2.4s cache=41152/41307 (100%)
+2026-07-02 10:31:05,182 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool browser_type returned error (0.27s): {"success": false, "error": "Unknown ref: e25"}
+2026-07-02 10:31:05,200 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-13 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:07,524 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-13 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:07,525 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #12: model=mimo-v2.5-pro provider=xiaomi in=41445 out=47 total=41492 latency=2.3s cache=41280/41445 (100%)
+2026-07-02 10:31:08,534 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (1.01s, 8221 chars)
+2026-07-02 10:31:08,544 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-14 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:11,186 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-14 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:11,188 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #13: model=mimo-v2.5-pro provider=xiaomi in=44035 out=84 total=44119 latency=2.6s cache=41408/44035 (94%)
+2026-07-02 10:31:12,095 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (0.90s, 7476 chars)
+2026-07-02 10:31:12,109 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-15 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:14,133 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-15 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:14,134 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #14: model=mimo-v2.5-pro provider=xiaomi in=46311 out=48 total=46359 latency=2.0s cache=44032/46311 (95%)
+2026-07-02 10:31:14,415 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_click completed (0.28s, 37 chars)
+2026-07-02 10:31:14,430 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-16 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:16,248 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-16 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:16,248 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #15: model=mimo-v2.5-pro provider=xiaomi in=46451 out=39 total=46490 latency=1.8s cache=46272/46451 (100%)
+2026-07-02 10:31:16,584 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_snapshot completed (0.33s, 8461 chars)
+2026-07-02 10:31:16,594 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-17 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:18,908 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-17 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:18,909 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #16: model=mimo-v2.5-pro provider=xiaomi in=48901 out=52 total=48953 latency=2.3s cache=46400/48901 (95%)
+2026-07-02 10:31:19,800 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (0.89s, 8574 chars)
+2026-07-02 10:31:19,812 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-18 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:21,903 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-18 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:21,904 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #17: model=mimo-v2.5-pro provider=xiaomi in=51409 out=42 total=51451 latency=2.1s cache=48896/51409 (95%)
+2026-07-02 10:31:22,190 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_click completed (0.28s, 37 chars)
+2026-07-02 10:31:22,204 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-19 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:24,212 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-19 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:24,214 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #18: model=mimo-v2.5-pro provider=xiaomi in=51543 out=36 total=51579 latency=2.0s cache=51392/51543 (100%)
+2026-07-02 10:31:24,562 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_snapshot completed (0.34s, 8483 chars)
+2026-07-02 10:31:24,578 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-20 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:27,140 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-20 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:27,141 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #19: model=mimo-v2.5-pro provider=xiaomi in=54036 out=50 total=54086 latency=2.6s cache=51520/54036 (95%)
+2026-07-02 10:31:27,429 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_scroll completed (0.28s, 37 chars)
+2026-07-02 10:31:27,445 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-21 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:30,531 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-21 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:30,532 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #20: model=mimo-v2.5-pro provider=xiaomi in=54176 out=54 total=54230 latency=3.1s cache=54016/54176 (100%)
+2026-07-02 10:31:30,878 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_snapshot completed (0.34s, 8479 chars)
+2026-07-02 10:31:30,888 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-22 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:33,923 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-22 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:33,924 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #21: model=mimo-v2.5-pro provider=xiaomi in=56636 out=33 total=56669 latency=3.0s cache=54144/56636 (96%)
+2026-07-02 10:31:34,228 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_scroll completed (0.30s, 37 chars)
+2026-07-02 10:31:34,276 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-23 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:36,603 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-23 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:36,605 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #22: model=mimo-v2.5-pro provider=xiaomi in=56759 out=42 total=56801 latency=2.3s cache=56576/56759 (100%)
+2026-07-02 10:31:36,952 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_click completed (0.33s, 37 chars)
+2026-07-02 10:31:36,963 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-24 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:39,060 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-24 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:39,062 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #23: model=mimo-v2.5-pro provider=xiaomi in=56893 out=33 total=56926 latency=2.1s cache=56704/56893 (100%)
+2026-07-02 10:31:39,459 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_snapshot completed (0.39s, 8479 chars)
+2026-07-02 10:31:39,473 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-25 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:56,940 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-25 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:56,941 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #24: model=mimo-v2.5-pro provider=xiaomi in=59332 out=1324 total=60656 latency=17.5s cache=56832/59332 (96%)
+2026-07-02 10:31:57,551 INFO [20260702_100008_7a48ae28] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=21/90 budget=21/90 tool_turns=23 last_msg_role=assistant response_len=1938 session=20260702_100008_7a48ae28
+2026-07-02 10:31:57,572 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=bg-review:6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:57,708 INFO [20260702_100008_7a48ae28] agent.turn_context: conversation turn: session=20260702_100008_7a48ae28 model=mimo-v2.5-pro provider=xiaomi platform=telegram history=50 msg='Review the conversation above and update the skill library. Be ACTIVE — most ses...'
+2026-07-02 10:31:57,726 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-26 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:31:58,394 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-02 10:31:58,399 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=98.0s api_calls=21 response=1938 chars
+2026-07-02 10:32:08,255 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-26 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:08,256 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=61775 out=420 total=62195 latency=10.5s cache=10240/61775 (17%)
+2026-07-02 10:32:08,337 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skills_list completed (0.08s, 28911 chars)
+2026-07-02 10:32:08,346 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-27 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:13,554 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-27 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:13,555 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #2: model=mimo-v2.5-pro provider=xiaomi in=69182 out=145 total=69327 latency=5.2s cache=61760/69182 (89%)
+2026-07-02 10:32:13,643 WARNING [20260702_100008_7a48ae28] tools.skills_tool: Skill name collision for 'freeride': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/free-ride/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/free-ride/SKILL.md
+2026-07-02 10:32:13,644 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_view returned error (0.09s): {"success": false, "error": "Ambiguous skill name 'freeride': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "matches
+2026-07-02 10:32:13,652 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-28 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:16,137 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-28 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:16,138 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #3: model=mimo-v2.5-pro provider=xiaomi in=69472 out=48 total=69520 latency=2.5s cache=69120/69472 (99%)
+2026-07-02 10:32:16,216 WARNING [20260702_100008_7a48ae28] tools.skills_tool: Skill name collision for 'free-ride': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/free-ride/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/free-ride/SKILL.md
+2026-07-02 10:32:16,217 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_view returned error (0.08s): {"success": false, "error": "Ambiguous skill name 'free-ride': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "matche
+2026-07-02 10:32:16,227 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-29 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:18,345 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-29 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:18,346 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #4: model=mimo-v2.5-pro provider=xiaomi in=69665 out=52 total=69717 latency=2.1s cache=69440/69665 (100%)
+2026-07-02 10:32:18,437 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_view returned error (0.09s): {"success": false, "error": "Skill 'openclaw-imports/freeride' not found.", "available_skills": ["1password", "agentmail", "apple-notes", "brave-search", "circulatingbox-publish", "claw-mechanic", "co
+2026-07-02 10:32:18,446 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-30 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:21,351 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-30 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:21,352 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #5: model=mimo-v2.5-pro provider=xiaomi in=69972 out=76 total=70048 latency=2.9s cache=69440/69972 (99%)
+2026-07-02 10:32:21,354 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool search_files returned error (0.00s): {"error": "Background review denied non-whitelisted tool: search_files. Only memory/skill tools are allowed."}
+2026-07-02 10:32:21,385 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-31 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:23,729 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-31 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:23,730 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #6: model=mimo-v2.5-pro provider=xiaomi in=70084 out=54 total=70138 latency=2.4s cache=69952/70084 (100%)
+2026-07-02 10:32:23,804 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skill_view completed (0.07s, 5958 chars)
+2026-07-02 10:32:23,814 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-32 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:42,041 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-32 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:42,042 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #7: model=mimo-v2.5-pro provider=xiaomi in=71753 out=1207 total=72960 latency=18.2s cache=70080/71753 (98%)
+2026-07-02 10:32:42,159 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_manage returned error (0.11s): {"success": false, "error": "Skill 'openclaw-imports/free-ride' not found in active profile 'default'. Use skills_list() to see available skills. Create it first with action='create'."}
+2026-07-02 10:32:42,168 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-33 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:50,531 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-33 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:50,532 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #8: model=mimo-v2.5-pro provider=xiaomi in=73018 out=451 total=73469 latency=8.4s cache=71744/73018 (98%)
+2026-07-02 10:32:50,622 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_manage returned error (0.09s): {"success": false, "error": "Skill 'openclaw-imports/free-ride' not found in active profile 'default'. Use skills_list() to see available skills."}
+2026-07-02 10:32:50,631 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-34 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:54,106 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-34 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:32:54,108 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #9: model=mimo-v2.5-pro provider=xiaomi in=73518 out=187 total=73705 latency=3.5s cache=72960/73518 (99%)
+2026-07-02 10:32:54,165 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skill_manage completed (0.06s, 344 chars)
+2026-07-02 10:32:54,177 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-35 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:33:16,505 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-35 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:33:16,507 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #10: model=mimo-v2.5-pro provider=xiaomi in=73804 out=967 total=74771 latency=22.3s cache=73472/73804 (100%)
+2026-07-02 10:33:16,566 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skill_manage completed (0.06s, 210 chars)
+2026-07-02 10:33:16,578 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-36 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:33:23,355 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-36 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:33:23,356 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #11: model=mimo-v2.5-pro provider=xiaomi in=74839 out=189 total=75028 latency=6.8s cache=73792/74839 (99%)
+2026-07-02 10:33:23,363 INFO [20260702_100008_7a48ae28] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=11/16 budget=11/16 tool_turns=33 last_msg_role=assistant response_len=705 session=20260702_100008_7a48ae28
+2026-07-02 10:33:23,369 INFO [20260702_100008_7a48ae28] run_agent: OpenAI client closed (agent_close, shared=True, tcp_force_closed=0) thread=bg-review:6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:34:42,290 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (34 chars)
+2026-07-02 10:34:42,298 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='What about if including Owl Alpha?' reply_to_id=None reply_to_text=''
+2026-07-02 10:34:42,558 INFO [20260702_100008_7a48ae28] agent.turn_context: conversation turn: session=20260702_100008_7a48ae28 model=mimo-v2.5-pro provider=xiaomi platform=telegram history=50 msg='What about if including Owl Alpha?'
+2026-07-02 10:34:42,573 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-37 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:34:45,096 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-37 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:34:45,097 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #25: model=mimo-v2.5-pro provider=xiaomi in=60670 out=54 total=60724 latency=2.5s cache=59328/60670 (98%)
+2026-07-02 10:34:45,115 INFO [20260702_100008_7a48ae28] tools.browser_tool: Created local browser session h_cde11b2961 for task 20260702_100008_7a48ae28
+2026-07-02 10:34:48,354 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (3.25s, 8340 chars)
+2026-07-02 10:34:48,365 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-38 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:34:53,439 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-38 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:34:53,440 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #26: model=mimo-v2.5-pro provider=xiaomi in=63283 out=93 total=63376 latency=5.1s cache=60608/63283 (96%)
+2026-07-02 10:34:54,391 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (0.95s, 7816 chars)
+2026-07-02 10:34:54,404 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-39 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:34:58,085 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-39 (_call):6319091712 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:34:58,086 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #27: model=mimo-v2.5-pro provider=xiaomi in=65787 out=108 total=65895 latency=3.7s cache=63232/65787 (96%)
+2026-07-02 10:34:58,088 INFO [20260702_100008_7a48ae28] tools.file_tools: Creating new local environment for task default...
+2026-07-02 10:34:58,304 INFO [20260702_100008_7a48ae28] tools.environments.base: Session snapshot created (session=cc3da1883c31, cwd=/Users/Jeff/Smith)
+2026-07-02 10:34:58,305 INFO [20260702_100008_7a48ae28] tools.file_tools: local environment ready for task default
+2026-07-02 10:35:01,430 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool search_files returned error (3.34s): {"total_count": 0, "error": "Search failed: rg: /Users/Jeff/Library/Caches/com.apple.ap.adprivacyd: Operation not permitted (os error 1)\nrg: /Users/Jeff/Library/Trial: Operation not permitted (os err
+2026-07-02 10:35:01,448 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-45 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:05,048 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-45 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:05,050 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #28: model=mimo-v2.5-pro provider=xiaomi in=72285 out=86 total=72371 latency=3.6s cache=65728/72285 (91%)
+2026-07-02 10:35:05,152 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool search_files completed (0.10s, 18 chars)
+2026-07-02 10:35:05,166 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-48 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:07,825 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-48 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:07,826 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #29: model=mimo-v2.5-pro provider=xiaomi in=72389 out=75 total=72464 latency=2.7s cache=72256/72389 (100%)
+2026-07-02 10:35:07,941 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool search_files completed (0.11s, 1372 chars)
+2026-07-02 10:35:07,954 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-51 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:10,473 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-51 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:10,474 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #30: model=mimo-v2.5-pro provider=xiaomi in=72868 out=92 total=72960 latency=2.5s cache=72384/72868 (99%)
+2026-07-02 10:35:10,582 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool search_files completed (0.10s, 1015 chars)
+2026-07-02 10:35:10,594 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-54 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:13,435 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-54 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:13,437 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #31: model=mimo-v2.5-pro provider=xiaomi in=73296 out=61 total=73357 latency=2.8s cache=72832/73296 (99%)
+2026-07-02 10:35:13,570 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool read_file completed (0.13s, 946 chars)
+2026-07-02 10:35:13,586 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-59 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:16,678 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-59 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:16,680 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #32: model=mimo-v2.5-pro provider=xiaomi in=73771 out=76 total=73847 latency=3.1s cache=73280/73771 (99%)
+2026-07-02 10:35:16,789 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool search_files completed (0.10s, 736 chars)
+2026-07-02 10:35:16,801 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-62 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:19,247 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-62 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:19,248 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #33: model=mimo-v2.5-pro provider=xiaomi in=74187 out=58 total=74245 latency=2.5s cache=73728/74187 (99%)
+2026-07-02 10:35:19,371 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool read_file completed (0.12s, 513 chars)
+2026-07-02 10:35:19,386 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-67 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:35,979 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-67 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:35,980 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #34: model=mimo-v2.5-pro provider=xiaomi in=74473 out=237 total=74710 latency=16.6s cache=74176/74473 (100%)
+2026-07-02 10:35:37,069 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (0.90s, 8532 chars)
+2026-07-02 10:35:37,082 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-68 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:39,463 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-68 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:39,465 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #35: model=mimo-v2.5-pro provider=xiaomi in=77139 out=48 total=77187 latency=2.4s cache=74432/77139 (96%)
+2026-07-02 10:35:39,777 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_scroll completed (0.27s, 37 chars)
+2026-07-02 10:35:39,794 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-69 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:47,054 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-69 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:47,055 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #36: model=mimo-v2.5-pro provider=xiaomi in=77277 out=33 total=77310 latency=7.3s cache=77120/77277 (100%)
+2026-07-02 10:35:47,408 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_snapshot completed (0.33s, 8309 chars)
+2026-07-02 10:35:47,432 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-70 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:51,563 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-70 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:51,564 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #37: model=mimo-v2.5-pro provider=xiaomi in=79642 out=90 total=79732 latency=4.1s cache=77248/79642 (97%)
+2026-07-02 10:35:52,808 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (1.24s, 3981 chars)
+2026-07-02 10:35:52,830 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-71 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:56,825 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-71 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:35:56,826 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #38: model=mimo-v2.5-pro provider=xiaomi in=81044 out=166 total=81210 latency=4.0s cache=79616/81044 (98%)
+2026-07-02 10:35:57,823 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (0.99s, 8595 chars)
+2026-07-02 10:35:57,837 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-72 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:07,122 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-72 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:07,124 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #39: model=mimo-v2.5-pro provider=xiaomi in=83722 out=601 total=84323 latency=9.3s cache=81024/83722 (97%)
+2026-07-02 10:36:07,656 INFO [20260702_100008_7a48ae28] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=15/90 budget=15/90 tool_turns=37 last_msg_role=assistant response_len=1403 session=20260702_100008_7a48ae28
+2026-07-02 10:36:07,678 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=bg-review:6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:07,801 INFO [20260702_100008_7a48ae28] agent.turn_context: conversation turn: session=20260702_100008_7a48ae28 model=mimo-v2.5-pro provider=xiaomi platform=telegram history=80 msg='Review the conversation above and update the skill library. Be ACTIVE — most ses...'
+2026-07-02 10:36:07,823 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-73 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:08,463 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-02 10:36:08,465 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=86.2s api_calls=15 response=1403 chars
+2026-07-02 10:36:16,911 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-73 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:16,912 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=85442 out=272 total=85714 latency=9.1s
+2026-07-02 10:36:16,988 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skills_list completed (0.07s, 28911 chars)
+2026-07-02 10:36:17,000 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-74 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:22,941 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-74 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:22,942 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #2: model=mimo-v2.5-pro provider=xiaomi in=92701 out=139 total=92840 latency=5.9s cache=85376/92701 (92%)
+2026-07-02 10:36:23,009 WARNING [20260702_100008_7a48ae28] tools.skills_tool: Skill name collision for 'freeride': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/free-ride/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/free-ride/SKILL.md
+2026-07-02 10:36:23,010 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_view returned error (0.07s): {"success": false, "error": "Ambiguous skill name 'freeride': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "matches
+2026-07-02 10:36:23,021 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-75 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:25,970 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-75 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:25,971 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #3: model=mimo-v2.5-pro provider=xiaomi in=92985 out=56 total=93041 latency=3.0s cache=92672/92985 (100%)
+2026-07-02 10:36:26,051 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skill_view completed (0.08s, 6386 chars)
+2026-07-02 10:36:26,062 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-76 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:29,689 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-76 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:29,690 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #4: model=mimo-v2.5-pro provider=xiaomi in=94747 out=90 total=94837 latency=3.6s cache=92928/94747 (98%)
+2026-07-02 10:36:29,767 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skill_view completed (0.08s, 3249 chars)
+2026-07-02 10:36:29,779 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-77 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:39,900 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-77 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:39,903 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #5: model=mimo-v2.5-pro provider=xiaomi in=95830 out=629 total=96459 latency=10.1s cache=94720/95830 (99%)
+2026-07-02 10:36:39,993 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_manage returned error (0.09s): {"success": false, "error": "Skill 'openclaw-imports/free-ride' not found in active profile 'default'. Use skills_list() to see available skills."}
+2026-07-02 10:36:40,003 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-78 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:56,352 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-78 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:56,354 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #6: model=mimo-v2.5-pro provider=xiaomi in=96508 out=84 total=96592 latency=16.4s cache=95808/96508 (99%)
+2026-07-02 10:36:56,440 WARNING [20260702_100008_7a48ae28] tools.skills_tool: Skill name collision for 'free-ride': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/free-ride/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/free-ride/SKILL.md
+2026-07-02 10:36:56,440 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_view returned error (0.08s): {"success": false, "error": "Ambiguous skill name 'free-ride': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "matche
+2026-07-02 10:36:56,451 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-79 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:56,893 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (32 chars)
+2026-07-02 10:36:56,903 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Here it is. openrouter/owl-alpha' reply_to_id=None reply_to_text=''
+2026-07-02 10:36:57,105 INFO [20260702_100008_7a48ae28] agent.turn_context: conversation turn: session=20260702_100008_7a48ae28 model=mimo-v2.5-pro provider=xiaomi platform=telegram history=80 msg='Here it is. openrouter/owl-alpha'
+2026-07-02 10:36:57,121 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-80 (_call):6386397184 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:59,701 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-80 (_call):6386397184 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:36:59,702 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #40: model=mimo-v2.5-pro provider=xiaomi in=84338 out=73 total=84411 latency=2.6s cache=83712/84338 (99%)
+2026-07-02 10:36:59,725 INFO [20260702_100008_7a48ae28] tools.browser_tool: Created local browser session h_d715c1be97 for task 20260702_100008_7a48ae28
+2026-07-02 10:37:02,554 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_navigate completed (2.84s, 8647 chars)
+2026-07-02 10:37:02,569 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-81 (_call):6386397184 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:04,182 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-79 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:04,183 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #7: model=mimo-v2.5-pro provider=xiaomi in=96737 out=542 total=97279 latency=7.7s cache=96448/96737 (100%)
+2026-07-02 10:37:04,262 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_manage returned error (0.08s): {"success": false, "error": "Skill 'openclaw-imports/free-ride' not found in active profile 'default'. Use skills_list() to see available skills."}
+2026-07-02 10:37:04,274 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-82 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:06,872 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-81 (_call):6386397184 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:06,873 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #41: model=mimo-v2.5-pro provider=xiaomi in=86473 out=198 total=86671 latency=4.3s cache=84288/86473 (97%)
+2026-07-02 10:37:07,165 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_scroll completed (0.29s, 37 chars)
+2026-07-02 10:37:07,189 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-83 (_call):6386397184 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:07,273 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-82 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:07,274 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #8: model=mimo-v2.5-pro provider=xiaomi in=97328 out=69 total=97397 latency=3.0s cache=96704/97328 (99%)
+2026-07-02 10:37:07,275 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_view returned error (0.00s): {"success": false, "error": "Skill name must be a relative path within the skills directory.", "hint": "Use a skill name or relative path within the skills directory."}
+2026-07-02 10:37:07,290 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-84 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:10,517 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-83 (_call):6386397184 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:10,519 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #42: model=mimo-v2.5-pro provider=xiaomi in=86761 out=36 total=86797 latency=3.3s cache=86464/86761 (100%)
+2026-07-02 10:37:10,813 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool browser_snapshot completed (0.29s, 8266 chars)
+2026-07-02 10:37:10,827 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-85 (_call):6386397184 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:14,816 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-84 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:14,817 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #9: model=mimo-v2.5-pro provider=xiaomi in=97446 out=452 total=97898 latency=7.5s cache=97280/97446 (100%)
+2026-07-02 10:37:14,889 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_manage returned error (0.07s): {"success": false, "error": "Could not find a match for old_string in the file\n\nDid you mean one of these sections?\n 122| - What specs to extract from OpenRouter model pages\n 123| - Decision frame
+2026-07-02 10:37:14,901 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-86 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:24,664 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-85 (_call):6386397184 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:24,666 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #43: model=mimo-v2.5-pro provider=xiaomi in=89022 out=786 total=89808 latency=13.8s cache=86720/89022 (97%)
+2026-07-02 10:37:25,146 INFO [20260702_100008_7a48ae28] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=4/90 budget=4/90 tool_turns=40 last_msg_role=assistant response_len=1796 session=20260702_100008_7a48ae28
+2026-07-02 10:37:26,171 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-02 10:37:26,173 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=29.3s api_calls=4 response=1796 chars
+2026-07-02 10:37:29,603 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-86 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:29,604 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #10: model=mimo-v2.5-pro provider=xiaomi in=98525 out=1291 total=99816 latency=14.7s cache=97408/98525 (99%)
+2026-07-02 10:37:29,689 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool skill_manage returned error (0.08s): {"success": false, "error": "Skill 'openclaw-imports/free-ride' not found in active profile 'default'. Use skills_list() to see available skills. Create it first with action='create'."}
+
+[Tool loop wa
+2026-07-02 10:37:29,702 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-87 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:47,055 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-87 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:47,056 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #11: model=mimo-v2.5-pro provider=xiaomi in=99979 out=1271 total=101250 latency=17.4s cache=98496/99979 (99%)
+2026-07-02 10:37:47,058 WARNING [20260702_100008_7a48ae28] agent.tool_executor: Tool write_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: write_file. Only memory/skill tools are allowed."}
+2026-07-02 10:37:47,092 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-88 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:53,103 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-88 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:37:53,105 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #12: model=mimo-v2.5-pro provider=xiaomi in=101286 out=402 total=101688 latency=6.0s cache=99968/101286 (99%)
+2026-07-02 10:37:53,162 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skill_manage completed (0.06s, 531 chars)
+2026-07-02 10:37:53,177 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-89 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:38:06,476 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-89 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:38:06,478 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #13: model=mimo-v2.5-pro provider=xiaomi in=101828 out=1239 total=103067 latency=13.3s cache=101248/101828 (99%)
+2026-07-02 10:38:06,540 INFO [20260702_100008_7a48ae28] agent.tool_executor: tool skill_manage completed (0.06s, 210 chars)
+2026-07-02 10:38:06,555 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-90 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:38:13,478 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-90 (_call):6369570816 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:38:13,480 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #14: model=mimo-v2.5-pro provider=xiaomi in=103135 out=339 total=103474 latency=6.9s cache=101824/103135 (99%)
+2026-07-02 10:38:13,488 INFO [20260702_100008_7a48ae28] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=14/16 budget=14/16 tool_turns=50 last_msg_role=assistant response_len=741 session=20260702_100008_7a48ae28
+2026-07-02 10:38:13,494 INFO [20260702_100008_7a48ae28] run_agent: OpenAI client closed (agent_close, shared=True, tcp_force_closed=0) thread=bg-review:6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:41:00,913 INFO tools.terminal_tool: Cleaned up inactive environment for task: default
+2026-07-02 10:42:14,052 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (47 chars)
+2026-07-02 10:42:14,063 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='However, people love to use in Hermes the most.' reply_to_id=None reply_to_text=''
+2026-07-02 10:42:14,435 INFO [20260702_100008_7a48ae28] agent.turn_context: conversation turn: session=20260702_100008_7a48ae28 model=mimo-v2.5-pro provider=xiaomi platform=telegram history=88 msg='However, people love to use in Hermes the most.'
+2026-07-02 10:42:14,450 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-91 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:42:27,181 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-91 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:42:27,183 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #44: model=mimo-v2.5-pro provider=xiaomi in=89826 out=315 total=90141 latency=12.7s cache=88960/89826 (99%)
+2026-07-02 10:42:27,347 INFO [20260702_100008_7a48ae28] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=1/90 budget=1/90 tool_turns=40 last_msg_role=assistant response_len=890 session=20260702_100008_7a48ae28
+2026-07-02 10:42:28,734 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-02 10:42:28,736 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=14.7s api_calls=1 response=890 chars
+2026-07-02 10:45:02,273 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (35 chars)
+2026-07-02 10:45:02,288 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Yeah, they’re worth for discussion.' reply_to_id=None reply_to_text=''
+2026-07-02 10:45:02,539 INFO [20260702_100008_7a48ae28] agent.turn_context: conversation turn: session=20260702_100008_7a48ae28 model=mimo-v2.5-pro provider=xiaomi platform=telegram history=90 msg='Yeah, they’re worth for discussion.'
+2026-07-02 10:45:02,558 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-92 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:45:07,896 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-92 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 10:45:07,898 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #45: model=mimo-v2.5-pro provider=xiaomi in=90156 out=167 total=90323 latency=5.3s cache=89792/90156 (100%)
+2026-07-02 10:45:07,910 INFO [20260702_100008_7a48ae28] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5-pro api_calls=1/90 budget=1/90 tool_turns=40 last_msg_role=assistant response_len=476 session=20260702_100008_7a48ae28
+2026-07-02 10:45:08,760 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-02 10:45:08,762 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=6.5s api_calls=1 response=476 chars
+2026-07-02 11:46:18,518 INFO gateway.run: Agent cache idle-TTL evict: session=agent:main:telegram:dm:8611951691 (idle=3671s)
+2026-07-02 11:46:18,522 INFO run_agent: OpenAI client closed (cache_evict, shared=True, tcp_force_closed=0) thread=agent-cache-idle-agent:main:telegram:dm:8:6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 11:46:18,522 INFO gateway.run: Agent cache idle sweep: evicted 1 agent(s)
+2026-07-02 16:00:56,310 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 20:18:48,398 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-02 20:18:48,399 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-02 20:18:48,400 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-02 20:18:48,447 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-02 20:18:48,447 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-02 20:18:48,448 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-02 20:18:48,448 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-02 20:18:48,448 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-02 20:18:48,448 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-02 20:18:48,449 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-02 20:18:48,453 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-02 20:18:48,453 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-02 20:18:48,455 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-02 20:18:48,456 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-02 20:18:48,456 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-02 20:18:48,457 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-02 20:18:48,457 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-02 20:18:48,458 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-02 20:18:48,458 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-02 20:18:48,459 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-02 20:18:48,464 INFO hermes_cli.plugins: Plugin discovery complete: 51 found, 44 enabled
+2026-07-02 20:18:48,588 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-07-02 20:18:48,619 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-07-02 20:18:48,724 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-02 20:18:48,790 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-02 20:18:49,769 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-02 20:18:49,781 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:61214
+2026-07-02 20:18:49,848 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-02 20:18:51,796 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-02 20:18:51,903 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-02 20:18:54,922 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 20:18:55,820 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-02 20:18:55,954 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-02 20:18:55,955 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-02 20:18:55,955 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
+2026-07-02 20:18:55,955 INFO tools.mcp_tool: MCP: registered 0 tool(s) from 0 server(s) (2 failed)
+2026-07-02 20:18:55,955 INFO tools.mcp_tool:   MCP: 0 tool(s) from 0 server(s) (2 failed)
+2026-07-02 20:19:00,164 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 20:19:02,560 WARNING hermes_cli.web_server: event loop stalled 11.9s (GIL pressure suspected)
+2026-07-02 20:19:04,924 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 20:19:05,437 INFO hermes_cli.auth: Nous inference auth: using NAS invoke JWT
+2026-07-02 22:45:14,526 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (10 chars)
+2026-07-02 22:45:14,544 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Good night' reply_to_id=None reply_to_text=''
+2026-07-02 22:45:15,565 INFO [20260702_100008_7a48ae28] run_agent: OpenAI client created (agent_init, shared=True) thread=hermes-gateway_0:6302265344 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 22:45:15,683 INFO [20260702_100008_7a48ae28] agent.turn_context: conversation turn: session=20260702_100008_7a48ae28 model=mimo-v2.5-pro provider=xiaomi platform=telegram history=92 msg='Good night'
+2026-07-02 22:45:15,715 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-93 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 22:45:24,464 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-93 (_call):6352744448 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5-pro
+2026-07-02 22:45:24,466 INFO [20260702_100008_7a48ae28] agent.conversation_loop: API call #1: model=mimo-v2.5-pro provider=xiaomi in=90332 out=166 total=90498 latency=8.8s
+2026-07-02 22:45:24,641 INFO [20260702_100008_7a48ae28] tools.terminal_tool: Creating new local environment for task default...
+2026-07-02 22:45:25,094 INFO [20260702_100008_7a48ae28] tools.environments.base: Session snapshot created (session=eee4b3394efb, cwd=/Users/Jeff/Smith)
+2026-07-02 22:45:25,094 INFO [20260702_100008_7a48ae28] tools.terminal_tool: local environment ready for task default

@@ -142,7 +142,31 @@ Use `gh workflow list`, `gh run list`, `gh run view`, `gh run rerun`, and `gh wo
 
 <!-- END_ACTIONS_SECTION -->
 
-## 8. Consolidated quick reference
+## 8. Pull conflict resolution — untracked files
+
+When `git pull` fails with:
+```
+error: The following untracked working tree files would be overwritten by merge:
+  <file>
+Please move or remove them before you merge.
+Aborting.
+```
+
+This happens when an untracked file exists locally AND a tracked version arrives from the remote. Common with shared workspaces (e.g. Smith repo synced between Mac and Antigravity).
+
+**Resolution steps:**
+1. Check the local file: `wc -l <file>` + `cat <file>` — is it a stub or has real content?
+2. Check the remote version: `git show origin/master:<file>`
+3. If the remote has more content (typical — the remote version came from a real session), back up local and pull:
+   ```bash
+   mv <file> <file>.local-bak
+   git pull origin master
+   ```
+4. If local has more content, stash it: `mv <file> <file>.local-override` and merge manually after pull.
+
+**Pitfall:** Don't blindly `rm` the local file — always check content first. A 3-line stub vs a 20-line real log is the common case, but occasionally the local file has unique work.
+
+## 9. Consolidated quick reference
 
 | Action | Preferred |
 |--------|---------|

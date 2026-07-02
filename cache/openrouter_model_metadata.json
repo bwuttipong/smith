@@ -1886,42 +1886,42 @@
 },
 "deepseek/deepseek-v4-flash":{
 "context_length":1048576,
-"max_completion_tokens":null,
+"max_completion_tokens":16384,
 "name":"DeepSeek: DeepSeek V4 Flash",
 "pricing":{
-"prompt":"0.000000098",
-"completion":"0.000000196",
-"input_cache_read":"0.00000002"
+"prompt":"0.00000009",
+"completion":"0.00000018",
+"input_cache_read":"0.000000018"
 }
 },
 "deepseek-v4-flash":{
 "context_length":1048576,
-"max_completion_tokens":null,
+"max_completion_tokens":16384,
 "name":"DeepSeek: DeepSeek V4 Flash",
 "pricing":{
-"prompt":"0.000000098",
-"completion":"0.000000196",
-"input_cache_read":"0.00000002"
+"prompt":"0.00000009",
+"completion":"0.00000018",
+"input_cache_read":"0.000000018"
 }
 },
 "deepseek/deepseek-v4-flash-20260423":{
 "context_length":1048576,
-"max_completion_tokens":null,
+"max_completion_tokens":16384,
 "name":"DeepSeek: DeepSeek V4 Flash",
 "pricing":{
-"prompt":"0.000000098",
-"completion":"0.000000196",
-"input_cache_read":"0.00000002"
+"prompt":"0.00000009",
+"completion":"0.00000018",
+"input_cache_read":"0.000000018"
 }
 },
 "deepseek-v4-flash-20260423":{
 "context_length":1048576,
-"max_completion_tokens":null,
+"max_completion_tokens":16384,
 "name":"DeepSeek: DeepSeek V4 Flash",
 "pricing":{
-"prompt":"0.000000098",
-"completion":"0.000000196",
-"input_cache_read":"0.00000002"
+"prompt":"0.00000009",
+"completion":"0.00000018",
+"input_cache_read":"0.000000018"
 }
 },
 "inclusionai/ling-2.6-1t":{
@@ -8409,8 +8409,8 @@
 "max_completion_tokens":16384,
 "name":"DeepSeek: DeepSeek V3 0324",
 "pricing":{
-"prompt":"0.0000002",
-"completion":"0.00000077",
+"prompt":"0.00000024",
+"completion":"0.0000009",
 "input_cache_read":"0.000000135"
 }
 },
@@ -8419,8 +8419,8 @@
 "max_completion_tokens":16384,
 "name":"DeepSeek: DeepSeek V3 0324",
 "pricing":{
-"prompt":"0.0000002",
-"completion":"0.00000077",
+"prompt":"0.00000024",
+"completion":"0.0000009",
 "input_cache_read":"0.000000135"
 }
 },

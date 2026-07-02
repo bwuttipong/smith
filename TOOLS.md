@@ -118,10 +118,10 @@ oracle session <id> --render
 
 ## Commute Traffic (Google Maps)
 
-- **Skill**: `skills/openclaw-commute-traffic/SKILL.md`
+- **Skill**: `skills/commute-traffic/SKILL.md`
 - **Use for**: Real-time traffic checks before commuting — check if route is 🟢 light or 🔴 bad
 - **Trigger**: "traffic from X to Y", "how's traffic?", "should I leave now?", "bad traffic", "commute time"
-- **CLI**: Python script at `skills/openclaw-commute-traffic/scripts/check_traffic_google.py`
+- **CLI**: Python script at `skills/commute-traffic/scripts/check_traffic_google.py`
 - **API Key**: `~/.config/gmaps/api_key` (file) or `GOOGLE_MAPS_API_KEY` env var
 - **Requires**: Google Cloud project with Directions API + Geocoding API enabled
 - **Emoji**: 🚗
@@ -136,7 +136,7 @@ oracle session <id> --render
 
 **Quick example:**
 ```bash
-python3 skills/openclaw-commute-traffic/scripts/check_traffic_google.py \
+python3 skills/commute-traffic/scripts/check_traffic_google.py \
   --origin "Ban Suan, Chonburi" --destination "Wellgrow Industrial Estate"
 ```
 

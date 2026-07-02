@@ -116,6 +116,20 @@ For periodic free model health checks via a cron job (not the always-on watcher)
 Samantha as the cron duty officer — she runs `freeride list` on a 4-hour schedule
 and reports availability changes to Jeff.
 
+## Comparing Free Models
+
+When the user asks to compare free models (or "which free model is best"), use the comparison framework in [references/model-comparison.md](references/model-comparison.md). It covers:
+- What specs to extract from OpenRouter model pages
+- Decision framework by use case (coding vs general vs reliability)
+- Periodic snapshots of top free models with rankings
+- Known pitfalls (stale model refs, privacy trade-offs, ranking drift)
+
+## Pitfalls
+
+- **Stale model references**: Models get removed from OpenRouter without notice. Always verify a model exists by navigating to its page before promising it. A "not available" page means it's gone.
+- **Free tier data privacy**: "Trains" = inputs may be used for training. "Logs" = logged but not trained on. Flag this to privacy-conscious users.
+- **Category rankings shift**: Rankings are relative and change weekly. Always re-check when advising.
+
 ## Troubleshooting
 
 | Problem | Fix |
