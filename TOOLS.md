@@ -201,6 +201,25 @@ Use these skills when Wuttipong wants to practice or learn English:
 
 **Rotation suggestion:** Cycle through these based on Wuttipong's needs — vocabulary (english-daily), conversation (english-bestie/oral-tutor), grammar/writing (english-learning-coach).
 
+## Google Antigravity 2.0
+
+- **Skill**: research/antigravity (pending)
+- **What**: Google's agentic coding IDE + CLI, replaces deprecated Gemini CLI
+- **Launched**: Google I/O, May 2026
+- **Docs**: https://antigravity.google/docs
+- **MCP Config**: `~/.gemini/config/mcp_config.json` (symlinked from `~/.gemini/antigravity/mcp_config.json`)
+- **MCP Memory Bridge**: ✅ configured — same server as OpenClaw and Hermes
+- **Models**: Gemini 3.1 Pro, Gemini 3 Flash, Claude Sonnet 4.6, Claude Opus 4.6, GPT-OSS 120B
+- **Pricing**: Free ($0), AI Pro ($20/mo), AI Ultra ($100/mo), AI Ultra Max ($200/mo)
+- **Free tier**: all models but rate-limited, quotas cut 4x since Dec 2025
+- **Features**: multi-agent workflow, voice commands, native MCP support, CLI tool
+
+**When Jeff mentions Antigravity in a future session:**
+- Check if it's installed: `antigravity --version` or look for the IDE app
+- MCP Memory Bridge is already configured — just needs Antigravity to connect
+- Remind Jeff about the three-agent interop: OpenClaw + Hermes + Antigravity share one memory
+- Help with any setup or model configuration if needed
+
 ## Apple Reminders
 
 - **Skill**: `skills/apple-reminders/SKILL.md`

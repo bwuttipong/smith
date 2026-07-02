@@ -4,7 +4,8 @@
       "command": "python3",
       "args": [
         "/Users/Jeff/Smith/tools/mcp-memory-bridge/server.py"
-      ]
+      ],
+      "env": {}
     }
   }
 }
