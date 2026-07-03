@@ -11,13 +11,29 @@
       "**/.openclaw": true,
       "**/.openclaw-cli-images": true,
       "**/node_modules": true,
-      "**/__pycache__": true
+      "**/__pycache__": true,
+      "**/bin": true,
+      "**/obj": true,
+      "**/.vs": true
     },
     "search.exclude": {
       "memory": true,
       "sessions": true,
       ".openclaw": true,
-      "vocab": true
-    }
+      "vocab": true,
+      "wiki": true,
+      "cache": true,
+      "logs": true,
+      "state": true
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true
+  },
+  "extensions": {
+    "recommendations": [
+      "kilocode.kilo-code"
+    ]
   }
 }

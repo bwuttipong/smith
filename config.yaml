@@ -691,9 +691,9 @@ mcp_servers:
     timeout: 60
     connect_timeout: 30
   memory-bridge:
-    command: python3
+    command: C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe
     args:
-      - /Users/Jeff/Smith/tools/mcp-memory-bridge/server.py
+      - C:\\Users\\Wuttipong.t\\smith\\tools\\mcp-memory-bridge\\server.py
     enabled: true
 platforms:
   discord:

@@ -2,6 +2,13 @@
   "$schema": "https://app.kilo.ai/config.json",
   "commandsDir": ".kilo/command",
   "agentsDir": ".kilo/agent",
+  "mcpServers": {
+    "memory-bridge": {
+      "command": "C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "args": ["C:\\Users\\Wuttipong.t\\smith\\tools\\mcp-memory-bridge\\server.py"],
+      "env": {}
+    }
+  },
   "permission": {
     "read": {
       "*": "allow",

@@ -1,9 +1,9 @@
 {
   "mcpServers": {
     "memory-bridge": {
-      "command": "python",
+      "command": "C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
       "args": [
-        "C:\\Users\\Wuttipong.t\\Smith\\tools\\mcp-memory-bridge\\server.py"
+        "C:\\Users\\Wuttipong.t\\smith\\tools\\mcp-memory-bridge\\server.py"
       ],
       "env": {}
     }

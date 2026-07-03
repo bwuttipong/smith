@@ -61,6 +61,8 @@
 
 ## Active Projects
 
+> **Project Registry**: `~/Smith/projects/` — detailed context files for each project (architecture, conventions, active tasks). Check there first when working on any project.
+
 ### english-thai-dict (personal skill + workspace mirror)
 - **Personal (source of truth):** `/Users/Jeff/.agents/skills/english-thai-dict/`
 - **Workspace mirror (added 2026-06-15):** `~/Smith/skills/english-thai-dict/` — pushed to github.com/bwuttipong/smith
@@ -89,18 +91,32 @@
 - **Status**: Delegation workflow identified but not yet automated — Jeff handles manually
 
 ### OutsourceEF9 (tpn-outsource)
-- **Location**: `c:\Users\Wuttipong.t\Workspaces\OutsourceEF9`
+- **Location**: `C:\Users\Wuttipong.t\Workspaces\OutsourceEF9`
 - **Framework**: WinForms, .NET 9.0 (windows), EF Core 9.0.0, ClosedXML 0.105.0
+- **DbContexts**: TpndbContext, TpnJoborderContext, TpnprintingContext, TpnLiveContext
 - **Database Config**: `config.json` path resolved dynamically via `OUTSOURCE_CONFIG_PATH` environment variable, falling back to `\\192.168.95.200\TPKShare\IT\Outsource\config.json`.
 - **Deploy**: Run `./publish.ps1` script to build and copy ClickOnce setup files to `\\192.168.95.200\TPKShare\IT\Outsource\OutsourceEF9\`.
 - **Repository**: Initialized Git to track source control.
+- **Detailed context**: `~/Smith/projects/outsourceef9.md`
 
 
 ### TPK QA Hold (TPNShopFloor)
-- **Location**: `c:\Users\Wuttipong.t\Workspaces\TPK QA Hold`
+- **Location**: `C:\Users\Wuttipong.t\Workspaces\TPK QA Hold`
 - **Framework**: WinForms, .NET Framework 4.7.2, ClosedXML 0.105.0
-- **Database Config**: Connects to `csgwin-tpk` on `192.168.95.150` (read-only source for job details) and `QA` on `192.168.95.100\SQLEXPRESS` (writes hold transactions to `HoldData`).
+- **Architecture**: Clean Architecture (Core/Infrastructure/Presentation)
+- **Databases**: `csgwin-tpk` on `192.168.95.150` (read-only), `QA` on `192.168.95.100\SQLEXPRESS` (write to `HoldData`)
 - **Core logic**: Dashboard for shop floor QA hold data entry, querying, and excel reporting.
+- **Detailed context**: `~/Smith/projects/tpk-qa-hold.md`
+
+### CirculatingBox (Returnable Box)
+- **Location**: `C:\Users\Wuttipong.t\Workspaces\Circulating_Box`
+- **Framework**: .NET 9, WinForms, SignalR notifications
+- **Solution**: `CirculatingBox.slnx` (multi-project: main app, AuditCheckApp, NotificationHub, TestConsole)
+- **Deploy**: `\\192.168.95.200\TPKShare\IT\Box\`
+- **Slack Channel**: `#projects` (Canvas `F0AMYHAAS3Y`)
+- **Core**: Box tracking — location, FIFO, Receiving–Issuing, BOXSOFT barcodes
+- **Recent fix**: SingleFile + IncludeNativeLibs for ClickOnce deployment (2026-06-26)
+- **Detailed context**: `~/Smith/projects/circulatingbox.md`
 
 ### Slack Files, Canvases & Lists Operations Guide
 - **Guide location**: `~/Smith/skills/slack/SLACK_GUIDE.md`
