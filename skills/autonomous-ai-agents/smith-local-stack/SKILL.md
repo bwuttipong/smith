@@ -23,6 +23,9 @@ The runtime topology on Jeff's Mac (verified 2026-06-24). The recurring failure 
 | 18790 | cloudflared forward      | openclaw   | External tunnel to 18789 (socat + cloudflared).                       |
 | 9119  | hermes dashboard         | hermes     | Web control panel. Python uvicorn. **NOT running by default** — launch on demand with `hermes dashboard --port 9119`. |
 | 11434 | ollama                   | ollama     | Local LLM inference.                                                 |
+| 3737  | Agent OS dashboard       | next.js    | Agent mission control. Next.js + Tailwind + Framer Motion. `cd ~/Workspaces/agentos/source && PORT=3737 npm run start` |
+
+**ZCode (Codex)** — installed at `/Applications/Codex.app`. MCP servers configured in `~/.zcode/cli/config.json`. Skills symlinked from `~/.zcode/skills/`. Not a background service — CLI tool invoked on demand.
 
 **Important — 9119 has two different meanings depending on context:**
 - In the **default profile** (not this one), the hermes gateway itself binds 9119 (uvicorn + messaging).
@@ -35,6 +38,7 @@ Full per-process detail (PIDs, cmdlines, last-verified timestamps) lives in `ref
 - **openclaw** — multi-platform messaging agent host. Gateway at 18789. Drives Discord, Slack, LINE, Telegram, etc. Has its own web control panel.
 - **hermes-agent** — Nous Research agent framework. CLI: `hermes`. Web UI: `hermes dashboard` on 9119. Can run standalone or hosted inside an openclaw gateway.
 - **ollama** — local LLM runtime. Not an agent framework; just inference. Used by the smith profile (`opencode-go/minimax-m3`).
+- **ZCode (Codex)** — OpenAI's coding agent CLI. Installed at `/Applications/Codex.app`. Config at `~/.zcode/cli/config.json`. Has MCP servers (gsearch, node_repl) and skills (`~/.zcode/skills/`). Invoked on demand via `codex` command — not a background service. Use `pty=true` when running interactively.
 - The smith profile is an **openclaw-hosted hermes agent** (gateway on 18789 wraps a hermes process). The hermes dashboard on 9119 is a separate web control plane for that same agent.
 
 ## Common commands
@@ -72,7 +76,9 @@ launchctl list | grep hermes
 ## Pitfalls
 
 - **Don't say "X doesn't exist" without checking.** When the user asks about a hermes/openclaw feature, run `hermes <cmd> --help` or check `~/.hermes/hermes-agent/hermes_cli/subcommands/` first. Jeff has corrected this on 2026-06-24 (hermes dashboard).
+- **Confirm agent/tool lists before building dashboards.** When building a dashboard or UI with agent tabs, always ask the user which agents they want included — don't assume. Jeff corrected this on 2026-07-05 ("Oh! I forget to add ZCode"). The default list should be a starting point, not final.
 - **Port 18789 ≠ port 9119.** Different frameworks, different web UIs. Never route a "open the hermes dashboard" request to the openclaw port or vice versa.
+- **Build functional features, not just file structure.** When the user says "build X," they mean working code with real connections — not scaffolded folders with placeholder files. Jeff corrected this on 2026-07-05: "you just build only for its structure. that's it." Always wire real API calls, health checks, and integrations before declaring a feature done.
 - **In the smith profile, the hermes gateway is HEADLESS — port 9119 is empty by default.** If `curl 127.0.0.1:9119` returns connection refused, that does NOT mean the gateway is down. The gateway is messaging-only (telegram/discord polling) and doesn't bind any port. To get a web UI on 9119, you must start `hermes dashboard` separately.
 - **`hermes dashboard` needs the web build to be present.** Use `--skip-build` if `~/.hermes/hermes-agent/web/dist` exists; else run `cd ~/.hermes/hermes-agent/web && npm run build` first.
 - **Background process pattern.** Use `terminal(background=true, notify_on_complete=True)` for long-running daemons like the hermes dashboard. Shell-level `nohup &` triggers Hermes' soft guard and errors out.
@@ -361,3 +367,4 @@ After I gave a 4-option matrix for "set samantha up as general assistant" (hand-
 - `references/telegram-streaming-edit-bug.md` — known upstream bug #49536, workaround, why config toggle isn't a real fix.
 - `references/telegram-chat-style.md` — short-bubble reply style for telegram.
 - `references/profile-merge.md` — moving the hermes profile into the workspace (Smith-specific runbook pointer).
+- `references/agent-os-dashboard.md` — Agent OS mission control dashboard setup, stack, agents, and status.

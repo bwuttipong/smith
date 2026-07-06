@@ -34,6 +34,12 @@ agent-reach doctor --json
 
 The `agent-reach` CLI itself needs the venv. Upstream tools (gh, yt-dlp, curl, bili, twitter) are system-wide or pipx-installed — they work without the agent-reach venv.
 
+## ⚡ Default Search Rule
+
+**Agent-reach is the FIRST tool for ALL web/social research.** Do not try x-search, prismfy, brave-search, or any other search tool before checking agent-reach. Twitter, Reddit, YouTube, GitHub, web pages, RSS — agent-reach handles all of them via upstream CLIs. Only fall back to other search tools if agent-reach is down or missing a specific capability.
+
+When user says "search X", "what's trending", "look up on Twitter", "find on Reddit", "what are people saying", etc. — go straight to agent-reach. No deliberation, no checking other tools first.
+
 ## Before any platform call
 Run `agent-reach doctor --json` (with venv active) to see which backend is active per platform, especially for multi-backend channels (Twitter, Reddit, 小红书, Bilibili).
 
@@ -71,6 +77,7 @@ Run `agent-reach doctor --json` (with venv active) to see which backend is activ
 
 ## Pitfalls
 
+- **Check local vault BEFORE web research.** Jeff saves research notes in an Obsidian vault at `~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Wuttipong Vault/`. When researching a topic, check if local notes exist first (`ls` the vault path, grep filenames) before hitting the web. This saves time and tokens — the vault often has the exact info needed. Session lesson: user said "My bad! check out here" after I went to YouTube first, when the vault had all the notes.
 - **gh field names differ by version**: `stargazerCount` (not `stargazersCount`). Use `gh repo view --json` with no field names to list all available fields if one fails.
 - **bili-cli needs PATH**: pipx installs to `~/.local/bin`. Export it first if you get "command not found".
 - **agent-reach CLI needs venv**: only doctor/configure/install/check-update commands. Upstream tools (gh, yt-dlp, curl, bili, twitter) work without it.

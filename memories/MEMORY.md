@@ -1,16 +1,10 @@
-User Info: **Name**: Best Wuttipong
+User Info: **Name**: Best Wuttipong · goes by Jeff · Email: bed.wuttipong@gmail.com · Discord: best.wuttipong (id: 1313876113776312391) · **Work email**: wuttipong.t@flexpak.co.th
 §
-User Info: **Discord**: best.wuttipong (id: 1313876113776312391)
+Personal Preferences: lowercase, emojis, casual. Bear Notes (grizzly CLI at /opt/homebrew/bin/grizzly). Workspace: no symlinks, ~/Smith directly.
 §
-User Info: **Email**: bed.wuttipong@gmail.com
+Discord: server 1487738757326049391, home 1505532552453292042. Agent-Reach v1.5.0 at ~/Smith/agent-reach (uv venv). Channels: web/yt/github/v2ex/rss/bilibili/twitter. Skill: research/agent-reach. Default X search: twitter-cli. Activate: source .venv + PATH=$HOME/.local/bin + TWITTER env vars from .env.
 §
-Personal Preferences: lowercase, emojis, casual.
-§
-AgentMail Setup: Inbox: smith-agent@agentmail.to
-§
-Discord: server 1487738757326049391, home channel 1505532552453292042
-§
-Commute Traffic: TomTom key2 operational. Trigger: "traffic X to Y"
+Commute Traffic: TomTom key2 operational. Trigger: "traffic X to Y". Outer road route: Wellgrow Industrial Estate → Ban Suan via ทางคู่ขนาน + road 3609 (~34km, ~1h 7min). User prefers outer roads.
 §
 Samantha=nvidia/nemotron-3-ultra-550b-a55b, cascade free→paid→minimax(3x). Bunsen=gemini-3.1-preview. Beaker=owl-alpha. Owns cron. Invoke via delegation only.
 §
@@ -22,8 +16,6 @@ Antigravity — Jeff's remote execution environment (work Windows laptop or anot
 §
 End-of-day ritual: git add -A && git commit -m "date summary" && git push on BOTH Smith (Mac/Hermes) and OpenClaw (Antigravity/Windows) when Jeff says good night.
 §
+Work: TPN Flexpak (Wellgrow, Chachoengsao). Network: NAC/firewall blocks personal devices, mobile signal weak inside factory — USB tethering is the workaround. VB.NET + SQL Server 2019. Slack #projects.
+§
 Samantha routing: weather/traffic, web searches, file ops, reporting → delegate to Samantha. Re-read HEARTBEAT.md at session start.
-§
-Agent-Reach v1.5.0 at ~/Smith/agent-reach (uv venv). Channels: web/yt/github/v2ex/rss/bilibili/twitter. Skill in research/. Activate: source .venv + PATH=$HOME/.local/bin + TWITTER env vars from .env.
-§
-Workspace preference: no symlinks. Jeff wants Hermes pointing directly to ~/Smith, no ~/.hermes/profiles/smith link. Migration pending.

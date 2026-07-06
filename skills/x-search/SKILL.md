@@ -58,6 +58,12 @@ python3 {baseDir}/scripts/search.py --from 2026-03-01 --to 2026-03-20 "xAI grok 
 python3 {baseDir}/scripts/search.py --images --video "product demos"
 ```
 
+## Pitfalls
+
+- **XAI_API_KEY must be set** — the script checks `os.getenv("XAI_API_KEY")` and fails immediately if missing. Export in shell or set in `~/.hermes/.env`. Free tier available at https://console.x.ai.
+- **agent-reach Twitter is NOT a fallback** — `TwitterChannel` only exposes `check()`, `can_handle()`. No `search()` method exists. `twitter-cli` binary is not installed. If x-search fails, fix the xAI key — don't waste time on agent-reach twitter.
+- **Date range format**: `--from YYYY-MM-DD --to YYYY-MM-DD`. Omit for latest results.
+
 ## Notes
 
 - Uses the xAI Responses API with `x_search` tool (Grok performs the search and summarizes results)

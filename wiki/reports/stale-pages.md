@@ -3,23 +3,27 @@ pageType: report
 id: report.stale-pages
 title: Stale Pages
 status: active
-updatedAt: 2026-06-29T08:19:27.439Z
+updatedAt: 2026-07-05T13:07:33.755Z
 ---
 
 # Stale Pages
 
 ## Generated
 <!-- openclaw:wiki:stale-pages:start -->
-- Stale pages: 128
+- Stale pages: 159
 
+- [[entities/agent-os|Agent OS]]: missing updatedAt
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-02|bridge-smith-ec7a1e9e-memory-2026-07-02]]: missing updatedAt
 - [[entities/george-mack|George Mack]]: missing updatedAt
-- [[concepts/high-agency|High Agency]]: missing updatedAt
 - [[sources/bridge-beaker-5f941680-memory-2026-05-17-0053-a4807cbc|Memory Bridge (beaker): 2026-05-17-0053]]: aging (2026-05-16T17:53:24.223Z)
 - [[sources/bridge-beaker-5f941680-memory-2026-05-18-2204-e15b4758|Memory Bridge (beaker): 2026-05-18-2204]]: aging (2026-05-18T15:04:27.137Z)
 - [[sources/bridge-beaker-5f941680-memory-2026-05-19-0728-ddaa1e8d|Memory Bridge (beaker): 2026-05-19-0728]]: aging (2026-05-19T00:28:30.702Z)
 - [[sources/bridge-beaker-5f941680-memory-2026-05-19-0759-5ad0285f|Memory Bridge (beaker): 2026-05-19-0759]]: aging (2026-05-19T00:59:10.659Z)
 - [[sources/bridge-beaker-5f941680-memory-2026-05-19-1320-8240c45f|Memory Bridge (beaker): 2026-05-19-1320]]: aging (2026-05-19T06:20:26.970Z)
+- [[sources/bridge-beaker-5f941680-memory-2026-05-31-1303-99db6154|Memory Bridge (beaker): 2026-05-31-1303]]: aging (2026-05-31T06:03:12.624Z)
+- [[sources/bridge-beaker-5f941680-memory-2026-05-31-1307-0cdaae2e|Memory Bridge (beaker): 2026-05-31-1307]]: aging (2026-05-31T06:07:14.388Z)
 - [[sources/bridge-beaker-5f941680-memory-beaker-personality-a3f7a157|Memory Bridge (beaker): beaker-personality]]: aging (2026-05-19T06:03:48.666Z)
+- [[sources/bridge-beaker-5f941680-memory-2d62c497|Memory Bridge (beaker): MEMORY]]: aging (2026-05-31T07:15:31.501Z)
 - [[sources/bridge-cookie-25f8420b-memory-2026-05-19-0729-a794747e|Memory Bridge (cookie): 2026-05-19-0729]]: aging (2026-05-19T00:29:24.099Z)
 - [[sources/bridge-cookie-25f8420b-memory-2026-05-19-1009-777ebe39|Memory Bridge (cookie): 2026-05-19-1009]]: aging (2026-05-19T03:09:12.490Z)
 - [[sources/bridge-cookie-25f8420b-memory-2026-05-19-1321-68f82d86|Memory Bridge (cookie): 2026-05-19-1321]]: aging (2026-05-19T06:21:31.225Z)
@@ -33,6 +37,7 @@ updatedAt: 2026-06-29T08:19:27.439Z
 - [[sources/bridge-fozzie-06c82b1a-memory-2026-05-22-1030-self-improvement-c70632df|Memory Bridge (fozzie): 2026-05-22-1030-self-improvement]]: aging (2026-05-22T03:39:58.517Z)
 - [[sources/bridge-fozzie-06c82b1a-memory-2026-05-27-2115-4d22b642|Memory Bridge (fozzie): 2026-05-27-2115]]: aging (2026-05-27T14:15:24.066Z)
 - [[sources/bridge-fozzie-06c82b1a-memory-2d62c497|Memory Bridge (fozzie): MEMORY]]: aging (2026-05-22T03:40:42.547Z)
+- [[sources/bridge-kermit-0b2c00cd-memory-2026-06-03-2008-b2c53b6f|Memory Bridge (kermit): 2026-06-03-2008]]: aging (2026-06-03T13:08:02.692Z)
 - [[sources/bridge-kermit-0b2c00cd-memory-commute-1e44527e|Memory Bridge (kermit): commute]]: aging (2026-05-19T10:03:10.799Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-04-28-81fdd06a|Memory Bridge (smith): 2026-04-28]]: aging (2026-05-07T07:19:20.460Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-04-29-a64ebf27|Memory Bridge (smith): 2026-04-29]]: aging (2026-05-07T07:19:20.459Z)
@@ -128,6 +133,29 @@ updatedAt: 2026-06-29T08:19:27.439Z
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2214-cae9525b|Memory Bridge (smith): 2026-05-29-2214]]: aging (2026-05-29T15:14:03.376Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2214-2-a9dee08e|Memory Bridge (smith): 2026-05-29-2214-2]]: aging (2026-05-29T15:14:27.431Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-05-29-2222-008c04a2|Memory Bridge (smith): 2026-05-29-2222]]: aging (2026-05-29T15:22:00.860Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-05-31-3e900aba|Memory Bridge (smith): 2026-05-31]]: aging (2026-05-31T11:14:28.942Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-05-31-1832-ea4c4f0d|Memory Bridge (smith): 2026-05-31-1832]]: aging (2026-05-31T11:32:36.498Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-01-d64f6802|Memory Bridge (smith): 2026-06-01]]: aging (2026-06-01T11:14:26.425Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-01-2133-228c1ef4|Memory Bridge (smith): 2026-06-01-2133]]: aging (2026-06-01T14:33:34.980Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-01-2139-191f73e8|Memory Bridge (smith): 2026-06-01-2139]]: aging (2026-06-01T14:39:09.910Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-02-cad477f4|Memory Bridge (smith): 2026-06-02]]: aging (2026-06-01T22:44:28.017Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-02-0821-76db5100|Memory Bridge (smith): 2026-06-02-0821]]: aging (2026-06-02T01:21:02.595Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-02-0838-ae5ed1cc|Memory Bridge (smith): 2026-06-02-0838]]: aging (2026-06-02T01:38:19.661Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-02-0944-d4057d2f|Memory Bridge (smith): 2026-06-02-0944]]: aging (2026-06-02T02:44:43.574Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-03-485eb77f|Memory Bridge (smith): 2026-06-03]]: aging (2026-06-03T14:41:54.440Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-04-77f74920|Memory Bridge (smith): 2026-06-04]]: aging (2026-06-04T05:10:40.800Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-04-1646-bb52d0e5|Memory Bridge (smith): 2026-06-04-1646]]: aging (2026-06-04T09:46:24.888Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-04-1648-92659f6c|Memory Bridge (smith): 2026-06-04-1648]]: aging (2026-06-04T09:48:08.904Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-04-2115-44307f53|Memory Bridge (smith): 2026-06-04-2115]]: aging (2026-06-04T14:15:18.455Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-05-1a53ab8e|Memory Bridge (smith): 2026-06-05]]: aging (2026-06-05T07:40:28.723Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-05-1310-e18b8c0b|Memory Bridge (smith): 2026-06-05-1310]]: aging (2026-06-05T06:10:59.753Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-05-1459-cbed48a6|Memory Bridge (smith): 2026-06-05-1459]]: aging (2026-06-05T07:59:34.825Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-05-1637-53471ad1|Memory Bridge (smith): 2026-06-05-1637]]: aging (2026-06-05T09:37:27.176Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-gmail-draft-thai-6580c92c|Memory Bridge (smith): artifacts / 2026-06-05-weekly-gmail-draft-thai]]: aging (2026-06-05T09:28:02.596Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-june1-6-thai-d49e4984|Memory Bridge (smith): artifacts / 2026-06-05-weekly-june1-6-thai]]: aging (2026-06-05T09:48:59.904Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-report-thai-4a85c7d1|Memory Bridge (smith): artifacts / 2026-06-05-weekly-report-thai]]: aging (2026-06-05T09:31:51.450Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-artifacts-evolution-2026-06-04-cron-delivery-548854d0|Memory Bridge (smith): artifacts / evolution-2026-06-04-cron-delivery]]: aging (2026-06-04T00:18:08.720Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-draft-weekly-july-1-6-2026-2b5fd493|Memory Bridge (smith): Draft Weekly (July 1 - 6, 2026)]]: aging (2026-06-05T04:13:11.957Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-dreams-events-jsonl-38a7dd37|Memory Bridge (smith): event journal]]: aging (2026-05-07T07:19:20.466Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-feedback-discord-memory-f793926a|Memory Bridge (smith): feedback_discord_memory]]: aging (2026-05-07T07:19:20.457Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-feedback-weekly-report-format-daf75c0e|Memory Bridge (smith): feedback_weekly_report_format]]: aging (2026-05-27T09:05:07.753Z)
@@ -138,6 +166,9 @@ updatedAt: 2026-06-29T08:19:27.439Z
 - [[sources/bridge-smith-ec7a1e9e-memory-reference-returnable-box-a42091c4|Memory Bridge (smith): reference_returnable_box]]: aging (2026-05-12T02:39:15.062Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-16-8081a35b|Memory Bridge (smith): weekly-review-2026-05-16]]: aging (2026-05-16T03:49:49.786Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-23-f7ae8a0e|Memory Bridge (smith): weekly-review-2026-05-23]]: aging (2026-05-23T02:31:01.313Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-25-30-summary-17c1c0a7|Memory Bridge (smith): weekly-review-2026-05-25-30-summary]]: aging (2026-06-05T04:49:55.140Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-30-88aa15cd|Memory Bridge (smith): weekly-review-2026-05-30]]: aging (2026-06-05T03:54:47.681Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-30-th-7397cbed|Memory Bridge (smith): weekly-review-2026-05-30-th]]: aging (2026-05-30T07:04:13.344Z)
+- [[sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-06-05-68b45876|Memory Bridge (smith): weekly-review-2026-06-05]]: aging (2026-06-05T07:15:09.626Z)
 - [[sources/bridge-smith-ec7a1e9e-memory-working-buffer-f0781217|Memory Bridge (smith): working-buffer]]: aging (2026-05-07T07:19:20.457Z)
 <!-- openclaw:wiki:stale-pages:end -->

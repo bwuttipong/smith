@@ -1,0 +1,132 @@
+---
+pageType: source
+id: source.bridge.smith-ec7a1e9e.memory-2026-07-05-46b1d5ff
+title: "Memory Bridge (smith): 2026-07-05"
+sourceType: memory-bridge
+sourcePath: /Users/Jeff/Smith/memory/2026-07-05.md
+bridgeRelativePath: memory/2026-07-05.md
+bridgeWorkspaceDir: /Users/Jeff/Smith
+bridgeAgentIds:
+  - smith
+status: active
+updatedAt: 2026-07-05T13:09:03.483Z
+---
+
+# Memory Bridge (smith): 2026-07-05
+
+## Bridge Source
+- Workspace: `/Users/Jeff/Smith`
+- Relative path: `memory/2026-07-05.md`
+- Kind: `markdown`
+- Agents: smith
+- Updated: 2026-07-05T13:09:03.483Z
+
+## Content
+```markdown
+# 2026-07-05 (Sunday)
+
+## Session Start
+- Telegram direct session initialized ~10:28 ICT
+- Model: mimo-v2.5
+- System status: gateway running, 8 agents, 184 sessions
+- Pending from yesterday: janitor/kermit contextWindow fix (gemma4:12b-mlx set to 262K but model only supports 4K)
+
+_session ended 17:35 ICT_
+
+_session ended 17:37 ICT_
+
+_session ended 17:42 ICT_
+
+_session ended 17:44 ICT_
+
+_session ended 17:47 ICT_
+
+_session ended 17:48 ICT_
+
+_session ended 17:49 ICT_
+
+_session ended 17:51 ICT_
+
+_session ended 17:57 ICT_
+
+_session ended 18:03 ICT_
+
+_session ended 18:08 ICT_
+
+_session ended 18:12 ICT_
+
+_session ended 18:16 ICT_
+
+_session ended 18:18 ICT_
+
+_session ended 18:25 ICT_
+
+_session ended 18:31 ICT_
+
+_session ended 18:39 ICT_
+
+_session ended 18:42 ICT_
+
+## Claude Code — 18:50 ICT
+
+- Agent OS dashboard (localhost:3737): full session of fixes + features, all committed in ~/Workspaces/agentos/source (main).
+- Hermes chat now WORKS in the dashboard — wired via `hermes -z` one-shot mode (execFile, 60s timeout). Its web API is an auth-gated WebSocket, so one-shot CLI was the clean path. Hermes replies as Smith (Smith profile).
+- Earlier today: fixed Hermes DEGRADED (web frontend was never built — built it, restarted dashboard on :9120), fixed command injection in chat route, added Goals + Journal pages (Obsidian-backed), per-agent gradient avatars, chat-app bubbles.
+- OpenClaw chat still broken at gateway level: `openclaw agent --agent smith` fails with context-engine/backend capability mismatch (lossless-claw vs google-gemini-cli) and gateway.auth.token secret-ref errors. Jeff's OpenClaw config issue, not dashboard code. Pending.
+- ZCode / Claude Code / Paperclip tabs remain intentionally "not wired" (501).
+
+_session ended 18:48 ICT_
+
+## Claude Code — 19:15 ICT
+
+- OpenClaw chat now WORKS in Agent OS dashboard. Root causes were three-fold:
+  1. Auth: gateway.auth.token is an env secret-ref (OPENCLAW_GATEWAY_TOKEN) only the daemon holds. Dashboard now resolves it live from the running gateway process env (pgrep + ps eww) — survives restarts/rotations, nothing stored on disk.
+  2. Model resolution: headless `openclaw agent` mis-resolved smith's model, falling back to a google/gemini model pinned to google-gemini-cli runtime, which lacks caps lossless-claw needs (assemble-before-prompt/compact/runtime-llm-complete). Fix: pass --model xiaomi-token-plan/mimo-v2.5 explicitly.
+  3. Parsing: reply text is at result.payloads[].text, not flat parsed.reply.
+- Verified in browser: OpenClaw tab → smith replied as expected on mimo-v2.5. Committed 548fe43.
+- NOTE for future: interactive TUI resolves smith's model fine; only headless agent-run had the fallback bug. Worth reporting upstream to OpenClaw if it recurs.
+- Dashboard status now: Hermes ✅ (hermes -z), OpenClaw ✅ (smith/mimo), Ollama ✅. ZCode/Claude Code/Paperclip intentionally 501.
+
+_session ended 19:09 ICT_
+
+_session ended 19:15 ICT_
+
+_session ended 19:17 ICT_
+
+_session ended 19:26 ICT_
+
+_session ended 19:28 ICT_
+
+_session ended 19:32 ICT_
+
+## Claude Code — 20:05 ICT
+
+- Installed Free Claude Code (github.com/Alishahryar1/free-claude-code) — local FastAPI proxy on :8082 that routes Claude/Codex requests to free providers (NVIDIA NIM, OpenRouter, etc.). Installed via uv tool; execs: fcc-server, fcc-claude, fcc-codex, fcc-init.
+- Config at ~/.fcc/.env (regenerated full template; old voice-build one-liner backed up to ~/.fcc/.env.voice-build-backup). Wired in existing NVIDIA_API_KEY + OPENROUTER_API_KEY from ~/.openclaw/.env — no new signups. Default MODEL=nvidia_nim/nvidia/nemotron-3-super-120b-a12b.
+- Dashboard "Claude Code" tab now WORKS free: chat route POSTs to http://127.0.0.1:8082/v1/messages (stream:false, x-api-key: freecc), parses content[].text. Verified in browser — replied with working Python code, identifies as Nemotron 3 (NVIDIA). Committed a538351.
+- KNOWN ISSUE: the `fcc-claude` CLI wrapper itself throws 500s (claude CLI v2.1.193 vs proxy version-compat mismatch on /v1/messages beta). Dashboard bypasses it by hitting the proxy directly, so unaffected. Worth an upstream report / CLI-version check if you want `fcc-claude` on the terminal too.
+- DEPENDENCY: dashboard Claude Code tab needs fcc-server running on :8082. No launchd agent yet — currently started manually. Add a LaunchAgent if you want it always-on.
+- Dashboard scorecard: Hermes ✅, OpenClaw ✅ (smith/mimo), Ollama ✅, Claude Code ✅ (free proxy). ZCode = status-only (OpenAI quota exhausted til Jul 22). Paperclip offline (not installed).
+
+_session ended 19:51 ICT_
+
+_session ended 19:56 ICT_
+
+_session ended 20:02 ICT_
+
+_session ended 20:05 ICT_
+
+_session ended 20:07 ICT_
+
+_session ended 20:09 ICT_
+
+```
+
+## Notes
+<!-- openclaw:human:start -->
+<!-- openclaw:human:end -->
+
+## Related
+<!-- openclaw:wiki:related:start -->
+- No related pages yet.
+<!-- openclaw:wiki:related:end -->

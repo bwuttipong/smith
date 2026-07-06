@@ -166,7 +166,36 @@ This happens when an untracked file exists locally AND a tracked version arrives
 
 **Pitfall:** Don't blindly `rm` the local file — always check content first. A 3-line stub vs a 20-line real log is the common case, but occasionally the local file has unique work.
 
-## 9. Consolidated quick reference
+## 9. Extracting Raw File Contents from Repos
+
+When researching a GitHub repo and you need actual file contents (not just metadata), use raw URLs:
+
+```bash
+# Fetch a single file
+curl -s https://raw.githubusercontent.com/OWNER/REPO/BRANCH/path/to/file.md
+
+# Example: get README
+curl -s https://raw.githubusercontent.com/buildermethods/agent-os/main/README.md
+
+# Example: get a specific command file
+curl -s https://raw.githubusercontent.com/buildermethods/agent-os/main/commands/agent-os/discover-standards.md
+
+# Fetch multiple files in parallel
+cd /target/dir && \
+curl -s https://raw.githubusercontent.com/OWNER/REPO/main/file1.md > file1.md && \
+curl -s https://raw.githubusercontent.com/OWNER/REPO/main/file2.md > file2.md
+```
+
+**Workflow for repo research:**
+1. **Browser** → navigate to repo, understand structure (README, file tree)
+2. **Terminal + curl** → fetch raw files in bulk (faster than browser clicks)
+3. **Save locally** → copy into project structure
+
+**Pitfall:** Don't use `gh api /repos/.../contents/...` for raw file content — it returns base64-encoded JSON. Use `raw.githubusercontent.com` instead for direct text.
+
+**When to use:** Extracting templates, configs, command definitions, or reference files from repos you're studying or forking concepts from.
+
+## 10. Consolidated quick reference
 
 | Action | Preferred |
 |--------|---------|

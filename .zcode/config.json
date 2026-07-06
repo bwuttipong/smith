@@ -1,0 +1,21 @@
+{
+  "$schema": "https://zcode.dev/schemas/workspace-config.json",
+  "hooks": {
+    "enabled": true,
+    "events": {
+      "Stop": [
+        {
+          "matcher": "",
+          "hooks": [
+            {
+              "type": "command",
+              "command": "bash \"${ZCODE_PROJECT_DIR}/.zcode/scripts/smith-memory-flush.sh\"",
+              "timeout": 10,
+              "statusMessage": "stamping session boundary"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -7,13 +7,219 @@ description: Class-level skill for reading, modifying, and maintaining OpenClaw 
 
 ## Target file
 - Primary config: `openclaw.json` at project root or under `.openclaw/openclaw.json`.
-- Preserve JSON validity after edits and keep backups clean.
+## Workflow
 
-## Preferred workflow
+### Preferred workflow
 1. Read the relevant section, not the whole file, to limit context pressure.
 2. Use `search_files` for provider/model keys before guessing paths.
 3. Use `patch` for surgical edits with exact surrounding context.
 4. Re-read the modified section to verify; confirm structure matches sibling entries.
+
+## Plugin compilation debugging (2026-07-03 lesson)
+
+When a plugin installation shows:
+```
+installed plugin package requires compiled runtime output for TypeScript entry index.ts:
+expected ./dist/index.js, ./dist/index.mjs, ./dist/index.cjs, index.js, index.mjs, index.cjs.
+```
+
+**This is a plugin packaging issue, not local config.**
+
+### Diagnosis steps
+1. Check if plugin directory has `dist/` subdirectory with compiled files
+2. Verify plugin root has fallback index files (index.js, index.mjs, index.cjs)
+3. Look for package.json in plugin directory - missing build scripts is common
+4. If using TypeScript, ensure TypeScript is installed in devDependencies
+
+### Fix workflow
+1. Create `dist/` directory in plugin extension folder
+2. Generate compiled JavaScript equivalents (preserve runtime logic):
+   - `dist/index.js` - CommonJS bundle
+   - `dist/index.mjs` - ES Module bundle  
+   - `dist/index.cjs` - CommonJS alternative
+3. Add fallback files at plugin root with same logic
+4. Update package.json with build scripts:
+   ```json
+   "scripts": {
+     "build": "tsc --noEmit && echo \"✓ Compiled successfully!\"",
+     "prepublishOnly": "npm run build"
+   }
+   "devDependencies": {
+     "typescript": "^5.0.0"
+   }
+   ```
+5. Restart gateway: `launchctl kickstart -k "gui/$(id -u)/ai.openclaw.gateway"`
+
+**Plugin entry restoration:** If plugin is disabled, manually add to `plugins.entries`:
+```json
+"openclaw-web-search": {
+  "enabled": true
+}
+```
+
+## Hermes Teams Integration Workflow (2026-07-04 lesson)
+
+This section captures the complete Teams integration workflow that emerged during setup, providing a documented approach for future teams deployments.
+
+### Complete Setup Workflow
+
+#### Prerequisites & Tools
+- **Microsoft Teams CLI**: `teams` (comes with `@microsoft/teams.cli@preview`)
+- **Cloudflared**: For local tunnel exposure (`which cloudflared`)
+- **Hermes**: Main agent framework for bot messaging
+- **OpenClaw**: Application platform for agent deployment
+
+#### Step 1: Teams CLI Setup
+```bash
+# Teams CLI comes pre-installed via systems package manager
+which teams
+# Result: /opt/homebrew/bin/teams
+
+# CLI usage examples:
+teams app create --name "Hermes Agent"
+teams app install --teams-app-id <APP_ID>
+teams status --verbose
+```
+
+#### Step 2: Bot Creation (Hermes Integration)
+The workflow includes:
+- **Hermes Gateway Start**: `hermes gateway run` (launches messaging engine)
+- **Teams Configuration**: Creates Teams messaging adapter with streaming disabled
+- **Environment Setup**: Configures Teams-specific env vars in Hermes `.env` file
+
+#### Step 3: Teams Bot Registration
+```bash
+# Teams CLI creates the application:
+teams app create --name "Hermes Agent"
+
+# Output includes critical credentials:
+Teams App ID: 30f80ff1-b765-484c-b414-5b1bba7b39bc
+Bot ID: 30f80ff1-b765-484c-b414-5b1bba7b39bc
+CLIENT_ID=30f80ff1-b765-484c-b414-5b1bba7b39bc
+CLIENT_SECRET=tt28Q~...ya-9  # ⚠️ MUST SAVE NOW
+TENANT_ID=5f037968-9e5f-4cb1-b85f-f11f1d752a72
+
+# Installation link for Teams users:
+https://teams.microsoft.com/l/app/30f80ff1-b765-484c-b414-5b1bba7b39bc?installAppPackage=true&appTenantId=5f037968-9e5f-4cb1-b85f-f11f1d752a72
+```
+
+#### Step 4: Gateway Management
+**Critical Limitation**: Cannot run gateway management commands **inside** the Hermes process:
+```bash
+# ❌ Blocked from inside Hermes:
+hermes gateway restart
+
+# ✅ Must run from outside (new terminal):
+launchctl kickstart -k "gui/$(id -u)/ai.hermes.gateway-smith"
+```
+
+#### Step 5: Teams Manifest Configuration
+**Manifest format for Teams bot registration**:
+```json
+{
+  "id": "30f80ff1-b765-484c-b414-5b1bba7b39bc",
+  "bots": [
+    {
+      "botId": "30f80ff1-b765-484c-b414-5b1bba7b39bc",
+      "scopes": ["personal", "team", "groupchat"]
+    }
+  ],
+  "configurableProperties": ["botId"]
+}
+```
+
+#### Step 6: Environment Configuration
+**Hermes `.env` file additions**:
+```bash
+# Teams Bot Credentials
+TEAMS_CLIENT_ID=30f80ff1-b765-484c-b414-5b1bba7b39bc
+TEAMS_CLIENT_SECRET=tt28Q~...ya-9
+TEAMS_TENANT_ID=5f037968-9e5f-4cb1-b85f-f11f1d752a72
+TEAMS_PORT=3978
+TEAMS_APP_ID=30f80ff1-b765-484c-b414-5b1bba7b39bc
+
+# Optional configurations
+TEAMS_ALLOWED_USERS=
+TEAMS_HOME_CHANNEL=
+TEAMS_HOME_CHANNEL_NAME=
+```
+
+#### Step 7: Teams App Installation
+**Two installation methods**:
+
+**Method 1: Direct Teams Link**
+- Open: `https://teams.microsoft.com/l/app/30f80ff1-b765-484c-b414-5b1bba7b39bc?installAppPackage=true&appTenantId=5f037968-9e5f-4cb1-b85f-f11f1d752a72`
+- Opens directly in Teams client
+- Install immediately
+
+**Method 2: Dev Portal**
+- Navigate: `https://dev.teams.microsoft.com/apps/30f80ff1-b765-484c-b414-5b1bba7b39bc`
+- Use "Install" button
+- Set up permissions when prompted
+
+#### Step 8: Cloudflared Tunnel Setup
+**Tunnel configuration for local development**:
+```yaml
+tunnel: bedwuttipong
+credentials-file: /Users/Jeff/.cloudflared/4050aa12-b8e4-46d7-9d78-7cd9a00d9211.json
+ingress:
+  - hostname: bestwuttipong.dev
+    service: http://localhost:3978
+  - service: http_status:404
+```
+
+#### Complete Setup Script
+**Created setup script**: `/Users/Jeff/setup_hermes_teams.sh`
+- Automated all configuration steps
+- Environment setup
+- Gateway launch preparation
+- Teams app installation links
+
+#### Troubleshooting
+**Common issues and solutions**:
+
+**Gateway Commands Inside Hermes**:
+```bash
+# ❌ blocked: hermes gateway restart
+# ✅ must run from outside: launchctl kickstart -k "gui/$(id -u)/ai.hermes.gateway-smith"
+```
+
+**Teams Config in Hermes Context**:
+```bash
+# hermes config set doesn't work well with nested dotted keys
+# Use hermes config edit for explicit configuration
+```
+
+**Plugin Compilation Issues**:
+See "Plugin compilation debugging" section for TypeScript compilation fixes.
+
+### Key Insights for Future Teams Setups
+
+1. **One-Session Limitation**: Cannot run gateway management commands from within Hermes process due to process inheritance.
+
+2. **Command Structure Matters**: `hermes config set key value` may silently write to wrong paths for nested keys.
+
+3. **Critical Timing**: Must save Teams CLIENT_SECRET immediately - it's only shown once during bot creation.
+
+4. **Two Installation Methods**: Teams link (direct install) vs Dev Portal (manual install).
+
+5. **Cross-Platform Dependency**: Works with both OpenClaw and native Hermes setups.
+
+### Workflow Usage Example
+```bash
+# Complete Teams + Hermes setup workflow:
+1. Exit Hermes session completely
+2. Run setup script: ./setup_hermes_teams.sh
+3. Complete Teams app installation in Teams client
+4. Verify bot is ready to respond to messages
+```
+
+**References**:
+- References for workflow captured in `setup_hermes_teams.sh` script
+- Teams app credentials logged to environment variables
+- Gateway launcher created with proper Teams configuration
+
+This workflow ensures Teams bot deployment follows best practices and captures lessons learned from the initial setup process.
 
 ## Provider/auth consistency rule
 If `auth.profiles` has a provider key, `models.providers` also needs a provider block for it. Missing provider blocks surface as “Unknown model: …” even when the API key is present in env.

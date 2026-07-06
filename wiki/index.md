@@ -3,15 +3,16 @@
 ## Generated
 <!-- openclaw:wiki:index:start -->
 - Render mode: `obsidian`
-- Total pages: 284
+- Total pages: 309
 - Claims: 0
-- Sources: 270
-- Entities: 1
+- Sources: 294
+- Entities: 2
 - Concepts: 1
 - Syntheses: 2
 - Reports: 10
 
 ### Sources
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-02|bridge-smith-ec7a1e9e-memory-2026-07-02]]
 - [[sources/bridge-beaker-5f941680-memory-2026-05-17-0053-a4807cbc|Memory Bridge (beaker): 2026-05-17-0053]]
 - [[sources/bridge-beaker-5f941680-memory-2026-05-18-2204-e15b4758|Memory Bridge (beaker): 2026-05-18-2204]]
 - [[sources/bridge-beaker-5f941680-memory-2026-05-19-0728-ddaa1e8d|Memory Bridge (beaker): 2026-05-19-0728]]
@@ -228,6 +229,26 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-28-fb49bac0|Memory Bridge (smith): 2026-06-28]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-29-560190f9|Memory Bridge (smith): 2026-06-29]]
 - [[sources/bridge-smith-ec7a1e9e-memory-2026-06-29-1518-2a0b45bc|Memory Bridge (smith): 2026-06-29-1518]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-30-c7d70f94|Memory Bridge (smith): 2026-06-30]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-30-1133-9bbd4222|Memory Bridge (smith): 2026-06-30-1133]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-30-1205-37e4c3d2|Memory Bridge (smith): 2026-06-30-1205]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-06-30-2303-4946d8a0|Memory Bridge (smith): 2026-06-30-2303]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-01-f46f333d|Memory Bridge (smith): 2026-07-01]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-01-1832-ae9f93ab|Memory Bridge (smith): 2026-07-01-1832]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-01-2012-6faa887b|Memory Bridge (smith): 2026-07-01-2012]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-01-2153-48ccfe51|Memory Bridge (smith): 2026-07-01-2153]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-01-2202-aaa60195|Memory Bridge (smith): 2026-07-01-2202]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-01-2203-17d8eba6|Memory Bridge (smith): 2026-07-01-2203]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-01-tunnel-cleanup-95114209|Memory Bridge (smith): 2026-07-01-tunnel-cleanup]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-02-aa818de7|Memory Bridge (smith): 2026-07-02]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-02-1933-4cb613d9|Memory Bridge (smith): 2026-07-02-1933]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-03-fd914921|Memory Bridge (smith): 2026-07-03]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-03-2110-7f41aa1d|Memory Bridge (smith): 2026-07-03-2110]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-04-02cdbc19|Memory Bridge (smith): 2026-07-04]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-04-0023-c533c718|Memory Bridge (smith): 2026-07-04-0023]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-04-1016-8b1236f0|Memory Bridge (smith): 2026-07-04-1016]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-04-1037-4b2ed0d6|Memory Bridge (smith): 2026-07-04-1037]]
+- [[sources/bridge-smith-ec7a1e9e-memory-2026-07-05-46b1d5ff|Memory Bridge (smith): 2026-07-05]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-gmail-draft-thai-6580c92c|Memory Bridge (smith): artifacts / 2026-06-05-weekly-gmail-draft-thai]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-june1-6-thai-d49e4984|Memory Bridge (smith): artifacts / 2026-06-05-weekly-june1-6-thai]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-05-weekly-report-thai-4a85c7d1|Memory Bridge (smith): artifacts / 2026-06-05-weekly-report-thai]]
@@ -246,6 +267,7 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-23-0714-traffic-bansuan-to-wellgrow-7d8961bd|Memory Bridge (smith): artifacts / 2026-06-23-0714-traffic-bansuan-to-wellgrow]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-26-audit-followup-6a201888|Memory Bridge (smith): artifacts / 2026-06-26-audit-followup]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-28-traffic-ai-summary-5e2acc8c|Memory Bridge (smith): artifacts / 2026-06-28-traffic-ai-summary]]
+- [[sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-30-deepseek-test-fe6be8a3|Memory Bridge (smith): artifacts / 2026-06-30-deepseek-test]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-evolution-2026-06-04-cron-delivery-548854d0|Memory Bridge (smith): artifacts / evolution-2026-06-04-cron-delivery]]
 - [[sources/bridge-smith-ec7a1e9e-memory-artifacts-maintenance-summary-4d0d6933|Memory Bridge (smith): artifacts / maintenance-summary]]
 - [[sources/bridge-smith-ec7a1e9e-memory-beaker-cicd-research-2026-06-21-ad1ff23d|Memory Bridge (smith): beaker-cicd-research-2026-06-21]]
@@ -275,6 +297,8 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-samantha-openclaw-config-audit-2026-06-21-f99e6796|Memory Bridge (smith): samantha-openclaw-config-audit-2026-06-21]]
 - [[sources/bridge-smith-ec7a1e9e-memory-samantha-openclaw-update-2026-06-21-46022429|Memory Bridge (smith): samantha-openclaw-update-2026-06-21]]
 - [[sources/bridge-smith-ec7a1e9e-memory-samantha-tpn-holiday-calendar-2026-d4b6be1a|Memory Bridge (smith): samantha-tpn-holiday-calendar-2026]]
+- [[sources/bridge-smith-ec7a1e9e-memory-weekly-report-2026-06-27-to-2026-07-03-21e83b4a|Memory Bridge (smith): weekly-report-2026-06-27-to-2026-07-03]]
+- [[sources/bridge-smith-ec7a1e9e-memory-weekly-report-template-7eb0cc46|Memory Bridge (smith): weekly-report-template]]
 - [[sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-16-8081a35b|Memory Bridge (smith): weekly-review-2026-05-16]]
 - [[sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-23-f7ae8a0e|Memory Bridge (smith): weekly-review-2026-05-23]]
 - [[sources/bridge-smith-ec7a1e9e-memory-weekly-review-2026-05-25-30-summary-17c1c0a7|Memory Bridge (smith): weekly-review-2026-05-25-30-summary]]
@@ -284,6 +308,7 @@
 - [[sources/bridge-smith-ec7a1e9e-memory-working-buffer-f0781217|Memory Bridge (smith): working-buffer]]
 
 ### Entities
+- [[entities/agent-os|Agent OS]]
 - [[entities/george-mack|George Mack]]
 
 ### Concepts

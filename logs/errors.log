@@ -6744,3 +6744,1086 @@ openai.AuthenticationError: Error code: 401 - {'error': {'message': 'User not fo
 2026-07-02 20:18:55,955 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
 2026-07-02 20:18:55,955 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
 2026-07-02 20:19:02,560 WARNING hermes_cli.web_server: event loop stalled 11.9s (GIL pressure suspected)
+2026-07-02 23:27:32,321 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling conflict (1/5) — previous session still held open on Telegram's servers. Waiting 20s for it to expire. Error: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-03 00:43:23,475 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error, scheduling reconnect: httpx.ReadError: 
+2026-07-03 00:43:23,479 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.ReadError: 
+2026-07-03 07:27:11,650 WARNING [20260703_072208_7a48436b] agent.conversation_loop: Model declined to respond (finish_reason=content_filter). model=mimo-v2.5-pro provider=xiaomi refusal=hindsight's a bitch 😅
+
+but hey — you've got the setup ready now. bear + grizzly + meThe request was rejected because it was considered high risk
+2026-07-03 17:22:03,577 WARNING [20260703_072208_7a48436b] tools.skills_tool: Skill name collision for 'commute-traffic': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/commute-traffic/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/openclaw-commute-traffic/SKILL.md
+2026-07-03 17:22:03,577 WARNING [20260703_072208_7a48436b] agent.tool_executor: Tool skill_view returned error (0.09s): {"success": false, "error": "Ambiguous skill name 'commute-traffic': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "
+2026-07-03 17:22:05,601 WARNING [20260703_072208_7a48436b] agent.tool_executor: Tool skill_view returned error (0.09s): {"success": false, "error": "Skill 'commute-traffic/commute-traffic' not found.", "available_skills": ["1password", "agentmail", "apple-notes", "brave-search", "circulatingbox-publish", "claw-mechanic
+2026-07-03 17:22:15,403 WARNING [20260703_072208_7a48436b] agent.tool_executor: Tool terminal returned error (0.24s): {"output": "usage: check_traffic_google.py [-h] --origin ORIGIN --destination DESTINATION\ncheck_traffic_google.py: error: unrecognized arguments: --avoid highways", "exit_code": 2, "error": null}
+2026-07-03 17:22:20,049 WARNING [20260703_072208_7a48436b] agent.tool_executor: Tool terminal returned error (0.92s): {"output": "{\n  \"status\": \"error\",\n  \"step\": \"geocode_origin\",\n  \"error\": true,\n  \"message\": \"Location 'TPN Flexpak, Chonburi' not found via Nominatim. Try a more specific name (add p
+2026-07-03 17:22:32,168 WARNING [20260703_072208_7a48436b] agent.tool_executor: Tool terminal returned error (0.97s): {"output": "{\n  \"status\": \"error\",\n  \"step\": \"geocode_origin\",\n  \"error\": true,\n  \"message\": \"Location 'TPN Flexpak, Chon Buri, Thailand' not found via Nominatim. Try a more specific 
+2026-07-03 19:08:27,849 WARNING [20260703_072208_7a48436b] agent.tool_executor: Tool memory returned error (0.01s): {"success": false, "error": "After applying all 2 operations, memory would be at 2,215/2,200 chars -- over the limit. Remove or shorten more entries in the same batch (see current_entries below), then
+2026-07-03 19:11:36,008 WARNING [20260703_072208_7a48436b] agent.tool_executor: Tool memory returned error (0.00s): {"success": false, "error": "Memory at 2,091/2,200 chars. Adding this entry (156 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-07-03 19:53:03,009 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110
+2026-07-03 19:53:03,014 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:53:03,015 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error, scheduling reconnect: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:03,016 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:04,027 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110
+2026-07-03 19:53:04,032 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:53:05,546 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110
+2026-07-03 19:53:05,551 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:53:07,815 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110
+2026-07-03 19:53:07,819 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:53:11,205 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110
+2026-07-03 19:53:11,210 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:53:11,211 ERROR telegram.ext.Updater: Error while calling `get_updates` one more time to mark all fetched updates. Suppressing error to ensure graceful shutdown. When polling for updates is restarted, updates may be fetched again. Please adjust timeouts via `ApplicationBuilder` or the parameter `get_updates_request` of `Bot`.
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 124, in handle_async_request
+    raise last_error
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 90, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 400, in _get_updates_cleanup
+    await self.bot.get_updates(
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4860, in get_updates
+    await self._post(
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:11,270 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110
+2026-07-03 19:53:11,272 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:53:11,272 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 124, in handle_async_request
+    raise last_error
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 90, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1489, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5032, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:11,294 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:11,294 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:19,366 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110
+2026-07-03 19:53:19,372 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:53:21,302 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110
+2026-07-03 19:53:21,307 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:53:21,308 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 124, in handle_async_request
+    raise last_error
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 90, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1489, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5032, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:21,349 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:21,350 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:41,360 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110
+2026-07-03 19:53:41,365 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:53:41,366 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 124, in handle_async_request
+    raise last_error
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 90, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1489, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5032, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:41,407 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:53:41,408 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:54:21,423 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110
+2026-07-03 19:54:21,429 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-03 19:54:21,430 ERROR telegram.ext: Network Retry Loop (Bootstrap delete Webhook): Failed run number 0 of 0. Aborting.
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 124, in handle_async_request
+    raise last_error
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 90, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 686, in bootstrap_del_webhook
+    await self.bot.delete_webhook(drop_pending_updates=drop_pending_updates)
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 1489, in delete_webhook
+    return await super().delete_webhook(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 5032, in delete_webhook
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:54:21,471 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-03 19:54:21,471 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 5/10), reconnecting in 60s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-03 20:05:10,709 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=no parent_pid=20733 parent_name=? loadavg_1m=4.11 parent_cmdline='(unknown)'
+2026-07-03 20:06:22,586 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 20:06:22,625 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 20:06:23,596 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 20:06:23,655 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 20:06:25,617 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 20:06:25,696 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 20:06:29,640 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 20:06:29,755 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 20:06:29,755 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-03 20:06:29,755 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
+2026-07-03 20:06:32,137 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-03 20:06:32,137 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-03 20:06:33,176 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-03 20:06:33,374 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-03 21:14:10,965 WARNING tui_gateway.ws: ws write slow (loop stalled >10.0s) peer=127.0.0.1:53960 — frame left in flight
+2026-07-03 21:14:11,134 WARNING hermes_cli.web_server: event loop stalled 9.9s (GIL pressure suspected)
+2026-07-03 21:14:13,276 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=3.80 parent_cmdline='(unknown)'
+2026-07-03 21:14:28,745 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-03 21:14:28,745 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-03 21:14:30,393 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-03 21:14:30,618 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-03 21:14:46,936 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 21:14:46,987 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 21:14:47,947 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 21:14:48,024 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 21:14:49,970 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 21:14:50,091 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 21:14:53,993 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 21:14:54,150 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 21:14:54,150 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-03 21:14:54,151 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
+2026-07-03 21:17:28,121 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 21:17:28,159 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 21:17:29,132 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 21:17:29,216 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 21:17:31,145 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 21:17:31,262 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 21:17:35,165 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 21:17:35,312 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 21:17:35,313 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-03 21:17:35,313 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
+2026-07-03 21:22:49,152 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-03 21:22:49,153 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-03 21:22:49,168 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 21:22:49,172 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 21:22:50,761 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 21:22:50,762 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 21:22:50,762 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 21:22:50,787 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-03 23:18:17,670 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:18:17,671 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:18:17,677 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:18:17,677 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:18:18,998 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:18:19,000 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:18:19,000 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:18:19,013 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-03 23:18:20,442 WARNING [20260703_231817_7ad6d0] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-29 (run):6400585728 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 401: User not found.
+2026-07-03 23:18:20,485 ERROR [20260703_231817_7ad6d0] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-07-03 23:19:13,796 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:19:13,862 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:19:14,859 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:19:14,895 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:19:16,871 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:19:16,932 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:19:20,891 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:19:20,988 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:19:20,988 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-03 23:19:20,988 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
+2026-07-03 23:19:53,924 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:19:53,925 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:19:54,814 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:19:54,816 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:19:55,660 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:19:55,661 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:19:55,661 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:19:56,548 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-03 23:19:59,802 WARNING [20260703_231953_837b92] agent.conversation_loop: API call failed (attempt 1/3) error_type=AuthenticationError thread=Thread-10 (run):6393868288 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 401: User not found.
+2026-07-03 23:19:59,830 ERROR [20260703_231953_837b92] agent.conversation_loop: Non-retryable client error: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}
+2026-07-03 23:22:14,571 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:22:14,604 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:22:15,585 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:22:15,705 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:22:17,607 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:22:17,769 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:22:21,630 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:22:21,830 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:22:21,830 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-03 23:22:21,831 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
+2026-07-03 23:22:24,194 WARNING hermes_cli.web_server: event loop stalled 7.7s (GIL pressure suspected)
+2026-07-03 23:22:30,111 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:22:30,112 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:22:31,209 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:22:31,212 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:22:32,104 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:22:32,106 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:22:32,107 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:22:32,985 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-03 23:22:35,409 WARNING [20260703_232229_ae775b] agent.conversation_loop: API call failed (attempt 1/3) error_type=RateLimitError thread=Thread-10 (run):6322188288 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-03 23:22:35,410 WARNING [20260703_232229_ae775b] agent.conversation_loop: Retrying API call in 2.6961830687985904s (attempt 1/3) thread=Thread-10 (run):6322188288 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-03 23:22:39,717 WARNING [20260703_232229_ae775b] agent.conversation_loop: API call failed (attempt 2/3) error_type=RateLimitError thread=Thread-10 (run):6322188288 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-03 23:22:39,720 WARNING [20260703_232229_ae775b] agent.conversation_loop: Retrying API call in 4.056348518764032s (attempt 2/3) thread=Thread-10 (run):6322188288 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-03 23:22:44,699 WARNING [20260703_232229_ae775b] agent.conversation_loop: API call failed (attempt 3/3) error_type=RateLimitError thread=Thread-10 (run):6322188288 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-03 23:22:44,703 ERROR [20260703_232229_ae775b] agent.conversation_loop: API call failed after 3 retries. HTTP 429: Provider returned error | provider=openrouter model=poolside/laguna-m.1:free msgs=2 tokens=~8,104
+2026-07-03 23:25:54,925 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:25:55,990 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:25:56,914 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:56,918 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:57,155 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:57,156 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,059 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:25:58,075 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,076 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,076 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,125 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,128 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,129 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,149 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,150 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,150 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,153 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,154 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:25:58,157 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:26:02,126 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:26:02,126 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
+2026-07-03 23:26:05,010 WARNING [20260703_232555_8e1349] agent.conversation_loop: API call failed (attempt 1/3) error_type=RateLimitError thread=Thread-5 (run_agent):6139785216 provider=openrouter base_url=https://openrouter.ai/api/v1 model=google/gemma-4-26b-a4b-it:free summary=HTTP 429: Provider returned error
+2026-07-03 23:26:05,011 WARNING [20260703_232555_8e1349] agent.conversation_loop: Retrying API call in 2.2465145202347454s (attempt 1/3) thread=Thread-5 (run_agent):6139785216 provider=openrouter base_url=https://openrouter.ai/api/v1 model=google/gemma-4-26b-a4b-it:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-03 23:26:07,889 WARNING [20260703_232555_8e1349] agent.conversation_loop: API call failed (attempt 2/3) error_type=RateLimitError thread=Thread-5 (run_agent):6139785216 provider=openrouter base_url=https://openrouter.ai/api/v1 model=google/gemma-4-26b-a4b-it:free summary=HTTP 429: Provider returned error
+2026-07-03 23:26:07,889 WARNING [20260703_232555_8e1349] agent.conversation_loop: Retrying API call in 4.059514797569187s (attempt 2/3) thread=Thread-5 (run_agent):6139785216 provider=openrouter base_url=https://openrouter.ai/api/v1 model=google/gemma-4-26b-a4b-it:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-4-26b-a4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-03 23:26:12,495 WARNING [20260703_232555_8e1349] agent.conversation_loop: API call failed (attempt 3/3) error_type=RateLimitError thread=Thread-5 (run_agent):6139785216 provider=openrouter base_url=https://openrouter.ai/api/v1 model=google/gemma-4-26b-a4b-it:free summary=HTTP 429: Provider returned error
+2026-07-03 23:26:12,498 ERROR [20260703_232555_8e1349] agent.conversation_loop: API call failed after 3 retries. HTTP 429: Provider returned error | provider=openrouter model=google/gemma-4-26b-a4b-it:free msgs=2 tokens=~12,730
+2026-07-03 23:29:16,942 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:29:18,006 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:29:18,941 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:18,944 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:20,078 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:29:24,146 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:29:24,146 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
+2026-07-03 23:29:24,974 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:24,975 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:26,368 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:26,369 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:26,369 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:27,864 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:27,874 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:27,874 WARNING tools.registry: check_fn _check_feishu returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:27,886 WARNING tools.registry: check_fn _check_yuanbao returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:27,886 WARNING tools.registry: check_fn _check_ha_available returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:27,887 WARNING tools.registry: check_fn _check_spotify_available returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:27,892 WARNING tools.registry: check_fn check_video_generation_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:27,892 WARNING tools.registry: check_fn _check_xai_video_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:27,896 WARNING tools.registry: check_fn check_x_search_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:29:56,624 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:29:56,662 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:29:57,704 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:29:57,730 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:29:59,725 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:29:59,777 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:30:03,749 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-03 23:30:03,830 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-03 23:30:03,831 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-03 23:30:03,831 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=python3): Connection closed
+2026-07-03 23:31:28,547 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:31:28,548 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-03 23:31:29,492 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:31:29,495 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:31:30,680 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:31:30,681 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-03 23:31:30,681 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-03 23:31:32,025 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-03 23:31:49,193 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool read_file returned error (0.34s): {"content": "", "total_lines": 0, "file_size": 0, "truncated": false, "is_binary": false, "is_image": false, "error": "File not found: /Users/Jeff/Smith/openclaw.json", "similar_files": ["/Users/Jeff/
+2026-07-03 23:35:03,278 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool terminal returned error (0.33s): {"output": "npm error Missing script: \"build\"\nnpm error\nnpm error To see a list of scripts, run:\nnpm error   npm run\nnpm error A complete log of this run can be found in: /Users/Jeff/.npm/_logs/
+2026-07-03 23:35:51,252 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool terminal returned error (0.07s): {"output": "", "exit_code": 1, "error": null}
+2026-07-03 23:35:55,081 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool terminal returned error (0.08s): {"output": "", "exit_code": 1, "error": null}
+2026-07-03 23:35:58,690 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool terminal returned error (0.46s): {"output": "/usr/local/lib\n└── (empty)", "exit_code": 1, "error": null}
+
+[Tool loop warning: same_tool_failure_warning; count=3; terminal has failed 3 times this turn. This looks like a loop. Do not 
+2026-07-03 23:41:18,291 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool execute_code returned error (300.04s): {"status": "error", "error": "BLOCKED: execute_code script timed out without user response. The user has NOT consented to running this code. Do NOT retry, do NOT rephrase the script, and do NOT attemp
+2026-07-03 23:44:42,410 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool skill_manage returned error (0.01s): {"success": false, "error": "SKILL.md frontmatter is not closed. Ensure you have a closing '---' line."}
+2026-07-03 23:44:53,521 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool skill_manage returned error (0.00s): {"success": false, "error": "SKILL.md frontmatter is not closed. Ensure you have a closing '---' line."}
+2026-07-03 23:45:04,208 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool skill_manage returned error (0.00s): {"success": false, "error": "SKILL.md frontmatter is not closed. Ensure you have a closing '---' line."}
+
+[Tool loop warning: repeated_exact_failure_warning; count=2; skill_manage has failed 2 times w
+2026-07-03 23:45:18,426 WARNING [20260703_233127_eb65d7] agent.tool_executor: Tool write_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: write_file. Only memory/skill tools are allowed."}
+2026-07-04 09:10:04,796 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool read_file returned error (0.47s): {"content": "", "total_lines": 0, "file_size": 0, "truncated": false, "is_binary": false, "is_image": false, "error": "File not found: /Users/Jeff/Smith", "similar_files": ["/Users/Jeff/Smith"]}
+2026-07-04 09:12:02,149 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool terminal returned error (0.47s): {"output": "", "exit_code": 1, "error": null}
+2026-07-04 09:17:27,655 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool execute_code returned error (300.01s): {"status": "error", "error": "BLOCKED: execute_code script timed out without user response. The user has NOT consented to running this code. Do NOT retry, do NOT rephrase the script, and do NOT attemp
+2026-07-04 09:17:50,420 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool terminal returned error (0.00s): {"output": "", "exit_code": 1, "error": "Blocked: cannot restart or stop the gateway from inside the gateway process. The gateway would kill this command before it could complete (SIGTERM propagates t
+2026-07-04 09:18:49,760 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool browser_click returned error (0.99s): {"success": false, "error": "Unknown ref: e46"}
+2026-07-04 09:20:13,658 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool skill_manage returned error (0.04s): {"success": false, "error": "Refusing background curator write_file for bundled skill 'hermes-agent'."}
+2026-07-04 09:20:46,690 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool skill_manage returned error (0.04s): {"success": false, "error": "Refusing background curator write_file for bundled skill 'hermes-agent'."}
+2026-07-04 09:21:26,321 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool skill_manage returned error (0.06s): {"success": false, "error": "Refusing background curator patch for skill 'smith-local-stack': the current SKILL.md content has not been loaded in this review turn. Call skill_view(name) for SKILL.md, 
+2026-07-04 09:29:16,580 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Access denied: /Users/Jeff/Smith/.hermes/.env is a Hermes credential store and cannot be read directly. Provider tools consume these credentials through internal channels. (Defense-in-depth
+2026-07-04 09:31:26,642 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool terminal returned error (0.00s): {"output": "", "exit_code": 1, "error": "Blocked: cannot restart or stop the gateway from inside the gateway process. The gateway would kill this command before it could complete (SIGTERM propagates t
+2026-07-04 09:31:41,463 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool terminal returned error (0.27s): {"output": "usage: hermes gateway [-h] [--accept-hooks]\n                      {run,start,stop,restart,status,install,uninstall,list,setup,migrate-legacy,enroll}\n                      ...\nhermes gat
+2026-07-04 09:31:46,667 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool terminal returned error (0.33s): {"output": "", "exit_code": 1, "error": null, "exit_code_meaning": "No matches found (not an error)"}
+2026-07-04 09:31:51,760 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool terminal returned error (0.00s): {"output": "", "exit_code": 1, "error": "Blocked: cannot restart or stop the gateway from inside the gateway process. The gateway would kill this command before it could complete (SIGTERM propagates t
+2026-07-04 09:37:43,107 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool execute_code returned error (300.01s): {"status": "error", "error": "BLOCKED: execute_code script timed out without user response. The user has NOT consented to running this code. Do NOT retry, do NOT rephrase the script, and do NOT attemp
+2026-07-04 09:43:19,059 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool browser_click returned error (0.79s): {"success": false, "error": "Unknown ref: e66"}
+2026-07-04 09:43:25,474 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool browser_click returned error (0.88s): {"success": false, "error": "Unknown ref: e55"}
+2026-07-04 09:46:25,920 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool skill_manage returned error (0.05s): {"success": false, "error": "old_string and new_string are identical", "file_preview": "---\nname: openclaw-config-maintenance\ndescription: Class-level skill for reading, modifying, and maintaining O
+2026-07-04 09:46:33,213 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool skill_view returned error (0.08s): {"error": "[Errno 21] Is a directory: '/Users/Jeff/.hermes/profiles/smith/skills/openclaw/openclaw-config-maintenance/references'", "success": false}
+2026-07-04 09:47:14,460 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool skill_manage returned error (0.06s): {"success": false, "error": "Skill '' not found in active profile 'default'. Use skills_list() to see available skills. Create it first with action='create'."}
+2026-07-04 09:47:56,565 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool skill_manage returned error (0.00s): {"success": false, "error": "Frontmatter must include 'description' field."}
+
+[Tool loop warning: same_tool_failure_warning; count=3; skill_manage has failed 3 times this turn. This looks like a loop.
+2026-07-04 09:48:24,616 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool skill_manage returned error (0.00s): {"success": false, "error": "Frontmatter must include 'description' field."}
+
+[Tool loop warning: same_tool_failure_warning; count=4; skill_manage has failed 4 times this turn. This looks like a loop.
+2026-07-04 09:48:42,736 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool skill_manage returned error (0.00s): {"success": false, "error": "Frontmatter must include 'description' field."}
+
+[Tool loop warning: same_tool_failure_warning; count=5; skill_manage has failed 5 times this turn. This looks like a loop.
+2026-07-04 09:56:32,969 WARNING agent.message_sanitization: Unrepairable tool_call arguments for memory — replaced with empty object (was: {"target": "user", "operations": [{"action": "add", "content": "Name: Best Wutti)
+2026-07-04 09:56:42,434 WARNING [20260704_090946_3ebb15] agent.tool_executor: Tool memory returned error (0.00s): {"success": false, "error": "Memory at 1,236/1,375 chars. Adding this entry (799 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-07-04 10:03:22,224 WARNING agent.message_sanitization: Unrepairable tool_call arguments for write_file — replaced with empty object (was: {"path": "/Users/Jeff/setup_hermes_teams_hotmail.sh", "content": "#!/bin/bash\n#)
+2026-07-04 10:12:24,788 WARNING [20260704_100937_4efc76] agent.conversation_loop: API call failed (attempt 1/3) error_type=RateLimitError thread=Thread-470 (run):12969013248 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:12:24,789 WARNING [20260704_100937_4efc76] agent.conversation_loop: Retrying API call in 2.2893949857655453s (attempt 1/3) thread=Thread-470 (run):12969013248 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:12:28,017 WARNING [20260704_100937_4efc76] agent.conversation_loop: API call failed (attempt 2/3) error_type=RateLimitError thread=Thread-470 (run):12969013248 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:12:28,018 WARNING [20260704_100937_4efc76] agent.conversation_loop: Retrying API call in 4.976615919549246s (attempt 2/3) thread=Thread-470 (run):12969013248 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:13:11,658 WARNING [20260704_100937_4efc76] agent.tool_executor: Tool terminal returned error (0.37s): {"output": "fatal: not a git repository (or any of the parent directories): .git", "exit_code": 128, "error": null}
+2026-07-04 10:13:12,688 WARNING [20260704_100937_4efc76] agent.conversation_loop: API call failed (attempt 1/3) error_type=RateLimitError thread=Thread-475 (run):12969013248 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:13:12,689 WARNING [20260704_100937_4efc76] agent.conversation_loop: Retrying API call in 2.8111286663728654s (attempt 1/3) thread=Thread-475 (run):12969013248 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:13:16,613 WARNING [20260704_100937_4efc76] agent.conversation_loop: API call failed (attempt 2/3) error_type=RateLimitError thread=Thread-475 (run):12969013248 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:13:16,614 WARNING [20260704_100937_4efc76] agent.conversation_loop: Retrying API call in 4.654558071974765s (attempt 2/3) thread=Thread-475 (run):12969013248 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:13:22,317 WARNING [20260704_100937_4efc76] agent.conversation_loop: API call failed (attempt 3/3) error_type=RateLimitError thread=Thread-475 (run):12969013248 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:13:22,322 ERROR [20260704_100937_4efc76] agent.conversation_loop: API call failed after 3 retries. HTTP 429: Provider returned error | provider=openrouter model=poolside/laguna-m.1:free msgs=16 tokens=~13,282
+2026-07-04 10:15:21,803 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-04 10:15:21,804 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-04 10:15:25,710 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 10:15:25,725 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 10:15:28,528 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-04 10:15:28,530 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-04 10:15:28,530 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 10:15:32,641 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-04 10:15:42,235 WARNING [20260704_101519_63499688] agent.conversation_loop: API call failed (attempt 1/3) error_type=RateLimitError thread=hermes-gateway_0:6328299520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:15:42,236 WARNING [20260704_101519_63499688] agent.conversation_loop: Retrying API call in 2.6541139748074083s (attempt 1/3) thread=hermes-gateway_0:6328299520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:15:45,639 WARNING [20260704_101519_63499688] agent.conversation_loop: API call failed (attempt 2/3) error_type=RateLimitError thread=hermes-gateway_0:6328299520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:15:45,641 WARNING [20260704_101519_63499688] agent.conversation_loop: Retrying API call in 4.86436954357375s (attempt 2/3) thread=hermes-gateway_0:6328299520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:15:54,601 WARNING [20260704_101519_63499688] agent.conversation_loop: API call failed (attempt 1/3) error_type=RateLimitError thread=hermes-gateway_0:6328299520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:15:54,603 WARNING [20260704_101519_63499688] agent.conversation_loop: Retrying API call in 2.220013329026438s (attempt 1/3) thread=hermes-gateway_0:6328299520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:15:57,894 WARNING [20260704_101519_63499688] agent.conversation_loop: API call failed (attempt 2/3) error_type=RateLimitError thread=hermes-gateway_0:6328299520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:15:57,895 WARNING [20260704_101519_63499688] agent.conversation_loop: Retrying API call in 4.071302312335599s (attempt 2/3) thread=hermes-gateway_0:6328299520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:16:04,296 WARNING [20260704_101519_63499688] agent.conversation_loop: API call failed (attempt 3/3) error_type=RateLimitError thread=hermes-gateway_0:6328299520 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:16:04,304 ERROR [20260704_101519_63499688] agent.conversation_loop: API call failed after 3 retries. HTTP 429: Provider returned error | provider=openrouter model=poolside/laguna-m.1:free msgs=8 tokens=~13,307
+2026-07-04 10:54:44,725 WARNING hermes_cli.web_server: event loop stalled 6.3s (GIL pressure suspected)
+2026-07-04 10:56:00,357 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-04 10:56:00,358 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-04 10:56:01,225 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 10:56:01,225 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 10:56:02,163 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-04 10:56:02,164 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-04 10:56:02,165 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 10:56:03,874 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-04 10:56:13,006 WARNING [20260704_105600_2e17c1] agent.conversation_loop: API call failed (attempt 1/3) error_type=RateLimitError thread=Thread-493 (run):6393196544 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:56:13,007 WARNING [20260704_105600_2e17c1] agent.conversation_loop: Retrying API call in 2.306471255279079s (attempt 1/3) thread=Thread-493 (run):6393196544 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:56:16,179 WARNING [20260704_105600_2e17c1] agent.conversation_loop: API call failed (attempt 2/3) error_type=RateLimitError thread=Thread-493 (run):6393196544 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free summary=HTTP 429: Provider returned error
+2026-07-04 10:56:16,181 WARNING [20260704_105600_2e17c1] agent.conversation_loop: Retrying API call in 5.778201238232947s (attempt 2/3) thread=Thread-493 (run):6393196544 provider=openrouter base_url=https://openrouter.ai/api/v1 model=poolside/laguna-m.1:free policy=default error=Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'poolside/laguna-m.1:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Poolside', 'is_byok': False}}, 'user_id': 'user_3Acnw8TjZjbBlJqMY9iTDeQvNmp'}
+2026-07-04 10:59:17,912 WARNING [20260704_105600_2e17c1] agent.tool_executor: Tool execute_code returned error (168.77s): {"status": "error", "error": "BLOCKED: execute_code script denied by user. The user has NOT consented to running this code. Do NOT retry, do NOT rephrase the script, and do NOT attempt the same outcom
+2026-07-04 11:00:45,208 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-04 11:00:45,209 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-04 11:00:45,217 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 11:00:45,217 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 11:01:00,336 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-04 11:01:00,338 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-04 11:01:00,338 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 11:01:00,354 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-04 11:01:00,859 WARNING [20260704_110045_6e20af] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=Thread-512 (run):6426849280 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=openrouter/owl-alpha summary=HTTP 400: Param Incorrect
+2026-07-04 11:01:00,890 ERROR [20260704_110045_6e20af] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model openrouter/owl-alpha'}}
+2026-07-04 17:03:29,728 WARNING tui_gateway.ws: ws write slow (loop stalled >10.0s) peer=127.0.0.1:60112 — frame left in flight
+2026-07-04 17:03:29,737 WARNING hermes_cli.web_server: event loop stalled 10.1s (GIL pressure suspected)
+2026-07-04 17:04:24,230 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=10.56 parent_cmdline='(unknown)'
+2026-07-04 17:04:40,350 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-04 17:04:40,350 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-04 17:04:41,532 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-04 17:04:42,567 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-04 17:04:44,604 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-04 17:04:48,645 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-04 17:04:48,646 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-04 17:04:48,696 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-04 17:04:48,915 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-04 18:45:57,737 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-04 18:45:57,741 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-04 18:45:57,759 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 18:45:57,774 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 18:45:58,665 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-04 18:45:58,666 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-04 18:45:58,667 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-04 18:45:58,705 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-04 18:45:59,982 WARNING [20260704_101519_63499688] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=hermes-gateway_0:6301069312 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=openrouter/owl-alpha summary=HTTP 400: Param Incorrect
+2026-07-04 18:46:00,040 ERROR [20260704_101519_63499688] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model openrouter/owl-alpha'}}
+2026-07-05 11:13:36,299 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 11:13:36,306 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:13:37,320 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 11:13:37,333 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:13:39,339 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 11:13:39,354 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:13:43,361 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 11:13:43,378 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:13:43,379 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-05 11:13:43,380 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 11:13:47,159 WARNING hermes_cli.web_server: event loop stalled 8.9s (GIL pressure suspected)
+2026-07-05 11:22:44,074 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-05 11:22:44,077 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-05 11:22:44,087 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 11:22:44,088 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 11:22:44,170 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 11:22:44,171 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 11:22:44,171 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 11:22:44,199 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-05 11:22:45,574 WARNING [20260705_112243_2b2f64] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=Thread-10 (run):6368931840 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=openrouter/cohere/north-mini-code summary=HTTP 400: Param Incorrect
+2026-07-05 11:22:45,612 ERROR [20260705_112243_2b2f64] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model openrouter/cohere/north-mini-code'}}
+2026-07-05 11:23:12,876 WARNING [20260705_112312_0c7694] agent.conversation_loop: API call failed (attempt 1/3) error_type=BadRequestError thread=Thread-20 (run):12901707776 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=cohere/north-mini-code summary=HTTP 400: Param Incorrect
+2026-07-05 11:23:12,915 ERROR [20260705_112312_0c7694] agent.conversation_loop: Non-retryable client error: Error code: 400 - {'error': {'code': '400', 'message': 'Param Incorrect', 'param': 'Not supported model cohere/north-mini-code'}}
+2026-07-05 11:40:19,184 WARNING [20260705_112312_0c7694] agent.conversation_loop: API call failed (attempt 1/3) error_type=APIError thread=Thread-28 (run):6368931840 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free summary=Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (57/32)
+2026-07-05 11:40:19,185 WARNING [20260705_112312_0c7694] agent.conversation_loop: Retrying API call in 2.4093678865190555s (attempt 1/3) thread=Thread-28 (run):6368931840 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free policy=default error=Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (57/32)
+2026-07-05 11:53:57,071 WARNING [20260705_112312_0c7694] agent.tool_executor: Tool browser_click returned error (0.90s): {"success": false, "error": "Unknown ref: e170"}
+2026-07-05 11:55:58,987 WARNING [20260705_112312_0c7694] agent.conversation_loop: API call failed (attempt 1/3) error_type=APIError thread=Thread-56 (run):6385758208 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free summary=Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (33/32)
+2026-07-05 11:55:58,988 WARNING [20260705_112312_0c7694] agent.conversation_loop: Retrying API call in 2.099492127951899s (attempt 1/3) thread=Thread-56 (run):6385758208 provider=openrouter base_url=https://openrouter.ai/api/v1 model=nvidia/nemotron-3-ultra-550b-a55b:free policy=default error=Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (33/32)
+2026-07-05 11:56:16,454 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=3.04 parent_cmdline='(unknown)'
+2026-07-05 11:56:33,704 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-05 11:56:33,704 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-05 11:56:34,829 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:56:35,852 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:56:37,880 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:56:41,912 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:56:41,913 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 11:56:41,953 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-05 11:56:42,204 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-05 11:56:44,328 WARNING gateway.session: gateway.session: pruning stale sessions.json entry 'agent:main:telegram:dm:8611951691' -> 20260704_101519_63499688 (end_reason='agent_close'); left by a crashed gateway
+2026-07-05 11:56:51,870 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 11:56:51,900 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:56:52,896 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 11:56:52,919 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:56:54,927 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 11:56:54,947 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:56:58,954 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 11:56:58,972 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 11:56:58,973 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-05 11:56:58,974 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 12:04:12,164 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 12:04:12,171 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 12:04:13,214 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 12:04:13,217 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 12:04:15,236 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 12:04:15,251 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 12:04:19,264 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 12:04:19,283 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 12:04:19,284 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-05 12:04:19,284 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 12:04:19,539 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-05 12:04:19,542 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-05 12:04:19,553 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-07-05 12:04:19,553 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 12:05:19.
+2026-07-05 12:04:19,560 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-07-05 12:04:19,560 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 12:05:19.
+2026-07-05 12:04:19,560 WARNING tools.registry: check_fn check_browser_vision_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 12:04:19,560 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 12:04:19,564 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 12:04:19,673 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 12:04:19,674 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 12:04:19,674 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 12:04:19,690 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-07-05 12:04:19,690 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 12:05:19.
+2026-07-05 12:04:19,697 WARNING agent.auxiliary_client: Auxiliary Nous client unavailable: no Nous authentication found (run: hermes auth).
+2026-07-05 12:04:19,697 WARNING agent.auxiliary_client: Auxiliary: marking nous unhealthy for 60s (payment / credit error). Subsequent auxiliary calls will skip it until 12:05:19.
+2026-07-05 12:04:19,697 WARNING tools.registry: check_fn check_vision_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 12:04:19,707 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-05 12:11:19,383 WARNING [20260705_112312_0c7694] agent.tool_executor: Tool terminal returned error (300.17s): {"output": "", "exit_code": -1, "error": "BLOCKED: Command timed out without user response. The user has NOT consented to this action. Do NOT retry this command, do NOT rephrase it, and do NOT attempt
+2026-07-05 12:15:09,576 WARNING [20260705_112312_0c7694] tools.skills_tool: Skill name collision for 'brave-search': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/brave-search/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/brave-search/SKILL.md
+2026-07-05 12:15:09,576 WARNING [20260705_112312_0c7694] agent.tool_executor: Tool skill_view returned error (0.06s): {"success": false, "error": "Ambiguous skill name 'brave-search': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "mat
+2026-07-05 12:20:25,061 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-05 12:20:25,067 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-05 12:20:25,085 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 12:20:25,086 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 12:20:25,106 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 12:20:25,107 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 12:20:25,107 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 12:20:25,139 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-05 12:22:58,948 WARNING hermes.lint.lsp: lsp[typescript] server unavailable: typescript not found (install via `hermes lsp install <id>` or set lsp.servers.<id>.command)
+2026-07-05 12:24:20,362 WARNING [20260705_112312_0c7694] agent.tool_executor: Tool skill_manage returned error (0.10s): {"success": false, "error": "Found 2 matches for old_string. Provide more context to make it unique, or use replace_all=True.", "file_preview": "---\nname: smith-local-stack\ndescription: \"Jeff's loc
+2026-07-05 12:45:02,624 WARNING [20260705_112312_0c7694] agent.tool_executor: Tool terminal returned error (300.10s): {"output": "", "exit_code": -1, "error": "BLOCKED: Command timed out without user response. The user has NOT consented to this action. Do NOT retry this command, do NOT rephrase it, and do NOT attempt
+2026-07-05 12:51:51,205 WARNING [20260705_112312_0c7694] agent.tool_executor: Tool terminal returned error (300.11s): {"output": "", "exit_code": -1, "error": "BLOCKED: Command timed out without user response. The user has NOT consented to this action. Do NOT retry this command, do NOT rephrase it, and do NOT attempt
+2026-07-05 12:52:54,015 WARNING [20260705_112312_0c7694] agent.tool_executor: Tool skill_manage returned error (0.03s): {"success": false, "error": "Refusing background curator patch for bundled skill 'obsidian'."}
+2026-07-05 14:00:11,504 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-05 14:00:11,506 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-05 14:00:11,515 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 14:00:11,519 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 14:00:11,587 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 14:00:11,588 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 14:00:11,588 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 14:00:11,614 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-05 14:00:59,440 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-05 14:00:59,440 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-05 14:01:00,556 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:01:01,583 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:01:03,610 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:01:07,632 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:01:07,633 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 14:01:07,681 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-05 14:01:07,893 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-05 14:01:30,890 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:01:30,896 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:01:31,902 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:01:31,912 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:01:33,918 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:01:33,931 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:01:37,943 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:01:37,964 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:01:37,965 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-05 14:01:37,965 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 14:11:36,012 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-05 14:11:36,015 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-05 14:11:36,031 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 14:11:36,036 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 14:11:36,188 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 14:11:36,189 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 14:11:36,189 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 14:11:36,217 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-05 14:11:41,250 WARNING tools.skills_tool: Skill name collision for 'skill-finder': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/skill-finder/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/skill-finder/SKILL.md
+2026-07-05 14:11:41,260 WARNING [20260705_141135_cce399] agent.tool_executor: Tool skill_view returned error (0.06s): {"success": false, "error": "Ambiguous skill name 'skill-finder': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "mat
+2026-07-05 14:13:26,116 WARNING [20260705_141135_cce399] agent.tool_executor: Tool terminal returned error (0.09s): {"output": "cat: package.json: No such file or directory", "exit_code": 1, "error": null}
+2026-07-05 14:13:45,838 WARNING [20260705_141135_cce399] agent.tool_executor: Tool terminal returned error (0.10s): {"output": "fatal: not a git repository (or any of the parent directories): .git", "exit_code": 128, "error": null}
+2026-07-05 14:16:26,764 WARNING [20260705_141135_cce399] agent.tool_executor: Tool skill_manage returned error (0.08s): {"success": false, "error": "Skill 'software-development/code-wiki' not found in active profile 'default'. Use skills_list() to see available skills."}
+2026-07-05 14:39:52,858 WARNING [20260705_143927_c6583f] tools.skills_tool: Skill name collision for 'gemini': 2 candidates — /Users/Jeff/.hermes/profiles/smith/skills/gemini/SKILL.md; /Users/Jeff/.hermes/profiles/smith/skills/openclaw-imports/gemini/SKILL.md
+2026-07-05 14:39:52,858 WARNING [20260705_143927_c6583f] agent.tool_executor: Tool skill_view returned error (0.08s): {"success": false, "error": "Ambiguous skill name 'gemini': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "matches":
+2026-07-05 14:39:55,268 WARNING [20260705_143927_c6583f] agent.tool_executor: Tool skill_view returned error (0.08s): {"success": false, "error": "Skill 'gemini/gemini' not found.", "available_skills": ["1password", "agentmail", "apple-notes", "brave-search", "circulatingbox-publish", "claw-mechanic", "codewiki", "co
+2026-07-05 14:45:52,173 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=2.09 parent_cmdline='(unknown)'
+2026-07-05 14:46:05,513 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-05 14:46:05,513 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-05 14:46:06,608 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:07,642 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:09,663 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:13,685 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:13,686 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 14:46:13,717 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-05 14:46:13,936 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-05 14:46:18,253 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=2.12 parent_cmdline='(unknown)'
+2026-07-05 14:46:23,815 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:46:23,823 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:24,830 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:46:24,841 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:26,855 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:46:26,865 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:30,764 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-05 14:46:30,764 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-05 14:46:30,876 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:46:30,886 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:30,887 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-05 14:46:30,887 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 14:46:31,592 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:32,627 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:34,657 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:38,537 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:46:38,544 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:38,686 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:38,688 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 14:46:38,733 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-05 14:46:38,923 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-05 14:46:39,550 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:46:39,560 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:41,573 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:46:41,589 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:45,590 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 14:46:45,603 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 14:46:45,604 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-05 14:46:45,604 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 14:47:23,438 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-05 14:47:23,441 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-05 14:47:23,458 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 14:47:23,462 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 14:47:23,662 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 14:47:23,663 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 14:47:23,663 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 14:47:23,696 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-05 17:06:14,119 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=2.20 parent_cmdline='(unknown)'
+2026-07-05 17:06:27,242 WARNING hermes.security_audit: Security posture audit found 1 issue(s) — review your deployment:
+2026-07-05 17:06:27,242 WARNING hermes.security_audit:   [security 1/1] SSH password authentication is ENABLED. Password auth is brute-forceable and dangerous on an internet-facing box. Set 'PasswordAuthentication no' in sshd_config and use key-based auth.
+2026-07-05 17:06:28,187 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 17:06:29,212 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 17:06:31,236 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 17:06:35,308 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 17:06:35,309 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 17:06:35,382 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-05 17:06:35,568 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-05 18:15:48,584 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 18:15:49,602 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 18:15:51,624 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 18:15:55,640 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 18:15:55,640 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 18:15:55,661 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 18:15:55,667 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 18:15:56,670 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 18:15:56,678 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 18:15:58,694 WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 18:15:58,712 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 18:16:02,716 WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'qmd'
+2026-07-05 18:16:02,732 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 18:16:02,733 WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): missing executable 'qmd'
+2026-07-05 18:16:02,733 WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): missing executable 'C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe'
+2026-07-05 20:36:46,457 WARNING tools.registry: check_fn _browser_cdp_check returned False; dependent tools will be unavailable this turn
+2026-07-05 20:36:46,459 WARNING tools.registry: check_fn _browser_dialog_check returned False; dependent tools will be unavailable this turn
+2026-07-05 20:36:46,469 WARNING tools.registry: check_fn check_close_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 20:36:46,469 WARNING tools.registry: check_fn check_computer_use_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 20:36:46,490 WARNING tools.registry: check_fn _check_kanban_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 20:36:46,491 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
+2026-07-05 20:36:46,491 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
+2026-07-05 20:36:46,517 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-05 20:38:42,631 WARNING [20260704_101519_63499688] agent.tool_executor: Tool terminal returned error (0.14s): {"output": "mcp_servers:\n  qmd:\n    command: qmd\n    args:\n    - mcp\n    timeout: 60\n    connect_timeout: 30\n\n# ── Fallback Model ────────────────────────────────────────────────────\n# Automa
+2026-07-05 20:38:52,871 WARNING [20260704_101519_63499688] agent.tool_executor: Tool terminal returned error (0.13s): {"output": "---", "exit_code": 1, "error": null}
+2026-07-05 20:39:04,683 WARNING [20260704_101519_63499688] agent.tool_executor: Tool terminal returned error (8.67s): {"output": "", "exit_code": 1, "error": null}
+2026-07-05 20:39:06,282 WARNING [20260704_101519_63499688] agent.tool_executor: Tool terminal returned error (0.45s): {"output": "usage: hermes [-h] [--version] [-z PROMPT] [-m MODEL] [--provider PROVIDER]\n              [-t TOOLSETS] [--resume SESSION] [--continue [SESSION_NAME]]\n              [--worktree] [--accep
+2026-07-05 20:39:16,013 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 20:39:17,046 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 20:39:19,072 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 20:39:23,091 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, giving up: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+2026-07-05 20:40:43,969 WARNING gateway.run: Unrecognized slash command /search from telegram — replying with unknown-command notice
+2026-07-06 06:49:32,558 WARNING gateway.session: gateway.session: routing key 'agent:main:telegram:dm:8611951691' -> 20260704_101519_63499688 is ended in state.db but still live in sessions.json; dropping stale entry and recovering/recreating the session (#54878)
+2026-07-06 06:49:36,913 WARNING [20260704_101519_63499688] tools.skills_tool: Skill name collision for 'commute-traffic': 2 candidates — /Users/Jeff/Smith/skills/commute-traffic/SKILL.md; /Users/Jeff/Smith/skills/openclaw-imports/openclaw-commute-traffic/SKILL.md
+2026-07-06 06:49:36,913 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_view returned error (0.12s): {"success": false, "error": "Ambiguous skill name 'commute-traffic': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "
+2026-07-06 06:49:39,249 WARNING [20260704_101519_63499688] tools.skills_tool: Skill name collision for 'commute-traffic': 2 candidates — /Users/Jeff/Smith/skills/commute-traffic/SKILL.md; /Users/Jeff/Smith/skills/openclaw-imports/openclaw-commute-traffic/SKILL.md
+2026-07-06 06:49:39,249 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_view returned error (0.07s): {"success": false, "error": "Ambiguous skill name 'commute-traffic': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "
+2026-07-06 06:49:45,605 WARNING [20260704_101519_63499688] agent.tool_executor: Tool terminal returned error (0.79s): {"output": "{\n  \"status\": \"error\",\n  \"step\": \"geocode_origin\",\n  \"error\": true,\n  \"message\": \"Location 'Wellgrow Industrial Estate, Chonburi' not found via Nominatim. Try a more speci
+2026-07-06 06:52:16,089 WARNING [20260704_101519_63499688] agent.tool_executor: Tool memory returned error (0.01s): {"success": false, "error": "Memory at 2,138/2,200 chars. Adding this entry (291 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-07-06 06:56:36,504 WARNING [20260704_101519_63499688] agent.tool_executor: Tool terminal returned error (0.10s): {"output": "", "exit_code": 1, "error": null, "exit_code_meaning": "No matches found (not an error)"}
+2026-07-06 06:56:49,283 WARNING [20260704_101519_63499688] agent.tool_executor: Tool terminal returned error (0.12s): {"output": "", "exit_code": 1, "error": null, "exit_code_meaning": "No matches found (not an error)"}
+2026-07-06 06:57:07,063 WARNING [20260704_101519_63499688] agent.tool_executor: Tool terminal returned error (0.13s): {"output": "", "exit_code": 1, "error": null}
+2026-07-06 06:57:39,188 WARNING [20260704_101519_63499688] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: read_file. Only memory/skill tools are allowed."}
+2026-07-06 06:57:47,023 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_manage returned error (0.06s): {"success": false, "error": "Refusing background curator patch for skill 'x-search': the current SKILL.md content has not been loaded in this review turn. Call skill_view(name) for SKILL.md, or skill_
+2026-07-06 06:58:09,861 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_manage returned error (0.07s): {"success": false, "error": "Refusing background curator patch for skill 'commute-traffic': the current SKILL.md content has not been loaded in this review turn. Call skill_view(name) for SKILL.md, or
+2026-07-06 06:58:11,840 WARNING [20260704_101519_63499688] tools.skills_tool: Skill name collision for 'commute-traffic': 2 candidates — /Users/Jeff/Smith/skills/commute-traffic/SKILL.md; /Users/Jeff/Smith/skills/openclaw-imports/openclaw-commute-traffic/SKILL.md
+2026-07-06 06:58:11,840 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_view returned error (0.07s): {"success": false, "error": "Ambiguous skill name 'commute-traffic': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "
+2026-07-06 06:58:16,520 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_view returned error (0.00s): {"success": false, "error": "Skill name must be a relative path within the skills directory.", "hint": "Use a skill name or relative path within the skills directory."}
+2026-07-06 06:58:22,393 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_manage returned error (0.06s): {"success": false, "error": "Refusing background curator patch for skill 'commute-traffic': the current SKILL.md content has not been loaded in this review turn. Call skill_view(name) for SKILL.md, or
+2026-07-06 06:58:32,914 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_manage returned error (0.07s): {"success": false, "error": "Refusing background curator edit for skill 'commute-traffic': the current SKILL.md content has not been loaded in this review turn. Call skill_view(name) for SKILL.md, or 
+2026-07-06 07:06:17,191 WARNING [20260704_101519_63499688] agent.tool_executor: Tool memory returned error (0.00s): {"success": false, "error": "Memory at 2,138/2,200 chars. Adding this entry (236 chars) would exceed the limit. Consolidate now: use 'replace' to merge overlapping entries into shorter ones or 'remove
+2026-07-06 07:06:38,655 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_manage returned error (0.02s): {"success": false, "error": "Refusing background curator patch for skill 'agent-reach': the current SKILL.md content has not been loaded in this review turn. Call skill_view(name) for SKILL.md, or ski
+2026-07-06 07:26:59,734 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110
+2026-07-06 07:27:00,402 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-06 16:39:55,599 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Sticky fallback IP 149.154.166.110 failed; resetting to primary DNS path
+2026-07-06 16:39:55,601 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-06 17:59:40,666 WARNING [20260704_101519_63499688] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: read_file. Only memory/skill tools are allowed."}
+2026-07-06 17:59:40,670 WARNING [20260704_101519_63499688] agent.tool_executor: Tool read_file returned error (0.00s): {"error": "Background review denied non-whitelisted tool: read_file. Only memory/skill tools are allowed."}
+2026-07-06 17:59:43,823 WARNING tools.skills_tool: Skill name collision for 'commute-traffic': 2 candidates — /Users/Jeff/Smith/skills/commute-traffic/SKILL.md; /Users/Jeff/Smith/skills/openclaw-imports/openclaw-commute-traffic/SKILL.md
+2026-07-06 17:59:43,828 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_view returned error (0.13s): {"success": false, "error": "Ambiguous skill name 'commute-traffic': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "
+2026-07-06 17:59:54,206 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_manage returned error (0.07s): {"success": false, "error": "Refusing background curator patch for skill 'commute-traffic': the current SKILL.md content has not been loaded in this review turn. Call skill_view(name) for SKILL.md, or
+2026-07-06 17:59:59,009 WARNING [20260704_101519_63499688] tools.skills_tool: Skill name collision for 'commute-traffic': 2 candidates — /Users/Jeff/Smith/skills/commute-traffic/SKILL.md; /Users/Jeff/Smith/skills/openclaw-imports/openclaw-commute-traffic/SKILL.md
+2026-07-06 17:59:59,010 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_view returned error (0.06s): {"success": false, "error": "Ambiguous skill name 'commute-traffic': 2 skills match across your local skills dir and external_dirs. Refusing to guess — load one explicitly by its categorized path.", "
+2026-07-06 18:00:05,985 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_manage returned error (0.11s): {"success": false, "error": "skill 'openclaw-commute-traffic' not found"}
+2026-07-06 18:00:10,925 WARNING [20260704_101519_63499688] agent.tool_executor: Tool skill_manage returned error (0.07s): {"success": false, "error": "Skill 'openclaw-imports/openclaw-commute-traffic' not found in active profile 'default'. Use skills_list() to see available skills."}
+
+[Tool loop warning: same_tool_failur
+2026-07-06 18:06:41,457 WARNING [20260704_101519_63499688] agent.tool_executor: Tool memory returned error (0.01s): {"success": false, "error": "No entry matched 'Work Profile: TPN Flexpak Co., Ltd. (industrial packaging), Wellgrow Industrial Estate, Chachoengsao · 124 Moo 9 Bang Na-Trad Km.36 · Primary: VB.NET dev
+2026-07-06 18:06:49,124 WARNING [20260704_101519_63499688] agent.tool_executor: Tool memory returned error (0.00s): {"success": false, "error": "No entry matched 'Work Profile: TPN Flexpak Co., Ltd. (industrial packaging), Wellgrow Industrial Estate, Chachoengsao. Work network: restrictive NAC/firewall — blocks per

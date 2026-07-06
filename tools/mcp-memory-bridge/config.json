@@ -1,7 +1,7 @@
 {
-  "db_path": "~/Smith/tools/mcp-memory-bridge/memory.db",
+  "db_path": "/Users/Jeff/Smith/tools/mcp-memory-bridge/memory.db",
   "watch_paths": [
-    "~/Smith/memory",
-    "~/Smith/wiki"
+    "/Users/Jeff/Smith/memory",
+    "/Users/Jeff/Smith/wiki"
   ]
 }
