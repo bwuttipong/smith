@@ -38,7 +38,20 @@ The `agent-reach` CLI itself needs the venv. Upstream tools (gh, yt-dlp, curl, b
 
 **Agent-reach is the FIRST tool for ALL web/social research.** Do not try x-search, prismfy, brave-search, or any other search tool before checking agent-reach. Twitter, Reddit, YouTube, GitHub, web pages, RSS — agent-reach handles all of them via upstream CLIs. Only fall back to other search tools if agent-reach is down or missing a specific capability.
 
-When user says "search X", "what's trending", "look up on Twitter", "find on Reddit", "what are people saying", etc. — go straight to agent-reach. No deliberation, no checking other tools first.
+When user says "search X", "what's trending", "look up on Twitter", "find on Reddit", "what are people saying", "local gossip", "what's the news", "how's the stock market", "what are people saying on X" — go straight to agent-reach. No deliberation, no checking other tools first.
+
+### Quick One-Liner for Twitter Search
+```bash
+cd ~/Smith/agent-reach && source .venv/bin/activate && export PATH="$HOME/.local/bin:$PATH" && export TWITTER_AUTH_TOKEN="$(grep TWITTER_AUTH_TOKEN .env | cut -d= -f2-)" && export TWITTER_CT0="$(grep TWITTER_CT0 .env | cut -d= -f2-)" && twitter search "QUERY" -n 10
+```
+Copy-paste this, replace QUERY. Works every time. For parallel research, fire 2-3 of these in one batch with different queries.
+
+### Notion API Access
+Notion API key lives in `~/.openclaw/.env` as `NOTION_API_KEY`. Export it with:
+```bash
+NOTION_API_KEY="$(grep NOTION_API_KEY ~/.openclaw/.env | cut -d= -f2-)"
+```
+Then use curl with Notion API. Skill at `skills/productivity/notion/SKILL.md`.
 
 ## Before any platform call
 Run `agent-reach doctor --json` (with venv active) to see which backend is active per platform, especially for multi-backend channels (Twitter, Reddit, 小红书, Bilibili).
@@ -86,6 +99,7 @@ Run `agent-reach doctor --json` (with venv active) to see which backend is activ
 
 ## Reference Files
 
+- `references/twitter-search-quickstart.md` — Copy-paste block for Twitter search. Use this first — one-liner activation + common queries.
 - `references/twitter-cookie-setup.md` — Full Twitter cookie auth setup guide, verification commands, and retry chains.
 - `references/reddit-setup.md` — Reddit rdt-cli setup, auto-auth from browser, commands, and troubleshooting.
 

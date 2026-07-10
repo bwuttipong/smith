@@ -21,6 +21,7 @@ Look up English words and get:
 Trigger this skill when the user:
 - Asks "what does X mean in Thai?"
 - Asks "แปลว่าอะไร" or "X ภาษาไทยคืออะไร"
+- Asks "dic" + a word (short trigger)
 - Needs English vocabulary with Thai definitions
 - Is learning English or Thai vocabulary
 

@@ -1,6 +1,7 @@
 ---
 name: weekly_report
-description: Generates a weekly report based on provided information. Use this skill to synthesize accomplishments, ongoing tasks, and next steps into a coherent weekly update.
+description: Generates a weekly report based on provided information. Use this skill to synthesize accomplishments, ongoing tasks, and next steps into a coherent weekly update. Integrates with Notion for biweekly company reports.
+tags: [report, weekly, notion, company]
 ---
 
 # Weekly Report Generator
@@ -25,6 +26,34 @@ The output should be a well-structured weekly report, typically presented as a n
 - Ongoing Projects/Tasks
 - Challenges/Blockers
 - Next Steps
+
+## Notion Integration
+
+Reports are pushed to the **Notion Weekly page** (API key in `~/.openclaw/.env` as `NOTION_API_KEY`).
+
+### Notion API Quick Reference
+```bash
+# Export key
+NOTION_API_KEY="$(grep NOTION_API_KEY ~/.openclaw/.env | cut -d= -f2-)"
+
+# Search pages
+curl -s -H "Authorization: Bearer $NOTION_API_KEY" -H "Notion-Version: 2022-06-28" -X POST "https://api.notion.com/v1/search" -d '{"query": "Weekly", "page_size": 5}'
+
+# Read page content
+curl -s -H "Authorization: Bearer $NOTION_API_KEY" -H "Notion-Version: 2022-06-28" "https://api.notion.com/v1/blocks/{page_id}/children"
+```
+
+### Workflow (Biweekly Sat/Fri)
+1. User says "weekly report" on Saturday or Friday
+2. Pull tasks/accomplishments from conversation context or Notion
+3. Generate report using the structure above
+4. Push to Notion Weekly page via API
+5. Confirm delivery
+
+## Pitfalls
+- Notion search returns `invalid_request_url` on GET — must use POST with `-d '{}'`
+- Wellgrow Industrial Estate geocodes better as "Wellgrow Industrial Estate, Bang Pakong, Chachoengsao" than just "Chonburi"
+- Traffic script uses Google Maps Directions API — requires `~/.config/gmaps/api_key`
 
 ## Notes
 
