@@ -34,3 +34,19 @@ Notes
 - Sheets values can be passed via `--values-json` (recommended) or as inline rows.
 - Docs supports export/cat/copy. In-place edits require a Docs API client (not in gog).
 - Confirm before sending mail or creating events.
+
+## Pitfalls
+
+### OAuth Token Expiry
+Tokens expire after ~2 weeks of inactivity. Symptom: `invalid_grant "Token has been expired or revoked"` on any gog command.
+
+**Re-auth workflow (agent-driven):**
+1. Run `gog auth add <email> --services <list>` in `background=true`
+2. Poll the process — it prints an auth URL and starts a local HTTP server on a random port
+3. Send the user the full auth URL to open in their browser
+4. User signs in → Google redirects to `127.0.0.1:<port>/oauth2/callback` → gog captures it automatically
+5. Process completes with exit code 0
+
+**Do NOT** try to curl the callback URL yourself — the local server only lives as long as the background process, and it restarts with a new port each time. Just give the user the URL.
+
+Check token age: `gog auth list` — the timestamp column shows last refresh.

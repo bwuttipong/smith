@@ -13,3 +13,5 @@ User Info: **Project**: ~/Workspaces/agentos — Agent OS dashboard + standards 
 User Preferences: wants WORKING code, not just file/folder scaffolding. Will call out if you only build structure. Prioritize functional features over documentation.
 §
 User Info: **Vault**: ~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Wuttipong Vault. Has Julian Goldie SEO/Agent OS folder with setup docs.
+§
+Thai name spelling: วุฒิพงษ์ (not วุฒิพงศ์)

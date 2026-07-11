@@ -355,13 +355,13 @@
     "created_at": "2026-05-27T09:24:40.284631+00:00",
     "created_by": null,
     "last_patched_at": "2026-07-09T10:03:22.586595+00:00",
-    "last_used_at": "2026-07-10T10:12:01.481585+00:00",
-    "last_viewed_at": "2026-07-10T10:12:01.480084+00:00",
+    "last_used_at": "2026-07-10T16:10:06.479955+00:00",
+    "last_viewed_at": "2026-07-10T16:10:06.478226+00:00",
     "patch_count": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 13,
-    "view_count": 12
+    "use_count": 14,
+    "view_count": 13
   },
   "computer-use": {
     "archived_at": null,
@@ -653,14 +653,14 @@
     "archived_at": null,
     "created_at": "2026-05-20T16:10:40.383688+00:00",
     "created_by": null,
-    "last_patched_at": null,
-    "last_used_at": "2026-07-10T16:03:22.007381+00:00",
-    "last_viewed_at": "2026-07-10T16:03:22.005403+00:00",
-    "patch_count": 0,
+    "last_patched_at": "2026-07-10T16:12:08.427305+00:00",
+    "last_used_at": "2026-07-10T16:11:28.614781+00:00",
+    "last_viewed_at": "2026-07-10T16:11:28.613321+00:00",
+    "patch_count": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 5,
-    "view_count": 5
+    "use_count": 7,
+    "view_count": 7
   },
   "google-workspace": {
     "archived_at": null,
@@ -1650,18 +1650,31 @@
     "use_count": 1,
     "view_count": 1
   },
+  "weekly-report-template": {
+    "archived_at": null,
+    "created_at": "2026-07-11T02:31:33.922465+00:00",
+    "created_by": null,
+    "last_patched_at": "2026-07-11T04:26:59.852227+00:00",
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 5,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "weekly_report": {
     "archived_at": null,
     "created_at": "2026-07-07T08:32:16.015332+00:00",
     "created_by": null,
     "last_patched_at": "2026-07-09T10:03:07.308531+00:00",
-    "last_used_at": "2026-07-09T10:02:51.510709+00:00",
-    "last_viewed_at": "2026-07-09T10:02:51.509050+00:00",
+    "last_used_at": "2026-07-11T01:49:34.830695+00:00",
+    "last_viewed_at": "2026-07-11T01:49:34.829152+00:00",
     "patch_count": 1,
     "pinned": false,
     "state": "active",
-    "use_count": 3,
-    "view_count": 3
+    "use_count": 4,
+    "view_count": 4
   },
   "weights-and-biases": {
     "archived_at": null,

@@ -841,42 +841,42 @@
 },
 "z-ai/glm-5.2":{
 "context_length":1048576,
-"max_completion_tokens":131072,
+"max_completion_tokens":128000,
 "name":"Z.ai: GLM 5.2",
 "pricing":{
-"prompt":"0.00000084",
-"completion":"0.00000264",
-"input_cache_read":"0.000000156"
+"prompt":"0.00000035",
+"completion":"0.0000011",
+"input_cache_read":"0.000000065"
 }
 },
 "glm-5.2":{
 "context_length":1048576,
-"max_completion_tokens":131072,
+"max_completion_tokens":128000,
 "name":"Z.ai: GLM 5.2",
 "pricing":{
-"prompt":"0.00000084",
-"completion":"0.00000264",
-"input_cache_read":"0.000000156"
+"prompt":"0.00000035",
+"completion":"0.0000011",
+"input_cache_read":"0.000000065"
 }
 },
 "z-ai/glm-5.2-20260616":{
 "context_length":1048576,
-"max_completion_tokens":131072,
+"max_completion_tokens":128000,
 "name":"Z.ai: GLM 5.2",
 "pricing":{
-"prompt":"0.00000084",
-"completion":"0.00000264",
-"input_cache_read":"0.000000156"
+"prompt":"0.00000035",
+"completion":"0.0000011",
+"input_cache_read":"0.000000065"
 }
 },
 "glm-5.2-20260616":{
 "context_length":1048576,
-"max_completion_tokens":131072,
+"max_completion_tokens":128000,
 "name":"Z.ai: GLM 5.2",
 "pricing":{
-"prompt":"0.00000084",
-"completion":"0.00000264",
-"input_cache_read":"0.000000156"
+"prompt":"0.00000035",
+"completion":"0.0000011",
+"input_cache_read":"0.000000065"
 }
 },
 "openrouter/fusion":{
@@ -903,8 +903,8 @@
 "name":"MoonshotAI: Kimi K2.7 Code",
 "pricing":{
 "prompt":"0.00000072",
-"completion":"0.00000349",
-"input_cache_read":"0.000000159"
+"completion":"0.0000035",
+"input_cache_read":"0.00000015"
 }
 },
 "kimi-k2.7-code":{
@@ -913,8 +913,8 @@
 "name":"MoonshotAI: Kimi K2.7 Code",
 "pricing":{
 "prompt":"0.00000072",
-"completion":"0.00000349",
-"input_cache_read":"0.000000159"
+"completion":"0.0000035",
+"input_cache_read":"0.00000015"
 }
 },
 "moonshotai/kimi-k2.7-code-20260612":{
@@ -923,8 +923,8 @@
 "name":"MoonshotAI: Kimi K2.7 Code",
 "pricing":{
 "prompt":"0.00000072",
-"completion":"0.00000349",
-"input_cache_read":"0.000000159"
+"completion":"0.0000035",
+"input_cache_read":"0.00000015"
 }
 },
 "kimi-k2.7-code-20260612":{
@@ -933,8 +933,8 @@
 "name":"MoonshotAI: Kimi K2.7 Code",
 "pricing":{
 "prompt":"0.00000072",
-"completion":"0.00000349",
-"input_cache_read":"0.000000159"
+"completion":"0.0000035",
+"input_cache_read":"0.00000015"
 }
 },
 "~anthropic/claude-fable-latest":{
@@ -2366,9 +2366,9 @@
 "max_completion_tokens":384000,
 "name":"DeepSeek: DeepSeek V4 Pro",
 "pricing":{
-"prompt":"0.000000435",
-"completion":"0.00000087",
-"input_cache_read":"0.000000003625"
+"prompt":"0.000000348",
+"completion":"0.000000696",
+"input_cache_read":"0.000000029"
 }
 },
 "deepseek-v4-pro":{
@@ -2376,9 +2376,9 @@
 "max_completion_tokens":384000,
 "name":"DeepSeek: DeepSeek V4 Pro",
 "pricing":{
-"prompt":"0.000000435",
-"completion":"0.00000087",
-"input_cache_read":"0.000000003625"
+"prompt":"0.000000348",
+"completion":"0.000000696",
+"input_cache_read":"0.000000029"
 }
 },
 "deepseek/deepseek-v4-pro-20260423":{
@@ -2386,9 +2386,9 @@
 "max_completion_tokens":384000,
 "name":"DeepSeek: DeepSeek V4 Pro",
 "pricing":{
-"prompt":"0.000000435",
-"completion":"0.00000087",
-"input_cache_read":"0.000000003625"
+"prompt":"0.000000348",
+"completion":"0.000000696",
+"input_cache_read":"0.000000029"
 }
 },
 "deepseek-v4-pro-20260423":{
@@ -2396,49 +2396,49 @@
 "max_completion_tokens":384000,
 "name":"DeepSeek: DeepSeek V4 Pro",
 "pricing":{
-"prompt":"0.000000435",
-"completion":"0.00000087",
-"input_cache_read":"0.000000003625"
+"prompt":"0.000000348",
+"completion":"0.000000696",
+"input_cache_read":"0.000000029"
 }
 },
 "deepseek/deepseek-v4-flash":{
 "context_length":1048576,
-"max_completion_tokens":65536,
+"max_completion_tokens":384000,
 "name":"DeepSeek: DeepSeek V4 Flash",
 "pricing":{
-"prompt":"0.00000009",
-"completion":"0.00000018",
-"input_cache_read":"0.000000018"
+"prompt":"0.000000077",
+"completion":"0.000000154",
+"input_cache_read":"0.0000000154"
 }
 },
 "deepseek-v4-flash":{
 "context_length":1048576,
-"max_completion_tokens":65536,
+"max_completion_tokens":384000,
 "name":"DeepSeek: DeepSeek V4 Flash",
 "pricing":{
-"prompt":"0.00000009",
-"completion":"0.00000018",
-"input_cache_read":"0.000000018"
+"prompt":"0.000000077",
+"completion":"0.000000154",
+"input_cache_read":"0.0000000154"
 }
 },
 "deepseek/deepseek-v4-flash-20260423":{
 "context_length":1048576,
-"max_completion_tokens":65536,
+"max_completion_tokens":384000,
 "name":"DeepSeek: DeepSeek V4 Flash",
 "pricing":{
-"prompt":"0.00000009",
-"completion":"0.00000018",
-"input_cache_read":"0.000000018"
+"prompt":"0.000000077",
+"completion":"0.000000154",
+"input_cache_read":"0.0000000154"
 }
 },
 "deepseek-v4-flash-20260423":{
 "context_length":1048576,
-"max_completion_tokens":65536,
+"max_completion_tokens":384000,
 "name":"DeepSeek: DeepSeek V4 Flash",
 "pricing":{
-"prompt":"0.00000009",
-"completion":"0.00000018",
-"input_cache_read":"0.000000018"
+"prompt":"0.000000077",
+"completion":"0.000000154",
+"input_cache_read":"0.0000000154"
 }
 },
 "inclusionai/ling-2.6-1t":{
@@ -5588,42 +5588,6 @@
 "prompt":"0.0000005",
 "completion":"0.0000015",
 "input_cache_read":"0.00000005"
-}
-},
-"arcee-ai/trinity-mini":{
-"context_length":131072,
-"max_completion_tokens":131072,
-"name":"Arcee AI: Trinity Mini",
-"pricing":{
-"prompt":"0.000000045",
-"completion":"0.00000015"
-}
-},
-"trinity-mini":{
-"context_length":131072,
-"max_completion_tokens":131072,
-"name":"Arcee AI: Trinity Mini",
-"pricing":{
-"prompt":"0.000000045",
-"completion":"0.00000015"
-}
-},
-"arcee-ai/trinity-mini-20251201":{
-"context_length":131072,
-"max_completion_tokens":131072,
-"name":"Arcee AI: Trinity Mini",
-"pricing":{
-"prompt":"0.000000045",
-"completion":"0.00000015"
-}
-},
-"trinity-mini-20251201":{
-"context_length":131072,
-"max_completion_tokens":131072,
-"name":"Arcee AI: Trinity Mini",
-"pricing":{
-"prompt":"0.000000045",
-"completion":"0.00000015"
 }
 },
 "deepseek/deepseek-v3.2":{
@@ -10331,24 +10295,6 @@
 "pricing":{
 "prompt":"0.0000025",
 "completion":"0.00001"
-}
-},
-"meta-llama/llama-3-8b-instruct":{
-"context_length":8192,
-"max_completion_tokens":null,
-"name":"Meta: Llama 3 8B Instruct",
-"pricing":{
-"prompt":"0.00000014",
-"completion":"0.00000014"
-}
-},
-"llama-3-8b-instruct":{
-"context_length":8192,
-"max_completion_tokens":null,
-"name":"Meta: Llama 3 8B Instruct",
-"pricing":{
-"prompt":"0.00000014",
-"completion":"0.00000014"
 }
 },
 "mistralai/mixtral-8x22b-instruct":{

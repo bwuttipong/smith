@@ -1,4 +1,4 @@
-User Info: **Name**: Best Wuttipong · Thai name: วุฒิพงษ์ · goes by Jeff · Email: bed.wuttipong@gmail.com · Discord: best.wuttipong (id: 1313876113776312391) · **Work email**: wuttipong.t@flexpak.co.th
+User Info: **Name**: Best Wuttipong · Thai name: วุฒิพงษ์ · goes by Jeff · Email: bed.wuttipong@gmail.com · Hotmail: bed.wuttipong@hotmail.com · Discord: best.wuttipong (id: 1313876113776312391) · **Work email**: wuttipong.t@flexpak.co.th
 §
 Personal Preferences: lowercase, emojis, casual. Bear Notes (grizzly CLI at /opt/homebrew/bin/grizzly). Workspace: no symlinks, ~/Smith directly.
 §
@@ -16,6 +16,6 @@ Antigravity — Jeff's remote execution environment (work Windows laptop or anot
 §
 End-of-day ritual: git add -A && git commit -m "date summary" && git push on BOTH Smith (Mac/Hermes) and OpenClaw (Antigravity/Windows) when Jeff says good night.
 §
-Work: TPN & TPK Flexpak (Thung Hua Sinn Group), Wellgrow, Chachoengsao. VB.NET + SQL Server 2019. Slack #projects. Notion: API key in ~/.openclaw/.env. Weekly report workflow: biweekly Sat/Fri → weekly_report skill + Notion Weekly page.
+Work: TPN & TPK Flexpak (Thung Hua Sinn Group). VB.NET + SQL Server. Slack #projects. Notion: ~/.openclaw/.env. พี่วัชรพงศ์ at TPK. Weekly report: Thai HTML via AgentMail (always use `html` field, inline CSS only), subject: "อัปเดตประจำสัปดาห์: ... (สัปดาห์สิ้นสุด DD MMM YYYY)"
 §
 Samantha routing: weather/traffic, web searches, file ops, reporting → delegate to Samantha. Re-read HEARTBEAT.md at session start.
