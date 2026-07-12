@@ -84,3 +84,181 @@ ERROR asyncio: Task was destroyed but it is pending!
 task: <Task pending name='Task-52' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future pending cb=[Task.task_wakeup()]>>
 ERROR asyncio: Task was destroyed but it is pending!
 task: <Task pending name='Task-60' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+ERROR gateway.run: Gateway runtime lock is already held by another instance. Exiting.
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+ERROR gateway.run: Another gateway instance (PID 1387) started during our startup. Exiting to avoid double-running.
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+ERROR gateway.run: Another gateway instance (PID 1511) started during our startup. Exiting to avoid double-running.
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+ERROR gateway.run: Another gateway instance (PID 1547) started during our startup. Exiting to avoid double-running.
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): Connection closed
+WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): Connection closed
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 1/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 1s
+WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=60.80 takeover_marker_present=other parent_cmdline='(unknown)'
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 2/8)…
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 2/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 2s
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 3/8)…
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 3/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 4s
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 4/8)…
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 4/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 8s
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+ERROR gateway.run: Another gateway instance (PID 1672) started during our startup. Exiting to avoid double-running.
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+ERROR gateway.run: Another gateway instance (PID 1726) started during our startup. Exiting to avoid double-running.
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=30.49 takeover_marker_present=other parent_cmdline='(unknown)'
+WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): Connection closed
+WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): Connection closed
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<MCPServerTask.run() running at /Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py:2783> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+Exception ignored in: <coroutine object MCPServerTask.run at 0x10e93e980>
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py", line 2783, in run
+    parked = await self._wait_for_reconnect_or_shutdown(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py", line 1997, in _wait_for_reconnect_or_shutdown
+    t.cancel()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 762, in call_soon
+    self._check_closed()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 520, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task cancelling name='Task-61' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future cancelled>>
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<MCPServerTask.run() running at /Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py:2783> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+Exception ignored in: <coroutine object MCPServerTask.run at 0x10db31300>
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py", line 2783, in run
+    parked = await self._wait_for_reconnect_or_shutdown(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py", line 1997, in _wait_for_reconnect_or_shutdown
+    t.cancel()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 762, in call_soon
+    self._check_closed()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 520, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task cancelling name='Task-53' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future cancelled>>
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-54' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-62' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+[33m⚠ Deprecated .env settings detected:[0m
+  [33m⚠[0m MESSAGING_CWD=~/Smith found in .env — this is deprecated.
+  [2mMove to config.yaml instead:  terminal:\n    cwd: /your/project/path[0m
+  [2mThen remove the old entries from /Users/Jeff/.hermes/profiles/smith/.env[0m
+
+WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=94.44 parent_cmdline='(unknown)'
+WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=94.44 parent_cmdline='(unknown)'
+WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: MCP server 'qmd' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+WARNING tools.mcp_tool: Failed to connect to MCP server 'qmd' (command=qmd): Connection closed
+WARNING tools.mcp_tool: Failed to connect to MCP server 'memory-bridge' (command=C:\\Users\\Wuttipong.t\\AppData\\Local\\Programs\\Python\\Python312\\python.exe): Connection closed
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-8' coro=<MCPServerTask.run() running at /Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py:2783> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<MCPServerTask.run() running at /Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py:2783> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+Exception ignored in: <coroutine object MCPServerTask.run at 0x110b4a980>
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py", line 2783, in run
+    parked = await self._wait_for_reconnect_or_shutdown(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py", line 1997, in _wait_for_reconnect_or_shutdown
+    t.cancel()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 762, in call_soon
+    self._check_closed()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 520, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task cancelling name='Task-54' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future cancelled>>
+Exception ignored in: <coroutine object MCPServerTask.run at 0x10fd41300>
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py", line 2783, in run
+    parked = await self._wait_for_reconnect_or_shutdown(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_tool.py", line 1997, in _wait_for_reconnect_or_shutdown
+    t.cancel()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 762, in call_soon
+    self._check_closed()
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/base_events.py", line 520, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task cancelling name='Task-62' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future cancelled>>
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-55' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+ERROR asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-63' coro=<Event.wait() running at /Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/asyncio/locks.py:213> wait_for=<Future pending cb=[Task.task_wakeup()]>>

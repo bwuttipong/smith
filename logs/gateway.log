@@ -12059,3 +12059,731 @@
 2026-07-11 20:50:22,740 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
 2026-07-11 22:41:44,194 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (23 chars)
 2026-07-11 22:41:44,215 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='I’m gonna call it night' reply_to_id=None reply_to_text=''
+2026-07-11 22:42:17,516 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-11 22:42:17,516 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=33.3s api_calls=4 response=113 chars
+2026-07-12 04:02:09,425 INFO gateway.run: Session expiry: 1 sessions to finalize (telegram:1)
+2026-07-12 04:02:09,451 INFO gateway.run: Session expiry done: 1 finalized
+2026-07-12 09:06:03,534 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 09:06:03,534 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=2.71 parent_cmdline='(unknown)'
+2026-07-12 09:06:03,542 INFO gateway.run: Stopping gateway...
+2026-07-12 09:06:03,723 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110
+2026-07-12 09:06:03,730 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 09:06:03,730 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Network error on send (attempt 1/3), retrying in 1s: httpx.ConnectError: All connection attempts failed
+2026-07-12 09:06:04,735 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110
+2026-07-12 09:06:04,740 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 09:06:04,740 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Network error on send (attempt 2/3), retrying in 2s: httpx.ConnectError: All connection attempts failed
+2026-07-12 09:06:08,270 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110
+2026-07-12 09:06:08,272 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 09:06:08,272 ERROR hermes_plugins.telegram_platform.adapter: [Telegram] Failed to send Telegram message: httpx.ConnectError: All connection attempts failed
+2026-07-12 09:06:08,273 INFO gateway.run: Shutdown phase: notify_active_sessions done at +4.73s
+2026-07-12 09:06:08,278 INFO gateway.run: Shutdown phase: drain done at +4.74s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 09:06:08,282 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110
+2026-07-12 09:06:08,284 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 09:06:08,321 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Disconnected from Telegram
+2026-07-12 09:06:08,321 INFO gateway.run: ✓ telegram disconnected (0.04s)
+2026-07-12 09:06:08,321 INFO gateway.run: Shutdown phase: all adapters disconnected at +4.78s
+2026-07-12 09:06:08,324 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +4.78s
+2026-07-12 09:06:08,325 INFO gateway.run: Shutdown phase: SessionDB close done at +4.78s
+2026-07-12 09:06:08,327 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 09:06:08,329 INFO gateway.run: Gateway stopped (total teardown 4.79s)
+2026-07-12 09:06:08,330 INFO gateway.run: Gateway housekeeping stopped
+2026-07-12 09:06:08,492 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+2026-07-12 11:25:53,370 ERROR gateway.run: Gateway runtime lock is already held by another instance. Exiting.
+2026-07-12 11:25:53,378 ERROR gateway.run: Another gateway instance (PID 794) started during our startup. Exiting to avoid double-running.
+2026-07-12 11:25:53,955 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 11:25:53,955 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=121.67 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 11:25:53,960 INFO gateway.run: Stopping gateway...
+2026-07-12 11:25:53,961 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 11:25:54,024 INFO gateway.run: Shutdown phase: drain done at +0.06s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 11:25:54,025 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.06s
+2026-07-12 11:25:54,048 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.09s
+2026-07-12 11:25:54,049 INFO gateway.run: Shutdown phase: SessionDB close done at +0.09s
+2026-07-12 11:25:54,049 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 11:25:54,050 INFO gateway.run: Gateway stopped (total teardown 0.09s)
+2026-07-12 11:25:54,051 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 11:25:54,051 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=121.67 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 11:26:01,335 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 11:26:01,335 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-12 11:26:01,336 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 11:26:01,336 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-12 11:26:04,555 ERROR gateway.run: Another gateway instance (PID 1387) started during our startup. Exiting to avoid double-running.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-12 11:26:04,557 ERROR gateway.run: Another gateway instance (PID 1387) started during our startup. Exiting to avoid double-running.
+2026-07-12 11:26:05,165 INFO gateway.run: Received SIGTERM as a planned --replace takeover — exiting cleanly
+2026-07-12 11:26:05,165 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=111.70 parent_cmdline='(unknown)'
+2026-07-12 11:26:05,168 INFO gateway.run: Stopping gateway...
+2026-07-12 11:26:05,169 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 11:26:05,221 INFO gateway.run: Shutdown phase: drain done at +0.05s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 11:26:05,221 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.05s
+2026-07-12 11:26:05,234 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.07s
+2026-07-12 11:26:05,235 INFO gateway.run: Shutdown phase: SessionDB close done at +0.07s
+2026-07-12 11:26:05,236 INFO gateway.run: Gateway stopped (total teardown 0.07s)
+2026-07-12 11:26:11,986 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 11:26:11,986 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-12 11:26:11,987 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 11:26:11,987 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-12 11:26:11,987 INFO gateway.run: Active profile: custom
+2026-07-12 11:26:13,203 ERROR gateway.run: Another gateway instance (PID 1511) started during our startup. Exiting to avoid double-running.
+2026-07-12 11:26:15,715 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 11:26:15,715 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=96.65 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 11:26:15,729 INFO gateway.run: Stopping gateway...
+2026-07-12 11:26:15,731 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 11:26:15,829 INFO gateway.run: Shutdown phase: drain done at +0.10s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 11:26:15,829 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.10s
+2026-07-12 11:26:15,856 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.13s
+2026-07-12 11:26:15,857 INFO gateway.run: Shutdown phase: SessionDB close done at +0.13s
+2026-07-12 11:26:15,857 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 11:26:15,858 INFO gateway.run: Gateway stopped (total teardown 0.13s)
+2026-07-12 11:26:22,125 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 11:26:22,125 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-12 11:26:22,126 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 11:26:22,126 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-12 11:26:23,372 ERROR gateway.run: Another gateway instance (PID 1547) started during our startup. Exiting to avoid double-running.
+2026-07-12 11:26:25,908 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 11:26:25,908 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=82.56 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 11:26:25,938 INFO gateway.run: Stopping gateway...
+2026-07-12 11:26:25,939 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 11:26:25,997 INFO gateway.run: Shutdown phase: drain done at +0.06s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 11:26:25,997 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.06s
+2026-07-12 11:26:26,006 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.07s
+2026-07-12 11:26:26,007 INFO gateway.run: Shutdown phase: SessionDB close done at +0.07s
+2026-07-12 11:26:26,007 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 11:26:26,008 INFO gateway.run: Gateway stopped (total teardown 0.07s)
+2026-07-12 11:26:32,755 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 11:26:32,755 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-12 11:26:32,755 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 11:26:32,755 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-12 11:26:33,863 ERROR gateway.run: Another gateway instance (PID 1568) started during our startup. Exiting to avoid double-running.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-12 11:26:43,013 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 11:26:43,013 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-12 11:26:43,013 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 11:26:43,013 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-12 11:26:43,014 INFO gateway.run: Active profile: custom
+2026-07-12 11:26:43,021 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-12 11:26:43,065 INFO gateway.run: Connecting to telegram...
+2026-07-12 11:26:43,066 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-12 11:26:43,100 INFO plugins.platforms.telegram.telegram_network: DoH discovery yielded no usable IPs (system DNS: unknown); using seed fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:26:43,100 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110, 149.154.167.220
+2026-07-12 11:26:43,108 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110, 149.154.167.220
+2026-07-12 11:26:43,138 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-12 11:26:43,140 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:26:43,141 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:26:43,141 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:26:43,142 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 1/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 1s
+2026-07-12 11:26:43,359 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 11:26:43,359 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=60.80 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 11:26:43,375 INFO gateway.run: Stopping gateway...
+2026-07-12 11:26:43,378 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 11:26:43,402 INFO gateway.run: Shutdown phase: drain done at +0.03s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 11:26:43,402 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.03s
+2026-07-12 11:26:43,419 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.04s
+2026-07-12 11:26:43,419 INFO gateway.run: Shutdown phase: SessionDB close done at +0.04s
+2026-07-12 11:26:43,420 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 11:26:43,421 INFO gateway.run: Gateway stopped (total teardown 0.05s)
+2026-07-12 11:26:44,143 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 2/8)…
+2026-07-12 11:26:44,149 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:26:44,151 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:26:44,153 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:26:44,154 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 2/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 2s
+2026-07-12 11:26:46,155 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 3/8)…
+2026-07-12 11:26:46,164 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:26:46,167 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:26:46,168 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:26:46,169 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 3/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 4s
+2026-07-12 11:26:50,171 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 4/8)…
+2026-07-12 11:26:50,175 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:26:50,178 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:26:50,180 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:26:50,181 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 4/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 8s
+2026-07-12 11:26:55,310 ERROR gateway.run: Another gateway instance (PID 1672) started during our startup. Exiting to avoid double-running.
+2026-07-12 11:27:02,644 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 11:27:02,644 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-12 11:27:02,645 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 11:27:02,645 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-12 11:27:02,680 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-12 11:27:02,692 INFO gateway.run: Connecting to telegram...
+2026-07-12 11:27:02,693 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-12 11:27:02,708 INFO plugins.platforms.telegram.telegram_network: DoH discovery yielded no usable IPs (system DNS: unknown); using seed fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:02,708 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:02,716 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:02,743 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-12 11:27:02,746 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:02,747 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:27:02,747 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:27:02,747 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 1/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 1s
+2026-07-12 11:27:03,748 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 2/8)…
+2026-07-12 11:27:03,754 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:03,756 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:27:03,758 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:27:03,759 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 2/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 2s
+2026-07-12 11:27:04,814 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 11:27:04,814 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=44.10 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 11:27:04,831 INFO gateway.run: Stopping gateway...
+2026-07-12 11:27:04,833 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 11:27:04,855 INFO gateway.run: Shutdown phase: drain done at +0.02s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 11:27:04,855 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.02s
+2026-07-12 11:27:04,869 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.04s
+2026-07-12 11:27:04,870 INFO gateway.run: Shutdown phase: SessionDB close done at +0.04s
+2026-07-12 11:27:04,870 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 11:27:04,871 INFO gateway.run: Gateway stopped (total teardown 0.04s)
+2026-07-12 11:27:05,761 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 3/8)…
+2026-07-12 11:27:05,767 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:05,771 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:27:05,773 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:27:05,773 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 3/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 4s
+2026-07-12 11:27:09,775 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 4/8)…
+2026-07-12 11:27:09,781 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:09,784 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:27:09,785 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:27:09,786 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connect attempt 4/8 failed: httpx.ConnectError: All connection attempts failed — retrying in 8s
+2026-07-12 11:27:16,628 ERROR gateway.run: Another gateway instance (PID 1726) started during our startup. Exiting to avoid double-running.
+2026-07-12 11:27:17,098 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 11:27:17,098 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=35.47 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 11:27:17,111 INFO gateway.run: Stopping gateway...
+2026-07-12 11:27:17,113 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 11:27:17,172 INFO gateway.run: Shutdown phase: drain done at +0.06s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 11:27:17,172 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.06s
+2026-07-12 11:27:17,180 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.07s
+2026-07-12 11:27:17,181 INFO gateway.run: Shutdown phase: SessionDB close done at +0.07s
+2026-07-12 11:27:17,181 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 11:27:17,182 INFO gateway.run: Gateway stopped (total teardown 0.07s)
+2026-07-12 11:27:23,931 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 11:27:23,931 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-12 11:27:23,932 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 11:27:23,932 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-12 11:27:26,448 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 11:27:26,448 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=30.49 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 11:27:26,456 INFO gateway.run: Stopping gateway...
+2026-07-12 11:27:26,457 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 11:27:26,516 INFO gateway.run: Shutdown phase: drain done at +0.06s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 11:27:26,516 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.06s
+2026-07-12 11:27:26,525 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.07s
+2026-07-12 11:27:26,525 INFO gateway.run: Shutdown phase: SessionDB close done at +0.07s
+2026-07-12 11:27:26,526 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 11:27:26,526 INFO gateway.run: Gateway stopped (total teardown 0.07s)
+2026-07-12 11:27:34,167 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 11:27:34,167 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-12 11:27:34,168 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 11:27:34,168 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-12 11:27:34,169 INFO gateway.run: Active profile: custom
+2026-07-12 11:27:42,467 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 11:27:42,467 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-12 11:27:42,468 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 11:27:42,468 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-12 11:27:42,504 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-12 11:27:42,516 INFO gateway.run: Connecting to telegram...
+2026-07-12 11:27:42,517 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-12 11:27:42,539 INFO plugins.platforms.telegram.telegram_network: DoH discovery yielded no usable IPs (system DNS: unknown); using seed fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:42,539 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:42,548 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:42,576 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-12 11:27:42,578 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:43,260 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-12 11:27:43,716 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-12 11:27:43,866 INFO gateway.run: ✓ telegram connected
+2026-07-12 11:27:43,866 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-12 11:27:43,867 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:27:43,885 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-12 11:27:44,266 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (60 cmds)
+2026-07-12 11:27:44,672 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (60 cmds)
+2026-07-12 11:27:44,895 WARNING gateway.session: gateway.session: pruning stale sessions.json entry 'agent:main:telegram:dm:8611951691' -> 20260710_064517_f4bf9c9a (end_reason='agent_close'); left by a crashed gateway
+2026-07-12 11:27:44,902 INFO gateway.run: Press Ctrl+C to stop
+2026-07-12 11:27:44,937 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-07-12 11:27:44,940 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/Smith/kanban/.dispatcher.lock)
+2026-07-12 11:27:45,066 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (60 cmds)
+2026-07-12 11:27:45,066 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram menu: 60 commands registered, 134 hidden (over 60 limit). Use /commands for full list.
+2026-07-12 11:27:49,941 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-07-12 11:27:54,649 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-12 11:28:45,158 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Sticky fallback IP 149.154.166.110 failed; resetting to primary DNS path
+2026-07-12 11:28:45,160 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:28:45,168 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:28:45,170 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:28:45,171 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error, scheduling reconnect: httpx.ConnectError: All connection attempts failed
+2026-07-12 11:28:45,171 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-12 11:28:46,177 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:28:46,180 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:28:46,182 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:28:47,684 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:28:47,685 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:28:47,686 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:28:49,942 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:28:49,945 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:28:49,946 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:28:53,328 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:28:53,330 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:28:53,333 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:28:53,385 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Sticky fallback IP 149.154.166.110 failed; resetting to primary DNS path
+2026-07-12 11:28:53,385 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:28:53,387 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:28:53,388 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:28:53,411 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-12 11:28:53,411 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-12 11:29:03,416 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:29:03,418 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:29:03,419 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:29:03,445 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-12 11:29:03,457 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-12 11:29:13,722 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:29:13,724 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:29:13,725 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:29:23,465 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 11:29:23,467 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 11:29:23,469 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 11:29:23,509 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-12 11:29:23,510 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-12 11:30:04,462 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 4)
+2026-07-12 11:31:14,344 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (18 chars)
+2026-07-12 11:31:14,358 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Good Moring, dude!' reply_to_id=None reply_to_text=''
+2026-07-12 11:31:24,286 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 11:31:24,287 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=9.9s api_calls=1 response=81 chars
+2026-07-12 11:31:35,944 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (22 chars)
+2026-07-12 11:31:35,952 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="What's our plan today?" reply_to_id=None reply_to_text=''
+2026-07-12 11:31:53,944 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 11:31:53,945 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=18.0s api_calls=2 response=573 chars
+2026-07-12 11:34:40,267 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (38 chars)
+2026-07-12 11:34:40,276 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Wait, you can acess to Micorsoft Todo?' reply_to_id=None reply_to_text=''
+2026-07-12 11:34:48,083 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 11:34:48,083 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=7.8s api_calls=1 response=243 chars
+2026-07-12 11:36:56,329 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (11 chars)
+2026-07-12 11:36:56,336 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Duly noted.' reply_to_id=None reply_to_text=''
+2026-07-12 11:37:03,527 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 11:37:03,527 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=7.2s api_calls=1 response=77 chars
+2026-07-12 11:39:53,940 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (58 chars)
+2026-07-12 11:39:53,954 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Do they have any kind of that we can be integreated to it?' reply_to_id=None reply_to_text=''
+2026-07-12 11:40:10,635 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 11:40:10,635 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=16.7s api_calls=3 response=418 chars
+2026-07-12 11:40:30,939 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (17 chars)
+2026-07-12 11:40:30,945 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="Oh! it's too bad." reply_to_id=None reply_to_text=''
+2026-07-12 11:40:37,997 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 11:40:37,997 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=7.1s api_calls=1 response=333 chars
+2026-07-12 11:45:57,425 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (124 chars)
+2026-07-12 11:45:57,432 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Unfortunastely, my company has privancy that I need to exsuse myself to install ' reply_to_id=None reply_to_text=''
+2026-07-12 11:46:05,666 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 11:46:05,666 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=8.2s api_calls=1 response=594 chars
+2026-07-12 11:47:11,905 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (59 chars)
+2026-07-12 11:47:11,910 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Nah, I brought my laptop to reinstall Windows newly already' reply_to_id=None reply_to_text=''
+2026-07-12 11:47:17,872 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 11:47:17,872 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=6.0s api_calls=1 response=182 chars
+2026-07-12 12:02:27,715 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (70 chars)
+2026-07-12 12:02:27,721 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="Nah, I didn't install by myself tho' an it guy who installed it for me" reply_to_id=None reply_to_text=''
+2026-07-12 12:02:36,318 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 12:02:36,318 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=8.6s api_calls=1 response=218 chars
+2026-07-12 12:07:26,679 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:07:31,679 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 12:07:31,679 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 12:07:46,685 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:07:51,683 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 12:07:56,716 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:07:56,718 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 12:07:56,720 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 12:07:56,753 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-12 12:07:56,765 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-12 12:08:06,774 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:08:06,776 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 12:08:06,779 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 12:08:06,793 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-12 12:08:06,794 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-12 12:08:26,800 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:08:26,803 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 12:08:26,804 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 12:08:26,817 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-12 12:08:26,832 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-12 12:09:01,685 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (All connection attempts failed); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:09:01,687 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 12:09:01,688 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 12:09:06,838 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:09:06,840 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 12:09:06,842 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 12:09:06,865 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: httpx.ConnectError: All connection attempts failed
+2026-07-12 12:09:06,872 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 5/10), reconnecting in 60s. Error: httpx.ConnectError: All connection attempts failed
+2026-07-12 12:10:06,878 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:10:16,882 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:10:26,884 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-12 12:10:26,899 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: Timed out
+2026-07-12 12:10:26,900 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 6/10), reconnecting in 60s. Error: Timed out
+2026-07-12 12:10:31,694 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed ([Errno 8] nodename nor servname provided, or not known); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:10:31,696 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: All connection attempts failed
+2026-07-12 12:10:31,698 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: All connection attempts failed
+2026-07-12 12:11:36,904 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:11:47,491 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:11:56,903 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:11:56,903 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 7/10), reconnecting in 60s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:12:16,525 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:12:28,392 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:12:38,659 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-12 12:13:21,535 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 7)
+2026-07-12 12:13:31,818 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:13:42,749 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:13:53,141 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-12 12:14:03,921 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:14:14,232 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:14:23,665 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 12:14:23,665 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 12:14:31,538 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Polling heartbeat probe failed 60s after reconnect: 
+2026-07-12 12:14:31,539 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: 
+2026-07-12 12:14:43,669 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 12:14:54,019 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:15:05,328 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:15:11,543 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:15:11,544 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: This Updater is already running!
+2026-07-12 12:15:11,544 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:15:11,544 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: This Updater is already running!
+2026-07-12 12:15:39,701 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 3)
+2026-07-12 12:15:55,118 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 4)
+2026-07-12 12:16:49,704 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Polling heartbeat probe failed 60s after reconnect: 
+2026-07-12 12:16:49,705 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 12:16:55,120 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Updater not running 60s after reconnect — treating as wedged
+2026-07-12 12:16:55,120 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: Updater not running after reconnect heartbeat
+2026-07-12 12:17:02,921 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-07-12 12:17:13,425 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 2)
+2026-07-12 12:28:31,086 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 12:28:31,087 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 12:28:51,041 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:28:51,091 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 12:29:01,095 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:29:14,464 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:29:21,094 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:29:21,095 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:29:51,005 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:30:01,096 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:30:01,097 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:30:11,755 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:30:31,320 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:30:41,768 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:30:51,101 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:30:51,102 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:31:45,389 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 4)
+2026-07-12 12:39:06,501 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (54 chars)
+2026-07-12 12:39:06,509 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="hey dude, what's people say on platform X this moment?" reply_to_id=None reply_to_text=''
+2026-07-12 12:40:11,787 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:40:22,178 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:40:32,430 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-12 12:40:32,431 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Network error on send (attempt 1/3), retrying in 1s: Timed out
+2026-07-12 12:40:45,268 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:40:55,559 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:41:05,968 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-12 12:41:05,968 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Network error on send (attempt 2/3), retrying in 2s: Timed out
+2026-07-12 12:41:24,147 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:41:27,489 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 12:41:27,490 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 12:41:43,618 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:41:47,491 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 12:41:53,621 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-12 12:41:53,624 ERROR hermes_plugins.telegram_platform.adapter: [Telegram] Failed to send Telegram message: Timed out
+2026-07-12 12:42:04,560 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:42:09,436 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:42:15,041 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:42:17,494 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:42:17,494 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:42:26,692 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:42:37,221 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-12 12:42:39,065 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:42:49,497 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:42:57,497 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:42:57,497 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:43:08,501 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:43:33,418 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:43:44,983 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:43:47,499 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:43:47,500 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:44:37,503 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:44:52,207 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:44:55,171 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:44:57,502 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:44:57,503 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 5/10), reconnecting in 60s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:45:49,584 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=403.1s api_calls=2 response=50 chars
+2026-07-12 12:45:49,595 INFO gateway.platforms.base: [Telegram] Sending response (120 chars) to 8611951691
+2026-07-12 12:45:49,595 WARNING gateway.platforms.base: [Telegram] Send failed (attempt 1/2, retrying in 2.9s): send_path_degraded
+2026-07-12 12:45:52,478 WARNING gateway.platforms.base: [Telegram] Send failed (attempt 2/2, retrying in 4.6s): send_path_degraded
+2026-07-12 12:45:57,063 ERROR gateway.platforms.base: [Telegram] Failed to deliver response after 2 retries: send_path_degraded
+2026-07-12 12:46:12,117 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:46:22,455 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:46:27,504 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:46:27,505 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 6/10), reconnecting in 60s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:46:37,495 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:47:42,993 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:47:53,469 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:47:57,508 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:47:57,509 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 7/10), reconnecting in 60s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:48:22,756 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:49:07,846 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:49:18,423 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:49:27,511 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:49:27,512 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 8/10), reconnecting in 60s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 12:50:49,615 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 8)
+2026-07-12 12:51:02,562 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:51:13,410 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:51:53,197 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:51:57,497 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 12:51:57,498 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 12:51:59,618 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Polling heartbeat probe failed 60s after reconnect: 
+2026-07-12 12:51:59,619 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: 
+2026-07-12 12:52:18,952 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 2)
+2026-07-12 12:52:18,953 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: This Updater is already running!
+2026-07-12 12:52:18,953 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: This Updater is already running!
+2026-07-12 12:52:33,958 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:52:38,956 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 12:52:48,960 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 12:52:54,144 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-12 12:52:54,146 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-07-12 12:53:28,956 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Polling heartbeat probe failed 60s after reconnect: 
+2026-07-12 12:53:28,957 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 12:53:35,672 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling heartbeat: updater stopped while in polling mode (stuck probe 1/2)
+2026-07-12 12:53:36,168 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-07-12 12:56:49,623 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Sticky fallback IP 149.154.166.110 failed; resetting to primary DNS path
+2026-07-12 12:56:49,625 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 12:56:53,461 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 12:56:53,462 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 12:57:13,465 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 12:57:28,412 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-07-12 13:04:41,666 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:04:46,666 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 13:04:46,666 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 13:05:06,670 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 13:05:27,050 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-07-12 13:05:37,441 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:05:47,741 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 13:05:58,406 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-12 13:09:55,292 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:09:59,982 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 13:09:59,982 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 13:10:23,446 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-07-12 13:11:18,643 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:11:28,912 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 13:11:33,449 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Polling heartbeat probe failed 60s after reconnect: 
+2026-07-12 13:11:33,449 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 13:11:44,983 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 13:11:44,984 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: 
+2026-07-12 13:11:49,521 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:11:53,452 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 13:12:09,313 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:12:09,986 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 13:12:21,698 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 13:12:23,455 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:12:23,456 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: This Updater is already running!
+2026-07-12 13:12:23,456 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:12:23,457 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: This Updater is already running!
+2026-07-12 13:12:53,736 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:13:03,991 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 13:13:13,459 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:13:13,460 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 5/10), reconnecting in 60s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:13:23,971 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:13:25,351 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:13:40,494 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-12 13:13:40,497 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 4)
+2026-07-12 13:14:28,462 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 13:14:35,534 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 5)
+2026-07-12 13:15:14,986 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 13:15:14,987 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 13:15:34,990 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 13:15:45,537 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Polling heartbeat probe failed 60s after reconnect: 
+2026-07-12 13:15:45,537 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: 
+2026-07-12 13:15:50,018 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-07-12 13:16:16,546 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 2)
+2026-07-12 13:16:31,918 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:16:42,591 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 13:16:52,966 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.167.220 failed: 
+2026-07-12 13:16:56,394 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Sticky fallback IP 149.154.166.110 failed; resetting to primary DNS path
+2026-07-12 13:16:56,394 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 13:16:59,988 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-12 13:16:59,989 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 13:17:00,019 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Polling heartbeat probe failed 60s after reconnect: 
+2026-07-12 13:17:00,020 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: 
+2026-07-12 13:17:03,365 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:17:15,586 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:17:16,547 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Updater not running 60s after reconnect — treating as wedged
+2026-07-12 13:17:16,547 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: Updater not running after reconnect heartbeat
+2026-07-12 13:17:19,992 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 13:17:35,442 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:17:40,022 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:17:40,023 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: This Updater is already running!
+2026-07-12 13:17:40,023 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 4/10), reconnecting in 40s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:17:40,024 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 5/10), reconnecting in 60s. Error: This Updater is already running!
+2026-07-12 13:17:51,458 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:18:01,711 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 13:18:10,025 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:18:10,025 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 6/10), reconnecting in 60s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:18:27,208 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 4)
+2026-07-12 13:18:50,578 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:18:55,025 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-12 13:19:11,901 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 5)
+2026-07-12 13:19:25,677 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 6)
+2026-07-12 13:20:21,903 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Polling heartbeat probe failed 60s after reconnect: 
+2026-07-12 13:20:21,903 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-12 13:20:35,680 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Polling heartbeat probe failed 60s after reconnect: 
+2026-07-12 13:20:35,680 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: 
+2026-07-12 13:20:37,293 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:20:39,024 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-12 13:20:40,949 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-07-12 13:20:57,050 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:21:07,661 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-12 13:21:16,645 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:21:16,646 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: start_polling() timed out — connection pool may be wedged
+2026-07-12 13:21:31,913 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110, 149.154.167.220
+2026-07-12 13:21:43,074 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-12 13:21:43,076 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling resumed after network error (attempt 1)
+2026-07-12 13:29:50,446 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 13:29:50,446 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=2.09 parent_cmdline='(unknown)'
+2026-07-12 13:29:50,505 INFO gateway.run: Stopping gateway...
+2026-07-12 14:42:39,850 ERROR gateway.run: PID file race lost to another gateway instance. Exiting.
+2026-07-12 14:42:39,864 ERROR gateway.run: Another gateway instance (PID 987) started during our startup. Exiting to avoid double-running.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-12 14:42:40,580 INFO gateway.run: Received SIGTERM as a planned --replace takeover — exiting cleanly
+2026-07-12 14:42:40,580 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=94.44 parent_cmdline='(unknown)'
+2026-07-12 14:42:40,585 INFO gateway.run: Stopping gateway...
+2026-07-12 14:42:40,588 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 14:42:40,652 INFO gateway.run: Shutdown phase: drain done at +0.07s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 14:42:40,652 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.07s
+2026-07-12 14:42:40,674 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.09s
+2026-07-12 14:42:40,675 INFO gateway.run: Shutdown phase: SessionDB close done at +0.09s
+2026-07-12 14:42:40,675 INFO gateway.run: Gateway stopped (total teardown 0.09s)
+2026-07-12 14:42:40,676 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 14:42:40,676 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=94.44 parent_cmdline='(unknown)'
+2026-07-12 14:42:48,538 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 14:42:48,538 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-12 14:42:48,538 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 14:42:48,539 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-12 14:42:48,540 INFO gateway.run: Active profile: custom
+2026-07-12 14:42:50,132 ERROR gateway.run: Another gateway instance (PID 1491) started during our startup. Exiting to avoid double-running.
+2026-07-12 14:42:50,711 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 14:42:50,711 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=83.28 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 14:42:50,715 INFO gateway.run: Stopping gateway...
+2026-07-12 14:42:50,716 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-12 14:42:50,775 INFO gateway.run: Shutdown phase: drain done at +0.06s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 14:42:50,775 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.06s
+2026-07-12 14:42:50,796 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.08s
+2026-07-12 14:42:50,797 INFO gateway.run: Shutdown phase: SessionDB close done at +0.08s
+2026-07-12 14:42:50,797 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 14:42:50,799 INFO gateway.run: Gateway stopped (total teardown 0.08s)
+2026-07-12 14:42:59,642 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 14:42:59,642 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-12 14:42:59,643 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 14:42:59,643 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-12 14:43:00,936 ERROR gateway.run: Another gateway instance (PID 1572) started during our startup. Exiting to avoid double-running.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-12 14:43:08,090 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 14:43:08,090 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-12 14:43:08,090 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 14:43:08,091 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-12 14:43:08,092 INFO gateway.run: Active profile: custom
+2026-07-12 14:43:08,147 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-12 14:43:08,160 INFO gateway.run: Connecting to telegram...
+2026-07-12 14:43:08,162 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-12 14:43:08,366 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-07-12 14:43:08,383 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-07-12 14:43:08,420 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-12 14:43:09,405 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-12 14:43:09,540 INFO gateway.run: ✓ telegram connected
+2026-07-12 14:43:09,540 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-12 14:43:09,557 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-12 14:43:09,998 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (52 cmds)
+2026-07-12 14:43:10,445 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (52 cmds)
+2026-07-12 14:43:10,526 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-12 14:43:10,526 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=60.82 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-12 14:43:10,541 INFO gateway.run: Stopping gateway...
+2026-07-12 14:43:10,561 INFO gateway.run: Press Ctrl+C to stop
+2026-07-12 14:43:10,566 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/.hermes/kanban/.dispatcher.lock)
+2026-07-12 14:43:10,811 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (52 cmds)
+2026-07-12 14:43:11,719 INFO gateway.run: Sent shutdown notification to home channel telegram:8611951691
+2026-07-12 14:43:11,719 INFO gateway.run: Shutdown phase: notify_active_sessions done at +1.18s
+2026-07-12 14:43:11,749 INFO gateway.run: Shutdown phase: drain done at +1.21s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0)
+2026-07-12 14:43:15,345 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Disconnected from Telegram
+2026-07-12 14:43:15,345 INFO gateway.run: ✓ telegram disconnected (3.60s)
+2026-07-12 14:43:15,345 INFO gateway.run: Shutdown phase: all adapters disconnected at +4.80s
+2026-07-12 14:43:15,460 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +4.92s
+2026-07-12 14:43:15,462 INFO gateway.run: Shutdown phase: SessionDB close done at +4.92s
+2026-07-12 14:43:15,464 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-12 14:43:15,468 INFO gateway.run: Gateway stopped (total teardown 4.93s)
+2026-07-12 14:43:24,185 INFO gateway.run: Starting Hermes Gateway...
+2026-07-12 14:43:24,185 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-12 14:43:24,187 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-12 14:43:24,187 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-12 14:43:24,230 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-12 14:43:24,243 INFO gateway.run: Connecting to telegram...
+2026-07-12 14:43:24,244 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-12 14:43:24,459 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-07-12 14:43:24,487 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-07-12 14:43:24,537 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-12 14:43:25,940 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-12 14:43:26,051 INFO gateway.run: ✓ telegram connected
+2026-07-12 14:43:26,051 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-12 14:43:26,067 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-12 14:43:26,449 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (60 cmds)
+2026-07-12 14:43:26,850 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (60 cmds)
+2026-07-12 14:43:27,074 INFO gateway.run: Press Ctrl+C to stop
+2026-07-12 14:43:27,113 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-07-12 14:43:27,116 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/Smith/kanban/.dispatcher.lock)
+2026-07-12 14:43:27,251 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (60 cmds)
+2026-07-12 14:43:27,251 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram menu: 60 commands registered, 134 hidden (over 60 limit). Use /commands for full list.
+2026-07-12 14:43:32,117 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-07-12 19:11:27,543 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (54 chars)
+2026-07-12 19:11:27,562 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="hey dude, what's people say on platform X this moment?" reply_to_id=None reply_to_text=''
+2026-07-12 19:12:36,902 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (21 chars)
+2026-07-12 19:12:58,105 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 19:12:58,110 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=90.5s api_calls=2 response=886 chars
+2026-07-12 19:14:45,088 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (44 chars)
+2026-07-12 19:14:45,090 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Brazil vs Norway who will win in Polymarket?' reply_to_id=None reply_to_text=''
+2026-07-12 19:15:54,206 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-12 19:15:54,206 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=69.1s api_calls=13 response=509 chars
+2026-07-12 22:23:36,992 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (72 chars)
+2026-07-12 22:23:37,000 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Going night. Today we did a lot on Claud Code. And you also made my day.' reply_to_id=None reply_to_text=''

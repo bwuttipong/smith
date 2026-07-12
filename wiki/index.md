@@ -331,6 +331,29 @@
 - [[reports/stale-pages|Stale Pages]]
 <!-- openclaw:wiki:index:end -->
 
+<!-- Everything BELOW this line is human/agent-curated and safe from plugin regeneration.
+     The block ABOVE (between openclaw:wiki:index markers) is plugin-owned — do not hand-edit. -->
+
+## 🗺️ Workspace Map — start here
+> New chat? Read this first. This is the map of everything in the vault.
+
+**The three layers** (Karpathy raw→wiki→deliverables — see [[AGENTS|AGENTS.md]] for the schema):
+
+| Layer | Path | What's in it |
+|---|---|---|
+| **Raw** | `raw/` | Immutable source material. Currently: `raw/articles/` (High Agency essay). Never edit. |
+| **Wiki** | `sources/` `concepts/` `entities/` `syntheses/` | LLM-maintained knowledge. 294 sources (mostly agent memory), auto-synced by the OpenClaw plugin. Listed in the Generated block above. |
+| **Deliverables** | `deliverables/` | Finished outputs synthesized from the wiki. See below. |
+| _Health_ | `reports/` | Plugin lint output — contradictions, stale pages, provenance. Machine-owned. |
+
+### 📦 Deliverables
+- [[deliverables/2026-07-12-state-of-the-system-brief|State of the System — Brief]] — current picture of agents, projects, and infra (2026-07-12)
+
+### 🔑 Key entry points
+- [[AGENTS|AGENTS.md]] — the schema/rulebook for operating this vault
+- [[log|log.md]] — append-only record of every wiki action
+- [[WIKI|WIKI.md]] — plugin config & architecture notes
+
 ## Concepts (Human-curated)
 - [[concepts/high-agency|High Agency]] — The ability to act independently, question assumptions, and shape reality rather than passively accepting it
 

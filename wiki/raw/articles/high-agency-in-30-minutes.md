@@ -3,6 +3,7 @@ source_url: https://www.highagency.com/
 ingested: 2026-06-28
 sha256: ef1b5b7bd4bacf6ccd82a73dacd765d49171001ce6cab7f384024e88070eb9a4
 type: raw
+summary: George Mack's essay arguing "high agency" — acting on reality instead of accepting it — is a learnable trait, with mental models for building it.
 ---
 
 # High Agency in 30 Minutes
