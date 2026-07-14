@@ -6,7 +6,7 @@ Default X/Twitter search: agent-reach twitter-cli. Activate: cd ~/Smith/agent-re
 §
 Commute Traffic: TomTom key2 operational. Trigger: "traffic X to Y". Outer road route: Wellgrow Industrial Estate → Ban Suan via ทางคู่ขนาน + road 3609 (~34km, ~1h 7min). User prefers outer roads.
 §
-Samantha routing: weather/traffic, web searches, file ops, reporting → delegate to Samantha. Re-read HEARTBEAT.md at session start.
+Jeff prefers English for task lists and work content. Company data stays in chat only — never save externally.
 §
 Smith's GitHub repo is PRIVATE. Repo: github.com/bwuttipong/smith (https, master branch). Don't propose making it public. Don't suggest sharing URLs to it externally without explicit ask. Commits and pushes are fine — it's a personal workspace, just not for public eyes.
 §
@@ -18,4 +18,4 @@ End-of-day ritual: git add -A && git commit -m "date summary" && git push on BOT
 §
 Work: TPN & TPK Flexpak (Thung Hua Sinn Group). VB.NET + SQL Server. Slack #projects. Notion: ~/.openclaw/.env. พี่วัชรพงศ์ at TPK. Weekly report: Thai HTML via AgentMail (always use `html` field, inline CSS only), subject: "อัปเดตประจำสัปดาห์: ... (สัปดาห์สิ้นสุด DD MMM YYYY)"
 §
-Jeff interested in Microsoft To Do integration — no skill exists yet. Graph API could be built. Alternatives: Todoist, Apple Reminders, Notion.
+Company blocks all AI platforms — Jeff takes photos of company chat screens and sends to Telegram for processing. Also a secret England football fan 🏴󠁧󠁢󠁥󠁮󠁧󠁿.

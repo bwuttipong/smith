@@ -15,14 +15,30 @@
             "image"
           ],
           "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
+            "input": 2.5,
+            "output": 15,
+            "cacheRead": 0.25,
+            "cacheWrite": 3.125
           },
-          "contextWindow": 372000,
-          "contextTokens": 372000,
-          "maxTokens": 128000
+          "contextWindow": 272000,
+          "contextTokens": 272000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "off": null,
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "compat": {
+            "supportsReasoningEffort": true,
+            "supportedReasoningEfforts": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max",
+              "ultra"
+            ]
+          }
         },
         {
           "id": "gpt-5.6-luna",
@@ -35,14 +51,29 @@
             "image"
           ],
           "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
+            "input": 1,
+            "output": 6,
+            "cacheRead": 0.1,
+            "cacheWrite": 1.25
           },
-          "contextWindow": 372000,
-          "contextTokens": 372000,
-          "maxTokens": 128000
+          "contextWindow": 272000,
+          "contextTokens": 272000,
+          "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "off": null,
+            "xhigh": "xhigh",
+            "max": "max"
+          },
+          "compat": {
+            "supportsReasoningEffort": true,
+            "supportedReasoningEfforts": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
         },
         {
           "id": "gpt-5.5",
@@ -63,6 +94,18 @@
           "contextWindow": 272000,
           "contextTokens": 272000,
           "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh"
+          },
+          "compat": {
+            "supportsReasoningEffort": true,
+            "supportedReasoningEfforts": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          },
           "mediaInput": {
             "image": {
               "maxSidePx": 6000,
@@ -90,6 +133,18 @@
           "contextWindow": 272000,
           "contextTokens": 272000,
           "maxTokens": 128000,
+          "thinkingLevelMap": {
+            "xhigh": "xhigh"
+          },
+          "compat": {
+            "supportsReasoningEffort": true,
+            "supportedReasoningEfforts": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          },
           "mediaInput": {
             "image": {
               "maxSidePx": 2048,

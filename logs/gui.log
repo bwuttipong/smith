@@ -118,3 +118,28 @@
 2026-07-05 18:15:48,486 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
 2026-07-05 18:15:55,575 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
 2026-07-05 18:15:55,608 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-07-14 20:49:12,506 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/hermes-achievements/
+2026-07-14 20:49:12,545 INFO hermes_cli.web_server: Mounted plugin API routes: /api/plugins/kanban/
+2026-07-14 20:51:02,370 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:14:51,433 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:14:51,514 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:15:02,406 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:16:40,510 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:58992
+2026-07-14 21:17:00,215 INFO tui_gateway.ws: ws closed peer=127.0.0.1:58992 reason=client_disconnect(code=1001,reason=) messages=1 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=1 detached_sessions=0
+2026-07-14 21:17:02,486 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:59069
+2026-07-14 21:17:02,547 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:17:02,549 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:59072
+2026-07-14 21:17:02,552 INFO tui_gateway.ws: ws closed peer=127.0.0.1:59069 reason=client_disconnect(code=1005,reason=) messages=1 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=1 detached_sessions=0
+2026-07-14 21:17:02,580 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:17:02,677 INFO tui_gateway.ws: ws closed peer=127.0.0.1:59072 reason=client_disconnect(code=1001,reason=) messages=1 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=1 detached_sessions=0
+2026-07-14 21:17:04,251 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:59076
+2026-07-14 21:17:04,280 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:17:35,252 INFO tui_gateway.ws: ws closed peer=127.0.0.1:59076 reason=client_disconnect(code=1001,reason=) messages=1 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=1 detached_sessions=0
+2026-07-14 21:18:12,413 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:59309
+2026-07-14 21:18:12,444 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:18:12,533 INFO tui_gateway.ws: ws accepted peer=127.0.0.1:59313
+2026-07-14 21:18:12,542 INFO tui_gateway.ws: ws closed peer=127.0.0.1:59309 reason=client_disconnect(code=1005,reason=) messages=1 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=1 detached_sessions=0
+2026-07-14 21:18:12,575 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:18:13,900 INFO tui_gateway.ws: ws closed peer=127.0.0.1:59313 reason=client_disconnect(code=1005,reason=) messages=1 parse_errors=0 dispatch_crashes=0 send_failures=0 reaped_sessions=1 detached_sessions=0
+2026-07-14 21:37:02,565 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token
+2026-07-14 21:37:02,960 INFO hermes_cli.web_server: pty accepted peer=127.0.0.1 mode=loopback cred=token

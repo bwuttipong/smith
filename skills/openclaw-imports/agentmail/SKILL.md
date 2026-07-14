@@ -56,6 +56,20 @@ curl -s -X POST \
   https://api.agentmail.to/v0/inboxes/{inbox_id}/messages/send
 ```
 
+### Send HTML email
+
+AgentMail supports the `html` field for formatted emails. Use this when markdown rendering matters (tables, bold, headers).
+
+```python
+import json, urllib.request
+payload = json.dumps({
+    "to": ["recipient@example.com"],
+    "subject": "HTML Email",
+    "text": "Plain text fallback",
+    "html": "<h1>Hello</h1><p>This is <b>HTML</b></p>"
+}).encode()
+```
+
 ### List messages in an inbox
 
 ```bash
@@ -97,3 +111,9 @@ req = urllib.request.Request(
 with urllib.request.urlopen(req) as resp:
     print(resp.read().decode())
 ```
+
+## Pitfalls
+
+- The `text` field does NOT render markdown — use `html` field for formatted content
+- Email clients (Outlook, Gmail) strip external CSS — always use inline styles in HTML emails
+- Always include both `text` (plain fallback) and `html` fields in payload

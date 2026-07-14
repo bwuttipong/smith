@@ -349,6 +349,15 @@
 ### 📦 Deliverables
 - [[deliverables/2026-07-12-state-of-the-system-brief|State of the System — Brief]] — current picture of agents, projects, and infra (2026-07-12)
 
+### 🛠️ Active Projects
+- **Agent OS dashboard** (`~/Workspaces/agentos`) — Jeff's mission-control UI for his AI
+  agents (Hermes, OpenClaw, ZCode, Claude, Ollama, Paperclip). Not tracked in this wiki's
+  raw/sources layers (it's code, not reading material) — state lives in the project's own
+  memory at `~/.claude/projects/-Users-Jeff-Workspaces-agentos/memory/MEMORY.md` and daily
+  entries in [[log|Smith's daily memory]] (`~/Smith/memory/YYYY-MM-DD.md`). Latest handoff:
+  `/private/tmp/claude-501/agentos-handoff-2026-07-14-2209.md` (Manage tab embedding Hermes/
+  OpenClaw dashboards, dual Claude agent cards, Claude sub-tabs, SEO Content Pipeline rebuild).
+
 ### 🔑 Key entry points
 - [[AGENTS|AGENTS.md]] — the schema/rulebook for operating this vault
 - [[log|log.md]] — append-only record of every wiki action

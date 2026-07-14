@@ -17,3 +17,5 @@ User Info: **Vault**: ~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-sav
 Thai name spelling: วุฒิพงษ์ (not วุฒิพงศ์)
 §
 Interests: FIFA World Cup / football fan, follows Polymarket prediction markets, checks X trending topics regularly.
+§
+IT policy: company laptop, no software installs without IT approval. Prefers English in casual chat context (not Thai).

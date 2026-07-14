@@ -2034,3 +2034,254 @@ Skipping notarization: APPLE_API_KEY, APPLE_API_KEY_ID, and APPLE_API_ISSUER are
 
 Tip: You can now select a provider and model:
   hermes model              # Select provider and model
+
+=== hermes update started 2026-07-14T20:08:28 ===
+⚕ Updating Hermes Agent...
+
+→ Fetching updates...
+→ Found 268 new commit(s)
+  ✓ Pre-update snapshot: 20260714-130830-pre-update
+→ Pulling updates...
+  ✓ Cleared 95 stale __pycache__ directories
+→ Updating Python dependencies...
+
+→ Refreshing 18 active lazy backend(s)...
+  ✓ 17 already current
+  ⚠ platform.matrix failed to refresh: pip install failed:  File "/private/var/folders/jw/mz45fg8s26zgz3cx72ztxxgw0000gn/T/pip-build-env-xq3c0uc3/overlay/lib/python3.11/site-packages/setuptools/dist.py", line 790, in finalize_options
+     ...
+  Backends keep their previously-installed version; rerun
+  `hermes update` once the upstream issue is resolved.
+→ Updating Node.js dependencies...
+  ✓ repo root + ui-tui, web workspaces (desktop skipped)
+→ Building web UI...
+    
+    > web@0.0.0 build
+    > tsc -b && vite build
+    
+    vite v8.1.0 building client environment for production...
+    [2K
+    transforming...✓ 487 modules transformed.
+    rendering chunks...
+    computing gzip size...
+    ../hermes_cli/web_dist/index.html                                         0.51 kB │ gzip:   0.32 kB
+    ../hermes_cli/web_dist/assets/Mondwest-Regular-CWscgue7.woff2            23.82 kB
+    ../hermes_cli/web_dist/assets/RulesExpanded-Regular-l8uVympt.woff2       33.82 kB
+    ../hermes_cli/web_dist/assets/RulesExpanded-Bold-DZA7s8Pa.woff2          35.01 kB
+    ../hermes_cli/web_dist/assets/RulesCompressed-Regular-BSXFyF4x.woff2     37.76 kB
+    ../hermes_cli/web_dist/assets/RulesCompressed-Medium-CA76_CrB.woff2      38.84 kB
+    ../hermes_cli/web_dist/assets/Collapse-Bold-mgICk9-_.woff2               59.14 kB
+    ../hermes_cli/web_dist/assets/Collapse-Regular-DysayoTY.woff2            62.81 kB
+    ../hermes_cli/web_dist/assets/index-BhJSf3b-.css                        114.17 kB │ gzip:  18.09 kB
+    ../hermes_cli/web_dist/assets/index-C8BQWF89.js                       1,972.12 kB │ gzip: 563.85 kB
+    
+    ✓ built in 567ms
+    [plugin builtin:vite-reporter]
+    (!) Some chunks are larger than 500 kB after minification. Consider:
+    - Using dynamic import() to code-split the application
+    - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+    - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+  ✓ Web UI built
+→ Checking if desktop app needs rebuilding...
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated rcedit@5.0.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+
+> hermes-agent@1.0.0 postinstall
+> echo '✅ Browser tools ready. Run: python run_agent.py --help'
+
+✅ Browser tools ready. Run: python run_agent.py --help
+
+added 1302 packages, and audited 1309 packages in 24s
+
+357 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm warn allow-scripts 7 packages have install scripts not yet covered by allowScripts:
+npm warn allow-scripts   agent-browser@0.26.0 (postinstall: node scripts/postinstall.js)
+npm warn allow-scripts   electron@40.10.2 (postinstall: node install.js)
+npm warn allow-scripts   electron-winstaller@5.4.0 (install: node ./script/select-7z-arch.js)
+npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+npm warn allow-scripts   fsevents@2.3.3 (install: (install scripts present))
+npm warn allow-scripts   node-pty@1.1.0 (install: node scripts/prebuild.js || node-gyp rebuild; postinstall: node scripts/post-install.js)
+npm warn allow-scripts   unicode-animations@1.0.3 (postinstall: node scripts/postinstall.cjs)
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+
+> hermes@0.17.0 pack
+> npm run build && npm run builder -- --dir
+
+
+> hermes@0.17.0 prebuild
+> tsc -b . --clean
+
+
+> hermes@0.17.0 build
+> node scripts/assert-root-install.mjs && node scripts/write-build-stamp.mjs && vite build && node scripts/bundle-electron-main.mjs && node scripts/stage-native-deps.mjs
+
+[write-build-stamp] wrote apps/desktop/build/install-stamp.json -> 2d0f2185cf3b (main)
+vite v8.1.0 building client environment for production...
+[2K
+transforming...[38;5;147m[LARGE_BARREL_MODULES] [0m../../node_modules/@tabler/icons-react/dist/esm/tabler-icons-react.mjs has 6149 re-exports. Eagerly resolving every entry can significantly slow down the build. Consider using `@rolldown/plugin-transform-imports` to rewrite imports at the source level so the barrel file is never loaded.
+ [38;5;240m │[0m 
+ [38;5;240m │[0m [38;5;115mHelp[0m: See https://github.com/rolldown/plugins/tree/main/packages/transform-imports for usage.
+
+Found 1 warning while optimizing generated CSS:
+
+[2m│   -moz-tab-size: 2;[22m
+[2m│ }[22m
+[2m│[22m text-* variant utilities. */ .btn-arc {
+[2m┆[22m      [33m[2m^--[22m Unexpected token Delim('*')[39m
+[2m┆[22m
+[2m│   background-image: linear-gradient(110deg, #5b6cff 0%, #8b5cf6 28%, #d946ef 58%, #fb7185 82%, #fb923c 100%);[22m
+[2m│   color: #fff;[22m
+
+✓ 4308 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                            1.77 kB │ gzip:     0.82 kB
+dist/assets/KaTeX_Size3-Regular-CTq5MqoE.woff              4.42 kB
+dist/assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2             4.92 kB
+dist/assets/KaTeX_Size2-Regular-Dy4dx90m.woff2             5.20 kB
+dist/assets/KaTeX_Size1-Regular-mCD8mA8B.woff2             5.46 kB
+dist/assets/KaTeX_Size4-Regular-BF-4gkZK.woff              5.98 kB
+dist/assets/KaTeX_Size2-Regular-oD1tc_U0.woff              6.18 kB
+dist/assets/KaTeX_Size1-Regular-C195tn64.woff              6.49 kB
+dist/assets/KaTeX_Caligraphic-Regular-Di6jR-x-.woff2       6.90 kB
+dist/assets/KaTeX_Caligraphic-Bold-Dq_IR9rO.woff2          6.91 kB
+dist/assets/KaTeX_Size3-Regular-DgpXs0kz.ttf               7.58 kB
+dist/assets/KaTeX_Caligraphic-Regular-CTRA-rTL.woff        7.65 kB
+dist/assets/KaTeX_Caligraphic-Bold-BEiXGLvX.woff           7.71 kB
+dist/assets/KaTeX_Script-Regular-D3wIWfF6.woff2            9.64 kB
+dist/assets/KaTeX_SansSerif-Regular-DDBCnlJ7.woff2        10.34 kB
+dist/assets/KaTeX_Size4-Regular-DWFBv043.ttf              10.36 kB
+dist/assets/KaTeX_Script-Regular-D5yQViql.woff            10.58 kB
+dist/assets/KaTeX_Fraktur-Regular-CTYiF6lA.woff2          11.31 kB
+dist/assets/KaTeX_Fraktur-Bold-CL6g_b3V.woff2             11.34 kB
+dist/assets/KaTeX_Size2-Regular-B7gKUWhC.ttf              11.50 kB
+dist/assets/KaTeX_SansSerif-Italic-C3H0VqGB.woff2         12.02 kB
+dist/assets/KaTeX_SansSerif-Bold-D1sUS0GD.woff2           12.21 kB
+dist/assets/KaTeX_Size1-Regular-Dbsnue_I.ttf              12.22 kB
+dist/assets/KaTeX_SansSerif-Regular-CS6fqUqJ.woff         12.31 kB
+dist/assets/KaTeX_Caligraphic-Regular-wX97UBjC.ttf        12.34 kB
+dist/assets/KaTeX_Caligraphic-Bold-ATXxdsX0.ttf           12.36 kB
+dist/assets/KaTeX_Fraktur-Regular-Dxdc4cR9.woff           13.20 kB
+dist/assets/KaTeX_Fraktur-Bold-BsDP51OF.woff              13.29 kB
+dist/assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2       13.56 kB
+dist/assets/KaTeX_SansSerif-Italic-DN2j7dab.woff          14.11 kB
+dist/assets/KaTeX_SansSerif-Bold-DbIhKOiC.woff            14.40 kB
+dist/assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff        16.02 kB
+dist/assets/KaTeX_Math-BoldItalic-CZnvNsCZ.woff2          16.40 kB
+dist/assets/KaTeX_Math-Italic-t53AETM-.woff2              16.44 kB
+dist/assets/KaTeX_Script-Regular-C5JkGWo-.ttf             16.64 kB
+dist/assets/KaTeX_Main-BoldItalic-DxDJ3AOS.woff2          16.78 kB
+dist/assets/KaTeX_Main-Italic-NWA7e6Wa.woff2              16.98 kB
+dist/assets/KaTeX_Math-BoldItalic-iY-2wyZ7.woff           18.66 kB
+dist/assets/KaTeX_Math-Italic-DA0__PXp.woff               18.74 kB
+dist/assets/KaTeX_Main-BoldItalic-SpSLRI95.woff           19.41 kB
+dist/assets/KaTeX_SansSerif-Regular-BNo7hRIc.ttf          19.43 kB
+dist/assets/KaTeX_Fraktur-Regular-CB_wures.ttf            19.57 kB
+dist/assets/KaTeX_Fraktur-Bold-BdnERNNW.ttf               19.58 kB
+dist/assets/KaTeX_Main-Italic-BMLOBm91.woff               19.67 kB
+dist/assets/KaTeX_SansSerif-Italic-YYjJ1zSn.ttf           22.36 kB
+dist/assets/KaTeX_SansSerif-Bold-CFMepnvq.ttf             24.50 kB
+dist/assets/KaTeX_Main-Bold-Cx986IdX.woff2                25.32 kB
+dist/assets/KaTeX_Main-Regular-B22Nviop.woff2             26.27 kB
+dist/assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf         27.55 kB
+dist/assets/KaTeX_AMS-Regular-BQhdFMY1.woff2              28.07 kB
+dist/assets/KaTeX_Main-Bold-Jm3AIy58.woff                 29.91 kB
+dist/assets/KaTeX_Main-Regular-Dr94JaBh.woff              30.77 kB
+dist/assets/KaTeX_Math-BoldItalic-B3XSjfu4.ttf            31.19 kB
+dist/assets/KaTeX_Math-Italic-flOr_0UB.ttf                31.30 kB
+dist/assets/KaTeX_Main-BoldItalic-DzxPMmG6.ttf            32.96 kB
+dist/assets/KaTeX_AMS-Regular-DMm9YOAa.woff               33.51 kB
+dist/assets/KaTeX_Main-Italic-3WenGoN9.ttf                33.58 kB
+dist/assets/KaTeX_Main-Bold-waoOVXN0.ttf                  51.33 kB
+dist/assets/KaTeX_Main-Regular-ypZvNtVU.ttf               53.58 kB
+dist/assets/Collapse-Bold-mgICk9-_.woff2                  59.14 kB
+dist/assets/KaTeX_AMS-Regular-DRggAlZN.ttf                63.63 kB
+dist/assets/JetBrainsMono-Regular-CA-Os4ii.woff2          92.38 kB
+dist/assets/JetBrainsMono-Bold-CUogYd9I.woff2             94.62 kB
+dist/assets/JetBrainsMono-Italic-LIR7wr3B.woff2           96.42 kB
+dist/assets/codicon-DjkITdqj.ttf                         125.82 kB
+dist/assets/index-D9XuRtbG.css                           311.08 kB │ gzip:    52.45 kB
+dist/assets/index-DP7_L-_B.js                         27,830.41 kB │ gzip: 5,975.15 kB
+
+✓ built in 4.19s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 25000 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+
+  dist/electron-main.mjs  478.4kb
+
+⚡ Done in 34ms
+bundled /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/dist/electron-main.mjs
+
+  dist/electron-preload.js  16.6kb
+
+⚡ Done in 2ms
+bundled /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/dist/electron-preload.js
+[stage-native-deps] staged node-pty (darwin-arm64) -> /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/dist/node_modules/node-pty
+
+> hermes@0.17.0 postbuild
+> node scripts/assert-dist-built.mjs
+
+✓ assert-dist-built: dist/index.html + assets present
+
+> hermes@0.17.0 prebuilder
+> node scripts/patch-electron-builder-mac-binary.mjs
+
+[patch-electron-builder] applied macOS Electron binary fallback
+
+> hermes@0.17.0 builder
+> cross-env NODE_OPTIONS=--max-old-space-size=16384 node scripts/run-electron-builder.mjs --dir
+
+  • electron-builder  version=26.15.3 os=25.5.0
+  • loaded configuration  file=package.json ("build" field)
+  • @electron/rebuild already used by electron-builder, please consider to remove excess dependency from devDependencies
+
+To ensure your native dependencies are always matched electron version, simply add script `"postinstall": "electron-builder install-app-deps" to your `package.json`
+  • packageManager not detected by file, falling back to environment detection  resolvedPackageManager=npm detected=/Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop
+  • detected workspace root for project using lock file  pm=npm config=undefined resolved=/Users/Jeff/Smith/.hermes/hermes-agent projectDir=/Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop
+[before-pack] removed stale unpacked dir before staging: /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/release/mac-arm64
+[stage-native-deps] staged node-pty (darwin-arm64) -> /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/dist/node_modules/node-pty
+[before-pack] re-staged node-pty for target darwin-arm64
+  • packaging       platform=darwin arch=arm64 electron=40.10.2 appOutDir=release/mac-arm64
+  • using custom unpacked Electron distribution  electronDist=/Users/Jeff/Smith/.hermes/hermes-agent/node_modules/electron/dist
+  • copying unpacked Electron  source=/Users/Jeff/Smith/.hermes/hermes-agent/node_modules/electron/dist/Electron.app destination=/Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/release/mac-arm64/Electron.app
+  • skipped macOS application code signing  reason=, see https://electron.build/code-signing CSC_IDENTITY_AUTO_DISCOVERY=false
+Skipping notarization: APPLE_API_KEY, APPLE_API_KEY_ID, and APPLE_API_ISSUER are not fully configured.
+/Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/release/mac-arm64/Hermes.app: replacing existing signature
+→ Installing desktop workspace dependencies...
+→ Building desktop packaged app...
+  → No Developer ID configured; ad-hoc signing this local rebuild (CSC_IDENTITY_AUTO_DISCOVERY=false)
+✓ Desktop packaged app ready: /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/release/mac-arm64/Hermes.app/Contents/MacOS/Hermes (not launching; --build-only)
+  ✓ Desktop app up to date
+
+✓ Code updated!
+  ✓ Model catalog cache refreshed from checkout
+
+→ Syncing bundled skills...
+  ↑ 1 updated: hermes-agent
+  ~ 2 user-modified (kept)
+    → see them: hermes skills list-modified  (diff/reset to resume updates)
+
+→ Syncing bundled skills to all profiles...
+  default: ~2 user-modified
+  smith: ~2 user-modified
+
+→ Checking configuration for new options...
+  ✓ Configuration is up to date
+
+✓ Update complete!
+→ Stopping gateway (PID 1628) — draining in-flight runs (up to 180s)...
+✓ Service restarted
+
+  ✓ Restarted ai.hermes.gateway-8af49564
+
+Tip: You can now select a provider and model:
+  hermes model              # Select provider and model

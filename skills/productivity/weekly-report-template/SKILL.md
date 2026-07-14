@@ -144,10 +144,18 @@ Project: Returnable Asset — Circulating Box System + MRP (Infor Food Pkg) + Mo
 
 ## Workflow
 1. Pull latest data from Notion (search "Weekly")
-2. Fill in the template with current week's data
-3. Format as plain text email (tables become markdown)
-4. Send to `bed.wuttipong@hotmail.com` via AgentMail
-5. Save copy to Notion if requested
+2. Fetch nested content: tables require `/blocks/{id}/children`, bullets with children need recursive fetch
+3. Fill in the template with current week's data
+4. Format as **HTML email** with inline CSS (NOT plain text)
+5. Send to `bed.wuttipong@hotmail.com` via AgentMail (use `html` field)
+6. Save copy to Notion if requested
+
+## Notion Data Fetching
+- Search: `POST /v1/search` with `{"query": "Weekly", "page_size": 5}`
+- Page blocks: `GET /v1/blocks/{page_id}/children`
+- Nested content (tables, bullets with children): fetch each block's children recursively
+- Table rows: `block['table_row']['cells']` → join with `| ` separator
+- Rich text: `block[type]['rich_text']` → join `plain_text` from each item
 
 ## Sending via AgentMail
 
@@ -180,4 +188,6 @@ HTML template rules:
 - Thai Buddhist year = Western year + 543 (2026 → 2569)
 - Use Thai day names for "สัปดาห์สิ้นสุด" line
 - Tables in email subject line break — keep subject short
-- AgentMail text field doesn't render markdown tables — use plain text alignment
+- AgentMail `text` field does NOT render markdown — use `html` field for formatted emails
+- Email clients (Outlook, Gmail) strip external CSS — always use inline styles
+- Notion tables are separate blocks — must fetch children recursively, not from parent block
