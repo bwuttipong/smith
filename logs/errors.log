@@ -2810,3 +2810,11 @@ telegram.error.TimedOut: Timed out
 2026-07-14 22:28:40,246 WARNING tools.registry: check_fn _check_kanban_orchestrator_mode returned False; dependent tools will be unavailable this turn
 2026-07-14 22:28:40,246 WARNING tools.registry: check_fn check_read_terminal_requirements returned False; dependent tools will be unavailable this turn
 2026-07-14 22:28:40,271 WARNING tools.registry: check_fn check_web_api_key returned False; dependent tools will be unavailable this turn
+2026-07-14 22:31:37,840 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-14 22:31:38,904 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-14 22:31:40,961 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-14 22:31:45,027 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-14 22:33:33,048 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-14 22:33:34,125 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-14 22:33:36,201 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-14 22:33:40,278 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)

@@ -134711,3 +134711,115 @@ Traceback (most recent call last):
   File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1955, in _execute_child
     raise child_exception_type(errno_num, err_msg, err_filename)
 FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+
+===== [2026-07-14 22:31:37] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 184, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 148, in main
+    proc = subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+
+===== [2026-07-14 22:31:38] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 184, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 148, in main
+    proc = subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+
+===== [2026-07-14 22:31:40] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 184, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 148, in main
+    proc = subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+
+===== [2026-07-14 22:31:44] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 184, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 148, in main
+    proc = subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+
+===== [2026-07-14 22:33:32] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 184, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 148, in main
+    proc = subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+
+===== [2026-07-14 22:33:34] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 184, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 148, in main
+    proc = subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+
+===== [2026-07-14 22:33:36] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 184, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 148, in main
+    proc = subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
+
+===== [2026-07-14 22:33:40] starting MCP server 'memory-bridge' =====
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 184, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/tools/mcp_stdio_watchdog.py", line 148, in main
+    proc = subprocess.Popen(
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\Wuttipong.t\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe'
