@@ -773,6 +773,10 @@
       1779286310000000000,
       13411
     ],
+    "productivity/provider-credits/SKILL.md": [
+      1784080764936534938,
+      2132
+    ],
     "productivity/ocr-and-documents/SKILL.md": [
       1779286310000000000,
       5280
@@ -2736,6 +2740,19 @@
         "macos",
         "windows"
       ],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "provider-credits",
+      "category": "productivity",
+      "frontmatter_name": "provider-credits",
+      "description": "Check API credits, token balances, and billing status acr...",
+      "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],

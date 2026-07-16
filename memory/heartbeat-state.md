@@ -3,9 +3,9 @@
 ```json
 {
   "lastChecks": {
-    "heartbeat": 1752525240000,
-    "evening-shutdown": 1752511240000,
-    "morning-briefing": 1752471040000
+    "heartbeat": 1752712440000,
+    "evening-shutdown": 1752712440000,
+    "morning-briefing": 1752666840000
   }
 }
 ```
