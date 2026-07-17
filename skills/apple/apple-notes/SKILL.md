@@ -1,14 +1,15 @@
 ---
 name: apple-notes
 description: "Manage Apple Notes via memo CLI: create, search, edit."
-version: 1.0.0
-author: Hermes Agent
+version: 1.1.0
+author: Hermes
 license: MIT
 platforms: [macos]
 metadata:
   hermes:
-    tags: [Notes, Apple, macOS, note-taking]
+    tags: [Apple, Notes, macOS, Productivity]
     related_skills: [obsidian]
+    homepage: https://github.com/antoniorodr/memo
 prerequisites:
   commands: [memo]
 ---
@@ -82,6 +83,11 @@ memo notes -ex                    # Export to HTML/Markdown
 - Cannot edit notes containing images or attachments
 - Interactive prompts require terminal access (use pty=true if needed)
 - macOS only — requires Apple Notes.app
+
+## Notes
+
+- Notes sync across all Apple devices via iCloud
+- For automation, grant permissions in System Settings → Privacy & Security → Automation
 
 ## Rules
 

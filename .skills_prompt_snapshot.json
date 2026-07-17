@@ -22,8 +22,8 @@
       3709
     ],
     "apple/apple-notes/SKILL.md": [
-      1779286310000000000,
-      2169
+      1784268903640945175,
+      2367
     ],
     "research/DESCRIPTION.md": [
       1779286310000000000,
@@ -162,8 +162,8 @@
       4109
     ],
     "openclaw-imports/gog/SKILL.md": [
-      1783699928425430988,
-      2586
+      1784294450236634808,
+      3147
     ],
     "openclaw-imports/evening-shutdown/SKILL.md": [
       1779029065000000000,
@@ -1478,7 +1478,7 @@
       "skill_name": "kanban-worker",
       "category": "devops",
       "frontmatter_name": "kanban-worker",
-      "description": "",
+      "description": "Pitfalls, examples, and edge cases for Hermes Kanban work...",
       "platforms": [
         "linux",
         "macos",

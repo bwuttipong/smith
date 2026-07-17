@@ -1,64 +1,84 @@
 # OpenRouter — Credits Reference
 
-## API Endpoint
+## Two Endpoints — Different Data
+
+### 1. `/v1/credits` — Account Balance (RECOMMENDED)
+Shows total account balance across all keys. This is what you want for "how much do I have left?"
 
 ```bash
-curl -s "https://openrouter.ai/api/v1/auth/key" \
+source ~/.openclaw/.env && curl -s "https://openrouter.ai/api/v1/credits" \
   -H "Authorization: Bearer $OPENROUTER_API_KEY"
 ```
 
-## Response Format
+Response:
+```json
+{
+  "data": {
+    "total_credits": 52,        // Total deposited (USD)
+    "total_usage": 41.56        // Total spent (USD)
+  }
+}
+```
+**Remaining = total_credits - total_usage**
 
+### 2. `/v1/auth/key` — Per-Key Details
+Shows limits, usage breakdown, and tier info for a specific key.
+
+```bash
+source ~/.openclaw/.env && curl -s "https://openrouter.ai/api/v1/auth/key" \
+  -H "Authorization: Bearer $OPENROUTER_API_KEY"
+```
+
+Response:
 ```json
 {
   "data": {
     "label": "sk-or-v1-569...9b9",
-    "is_management_key": false,
-    "is_provisioning_key": false,
-    "limit": 0.01,              // Credit limit in USD (0 = unlimited)
-    "limit_remaining": 0,       // Remaining credits in USD
-    "limit_reset": null,        // ISO timestamp or null
-    "include_byok_in_limit": false,
-    "usage": 18.026186499,      // Total usage in USD
-    "usage_daily": 0,           // Daily usage in USD
-    "usage_weekly": 0,          // Weekly usage in USD
-    "usage_monthly": 0,         // Monthly usage in USD
-    "byok_usage": 0,            // Bring-your-own-key usage
-    "byok_usage_daily": 0,
-    "byok_usage_weekly": 0,
-    "byok_usage_monthly": 0,
+    "limit": 0.01,              // Per-key credit limit (0 = unlimited)
+    "limit_remaining": 0,       // Remaining on this key's limit
+    "usage": 18.026186499,      // This key's usage
+    "usage_daily": 0,
+    "usage_weekly": 0,
+    "usage_monthly": 0,
     "is_free_tier": false,
-    "expires_at": null,         // ISO timestamp or null
-    "creator_user_id": "user_3Acnw8TjZjbBlJqMY9iTDeQvNmp",
-    "rate_limit": {
-      "requests": -1,           // -1 = unlimited
-      "interval": "10s",
-      "note": "Deprecated field"
-    }
+    "expires_at": null
   }
 }
 ```
+
+⚠️ **The `limit` field is the PER-KEY limit, not account balance.** Use `/v1/credits` for actual balance.
+
+## Quick Check One-Liner
+
+```bash
+source ~/.openclaw/.env && curl -s "https://openrouter.ai/api/v1/credits" -H "Authorization: Bearer $OPENROUTER_API_KEY" | python3 -c "import json,sys; d=json.load(sys.stdin)['data']; print(f\"Balance: \${d['total_credits'] - d['total_usage']:.2f} remaining\nUsed: \${d['total_usage']:.2f} / \${d['total_credits']:.2f}\")"
+```
+
+## Free Models
+
+Free models (`:free` suffix) don't consume credits. Available to everyone regardless of balance.
+
+| Model | Suffix |
+|-------|--------|
+| tencent/hy3 | :free |
+| nvidia/nemotron-3-ultra-550b-a55b | :free |
+| google/gemma-4-31b-it | :free |
+
+Rate limits apply on free tier (~20-30 req/min, ~500K-1M tokens/day).
 
 ## Key Fields
 
 | Field | Meaning |
 |-------|---------|
-| `limit` | Total credit limit in USD (0 = unlimited) |
-| `limit_remaining` | Remaining credits (0 = empty) |
-| `usage` | Total spent in USD |
+| `total_credits` | Total deposited (USD) |
+| `total_usage` | Total spent (USD) |
+| Remaining | `total_credits - total_usage` |
 | `is_free_tier` | Whether on free tier |
-| `limit_reset` | When credits reset (null = no reset) |
-
-## Quick Check One-Liner
-
-```bash
-source ~/.openclaw/.env && curl -s "https://openrouter.ai/api/v1/auth/key" -H "Authorization: Bearer $OPENROUTER_API_KEY" | python3 -c "import json,sys; d=json.load(sys.stdin)['data']; print(f\"Credits: \${d['limit_remaining']:.2f} / \${d['limit']:.2f}\nUsed: \${d['usage']:.2f}\nFree tier: {d['is_free_tier']}\")"
-```
 
 ## Troubleshooting
 
-- **"User not found" (401)**: API key invalid or wrong key — check `~/.openclaw/.env` vs `~/.hermes/.env`
-- **Rate limits**: Check `rate_limit.requests` (-1 = unlimited)
+- **"User not found" (401)**: API key invalid — check `~/.openclaw/.env` vs `~/.hermes/.env`
+- **Per-key limit confusion**: `/auth/key` shows per-key limits; use `/credits` for account balance
 - **Key location varies**: Some users have keys in `~/.openclaw/.env`, others in `~/.hermes/.env`
 
 ## Notes

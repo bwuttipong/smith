@@ -50,3 +50,13 @@ Tokens expire after ~2 weeks of inactivity. Symptom: `invalid_grant "Token has b
 **Do NOT** try to curl the callback URL yourself — the local server only lives as long as the background process, and it restarts with a new port each time. Just give the user the URL.
 
 Check token age: `gog auth list` — the timestamp column shows last refresh.
+
+### Calendar Quick Check Pattern
+For "do I have work tomorrow" type queries:
+```bash
+gog calendar events primary --from "YYYY-MM-DDT00:00:00+07:00" --to "YYYY-MM-DDT23:59:59+07:00" --json
+```
+Use `primary` as calendarId for the default calendar. Parse the JSON `events` array — if empty, no events that day.
+
+### Prefer gog over google-workspace
+The `gog` CLI is simpler and already authenticated for this user. Use it as the default for Google Workspace tasks (Gmail, Calendar, Drive, Sheets, Docs) instead of the heavier `google-workspace` Python wrapper.

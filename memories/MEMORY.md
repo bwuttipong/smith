@@ -4,7 +4,7 @@ Personal Preferences: lowercase, emojis, casual. Bear Notes (grizzly CLI at /opt
 §
 Default X/Twitter search: agent-reach twitter-cli. Activate: cd ~/Smith/agent-reach && source .venv/bin/activate + export PATH + TWITTER env vars.
 §
-Commute Traffic: TomTom key2 operational. Trigger: "traffic X to Y". Outer road route: Wellgrow Industrial Estate → Ban Suan via ทางคู่ขนาน + road 3609 (~34km, ~1h 7min). User prefers outer roads.
+Commute Traffic: Google Maps via commute-traffic skill. TPK Flexpak, Bang Prakong, Chachoengsao → Ban Suan, Chonburi (~30km, ~37-39min, light traffic). User prefers outer roads.
 §
 Jeff prefers English for task lists and work content. Company data stays in chat only — never save externally.
 §
@@ -18,4 +18,6 @@ End-of-day ritual: git add -A && git commit -m "date summary" && git push on BOT
 §
 Work: TPN & TPK Flexpak (Thung Hua Sinn Group). VB.NET + SQL Server. Slack #projects. Notion: ~/.openclaw/.env. พี่วัชรพงศ์ at TPK. Weekly report: Thai HTML via AgentMail (always use `html` field, inline CSS only), subject: "อัปเดตประจำสัปดาห์: ... (สัปดาห์สิ้นสุด DD MMM YYYY)"
 §
-Company: TPN/TPK Flexpak. NO internet on work laptop — can't access websites. Blocks AI platforms. Workaround: photos → vision. Use phone for external checks. England fan 🏴󠁧󠁢󠁥󠁮󠁧󠁿.
+Company: TPN/TPK. NO internet on work laptop. Blocks AI platforms. Photos→vision workaround. Phone for external checks.
+§
+Agent OS: ~/Workspaces/agentos — Next.js dashboard (localhost:3737) with 6 AI agent tabs, status indicators, voice input. Includes buildermethods/agent-os standards framework. Obsidian vault has Agent OS folder. Built July 2026.

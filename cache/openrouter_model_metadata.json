@@ -1,4 +1,88 @@
 {
+"moonshotai/kimi-k3":{
+"context_length":1048576,
+"max_completion_tokens":null,
+"name":"MoonshotAI: Kimi K3",
+"pricing":{
+"prompt":"0.000003",
+"completion":"0.000015",
+"input_cache_read":"0.0000003"
+}
+},
+"kimi-k3":{
+"context_length":1048576,
+"max_completion_tokens":null,
+"name":"MoonshotAI: Kimi K3",
+"pricing":{
+"prompt":"0.000003",
+"completion":"0.000015",
+"input_cache_read":"0.0000003"
+}
+},
+"moonshotai/kimi-k3-20260715":{
+"context_length":1048576,
+"max_completion_tokens":null,
+"name":"MoonshotAI: Kimi K3",
+"pricing":{
+"prompt":"0.000003",
+"completion":"0.000015",
+"input_cache_read":"0.0000003"
+}
+},
+"kimi-k3-20260715":{
+"context_length":1048576,
+"max_completion_tokens":null,
+"name":"MoonshotAI: Kimi K3",
+"pricing":{
+"prompt":"0.000003",
+"completion":"0.000015",
+"input_cache_read":"0.0000003"
+}
+},
+"meta/muse-spark-1.1":{
+"context_length":1048576,
+"max_completion_tokens":null,
+"name":"Meta: Muse Spark 1.1",
+"pricing":{
+"prompt":"0.00000125",
+"completion":"0.00000425",
+"web_search":"0.0025",
+"input_cache_read":"0.00000015"
+}
+},
+"muse-spark-1.1":{
+"context_length":1048576,
+"max_completion_tokens":null,
+"name":"Meta: Muse Spark 1.1",
+"pricing":{
+"prompt":"0.00000125",
+"completion":"0.00000425",
+"web_search":"0.0025",
+"input_cache_read":"0.00000015"
+}
+},
+"meta/muse-spark-1.1-20260709":{
+"context_length":1048576,
+"max_completion_tokens":null,
+"name":"Meta: Muse Spark 1.1",
+"pricing":{
+"prompt":"0.00000125",
+"completion":"0.00000425",
+"web_search":"0.0025",
+"input_cache_read":"0.00000015"
+}
+},
+"muse-spark-1.1-20260709":{
+"context_length":1048576,
+"max_completion_tokens":null,
+"name":"Meta: Muse Spark 1.1",
+"pricing":{
+"prompt":"0.00000125",
+"completion":"0.00000425",
+"web_search":"0.0025",
+"input_cache_read":"0.00000015"
+}
+},
 "kwaipilot/kat-coder-air-v2.5":{
 "context_length":256000,
 "max_completion_tokens":80000,
@@ -945,7 +1029,7 @@
 },
 "google/gemini-3.1-flash-lite-image":{
 "context_length":65536,
-"max_completion_tokens":66000,
+"max_completion_tokens":65536,
 "name":"Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
 "pricing":{
 "prompt":"0.00000025",
@@ -956,7 +1040,7 @@
 },
 "gemini-3.1-flash-lite-image":{
 "context_length":65536,
-"max_completion_tokens":66000,
+"max_completion_tokens":65536,
 "name":"Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
 "pricing":{
 "prompt":"0.00000025",
@@ -967,7 +1051,7 @@
 },
 "google/gemini-3.1-flash-lite-image-20260630":{
 "context_length":65536,
-"max_completion_tokens":66000,
+"max_completion_tokens":65536,
 "name":"Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
 "pricing":{
 "prompt":"0.00000025",
@@ -978,7 +1062,7 @@
 },
 "gemini-3.1-flash-lite-image-20260630":{
 "context_length":65536,
-"max_completion_tokens":66000,
+"max_completion_tokens":65536,
 "name":"Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
 "pricing":{
 "prompt":"0.00000025",
@@ -1236,9 +1320,9 @@
 "max_completion_tokens":131072,
 "name":"Z.ai: GLM 5.2",
 "pricing":{
-"prompt":"0.0000008638",
-"completion":"0.0000027148",
-"input_cache_read":"0.00000016042"
+"prompt":"0.0000009268",
+"completion":"0.0000029128",
+"input_cache_read":"0.00000017212"
 }
 },
 "glm-5.2":{
@@ -1246,9 +1330,9 @@
 "max_completion_tokens":131072,
 "name":"Z.ai: GLM 5.2",
 "pricing":{
-"prompt":"0.0000008638",
-"completion":"0.0000027148",
-"input_cache_read":"0.00000016042"
+"prompt":"0.0000009268",
+"completion":"0.0000029128",
+"input_cache_read":"0.00000017212"
 }
 },
 "z-ai/glm-5.2-20260616":{
@@ -1256,9 +1340,9 @@
 "max_completion_tokens":131072,
 "name":"Z.ai: GLM 5.2",
 "pricing":{
-"prompt":"0.0000008638",
-"completion":"0.0000027148",
-"input_cache_read":"0.00000016042"
+"prompt":"0.0000009268",
+"completion":"0.0000029128",
+"input_cache_read":"0.00000017212"
 }
 },
 "glm-5.2-20260616":{
@@ -1266,9 +1350,9 @@
 "max_completion_tokens":131072,
 "name":"Z.ai: GLM 5.2",
 "pricing":{
-"prompt":"0.0000008638",
-"completion":"0.0000027148",
-"input_cache_read":"0.00000016042"
+"prompt":"0.0000009268",
+"completion":"0.0000029128",
+"input_cache_read":"0.00000017212"
 }
 },
 "openrouter/fusion":{
@@ -1294,9 +1378,9 @@
 "max_completion_tokens":262144,
 "name":"MoonshotAI: Kimi K2.7 Code",
 "pricing":{
-"prompt":"0.000000719",
-"completion":"0.00000349",
-"input_cache_read":"0.000000149"
+"prompt":"0.00000075",
+"completion":"0.0000035",
+"input_cache_read":"0.00000016"
 }
 },
 "kimi-k2.7-code":{
@@ -1304,9 +1388,9 @@
 "max_completion_tokens":262144,
 "name":"MoonshotAI: Kimi K2.7 Code",
 "pricing":{
-"prompt":"0.000000719",
-"completion":"0.00000349",
-"input_cache_read":"0.000000149"
+"prompt":"0.00000075",
+"completion":"0.0000035",
+"input_cache_read":"0.00000016"
 }
 },
 "moonshotai/kimi-k2.7-code-20260612":{
@@ -1314,9 +1398,9 @@
 "max_completion_tokens":262144,
 "name":"MoonshotAI: Kimi K2.7 Code",
 "pricing":{
-"prompt":"0.000000719",
-"completion":"0.00000349",
-"input_cache_read":"0.000000149"
+"prompt":"0.00000075",
+"completion":"0.0000035",
+"input_cache_read":"0.00000016"
 }
 },
 "kimi-k2.7-code-20260612":{
@@ -1324,9 +1408,9 @@
 "max_completion_tokens":262144,
 "name":"MoonshotAI: Kimi K2.7 Code",
 "pricing":{
-"prompt":"0.000000719",
-"completion":"0.00000349",
-"input_cache_read":"0.000000149"
+"prompt":"0.00000075",
+"completion":"0.0000035",
+"input_cache_read":"0.00000016"
 }
 },
 "~anthropic/claude-fable-latest":{
@@ -1783,10 +1867,10 @@
 "max_completion_tokens":65536,
 "name":"Qwen: Qwen3.7 Max",
 "pricing":{
-"prompt":"0.00000125",
-"completion":"0.00000375",
-"input_cache_read":"0.00000025",
-"input_cache_write":"0.0000015625"
+"prompt":"0.000001475",
+"completion":"0.000004425",
+"input_cache_read":"0.000000295",
+"input_cache_write":"0.00000184375"
 }
 },
 "qwen3.7-max":{
@@ -1794,10 +1878,10 @@
 "max_completion_tokens":65536,
 "name":"Qwen: Qwen3.7 Max",
 "pricing":{
-"prompt":"0.00000125",
-"completion":"0.00000375",
-"input_cache_read":"0.00000025",
-"input_cache_write":"0.0000015625"
+"prompt":"0.000001475",
+"completion":"0.000004425",
+"input_cache_read":"0.000000295",
+"input_cache_write":"0.00000184375"
 }
 },
 "qwen/qwen3.7-max-20260520":{
@@ -1805,10 +1889,10 @@
 "max_completion_tokens":65536,
 "name":"Qwen: Qwen3.7 Max",
 "pricing":{
-"prompt":"0.00000125",
-"completion":"0.00000375",
-"input_cache_read":"0.00000025",
-"input_cache_write":"0.0000015625"
+"prompt":"0.000001475",
+"completion":"0.000004425",
+"input_cache_read":"0.000000295",
+"input_cache_write":"0.00000184375"
 }
 },
 "qwen3.7-max-20260520":{
@@ -1816,10 +1900,10 @@
 "max_completion_tokens":65536,
 "name":"Qwen: Qwen3.7 Max",
 "pricing":{
-"prompt":"0.00000125",
-"completion":"0.00000375",
-"input_cache_read":"0.00000025",
-"input_cache_write":"0.0000015625"
+"prompt":"0.000001475",
+"completion":"0.000004425",
+"input_cache_read":"0.000000295",
+"input_cache_write":"0.00000184375"
 }
 },
 "x-ai/grok-build-0.1":{
@@ -2544,23 +2628,23 @@
 }
 },
 "~moonshotai/kimi-latest":{
-"context_length":262144,
-"max_completion_tokens":262144,
+"context_length":1048576,
+"max_completion_tokens":null,
 "name":"MoonshotAI Kimi Latest",
 "pricing":{
-"prompt":"0.00000066",
-"completion":"0.00000341",
-"input_cache_read":"0.00000015"
+"prompt":"0.000003",
+"completion":"0.000015",
+"input_cache_read":"0.0000003"
 }
 },
 "kimi-latest":{
-"context_length":262144,
-"max_completion_tokens":262144,
+"context_length":1048576,
+"max_completion_tokens":null,
 "name":"MoonshotAI Kimi Latest",
 "pricing":{
-"prompt":"0.00000066",
-"completion":"0.00000341",
-"input_cache_read":"0.00000015"
+"prompt":"0.000003",
+"completion":"0.000015",
+"input_cache_read":"0.0000003"
 }
 },
 "~google/gemini-flash-latest":{
@@ -3070,7 +3154,7 @@
 "pricing":{
 "prompt":"0.000000098",
 "completion":"0.000000196",
-"input_cache_read":"0.00000002"
+"input_cache_read":"0.0000000196"
 }
 },
 "deepseek-v4-flash":{
@@ -3080,7 +3164,7 @@
 "pricing":{
 "prompt":"0.000000098",
 "completion":"0.000000196",
-"input_cache_read":"0.00000002"
+"input_cache_read":"0.0000000196"
 }
 },
 "deepseek/deepseek-v4-flash-20260423":{
@@ -3090,7 +3174,7 @@
 "pricing":{
 "prompt":"0.000000098",
 "completion":"0.000000196",
-"input_cache_read":"0.00000002"
+"input_cache_read":"0.0000000196"
 }
 },
 "deepseek-v4-flash-20260423":{
@@ -3100,7 +3184,7 @@
 "pricing":{
 "prompt":"0.000000098",
 "completion":"0.000000196",
-"input_cache_read":"0.00000002"
+"input_cache_read":"0.0000000196"
 }
 },
 "inclusionai/ling-2.6-1t":{
@@ -3397,42 +3481,42 @@
 },
 "moonshotai/kimi-k2.6":{
 "context_length":262144,
-"max_completion_tokens":262144,
+"max_completion_tokens":null,
 "name":"MoonshotAI: Kimi K2.6",
 "pricing":{
-"prompt":"0.00000066",
-"completion":"0.00000341",
-"input_cache_read":"0.000000144"
+"prompt":"0.00000095",
+"completion":"0.000004",
+"input_cache_read":"0.00000016"
 }
 },
 "kimi-k2.6":{
 "context_length":262144,
-"max_completion_tokens":262144,
+"max_completion_tokens":null,
 "name":"MoonshotAI: Kimi K2.6",
 "pricing":{
-"prompt":"0.00000066",
-"completion":"0.00000341",
-"input_cache_read":"0.000000144"
+"prompt":"0.00000095",
+"completion":"0.000004",
+"input_cache_read":"0.00000016"
 }
 },
 "moonshotai/kimi-k2.6-20260420":{
 "context_length":262144,
-"max_completion_tokens":262144,
+"max_completion_tokens":null,
 "name":"MoonshotAI: Kimi K2.6",
 "pricing":{
-"prompt":"0.00000066",
-"completion":"0.00000341",
-"input_cache_read":"0.000000144"
+"prompt":"0.00000095",
+"completion":"0.000004",
+"input_cache_read":"0.00000016"
 }
 },
 "kimi-k2.6-20260420":{
 "context_length":262144,
-"max_completion_tokens":262144,
+"max_completion_tokens":null,
 "name":"MoonshotAI: Kimi K2.6",
 "pricing":{
-"prompt":"0.00000066",
-"completion":"0.00000341",
-"input_cache_read":"0.000000144"
+"prompt":"0.00000095",
+"completion":"0.000004",
+"input_cache_read":"0.00000016"
 }
 },
 "anthropic/claude-opus-4.7":{
@@ -4075,9 +4159,9 @@
 "max_completion_tokens":131072,
 "name":"MiniMax: MiniMax M2.7",
 "pricing":{
-"prompt":"0.0000003",
-"completion":"0.0000012",
-"input_cache_read":"0.00000006"
+"prompt":"0.00000025",
+"completion":"0.000001",
+"input_cache_read":"0.00000005"
 }
 },
 "minimax-m2.7":{
@@ -4085,9 +4169,9 @@
 "max_completion_tokens":131072,
 "name":"MiniMax: MiniMax M2.7",
 "pricing":{
-"prompt":"0.0000003",
-"completion":"0.0000012",
-"input_cache_read":"0.00000006"
+"prompt":"0.00000025",
+"completion":"0.000001",
+"input_cache_read":"0.00000005"
 }
 },
 "minimax/minimax-m2.7-20260318":{
@@ -4095,9 +4179,9 @@
 "max_completion_tokens":131072,
 "name":"MiniMax: MiniMax M2.7",
 "pricing":{
-"prompt":"0.0000003",
-"completion":"0.0000012",
-"input_cache_read":"0.00000006"
+"prompt":"0.00000025",
+"completion":"0.000001",
+"input_cache_read":"0.00000005"
 }
 },
 "minimax-m2.7-20260318":{
@@ -4105,9 +4189,9 @@
 "max_completion_tokens":131072,
 "name":"MiniMax: MiniMax M2.7",
 "pricing":{
-"prompt":"0.0000003",
-"completion":"0.0000012",
-"input_cache_read":"0.00000006"
+"prompt":"0.00000025",
+"completion":"0.000001",
+"input_cache_read":"0.00000005"
 }
 },
 "openai/gpt-5.4-nano":{
@@ -5372,9 +5456,8 @@
 "max_completion_tokens":65536,
 "name":"Qwen: Qwen3.5 397B A17B",
 "pricing":{
-"prompt":"0.00000045",
-"completion":"0.000003",
-"input_cache_read":"0.000000225"
+"prompt":"0.00000039",
+"completion":"0.00000234"
 }
 },
 "qwen3.5-397b-a17b":{
@@ -5382,9 +5465,8 @@
 "max_completion_tokens":65536,
 "name":"Qwen: Qwen3.5 397B A17B",
 "pricing":{
-"prompt":"0.00000045",
-"completion":"0.000003",
-"input_cache_read":"0.000000225"
+"prompt":"0.00000039",
+"completion":"0.00000234"
 }
 },
 "qwen/qwen3.5-397b-a17b-20260216":{
@@ -5392,9 +5474,8 @@
 "max_completion_tokens":65536,
 "name":"Qwen: Qwen3.5 397B A17B",
 "pricing":{
-"prompt":"0.00000045",
-"completion":"0.000003",
-"input_cache_read":"0.000000225"
+"prompt":"0.00000039",
+"completion":"0.00000234"
 }
 },
 "qwen3.5-397b-a17b-20260216":{
@@ -5402,9 +5483,8 @@
 "max_completion_tokens":65536,
 "name":"Qwen: Qwen3.5 397B A17B",
 "pricing":{
-"prompt":"0.00000045",
-"completion":"0.000003",
-"input_cache_read":"0.000000225"
+"prompt":"0.00000039",
+"completion":"0.00000234"
 }
 },
 "minimax/minimax-m2.5":{
@@ -5628,7 +5708,7 @@
 "max_completion_tokens":262144,
 "name":"Qwen: Qwen3 Coder Next",
 "pricing":{
-"prompt":"0.00000012",
+"prompt":"0.00000011",
 "completion":"0.0000008",
 "input_cache_read":"0.00000007"
 }
@@ -5638,7 +5718,7 @@
 "max_completion_tokens":262144,
 "name":"Qwen: Qwen3 Coder Next",
 "pricing":{
-"prompt":"0.00000012",
+"prompt":"0.00000011",
 "completion":"0.0000008",
 "input_cache_read":"0.00000007"
 }
@@ -5648,7 +5728,7 @@
 "max_completion_tokens":262144,
 "name":"Qwen: Qwen3 Coder Next",
 "pricing":{
-"prompt":"0.00000012",
+"prompt":"0.00000011",
 "completion":"0.0000008",
 "input_cache_read":"0.00000007"
 }
@@ -5658,7 +5738,7 @@
 "max_completion_tokens":262144,
 "name":"Qwen: Qwen3 Coder Next",
 "pricing":{
-"prompt":"0.00000012",
+"prompt":"0.00000011",
 "completion":"0.0000008",
 "input_cache_read":"0.00000007"
 }
@@ -7469,24 +7549,6 @@
 "completion":"0.000008",
 "web_search":"0.01",
 "input_cache_read":"0.0000005"
-}
-},
-"nvidia/llama-3.3-nemotron-super-49b-v1.5":{
-"context_length":131072,
-"max_completion_tokens":16384,
-"name":"NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
-"pricing":{
-"prompt":"0.0000004",
-"completion":"0.0000004"
-}
-},
-"llama-3.3-nemotron-super-49b-v1.5":{
-"context_length":131072,
-"max_completion_tokens":16384,
-"name":"NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
-"pricing":{
-"prompt":"0.0000004",
-"completion":"0.0000004"
 }
 },
 "google/gemini-2.5-flash-image":{
@@ -9746,37 +9808,37 @@
 },
 "qwen/qwen3-14b":{
 "context_length":131702,
-"max_completion_tokens":40960,
+"max_completion_tokens":16384,
 "name":"Qwen: Qwen3 14B",
 "pricing":{
-"prompt":"0.0000001",
+"prompt":"0.00000012",
 "completion":"0.00000024"
 }
 },
 "qwen3-14b":{
 "context_length":131702,
-"max_completion_tokens":40960,
+"max_completion_tokens":16384,
 "name":"Qwen: Qwen3 14B",
 "pricing":{
-"prompt":"0.0000001",
+"prompt":"0.00000012",
 "completion":"0.00000024"
 }
 },
 "qwen/qwen3-14b-04-28":{
 "context_length":131702,
-"max_completion_tokens":40960,
+"max_completion_tokens":16384,
 "name":"Qwen: Qwen3 14B",
 "pricing":{
-"prompt":"0.0000001",
+"prompt":"0.00000012",
 "completion":"0.00000024"
 }
 },
 "qwen3-14b-04-28":{
 "context_length":131702,
-"max_completion_tokens":40960,
+"max_completion_tokens":16384,
 "name":"Qwen: Qwen3 14B",
 "pricing":{
-"prompt":"0.0000001",
+"prompt":"0.00000012",
 "completion":"0.00000024"
 }
 },
@@ -10436,22 +10498,20 @@
 },
 "google/gemma-3-27b-it":{
 "context_length":131072,
-"max_completion_tokens":131072,
+"max_completion_tokens":null,
 "name":"Google: Gemma 3 27B",
 "pricing":{
-"prompt":"0.00000008",
-"completion":"0.00000045",
-"input_cache_read":"0.00000004"
+"prompt":"0.0000001",
+"completion":"0.0000003"
 }
 },
 "gemma-3-27b-it":{
 "context_length":131072,
-"max_completion_tokens":131072,
+"max_completion_tokens":null,
 "name":"Google: Gemma 3 27B",
 "pricing":{
-"prompt":"0.00000008",
-"completion":"0.00000045",
-"input_cache_read":"0.00000004"
+"prompt":"0.0000001",
+"completion":"0.0000003"
 }
 },
 "thedrummer/skyfall-36b-v2":{
@@ -11282,24 +11342,6 @@
 "completion":"0.0000005"
 }
 },
-"meta-llama/llama-3.2-11b-vision-instruct":{
-"context_length":131072,
-"max_completion_tokens":16384,
-"name":"Meta: Llama 3.2 11B Vision Instruct",
-"pricing":{
-"prompt":"0.000000345",
-"completion":"0.000000345"
-}
-},
-"llama-3.2-11b-vision-instruct":{
-"context_length":131072,
-"max_completion_tokens":16384,
-"name":"Meta: Llama 3.2 11B Vision Instruct",
-"pricing":{
-"prompt":"0.000000345",
-"completion":"0.000000345"
-}
-},
 "meta-llama/llama-3.2-1b-instruct":{
 "context_length":131072,
 "max_completion_tokens":60000,
@@ -11329,11 +11371,11 @@
 },
 "llama-3.2-3b-instruct":{
 "context_length":131072,
-"max_completion_tokens":131072,
+"max_completion_tokens":80000,
 "name":"Meta: Llama 3.2 3B Instruct",
 "pricing":{
-"prompt":"0.00000005",
-"completion":"0.00000033"
+"prompt":"0.0000000509",
+"completion":"0.000000335"
 }
 },
 "meta-llama/llama-3.2-3b-instruct:free":{
@@ -11561,8 +11603,8 @@
 "max_completion_tokens":16384,
 "name":"Mistral: Mistral Nemo",
 "pricing":{
-"prompt":"0.00000002",
-"completion":"0.00000004"
+"prompt":"0.000000019",
+"completion":"0.00000003"
 }
 },
 "mistral-nemo":{
@@ -11570,8 +11612,8 @@
 "max_completion_tokens":16384,
 "name":"Mistral: Mistral Nemo",
 "pricing":{
-"prompt":"0.00000002",
-"completion":"0.00000004"
+"prompt":"0.000000019",
+"completion":"0.00000003"
 }
 },
 "openai/gpt-4o-mini":{
