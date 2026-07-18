@@ -1,0 +1,790 @@
+- generic
+  - link "Skip to navigation" [ref=e1]
+  - link "Skip to main content" [ref=e2]
+  - link "Skip to right column" [ref=e3]
+  - banner
+    - banner
+      - heading "Yahoo Finance" [level=1, ref=e5]
+      - link "Yahoo Finance" [ref=e6]
+      - search
+        - searchbox "Search for news, tickers or companies" [ref=e9]
+        - button "Search" [ref=e10]
+      - navigation
+        - list
+          - listitem [level=1]
+            - link "News" [ref=e26]
+          - listitem [level=1]
+            - link "Finance" [ref=e27]
+          - listitem [level=1]
+            - link "Sports" [ref=e28]
+          - listitem [level=1]
+            - button "More" [expanded=false, ref=e29]
+      - toolbar
+        - generic
+          - button "Notifications" [expanded=false, ref=e23]
+        - link "Check your mail, link" [ref=e24]
+        - link "Sign in" [ref=e25]
+    - navigation "Navigation" [ref=e4]
+      - menubar "Navigation menubar"
+        - menuitem "My Portfolio" [ref=e11]
+          - StaticText "My Portfolio"
+        - menuitem "News" [ref=e12]
+          - StaticText "News"
+        - menuitem "Markets" [ref=e13]
+          - StaticText "Markets"
+        - menuitem "Calendars" [ref=e14]
+          - StaticText "Calendars"
+        - menuitem "Research" [ref=e15]
+          - StaticText "Research"
+        - menuitem "Community" [ref=e16]
+          - StaticText "Community"
+        - menuitem "Personal Finance" [ref=e17]
+          - StaticText "Personal Finance"
+        - menuitem "Videos" [ref=e18]
+          - StaticText "Videos"
+        - menuitem "Watch Now" [ref=e19]
+          - StaticText "Watch Now"
+      - button "Network" [ref=e7]
+        - StaticText "Network"
+  - generic
+    - complementary
+      - button "U.S. markets closed" [ref=e8]
+      - menu
+        - button "US Markets" [ref=e20]
+          - StaticText "US Markets"
+      - generic
+        - link "S&P 500" [ref=e30]
+          - StaticText "S&P 500"
+        - StaticText "7,457.69"
+        - generic
+          - StaticText "-76.08 -1.01%"
+        - image
+        - link "Dow 30" [ref=e31]
+          - StaticText "Dow 30"
+        - StaticText "52,146.42"
+        - generic
+          - StaticText "-406.55 -0.77%"
+        - image
+        - link "Nasdaq" [ref=e32]
+          - StaticText "Nasdaq"
+        - StaticText "25,520.24"
+        - generic
+          - StaticText "-361.70 -1.40%"
+        - image
+        - link "Russell 2000" [ref=e33]
+          - StaticText "Russell 2000"
+        - StaticText "2,962.22"
+        - generic
+          - StaticText "-12.35 -0.42%"
+        - image
+        - link "VIX" [ref=e34]
+          - StaticText "VIX"
+        - StaticText "18.77"
+        - generic
+          - StaticText "+2.04 +12.19%"
+        - image
+        - link "Gold" [ref=e35]
+          - StaticText "Gold"
+        - StaticText "4,018.80"
+        - generic
+          - StaticText "+26.70 +0.67%"
+        - image
+        - link "Bitcoin USD" [ref=e36]
+          - StaticText "Bitcoin USD"
+        - StaticText "64,092.12"
+        - generic
+          - StaticText "+542.01 +0.85%"
+        - image
+        - link "Crude Oil Aug 26" [ref=e37]
+          - StaticText "Crude Oil Aug 26"
+        - StaticText "81.78"
+        - generic
+          - StaticText "+3.50 +4.47%"
+        - image
+      - generic
+        - button "prev" [disabled, ref=e21]
+        - button "next" [ref=e22]
+    - main
+      - generic
+        - complementary "Left navigation"
+          - navigation "XLK navigation" [ref=e38]
+            - menubar "XLK navigation menubar"
+              - menuitem "Summary" [ref=e67]
+                - StaticText "Summary"
+              - menuitem "News" [ref=e68]
+                - StaticText "News"
+              - menuitem "Chart" [ref=e69]
+                - StaticText "Chart"
+              - menuitem "Conversations" [ref=e70]
+                - StaticText "Conversations"
+              - menuitem "Historical Data" [ref=e71]
+                - StaticText "Historical Data"
+              - menuitem "Profile" [ref=e72]
+                - StaticText "Profile"
+              - menuitem "Options" [ref=e73]
+                - StaticText "Options"
+              - menuitem "Holdings" [ref=e74]
+                - StaticText "Holdings"
+              - menuitem "Performance" [ref=e75]
+                - StaticText "Performance"
+              - menuitem "Risk" [ref=e76]
+                - StaticText "Risk"
+        - generic
+          - generic
+            - generic
+              - generic
+                - StaticText "NYSEArca - Delayed Quote"
+                - StaticText "USD"
+                - heading "State Street Technology Select Sector SPDR ETF (XLK)" [level=1, ref=e124]
+                  - StaticText "State Street Technology Select Sector SPDR ETF (XLK)"
+                - button "Follow" [ref=e77]
+              - generic
+                - StaticText "175.59"
+                - StaticText "-1.93"
+                - StaticText "(-1.09%)"
+                - StaticText "At close: 4:00:00 PM EDT"
+              - generic
+                - StaticText "175.48"
+                - StaticText "-0.11"
+                - StaticText "(-0.06%)"
+                - StaticText "After hours: 7:59:52 PM EDT"
+            - generic
+              - tablist "Chart Range Bar"
+                - tab "1D" [selected, ref=e78]
+                - tab "5D" [ref=e79]
+                  - StaticText "5D"
+                - tab "1M" [ref=e80]
+                  - StaticText "1M"
+                - tab "6M" [ref=e81]
+                  - StaticText "6M"
+                - tab "YTD" [ref=e82]
+                  - StaticText "YTD"
+                - tab "1Y" [ref=e83]
+                  - StaticText "1Y"
+                - tab "5Y" [ref=e84]
+                  - StaticText "5Y"
+                - tab "All" [ref=e85]
+                  - StaticText "All"
+              - button "Chart Type" [ref=e86]
+              - link "Advanced Chart" [ref=e39]
+                - StaticText "Advanced Chart"
+              - link "AlphaSpace Chart" [ref=e40]
+                - StaticText "AlphaSpace Chart"
+              - button "Chart settings" [ref=e41]
+              - generic
+                - image "This 1 minute mountain chart displays price over time for symbol XLK between 7/17/2026, 4:00:00 AM and 7/20/2026, 4:29:00 AM. The chart also displays Volume Underlay study."
+            - list
+              - listitem [level=1]
+                - StaticText "Previous Close"
+                - StaticText "177.52"
+              - listitem [level=1]
+                - StaticText "Open"
+                - StaticText "172.85"
+              - listitem [level=1]
+                - StaticText "Bid"
+                - StaticText "175.10 x 10000"
+              - listitem [level=1]
+                - StaticText "Ask"
+                - StaticText "175.81 x 30000"
+              - listitem [level=1]
+                - StaticText "Day's Range"
+                - StaticText "171.35 - 177.90"
+              - listitem [level=1]
+                - StaticText "52 Week Range"
+                - StaticText "126.68 - 198.73"
+              - listitem [level=1]
+                - StaticText "Volume"
+                - StaticText "11,553,134"
+              - listitem [level=1]
+                - StaticText "Avg. Volume"
+                - StaticText "12,417,608"
+              - listitem [level=1]
+                - StaticText "Net Assets"
+                - StaticText "123.91B"
+              - listitem [level=1]
+                - StaticText "NAV"
+                - StaticText "175.58"
+              - listitem [level=1]
+                - StaticText "PE Ratio (TTM)"
+                - StaticText "32.84"
+              - listitem [level=1]
+                - StaticText "Yield"
+                - StaticText "0.42%"
+              - listitem [level=1]
+                - StaticText "YTD Daily Total Return"
+                - StaticText "22.26%"
+              - listitem [level=1]
+                - StaticText "Beta (5Y Monthly)"
+                - StaticText "1.43"
+              - listitem [level=1]
+                - StaticText "Expense Ratio (net)"
+                - StaticText "0.08%"
+            - button "Expand" [expanded=false, ref=e42]
+              - heading "State Street Technology Select Sector SPDR ETF Overview - State Street Investment Management / Technology" [level=2, ref=e87]
+                - StaticText "State Street Technology Select Sector SPDR ETF Overview "
+                - StaticText "- "
+                - StaticText "State Street Investment Management / Technology"
+            - region "Expand" [ref=e43]
+              - generic
+                - paragraph
+                  - StaticText "In seeking to track the performance of the index, the fund employs a replication strategy, which means that the fund typically invests in substantially all of the securities represented in the index in approximately the same proportions as the index. It generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The fund is non-diversified."
+                - paragraph
+                  - StaticText "State Street Investment Management"
+                - heading "Fund Family" [level=3, ref=e125]
+                - paragraph
+                  - StaticText "Technology"
+                - heading "Fund Category" [level=3, ref=e126]
+                - paragraph
+                  - StaticText "123.91B"
+                - heading "Net Assets" [level=3, ref=e127]
+                - paragraph
+                  - StaticText "1998-12-16"
+                - heading "Inception Date" [level=3, ref=e128]
+                - link "More about State Street Technology Select Sector SPDR ETF" [ref=e139]
+            - generic
+              - sectionheader
+                - heading "Performance Overview" [level=3, ref=e88]
+                - link "View More" [ref=e89]
+              - paragraph
+                - StaticText "Trailing returns as of 7/17/2026. Category is Technology."
+              - generic
+                - sectionheader
+                  - heading "YTD Return" [level=3, ref=e129]
+                - StaticText "XLK"
+                - StaticText "+"
+                - StaticText "22.26%"
+                - StaticText "Category"
+                - StaticText "+"
+                - StaticText "13.51%"
+                - link "YTD Return" [ref=e90]
+              - generic
+                - sectionheader
+                  - heading "1-Year Return" [level=3, ref=e130]
+                - StaticText "XLK"
+                - StaticText "+"
+                - StaticText "35.22%"
+                - StaticText "Category"
+                - StaticText "+"
+                - StaticText "54.99%"
+                - link "1-Year Return" [ref=e91]
+              - generic
+                - sectionheader
+                  - heading "3-Year Return" [level=3, ref=e131]
+                - StaticText "XLK"
+                - StaticText "+"
+                - StaticText "26.19%"
+                - StaticText "Category"
+                - StaticText "+"
+                - StaticText "27.86%"
+                - link "3-Year Return" [ref=e92]
+            - generic
+              - sectionheader
+                - heading "People Also Watch" [level=3, ref=e93]
+                - generic
+                  - button "prev" [disabled, ref=e132]
+                  - button "next" [ref=e133]
+              - generic
+                - generic
+                  - StaticText "XLV"
+                  - StaticText "State Street Health Care Select Sector SPDR ETF"
+                  - strong
+                    - StaticText "161.09"
+                  - StaticText "-0.44%"
+                  - link "XLV" [ref=e140]
+                - generic
+                  - StaticText "XLY"
+                  - StaticText "State Street Consumer Discretionary Select Sector SPDR ETF"
+                  - strong
+                    - StaticText "115.44"
+                  - StaticText "-1.62%"
+                  - link "XLY" [ref=e141]
+                - generic
+                  - StaticText "XLI"
+                  - StaticText "State Street Industrial Select Sector SPDR ETF"
+                  - strong
+                    - StaticText "179.41"
+                  - StaticText "-0.41%"
+                  - link "XLI" [ref=e142]
+                - generic
+                  - StaticText "XLF"
+                  - StaticText "State Street Financial Select Sector SPDR ETF"
+                  - strong
+                    - StaticText "56.26"
+                  - StaticText "-0.86%"
+                  - link "XLF" [ref=e143]
+                - generic
+                  - StaticText "XLP"
+                  - StaticText "State Street Consumer Staples Select Sector SPDR ETF"
+                  - strong
+                    - StaticText "85.19"
+                  - StaticText "-0.72%"
+                  - link "XLP" [ref=e144]
+            - generic
+              - sectionheader
+                - heading "Holdings" [level=3, ref=e94]
+                - link "View More" [ref=e95]
+              - generic
+                - heading "Top 10 Holdings (59.27% of Total Assets)" [level=4, ref=e96]
+                - StaticText "Symbol"
+                - StaticText "Company"
+                - StaticText "% Assets"
+                - link "NVIDIA Corporation" [ref=e97]
+                  - StaticText "NVDA"
+                - StaticText "NVIDIA Corporation"
+                - StaticText "12.64%"
+                - link "Apple Inc." [ref=e98]
+                  - StaticText "AAPL"
+                - StaticText "Apple Inc."
+                - StaticText "11.09%"
+                - link "Microsoft Corporation" [ref=e99]
+                  - StaticText "MSFT"
+                - StaticText "Microsoft Corporation"
+                - StaticText "7.23%"
+                - link "Advanced Micro Devices, Inc." [ref=e100]
+                  - StaticText "AMD"
+                - StaticText "Advanced Micro Devices, Inc."
+                - StaticText "4.71%"
+                - link "Micron Technology, Inc." [ref=e101]
+                  - StaticText "MU"
+                - StaticText "Micron Technology, Inc."
+                - StaticText "4.68%"
+                - link "Broadcom Inc." [ref=e102]
+                  - StaticText "AVGO"
+                - StaticText "Broadcom Inc."
+                - StaticText "4.67%"
+                - link "Intel Corporation" [ref=e103]
+                  - StaticText "INTC"
+                - StaticText "Intel Corporation"
+                - StaticText "4.20%"
+                - link "Applied Materials, Inc." [ref=e104]
+                  - StaticText "AMAT"
+                - StaticText "Applied Materials, Inc."
+                - StaticText "3.66%"
+                - link "Lam Research Corporation" [ref=e105]
+                  - StaticText "LRCX"
+                - StaticText "Lam Research Corporation"
+                - StaticText "3.45%"
+                - link "Cisco Systems, Inc." [ref=e106]
+                  - StaticText "CSCO"
+                - StaticText "Cisco Systems, Inc."
+                - StaticText "2.96%"
+              - generic
+                - heading "Sector Weightings" [level=4, ref=e107]
+                - StaticText "Sector"
+                - StaticText "XLK"
+                - link "Technology" [ref=e108]
+                - StaticText "99.12%"
+                - link "Communication Services" [ref=e109]
+                - StaticText "0.88%"
+                - link "Real Estate" [ref=e110]
+                - StaticText "0.00%"
+                - link "Consumer Cyclical" [ref=e111]
+                - StaticText "0.00%"
+                - link "Basic Materials" [ref=e112]
+                - StaticText "0.00%"
+                - link "Consumer Defensive" [ref=e113]
+                - StaticText "0.00%"
+                - link "Financial Services" [ref=e114]
+                - StaticText "0.00%"
+                - link "Utilities" [ref=e115]
+                - StaticText "0.00%"
+                - link "Industrials" [ref=e116]
+                - StaticText "0.00%"
+                - link "Energy" [ref=e117]
+                - StaticText "0.00%"
+                - link "Healthcare" [ref=e118]
+                - StaticText "0.00%"
+            - generic
+              - sectionheader
+                - heading "Recent News" [level=3, ref=e119]
+                - link "View More" [ref=e120]
+              - generic
+                - generic
+                  - article
+                    - link "Sector Update: Tech Stocks Fall Late Afternoon" [ref=e145]
+                      - heading "Sector Update: Tech Stocks Fall Late Afternoon" [level=3, ref=e184]
+                    - link "PREMIUM" [ref=e146]
+                    - StaticText "MT Newswires"
+                    - StaticText "20h ago"
+                  - article
+                    - link "Sector Update: Tech Stocks Mixed Friday Afternoon" [ref=e147]
+                      - heading "Sector Update: Tech Stocks Mixed Friday Afternoon" [level=3, ref=e185]
+                    - link "PREMIUM" [ref=e148]
+                    - StaticText "MT Newswires"
+                    - StaticText "23h ago"
+                  - article
+                    - link "Exchange-Traded Funds Fall as US Equities Decline After Midday" [ref=e149]
+                      - heading "Exchange-Traded Funds Fall as US Equities Decline After Midday" [level=3, ref=e186]
+                    - link "PREMIUM" [ref=e150]
+                    - StaticText "MT Newswires"
+                    - StaticText "23h ago"
+                  - article
+                    - link "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday as Investors Retreat From Chipmaker Stocks" [ref=e151]
+                      - heading "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Friday as Investors Retreat From Chipmaker Stocks" [level=3, ref=e187]
+                    - link "PREMIUM" [ref=e152]
+                    - StaticText "MT Newswires"
+                    - StaticText "1d ago"
+                  - article
+                    - link "Stock Market News for July 17, 2026" [ref=e153]
+                      - heading "Stock Market News for July 17, 2026" [level=3, ref=e188]
+                    - StaticText "Zacks"
+                    - StaticText "1d ago"
+                  - article
+                    - link "Sector Update: Tech Stocks Fall Thursday Afternoon" [ref=e154]
+                      - heading "Sector Update: Tech Stocks Fall Thursday Afternoon" [level=3, ref=e189]
+                    - link "PREMIUM" [ref=e155]
+                    - StaticText "MT Newswires"
+                    - StaticText "1d ago"
+                  - article
+                    - link "Exchange-Traded Funds, US Equities Mixed After Midday" [ref=e156]
+                      - heading "Exchange-Traded Funds, US Equities Mixed After Midday" [level=3, ref=e190]
+                    - link "PREMIUM" [ref=e157]
+                    - StaticText "MT Newswires"
+                    - StaticText "1d ago"
+                  - article
+                    - link "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Semiconductor Stock Weakness" [ref=e158]
+                      - heading "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Thursday Amid Semiconductor Stock Weakness" [level=3, ref=e191]
+                    - link "PREMIUM" [ref=e159]
+                    - StaticText "MT Newswires"
+                    - StaticText "2d ago"
+                  - article
+                    - link "Sector Update: Tech Stocks Decline in Afternoon Trading" [ref=e160]
+                      - heading "Sector Update: Tech Stocks Decline in Afternoon Trading" [level=3, ref=e192]
+                    - link "PREMIUM" [ref=e161]
+                    - StaticText "MT Newswires"
+                    - StaticText "2d ago"
+                  - article
+                    - link "Exchange-Traded Funds Rise, US Equities Mixed After Midday" [ref=e162]
+                      - heading "Exchange-Traded Funds Rise, US Equities Mixed After Midday" [level=3, ref=e193]
+                    - link "PREMIUM" [ref=e163]
+                    - StaticText "MT Newswires"
+                    - StaticText "2d ago"
+                  - article
+                    - link "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Economic Reports" [ref=e164]
+                      - heading "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Wednesday Amid Economic Reports" [level=3, ref=e194]
+                    - link "PREMIUM" [ref=e165]
+                    - StaticText "MT Newswires"
+                    - StaticText "3d ago"
+            - generic
+              - sectionheader
+                - heading "Related Tickers" [level=3, ref=e121]
+                - generic
+                  - button "prev" [disabled, ref=e134]
+                  - button "next" [ref=e135]
+              - generic
+                - generic
+                  - StaticText "SBIO"
+                  - StaticText "ALPS Medical Breakthroughs ETF"
+                  - strong
+                    - StaticText "65.20"
+                  - StaticText "+"
+                  - StaticText "2.77%"
+                  - link "SBIO" [ref=e166]
+                - generic
+                  - StaticText "PTH"
+                  - StaticText "Invesco Dorsey Wright Healthcare Momentum ETF"
+                  - strong
+                    - StaticText "59.55"
+                  - StaticText "+"
+                  - StaticText "2.40%"
+                  - link "PTH" [ref=e167]
+                - generic
+                  - StaticText "IAK"
+                  - StaticText "iShares U.S. Insurance ETF"
+                  - strong
+                    - StaticText "146.10"
+                  - StaticText "+"
+                  - StaticText "2.18%"
+                  - link "IAK" [ref=e168]
+                - generic
+                  - StaticText "BBC"
+                  - StaticText "Virtus LifeSci Biotech Clinical Trials ETF"
+                  - strong
+                    - StaticText "50.97"
+                  - StaticText "+"
+                  - StaticText "2.12%"
+                  - link "BBC" [ref=e169]
+                - generic
+                  - StaticText "IEO"
+                  - StaticText "iShares U.S. Oil & Gas Exploration & Production ETF"
+                  - strong
+                    - StaticText "121.51"
+                  - StaticText "+"
+                  - StaticText "2.04%"
+                  - link "IEO" [ref=e170]
+                - generic
+                  - StaticText "IDX"
+                  - StaticText "VanEck Indonesia Index ETF"
+                  - strong
+                    - StaticText "10.90"
+                  - StaticText "+"
+                  - StaticText "1.77%"
+                  - link "IDX" [ref=e171]
+                - generic
+                  - StaticText "GSG"
+                  - StaticText "iShares S&P GSCI Commodity-Indexed Trust"
+                  - strong
+                    - StaticText "31.40"
+                  - StaticText "+"
+                  - StaticText "1.65%"
+                  - link "GSG" [ref=e172]
+                - generic
+                  - StaticText "IXC"
+                  - StaticText "iShares Global Energy ETF"
+                  - strong
+                    - StaticText "53.50"
+                  - StaticText "+"
+                  - StaticText "1.50%"
+                  - link "IXC" [ref=e173]
+                - generic
+                  - StaticText "XBI"
+                  - StaticText "State Street SPDR S&P Biotech ETF"
+                  - strong
+                    - StaticText "154.26"
+                  - StaticText "+"
+                  - StaticText "1.49%"
+                  - link "XBI" [ref=e174]
+                - generic
+                  - StaticText "VDE"
+                  - StaticText "Vanguard Energy Index Fund ETF Shares"
+                  - strong
+                    - StaticText "162.78"
+                  - StaticText "+"
+                  - StaticText "1.26%"
+                  - link "VDE" [ref=e175]
+                - generic
+                  - StaticText "CRAK"
+                  - StaticText "VanEck Oil Refiners ETF"
+                  - strong
+                    - StaticText "54.25"
+                  - StaticText "+"
+                  - StaticText "1.21%"
+                  - link "CRAK" [ref=e176]
+                - generic
+                  - StaticText "EFAS"
+                  - StaticText "Global X MSCI SuperDividend EAFE ETF"
+                  - strong
+                    - StaticText "22.25"
+                  - StaticText "+"
+                  - StaticText "1.16%"
+                  - link "EFAS" [ref=e177]
+                - generic
+                  - StaticText "XLE"
+                  - StaticText "State Street Energy Select Sector SPDR ETF"
+                  - strong
+                    - StaticText "57.68"
+                  - StaticText "+"
+                  - StaticText "1.16%"
+                  - link "XLE" [ref=e178]
+                - generic
+                  - StaticText "FTGC"
+                  - StaticText "First Trust Global Tactical Commodity Strategy Fund"
+                  - strong
+                    - StaticText "28.83"
+                  - StaticText "+"
+                  - StaticText "1.14%"
+                  - link "FTGC" [ref=e179]
+                - generic
+                  - StaticText "SDCI"
+                  - StaticText "USCF SummerHaven Dynamic Commodity Strategy No K-1 Fund"
+                  - strong
+                    - StaticText "28.50"
+                  - StaticText "+"
+                  - StaticText "1.09%"
+                  - link "SDCI" [ref=e180]
+                - generic
+                  - StaticText "CSEN"
+                  - StaticText "Cohen & Steers Future of Energy Active ETF"
+                  - strong
+                    - StaticText "24.27"
+                  - StaticText "+"
+                  - StaticText "1.06%"
+                  - link "CSEN" [ref=e181]
+          - sectionfooter
+            - generic
+              - link "Yahoo Finance" [ref=e44]
+                - image
+              - StaticText "Copyright © 2026 Yahoo. All rights reserved."
+              - link "Follow on Twitter" [ref=e45]
+              - link "Follow on Facebook" [ref=e46]
+              - link "Follow on LinkedIn" [ref=e47]
+              - StaticText "Trending Topics"
+              - link "Dow Jones" [ref=e48]
+              - link "S&P 500" [ref=e49]
+              - link "DAX Index" [ref=e50]
+              - link "Nvidia" [ref=e51]
+              - link "Tesla" [ref=e52]
+              - link "DJT" [ref=e53]
+              - link "Tariffs" [ref=e54]
+              - StaticText "Explore Further"
+              - link "Mortgages" [ref=e55]
+              - link "Credit Cards" [ref=e56]
+              - link "Sectors" [ref=e57]
+              - link "Crypto Heatmap" [ref=e58]
+              - link "Financial News" [ref=e59]
+              - StaticText "About"
+              - link "Data Disclaimer" [ref=e60]
+              - link "Help" [ref=e61]
+              - link "Feedback" [ref=e62]
+              - link "Sitemap" [ref=e63]
+              - link "Licensing" [ref=e64]
+              - link "What's New" [ref=e65]
+              - link "About Our Ads" [ref=e66]
+              - generic
+                - generic
+                  - link "Terms" [ref=e136]
+                  - StaticText "and"
+                  - link "Privacy Policy" [ref=e137]
+                - link "Privacy Dashboard" [ref=e122]
+      - complementary "Dock"
+        - dialog "Dock"
+          - search
+            - textbox "Quote Lookup" [ref=e195]
+          - list
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Trending tickers" [ref=e213]
+                    - StaticText "Trending tickers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "BTC-USD Bitcoin USD 64,092.12 +542.01 (+0.85%)" [ref=e217]
+                      - button "Follow" [ref=e218]
+                  - listitem [level=2]
+                    - generic
+                      - link "ETH-USD Ethereum USD 1,842.08 +7.17 (+0.39%)" [ref=e219]
+                      - button "Follow" [ref=e220]
+                  - listitem [level=2]
+                    - generic
+                      - link "EBAY eBay Inc. 112.06 +1.15 (+1.04%)" [ref=e221]
+                      - button "Follow" [ref=e222]
+                  - listitem [level=2]
+                    - generic
+                      - link "XRP-USD XRP USD 1.09 +0.00 (+0.11%)" [ref=e223]
+                      - button "Follow" [ref=e224]
+                  - listitem [level=2]
+                    - generic
+                      - link "PLOW Douglas Dynamics, Inc. 44.62 -0.30 (-0.67%)" [ref=e225]
+                      - button "Follow" [ref=e226]
+            - listitem [level=1]
+            - listitem [level=1]
+              - generic
+                - link "Portfolio" [ref=e197]
+                - paragraph
+                  - StaticText "Sign in to access your portfolio"
+                - link "Sign in" [ref=e196]
+            - listitem [level=1]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Top gainers" [ref=e214]
+                    - StaticText "Top gainers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "LCID Lucid Group, Inc. 7.36 +0.90 (+13.93%)" [ref=e227]
+                      - button "Follow" [ref=e228]
+                  - listitem [level=2]
+                    - generic
+                      - link "SLS SELLAS Life Sciences Group, Inc. 13.19 +1.44 (+12.26%)" [ref=e229]
+                      - button "Follow" [ref=e230]
+                  - listitem [level=2]
+                    - generic
+                      - link "ORKA Oruka Therapeutics, Inc. 92.70 +9.66 (+11.63%)" [ref=e231]
+                      - button "Follow" [ref=e232]
+                  - listitem [level=2]
+                    - generic
+                      - link "DNTH Dianthus Therapeutics, Inc. 105.60 +10.25 (+10.75%)" [ref=e233]
+                      - button "Follow" [ref=e234]
+                  - listitem [level=2]
+                    - generic
+                      - link "COAG Hemab Therapeutics Holdings, Inc. 49.29 +4.76 (+10.69%)" [ref=e235]
+                      - button "Follow" [ref=e236]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Top losers" [ref=e215]
+                    - StaticText "Top losers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "ISRG Intuitive Surgical, Inc. 345.42 -56.91 (-14.15%)" [ref=e237]
+                      - button "Follow" [ref=e238]
+                  - listitem [level=2]
+                    - generic
+                      - link "CDNS Cadence Design Systems, Inc. 330.11 -34.54 (-9.47%)" [ref=e239]
+                      - button "Follow" [ref=e240]
+                  - listitem [level=2]
+                    - generic
+                      - link "PENG Penguin Solutions, Inc. 60.41 -5.56 (-8.43%)" [ref=e241]
+                      - button "Follow" [ref=e242]
+                  - listitem [level=2]
+                    - generic
+                      - link "SNPS Synopsys, Inc. 384.28 -32.76 (-7.85%)" [ref=e243]
+                      - button "Follow" [ref=e244]
+                  - listitem [level=2]
+                    - generic
+                      - link "NFLX Netflix, Inc. 68.95 -5.40 (-7.26%)" [ref=e245]
+                      - button "Follow" [ref=e246]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Most active" [ref=e216]
+                    - StaticText "Most active"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "ONDS Ondas Inc. 6.53 -0.12 (-1.88%)" [ref=e247]
+                      - button "Follow" [ref=e248]
+                  - listitem [level=2]
+                    - generic
+                      - link "AAL American Airlines Group Inc. 14.98 -0.62 (-3.97%)" [ref=e249]
+                      - button "Follow" [ref=e250]
+                  - listitem [level=2]
+                    - generic
+                      - link "NFLX Netflix, Inc. 68.95 -5.40 (-7.26%)" [ref=e251]
+                      - button "Follow" [ref=e252]
+                  - listitem [level=2]
+                    - generic
+                      - link "NVDA NVIDIA Corporation 202.81 -4.59 (-2.21%)" [ref=e253]
+                      - button "Follow" [ref=e254]
+                  - listitem [level=2]
+                    - generic
+                      - link "NU Nu Holdings Ltd. 13.59 -0.20 (-1.45%)" [ref=e255]
+                      - button "Follow" [ref=e256]
+            - listitem [level=1]
+              - link "Top economic events" [ref=e198]
+                - StaticText "Top economic events"
+              - button "Thailand" [ref=e199]
+                - StaticText "Thailand"
+              - StaticText "There are no important events for this country at this time. Select \"All\" to see top events in other countries or view all events."
+              - link "View All Events" [ref=e200]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Earnings events" [ref=e201]
+                    - StaticText "Earnings events"
+                  - group
+                    - generic
+                      - checkbox "My earnings events" [checked=false, ref=e257]
+                    - generic
+                      - checkbox "Earnings events" [checked=true, ref=e258]
+                - button "Upcoming" [ref=e202]
+                - link "AGNC" [ref=e203]
+                - button "Add to calendar" [ref=e204]
+                - link "KEY" [ref=e205]
+                - button "Add to calendar" [ref=e206]
+                - link "SAN" [ref=e207]
+                - button "Add to calendar" [ref=e208]
+                - link "T" [ref=e209]
+                - button "Add to calendar" [ref=e210]
+                - link "GOOGL" [ref=e211]
+                - button "Add to calendar" [ref=e212]
+          - button "Edit your Dock" [ref=e123]
+            - StaticText "Edit your Dock"
+          - generic
+            - generic
+              - link "Terms" [ref=e182]
+              - link "Privacy Policy" [ref=e183]
+            - link "Privacy Dashboard" [ref=e138]

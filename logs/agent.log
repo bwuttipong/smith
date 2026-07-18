@@ -5470,3 +5470,1605 @@
 2026-07-18 21:27:34,748 INFO [20260710_064517_f4bf9c9a] tools.terminal_tool: Creating new local environment for task default...
 2026-07-18 21:27:35,213 INFO [20260710_064517_f4bf9c9a] tools.environments.base: Session snapshot created (session=c6ff82291ac1, cwd=/Users/Jeff/Smith)
 2026-07-18 21:27:35,214 INFO [20260710_064517_f4bf9c9a] tools.terminal_tool: local environment ready for task default
+2026-07-18 21:27:41,252 INFO [20260710_064517_f4bf9c9a] agent.tool_executor: tool terminal completed (6.51s, 2868 chars)
+2026-07-18 21:27:41,306 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-13 (_call):6387134464 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5
+2026-07-18 21:27:50,640 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-13 (_call):6387134464 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5
+2026-07-18 21:27:50,641 INFO [20260710_064517_f4bf9c9a] agent.conversation_loop: API call #5: model=mimo-v2.5 provider=xiaomi in=210240 out=58 total=210298 latency=9.3s cache=208896/210240 (99%)
+2026-07-18 21:27:50,655 INFO [20260710_064517_f4bf9c9a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5 api_calls=2/90 budget=2/90 tool_turns=138 last_msg_role=assistant response_len=91 session=20260710_064517_f4bf9c9a
+2026-07-18 21:27:51,801 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-18 21:27:51,801 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=25.0s api_calls=2 response=91 chars
+2026-07-18 21:28:11,865 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (11 chars)
+2026-07-18 21:28:11,874 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Duly noted.' reply_to_id=None reply_to_text=''
+2026-07-18 21:28:11,916 INFO hermes_state: Repaired 1 message-alternation violation(s) while restoring session 20260710_064517_f4bf9c9a — durable transcript kept them, see repair_message_sequence
+2026-07-18 21:28:11,990 INFO [20260710_064517_f4bf9c9a] agent.turn_context: conversation turn: session=20260710_064517_f4bf9c9a model=mimo-v2.5 provider=xiaomi platform=telegram history=385 msg='Duly noted.'
+2026-07-18 21:28:12,018 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-14 (_call):6387134464 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5
+2026-07-18 21:28:22,779 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-14 (_call):6387134464 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5
+2026-07-18 21:28:22,780 INFO [20260710_064517_f4bf9c9a] agent.conversation_loop: API call #6: model=mimo-v2.5 provider=xiaomi in=210309 out=27 total=210336 latency=10.8s cache=210176/210309 (100%)
+2026-07-18 21:28:22,794 INFO [20260710_064517_f4bf9c9a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5 api_calls=1/90 budget=1/90 tool_turns=138 last_msg_role=assistant response_len=2 session=20260710_064517_f4bf9c9a
+2026-07-18 21:28:23,555 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-18 21:28:23,555 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=11.7s api_calls=1 response=2 chars
+2026-07-18 21:30:29,440 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 21:30:29,544 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:30:30,617 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:30:32,695 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:30:36,775 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:33:13,646 INFO tools.terminal_tool: Cleaned up inactive environment for task: default
+2026-07-18 21:35:36,777 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 21:35:36,883 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:35:37,957 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:35:40,035 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:35:44,109 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:40:44,110 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 21:40:44,224 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:40:45,302 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:40:47,379 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:40:51,460 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:45:51,479 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 21:45:51,579 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:45:52,656 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:45:54,734 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:45:58,815 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:46:22,881 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (29 chars)
+2026-07-18 21:46:22,890 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='I have come with my colleague' reply_to_id=None reply_to_text=''
+2026-07-18 21:46:22,944 INFO hermes_state: Repaired 1 message-alternation violation(s) while restoring session 20260710_064517_f4bf9c9a — durable transcript kept them, see repair_message_sequence
+2026-07-18 21:46:23,006 INFO [20260710_064517_f4bf9c9a] agent.turn_context: conversation turn: session=20260710_064517_f4bf9c9a model=mimo-v2.5 provider=xiaomi platform=telegram history=387 msg='I have come with my colleague'
+2026-07-18 21:46:23,034 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-15 (_call):6387134464 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5
+2026-07-18 21:46:31,430 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-15 (_call):6387134464 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5
+2026-07-18 21:46:31,430 INFO [20260710_064517_f4bf9c9a] agent.conversation_loop: API call #7: model=mimo-v2.5 provider=xiaomi in=210349 out=48 total=210397 latency=8.4s cache=210304/210349 (100%)
+2026-07-18 21:46:31,605 INFO [20260710_064517_f4bf9c9a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5 api_calls=1/90 budget=1/90 tool_turns=138 last_msg_role=assistant response_len=44 session=20260710_064517_f4bf9c9a
+2026-07-18 21:46:32,495 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-18 21:46:32,496 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=9.6s api_calls=1 response=44 chars
+2026-07-18 21:46:53,473 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (24 chars)
+2026-07-18 21:46:53,480 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Honestly I am gonna back' reply_to_id=None reply_to_text=''
+2026-07-18 21:46:53,521 INFO hermes_state: Repaired 1 message-alternation violation(s) while restoring session 20260710_064517_f4bf9c9a — durable transcript kept them, see repair_message_sequence
+2026-07-18 21:46:53,588 INFO [20260710_064517_f4bf9c9a] agent.turn_context: conversation turn: session=20260710_064517_f4bf9c9a model=mimo-v2.5 provider=xiaomi platform=telegram history=389 msg='Honestly I am gonna back'
+2026-07-18 21:46:53,615 INFO run_agent: OpenAI client created (chat_completion_stream_request, shared=False) thread=Thread-16 (_call):6387134464 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5
+2026-07-18 21:46:57,194 INFO run_agent: OpenAI client closed (stream_request_complete, shared=False, tcp_force_closed=0) thread=Thread-16 (_call):6387134464 provider=xiaomi base_url=https://token-plan-sgp.xiaomimimo.com/v1 model=mimo-v2.5
+2026-07-18 21:46:57,194 INFO [20260710_064517_f4bf9c9a] agent.conversation_loop: API call #8: model=mimo-v2.5 provider=xiaomi in=210409 out=32 total=210441 latency=3.6s cache=210304/210409 (100%)
+2026-07-18 21:46:57,208 INFO [20260710_064517_f4bf9c9a] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=mimo-v2.5 api_calls=1/90 budget=1/90 tool_turns=138 last_msg_role=assistant response_len=34 session=20260710_064517_f4bf9c9a
+2026-07-18 21:46:58,326 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-18 21:46:58,326 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=4.8s api_calls=1 response=34 chars
+2026-07-18 21:50:58,818 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 21:50:58,925 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:51:00,000 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:51:02,080 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:51:06,156 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:56:06,160 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 21:56:06,270 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:56:07,346 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:56:09,421 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 21:56:13,501 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:01:13,511 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:01:13,617 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:01:14,698 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:01:16,772 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:01:20,849 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:06:20,853 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:06:20,953 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:06:22,038 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:06:24,132 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:06:28,219 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:11:28,222 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:11:28,329 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:11:29,405 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:11:31,484 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:11:35,568 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:16:35,572 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:16:35,680 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:16:36,758 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:16:38,833 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:16:42,910 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:21:42,920 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:21:43,009 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:21:44,090 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:21:46,166 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:21:50,247 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:26:50,250 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:26:50,367 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:26:51,441 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:26:53,515 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:26:57,607 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:31:57,610 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:31:57,718 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:31:58,797 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:32:00,874 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:32:04,951 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:37:04,936 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:37:05,035 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:37:06,113 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:37:08,190 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:37:12,286 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:42:12,290 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:42:12,390 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:42:13,470 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:42:15,551 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:42:19,627 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:46:01,247 INFO hermes_cli.nous_auth_keepalive: Nous auth keepalive requires re-login: No access token found for Nous Portal login.
+2026-07-18 22:47:19,629 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:47:19,736 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:47:20,806 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:47:22,882 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:47:27,045 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:49:42,600 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 22:49:42,600 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 22:49:42,601 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 22:49:42,677 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 22:49:42,677 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 22:49:42,678 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 22:49:42,678 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 22:49:42,679 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 22:49:42,679 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 22:49:42,679 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 22:49:42,680 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 22:49:42,686 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 22:49:42,687 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 22:49:42,689 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 22:49:42,691 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 22:49:42,692 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 22:49:42,692 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 22:49:42,694 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 22:49:42,695 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 22:49:42,695 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 22:49:42,696 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 22:49:42,697 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 22:49:42,709 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 22:51:22,272 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 22:51:22,273 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 22:51:22,273 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 22:51:22,317 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 22:51:22,318 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 22:51:22,318 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 22:51:22,318 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 22:51:22,318 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 22:51:22,319 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 22:51:22,319 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 22:51:22,320 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 22:51:22,323 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 22:51:22,324 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 22:51:22,324 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 22:51:22,326 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 22:51:22,326 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 22:51:22,326 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 22:51:22,327 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 22:51:22,328 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 22:51:22,328 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 22:51:22,328 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 22:51:22,329 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 22:51:22,335 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 22:51:43,878 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 22:51:43,879 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 22:51:43,879 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 22:51:43,937 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 22:51:43,937 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 22:51:43,938 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 22:51:43,938 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 22:51:43,938 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 22:51:43,939 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 22:51:43,939 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 22:51:43,939 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 22:51:43,943 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 22:51:43,944 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 22:51:43,944 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 22:51:43,946 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 22:51:43,946 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 22:51:43,946 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 22:51:43,947 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 22:51:43,948 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 22:51:43,948 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 22:51:43,948 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 22:51:43,949 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 22:51:43,954 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 22:51:57,334 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 22:51:57,335 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 22:51:57,335 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 22:51:57,374 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 22:51:57,374 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 22:51:57,374 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 22:51:57,374 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 22:51:57,375 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 22:51:57,375 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 22:51:57,375 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 22:51:57,375 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 22:51:57,377 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 22:51:57,377 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 22:51:57,378 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 22:51:57,378 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 22:51:57,378 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 22:51:57,379 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 22:51:57,379 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 22:51:57,379 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 22:51:57,380 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 22:51:57,380 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 22:51:57,380 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 22:51:57,385 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 22:52:27,058 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:52:27,137 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:52:28,217 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:52:30,294 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:52:34,353 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:54:10,140 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 22:54:10,141 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 22:54:10,142 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 22:54:10,195 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 22:54:10,195 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 22:54:10,195 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 22:54:10,196 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 22:54:10,196 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 22:54:10,197 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 22:54:10,197 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 22:54:10,197 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 22:54:10,201 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 22:54:10,201 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 22:54:10,202 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 22:54:10,203 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 22:54:10,204 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 22:54:10,204 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 22:54:10,205 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 22:54:10,206 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 22:54:10,206 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 22:54:10,207 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 22:54:10,207 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 22:54:10,214 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 22:56:25,122 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 22:56:25,122 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 22:56:25,122 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 22:56:25,167 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 22:56:25,167 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 22:56:25,167 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 22:56:25,168 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 22:56:25,168 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 22:56:25,169 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 22:56:25,169 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 22:56:25,169 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 22:56:25,173 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 22:56:25,173 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 22:56:25,174 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 22:56:25,175 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 22:56:25,175 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 22:56:25,176 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 22:56:25,177 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 22:56:25,177 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 22:56:25,177 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 22:56:25,178 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 22:56:25,178 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 22:56:25,183 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 22:56:57,411 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 22:56:57,411 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 22:56:57,412 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 22:56:57,457 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 22:56:57,457 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 22:56:57,457 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 22:56:57,458 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 22:56:57,458 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 22:56:57,458 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 22:56:57,459 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 22:56:57,459 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 22:56:57,463 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 22:56:57,463 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 22:56:57,463 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 22:56:57,465 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 22:56:57,465 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 22:56:57,465 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 22:56:57,466 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 22:56:57,467 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 22:56:57,467 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 22:56:57,467 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 22:56:57,468 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 22:56:57,473 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 22:57:34,354 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 22:57:34,453 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:57:35,530 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:57:37,620 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:57:41,701 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 22:59:23,570 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 22:59:23,571 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 22:59:23,571 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 22:59:23,616 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 22:59:23,616 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 22:59:23,617 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 22:59:23,617 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 22:59:23,617 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 22:59:23,618 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 22:59:23,618 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 22:59:23,618 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 22:59:23,623 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 22:59:23,623 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 22:59:23,623 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 22:59:23,625 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 22:59:23,625 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 22:59:23,625 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 22:59:23,626 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 22:59:23,627 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 22:59:23,627 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 22:59:23,627 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 22:59:23,628 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 22:59:23,633 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 22:59:46,441 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 22:59:46,442 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 22:59:46,442 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 22:59:46,486 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 22:59:46,486 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 22:59:46,487 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 22:59:46,487 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 22:59:46,487 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 22:59:46,488 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 22:59:46,488 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 22:59:46,488 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 22:59:46,492 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 22:59:46,492 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 22:59:46,493 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 22:59:46,494 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 22:59:46,495 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 22:59:46,495 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 22:59:46,496 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 22:59:46,496 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 22:59:46,497 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 22:59:46,497 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 22:59:46,498 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 22:59:46,503 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:01:25,065 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:01:25,065 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:01:25,066 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:01:25,111 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:01:25,111 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:01:25,112 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:01:25,112 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:01:25,112 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:01:25,113 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:01:25,113 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:01:25,114 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:01:25,117 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:01:25,118 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:01:25,118 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:01:25,120 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:01:25,120 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:01:25,120 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:01:25,121 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:01:25,122 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:01:25,122 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:01:25,122 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:01:25,123 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:01:25,128 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:01:39,157 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:01:39,157 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:01:39,158 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:01:39,195 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:01:39,196 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:01:39,196 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:01:39,196 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:01:39,196 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:01:39,196 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:01:39,196 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:01:39,197 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:01:39,199 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:01:39,199 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:01:39,199 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:01:39,200 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:01:39,200 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:01:39,200 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:01:39,201 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:01:39,201 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:01:39,202 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:01:39,202 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:01:39,203 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:01:39,206 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:02:41,704 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:02:41,800 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:02:42,877 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:02:44,939 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:02:49,019 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:04:19,616 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:04:19,616 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:04:19,617 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:04:19,670 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:04:19,670 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:04:19,671 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:04:19,671 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:04:19,671 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:04:19,672 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:04:19,672 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:04:19,673 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:04:19,677 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:04:19,678 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:04:19,678 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:04:19,680 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:04:19,680 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:04:19,681 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:04:19,682 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:04:19,682 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:04:19,683 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:04:19,683 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:04:19,684 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:04:19,690 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:04:33,446 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:04:33,446 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:04:33,447 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:04:33,484 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:04:33,484 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:04:33,484 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:04:33,485 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:04:33,485 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:04:33,485 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:04:33,485 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:04:33,485 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:04:33,488 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:04:33,488 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:04:33,488 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:04:33,489 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:04:33,489 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:04:33,489 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:04:33,490 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:04:33,490 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:04:33,490 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:04:33,491 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:04:33,491 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:04:33,495 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:04:58,149 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:04:58,150 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:04:58,150 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:04:58,196 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:04:58,196 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:04:58,196 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:04:58,196 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:04:58,197 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:04:58,197 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:04:58,197 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:04:58,197 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:04:58,200 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:04:58,200 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:04:58,200 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:04:58,201 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:04:58,201 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:04:58,201 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:04:58,202 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:04:58,203 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:04:58,203 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:04:58,203 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:04:58,204 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:04:58,208 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:06:57,815 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:06:57,816 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:06:57,816 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:06:57,861 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:06:57,861 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:06:57,862 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:06:57,862 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:06:57,862 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:06:57,863 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:06:57,863 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:06:57,863 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:06:57,867 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:06:57,868 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:06:57,868 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:06:57,869 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:06:57,870 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:06:57,870 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:06:57,871 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:06:57,871 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:06:57,872 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:06:57,872 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:06:57,873 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:06:57,878 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:07:06,031 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:07:06,031 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:07:06,032 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:07:06,072 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:07:06,072 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:07:06,073 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:07:06,073 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:07:06,073 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:07:06,073 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:07:06,073 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:07:06,074 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:07:06,076 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:07:06,076 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:07:06,077 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:07:06,077 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:07:06,078 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:07:06,078 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:07:06,079 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:07:06,079 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:07:06,079 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:07:06,080 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:07:06,080 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:07:06,084 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:07:21,453 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:07:21,453 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:07:21,454 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:07:21,493 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:07:21,493 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:07:21,493 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:07:21,493 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:07:21,494 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:07:21,494 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:07:21,494 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:07:21,494 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:07:21,497 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:07:21,497 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:07:21,497 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:07:21,498 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:07:21,498 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:07:21,498 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:07:21,499 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:07:21,499 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:07:21,499 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:07:21,500 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:07:21,500 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:07:21,504 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:07:49,029 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:07:49,103 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:07:50,178 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:07:52,252 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:07:56,329 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:07:58,869 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:07:58,869 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:07:58,869 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:07:58,907 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:07:58,908 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:07:58,908 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:07:58,908 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:07:58,908 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:07:58,908 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:07:58,908 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:07:58,909 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:07:58,911 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:07:58,912 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:07:58,912 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:07:58,912 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:07:58,913 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:07:58,913 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:07:58,913 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:07:58,914 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:07:58,914 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:07:58,914 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:07:58,915 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:07:58,919 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:08:32,620 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:08:32,621 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:08:32,621 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:08:32,659 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:08:32,659 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:08:32,659 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:08:32,659 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:08:32,659 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:08:32,660 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:08:32,660 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:08:32,660 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:08:32,662 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:08:32,662 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:08:32,663 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:08:32,663 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:08:32,663 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:08:32,664 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:08:32,664 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:08:32,664 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:08:32,665 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:08:32,665 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:08:32,666 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:08:32,670 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:09:20,487 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:09:20,488 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:09:20,488 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:09:20,526 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:09:20,526 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:09:20,526 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:09:20,526 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:09:20,527 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:09:20,527 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:09:20,527 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:09:20,527 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:09:20,530 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:09:20,530 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:09:20,530 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:09:20,531 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:09:20,531 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:09:20,531 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:09:20,532 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:09:20,532 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:09:20,532 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:09:20,532 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:09:20,533 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:09:20,537 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:11:57,088 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:11:57,089 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:11:57,090 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:11:57,136 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:11:57,136 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:11:57,137 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:11:57,137 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:11:57,137 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:11:57,138 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:11:57,138 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:11:57,138 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:11:57,142 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:11:57,142 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:11:57,143 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:11:57,145 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:11:57,145 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:11:57,145 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:11:57,146 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:11:57,147 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:11:57,147 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:11:57,148 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:11:57,149 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:11:57,154 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:12:56,332 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:12:56,442 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:12:57,519 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:12:59,601 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:13:03,670 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:13:12,450 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:13:12,451 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:13:12,451 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:13:12,511 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:13:12,512 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:13:12,512 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:13:12,512 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:13:12,513 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:13:12,513 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:13:12,513 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:13:12,514 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:13:12,520 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:13:12,520 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:13:12,521 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:13:12,522 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:13:12,523 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:13:12,524 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:13:12,527 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:13:12,527 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:13:12,528 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:13:12,529 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:13:12,530 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:13:12,537 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:13:26,013 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:13:26,014 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:13:26,014 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:13:26,060 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:13:26,061 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:13:26,061 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:13:26,062 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:13:26,062 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:13:26,063 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:13:26,063 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:13:26,063 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:13:26,067 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:13:26,067 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:13:26,068 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:13:26,069 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:13:26,070 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:13:26,070 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:13:26,071 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:13:26,071 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:13:26,072 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:13:26,072 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:13:26,073 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:13:26,078 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:13:35,987 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:13:35,988 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:13:35,988 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:13:36,048 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:13:36,049 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:13:36,050 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:13:36,050 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:13:36,052 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:13:36,053 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:13:36,053 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:13:36,054 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:13:36,082 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:13:36,083 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:13:36,083 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:13:36,085 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:13:36,085 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:13:36,086 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:13:36,087 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:13:36,089 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:13:36,091 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:13:36,092 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:13:36,093 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:13:36,101 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:13:59,951 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:13:59,951 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:13:59,952 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:13:59,999 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:13:59,999 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:13:59,999 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:14:00,000 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:14:00,000 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:14:00,000 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:14:00,000 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:14:00,001 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:14:00,004 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:14:00,005 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:14:00,005 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:14:00,006 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:14:00,006 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:14:00,007 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:14:00,008 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:14:00,008 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:14:00,009 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:14:00,009 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:14:00,010 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:14:00,015 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:18:03,673 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:18:03,782 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:18:04,861 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:18:06,939 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:18:11,008 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:18:42,567 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:18:42,567 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:18:42,568 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:18:42,620 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:18:42,620 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:18:42,621 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:18:42,621 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:18:42,621 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:18:42,622 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:18:42,622 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:18:42,622 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:18:42,626 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:18:42,627 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:18:42,627 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:18:42,629 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:18:42,629 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:18:42,630 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:18:42,631 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:18:42,631 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:18:42,631 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:18:42,632 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:18:42,633 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:18:42,638 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:18:56,195 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:18:56,195 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:18:56,196 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:18:56,245 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:18:56,246 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:18:56,246 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:18:56,246 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:18:56,247 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:18:56,247 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:18:56,247 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:18:56,248 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:18:56,252 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:18:56,252 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:18:56,253 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:18:56,254 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:18:56,255 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:18:56,255 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:18:56,256 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:18:56,257 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:18:56,257 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:18:56,257 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:18:56,259 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:18:56,265 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:19:34,271 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:19:34,271 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:19:34,272 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:19:34,319 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:19:34,319 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:19:34,319 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:19:34,319 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:19:34,320 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:19:34,320 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:19:34,320 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:19:34,321 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:19:34,325 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:19:34,325 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:19:34,325 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:19:34,327 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:19:34,327 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:19:34,327 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:19:34,328 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:19:34,329 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:19:34,329 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:19:34,330 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:19:34,330 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:19:34,335 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:20:48,166 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:20:48,167 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:20:48,167 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:20:48,211 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:20:48,212 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:20:48,212 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:20:48,212 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:20:48,213 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:20:48,213 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:20:48,213 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:20:48,214 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:20:48,217 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:20:48,218 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:20:48,218 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:20:48,219 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:20:48,220 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:20:48,220 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:20:48,221 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:20:48,222 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:20:48,222 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:20:48,222 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:20:48,223 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:20:48,228 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:21:11,586 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:21:11,587 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:21:11,587 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:21:11,641 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:21:11,642 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:21:11,642 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:21:11,642 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:21:11,643 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:21:11,643 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:21:11,643 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:21:11,644 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:21:11,648 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:21:11,649 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:21:11,649 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:21:11,651 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:21:11,651 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:21:11,652 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:21:11,653 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:21:11,653 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:21:11,653 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:21:11,654 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:21:11,655 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:21:11,660 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:22:49,048 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:22:49,048 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:22:49,049 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:22:49,093 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:22:49,094 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:22:49,094 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:22:49,094 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:22:49,094 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:22:49,095 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:22:49,095 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:22:49,096 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:22:49,099 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:22:49,100 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:22:49,100 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:22:49,101 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:22:49,102 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:22:49,102 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:22:49,103 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:22:49,103 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:22:49,104 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:22:49,104 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:22:49,105 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:22:49,110 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:23:11,018 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:23:11,094 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:23:12,171 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:23:14,254 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:23:18,332 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:27:11,624 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:27:11,625 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:27:11,625 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:27:11,672 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:27:11,672 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:27:11,673 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:27:11,673 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:27:11,673 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:27:11,674 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:27:11,674 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:27:11,674 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:27:11,679 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:27:11,679 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:27:11,679 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:27:11,681 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:27:11,681 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:27:11,682 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:27:11,683 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:27:11,683 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:27:11,684 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:27:11,684 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:27:11,685 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:27:11,695 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:27:22,813 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:27:22,813 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:27:22,814 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:27:22,860 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:27:22,860 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:27:22,861 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:27:22,861 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:27:22,861 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:27:22,862 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:27:22,862 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:27:22,862 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:27:22,867 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:27:22,868 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:27:22,868 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:27:22,870 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:27:22,870 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:27:22,871 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:27:22,871 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:27:22,872 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:27:22,872 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:27:22,873 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:27:22,873 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:27:22,879 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:27:33,740 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:27:33,741 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:27:33,741 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:27:33,793 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:27:33,794 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:27:33,794 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:27:33,794 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:27:33,795 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:27:33,795 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:27:33,795 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:27:33,796 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:27:33,800 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:27:33,800 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:27:33,801 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:27:33,802 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:27:33,803 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:27:33,803 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:27:33,804 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:27:33,804 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:27:33,805 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:27:33,805 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:27:33,806 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:27:33,812 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:28:18,335 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:28:19,411 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:28:20,471 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:28:22,527 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:28:26,601 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:30:53,553 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:30:53,554 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:30:53,554 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:30:53,611 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:30:53,611 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:30:53,611 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:30:53,612 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:30:53,612 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:30:53,613 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:30:53,613 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:30:53,613 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:30:53,618 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:30:53,619 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:30:53,619 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:30:53,621 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:30:53,621 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:30:53,621 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:30:53,622 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:30:53,623 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:30:53,623 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:30:53,623 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:30:53,624 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:30:53,629 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:32:49,285 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:32:49,286 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:32:49,286 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:32:49,331 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:32:49,332 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:32:49,332 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:32:49,332 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:32:49,332 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:32:49,333 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:32:49,333 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:32:49,334 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:32:49,337 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:32:49,338 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:32:49,338 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:32:49,339 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:32:49,340 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:32:49,340 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:32:49,341 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:32:49,341 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:32:49,342 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:32:49,342 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:32:49,343 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:32:49,348 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:33:26,604 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:33:26,694 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:33:27,784 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:33:29,873 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:33:33,955 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:33:42,630 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:33:42,630 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:33:42,631 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:33:42,678 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:33:42,678 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:33:42,678 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:33:42,679 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:33:42,679 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:33:42,680 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:33:42,680 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:33:42,680 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:33:42,684 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:33:42,684 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:33:42,685 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:33:42,686 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:33:42,687 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:33:42,687 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:33:42,688 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:33:42,688 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:33:42,689 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:33:42,689 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:33:42,690 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:33:42,695 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:36:43,936 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:36:43,936 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:36:43,937 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:36:43,983 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:36:43,983 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:36:43,984 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:36:43,984 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:36:43,984 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:36:43,985 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:36:43,985 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:36:43,985 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:36:43,989 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:36:43,990 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:36:43,990 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:36:43,992 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:36:43,992 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:36:43,992 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:36:43,993 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:36:43,994 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:36:43,994 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:36:43,994 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:36:43,995 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:36:44,000 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:37:19,811 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:37:19,812 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:37:19,812 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:37:19,858 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:37:19,858 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:37:19,859 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:37:19,859 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:37:19,859 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:37:19,860 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:37:19,860 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:37:19,860 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:37:19,864 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:37:19,865 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:37:19,865 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:37:19,866 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:37:19,867 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:37:19,867 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:37:19,868 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:37:19,869 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:37:19,869 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:37:19,869 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:37:19,870 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:37:19,875 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:37:28,722 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:37:28,722 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:37:28,723 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:37:28,769 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:37:28,770 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:37:28,770 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:37:28,770 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:37:28,771 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:37:28,771 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:37:28,771 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:37:28,772 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:37:28,775 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:37:28,776 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:37:28,776 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:37:28,777 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:37:28,777 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:37:28,778 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:37:28,779 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:37:28,779 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:37:28,779 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:37:28,779 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:37:28,780 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:37:28,786 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:38:33,926 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:38:34,095 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:38:35,155 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:38:37,215 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:38:41,281 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:40:20,731 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:40:20,731 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:40:20,732 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:40:20,784 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:40:20,784 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:40:20,784 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:40:20,785 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:40:20,785 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:40:20,786 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:40:20,786 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:40:20,786 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:40:20,790 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:40:20,791 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:40:20,791 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:40:20,793 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:40:20,793 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:40:20,794 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:40:20,795 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:40:20,795 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:40:20,796 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:40:20,796 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:40:20,798 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:40:20,804 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:40:36,380 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:40:36,380 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:40:36,381 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:40:36,426 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:40:36,427 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:40:36,427 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:40:36,427 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:40:36,427 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:40:36,428 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:40:36,428 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:40:36,429 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:40:36,432 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:40:36,433 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:40:36,433 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:40:36,434 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:40:36,435 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:40:36,435 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:40:36,436 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:40:36,436 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:40:36,437 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:40:36,437 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:40:36,438 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:40:36,443 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:40:50,954 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:40:50,955 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:40:50,955 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:40:51,002 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:40:51,003 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:40:51,003 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:40:51,003 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:40:51,004 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:40:51,004 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:40:51,004 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:40:51,005 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:40:51,009 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:40:51,009 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:40:51,009 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:40:51,011 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:40:51,011 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:40:51,011 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:40:51,012 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:40:51,013 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:40:51,013 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:40:51,013 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:40:51,014 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:40:51,019 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:41:30,901 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:41:30,902 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:41:30,902 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:41:30,942 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:41:30,942 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:41:30,942 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:41:30,942 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:41:30,943 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:41:30,943 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:41:30,943 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:41:30,943 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:41:30,945 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:41:30,946 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:41:30,946 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:41:30,946 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:41:30,947 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:41:30,947 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:41:30,948 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:41:30,948 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:41:30,948 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:41:30,948 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:41:30,949 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:41:30,954 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:41:54,161 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:41:54,162 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:41:54,162 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:41:54,203 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:41:54,203 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:41:54,203 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:41:54,204 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:41:54,204 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:41:54,204 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:41:54,204 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:41:54,204 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:41:54,207 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:41:54,207 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:41:54,207 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:41:54,208 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:41:54,208 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:41:54,208 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:41:54,209 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:41:54,209 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:41:54,210 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:41:54,210 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:41:54,211 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:41:54,215 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:42:13,101 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:42:13,101 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:42:13,102 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:42:13,148 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:42:13,148 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:42:13,148 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:42:13,148 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:42:13,149 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:42:13,149 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:42:13,149 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:42:13,150 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:42:13,154 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:42:13,154 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:42:13,155 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:42:13,156 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:42:13,156 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:42:13,157 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:42:13,158 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:42:13,158 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:42:13,159 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:42:13,159 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:42:13,160 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:42:13,165 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:43:02,168 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:43:02,169 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:43:02,169 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:43:02,222 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:43:02,222 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:43:02,222 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:43:02,223 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:43:02,223 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:43:02,224 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:43:02,224 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:43:02,224 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:43:02,228 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:43:02,228 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:43:02,229 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:43:02,230 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:43:02,231 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:43:02,231 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:43:02,232 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:43:02,232 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:43:02,233 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:43:02,233 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:43:02,234 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:43:02,239 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:43:39,522 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:43:39,523 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:43:39,523 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:43:39,576 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:43:39,576 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:43:39,577 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:43:39,577 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:43:39,577 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:43:39,578 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:43:39,578 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:43:39,578 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:43:39,583 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:43:39,583 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:43:39,583 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:43:39,585 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:43:39,585 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:43:39,586 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:43:39,587 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:43:39,587 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:43:39,588 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:43:39,588 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:43:39,589 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:43:39,594 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:43:41,282 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:43:41,359 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:43:42,442 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:43:44,531 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:43:48,631 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:44:07,014 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:44:07,015 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:44:07,015 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:44:07,061 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:44:07,062 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:44:07,062 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:44:07,062 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:44:07,063 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:44:07,063 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:44:07,063 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:44:07,064 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:44:07,068 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:44:07,068 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:44:07,069 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:44:07,070 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:44:07,071 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:44:07,071 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:44:07,072 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:44:07,072 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:44:07,073 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:44:07,073 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:44:07,074 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:44:07,079 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:48:48,631 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:48:48,743 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:48:49,807 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:48:51,886 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:48:55,967 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:49:34,347 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-18 23:49:34,348 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-18 23:49:34,348 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-18 23:49:34,401 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-18 23:49:34,402 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-18 23:49:34,402 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-18 23:49:34,402 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-18 23:49:34,403 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-18 23:49:34,403 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-18 23:49:34,403 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-18 23:49:34,404 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-18 23:49:34,408 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-18 23:49:34,408 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-18 23:49:34,409 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-18 23:49:34,411 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-18 23:49:34,411 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-18 23:49:34,412 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-18 23:49:34,413 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-18 23:49:34,414 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-18 23:49:34,414 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-18 23:49:34,415 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-18 23:49:34,417 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-18 23:49:34,424 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-18 23:53:55,980 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:53:56,085 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:53:57,167 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:53:59,245 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:54:03,322 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:59:03,330 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-18 23:59:03,434 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:59:04,511 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:59:06,600 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-18 23:59:10,678 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-19 00:03:39,628 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:03:39,628 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:03:39,629 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:03:39,679 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:03:39,680 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:03:39,680 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:03:39,680 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:03:39,680 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:03:39,681 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:03:39,681 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:03:39,682 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:03:39,686 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:03:39,686 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:03:39,686 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:03:39,688 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:03:39,688 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:03:39,689 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:03:39,690 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:03:39,690 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:03:39,690 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:03:39,691 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:03:39,692 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:03:39,697 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:04:10,680 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-19 00:04:10,762 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-19 00:04:11,841 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-19 00:04:13,932 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-19 00:04:18,017 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-19 00:04:20,613 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:04:20,613 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:04:20,614 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:04:20,665 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:04:20,665 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:04:20,665 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:04:20,665 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:04:20,666 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:04:20,667 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:04:20,667 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:04:20,667 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:04:20,671 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:04:20,671 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:04:20,672 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:04:20,673 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:04:20,674 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:04:20,674 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:04:20,675 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:04:20,675 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:04:20,676 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:04:20,676 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:04:20,677 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:04:20,682 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:06:34,319 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:06:34,319 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:06:34,319 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:06:34,370 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:06:34,370 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:06:34,371 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:06:34,371 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:06:34,371 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:06:34,372 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:06:34,372 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:06:34,373 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:06:34,377 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:06:34,377 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:06:34,378 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:06:34,379 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:06:34,379 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:06:34,380 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:06:34,381 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:06:34,381 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:06:34,382 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:06:34,382 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:06:34,383 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:06:34,388 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:07:09,793 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:07:09,793 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:07:09,794 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:07:09,845 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:07:09,845 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:07:09,845 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:07:09,845 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:07:09,846 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:07:09,846 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:07:09,846 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:07:09,847 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:07:09,851 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:07:09,851 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:07:09,851 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:07:09,853 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:07:09,853 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:07:09,854 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:07:09,855 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:07:09,855 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:07:09,855 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:07:09,856 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:07:09,857 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:07:09,862 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:07:27,918 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:07:27,918 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:07:27,919 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:07:27,964 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:07:27,965 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:07:27,965 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:07:27,965 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:07:27,966 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:07:27,966 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:07:27,966 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:07:27,967 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:07:27,971 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:07:27,971 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:07:27,971 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:07:27,973 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:07:27,973 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:07:27,974 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:07:27,975 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:07:27,975 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:07:27,975 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:07:27,976 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:07:27,977 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:07:27,982 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:08:03,508 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:08:03,509 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:08:03,509 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:08:03,555 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:08:03,555 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:08:03,556 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:08:03,556 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:08:03,556 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:08:03,557 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:08:03,557 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:08:03,557 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:08:03,561 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:08:03,561 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:08:03,562 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:08:03,563 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:08:03,564 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:08:03,564 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:08:03,565 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:08:03,565 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:08:03,566 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:08:03,566 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:08:03,567 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:08:03,572 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:08:16,155 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:08:16,156 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:08:16,156 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:08:16,200 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:08:16,201 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:08:16,201 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:08:16,201 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:08:16,201 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:08:16,202 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:08:16,202 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:08:16,203 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:08:16,207 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:08:16,207 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:08:16,207 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:08:16,208 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:08:16,208 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:08:16,209 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:08:16,210 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:08:16,210 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:08:16,210 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:08:16,211 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:08:16,211 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:08:16,216 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:08:27,177 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:08:27,177 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:08:27,178 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:08:27,222 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:08:27,222 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:08:27,222 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:08:27,223 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:08:27,223 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:08:27,224 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:08:27,224 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:08:27,224 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:08:27,228 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:08:27,228 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:08:27,229 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:08:27,229 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:08:27,230 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:08:27,230 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:08:27,231 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:08:27,231 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:08:27,232 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:08:27,232 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:08:27,233 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:08:27,238 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:09:18,019 INFO tools.mcp_tool: MCP server 'memory-bridge': attempting revival after initial connection failures (self-probe or explicit reconnect request); rebuilding transport.
+2026-07-19 00:09:18,126 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 1/3), retrying in 1s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-19 00:09:19,211 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 2/3), retrying in 2s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-19 00:09:21,285 WARNING tools.mcp_tool: MCP server 'memory-bridge' initial connection failed (attempt 3/3), retrying in 4s: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-19 00:09:25,361 WARNING tools.mcp_tool: MCP server 'memory-bridge' failed initial connection after 3 attempts, parking until a reconnect is requested: unhandled errors in a TaskGroup (1 sub-exception)
+2026-07-19 00:10:42,006 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:10:42,007 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:10:42,007 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:10:42,056 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:10:42,057 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:10:42,057 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:10:42,057 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:10:42,058 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:10:42,058 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:10:42,058 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:10:42,059 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:10:42,063 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:10:42,063 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:10:42,063 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:10:42,065 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:10:42,065 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:10:42,066 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:10:42,067 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:10:42,067 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:10:42,067 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:10:42,068 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:10:42,068 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:10:42,074 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:11:05,946 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:11:05,946 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:11:05,946 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:11:05,991 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:11:05,991 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:11:05,991 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:11:05,991 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:11:05,992 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:11:05,992 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:11:05,992 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:11:05,993 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:11:05,996 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:11:05,997 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:11:05,997 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:11:05,998 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:11:05,998 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:11:05,998 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:11:05,999 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:11:05,999 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:11:06,000 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:11:06,000 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:11:06,001 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:11:06,006 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled
+2026-07-19 00:11:35,310 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-07-19 00:11:35,310 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-07-19 00:11:35,311 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-07-19 00:11:35,356 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-07-19 00:11:35,356 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-07-19 00:11:35,356 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-07-19 00:11:35,356 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-07-19 00:11:35,357 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-07-19 00:11:35,358 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-07-19 00:11:35,358 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-07-19 00:11:35,358 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-07-19 00:11:35,362 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-07-19 00:11:35,362 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-07-19 00:11:35,362 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-07-19 00:11:35,364 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-07-19 00:11:35,364 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-07-19 00:11:35,365 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-07-19 00:11:35,365 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-07-19 00:11:35,366 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-07-19 00:11:35,366 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-07-19 00:11:35,366 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-07-19 00:11:35,367 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-07-19 00:11:35,373 INFO hermes_cli.plugins: Plugin discovery complete: 53 found, 46 enabled

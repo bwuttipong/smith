@@ -13297,3 +13297,17 @@
 2026-07-18 21:25:03,729 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=9.0s api_calls=1 response=710 chars
 2026-07-18 21:27:26,800 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (112 chars)
 2026-07-18 21:27:26,813 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='I don’t have any to do from here on out . I’m out for drinking now . You can cal' reply_to_id=None reply_to_text=''
+2026-07-18 21:27:51,801 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-18 21:27:51,801 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=25.0s api_calls=2 response=91 chars
+2026-07-18 21:28:11,865 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (11 chars)
+2026-07-18 21:28:11,874 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Duly noted.' reply_to_id=None reply_to_text=''
+2026-07-18 21:28:23,555 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-18 21:28:23,555 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=11.7s api_calls=1 response=2 chars
+2026-07-18 21:46:22,881 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (29 chars)
+2026-07-18 21:46:22,890 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='I have come with my colleague' reply_to_id=None reply_to_text=''
+2026-07-18 21:46:32,495 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-18 21:46:32,496 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=9.6s api_calls=1 response=44 chars
+2026-07-18 21:46:53,473 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (24 chars)
+2026-07-18 21:46:53,480 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Honestly I am gonna back' reply_to_id=None reply_to_text=''
+2026-07-18 21:46:58,326 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-18 21:46:58,326 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=4.8s api_calls=1 response=34 chars

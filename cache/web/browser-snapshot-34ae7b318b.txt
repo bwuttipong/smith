@@ -1,0 +1,1396 @@
+- generic
+  - banner
+    - generic
+      - link "Google News" [ref=e17]
+        - StaticText "News"
+      - search
+        - combobox "Search for topics, locations & sources" [expanded=false, ref=e18]: US Iran war tensions 2026
+          - StaticText "US Iran war tensions 2026"
+        - button "Advanced search" [ref=e1]
+          - image
+        - button "Clear search" [ref=e2]
+          - image
+        - button "Search" [ref=e3]
+          - image
+      - generic
+        - button "Help" [expanded=false, ref=e32]
+      - generic
+        - button "Settings" [expanded=false, ref=e33]
+      - generic
+        - button "Google apps" [expanded=false, ref=e34]
+          - StaticText "  "
+        - link "Sign in" [ref=e4]
+          - StaticText "  "
+          - StaticText "Sign in"
+    - navigation
+      - tablist
+        - tab "Home" [ref=e5]
+          - tab "Home" [ref=e19]
+        - tab "For you" [ref=e6]
+          - tab "For you" [ref=e20]
+        - tab "Following" [ref=e7]
+          - tab "Following" [ref=e21]
+        - tab "U.S." [ref=e8]
+          - tab "U.S." [ref=e22]
+        - tab "World" [ref=e9]
+          - tab "World" [ref=e23]
+        - tab "Local" [ref=e10]
+          - tab "Local" [ref=e24]
+        - tab "Business" [ref=e11]
+          - tab "Business" [ref=e25]
+        - tab "Technology" [ref=e12]
+          - tab "Technology" [ref=e26]
+        - tab "Entertainment" [ref=e13]
+          - tab "Entertainment" [ref=e27]
+        - tab "Sports" [ref=e14]
+          - tab "Sports" [ref=e28]
+        - tab "Science" [ref=e15]
+          - tab "Science" [ref=e29]
+        - tab "Health" [ref=e16]
+          - tab "Health" [ref=e30]
+  - generic
+    - main
+      - generic
+        - generic
+          - generic
+            - generic
+              - StaticText "NPR"
+              - generic
+                - button "More - The U.S. and Iran blow past red lines as they lurch back toward all-out war" [expanded=false, ref=e136]
+            - link "The U.S. and Iran blow past red lines as they lurch back toward all-out war - NPR - 10 hours ago" [ref=e36]
+              - StaticText "The U.S. and Iran blow past red lines as they lurch back toward all-out war"
+        - time
+          - StaticText "10 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Encyclopedia Britannica"
+                - generic
+                  - button "More - 2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict" [expanded=false, ref=e137]
+              - link "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Encyclopedia Britannica - 4 days ago" [ref=e37]
+                - StaticText "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict"
+          - time
+            - StaticText "4 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Guardian"
+                - generic
+                  - button "More - US launches seventh night of Iran strikes as Hormuz conflict escalates" [expanded=false, ref=e138]
+              - link "US launches seventh night of Iran strikes as Hormuz conflict escalates - The Guardian - 19 hours ago - By William Christou" [ref=e38]
+                - StaticText "US launches seventh night of Iran strikes as Hormuz conflict escalates"
+          - time
+            - StaticText "19 hours ago"
+          - separator
+          - StaticText "By William Christou"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Christian Science Monitor"
+                - generic
+                  - button "More - With ceasefire gone, the question rises: Will Iran war ever end?" [expanded=false, ref=e139]
+              - link "With ceasefire gone, the question rises: Will Iran war ever end? - The Christian Science Monitor - Yesterday - By Anna Mulrine" [ref=e39]
+                - StaticText "With ceasefire gone, the question rises: Will Iran war ever end?"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Anna Mulrine"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "chinadailyasia.com"
+                - generic
+                  - button "More - US-Iran tensions escalate with renewed strikes" [expanded=false, ref=e140]
+              - link "US-Iran tensions escalate with renewed strikes - chinadailyasia.com - 6 hours ago" [ref=e40]
+                - StaticText "US-Iran tensions escalate with renewed strikes"
+          - time
+            - StaticText "6 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - US airstrikes hit northern Iran as it disables ship trying to run the blockade" [expanded=false, ref=e141]
+              - link "US airstrikes hit northern Iran as it disables ship trying to run the blockade - AP News - 2 days ago - By Jon Gambrell" [ref=e41]
+                - StaticText "US airstrikes hit northern Iran as it disables ship trying to run the blockade"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Jon Gambrell"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Iran War Updates: Bridges and Water Plants Hit as Strikes Stretch to 7th Straight Day" [expanded=false, ref=e142]
+              - link "Iran War Updates: Bridges and Water Plants Hit as Strikes Stretch to 7th Straight Day - The New York Times - 15 hours ago - By Leily Nikounazar, Lara Jakes & Jenny Gross" [ref=e42]
+                - StaticText "Iran War Updates: Bridges and Water Plants Hit as Strikes Stretch to 7th Straight Day"
+          - time
+            - StaticText "15 hours ago"
+          - separator
+          - StaticText "By Leily Nikounazar, Lara Jakes & Jenny Gross"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - US launches seventh straight night of strikes on Iran" [expanded=false, ref=e143]
+              - link "US launches seventh straight night of strikes on Iran - Al Jazeera - 10 hours ago" [ref=e43]
+                - StaticText "US launches seventh straight night of strikes on Iran"
+          - time
+            - StaticText "10 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NPR"
+                - generic
+                  - button "More - U.S. strikes bridges in Iran; Tehran targets U.S. bases in the Gulf" [expanded=false, ref=e144]
+              - link "U.S. strikes bridges in Iran; Tehran targets U.S. bases in the Gulf - NPR - Yesterday - By Npr Staff" [ref=e44]
+                - StaticText "U.S. strikes bridges in Iran; Tehran targets U.S. bases in the Gulf"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Npr Staff"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Iran War Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz" [expanded=false, ref=e145]
+              - link "Iran War Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz - The New York Times - Yesterday - By Ismaeel Naar, Farnaz Fassihi & Mike Abrams" [ref=e45]
+                - StaticText "Iran War Updates: U.S. Launches New Strikes, as Tensions Escalate Over Strait of Hormuz"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Ismaeel Naar, Farnaz Fassihi & Mike Abrams"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - US or Iran — Who needs a new truce deal more?" [expanded=false, ref=e146]
+              - link "US or Iran — Who needs a new truce deal more? - Al Jazeera - 2 days ago - By Shola Lawal" [ref=e46]
+                - StaticText "US or Iran — Who needs a new truce deal more?"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Shola Lawal"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - U.S. Strikes Iran for 3rd Night, in Return to Open Conflict" [expanded=false, ref=e147]
+              - link "U.S. Strikes Iran for 3rd Night, in Return to Open Conflict - The New York Times - 4 days ago - By Peter Eavis, Gregory Schmidt & Vivian Nereim" [ref=e47]
+                - StaticText "U.S. Strikes Iran for 3rd Night, in Return to Open Conflict"
+          - time
+            - StaticText "4 days ago"
+          - separator
+          - StaticText "By Peter Eavis, Gregory Schmidt & Vivian Nereim"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Trump orders new round of strikes to \"hold Iranian forces accountable,\" CENTCOM says as two sides exchange threats" [expanded=false, ref=e148]
+              - link "Trump orders new round of strikes to \"hold Iranian forces accountable,\" CENTCOM says as two sides exchange threats - CBS News - 5 days ago - By Tucker Reals, Faris Tanyos & Duarte Pita Dias" [ref=e48]
+                - StaticText "Trump orders new round of strikes to \"hold Iranian forces accountable,\" CENTCOM says as two sides exchange threats"
+          - time
+            - StaticText "5 days ago"
+          - separator
+          - StaticText "By Tucker Reals, Faris Tanyos & Duarte Pita Dias"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "dw.com"
+                - generic
+                  - button "More - Iran war: US military attacks Iran for sixth night running" [expanded=false, ref=e149]
+              - link "Iran war: US military attacks Iran for sixth night running - dw.com - Yesterday - By Kieran Burke, Wesley Rahn & Felix Tamsut" [ref=e49]
+                - StaticText "Iran war: US military attacks Iran for sixth night running"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Kieran Burke, Wesley Rahn & Felix Tamsut"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Why is the US attacking southern Iran’s civilian infrastructure?" [expanded=false, ref=e150]
+              - link "Why is the US attacking southern Iran’s civilian infrastructure? - Al Jazeera - Yesterday - By Caolán Magee" [ref=e50]
+                - StaticText "Why is the US attacking southern Iran’s civilian infrastructure?"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Caolán Magee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Middle East Updates: Cease-Fire Unraveling as U.S. and Iran Trade Strikes Again" [expanded=false, ref=e151]
+              - link "Middle East Updates: Cease-Fire Unraveling as U.S. and Iran Trade Strikes Again - The New York Times - 4 days ago - By Vivian Nereim, Anushka Patil & Aaron Boxerman" [ref=e51]
+                - StaticText "Middle East Updates: Cease-Fire Unraveling as U.S. and Iran Trade Strikes Again"
+          - time
+            - StaticText "4 days ago"
+          - separator
+          - StaticText "By Vivian Nereim, Anushka Patil & Aaron Boxerman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Firstpost"
+                - generic
+                  - button "More - US-Iran war enters more dangerous phase as critical infrastructure becomes new battlefield" [expanded=false, ref=e152]
+              - link "US-Iran war enters more dangerous phase as critical infrastructure becomes new battlefield - Firstpost - 4 hours ago" [ref=e52]
+                - StaticText "US-Iran war enters more dangerous phase as critical infrastructure becomes new battlefield"
+          - time
+            - StaticText "4 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Can the US and Iran reach a lasting deal to end the conflict?" [expanded=false, ref=e153]
+              - link "Can the US and Iran reach a lasting deal to end the conflict? - Al Jazeera - 22 hours ago" [ref=e53]
+                - StaticText "Can the US and Iran reach a lasting deal to end the conflict?"
+          - time
+            - StaticText "22 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Guardian"
+                - generic
+                  - button "More - US gas prices edge up again as US-Iran tensions heighten over strait of Hormuz" [expanded=false, ref=e154]
+              - link "US gas prices edge up again as US-Iran tensions heighten over strait of Hormuz - The Guardian - Yesterday - By Aram Roston" [ref=e54]
+                - StaticText "US gas prices edge up again as US-Iran tensions heighten over strait of Hormuz"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Aram Roston"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Crypto Briefing"
+                - generic
+                  - button "More - Iran condemns US strike on desalination plant as war crime amidst 2026 conflict" [expanded=false, ref=e155]
+              - link "Iran condemns US strike on desalination plant as war crime amidst 2026 conflict - Crypto Briefing - 1 hour ago - By Estefano Gomez" [ref=e55]
+                - StaticText "Iran condemns US strike on desalination plant as war crime amidst 2026 conflict"
+          - time
+            - StaticText "1 hour ago"
+          - separator
+          - StaticText "By Estefano Gomez"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Crypto Briefing"
+                - generic
+                  - button "More - Iran indicts Trump and Netanyahu amid renewed hostilities in 2026 war" [expanded=false, ref=e156]
+              - link "Iran indicts Trump and Netanyahu amid renewed hostilities in 2026 war - Crypto Briefing - 8 hours ago - By Estefano Gomez" [ref=e56]
+                - StaticText "Iran indicts Trump and Netanyahu amid renewed hostilities in 2026 war"
+          - time
+            - StaticText "8 hours ago"
+          - separator
+          - StaticText "By Estefano Gomez"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Crypto Briefing"
+                - generic
+                  - button "More - IRGC attacks US military bases in Kuwait amid 2026 Iran war escalation" [expanded=false, ref=e157]
+              - link "IRGC attacks US military bases in Kuwait amid 2026 Iran war escalation - Crypto Briefing - 11 hours ago - By Estefano Gomez" [ref=e57]
+                - StaticText "IRGC attacks US military bases in Kuwait amid 2026 Iran war escalation"
+          - time
+            - StaticText "11 hours ago"
+          - separator
+          - StaticText "By Estefano Gomez"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - IEA chief warns Strait of Hormuz crisis threatens global energy security" [expanded=false, ref=e158]
+              - link "IEA chief warns Strait of Hormuz crisis threatens global energy security - Al Jazeera - Yesterday" [ref=e58]
+                - StaticText "IEA chief warns Strait of Hormuz crisis threatens global energy security"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "USA Today"
+                - generic
+                  - button "More - US launches new strikes on Iran as Strait of Hormuz tensions escalate" [expanded=false, ref=e159]
+              - link "US launches new strikes on Iran as Strait of Hormuz tensions escalate - USA Today - 5 days ago - By Thao Nguyen" [ref=e59]
+                - StaticText "US launches new strikes on Iran as Strait of Hormuz tensions escalate"
+          - time
+            - StaticText "5 days ago"
+          - separator
+          - StaticText "By Thao Nguyen"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Reuters"
+                - generic
+                  - button "More - Pakistan worries about being drawn into US-Iran conflict after Houthis attack Saudi Arabia" [expanded=false, ref=e160]
+              - link "Pakistan worries about being drawn into US-Iran conflict after Houthis attack Saudi Arabia - Reuters - 2 days ago - By Asif Shahzad, Mubasher Bukhari & Rick Noack" [ref=e60]
+                - StaticText "Pakistan worries about being drawn into US-Iran conflict after Houthis attack Saudi Arabia"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Asif Shahzad, Mubasher Bukhari & Rick Noack"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Firstpost"
+                - generic
+                  - button "More - 'America violated all commitments': Iran says it has 'suspended' US ceasefire deal under MoU" [expanded=false, ref=e161]
+              - link "'America violated all commitments': Iran says it has 'suspended' US ceasefire deal under MoU - Firstpost - 1 hour ago" [ref=e61]
+                - StaticText "'America violated all commitments': Iran says it has 'suspended' US ceasefire deal under MoU"
+          - time
+            - StaticText "1 hour ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Crypto Briefing"
+                - generic
+                  - button "More - US air strikes hit Iran’s Hormozgan province amid rising tensions" [expanded=false, ref=e162]
+              - link "US air strikes hit Iran’s Hormozgan province amid rising tensions - Crypto Briefing - 1 hour ago - By Estefano Gomez" [ref=e62]
+                - StaticText "US air strikes hit Iran’s Hormozgan province amid rising tensions"
+          - time
+            - StaticText "1 hour ago"
+          - separator
+          - StaticText "By Estefano Gomez"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC News & Headlines – Australian Broadcasting Corporation"
+                - generic
+                  - button "More - US targets bridges, Iran hits Bahraini targets as war threat widens" [expanded=false, ref=e163]
+              - link "US targets bridges, Iran hits Bahraini targets as war threat widens - ABC News &amp; Headlines – Australian Broadcasting Corporation - 17 hours ago" [ref=e63]
+                - StaticText "US targets bridges, Iran hits Bahraini targets as war threat widens"
+          - time
+            - StaticText "17 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "UWA"
+                - generic
+                  - button "More - US and Iran are back at war due to one main sticking point" [expanded=false, ref=e164]
+              - link "US and Iran are back at war due to one main sticking point - UWA - 4 days ago" [ref=e64]
+                - StaticText "US and Iran are back at war due to one main sticking point"
+          - time
+            - StaticText "4 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Reuters"
+                - generic
+                  - button "More - Gold set for biggest weekly drop since early June on inflation, rate-hike worries" [expanded=false, ref=e165]
+              - link "Gold set for biggest weekly drop since early June on inflation, rate-hike worries - Reuters - Yesterday - By Noel John" [ref=e65]
+                - StaticText "Gold set for biggest weekly drop since early June on inflation, rate-hike worries"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Noel John"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Crypto Briefing"
+                - generic
+                  - button "More - Iran strikes Kuwait desalination plant again amid escalating conflict" [expanded=false, ref=e166]
+              - link "Iran strikes Kuwait desalination plant again amid escalating conflict - Crypto Briefing - 7 hours ago - By Estefano Gomez" [ref=e66]
+                - StaticText "Iran strikes Kuwait desalination plant again amid escalating conflict"
+          - time
+            - StaticText "7 hours ago"
+          - separator
+          - StaticText "By Estefano Gomez"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - U.S. Launches New Strikes on Iran, Military Says" [expanded=false, ref=e167]
+              - link "U.S. Launches New Strikes on Iran, Military Says - The New York Times - 9 days ago - By Leily Nikounazar, Johnatan Reiss & David E. Sanger" [ref=e67]
+                - StaticText "U.S. Launches New Strikes on Iran, Military Says"
+          - time
+            - StaticText "9 days ago"
+          - separator
+          - StaticText "By Leily Nikounazar, Johnatan Reiss & David E. Sanger"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "France 24"
+                - generic
+                  - button "More - US-Iran conflict escalates as fresh missile strikes threaten Middle East ceasefire" [expanded=false, ref=e168]
+              - link "US-Iran conflict escalates as fresh missile strikes threaten Middle East ceasefire - France 24 - 8 days ago" [ref=e68]
+                - StaticText "US-Iran conflict escalates as fresh missile strikes threaten Middle East ceasefire"
+          - time
+            - StaticText "8 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "PBS"
+                - generic
+                  - button "More - U.S. military says it struck multiple targets in Iran as ceasefire is strained by 2nd day of attacks" [expanded=false, ref=e169]
+              - link "U.S. military says it struck multiple targets in Iran as ceasefire is strained by 2nd day of attacks - PBS - Jun 27 - By Konstantin Toropin & Jon Gambrell" [ref=e69]
+                - StaticText "U.S. military says it struck multiple targets in Iran as ceasefire is strained by 2nd day of attacks"
+          - time
+            - StaticText "Jun 27"
+          - separator
+          - StaticText "By Konstantin Toropin & Jon Gambrell"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CNN"
+                - generic
+                  - button "More - Iran and US exchange strikes as Hormuz tensions stress agreement" [expanded=false, ref=e170]
+              - link "Iran and US exchange strikes as Hormuz tensions stress agreement - CNN - Jun 27 - By Zachary Cohen, Kevin Liptak & Sophie von der Tann" [ref=e70]
+                - StaticText "Iran and US exchange strikes as Hormuz tensions stress agreement"
+          - time
+            - StaticText "Jun 27"
+          - separator
+          - StaticText "By Zachary Cohen, Kevin Liptak & Sophie von der Tann"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Firstpost"
+                - generic
+                  - button "More - Pakistan, Kuwait discuss new defence partnership amid US-Iran tensions, says report" [expanded=false, ref=e171]
+              - link "Pakistan, Kuwait discuss new defence partnership amid US-Iran tensions, says report - Firstpost - 5 hours ago" [ref=e71]
+                - StaticText "Pakistan, Kuwait discuss new defence partnership amid US-Iran tensions, says report"
+          - time
+            - StaticText "5 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CNBC"
+                - generic
+                  - button "More - U.S., Iran pause hostilities as Hormuz shipping resumes after weekend clashes" [expanded=false, ref=e172]
+              - link "U.S., Iran pause hostilities as Hormuz shipping resumes after weekend clashes - CNBC - Jun 28 - By Garrett Downs & Azhar Sukri" [ref=e72]
+                - StaticText "U.S., Iran pause hostilities as Hormuz shipping resumes after weekend clashes"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Garrett Downs & Azhar Sukri"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - The US-Iran MoU looks at managing the pain rather than ending the war" [expanded=false, ref=e173]
+              - link "The US-Iran MoU looks at managing the pain rather than ending the war - Al Jazeera - Jun 29" [ref=e73]
+                - StaticText "The US-Iran MoU looks at managing the pain rather than ending the war"
+          - time
+            - StaticText "Jun 29"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Guardian"
+                - generic
+                  - button "More - Shadow war: how use of proxy forces by Iran, Israel and US is driving Middle East instability" [expanded=false, ref=e174]
+              - link "Shadow war: how use of proxy forces by Iran, Israel and US is driving Middle East instability - The Guardian - Jun 28 - By Jason Burke" [ref=e74]
+                - StaticText "Shadow war: how use of proxy forces by Iran, Israel and US is driving Middle East instability"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Jason Burke"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - U.S. and Iran Trade More Strikes, Testing Truce" [expanded=false, ref=e175]
+              - link "U.S. and Iran Trade More Strikes, Testing Truce - The New York Times - Jun 28 - By Peter Eavis, Leily Nikounazar & Euan Ward" [ref=e75]
+                - StaticText "U.S. and Iran Trade More Strikes, Testing Truce"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Peter Eavis, Leily Nikounazar & Euan Ward"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Carnegie Endowment for International Peace"
+                - generic
+                  - button "More - Simmering U.S.-Iran Conflict Is Moscow’s Ideal Outcome" [expanded=false, ref=e176]
+              - link "Simmering U.S.-Iran Conflict Is Moscow’s Ideal Outcome - Carnegie Endowment for International Peace - Jun 24 - By Nikita Smagin" [ref=e76]
+                - StaticText "Simmering U.S.-Iran Conflict Is Moscow’s Ideal Outcome"
+          - time
+            - StaticText "Jun 24"
+          - separator
+          - StaticText "By Nikita Smagin"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Reuters"
+                - generic
+                  - button "More - Iran and US agree to halt attacks and renew talks, US official says" [expanded=false, ref=e177]
+              - link "Iran and US agree to halt attacks and renew talks, US official says - Reuters - Jun 28 - By Menna Alaaeldin & Nandita Bose" [ref=e77]
+                - StaticText "Iran and US agree to halt attacks and renew talks, US official says"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Menna Alaaeldin & Nandita Bose"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "dw.com"
+                - generic
+                  - button "More - US carries out 'additional strikes' on Iran" [expanded=false, ref=e178]
+              - link "US carries out 'additional strikes' on Iran - dw.com - Jun 26" [ref=e78]
+                - StaticText "US carries out 'additional strikes' on Iran"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Breaking Defense"
+                - generic
+                  - button "More - Iran was the most successful failure in US airpower history" [expanded=false, ref=e179]
+              - link "Iran was the most successful failure in US airpower history - Breaking Defense - 16 days ago - By Max Bremer & Kelly A. Grieco" [ref=e79]
+                - StaticText "Iran was the most successful failure in US airpower history"
+          - time
+            - StaticText "16 days ago"
+          - separator
+          - StaticText "By Max Bremer & Kelly A. Grieco"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Guardian"
+                - generic
+                  - button "More - Escalating US-Iran strikes threaten interim peace agreement" [expanded=false, ref=e180]
+              - link "Escalating US-Iran strikes threaten interim peace agreement - The Guardian - Jun 28 - By Jason Burke" [ref=e80]
+                - StaticText "Escalating US-Iran strikes threaten interim peace agreement"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Jason Burke"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NPR"
+                - generic
+                  - button "More - The U.S. and Iran agree to a 'road map' for a final deal, mediators say" [expanded=false, ref=e181]
+              - link "The U.S. and Iran agree to a 'road map' for a final deal, mediators say - NPR - Jun 21 - By Chandelis Duster" [ref=e81]
+                - StaticText "The U.S. and Iran agree to a 'road map' for a final deal, mediators say"
+          - time
+            - StaticText "Jun 21"
+          - separator
+          - StaticText "By Chandelis Duster"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Iran threatens \"complete halt\" to talks after trading strikes with U.S.; Washington official says talks to continue" [expanded=false, ref=e182]
+              - link "Iran threatens \"complete halt\" to talks after trading strikes with U.S.; Washington official says talks to continue - CBS News - Jun 28 - By Alex Sundby, Frank Andrews & Mark Osborne" [ref=e82]
+                - StaticText "Iran threatens \"complete halt\" to talks after trading strikes with U.S.; Washington official says talks to continue"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Alex Sundby, Frank Andrews & Mark Osborne"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CNBC"
+                - generic
+                  - button "More - Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again" [expanded=false, ref=e183]
+              - link "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again - CNBC - Jun 28 - By Ying Shan Lee, Sam Meredith & Ying Lee Yim-qun" [ref=e83]
+                - StaticText "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Ying Shan Lee, Sam Meredith & Ying Lee Yim-qun"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Washington Post"
+                - generic
+                  - button "More - U.S., Iran launch new strikes, testing fragile ceasefire as Hormuz tensions flare" [expanded=false, ref=e184]
+              - link "U.S., Iran launch new strikes, testing fragile ceasefire as Hormuz tensions flare - The Washington Post - Jun 28 - By Victoria Craw & Suzan Haidamous" [ref=e84]
+                - StaticText "U.S., Iran launch new strikes, testing fragile ceasefire as Hormuz tensions flare"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Victoria Craw & Suzan Haidamous"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "dw.com"
+                - generic
+                  - button "More - US, Iran deliver conflicting reports on fresh peace talks" [expanded=false, ref=e185]
+              - link "US, Iran deliver conflicting reports on fresh peace talks - dw.com - Jun 29" [ref=e85]
+                - StaticText "US, Iran deliver conflicting reports on fresh peace talks"
+          - time
+            - StaticText "Jun 29"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Euronews.com"
+                - generic
+                  - button "More - Gulf states brace again for fiery US-Iran showdown as tensions spiral" [expanded=false, ref=e186]
+              - link "Gulf states brace again for fiery US-Iran showdown as tensions spiral - Euronews.com - 10 days ago - By Peter Barabas" [ref=e86]
+                - StaticText "Gulf states brace again for fiery US-Iran showdown as tensions spiral"
+          - time
+            - StaticText "10 days ago"
+          - separator
+          - StaticText "By Peter Barabas"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NPR"
+                - generic
+                  - button "More - U.S. and Iran each announce retaliatory strikes in Iran, Kuwait and Bahrain" [expanded=false, ref=e187]
+              - link "U.S. and Iran each announce retaliatory strikes in Iran, Kuwait and Bahrain - NPR - Jun 27 - By Willem Marx" [ref=e87]
+                - StaticText "U.S. and Iran each announce retaliatory strikes in Iran, Kuwait and Bahrain"
+          - time
+            - StaticText "Jun 27"
+          - separator
+          - StaticText "By Willem Marx"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Time Magazine"
+                - generic
+                  - button "More - The U.S.-Iran War: By the Numbers" [expanded=false, ref=e188]
+              - link "The U.S.-Iran War: By the Numbers - Time Magazine - Jun 21 - By Rebecca Schneid" [ref=e88]
+                - StaticText "The U.S.-Iran War: By the Numbers"
+          - time
+            - StaticText "Jun 21"
+          - separator
+          - StaticText "By Rebecca Schneid"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - US envoys arrive in Qatar for meetings on Iran, with tensions high over Hormuz" [expanded=false, ref=e189]
+              - link "US envoys arrive in Qatar for meetings on Iran, with tensions high over Hormuz - AP News - Jun 30 - By Jon Gambrell" [ref=e89]
+                - StaticText "US envoys arrive in Qatar for meetings on Iran, with tensions high over Hormuz"
+          - time
+            - StaticText "Jun 30"
+          - separator
+          - StaticText "By Jon Gambrell"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Senate Defeats War Powers Rebuke of President After Fiery Clash" [expanded=false, ref=e190]
+              - link "Senate Defeats War Powers Rebuke of President After Fiery Clash - The New York Times - 16 days ago - By Robert J., Chris Cameron & Tyler Pager" [ref=e90]
+                - StaticText "Senate Defeats War Powers Rebuke of President After Fiery Clash"
+          - time
+            - StaticText "16 days ago"
+          - separator
+          - StaticText "By Robert J., Chris Cameron & Tyler Pager"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "U.S. News & World Report"
+                - generic
+                  - button "More - UAE Stresses Hormuz Security in Rare Call With Iran After War Tensions" [expanded=false, ref=e191]
+              - link "UAE Stresses Hormuz Security in Rare Call With Iran After War Tensions - U.S. News &amp; World Report - Jun 26" [ref=e91]
+                - StaticText "UAE Stresses Hormuz Security in Rare Call With Iran After War Tensions"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Institute for the Study of War"
+                - generic
+                  - button "More - Iran Update Special Report, June 11, 2026" [expanded=false, ref=e192]
+              - link "Iran Update Special Report, June 11, 2026 - Institute for the Study of War - Jun 11" [ref=e92]
+                - StaticText "Iran Update Special Report, June 11, 2026"
+          - time
+            - StaticText "Jun 11"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks" [expanded=false, ref=e193]
+              - link "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks - AP News - Jun 28 - By Jon Gambrell & Melanie Lidman" [ref=e93]
+                - StaticText "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Jon Gambrell & Melanie Lidman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "MPR News"
+                - generic
+                  - button "More - Senate approves war powers resolution rebuking Trump over Iran conflict" [expanded=false, ref=e194]
+              - link "Senate approves war powers resolution rebuking Trump over Iran conflict - MPR News - Jun 23" [ref=e94]
+                - StaticText "Senate approves war powers resolution rebuking Trump over Iran conflict"
+          - time
+            - StaticText "Jun 23"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CNBC"
+                - generic
+                  - button "More - U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon" [expanded=false, ref=e195]
+              - link "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon - CNBC - Jun 21 - By Anniek Bao" [ref=e95]
+                - StaticText "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon"
+          - time
+            - StaticText "Jun 21"
+          - separator
+          - StaticText "By Anniek Bao"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - After U.S.-Iran War, Oman Is Said to Propose Strait of Hormuz Fee Plan" [expanded=false, ref=e196]
+              - link "After U.S.-Iran War, Oman Is Said to Propose Strait of Hormuz Fee Plan - The New York Times - 16 days ago - By Vivian Nereim, Farnaz Fassihi & Erika Solomon" [ref=e96]
+                - StaticText "After U.S.-Iran War, Oman Is Said to Propose Strait of Hormuz Fee Plan"
+          - time
+            - StaticText "16 days ago"
+          - separator
+          - StaticText "By Vivian Nereim, Farnaz Fassihi & Erika Solomon"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC News & Headlines – Australian Broadcasting Corporation"
+                - generic
+                  - button "More - US strikes Iran, Iran hits Bahrain and Kuwait as Middle East tensions escalate" [expanded=false, ref=e197]
+              - link "US strikes Iran, Iran hits Bahrain and Kuwait as Middle East tensions escalate - ABC News &amp; Headlines – Australian Broadcasting Corporation - Jun 27" [ref=e97]
+                - StaticText "US strikes Iran, Iran hits Bahrain and Kuwait as Middle East tensions escalate"
+          - time
+            - StaticText "Jun 27"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Reuters"
+                - generic
+                  - button "More - US waives Iran sanctions after talks; Lebanon fighting abates" [expanded=false, ref=e198]
+              - link "US waives Iran sanctions after talks; Lebanon fighting abates - Reuters - Jun 22 - By Laila Bassam, Dave Graham & Hümeyra Pamuk" [ref=e98]
+                - StaticText "US waives Iran sanctions after talks; Lebanon fighting abates"
+          - time
+            - StaticText "Jun 22"
+          - separator
+          - StaticText "By Laila Bassam, Dave Graham & Hümeyra Pamuk"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Trump asks Congress for billions for Iran war, after tension with Republicans" [expanded=false, ref=e199]
+              - link "Trump asks Congress for billions for Iran war, after tension with Republicans - BBC - Jun 25 - By Kwasi Gyamfi Asiedu" [ref=e99]
+                - StaticText "Trump asks Congress for billions for Iran war, after tension with Republicans"
+          - time
+            - StaticText "Jun 25"
+          - separator
+          - StaticText "By Kwasi Gyamfi Asiedu"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Vance Heads to Talks as Strait of Hormuz Re-emerges as Point of Tension" [expanded=false, ref=e200]
+              - link "Vance Heads to Talks as Strait of Hormuz Re-emerges as Point of Tension - The New York Times - Jun 20 - By Euan Ward, Abdi Dahir & Anushka Patil" [ref=e100]
+                - StaticText "Vance Heads to Talks as Strait of Hormuz Re-emerges as Point of Tension"
+          - time
+            - StaticText "Jun 20"
+          - separator
+          - StaticText "By Euan Ward, Abdi Dahir & Anushka Patil"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Brookings"
+                - generic
+                  - button "More - How the Iran war will change the Middle East" [expanded=false, ref=e201]
+              - link "How the Iran war will change the Middle East - Brookings - Jun 10" [ref=e101]
+                - StaticText "How the Iran war will change the Middle East"
+          - time
+            - StaticText "Jun 10"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - US, Iran trade new attacks amid talks: Here’s what we know" [expanded=false, ref=e202]
+              - link "US, Iran trade new attacks amid talks: Here’s what we know - Al Jazeera - Jun 1" [ref=e102]
+                - StaticText "US, Iran trade new attacks amid talks: Here’s what we know"
+          - time
+            - StaticText "Jun 1"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Brookings"
+                - generic
+                  - button "More - The political consequences of the Iran war" [expanded=false, ref=e203]
+              - link "The political consequences of the Iran war - Brookings - Jun 8" [ref=e103]
+                - StaticText "The political consequences of the Iran war"
+          - time
+            - StaticText "Jun 8"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Spectrum News"
+                - generic
+                  - button "More - U.S. military says it’s striking ‘multiple targets’ in Iran in latest es­ca­lation of tensions" [expanded=false, ref=e204]
+              - link "U.S. military says it’s striking ‘multiple targets’ in Iran in latest es­ca­lation of tensions - Spectrum News - Jun 10" [ref=e104]
+                - StaticText "U.S. military says it’s striking ‘multiple targets’ in Iran in latest es­ca­lation of tensions"
+          - time
+            - StaticText "Jun 10"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Star"
+                - generic
+                  - button "More - Oil settles lower, near one-month high on US-Iran tensions" [expanded=false, ref=e205]
+              - link "Oil settles lower, near one-month high on US-Iran tensions - The Star - Yesterday" [ref=e105]
+                - StaticText "Oil settles lower, near one-month high on US-Iran tensions"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NPR"
+                - generic
+                  - button "More - What you need to know about the preliminary U.S.-Iran agreement signed by Trump" [expanded=false, ref=e206]
+              - link "What you need to know about the preliminary U.S.-Iran agreement signed by Trump - NPR - Jun 19 - By Ruth Sherlock" [ref=e106]
+                - StaticText "What you need to know about the preliminary U.S.-Iran agreement signed by Trump"
+          - time
+            - StaticText "Jun 19"
+          - separator
+          - StaticText "By Ruth Sherlock"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Iran War Updates: U.S. Saw Threats From Iran Before Renewing Strikes, Officials Said" [expanded=false, ref=e207]
+              - link "Iran War Updates: U.S. Saw Threats From Iran Before Renewing Strikes, Officials Said - The New York Times - May 27 - By Leily Nikounazar, Euan Ward & Johnatan Reiss" [ref=e107]
+                - StaticText "Iran War Updates: U.S. Saw Threats From Iran Before Renewing Strikes, Officials Said"
+          - time
+            - StaticText "May 27"
+          - separator
+          - StaticText "By Leily Nikounazar, Euan Ward & Johnatan Reiss"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war day 83: Tehran ‘reviewing’ latest US response to end conflict" [expanded=false, ref=e208]
+              - link "Iran war day 83: Tehran ‘reviewing’ latest US response to end conflict - Al Jazeera - May 21 - By Elizabeth Melimopoulos" [ref=e108]
+                - StaticText "Iran war day 83: Tehran ‘reviewing’ latest US response to end conflict"
+          - time
+            - StaticText "May 21"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Reuters"
+                - generic
+                  - button "More - U.S., Iran signal peace deal near as Tehran claims victory" [expanded=false, ref=e209]
+              - link "U.S., Iran signal peace deal near as Tehran claims victory - Reuters - Jun 12 - By Parisa Hafezi, Steve Holland & John Irish" [ref=e109]
+                - StaticText "U.S., Iran signal peace deal near as Tehran claims victory"
+          - time
+            - StaticText "Jun 12"
+          - separator
+          - StaticText "By Parisa Hafezi, Steve Holland & John Irish"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war day 103: US strikes after helicopter shot down, Tehran hits back" [expanded=false, ref=e210]
+              - link "Iran war day 103: US strikes after helicopter shot down, Tehran hits back - Al Jazeera - Jun 10 - By Elizabeth Melimopoulos" [ref=e110]
+                - StaticText "Iran war day 103: US strikes after helicopter shot down, Tehran hits back"
+          - time
+            - StaticText "Jun 10"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war day 100: US, Iran trade attacks again, raising tensions" [expanded=false, ref=e211]
+              - link "Iran war day 100: US, Iran trade attacks again, raising tensions - Al Jazeera - Jun 7" [ref=e111]
+                - StaticText "Iran war day 100: US, Iran trade attacks again, raising tensions"
+          - time
+            - StaticText "Jun 7"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war 100 days: How the conflict impacted Iran and the world" [expanded=false, ref=e212]
+              - link "Iran war 100 days: How the conflict impacted Iran and the world - Al Jazeera - Jun 7 - By Hanna Duggal & Alia Chughtai" [ref=e112]
+                - StaticText "Iran war 100 days: How the conflict impacted Iran and the world"
+          - time
+            - StaticText "Jun 7"
+          - separator
+          - StaticText "By Hanna Duggal & Alia Chughtai"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NPR"
+                - generic
+                  - button "More - Read the full text of Trump's preliminary U.S.-Iran agreement to end the war" [expanded=false, ref=e213]
+              - link "Read the full text of Trump's preliminary U.S.-Iran agreement to end the war - NPR - Jun 18 - By Npr Staff" [ref=e113]
+                - StaticText "Read the full text of Trump's preliminary U.S.-Iran agreement to end the war"
+          - time
+            - StaticText "Jun 18"
+          - separator
+          - StaticText "By Npr Staff"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war day 111: Tehran warns US as 14-point plan takes effect" [expanded=false, ref=e214]
+              - link "Iran war day 111: Tehran warns US as 14-point plan takes effect - Al Jazeera - Jun 18 - By Elizabeth Melimopoulos" [ref=e114]
+                - StaticText "Iran war day 111: Tehran warns US as 14-point plan takes effect"
+          - time
+            - StaticText "Jun 18"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Guardian"
+                - generic
+                  - button "More - Trump hails Iran deal but conflict continues to cast long shadow over global economy" [expanded=false, ref=e215]
+              - link "Trump hails Iran deal but conflict continues to cast long shadow over global economy - The Guardian - Jun 21 - By Phillip Inman & Heather Stewart" [ref=e115]
+                - StaticText "Trump hails Iran deal but conflict continues to cast long shadow over global economy"
+          - time
+            - StaticText "Jun 21"
+          - separator
+          - StaticText "By Phillip Inman & Heather Stewart"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - U.S. and Iran Reach Framework for Peace" [expanded=false, ref=e216]
+              - link "U.S. and Iran Reach Framework for Peace - The New York Times - Jun 15 - By Farnaz Fassihi, Johnatan Reiss & David E. Sanger" [ref=e116]
+                - StaticText "U.S. and Iran Reach Framework for Peace"
+          - time
+            - StaticText "Jun 15"
+          - separator
+          - StaticText "By Farnaz Fassihi, Johnatan Reiss & David E. Sanger"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NPR"
+                - generic
+                  - button "More - Prospects fade for imminent end to Iran war as attacks restart" [expanded=false, ref=e217]
+              - link "Prospects fade for imminent end to Iran war as attacks restart - NPR - May 26 - By Jane Arraf" [ref=e117]
+                - StaticText "Prospects fade for imminent end to Iran war as attacks restart"
+          - time
+            - StaticText "May 26"
+          - separator
+          - StaticText "By Jane Arraf"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CNBC"
+                - generic
+                  - button "More - U.S. and Iran begin peace talks amid conflicting claims over Strait of Hormuz" [expanded=false, ref=e218]
+              - link "U.S. and Iran begin peace talks amid conflicting claims over Strait of Hormuz - CNBC - Jun 20 - By Yun Li" [ref=e118]
+                - StaticText "U.S. and Iran begin peace talks amid conflicting claims over Strait of Hormuz"
+          - time
+            - StaticText "Jun 20"
+          - separator
+          - StaticText "By Yun Li"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - What’s happening on Iran war day 90 as US launches new strikes" [expanded=false, ref=e219]
+              - link "What’s happening on Iran war day 90 as US launches new strikes - Al Jazeera - May 28 - By Elizabeth Melimopoulos" [ref=e119]
+                - StaticText "What’s happening on Iran war day 90 as US launches new strikes"
+          - time
+            - StaticText "May 28"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - As Iran and US near a deal, Tehran remembers another recent bloody conflict" [expanded=false, ref=e220]
+              - link "As Iran and US near a deal, Tehran remembers another recent bloody conflict - Al Jazeera - Jun 13 - By Maziar Motamedi" [ref=e120]
+                - StaticText "As Iran and US near a deal, Tehran remembers another recent bloody conflict"
+          - time
+            - StaticText "Jun 13"
+          - separator
+          - StaticText "By Maziar Motamedi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - What’s happening on day 96 of Iran war as US, Iran engage in new attacks" [expanded=false, ref=e221]
+              - link "What’s happening on day 96 of Iran war as US, Iran engage in new attacks - Al Jazeera - Jun 3 - By Elizabeth Melimopoulos" [ref=e121]
+                - StaticText "What’s happening on day 96 of Iran war as US, Iran engage in new attacks"
+          - time
+            - StaticText "Jun 3"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - US launches new strikes on Iran, which fires back at Gulf states and Jordan" [expanded=false, ref=e222]
+              - link "US launches new strikes on Iran, which fires back at Gulf states and Jordan - AP News - Jun 10 - By Michelle L. Price, Jon Gambrell & Konstantin Toropin" [ref=e122]
+                - StaticText "US launches new strikes on Iran, which fires back at Gulf states and Jordan"
+          - time
+            - StaticText "Jun 10"
+          - separator
+          - StaticText "By Michelle L. Price, Jon Gambrell & Konstantin Toropin"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NPR"
+                - generic
+                  - button "More - The U.S. and Iran announce a deal to end the war" [expanded=false, ref=e223]
+              - link "The U.S. and Iran announce a deal to end the war - NPR - Jun 14 - By Michael Levitt" [ref=e123]
+                - StaticText "The U.S. and Iran announce a deal to end the war"
+          - time
+            - StaticText "Jun 14"
+          - separator
+          - StaticText "By Michael Levitt"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - A history of Iran’s nuclear program and tensions with the US as an interim deal is signed" [expanded=false, ref=e224]
+              - link "A history of Iran’s nuclear program and tensions with the US as an interim deal is signed - AP News - Jun 17" [ref=e124]
+                - StaticText "A history of Iran’s nuclear program and tensions with the US as an interim deal is signed"
+          - time
+            - StaticText "Jun 17"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - U.S. and Iranian negotiators meet as Trump threatens to \"hit Iran very hard again\" over Hezbollah" [expanded=false, ref=e225]
+              - link "U.S. and Iranian negotiators meet as Trump threatens to \"hit Iran very hard again\" over Hezbollah - CBS News - Jun 22 - By Margaret Brennan, Duarte Pita Dias & Mark Osborne" [ref=e125]
+                - StaticText "U.S. and Iranian negotiators meet as Trump threatens to \"hit Iran very hard again\" over Hezbollah"
+          - time
+            - StaticText "Jun 22"
+          - separator
+          - StaticText "By Margaret Brennan, Duarte Pita Dias & Mark Osborne"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The World Economic Forum"
+                - generic
+                  - button "More - Uncertainty around US-Iran talks, and other geopolitical stories to know this month" [expanded=false, ref=e226]
+              - link "Uncertainty around US-Iran talks, and other geopolitical stories to know this month - The World Economic Forum - Jun 9 - By Spencer Feingold" [ref=e126]
+                - StaticText "Uncertainty around US-Iran talks, and other geopolitical stories to know this month"
+          - time
+            - StaticText "Jun 9"
+          - separator
+          - StaticText "By Spencer Feingold"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Institute for the Study of War"
+                - generic
+                  - button "More - Iran Update Special Report, May 2, 2026" [expanded=false, ref=e227]
+              - link "Iran Update Special Report, May 2, 2026 - Institute for the Study of War - May 2" [ref=e127]
+                - StaticText "Iran Update Special Report, May 2, 2026"
+          - time
+            - StaticText "May 2"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war day 105: US and Iran signal a peace deal is close" [expanded=false, ref=e228]
+              - link "Iran war day 105: US and Iran signal a peace deal is close - Al Jazeera - Jun 12 - By Elizabeth Melimopoulos" [ref=e128]
+                - StaticText "Iran war day 105: US and Iran signal a peace deal is close"
+          - time
+            - StaticText "Jun 12"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war day 75: Trump-Xi talks loom in Beijing as tensions rise in Gulf" [expanded=false, ref=e229]
+              - link "Iran war day 75: Trump-Xi talks loom in Beijing as tensions rise in Gulf - Al Jazeera - May 13 - By Elizabeth Melimopoulos" [ref=e129]
+                - StaticText "Iran war day 75: Trump-Xi talks loom in Beijing as tensions rise in Gulf"
+          - time
+            - StaticText "May 13"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war: What’s happening on day 74 as Tehran says ready for ‘aggression’" [expanded=false, ref=e230]
+              - link "Iran war: What’s happening on day 74 as Tehran says ready for ‘aggression’ - Al Jazeera - May 12 - By Elizabeth Melimopoulos" [ref=e130]
+                - StaticText "Iran war: What’s happening on day 74 as Tehran says ready for ‘aggression’"
+          - time
+            - StaticText "May 12"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war day 104: Iran attacks US bases, closes strait after Trump strikes" [expanded=false, ref=e231]
+              - link "Iran war day 104: Iran attacks US bases, closes strait after Trump strikes - Al Jazeera - Jun 11 - By Elizabeth Melimopoulos" [ref=e131]
+                - StaticText "Iran war day 104: Iran attacks US bases, closes strait after Trump strikes"
+          - time
+            - StaticText "Jun 11"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - U.S. Conducts New Strikes on Southern Iran" [expanded=false, ref=e232]
+              - link "U.S. Conducts New Strikes on Southern Iran - The New York Times - May 27 - By Euan Ward, Johnatan Reiss & Qasim Nauman" [ref=e132]
+                - StaticText "U.S. Conducts New Strikes on Southern Iran"
+          - time
+            - StaticText "May 27"
+          - separator
+          - StaticText "By Euan Ward, Johnatan Reiss & Qasim Nauman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - War preparations under way in Iran as Hormuz tensions with US escalate" [expanded=false, ref=e233]
+              - link "War preparations under way in Iran as Hormuz tensions with US escalate - Al Jazeera - May 4 - By Maziar Motamedi" [ref=e133]
+                - StaticText "War preparations under way in Iran as Hormuz tensions with US escalate"
+          - time
+            - StaticText "May 4"
+          - separator
+          - StaticText "By Maziar Motamedi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Iran war day 70: US, Iran trade fire in Hormuz amid ceasefire tensions" [expanded=false, ref=e234]
+              - link "Iran war day 70: US, Iran trade fire in Hormuz amid ceasefire tensions - Al Jazeera - May 8 - By Elizabeth Melimopoulos" [ref=e134]
+                - StaticText "Iran war day 70: US, Iran trade fire in Hormuz amid ceasefire tensions"
+          - time
+            - StaticText "May 8"
+          - separator
+          - StaticText "By Elizabeth Melimopoulos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - First Round of U.S.-Iran Talks Concludes, Mediators Say" [expanded=false, ref=e235]
+              - link "First Round of U.S.-Iran Talks Concludes, Mediators Say - The New York Times - Jun 22 - By Johnatan Reiss, Vivian Nereim & Anushka Patil" [ref=e135]
+      - complementary
+        - generic
+          - heading "US Iran war tensions 2026" [level=2, ref=e31]
+          - button "Save this search - US Iran war tensions 2026" [ref=e35]

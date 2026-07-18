@@ -1,0 +1,255 @@
+- generic
+  - image
+  - StaticText "Accessibility links"
+  - list
+    - listitem [level=1]
+      - link "Skip to main content" [ref=e3]
+    - listitem [level=1]
+      - link "Keyboard shortcuts for audio player" [ref=e4]
+  - banner "NPR header"
+    - navigation
+      - list
+        - listitem [level=1]
+          - link "NPR logo" [ref=e5]
+            - image "NPR logo"
+        - listitem [level=1]
+        - listitem [level=1]
+          - link "NEWSLETTERS" [ref=e6]
+            - image
+            - StaticText "NEWSLETTERS"
+        - listitem [level=1]
+        - listitem [level=1]
+          - link "NPR SHOP" [ref=e7]
+            - image
+            - StaticText "NPR SHOP"
+        - listitem [level=1]
+          - link "GET NPR+" [ref=e8]
+            - image
+            - StaticText "GET NPR+"
+        - listitem [level=1]
+      - list
+        - listitem [level=1, expanded=false]
+          - generic
+            - link "NEWS" [ref=e21]
+              - image
+              - StaticText "NEWS"
+        - listitem [level=1, expanded=false]
+          - generic
+            - link "CULTURE" [ref=e22]
+              - image
+              - StaticText "CULTURE"
+        - listitem [level=1, expanded=false]
+          - generic
+            - link "MUSIC" [ref=e23]
+              - image
+              - StaticText "MUSIC"
+        - listitem [level=1, expanded=false]
+          - generic
+            - link "PODCASTS & SHOWS" [ref=e24]
+              - image
+              - StaticText "PODCASTS & SHOWS"
+        - listitem [level=1]
+          - link "SEARCH" [ref=e25]
+            - image
+            - StaticText "SEARCH"
+  - main "main content" [ref=e1]
+    - generic
+      - generic
+        - article
+          - heading "MIDDLE EAST" [level=3, ref=e14]
+            - link "MIDDLE EAST" [ref=e26]
+          - heading "The U.S. and Iran blow past red lines as they lurch back toward all-out war" [level=1, ref=e15]
+          - generic
+            - time [ref=e27] clickable [cursor:pointer]
+              - StaticText "UPDATED JULY 18, 2026"
+              - StaticText "·"
+              - StaticText "6:57 AM ET"
+            - paragraph
+              - StaticText "By"
+            - paragraph
+              - link "The Associated Press" [ref=e74]
+          - generic
+            - generic
+              - image "Two men wade in the waters of the Strait of Hormuz with vessels anchored in the background, off Bandar Abbas, Iran, Sunday, July 12, 2026."
+              - paragraph
+                - StaticText "Two men wade in the waters of the Strait of Hormuz with vessels anchored in the background, off Bandar Abbas, Iran, Sunday, July 12, 2026."
+              - StaticText "Razieh Poudat/AP Photo/ISNA"
+            - paragraph
+              - StaticText "A week after the United States and Iran signed a preliminary deal aimed at ending the war, an Iranian drone slammed into a cargo ship sailing through the Strait of Hormuz."
+            - link "A tugboat guides a ship at the Khor Fakkan Container Terminal." [ref=e28]
+              - image "A tugboat guides a ship at the Khor Fakkan Container Terminal."
+            - heading "WORLD" [level=3, ref=e29]
+              - link "WORLD" [ref=e64]
+            - heading "U.S. strikes bridges in Iran; Tehran targets U.S. bases in the Gulf" [level=3, ref=e30]
+              - link "U.S. strikes bridges in Iran; Tehran targets U.S. bases in the Gulf" [ref=e65]
+            - paragraph
+              - StaticText "There were no casualties or major damage, but the June 25 attack set off a chain of hostilities that would put the two countries on a path back toward all-out war less than a month after they agreed to stop fighting."
+            - paragraph
+              - StaticText "Each strike and counterstrike chipped away at the pillars of the agreement, which has now collapsed, though there are still efforts to salvage it. Red lines set by both sides have been crossed. A return to full-scale war that would further destabilize the Middle East and disrupt the world economy appears increasingly likely."
+            - paragraph
+              - StaticText "Here's a look at how we got here."
+            - heading "Iran attacks ships using a route bypassing its control" [level=3, ref=e16]
+            - paragraph
+              - StaticText "The attack on the cargo ship came after Iran had warned vessels not to use an alternative route through the Strait of Hormuz that is overseen by the U.S. military and intended to be outside Tehran's control."
+            - paragraph
+              - StaticText "Iran had largely shut down the waterway — which carried a fifth of the world's traded oil and gas in peacetime — after the surprise U.S.-Israeli attack on Feb. 28 that started the war. Tehran has come to see control over the strait, and its far-reaching economic impact, as a key pressure point in its confrontation with the U.S."
+            - generic
+              - image "Map showing multiple possible shipping routes through the Strait of Hormuz."
+              - paragraph
+                - StaticText "Map showing multiple possible shipping routes through the Strait of Hormuz."
+              - StaticText "Will Jarrett/AP Photo"
+            - paragraph
+              - StaticText "The preliminary agreement called for the strait to be fully reopened, but it also contained language suggesting Iran would manage traffic and potentially charge fees in the future. Iran has seized on that, saying it has the right to control the strait and that the alternative route is a violation of the deal."
+            - paragraph
+              - StaticText "The U.S. and others dispute that, saying the strait should be open to all and toll-free, as it was before the war."
+            - heading "U.S. strikes Iran, which retaliates against Gulf states" [level=3, ref=e17]
+            - paragraph
+              - StaticText "The U.S. launched strikes on Iran a day after the June 25 attack, hitting what the U.S. military said were missile and drone locations and coastal radar sites."
+            - complementary "recommended stories"
+            - paragraph
+              - StaticText "The following day, Iran attacked a tanker using the alternative route through the strait, and the U.S. responded with more strikes. This time, Iran lashed out at nearby Gulf states, attacking Kuwait and Bahrain, both of which host American troops."
+            - paragraph
+              - StaticText "The two sides pulled back the following week, each sending delegations to Qatar, which had played a key role in mediating the agreement. But they did not meet directly."
+            - paragraph
+              - StaticText "Iran reiterated its warning against using the alternative route as it prepared for the dayslong funeral of Supreme Leader Ayatollah Ali Khamenei, who was killed in the opening U.S.-Israeli strikes. The funeral began on July 4, with crowds calling for revenge against U.S. President Donald Trump."
+            - heading "Fighting resumes after attacks on 3 ships" [level=3, ref=e18]
+            - paragraph
+              - StaticText "Days later, Iran attacked three ships in the Strait of Hormuz."
+            - link "A tugboat guides a ship at the Khor Fakkan Container Terminal, the only natural deep-sea port in the region and one of the major container ports in Sharjah Emirate, along the Gulf of Oman, on July 14." [ref=e31]
+              - image "A tugboat guides a ship at the Khor Fakkan Container Terminal, the only natural deep-sea port in the region and one of the major container ports in Sharjah Emirate, along the Gulf of Oman, on July 14."
+            - heading "MIDDLE EAST CONFLICT" [level=3, ref=e32]
+              - link "MIDDLE EAST CONFLICT" [ref=e66]
+            - heading "The U.S.-Iran battle over the Strait of Hormuz raises risks for global waterways" [level=3, ref=e33]
+              - link "The U.S.-Iran battle over the Strait of Hormuz raises risks for global waterways" [ref=e67]
+            - paragraph
+              - StaticText "The U.S. responded with a wave of strikes that it said targeted air defense systems, radars and over 60 small boats used by Iran's paramilitary Revolutionary Guard. Such boats have been used to harass ships in the strait."
+            - paragraph
+              - StaticText "The U.S. also revoked a waiver that had allowed Iran for the first time in years to sell its oil on the international market for U.S. dollars. The waiver was part of the interim deal."
+            - paragraph
+              - StaticText "Iran condemned the U.S. strikes and the restoration of oil sanctions as violations of the agreement while insisting it had the right to control the strait, which the military command says is an \"unbreakable red line.\" Iran also broadened its retaliatory strikes, hitting Bahrain, Kuwait and mediator Qatar."
+            - paragraph
+              - StaticText "Trump, after departing from a NATO summit, offered mixed messages."
+            - paragraph
+              - StaticText "He said the U.S. strikes were in response to the attacks on shipping, warning that \"if it happens again, it will get much worse!\" But he also appeared to rule out long-term military action, saying \"anything that happens is going to happen very fast.\" He also suggested the U.S. military might \"just finish the job.\""
+            - paragraph
+              - StaticText "The fighting has steadily escalated since then. On Wednesday, the U.S. restored its blockade on Iran's ports, which had been lifted as part of the interim agreement."
+            - heading "The next red line is civilian infrastructure, and it may have been crossed" [level=3, ref=e19]
+            - paragraph
+              - StaticText "In recent days, the U.S. has expanded its strikes to northern Iran, hitting targets far from the strait. On Friday, it struck bridges and power stations in the south, collapsing a tower that it said was used by the Revolutionary Guard for maritime surveillance at one of Iran's main ports."
+            - paragraph
+              - StaticText "Iran said Friday that U.S. strikes have killed at least 46 people and wounded more than 400 since hostilities resumed."
+            - generic
+              - image "A woman flashes a victory sign while walking at Tehran's traditional main bazaar, Iran, Thursday, July 16, 2026."
+              - paragraph
+                - StaticText "A woman flashes a victory sign while walking at Tehran's traditional main bazaar, Iran, Thursday, July 16, 2026."
+              - StaticText "Vahid Salemi/AP"
+            - paragraph
+              - StaticText "Trump has repeatedly threatened to target civilian infrastructure in Iran, at one point earlier in the war vowing to annihilate Iran's \"whole civilization.\" Until now, he has repeatedly backed off from such threats, citing diplomatic progress."
+            - paragraph
+              - StaticText "But Iran's leaders may already believe that yet another line has been crossed. On Friday and again Saturday, Iran attacked a water desalination plant in extremely arid Kuwait."
+            - paragraph
+              - StaticText "Trump has also mused about taking control of the strait by force, possibly by seizing one or more strategic islands held by Iran. That would likely require a far larger naval presence and potentially tens of thousands of ground troops."
+          - list
+            - listitem [level=1]
+              - link "strait of hormuz" [ref=e68]
+            - listitem [level=1]
+              - link "u.s. war in iran" [ref=e69]
+            - listitem [level=1]
+              - link "iran" [ref=e70]
+          - list
+            - listitem [level=1]
+              - button "Facebook" [ref=e71]
+                - image
+                - StaticText "Facebook"
+            - listitem [level=1]
+              - button "Flipboard" [ref=e72]
+                - image
+                - StaticText "Flipboard"
+            - listitem [level=1]
+              - button "Email" [ref=e73]
+                - image
+                - StaticText "Email"
+          - complementary "recommended stories"
+          - complementary "recommended stories"
+        - contentinfo "NPR footer"
+          - heading "READ & LISTEN" [level=6, ref=e9]
+          - list
+            - listitem [level=1]
+              - link "Home" [ref=e34]
+            - listitem [level=1]
+              - link "News" [ref=e35]
+            - listitem [level=1]
+              - link "Culture" [ref=e36]
+            - listitem [level=1]
+              - link "Music" [ref=e37]
+            - listitem [level=1]
+              - link "Podcasts & Shows" [ref=e38]
+          - heading "CONNECT" [level=6, ref=e10]
+          - list
+            - listitem [level=1]
+              - link "Newsletters" [ref=e39]
+            - listitem [level=1]
+              - link "Facebook" [ref=e40]
+            - listitem [level=1]
+              - link "Instagram" [ref=e41]
+            - listitem [level=1]
+              - link "Press" [ref=e42]
+            - listitem [level=1]
+              - link "Public Editor" [ref=e43]
+            - listitem [level=1]
+              - link "Corrections" [ref=e44]
+            - listitem [level=1]
+              - link "Transcripts" [ref=e45]
+            - listitem [level=1]
+              - link "Contact & Help" [ref=e46]
+          - heading "ABOUT NPR" [level=6, ref=e11]
+          - list
+            - listitem [level=1]
+              - link "Overview" [ref=e47]
+            - listitem [level=1]
+              - link "Diversity" [ref=e48]
+            - listitem [level=1]
+              - link "NPR Network" [ref=e49]
+            - listitem [level=1]
+              - link "Accessibility" [ref=e50]
+            - listitem [level=1]
+              - link "Ethics" [ref=e51]
+            - listitem [level=1]
+              - link "Finances" [ref=e52]
+          - heading "GET INVOLVED" [level=6, ref=e12]
+          - list
+            - listitem [level=1]
+              - link "Support Public Radio" [ref=e53]
+            - listitem [level=1]
+              - link "Sponsor NPR" [ref=e54]
+            - listitem [level=1]
+              - link "NPR Careers" [ref=e55]
+            - listitem [level=1]
+              - link "NPR Shop" [ref=e56]
+            - listitem [level=1]
+              - link "NPR Extra" [ref=e57]
+          - list
+            - listitem [level=1]
+              - link "terms of use" [ref=e58]
+            - listitem [level=1]
+              - link "privacy" [ref=e59]
+            - listitem [level=1]
+              - link "your privacy choices" [ref=e60]
+            - listitem [level=1]
+              - link "text only" [ref=e61]
+            - listitem [level=1]
+      - generic
+        - complementary "advertisement"
+          - paragraph
+            - StaticText "Sponsor Message"
+          - paragraph
+            - link "Become an NPR sponsor" [ref=e20]
+  - generic
+    - region "Cookie banner" [ref=e2] focusable [tabindex]
+      - dialog "Privacy"
+        - StaticText "By clicking “Accept All Cookies” or continuing, you agree to the use of cookies, similar tracking and storage technologies, and information about your device to enhance your viewing, listening and user experience, personalize content, personalize messages from NPR’s sponsors, provide social media features, and analyze NPR’s traffic. This information is shared with social media, sponsorship, analytics, and other vendors or service providers. You may customize which cookies you accept in \"Cookie Settings.\""
+        - generic
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e62]
+            - StaticText "Cookies Settings"
+          - button "Accept All Cookies" [ref=e63]
+        - button "Close" [ref=e13]

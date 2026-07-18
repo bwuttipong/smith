@@ -1,0 +1,896 @@
+- generic
+  - link "Skip to navigation" [ref=e1]
+  - link "Skip to main content" [ref=e2]
+  - link "Skip to right column" [ref=e3]
+  - banner
+    - banner
+      - heading "Yahoo Finance" [level=1, ref=e5]
+      - link "Yahoo Finance" [ref=e6]
+      - search
+        - searchbox "Search for news, tickers or companies" [ref=e9]
+        - button "Search" [ref=e10]
+      - navigation
+        - list
+          - listitem [level=1]
+            - link "News" [ref=e26]
+          - listitem [level=1]
+            - link "Finance" [ref=e27]
+          - listitem [level=1]
+            - link "Sports" [ref=e28]
+          - listitem [level=1]
+            - button "More" [expanded=false, ref=e29]
+      - toolbar
+        - generic
+          - button "Notifications" [expanded=false, ref=e23]
+        - link "Check your mail, link" [ref=e24]
+        - link "Sign in" [ref=e25]
+    - navigation "Navigation" [ref=e4]
+      - menubar "Navigation menubar"
+        - menuitem "My Portfolio" [ref=e11]
+          - StaticText "My Portfolio"
+        - menuitem "News" [ref=e12]
+          - StaticText "News"
+        - menuitem "Markets" [ref=e13]
+          - StaticText "Markets"
+        - menuitem "Calendars" [ref=e14]
+          - StaticText "Calendars"
+        - menuitem "Research" [ref=e15]
+          - StaticText "Research"
+        - menuitem "Community" [ref=e16]
+          - StaticText "Community"
+        - menuitem "Personal Finance" [ref=e17]
+          - StaticText "Personal Finance"
+        - menuitem "Videos" [ref=e18]
+          - StaticText "Videos"
+        - menuitem "Watch Now" [ref=e19]
+          - StaticText "Watch Now"
+      - button "Network" [ref=e7]
+        - StaticText "Network"
+  - generic
+    - complementary
+      - button "U.S. markets closed" [ref=e8]
+      - menu
+        - button "US Markets" [ref=e20]
+          - StaticText "US Markets"
+      - generic
+        - link "S&P 500" [ref=e30]
+          - StaticText "S&P 500"
+        - StaticText "7,457.69"
+        - generic
+          - StaticText "-76.08 -1.01%"
+        - image
+        - link "Dow 30" [ref=e31]
+          - StaticText "Dow 30"
+        - StaticText "52,146.42"
+        - generic
+          - StaticText "-406.55 -0.77%"
+        - image
+        - link "Nasdaq" [ref=e32]
+          - StaticText "Nasdaq"
+        - StaticText "25,520.24"
+        - generic
+          - StaticText "-361.70 -1.40%"
+        - image
+        - link "Russell 2000" [ref=e33]
+          - StaticText "Russell 2000"
+        - StaticText "2,962.22"
+        - generic
+          - StaticText "-12.35 -0.42%"
+        - image
+        - link "VIX" [ref=e34]
+          - StaticText "VIX"
+        - StaticText "18.77"
+        - generic
+          - StaticText "+2.04 +12.19%"
+        - image
+        - link "Gold" [ref=e35]
+          - StaticText "Gold"
+        - StaticText "4,018.80"
+        - generic
+          - StaticText "+26.70 +0.67%"
+        - image
+        - link "Bitcoin USD" [ref=e36]
+          - StaticText "Bitcoin USD"
+        - StaticText "64,124.78"
+        - generic
+          - StaticText "+574.67 +0.90%"
+        - image
+        - link "Crude Oil Aug 26" [ref=e37]
+          - StaticText "Crude Oil Aug 26"
+        - StaticText "81.78"
+        - generic
+          - StaticText "+3.50 +4.47%"
+        - image
+      - generic
+        - button "prev" [disabled, ref=e21]
+        - button "next" [ref=e22]
+    - main
+      - generic
+        - complementary "Left navigation"
+          - navigation "PLTR navigation" [ref=e38]
+            - menubar "PLTR navigation menubar"
+              - menuitem "Summary" [ref=e67]
+                - StaticText "Summary"
+              - menuitem "News" [ref=e68]
+                - StaticText "News"
+              - menuitem "Chart" [ref=e69]
+                - StaticText "Chart"
+              - menuitem "Conversations" [ref=e70]
+                - StaticText "Conversations"
+              - menuitem "Statistics" [ref=e71]
+                - StaticText "Statistics"
+              - menuitem "Historical Data" [ref=e72]
+                - StaticText "Historical Data"
+              - menuitem "Profile" [ref=e73]
+                - StaticText "Profile"
+              - menuitem "Financials" [ref=e74]
+                - StaticText "Financials"
+              - menuitem "Analysis" [ref=e75]
+                - StaticText "Analysis"
+              - menuitem "Options" [ref=e76]
+                - StaticText "Options"
+              - menuitem "Holders" [ref=e77]
+                - StaticText "Holders"
+        - generic
+          - generic
+            - generic
+              - generic
+                - StaticText "NasdaqGS - Nasdaq Real Time Price"
+                - StaticText "USD"
+                - heading "Palantir Technologies Inc. (PLTR)" [level=1, ref=e121]
+                  - StaticText "Palantir Technologies Inc. (PLTR)"
+                - button "Follow" [ref=e78]
+                - link "A photo of the stock story pick logo Time to buy PLTR?" [ref=e79]
+                  - image "A photo of the stock story pick logo"
+                  - StaticText "Time to buy PLTR?"
+              - generic
+                - StaticText "132.38"
+                - StaticText "-2.06"
+                - StaticText "(-1.53%)"
+                - StaticText "At close: 4:00:00 PM EDT"
+              - generic
+                - StaticText "131.68"
+                - StaticText "-0.70"
+                - StaticText "(-0.53%)"
+                - StaticText "After hours: 7:59:56 PM EDT"
+            - generic
+              - tablist "Chart Range Bar"
+                - tab "1D" [selected, ref=e80]
+                - tab "5D" [ref=e81]
+                  - StaticText "5D"
+                - tab "1M" [ref=e82]
+                  - StaticText "1M"
+                - tab "6M" [ref=e83]
+                  - StaticText "6M"
+                - tab "YTD" [ref=e84]
+                  - StaticText "YTD"
+                - tab "1Y" [ref=e85]
+                  - StaticText "1Y"
+                - tab "5Y" [ref=e86]
+                  - StaticText "5Y"
+                - tab "All" [ref=e87]
+                  - StaticText "All"
+              - button "Chart Type" [ref=e88]
+              - link "Advanced Chart" [ref=e39]
+                - StaticText "Advanced Chart"
+              - link "AlphaSpace Chart" [ref=e40]
+                - StaticText "AlphaSpace Chart"
+              - button "Chart settings" [ref=e41]
+              - generic
+                - generic
+                - image "This 1 minute mountain chart displays price over time for symbol PLTR between 7/17/2026, 4:00:00 AM and 7/20/2026, 4:29:00 AM. The chart also displays Volume Underlay study."
+            - heading "News headlines" [level=2, ref=e89]
+            - button "Collapse" [expanded=true, ref=e90]
+            - region "Collapse" [ref=e91]
+              - paragraph
+                - StaticText "Palantir Technologies has formed a significant partnership with Nvidia to enhance its AI capabilities for government applications, while also expanding its presence in the commercial sector through new alliances. Despite impressive revenue growth, concerns about valuation and insider selling remain key topics for investors as they prepare for upcoming earnings reports."
+              - StaticText "Updated 43m ago · Powered by Yahoo Scout"
+              - button "View more" [ref=e146]
+            - list
+              - listitem [level=1]
+                - StaticText "Previous Close"
+                - StaticText "134.44"
+              - listitem [level=1]
+                - StaticText "Open"
+                - StaticText "131.80"
+              - listitem [level=1]
+                - StaticText "Bid"
+                - StaticText "123.64 x 100"
+              - listitem [level=1]
+                - StaticText "Ask"
+                - StaticText "142.47 x 100"
+              - listitem [level=1]
+                - StaticText "Day's Range"
+                - StaticText "129.05 - 134.77"
+              - listitem [level=1]
+                - StaticText "52 Week Range"
+                - StaticText "106.37 - 207.52"
+              - listitem [level=1]
+                - StaticText "Volume"
+                - StaticText "31,565,729"
+              - listitem [level=1]
+                - StaticText "Avg. Volume"
+                - StaticText "42,413,067"
+              - listitem [level=1]
+                - StaticText "Market Cap (intraday)"
+                - StaticText "317.356B"
+              - listitem [level=1]
+                - StaticText "Beta (5Y Monthly)"
+                - StaticText "1.56"
+              - listitem [level=1]
+                - StaticText "PE Ratio (TTM)"
+                - StaticText "148.74"
+              - listitem [level=1]
+                - StaticText "EPS (TTM)"
+                - StaticText "0.89"
+              - listitem [level=1]
+                - StaticText "Earnings Date"
+                - StaticText "Aug 3, 2026"
+              - listitem [level=1]
+                - StaticText "Forward Dividend & Yield"
+                - StaticText "--"
+              - listitem [level=1]
+                - StaticText "Ex-Dividend Date"
+                - StaticText "--"
+              - listitem [level=1]
+                - StaticText "1y Target Est"
+                - StaticText "183.12"
+            - button "Expand" [expanded=false, ref=e42]
+              - heading "Palantir Technologies Inc. Overview - Software - Infrastructure / Technology" [level=2, ref=e92]
+                - StaticText "Palantir Technologies Inc. Overview "
+                - StaticText "- "
+                - StaticText "Software - Infrastructure / Technology"
+            - region "Expand" [ref=e43]
+              - generic
+                - paragraph
+                  - StaticText "Palantir Technologies Inc. builds and deploys software platforms for the intelligence community to assist in counterterrorism investigations and operations in the United States, the United Kingdom, and internationally. It provides Palantir Gotham integrates with other platforms for defense offerings which enables users to see, understand, and act in the modern battlespace; operations centers to the tactical edge; integrating data from domains and sensors in near real-time; and situational awareness and accelerating operational decision-making, as well as facilitates the hand-off between analysts and operational users, helping operators plan and execute real-world responses to threats that have been identified within the platform. The company also offers Palantir Foundry, a platform that helps organizations operate by creating a central operating system for their data; and allows individual users to integrate and analyze the data they need in one place. In addition, it provides Palantir Apollo, a software that delivers software and updates across the business, as well as enables customers to deploy their software virtually in any environment; and Palantir Artificial Intelligence Platform that provides unified access to open-source, self-hosted, and commercial large language models (LLMs) that can transform structured and unstructured data into LLM-understandable objects and can turn organizations' actions and processes into tools for humans and LLM-driven agents. The company also has a strategic partnership with Ondas Inc. to develop and deploy AI-enabled operational capabilities to scale stratospheric, aerial, and land-based ISR missions. The company has a strategic collaboration with NVIDIA to deliver an intelligent engine for running NVIDIA AI and Nemotron open models in sovereign environments. The company was incorporated in 2003 and is headquartered in Aventura, Florida."
+                - link "www.palantir.com" [ref=e122]
+                - paragraph
+                  - StaticText "4,395"
+                - heading "Full Time Employees" [level=3, ref=e123]
+                - paragraph
+                  - StaticText "December 31"
+                - heading "Fiscal Year Ends" [level=3, ref=e124]
+                - paragraph
+                  - link "Technology" [ref=e147]
+                - heading "Sector" [level=3, ref=e125]
+                - paragraph
+                  - link "Software - Infrastructure" [ref=e148]
+                - heading "Industry" [level=3, ref=e126]
+                - link "More about Palantir Technologies Inc." [ref=e149]
+            - generic
+              - sectionheader
+                - heading "Recent News" [level=3, ref=e93]
+                - link "View More" [ref=e94]
+              - tablist
+                - tab "All" [selected, ref=e95]
+                - tab "News" [ref=e96]
+                - tab "Earnings Calls" [ref=e97]
+                - tab "Press Releases" [ref=e98]
+                - tab "SEC Filings" [ref=e99]
+              - generic
+                - generic
+                  - article
+                    - link "Palantir (NasdaqGS:PLTR) Teams Up With Nvidia On Sovereign AI For Governments" [ref=e186]
+                      - heading "Palantir (NasdaqGS:PLTR) Teams Up With Nvidia On Sovereign AI For Governments" [level=3, ref=e213]
+                    - StaticText "Simply Wall St."
+                    - StaticText "2h ago"
+                  - article
+                    - link "Palantir Stock Slipped 35% From Its Peak. Is the Artificial Intelligence (AI) Software Leader a Safe Buy for the Second Half of 2026?" [ref=e187]
+                      - heading "Palantir Stock Slipped 35% From Its Peak. Is the Artificial Intelligence (AI) Software Leader a Safe Buy for the Second Half of 2026?" [level=3, ref=e214]
+                    - StaticText "Motley Fool"
+                    - StaticText "8h ago"
+                  - article
+                    - link "Joby, Archer, and EHang Are Down 40% to 60% in 2026. Are Air Taxi Stocks Damaged Beyond Repair?" [ref=e188]
+                      - heading "Joby, Archer, and EHang Are Down 40% to 60% in 2026. Are Air Taxi Stocks Damaged Beyond Repair?" [level=3, ref=e215]
+                    - StaticText "24/7 Wall St."
+                    - StaticText "21h ago"
+                  - article
+                    - link "Meet TMGN, the 0.88% Fee ETF Betting on Tech Giants and Options Income" [ref=e189]
+                      - heading "Meet TMGN, the 0.88% Fee ETF Betting on Tech Giants and Options Income" [level=3, ref=e216]
+                    - StaticText "24/7 Wall St."
+                    - StaticText "21h ago"
+                  - article
+                    - link "Palantir co-founder Peter Thiel honoured with Axel Springer Award" [ref=e190]
+                      - heading "Palantir co-founder Peter Thiel honoured with Axel Springer Award" [level=3, ref=e217]
+                    - StaticText "The Telegraph"
+                    - StaticText "23h ago"
+                  - article
+                    - link "The 'Invisible Speculative Bear Market' Is Coming Out of Hiding" [ref=e191]
+                      - heading "The 'Invisible Speculative Bear Market' Is Coming Out of Hiding" [level=3, ref=e218]
+                    - StaticText "Barrons.com"
+                    - StaticText "23h ago"
+                  - article
+                    - link "How to Find the Bargains in the Software Stock Wreckage" [ref=e192]
+                      - heading "How to Find the Bargains in the Software Stock Wreckage" [level=3, ref=e219]
+                    - StaticText "Barrons.com"
+                    - StaticText "1d ago"
+                  - article
+                    - link "With a $15 billion net worth, Palantir CEO Alex Karp predicts he will get 20x richer from AI—but that middle-class workers will get just modest raises" [ref=e193]
+                      - heading "With a $15 billion net worth, Palantir CEO Alex Karp predicts he will get 20x richer from AI—but that middle-class workers will get just modest raises" [level=3, ref=e220]
+                    - StaticText "Fortune"
+                    - StaticText "1d ago"
+                  - article
+                    - link "3 Hypergrowth Stocks That You Should Consider Buying in July" [ref=e194]
+                      - heading "3 Hypergrowth Stocks That You Should Consider Buying in July" [level=3, ref=e221]
+                    - StaticText "24/7 Wall St."
+                    - StaticText "1d ago"
+                  - article
+                    - link "Palantir's Wild Ride: Inside the Stock Wall Street Can't Agree On" [ref=e195]
+                      - heading "Palantir's Wild Ride: Inside the Stock Wall Street Can't Agree On" [level=3, ref=e222]
+                    - StaticText "MarketBeat"
+                    - StaticText "1d ago"
+                  - article
+                    - link "Alex Karp Grouped Palantir With These 3 Unstoppable Stocks as the Only True Artificial Intelligence (AI) Infrastructure Winners" [ref=e196]
+                      - heading "Alex Karp Grouped Palantir With These 3 Unstoppable Stocks as the Only True Artificial Intelligence (AI) Infrastructure Winners" [level=3, ref=e223]
+                    - StaticText "Motley Fool"
+                    - StaticText "1d ago"
+            - generic
+              - sectionheader
+                - heading "Performance Overview" [level=3, ref=e100]
+              - paragraph
+                - StaticText "Trailing total returns as of 7/17/2026, which may include dividends or other distributions. Benchmark is"
+                - link "S&P 500 (^GSPC)" [ref=e101]
+                - StaticText "."
+              - generic
+                - sectionheader
+                  - heading "YTD Return" [level=3, ref=e127]
+                - StaticText "PLTR"
+                - StaticText "-"
+                - StaticText "25.52%"
+                - StaticText "S&P 500 (^GSPC)"
+                - StaticText "+"
+                - StaticText "8.94%"
+              - generic
+                - sectionheader
+                  - heading "1-Year Return" [level=3, ref=e128]
+                - StaticText "PLTR"
+                - StaticText "-"
+                - StaticText "14.03%"
+                - StaticText "S&P 500 (^GSPC)"
+                - StaticText "+"
+                - StaticText "18.43%"
+              - generic
+                - sectionheader
+                  - heading "3-Year Return" [level=3, ref=e129]
+                - StaticText "PLTR"
+                - StaticText "+"
+                - StaticText "660.80%"
+                - StaticText "S&P 500 (^GSPC)"
+                - StaticText "+"
+                - StaticText "64.89%"
+              - generic
+                - sectionheader
+                  - heading "5-Year Return" [level=3, ref=e130]
+                - StaticText "PLTR"
+                - StaticText "+"
+                - StaticText "519.47%"
+                - StaticText "S&P 500 (^GSPC)"
+                - StaticText "+"
+                - StaticText "72.35%"
+            - generic
+              - sectionheader
+                - heading "Earnings Trends" [level=3, ref=e102]
+                - link "View More" [ref=e103]
+              - generic
+                - sectionheader
+                  - heading "Earnings Per Share" [level=3, ref=e131]
+                  - group
+                    - generic
+                      - checkbox "gaap" [checked=false, ref=e169]
+                    - generic
+                      - checkbox "nongaap" [checked=true, ref=e170]
+                - figure
+                  - StaticText "Q1 FY26"
+                  - StaticText "Estimate"
+                  - StaticText "+"
+                  - StaticText "0.28"
+                  - StaticText "Actual"
+                  - StaticText "+"
+                  - StaticText "0.33"
+                  - generic
+                    - Canvas
+                - link "Earnings Per Share" [ref=e104]
+              - generic
+                - sectionheader
+                  - heading "Revenue vs. Earnings" [level=3, ref=e132]
+                  - group
+                    - generic
+                      - checkbox "yearly" [checked=false, ref=e171]
+                    - generic
+                      - checkbox "quarterly" [checked=true, ref=e172]
+                - StaticText "Q1 FY26"
+                - StaticText "Revenue"
+                - StaticText "1.63B"
+                - StaticText "Earnings"
+                - StaticText "856.45M"
+                - generic
+                  - generic
+                    - generic
+                    - generic
+                  - SvgRoot
+                    - group
+                    - group
+                    - group
+                    - group [ref=e150] clickable [cursor:pointer]
+                - link "Revenue vs. Earnings" [ref=e105]
+            - generic
+              - sectionheader
+                - heading "Analyst Insights" [level=3, ref=e106]
+                - link "View More" [ref=e107]
+              - generic
+                - sectionheader
+                  - heading "Top Analyst" [level=3, ref=e133]
+                - StaticText "Wedbush"
+                - generic
+                  - StaticText "81/100"
+                - StaticText "Latest Rating"
+                - StaticText "OUTPERFORM"
+                - link "Top Analyst" [ref=e108]
+              - generic
+                - sectionheader
+                  - heading "Analyst Price Targets" [level=3, ref=e134]
+                - generic
+                  - generic
+                    - StaticText "70.00"
+                    - StaticText "Low"
+                  - generic
+                    - StaticText "183.12"
+                    - StaticText "Average"
+                  - generic
+                    - StaticText "132.38"
+                    - StaticText "Current"
+                  - generic
+                    - StaticText "255.00"
+                    - StaticText "High"
+                - link "Analyst Price Targets" [ref=e109]
+              - generic
+                - sectionheader
+                  - heading "Analyst Recommendations" [level=3, ref=e135]
+                - figure
+                  - Figcaption
+                    - list
+                - link "Analyst Recommendations" [ref=e110]
+              - generic
+                - sectionheader
+                  - heading "Latest Rating" [level=3, ref=e136]
+                - StaticText "Date"
+                - StaticText "7/17/2026"
+                - StaticText "Analyst"
+                - StaticText "DA Davidson"
+                - StaticText "Rating Action"
+                - StaticText "Maintains"
+                - StaticText "Rating"
+                - StaticText "Buy"
+                - StaticText "Price Action"
+                - StaticText "Maintains"
+                - StaticText "Price Target"
+                - StaticText "175 -> "
+                - StaticText "175"
+                - link "Latest Rating" [ref=e111]
+            - generic
+              - sectionheader
+                - heading "Statistics" [level=3, ref=e112]
+                - link "View More" [ref=e113]
+              - generic
+                - sectionheader
+                  - heading "Valuation Measures" [level=3, ref=e137]
+                - StaticText "As of 7/17/2026"
+                - list
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+              - generic
+                - sectionheader
+                  - heading "Financial Highlights" [level=3, ref=e138]
+                - heading "Profitability and Income Statement" [level=4, ref=e114]
+                - list
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                - heading "Balance Sheet and Cash Flow" [level=4, ref=e115]
+                - list
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+                  - listitem [level=1]
+                    - paragraph
+                    - paragraph
+            - generic
+              - sectionheader
+                - heading "Compare" [level=3, ref=e116]
+                - link "Compare" [ref=e117]
+                  - StaticText "Compare"
+                - generic
+                  - button "prev" [disabled, ref=e139]
+                  - button "next" [ref=e140]
+              - paragraph
+                - StaticText "Select to analyze similar companies using key performance metrics; select up to 4 stocks."
+              - generic
+                - link "PLTR" [ref=e151]
+                  - StaticText "PLTR"
+                  - StaticText "Palantir Technologies Inc."
+                - button "add-to-compare" [ref=e173]
+                - StaticText "132.38"
+                - StaticText "-1.53%"
+                - StaticText "Mkt Cap"
+                - StaticText "317.356B"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+                - link "MSFT" [ref=e152]
+                  - StaticText "MSFT"
+                  - StaticText "Microsoft Corporation"
+                - button "add-to-compare" [ref=e174]
+                - StaticText "393.82"
+                - StaticText "-1.82%"
+                - StaticText "Mkt Cap"
+                - StaticText "2.925T"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+                - link "ORCL" [ref=e153]
+                  - StaticText "ORCL"
+                  - StaticText "Oracle Corporation"
+                - button "add-to-compare" [ref=e175]
+                - StaticText "126.41"
+                - StaticText "+"
+                - StaticText "1.77%"
+                - StaticText "Mkt Cap"
+                - StaticText "364.12B"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+                - link "CRWV" [ref=e154]
+                  - StaticText "CRWV"
+                  - StaticText "CoreWeave, Inc."
+                - button "add-to-compare" [ref=e176]
+                - StaticText "73.21"
+                - StaticText "+"
+                - StaticText "0.41%"
+                - StaticText "Mkt Cap"
+                - StaticText "39.941B"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+                - link "CRWD" [ref=e155]
+                  - StaticText "CRWD"
+                  - StaticText "CrowdStrike Holdings, Inc."
+                - button "add-to-compare" [ref=e177]
+                - StaticText "203.08"
+                - StaticText "-0.33%"
+                - StaticText "Mkt Cap"
+                - StaticText "206.788B"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+                - link "TCGL" [ref=e156]
+                  - StaticText "TCGL"
+                - button "add-to-compare" [ref=e178]
+                - StaticText "Mkt Cap"
+                - StaticText "undefined"
+                - StaticText " "
+                - StaticText "-"
+                - StaticText "Industry"
+                - StaticText "-"
+                - link "PANW" [ref=e157]
+                  - StaticText "PANW"
+                  - StaticText "Palo Alto Networks, Inc."
+                - button "add-to-compare" [ref=e179]
+                - StaticText "358.68"
+                - StaticText "+"
+                - StaticText "1.32%"
+                - StaticText "Mkt Cap"
+                - StaticText "292.324B"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+                - link "AI" [ref=e158]
+                  - StaticText "AI"
+                  - StaticText "C3.ai, Inc."
+                - button "add-to-compare" [ref=e180]
+                - StaticText "8.82"
+                - StaticText "-1.01%"
+                - StaticText "Mkt Cap"
+                - StaticText "1.371B"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+                - link "NET" [ref=e159]
+                  - StaticText "NET"
+                  - StaticText "Cloudflare, Inc."
+                - button "add-to-compare" [ref=e181]
+                - StaticText "277.66"
+                - StaticText "+"
+                - StaticText "1.91%"
+                - StaticText "Mkt Cap"
+                - StaticText "98.553B"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+                - link "PATH" [ref=e160]
+                  - StaticText "PATH"
+                  - StaticText "UiPath, Inc."
+                - button "add-to-compare" [ref=e182]
+                - StaticText "12.15"
+                - StaticText "+"
+                - StaticText "1.00%"
+                - StaticText "Mkt Cap"
+                - StaticText "6.295B"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+                - link "ZETA" [ref=e161]
+                  - StaticText "ZETA"
+                  - StaticText "Zeta Global Holdings Corp."
+                - button "add-to-compare" [ref=e183]
+                - StaticText "21.68"
+                - StaticText "+"
+                - StaticText "1.31%"
+                - StaticText "Mkt Cap"
+                - StaticText "5.404B"
+                - StaticText "Industry"
+                - StaticText "Software—Infrastructure"
+            - generic
+              - sectionheader
+                - heading "People Also Watch" [level=3, ref=e118]
+                - generic
+                  - button "prev" [disabled, ref=e141]
+                  - button "next" [ref=e142]
+              - generic
+                - generic
+                  - StaticText "AMD"
+                  - StaticText "Advanced Micro Devices, Inc."
+                  - strong
+                    - StaticText "495.76"
+                  - StaticText "-1.03%"
+                  - link "AMD" [ref=e162]
+                - generic
+                  - StaticText "AVGO"
+                  - StaticText "Broadcom Inc."
+                  - strong
+                    - StaticText "370.83"
+                  - StaticText "-0.97%"
+                  - link "AVGO" [ref=e163]
+                - generic
+                  - StaticText "TSM"
+                  - StaticText "Taiwan Semiconductor Manufacturing Company Limited"
+                  - strong
+                    - StaticText "398.37"
+                  - StaticText "-2.77%"
+                  - link "TSM" [ref=e164]
+                - generic
+                  - StaticText "SOFI"
+                  - StaticText "SoFi Technologies, Inc."
+                  - strong
+                    - StaticText "17.28"
+                  - StaticText "-0.23%"
+                  - link "SOFI" [ref=e165]
+                - generic
+                  - StaticText "MU"
+                  - StaticText "Micron Technology, Inc."
+                  - strong
+                    - StaticText "848.95"
+                  - StaticText "-0.50%"
+                  - link "MU" [ref=e166]
+          - sectionfooter
+            - generic
+              - link "Yahoo Finance" [ref=e44]
+                - image
+              - StaticText "Copyright © 2026 Yahoo. All rights reserved."
+              - link "Follow on Twitter" [ref=e45]
+              - link "Follow on Facebook" [ref=e46]
+              - link "Follow on LinkedIn" [ref=e47]
+              - StaticText "Trending Topics"
+              - link "Dow Jones" [ref=e48]
+              - link "S&P 500" [ref=e49]
+              - link "DAX Index" [ref=e50]
+              - link "Nvidia" [ref=e51]
+              - link "Tesla" [ref=e52]
+              - link "DJT" [ref=e53]
+              - link "Tariffs" [ref=e54]
+              - StaticText "Explore Further"
+              - link "Mortgages" [ref=e55]
+              - link "Credit Cards" [ref=e56]
+              - link "Sectors" [ref=e57]
+              - link "Crypto Heatmap" [ref=e58]
+              - link "Financial News" [ref=e59]
+              - StaticText "About"
+              - link "Data Disclaimer" [ref=e60]
+              - link "Help" [ref=e61]
+              - link "Feedback" [ref=e62]
+              - link "Sitemap" [ref=e63]
+              - link "Licensing" [ref=e64]
+              - link "What's New" [ref=e65]
+              - link "About Our Ads" [ref=e66]
+              - generic
+                - generic
+                  - link "Terms" [ref=e143]
+                  - StaticText "and"
+                  - link "Privacy Policy" [ref=e144]
+                - link "Privacy Dashboard" [ref=e119]
+      - complementary "Dock"
+        - dialog "Dock"
+          - search
+            - textbox "Quote Lookup" [ref=e184]
+          - list
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Trending tickers" [ref=e224]
+                    - StaticText "Trending tickers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "BTC-USD Bitcoin USD 64,124.78 +574.67 (+0.90%)" [ref=e228]
+                      - button "Follow" [ref=e229]
+                  - listitem [level=2]
+                    - generic
+                      - link "ETH-USD Ethereum USD 1,842.90 +7.99 (+0.44%)" [ref=e230]
+                      - button "Follow" [ref=e231]
+                  - listitem [level=2]
+                    - generic
+                      - link "EBAY eBay Inc. 112.06 +1.15 (+1.04%)" [ref=e232]
+                      - button "Follow" [ref=e233]
+                  - listitem [level=2]
+                    - generic
+                      - link "XRP-USD XRP USD 1.09 +0.00 (+0.20%)" [ref=e234]
+                      - button "Follow" [ref=e235]
+                  - listitem [level=2]
+                    - generic
+                      - link "PLOW Douglas Dynamics, Inc. 44.62 -0.30 (-0.67%)" [ref=e236]
+                      - button "Follow" [ref=e237]
+            - listitem [level=1]
+            - listitem [level=1]
+              - generic
+                - link "Portfolio" [ref=e197]
+                - paragraph
+                  - StaticText "Sign in to access your portfolio"
+                - link "Sign in" [ref=e185]
+            - listitem [level=1]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Top gainers" [ref=e225]
+                    - StaticText "Top gainers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "LCID Lucid Group, Inc. 7.36 +0.90 (+13.93%)" [ref=e238]
+                      - button "Follow" [ref=e239]
+                  - listitem [level=2]
+                    - generic
+                      - link "SLS SELLAS Life Sciences Group, Inc. 13.19 +1.44 (+12.26%)" [ref=e240]
+                      - button "Follow" [ref=e241]
+                  - listitem [level=2]
+                    - generic
+                      - link "ORKA Oruka Therapeutics, Inc. 92.70 +9.66 (+11.63%)" [ref=e242]
+                      - button "Follow" [ref=e243]
+                  - listitem [level=2]
+                    - generic
+                      - link "DNTH Dianthus Therapeutics, Inc. 105.60 +10.25 (+10.75%)" [ref=e244]
+                      - button "Follow" [ref=e245]
+                  - listitem [level=2]
+                    - generic
+                      - link "COAG Hemab Therapeutics Holdings, Inc. 49.29 +4.76 (+10.69%)" [ref=e246]
+                      - button "Follow" [ref=e247]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Top losers" [ref=e226]
+                    - StaticText "Top losers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "ISRG Intuitive Surgical, Inc. 345.42 -56.91 (-14.15%)" [ref=e248]
+                      - button "Follow" [ref=e249]
+                  - listitem [level=2]
+                    - generic
+                      - link "CDNS Cadence Design Systems, Inc. 330.11 -34.54 (-9.47%)" [ref=e250]
+                      - button "Follow" [ref=e251]
+                  - listitem [level=2]
+                    - generic
+                      - link "PENG Penguin Solutions, Inc. 60.41 -5.56 (-8.43%)" [ref=e252]
+                      - button "Follow" [ref=e253]
+                  - listitem [level=2]
+                    - generic
+                      - link "SNPS Synopsys, Inc. 384.28 -32.76 (-7.85%)" [ref=e254]
+                      - button "Follow" [ref=e255]
+                  - listitem [level=2]
+                    - generic
+                      - link "NFLX Netflix, Inc. 68.95 -5.40 (-7.26%)" [ref=e256]
+                      - button "Follow" [ref=e257]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Most active" [ref=e227]
+                    - StaticText "Most active"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "ONDS Ondas Inc. 6.53 -0.12 (-1.88%)" [ref=e258]
+                      - button "Follow" [ref=e259]
+                  - listitem [level=2]
+                    - generic
+                      - link "AAL American Airlines Group Inc. 14.98 -0.62 (-3.97%)" [ref=e260]
+                      - button "Follow" [ref=e261]
+                  - listitem [level=2]
+                    - generic
+                      - link "NFLX Netflix, Inc. 68.95 -5.40 (-7.26%)" [ref=e262]
+                      - button "Follow" [ref=e263]
+                  - listitem [level=2]
+                    - generic
+                      - link "NVDA NVIDIA Corporation 202.81 -4.59 (-2.21%)" [ref=e264]
+                      - button "Follow" [ref=e265]
+                  - listitem [level=2]
+                    - generic
+                      - link "NU Nu Holdings Ltd. 13.59 -0.20 (-1.45%)" [ref=e266]
+                      - button "Follow" [ref=e267]
+            - listitem [level=1]
+              - link "Top economic events" [ref=e198]
+                - StaticText "Top economic events"
+              - button "Thailand" [ref=e199]
+                - StaticText "Thailand"
+              - StaticText "There are no important events for this country at this time. Select \"All\" to see top events in other countries or view all events."
+              - link "View All Events" [ref=e200]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Earnings events" [ref=e201]
+                    - StaticText "Earnings events"
+                  - group
+                    - generic
+                      - checkbox "My earnings events" [checked=false, ref=e268]
+                    - generic
+                      - checkbox "Earnings events" [checked=true, ref=e269]
+                - button "Upcoming" [ref=e202]
+                - link "AGNC" [ref=e203]
+                - button "Add to calendar" [ref=e204]
+                - link "KEY" [ref=e205]
+                - button "Add to calendar" [ref=e206]
+                - link "SAN" [ref=e207]
+                - button "Add to calendar" [ref=e208]
+                - link "T" [ref=e209]
+                - button "Add to calendar" [ref=e210]
+                - link "GOOGL" [ref=e211]
+                - button "Add to calendar" [ref=e212]
+          - button "Edit your Dock" [ref=e120]
+            - StaticText "Edit your Dock"
+          - generic
+            - generic
+              - link "Terms" [ref=e167]
+              - link "Privacy Policy" [ref=e168]
+            - link "Privacy Dashboard" [ref=e145]

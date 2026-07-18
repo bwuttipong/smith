@@ -1,0 +1,860 @@
+- generic
+  - link "Skip to navigation" [ref=e1]
+  - link "Skip to main content" [ref=e2]
+  - link "Skip to right column" [ref=e3]
+  - banner
+    - banner
+      - heading "Yahoo Finance" [level=1, ref=e5]
+      - link "Yahoo Finance" [ref=e6]
+      - search
+        - searchbox "Search for news, tickers or companies" [ref=e9]
+        - button "Search" [ref=e10]
+      - navigation
+        - list
+          - listitem [level=1]
+            - link "News" [ref=e26]
+          - listitem [level=1]
+            - link "Finance" [ref=e27]
+          - listitem [level=1]
+            - link "Sports" [ref=e28]
+          - listitem [level=1]
+            - button "More" [expanded=false, ref=e29]
+      - toolbar
+        - generic
+          - button "Notifications" [expanded=false, ref=e23]
+        - link "Check your mail, link" [ref=e24]
+        - link "Sign in" [ref=e25]
+    - navigation "Navigation" [ref=e4]
+      - menubar "Navigation menubar"
+        - menuitem "My Portfolio" [ref=e11]
+          - StaticText "My Portfolio"
+        - menuitem "News" [ref=e12]
+          - StaticText "News"
+        - menuitem "Markets" [ref=e13]
+          - StaticText "Markets"
+        - menuitem "Calendars" [ref=e14]
+          - StaticText "Calendars"
+        - menuitem "Research" [ref=e15]
+          - StaticText "Research"
+        - menuitem "Community" [ref=e16]
+          - StaticText "Community"
+        - menuitem "Personal Finance" [ref=e17]
+          - StaticText "Personal Finance"
+        - menuitem "Videos" [ref=e18]
+          - StaticText "Videos"
+        - menuitem "Watch Now" [ref=e19]
+          - StaticText "Watch Now"
+      - button "Network" [ref=e7]
+        - StaticText "Network"
+  - generic
+    - complementary
+      - button "U.S. markets closed" [ref=e8]
+      - menu
+        - button "US Markets" [ref=e20]
+          - StaticText "US Markets"
+      - generic
+        - link "S&P 500" [ref=e30]
+          - StaticText "S&P 500"
+        - StaticText "7,457.69"
+        - generic
+          - StaticText "-76.08 -1.01%"
+        - image
+        - link "Dow 30" [ref=e31]
+          - StaticText "Dow 30"
+        - StaticText "52,146.42"
+        - generic
+          - StaticText "-406.55 -0.77%"
+        - image
+        - link "Nasdaq" [ref=e32]
+          - StaticText "Nasdaq"
+        - StaticText "25,520.24"
+        - generic
+          - StaticText "-361.70 -1.40%"
+        - image
+        - link "Russell 2000" [ref=e33]
+          - StaticText "Russell 2000"
+        - StaticText "2,962.22"
+        - generic
+          - StaticText "-12.35 -0.42%"
+        - image
+        - link "VIX" [ref=e34]
+          - StaticText "VIX"
+        - StaticText "18.77"
+        - generic
+          - StaticText "+2.04 +12.19%"
+        - image
+        - link "Gold" [ref=e35]
+          - StaticText "Gold"
+        - StaticText "4,018.80"
+        - generic
+          - StaticText "+26.70 +0.67%"
+        - image
+        - link "Bitcoin USD" [ref=e36]
+          - StaticText "Bitcoin USD"
+        - StaticText "64,085.00"
+        - generic
+          - StaticText "+534.89 +0.84%"
+        - image
+        - link "Crude Oil Aug 26" [ref=e37]
+          - StaticText "Crude Oil Aug 26"
+        - StaticText "81.78"
+        - generic
+          - StaticText "+3.50 +4.47%"
+        - image
+      - generic
+        - button "prev" [disabled, ref=e21]
+        - button "next" [ref=e22]
+    - main
+      - generic
+        - complementary "Left navigation"
+        - generic
+          - generic
+            - sectionheader
+              - generic "Stock Market News."
+                - heading "Stock Market News" [level=1, ref=e62]
+                - link "Track the markets in AlphaSpace" [ref=e63]
+                  - StaticText "Track the markets in AlphaSpace"
+            - link "Big bank profit engines expected to roar into earnings" [ref=e64]
+              - image "Big bank profit engines expected to roar into earnings"
+            - generic
+              - link "Big bank profit engines expected to roar into earnings" [ref=e65]
+                - heading "Big bank profit engines expected to roar into earnings" [level=3, ref=e71]
+              - paragraph
+                - StaticText "Few examples better capture the resurgence of big banks than Jamie Dimon's retention award, which has climbed from $53M to $280M in five yea."
+              - generic
+                - StaticText "Yahoo Finance"
+                - StaticText "•"
+                - StaticText "7d ago"
+              - link "JPM" [ref=e66]
+                - StaticText "JPM"
+                - StaticText "-0.60%"
+            - list
+              - listitem [level=1]
+                - generic
+                  - link "Wall Street weighs next catalyst for AI trade" [ref=e75]
+                    - image "Wall Street weighs next catalyst for AI trade"
+                  - link "Wall Street weighs next catalyst for AI trade" [ref=e168]
+                    - heading "Wall Street weighs next catalyst for AI trade" [level=3, ref=e207]
+                  - generic
+                    - StaticText "Yahoo Finance"
+                    - StaticText "•"
+                    - StaticText "7d ago"
+              - listitem [level=1]
+                - generic
+                  - link "Goldman Sachs doubles down on Applied Materials stock" [ref=e76]
+                    - image "Goldman Sachs doubles down on Applied Materials stock"
+                  - link "Goldman Sachs doubles down on Applied Materials stock" [ref=e169]
+                    - heading "Goldman Sachs doubles down on Applied Materials stock" [level=3, ref=e208]
+                  - generic
+                    - StaticText "TheStreet"
+                    - StaticText "•"
+                    - StaticText "7d ago"
+              - listitem [level=1]
+                - generic
+                  - link "O'Reilly's $10B bid for NAPA's parent is a vote of no confidence in GPC" [ref=e77]
+                    - image "O'Reilly's $10B bid for NAPA's parent is a vote of no confidence in GPC"
+                  - link "O'Reilly's $10B bid for NAPA's parent is a vote of no confidence in GPC" [ref=e170]
+                    - heading "O'Reilly's $10B bid for NAPA's parent is a vote of no confidence in GPC" [level=3, ref=e209]
+                  - generic
+                    - StaticText "The Auto Wire"
+                    - StaticText "•"
+                    - StaticText "7d ago"
+            - list
+              - listitem [level=1]
+                - link "Travelers stock fair value edges higher on margin outlook" [ref=e171]
+                  - heading "Travelers stock fair value edges higher on margin outlook" [level=3, ref=e210]
+                - generic
+                  - StaticText "Simply Wall St."
+                  - StaticText "•"
+                  - StaticText "7d ago"
+                - link "TRV" [ref=e78]
+                  - StaticText "TRV"
+                  - StaticText "+9.22%"
+              - listitem [level=1]
+                - link "Tutor Perini stock still trades at a discount after big run" [ref=e172]
+                  - heading "Tutor Perini stock still trades at a discount after big run" [level=3, ref=e211]
+                - generic
+                  - StaticText "Simply Wall St."
+                  - StaticText "•"
+                  - StaticText "7d ago"
+                - link "TPC" [ref=e79]
+                  - StaticText "TPC"
+                  - StaticText "-0.34%"
+              - listitem [level=1]
+                - link "Core Scientific rally tests its AI data center valuation" [ref=e173]
+                  - heading "Core Scientific rally tests its AI data center valuation" [level=3, ref=e212]
+                - generic
+                  - StaticText "Simply Wall St."
+                  - StaticText "•"
+                  - StaticText "7d ago"
+                - link "CORZ" [ref=e80]
+                  - StaticText "CORZ"
+                  - StaticText "-0.38%"
+                - link "CORZZ" [ref=e81]
+                  - StaticText "CORZZ"
+                  - StaticText "+0.38%"
+              - listitem [level=1]
+                - link "How to play Micron after it lost a quarter of its value" [ref=e174]
+                  - heading "How to play Micron after it lost a quarter of its value" [level=3, ref=e213]
+                - generic
+                  - StaticText "Barchart"
+                  - StaticText "•"
+                  - StaticText "8d ago"
+                - link "MU" [ref=e82]
+                  - StaticText "MU"
+                  - StaticText "-0.50%"
+              - listitem [level=1]
+                - link "Why Meta stock is soaring today" [ref=e175]
+                  - heading "Why Meta stock is soaring today" [level=3, ref=e214]
+                - generic
+                  - StaticText "StockStory"
+                  - StaticText "•"
+                  - StaticText "7d ago"
+                - link "META" [ref=e83]
+                  - StaticText "META"
+                  - StaticText "-2.79%"
+                - link "AVGO" [ref=e84]
+                  - StaticText "AVGO"
+                  - StaticText "-0.97%"
+            - list
+              - listitem [level=1]
+                - generic
+                  - link "Unum Group declares dividend and reinsurance deal" [ref=e85]
+                    - image "Unum Group declares dividend and reinsurance deal"
+                  - link "Unum Group declares dividend and reinsurance deal" [ref=e176]
+                    - heading "Unum Group declares dividend and reinsurance deal" [level=3, ref=e215]
+                  - generic
+                    - StaticText "Simply Wall St."
+                    - StaticText "•"
+                    - StaticText "7d ago"
+                  - link "UNM" [ref=e86]
+                    - StaticText "UNM"
+                    - StaticText "-0.58%"
+              - listitem [level=1]
+                - generic
+                  - link "JinkoSolar fair value cut after analyst Target changes" [ref=e87]
+                    - image "JinkoSolar fair value cut after analyst Target changes"
+                  - link "JinkoSolar fair value cut after analyst Target changes" [ref=e177]
+                    - heading "JinkoSolar fair value cut after analyst Target changes" [level=3, ref=e216]
+                  - generic
+                    - StaticText "Simply Wall St."
+                    - StaticText "•"
+                    - StaticText "7d ago"
+                  - link "JKS" [ref=e88]
+                    - StaticText "JKS"
+                    - StaticText "+3.00%"
+              - listitem [level=1]
+                - generic
+                  - link "Goldman Sachs upgrades Toast to 'Buy', raises price Target" [ref=e89]
+                    - image "Goldman Sachs upgrades Toast to 'Buy', raises price Target"
+                  - link "Goldman Sachs upgrades Toast to 'Buy', raises price Target" [ref=e178]
+                    - heading "Goldman Sachs upgrades Toast to 'Buy', raises price Target" [level=3, ref=e217]
+                  - generic
+                    - StaticText "Stocktwits"
+                    - StaticText "•"
+                    - StaticText "8d ago"
+                  - link "GS" [ref=e90]
+                    - StaticText "GS"
+                    - StaticText "-2.76%"
+              - listitem [level=1]
+                - generic
+                  - link "Lam Research (LRCX) stock falls as AI demand fears clash with company guidance" [ref=e91]
+                    - image "Lam Research (LRCX) stock falls as AI demand fears clash with company guidance"
+                  - link "Lam Research (LRCX) stock falls as AI demand fears clash with company guidance" [ref=e179]
+                    - heading "Lam Research (LRCX) stock falls as AI demand fears clash with company guidance" [level=3, ref=e218]
+                  - generic
+                    - StaticText "Simply Wall St."
+                    - StaticText "•"
+                    - StaticText "13d ago"
+                  - link "LRCX" [ref=e92]
+                    - StaticText "LRCX"
+                    - StaticText "-2.39%"
+            - list
+              - listitem [level=1]
+                - generic
+                  - link "AMD vs. Arm vs. Intel: The Best Stock to Play the Rise of Agentic AI" [ref=e93]
+                    - image "AMD vs. Arm vs. Intel: The Best Stock to Play the Rise of Agentic AI"
+                  - link "AMD vs. Arm vs. Intel: The Best Stock to Play the Rise of Agentic AI" [ref=e180]
+                    - heading "AMD vs. Arm vs. Intel: The Best Stock to Play the Rise of Agentic AI" [level=3, ref=e219]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "7m ago"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Caterpillar (NYSE: CAT) Now Makes Up 11% of the Dow. Could a Stock Split Come Before Year-End?" [ref=e94]
+                    - image "Caterpillar (NYSE: CAT) Now Makes Up 11% of the Dow. Could a Stock Split Come Before Year-End?"
+                  - link "Caterpillar (NYSE: CAT) Now Makes Up 11% of the Dow. Could a Stock Split Come Before Year-End?" [ref=e181]
+                    - heading "Caterpillar (NYSE: CAT) Now Makes Up 11% of the Dow. Could a Stock Split Come Before Year-End?" [level=3, ref=e220]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "23m ago"
+                  - link "CAT" [ref=e95]
+                    - StaticText "CAT"
+                  - link "NVDA" [ref=e96]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                - separator
+              - listitem [level=1]
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Go Big or Go Bigger: Is the Vanguard Mega Cap Growth ETF or S&P 500 Growth ETF the Better Buy?" [ref=e97]
+                    - image "Go Big or Go Bigger: Is the Vanguard Mega Cap Growth ETF or S&P 500 Growth ETF the Better Buy?"
+                  - link "Go Big or Go Bigger: Is the Vanguard Mega Cap Growth ETF or S&P 500 Growth ETF the Better Buy?" [ref=e182]
+                    - heading "Go Big or Go Bigger: Is the Vanguard Mega Cap Growth ETF or S&P 500 Growth ETF the Better Buy?" [level=3, ref=e221]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "32m ago"
+                  - link "VOO" [ref=e98]
+                    - StaticText "VOO"
+                  - link "^GSPC" [ref=e99]
+                    - StaticText "^GSPC"
+                    - StaticText "-1.01%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Plug Power Wins a 50-Megawatt Order in Australia. Here's What It Means for the Hydrogen Stock." [ref=e100]
+                    - image "Plug Power Wins a 50-Megawatt Order in Australia. Here's What It Means for the Hydrogen Stock."
+                  - link "Plug Power Wins a 50-Megawatt Order in Australia. Here's What It Means for the Hydrogen Stock." [ref=e183]
+                    - heading "Plug Power Wins a 50-Megawatt Order in Australia. Here's What It Means for the Hydrogen Stock." [level=3, ref=e222]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "1h ago"
+                  - link "PLUG" [ref=e101]
+                    - StaticText "PLUG"
+                  - link "ORI.AX" [ref=e102]
+                    - StaticText "ORI.AX"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "International ETF Outpacing the S&P 500 This Year Is Worth a Closer Look" [ref=e103]
+                    - image "International ETF Outpacing the S&P 500 This Year Is Worth a Closer Look"
+                  - link "International ETF Outpacing the S&P 500 This Year Is Worth a Closer Look" [ref=e184]
+                    - heading "International ETF Outpacing the S&P 500 This Year Is Worth a Closer Look" [level=3, ref=e223]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "1h ago"
+                  - link "^GSPC" [ref=e104]
+                    - StaticText "^GSPC"
+                    - StaticText "-1.01%"
+                  - link "NVDA" [ref=e105]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Gold's Returns Are Shining: Is It Better to Invest With a Physical Gold or Mining Stock ETF in 2026?" [ref=e106]
+                    - image "Gold's Returns Are Shining: Is It Better to Invest With a Physical Gold or Mining Stock ETF in 2026?"
+                  - link "Gold's Returns Are Shining: Is It Better to Invest With a Physical Gold or Mining Stock ETF in 2026?" [ref=e185]
+                    - heading "Gold's Returns Are Shining: Is It Better to Invest With a Physical Gold or Mining Stock ETF in 2026?" [level=3, ref=e224]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "1h ago"
+                  - link "GC=F" [ref=e107]
+                    - StaticText "GC=F"
+                  - link "^GSPC" [ref=e108]
+                    - StaticText "^GSPC"
+                    - StaticText "-1.01%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Why CoreWeave Stock Keeps Falling" [ref=e109]
+                    - image "Why CoreWeave Stock Keeps Falling"
+                  - link "Why CoreWeave Stock Keeps Falling" [ref=e186]
+                    - heading "Why CoreWeave Stock Keeps Falling" [level=3, ref=e225]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "1h ago"
+                  - link "CRWV" [ref=e110]
+                    - StaticText "CRWV"
+                  - link "NVDA" [ref=e111]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "The 3 Energy Stocks I'd Buy With My Next $1,000" [ref=e112]
+                    - image "The 3 Energy Stocks I'd Buy With My Next $1,000"
+                  - link "The 3 Energy Stocks I'd Buy With My Next $1,000" [ref=e187]
+                    - heading "The 3 Energy Stocks I'd Buy With My Next $1,000" [level=3, ref=e226]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "1h ago"
+                  - link "NVDA" [ref=e113]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                  - link "BE" [ref=e114]
+                    - StaticText "BE"
+                - separator
+              - listitem [level=1]
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Here's Why CoreWeave Stock Tanked This Week" [ref=e115]
+                    - image "Here's Why CoreWeave Stock Tanked This Week"
+                  - link "Here's Why CoreWeave Stock Tanked This Week" [ref=e188]
+                    - heading "Here's Why CoreWeave Stock Tanked This Week" [level=3, ref=e227]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "1h ago"
+                  - link "CRWV" [ref=e116]
+                    - StaticText "CRWV"
+                  - link "NVDA" [ref=e117]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Cathie Wood Just Bet Big on This Biotech Stock" [ref=e118]
+                    - image "Cathie Wood Just Bet Big on This Biotech Stock"
+                  - link "Cathie Wood Just Bet Big on This Biotech Stock" [ref=e189]
+                    - heading "Cathie Wood Just Bet Big on This Biotech Stock" [level=3, ref=e228]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "2h ago"
+                  - link "IONS" [ref=e119]
+                    - StaticText "IONS"
+                  - link "AZN" [ref=e120]
+                    - StaticText "AZN"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Should You Buy Viking Therapeutics Stock on the Dip? Wall Street Is Screaming \"Yes.\"" [ref=e121]
+                    - image "Should You Buy Viking Therapeutics Stock on the Dip? Wall Street Is Screaming \"Yes.\""
+                  - link "Should You Buy Viking Therapeutics Stock on the Dip? Wall Street Is Screaming \"Yes.\"" [ref=e190]
+                    - heading "Should You Buy Viking Therapeutics Stock on the Dip? Wall Street Is Screaming \"Yes.\"" [level=3, ref=e229]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "2h ago"
+                  - link "VKTX" [ref=e122]
+                    - StaticText "VKTX"
+                  - link "NVDA" [ref=e123]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "TSMC: Stock to Avoid or Incredible Buying Opportunity? (NYSE: TSM)" [ref=e124]
+                    - image "TSMC: Stock to Avoid or Incredible Buying Opportunity? (NYSE: TSM)"
+                  - link "TSMC: Stock to Avoid or Incredible Buying Opportunity? (NYSE: TSM)" [ref=e191]
+                    - heading "TSMC: Stock to Avoid or Incredible Buying Opportunity? (NYSE: TSM)" [level=3, ref=e230]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "3h ago"
+                  - link "TSM" [ref=e125]
+                    - StaticText "TSM"
+                  - link "NVDA" [ref=e126]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Best Dividend Stock to Buy Now and Hold Forever" [ref=e127]
+                    - image "Best Dividend Stock to Buy Now and Hold Forever"
+                  - link "Best Dividend Stock to Buy Now and Hold Forever" [ref=e192]
+                    - heading "Best Dividend Stock to Buy Now and Hold Forever" [level=3, ref=e231]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "3h ago"
+                  - link "CVX" [ref=e128]
+                    - StaticText "CVX"
+                  - link "NVDA" [ref=e129]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "This Dividend ETF Yields 3.2% and Is Beating the Nasdaq-100 This Year" [ref=e130]
+                    - image "This Dividend ETF Yields 3.2% and Is Beating the Nasdaq-100 This Year"
+                  - link "This Dividend ETF Yields 3.2% and Is Beating the Nasdaq-100 This Year" [ref=e193]
+                    - heading "This Dividend ETF Yields 3.2% and Is Beating the Nasdaq-100 This Year" [level=3, ref=e232]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "3h ago"
+                  - link "NVDA" [ref=e131]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                  - link "^GSPC" [ref=e132]
+                    - StaticText "^GSPC"
+                    - StaticText "-1.01%"
+                - separator
+              - listitem [level=1]
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Salesforce vs. CrowdStrike: Which Technology Growth Stock Is a Better Buy in 2026?" [ref=e133]
+                    - image "Salesforce vs. CrowdStrike: Which Technology Growth Stock Is a Better Buy in 2026?"
+                  - link "Salesforce vs. CrowdStrike: Which Technology Growth Stock Is a Better Buy in 2026?" [ref=e194]
+                    - heading "Salesforce vs. CrowdStrike: Which Technology Growth Stock Is a Better Buy in 2026?" [level=3, ref=e233]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "4h ago"
+                  - link "CRM" [ref=e134]
+                    - StaticText "CRM"
+                  - link "CRWD" [ref=e135]
+                    - StaticText "CRWD"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "5 Top Dividend Stocks Yielding 5% or More to Buy Right Now for Passive Income" [ref=e136]
+                    - image "5 Top Dividend Stocks Yielding 5% or More to Buy Right Now for Passive Income"
+                  - link "5 Top Dividend Stocks Yielding 5% or More to Buy Right Now for Passive Income" [ref=e195]
+                    - heading "5 Top Dividend Stocks Yielding 5% or More to Buy Right Now for Passive Income" [level=3, ref=e234]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "4h ago"
+                  - link "NVDA" [ref=e137]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                  - link "^GSPC" [ref=e138]
+                    - StaticText "^GSPC"
+                    - StaticText "-1.01%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Prediction: The Most Important Stock in the Dow Jones Will Issue a 4-for-1 Stock Split Before the End of 2026" [ref=e139]
+                    - image "Prediction: The Most Important Stock in the Dow Jones Will Issue a 4-for-1 Stock Split Before the End of 2026"
+                  - link "Prediction: The Most Important Stock in the Dow Jones Will Issue a 4-for-1 Stock Split Before the End of 2026" [ref=e196]
+                    - heading "Prediction: The Most Important Stock in the Dow Jones Will Issue a 4-for-1 Stock Split Before the End of 2026" [level=3, ref=e235]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "4h ago"
+                  - link "^DJI" [ref=e140]
+                    - StaticText "^DJI"
+                  - link "NVDA" [ref=e141]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "eVTOL Stocks Like Archer Aviation Team Up For New Charging Network" [ref=e142]
+                    - image "eVTOL Stocks Like Archer Aviation Team Up For New Charging Network"
+                  - link "eVTOL Stocks Like Archer Aviation Team Up For New Charging Network" [ref=e197]
+                    - heading "eVTOL Stocks Like Archer Aviation Team Up For New Charging Network" [level=3, ref=e236]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "4h ago"
+                  - link "NVDA" [ref=e143]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                  - link "ACHR" [ref=e144]
+                    - StaticText "ACHR"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "The S&P 500 is breaking the earnings playbook: Chart of the Day" [ref=e145]
+                    - image "The S&P 500 is breaking the earnings playbook: Chart of the Day"
+                  - link "The S&P 500 is breaking the earnings playbook: Chart of the Day" [ref=e198]
+                    - heading "The S&P 500 is breaking the earnings playbook: Chart of the Day" [level=3, ref=e237]
+                  - generic
+                    - StaticText "Yahoo Finance"
+                    - StaticText "•"
+                    - StaticText "4h ago"
+                  - link "^GSPC" [ref=e146]
+                    - StaticText "^GSPC"
+                    - StaticText "-1.01%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Big banks' record Wall Street profits are increasingly tied to AI" [ref=e147]
+                    - image "Big banks' record Wall Street profits are increasingly tied to AI"
+                  - link "Big banks' record Wall Street profits are increasingly tied to AI" [ref=e199]
+                    - heading "Big banks' record Wall Street profits are increasingly tied to AI" [level=3, ref=e238]
+                  - generic
+                    - StaticText "Yahoo Finance"
+                    - StaticText "•"
+                    - StaticText "4h ago"
+                - separator
+              - listitem [level=1]
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "‘I’m an example of what I’ve preached’: Dan Ives knows AI has a ‘PR problem’ but it led to his massive career change after 25 years on Wall Street" [ref=e148]
+                    - image "‘I’m an example of what I’ve preached’: Dan Ives knows AI has a ‘PR problem’ but it led to his massive career change after 25 years on Wall Street"
+                  - link "‘I’m an example of what I’ve preached’: Dan Ives knows AI has a ‘PR problem’ but it led to his massive career change after 25 years on Wall Street" [ref=e200]
+                    - heading "‘I’m an example of what I’ve preached’: Dan Ives knows AI has a ‘PR problem’ but it led to his massive career change after 25 years on Wall Street" [level=3, ref=e239]
+                  - generic
+                    - StaticText "Fortune"
+                    - StaticText "•"
+                    - StaticText "4h ago"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "3 Dividend Stocks to Buy and Hold for the Next 5 Years" [ref=e149]
+                    - image "3 Dividend Stocks to Buy and Hold for the Next 5 Years"
+                  - link "3 Dividend Stocks to Buy and Hold for the Next 5 Years" [ref=e201]
+                    - heading "3 Dividend Stocks to Buy and Hold for the Next 5 Years" [level=3, ref=e240]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "5h ago"
+                  - link "NVDA" [ref=e150]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                  - link "HRL" [ref=e151]
+                    - StaticText "HRL"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "History Says Buying Chip Stocks After a 20% Drawdown Has Usually Worked in This Cycle. Will It Work Again?" [ref=e152]
+                    - image "History Says Buying Chip Stocks After a 20% Drawdown Has Usually Worked in This Cycle. Will It Work Again?"
+                  - link "History Says Buying Chip Stocks After a 20% Drawdown Has Usually Worked in This Cycle. Will It Work Again?" [ref=e202]
+                    - heading "History Says Buying Chip Stocks After a 20% Drawdown Has Usually Worked in This Cycle. Will It Work Again?" [level=3, ref=e241]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "5h ago"
+                  - link "NVDA" [ref=e153]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                  - link "AVGO" [ref=e154]
+                    - StaticText "AVGO"
+                    - StaticText "-0.97%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "SpaceX's Unlucky Flight 13 Fails to Launch Starship. Can the Stock Survive Yet Another Delay?" [ref=e155]
+                    - image "SpaceX's Unlucky Flight 13 Fails to Launch Starship. Can the Stock Survive Yet Another Delay?"
+                  - link "SpaceX's Unlucky Flight 13 Fails to Launch Starship. Can the Stock Survive Yet Another Delay?" [ref=e203]
+                    - heading "SpaceX's Unlucky Flight 13 Fails to Launch Starship. Can the Stock Survive Yet Another Delay?" [level=3, ref=e242]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "5h ago"
+                  - link "SPCX" [ref=e156]
+                    - StaticText "SPCX"
+                  - link "NVDA" [ref=e157]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+                - separator
+              - listitem [level=1]
+                - generic
+                  - link "Jensen Huang Said Nvidia Will Be the First Customer for HBM4. Here's the AI Memory Stock That Has Reportedly Locked Up 70% of Those Orders." [ref=e158]
+                    - image "Jensen Huang Said Nvidia Will Be the First Customer for HBM4. Here's the AI Memory Stock That Has Reportedly Locked Up 70% of Those Orders."
+                  - link "Jensen Huang Said Nvidia Will Be the First Customer for HBM4. Here's the AI Memory Stock That Has Reportedly Locked Up 70% of Those Orders." [ref=e204]
+                    - heading "Jensen Huang Said Nvidia Will Be the First Customer for HBM4. Here's the AI Memory Stock That Has Reportedly Locked Up 70% of Those Orders." [level=3, ref=e243]
+                  - generic
+                    - StaticText "Motley Fool"
+                    - StaticText "•"
+                    - StaticText "5h ago"
+                  - link "NVDA" [ref=e159]
+                    - StaticText "NVDA"
+                    - StaticText "-2.21%"
+            - navigation "Page navigation" [ref=e38]
+              - link "Goto previous page" [ref=e67]
+              - list
+                - listitem [level=1]
+                  - link "Goto Page 1" [ref=e160]
+                    - StaticText "1"
+                - listitem [level=1]
+                  - link "Goto Page 2" [ref=e161]
+                    - StaticText "2"
+                - listitem [level=1]
+                  - link "Goto Page 3" [ref=e162]
+                    - StaticText "3"
+                - listitem [level=1]
+                  - link "Goto Page 4" [ref=e163]
+                    - StaticText "4"
+                - listitem [level=1]
+                  - link "Goto Page 5" [ref=e164]
+                    - StaticText "5"
+                - listitem [level=1]
+                  - link "Goto Page 6" [ref=e165]
+                    - StaticText "6"
+              - link "Goto next page" [ref=e68]
+          - sectionfooter
+            - generic
+              - link "Yahoo Finance" [ref=e39]
+                - image
+              - StaticText "Copyright © 2026 Yahoo. All rights reserved."
+              - link "Follow on Twitter" [ref=e40]
+              - link "Follow on Facebook" [ref=e41]
+              - link "Follow on LinkedIn" [ref=e42]
+              - StaticText "Trending Topics"
+              - link "Dow Jones" [ref=e43]
+              - link "S&P 500" [ref=e44]
+              - link "DAX Index" [ref=e45]
+              - link "Nvidia" [ref=e46]
+              - link "Tesla" [ref=e47]
+              - link "DJT" [ref=e48]
+              - link "Tariffs" [ref=e49]
+              - StaticText "Explore Further"
+              - link "Mortgages" [ref=e50]
+              - link "Credit Cards" [ref=e51]
+              - link "Sectors" [ref=e52]
+              - link "Crypto Heatmap" [ref=e53]
+              - link "Financial News" [ref=e54]
+              - StaticText "About"
+              - link "Data Disclaimer" [ref=e55]
+              - link "Help" [ref=e56]
+              - link "Feedback" [ref=e57]
+              - link "Sitemap" [ref=e58]
+              - link "Licensing" [ref=e59]
+              - link "What's New" [ref=e60]
+              - link "About Our Ads" [ref=e61]
+              - generic
+                - generic
+                  - link "Terms" [ref=e72]
+                  - StaticText "and"
+                  - link "Privacy Policy" [ref=e73]
+                - link "Privacy Dashboard" [ref=e69]
+      - complementary "Dock"
+        - dialog "Dock"
+          - search
+            - textbox "Quote Lookup" [ref=e205]
+          - list
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Trending tickers" [ref=e249]
+                    - StaticText "Trending tickers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "BTC-USD Bitcoin USD 64,085.00 +534.89 (+0.84%)" [ref=e253]
+                      - button "Follow" [ref=e254]
+                  - listitem [level=2]
+                    - generic
+                      - link "ETH-USD Ethereum USD 1,842.16 +7.25 (+0.40%)" [ref=e255]
+                      - button "Follow" [ref=e256]
+                  - listitem [level=2]
+                    - generic
+                      - link "EBAY eBay Inc. 112.06 +1.15 (+1.04%)" [ref=e257]
+                      - button "Follow" [ref=e258]
+                  - listitem [level=2]
+                    - generic
+                      - link "XRP-USD XRP USD 1.09 +0.00 (+0.10%)" [ref=e259]
+                      - button "Follow" [ref=e260]
+                  - listitem [level=2]
+                    - generic
+                      - link "PLOW Douglas Dynamics, Inc. 44.62 -0.30 (-0.67%)" [ref=e261]
+                      - button "Follow" [ref=e262]
+            - listitem [level=1]
+            - listitem [level=1]
+              - generic
+                - link "Portfolio" [ref=e244]
+                - paragraph
+                  - StaticText "Sign in to access your portfolio"
+                - link "Sign in" [ref=e206]
+            - listitem [level=1]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Top gainers" [ref=e250]
+                    - StaticText "Top gainers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "LCID Lucid Group, Inc. 7.36 +0.90 (+13.93%)" [ref=e263]
+                      - button "Follow" [ref=e264]
+                  - listitem [level=2]
+                    - generic
+                      - link "SLS SELLAS Life Sciences Group, Inc. 13.19 +1.44 (+12.26%)" [ref=e265]
+                      - button "Follow" [ref=e266]
+                  - listitem [level=2]
+                    - generic
+                      - link "ORKA Oruka Therapeutics, Inc. 92.70 +9.66 (+11.63%)" [ref=e267]
+                      - button "Follow" [ref=e268]
+                  - listitem [level=2]
+                    - generic
+                      - link "DNTH Dianthus Therapeutics, Inc. 105.60 +10.25 (+10.75%)" [ref=e269]
+                      - button "Follow" [ref=e270]
+                  - listitem [level=2]
+                    - generic
+                      - link "COAG Hemab Therapeutics Holdings, Inc. 49.29 +4.76 (+10.69%)" [ref=e271]
+                      - button "Follow" [ref=e272]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Top losers" [ref=e251]
+                    - StaticText "Top losers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "ISRG Intuitive Surgical, Inc. 345.42 -56.91 (-14.15%)" [ref=e273]
+                      - button "Follow" [ref=e274]
+                  - listitem [level=2]
+                    - generic
+                      - link "CDNS Cadence Design Systems, Inc. 330.11 -34.54 (-9.47%)" [ref=e275]
+                      - button "Follow" [ref=e276]
+                  - listitem [level=2]
+                    - generic
+                      - link "PENG Penguin Solutions, Inc. 60.41 -5.56 (-8.43%)" [ref=e277]
+                      - button "Follow" [ref=e278]
+                  - listitem [level=2]
+                    - generic
+                      - link "SNPS Synopsys, Inc. 384.28 -32.76 (-7.85%)" [ref=e279]
+                      - button "Follow" [ref=e280]
+                  - listitem [level=2]
+                    - generic
+                      - link "NFLX Netflix, Inc. 68.95 -5.40 (-7.26%)" [ref=e281]
+                      - button "Follow" [ref=e282]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Most active" [ref=e252]
+                    - StaticText "Most active"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "ONDS Ondas Inc. 6.53 -0.12 (-1.88%)" [ref=e283]
+                      - button "Follow" [ref=e284]
+                  - listitem [level=2]
+                    - generic
+                      - link "AAL American Airlines Group Inc. 14.98 -0.62 (-3.97%)" [ref=e285]
+                      - button "Follow" [ref=e286]
+                  - listitem [level=2]
+                    - generic
+                      - link "NFLX Netflix, Inc. 68.95 -5.40 (-7.26%)" [ref=e287]
+                      - button "Follow" [ref=e288]
+                  - listitem [level=2]
+                    - generic
+                      - link "NVDA NVIDIA Corporation 202.81 -4.59 (-2.21%)" [ref=e289]
+                      - button "Follow" [ref=e290]
+                  - listitem [level=2]
+                    - generic
+                      - link "NU Nu Holdings Ltd. 13.59 -0.20 (-1.45%)" [ref=e291]
+                      - button "Follow" [ref=e292]
+            - listitem [level=1]
+              - link "Top economic events" [ref=e245]
+                - StaticText "Top economic events"
+              - button "Thailand" [ref=e246]
+                - StaticText "Thailand"
+              - StaticText "There are no important events for this country at this time. Select \"All\" to see top events in other countries or view all events."
+              - link "View All Events" [ref=e247]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Earnings events" [ref=e248]
+                    - StaticText "Earnings events"
+                  - group
+                    - generic
+                      - checkbox "My earnings events" [checked=false, ref=e293]
+                    - generic
+                      - checkbox "Earnings events" [checked=true, ref=e294]
+          - button "Edit your Dock" [ref=e70]
+            - StaticText "Edit your Dock"
+          - generic
+            - generic
+              - link "Terms" [ref=e166]
+              - link "Privacy Policy" [ref=e167]
+            - link "Privacy Dashboard" [ref=e74]

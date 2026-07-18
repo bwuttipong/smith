@@ -1,0 +1,486 @@
+- generic
+  - banner
+    - generic
+      - button "Main menu" [expanded=false, ref=e1]
+        - image
+      - link "Trends" [ref=e19]
+        - StaticText "Trends"
+      - button "Home" [ref=e9]
+        - StaticText "Home"
+      - button "Explore" [ref=e10]
+        - StaticText "Explore"
+      - button "Trending now" [ref=e11]
+        - StaticText "Trending now"
+      - generic
+        - button "Google apps" [expanded=false, ref=e21]
+          - StaticText "  "
+        - link "Sign in" [ref=e12]
+          - StaticText "  "
+          - StaticText "Sign in"
+  - generic
+    - navigation
+    - main
+      - heading "Trending Now - Google Trends" [level=1, ref=e2]
+      - heading "Trending Now" [level=1, ref=e3]
+      - generic
+        - generic
+          - generic
+            - button "United States, select location" [expanded=false, ref=e232]
+              - image
+          - generic
+            - button "Past 24 hours, select period" [expanded=false, ref=e190]
+              - image
+          - generic
+            - button "All categories, select category" [expanded=false, ref=e191]
+              - image
+          - generic
+            - button "All trends, select trend status" [expanded=false, ref=e192]
+              - image
+          - generic
+            - button "Relevance, select sort criteria" [expanded=false, ref=e193]
+              - image
+        - generic
+          - button "Export" [expanded=false, ref=e49]
+            - StaticText "Export"
+            - image
+      - generic
+        - grid
+          - rowgroup
+            - row "Search trends Trends (Updated Jul 18, 11:05 PM) Search volume Started More info Trend breakdown More info Past 24 hours"
+              - gridcell
+              - columnheader "Search trends Trends (Updated Jul 18, 11:05 PM)" [ref=e194]
+                - button "Search trends" [ref=e282]
+                - generic
+                  - button "Trends" [ref=e283]
+                - StaticText "("
+                - StaticText "Updated Jul 18, 11:05 PM"
+                - StaticText ")"
+              - columnheader "Search volume" [ref=e195]
+                - generic
+                  - button "Search volume" [ref=e284]
+              - columnheader "Started More info" [ref=e196]
+                - generic
+                  - button "Started" [ref=e285]
+                - button "More info" [ref=e286]
+              - columnheader "Trend breakdown More info" [ref=e197]
+                - button "More info" [ref=e287]
+              - columnheader "Past 24 hours" [ref=e198]
+          - row "Select row bryson dechambeau 200K+ 900% 22 hours ago Active bryson dechambeau penalty dechambeau See 10 additional items Search interest graph" [ref=e22] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e50]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e233]
+            - gridcell "bryson dechambeau" [ref=e51]
+              - StaticText "bryson dechambeau"
+            - gridcell "200K+ 900%" [ref=e52]
+              - generic
+              - StaticText "900%"
+            - gridcell "22 hours ago Active" [ref=e53]
+              - button "22 hours ago" [ref=e199]
+              - StaticText "Active"
+            - gridcell "bryson dechambeau penalty dechambeau See 10 additional items" [ref=e54]
+              - button "bryson dechambeau penalty" [expanded=false, ref=e234]
+              - button "dechambeau" [expanded=false, ref=e235]
+              - button "See 10 additional items" [ref=e200]
+            - gridcell "Search interest graph" [ref=e55]
+              - image "Search interest graph"
+          - row "Select row dodgers vs yankees 200K+ 1,000% 17 hours ago Active dodgers - yankees yankees vs dodgers Search interest graph" [ref=e23] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e56]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e236]
+            - gridcell "dodgers vs yankees" [ref=e57]
+              - StaticText "dodgers vs yankees"
+            - gridcell "200K+ 1,000%" [ref=e58]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "17 hours ago Active" [ref=e59]
+              - button "17 hours ago" [ref=e201]
+              - StaticText "Active"
+            - gridcell "dodgers - yankees yankees vs dodgers" [ref=e60]
+              - button "dodgers - yankees" [expanded=false, ref=e237]
+              - button "yankees vs dodgers" [expanded=false, ref=e238]
+            - gridcell "Search interest graph" [ref=e61]
+              - image "Search interest graph"
+          - row "Select row heavenly spices garlic powder recall 20K+ 1,000% 6 hours ago Active Search interest graph" [ref=e24] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e62]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e239]
+            - gridcell "heavenly spices garlic powder recall" [ref=e63]
+              - StaticText "heavenly spices garlic powder recall"
+            - gridcell "20K+ 1,000%" [ref=e64]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "6 hours ago Active" [ref=e65]
+              - button "6 hours ago" [ref=e202]
+              - StaticText "Active"
+            - gridcell
+            - gridcell "Search interest graph" [ref=e66]
+              - image "Search interest graph"
+          - row "Select row prince william emmy nominations 20K+ 1,000% 19 hours ago Active Search interest graph" [ref=e25] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e67]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e240]
+            - gridcell "prince william emmy nominations" [ref=e68]
+              - StaticText "prince william emmy nominations"
+            - gridcell "20K+ 1,000%" [ref=e69]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "19 hours ago Active" [ref=e70]
+              - button "19 hours ago" [ref=e203]
+              - StaticText "Active"
+            - gridcell
+            - gridcell "Search interest graph" [ref=e71]
+              - image "Search interest graph"
+          - row "Select row storm vs fever 100K+ 1,000% 17 hours ago Active wnba historic performance caitlin clark indiana fever See 15 additional items Search interest graph" [ref=e26] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e72]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e241]
+            - gridcell "storm vs fever" [ref=e73]
+              - StaticText "storm vs fever"
+            - gridcell "100K+ 1,000%" [ref=e74]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "17 hours ago Active" [ref=e75]
+              - button "17 hours ago" [ref=e204]
+              - StaticText "Active"
+            - gridcell "wnba historic performance caitlin clark indiana fever See 15 additional items" [ref=e76]
+              - button "wnba historic performance caitlin clark" [expanded=false, ref=e242]
+              - button "indiana fever" [expanded=false, ref=e243]
+              - button "See 15 additional items" [ref=e205]
+            - gridcell "Search interest graph" [ref=e77]
+              - image "Search interest graph"
+          - row "Select row impeachment 50K+ 1,000% 22 hours ago Active s Search interest graph" [ref=e27] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e78]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e244]
+            - gridcell "impeachment" [ref=e79]
+              - StaticText "impeachment"
+            - gridcell "50K+ 1,000%" [ref=e80]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "22 hours ago Active" [ref=e81]
+              - button "22 hours ago" [ref=e206]
+              - StaticText "Active"
+            - gridcell "s" [ref=e82]
+              - button "s" [expanded=false, ref=e245]
+            - gridcell "Search interest graph" [ref=e83]
+              - image "Search interest graph"
+          - row "Select row man united vs wrexham 20K+ 1,000% 1 hour ago Active manchester united See 6 additional items Search interest graph" [ref=e28] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e84]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e246]
+            - gridcell "man united vs wrexham" [ref=e85]
+              - StaticText "man united vs wrexham"
+            - gridcell "20K+ 1,000%" [ref=e86]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "1 hour ago Active" [ref=e87]
+              - button "1 hour ago" [ref=e207]
+              - StaticText "Active"
+            - gridcell "manchester united See 6 additional items" [ref=e88]
+              - button "manchester united" [expanded=false, ref=e247]
+              - button "See 6 additional items" [ref=e208]
+            - gridcell "Search interest graph" [ref=e89]
+              - image "Search interest graph"
+          - row "Select row tom holland 50K+ 300% 15 hours ago Active Search interest graph" [ref=e29] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e90]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e248]
+            - gridcell "tom holland" [ref=e91]
+              - StaticText "tom holland"
+            - gridcell "50K+ 300%" [ref=e92]
+              - generic
+              - StaticText "300%"
+            - gridcell "15 hours ago Active" [ref=e93]
+              - button "15 hours ago" [ref=e209]
+              - StaticText "Active"
+            - gridcell
+            - gridcell "Search interest graph" [ref=e94]
+              - image "Search interest graph"
+          - row "Select row tom brady 50K+ 1,000% 17 hours ago Active tom brady logan paul logan paul See 6 additional items Search interest graph" [ref=e30] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e95]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e249]
+            - gridcell "tom brady" [ref=e96]
+              - StaticText "tom brady"
+            - gridcell "50K+ 1,000%" [ref=e97]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "17 hours ago Active" [ref=e98]
+              - button "17 hours ago" [ref=e210]
+              - StaticText "Active"
+            - gridcell "tom brady logan paul logan paul See 6 additional items" [ref=e99]
+              - button "tom brady logan paul" [expanded=false, ref=e250]
+              - button "logan paul" [expanded=false, ref=e251]
+              - button "See 6 additional items" [ref=e211]
+            - gridcell "Search interest graph" [ref=e100]
+              - image "Search interest graph"
+          - row "Select row judge talwani trump grant lawsuit 20K+ 1,000% 11 hours ago Active Search interest graph" [ref=e31] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e101]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e252]
+            - gridcell "judge talwani trump grant lawsuit" [ref=e102]
+              - StaticText "judge talwani trump grant lawsuit"
+            - gridcell "20K+ 1,000%" [ref=e103]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "11 hours ago Active" [ref=e104]
+              - button "11 hours ago" [ref=e212]
+              - StaticText "Active"
+            - gridcell
+            - gridcell "Search interest graph" [ref=e105]
+              - image "Search interest graph"
+          - row "Select row navy website leadership photo restrictions 20K+ 1,000% 17 hours ago Active navy removes command leadership bios Search interest graph" [ref=e32] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e106]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e253]
+            - gridcell "navy website leadership photo restrictions" [ref=e107]
+              - StaticText "navy website leadership photo restrictions"
+            - gridcell "20K+ 1,000%" [ref=e108]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "17 hours ago Active" [ref=e109]
+              - button "17 hours ago" [ref=e213]
+              - StaticText "Active"
+            - gridcell "navy removes command leadership bios" [ref=e110]
+              - button "navy removes command leadership bios" [expanded=false, ref=e254]
+            - gridcell "Search interest graph" [ref=e111]
+              - image "Search interest graph"
+          - row "Select row maryland lottery 20K+ 1,000% 15 hours ago Active Search interest graph" [ref=e33] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e112]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e255]
+            - gridcell "maryland lottery" [ref=e113]
+              - StaticText "maryland lottery"
+            - gridcell "20K+ 1,000%" [ref=e114]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "15 hours ago Active" [ref=e115]
+              - button "15 hours ago" [ref=e214]
+              - StaticText "Active"
+            - gridcell
+            - gridcell "Search interest graph" [ref=e116]
+              - image "Search interest graph"
+          - row "Select row offshore wind power 20K+ 700% 20 hours ago Active trump administration offshore wind policy Search interest graph" [ref=e34] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e117]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e256]
+            - gridcell "offshore wind power" [ref=e118]
+              - StaticText "offshore wind power"
+            - gridcell "20K+ 700%" [ref=e119]
+              - generic
+              - StaticText "700%"
+            - gridcell "20 hours ago Active" [ref=e120]
+              - button "20 hours ago" [ref=e215]
+              - StaticText "Active"
+            - gridcell "trump administration offshore wind policy" [ref=e121]
+              - button "trump administration offshore wind policy" [expanded=false, ref=e257]
+            - gridcell "Search interest graph" [ref=e122]
+              - image "Search interest graph"
+          - row "Select row karim khan 10K+ 1,000% 1 hour ago Active who is karim khan icc karim khan See 2 additional items Search interest graph" [ref=e35] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e123]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e258]
+            - gridcell "karim khan" [ref=e124]
+              - StaticText "karim khan"
+            - gridcell "10K+ 1,000%" [ref=e125]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "1 hour ago Active" [ref=e126]
+              - button "1 hour ago" [ref=e216]
+              - StaticText "Active"
+            - gridcell "who is karim khan icc karim khan See 2 additional items" [ref=e127]
+              - button "who is karim khan" [expanded=false, ref=e259]
+              - button "icc karim khan" [expanded=false, ref=e260]
+              - button "See 2 additional items" [ref=e217]
+            - gridcell "Search interest graph" [ref=e128]
+              - image "Search interest graph"
+          - row "Select row twitter down 20K+ 900% 8 hours ago Active is x down x down twitter outage See 1 additional items Search interest graph" [ref=e36] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e129]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e261]
+            - gridcell "twitter down" [ref=e130]
+              - StaticText "twitter down"
+            - gridcell "20K+ 900%" [ref=e131]
+              - generic
+              - StaticText "900%"
+            - gridcell "8 hours ago Active" [ref=e132]
+              - button "8 hours ago" [ref=e218]
+              - StaticText "Active"
+            - gridcell "is x down x down twitter outage See 1 additional items" [ref=e133]
+              - button "is x down" [expanded=false, ref=e262]
+              - button "x down" [expanded=false, ref=e263]
+              - button "twitter outage" [expanded=false, ref=e264]
+              - button "See 1 additional items" [ref=e219]
+            - gridcell "Search interest graph" [ref=e134]
+              - image "Search interest graph"
+          - row "Select row alaska 20K+ 700% 4 hours ago Active national geographic sea bird gi outbreak Search interest graph" [ref=e37] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e135]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e265]
+            - gridcell "alaska" [ref=e136]
+              - StaticText "alaska"
+            - gridcell "20K+ 700%" [ref=e137]
+              - generic
+              - StaticText "700%"
+            - gridcell "4 hours ago Active" [ref=e138]
+              - button "4 hours ago" [ref=e220]
+              - StaticText "Active"
+            - gridcell "national geographic sea bird gi outbreak" [ref=e139]
+              - button "national geographic sea bird gi outbreak" [expanded=false, ref=e266]
+            - gridcell "Search interest graph" [ref=e140]
+              - image "Search interest graph"
+          - row "Select row ryan fox 20K+ 1,000% 4 hours ago Active tommy fleetwood sam burns ryan fox golf See 2 additional items Search interest graph" [ref=e38] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e141]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e267]
+            - gridcell "ryan fox" [ref=e142]
+              - StaticText "ryan fox"
+            - gridcell "20K+ 1,000%" [ref=e143]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "4 hours ago Active" [ref=e144]
+              - button "4 hours ago" [ref=e221]
+              - StaticText "Active"
+            - gridcell "tommy fleetwood sam burns ryan fox golf See 2 additional items" [ref=e145]
+              - button "tommy fleetwood" [expanded=false, ref=e268]
+              - button "sam burns" [expanded=false, ref=e269]
+              - button "ryan fox golf" [expanded=false, ref=e270]
+              - button "See 2 additional items" [ref=e222]
+            - gridcell "Search interest graph" [ref=e146]
+              - image "Search interest graph"
+          - row "Select row josh kerr 10K+ 1,000% 1 hour ago Active mile world record See 3 additional items Search interest graph" [ref=e39] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e147]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e271]
+            - gridcell "josh kerr" [ref=e148]
+              - StaticText "josh kerr"
+            - gridcell "10K+ 1,000%" [ref=e149]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "1 hour ago Active" [ref=e150]
+              - button "1 hour ago" [ref=e223]
+              - StaticText "Active"
+            - gridcell "mile world record See 3 additional items" [ref=e151]
+              - button "mile world record" [expanded=false, ref=e272]
+              - button "See 3 additional items" [ref=e224]
+            - gridcell "Search interest graph" [ref=e152]
+              - image "Search interest graph"
+          - row "Select row shomari figures 10K+ 1,000% 7 hours ago Active Search interest graph" [ref=e40] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e153]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e273]
+            - gridcell "shomari figures" [ref=e154]
+              - StaticText "shomari figures"
+            - gridcell "10K+ 1,000%" [ref=e155]
+              - generic
+              - StaticText "1,000%"
+            - gridcell "7 hours ago Active" [ref=e156]
+              - button "7 hours ago" [ref=e225]
+              - StaticText "Active"
+            - gridcell
+            - gridcell "Search interest graph" [ref=e157]
+              - image "Search interest graph"
+          - row "Select row madewell tj maxx sweater recall 20K+ 800% 21 hours ago Active Search interest graph" [ref=e41] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e158]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e274]
+            - gridcell "madewell tj maxx sweater recall" [ref=e159]
+              - StaticText "madewell tj maxx sweater recall"
+            - gridcell "20K+ 800%" [ref=e160]
+              - generic
+              - StaticText "800%"
+            - gridcell "21 hours ago Active" [ref=e161]
+              - button "21 hours ago" [ref=e226]
+              - StaticText "Active"
+            - gridcell
+            - gridcell "Search interest graph" [ref=e162]
+              - image "Search interest graph"
+          - row "Select row ford recalls 20K+ 900% 17 hours ago Active Search interest graph" [ref=e42] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e163]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e275]
+            - gridcell "ford recalls" [ref=e164]
+              - StaticText "ford recalls"
+            - gridcell "20K+ 900%" [ref=e165]
+              - generic
+              - StaticText "900%"
+            - gridcell "17 hours ago Active" [ref=e166]
+              - button "17 hours ago" [ref=e227]
+              - StaticText "Active"
+            - gridcell
+            - gridcell "Search interest graph" [ref=e167]
+              - image "Search interest graph"
+          - row "Select row royal brothers william harry feud 20K+ 700% 23 hours ago Active Search interest graph" [ref=e43] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e168]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e276]
+            - gridcell "royal brothers william harry feud" [ref=e169]
+              - StaticText "royal brothers william harry feud"
+            - gridcell "20K+ 700%" [ref=e170]
+              - generic
+              - StaticText "700%"
+            - gridcell "23 hours ago Active" [ref=e171]
+              - button "23 hours ago" [ref=e228]
+              - StaticText "Active"
+            - gridcell
+            - gridcell "Search interest graph" [ref=e172]
+              - image "Search interest graph"
+          - row "Select row crew gaines farm stand sold out 10K+ 500% 17 hours ago Active joanna gaines Search interest graph" [ref=e44] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e173]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e277]
+            - gridcell "crew gaines farm stand sold out" [ref=e174]
+              - StaticText "crew gaines farm stand sold out"
+            - gridcell "10K+ 500%" [ref=e175]
+              - generic
+              - StaticText "500%"
+            - gridcell "17 hours ago Active" [ref=e176]
+              - button "17 hours ago" [ref=e229]
+              - StaticText "Active"
+            - gridcell "joanna gaines" [ref=e177]
+              - button "joanna gaines" [expanded=false, ref=e278]
+            - gridcell "Search interest graph" [ref=e178]
+              - image "Search interest graph"
+          - row "Select row coca cola fairlife it network breach 10K+ 500% 19 hours ago Active fairlife milk Search interest graph" [ref=e45] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e179]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e279]
+            - gridcell "coca cola fairlife it network breach" [ref=e180]
+              - StaticText "coca cola fairlife it network breach"
+            - gridcell "10K+ 500%" [ref=e181]
+              - generic
+              - StaticText "500%"
+            - gridcell "19 hours ago Active" [ref=e182]
+              - button "19 hours ago" [ref=e230]
+              - StaticText "Active"
+            - gridcell "fairlife milk" [ref=e183]
+              - button "fairlife milk" [expanded=false, ref=e280]
+            - gridcell "Search interest graph" [ref=e184]
+              - image "Search interest graph"
+          - row "Select row baylen dupree 10K+ 600% 12 hours ago Active Search interest graph" [ref=e46] clickable [cursor:pointer, tabindex]
+            - gridcell "Select row" [ref=e185]
+              - generic
+                - checkbox "Select row" [checked=false, ref=e281]
+            - gridcell "baylen dupree" [ref=e186]
+            - gridcell "10K+ 600%" [ref=e187]
+            - gridcell "12 hours ago Active" [ref=e188]
+              - button "12 hours ago" [ref=e231]
+            - gridcell "Search interest graph" [ref=e189]
+        - combobox "Rows per page" [expanded=false, ref=e47]: 25
+        - button "Go to first page" [disabled, ref=e13]
+        - button "Go to previous page" [disabled, ref=e14]
+        - button "Go to next page" [ref=e15]
+        - button "Go to last page" [ref=e16]
+    - contentinfo
+      - image "Google"
+      - link "Privacy Opens a new tab" [ref=e4]
+      - link "Terms Opens a new tab" [ref=e5]
+      - button "Send feedback" [ref=e6]
+      - link "About Opens a new tab" [ref=e7]
+      - link "Help Opens a new tab" [ref=e8]
+      - combobox "Select language" [expanded=false, ref=e48]: English (United States)‎
+    - generic
+      - StaticText "This site uses cookies from Google to deliver and enhance the quality of its services and to analyze traffic"
+      - generic [ref=e17] clickable [cursor:pointer]
+        - link "Learn more" [ref=e20]
+      - button "Got it" [ref=e18]

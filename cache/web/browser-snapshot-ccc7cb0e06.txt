@@ -1,0 +1,4862 @@
+- generic
+  - link "Skip to main content" [ref=e1]
+  - navigation "Main" [ref=e2]
+    - link "Polymarket Logo" [ref=e4]
+      - image "Polymarket"
+    - form
+      - generic
+        - image
+        - textbox "Search polymarkets..." [ref=e58]
+    - button "How it works" [ref=e5]
+      - image
+      - StaticText "How it works"
+    - button "Log In" [ref=e6]
+      - StaticText "Log In"
+    - button "Sign Up" [ref=e7]
+      - StaticText "Sign Up"
+    - button "Open user menu" [expanded=false, ref=e8]
+      - image
+    - generic
+      - generic
+        - link "Trending" [ref=e59]
+          - image
+          - StaticText "Trending"
+        - link "World Cup" [ref=e60]
+          - StaticText "World Cup"
+        - link "Combos Combos" [ref=e61]
+          - image "Combos"
+          - StaticText "Combos"
+        - link "Perps" [ref=e62]
+        - link "Breaking" [ref=e63]
+        - link "Politics" [ref=e64]
+          - StaticText "Politics"
+        - link "Sports" [ref=e65]
+          - StaticText "Sports"
+        - link "Crypto" [ref=e66]
+          - StaticText "Crypto"
+        - link "Esports" [ref=e67]
+          - StaticText "Esports"
+        - link "Iran" [ref=e68]
+          - StaticText "Iran"
+        - link "Finance" [ref=e69]
+          - StaticText "Finance"
+        - link "Geopolitics" [ref=e70]
+          - StaticText "Geopolitics"
+        - link "Tech" [ref=e71]
+          - StaticText "Tech"
+        - link "Culture" [ref=e72]
+          - StaticText "Culture"
+        - link "Economy" [ref=e73]
+          - StaticText "Economy"
+        - link "Weather" [ref=e74]
+          - StaticText "Weather"
+        - link "Mentions" [ref=e75]
+          - StaticText "Mentions"
+        - link "Elections" [ref=e76]
+          - StaticText "Elections"
+        - link "Art" [ref=e77]
+          - StaticText "Art"
+        - button "Open more navigation links" [expanded=false, ref=e78]
+          - StaticText "More"
+          - image
+      - button "Scroll right" [ref=e9]
+  - generic
+    - main
+      - sectionheader
+        - generic
+          - heading "2026 World Cup Odds & Predictions" [level=1, ref=e100]
+          - StaticText "Live world cup predictions & odds"
+          - time
+            - StaticText "Updated Jul 18, 2026"
+      - generic
+        - navigation "World Cup" [ref=e85]
+          - link "Games" [ref=e101]
+          - link "Props" [ref=e102]
+          - link "Bracket" [ref=e103]
+          - link "Map" [ref=e104]
+        - generic
+          - button "sliders" [expanded=false, ref=e105]
+            - image "sliders"
+          - LabelText
+            - textbox "Search" [ref=e111]
+      - generic
+        - generic
+          - generic
+            - heading "Combo Combos" [level=2, ref=e3024]
+              - image "Combo"
+              - StaticText "Combos"
+            - button "Scroll combos left" [disabled, ref=e3025]
+            - button "Scroll combos right" [ref=e3026]
+            - generic
+              - StaticText "Goal rush stacks"
+              - generic [ref=e3045] focusable [tabindex]
+                - generic
+                  - button "Reg time" [ref=e3098]
+                  - button "Reg time" [ref=e3099]
+                  - button "Reg time" [ref=e3100]
+                  - button "Reg time" [ref=e3101]
+              - button "Build Goal rush stacks — 4 pick combo, 18%" [ref=e3046]
+                - StaticText "4 pick combo"
+                - StaticText "18%"
+              - StaticText "Crowning glory"
+              - generic
+                - StaticText "France vs England"
+                - button "Reg time" [ref=e3102]
+                - StaticText "France"
+                - StaticText "Yes"
+                - StaticText "Spain vs Argentina"
+                - button "Reg time" [ref=e3103]
+                - StaticText "Spain"
+                - StaticText "Yes"
+              - button "Build Crowning glory — 2 pick combo, 23%" [ref=e3047]
+                - StaticText "2 pick combo"
+                - StaticText "23%"
+              - StaticText "Cornerstone crown"
+              - generic
+                - StaticText "Spain vs Argentina"
+                - button "Reg time" [ref=e3104]
+                - StaticText "Over 4.5 corners 1H"
+                - StaticText "France vs England"
+                - button "Reg time" [ref=e3105]
+                - StaticText "France"
+                - StaticText "Yes"
+              - button "Build Cornerstone crown — 2 pick combo, 20%" [ref=e3048]
+                - StaticText "2 pick combo"
+                - StaticText "20%"
+              - StaticText "Knockout lockdown"
+              - generic [ref=e3049] focusable [tabindex]
+                - generic
+                  - button "Reg time" [ref=e3106]
+                  - button "Reg time" [ref=e3107]
+                  - button "Reg time" [ref=e3108]
+              - button "Build Knockout lockdown — 4 pick combo, 16%" [ref=e3050]
+                - StaticText "4 pick combo"
+                - StaticText "16%"
+              - StaticText "Iberian ascendancy"
+              - generic
+                - StaticText "Spain vs Argentina"
+                - StaticText "Spain to advance"
+                - StaticText "France vs England"
+                - button "Reg time" [ref=e3109]
+                - StaticText "France"
+                - StaticText "Yes"
+              - button "Build Iberian ascendancy — 2 pick combo, 32%" [ref=e3051]
+                - StaticText "2 pick combo"
+                - StaticText "32%"
+              - StaticText "Margin monarchs"
+              - generic
+                - StaticText "Spain vs Argentina"
+                - button "Reg time" [ref=e3110]
+                - StaticText "Spain -1.5"
+                - StaticText "France vs England"
+                - button "Reg time" [ref=e3111]
+                - StaticText "France -1.5"
+              - button "Build Margin monarchs — 2 pick combo, 6%" [ref=e3052]
+                - StaticText "2 pick combo"
+                - StaticText "6%"
+              - StaticText "Finals collision course"
+              - generic
+                - StaticText "Spain vs Argentina"
+                - StaticText "Spain to advance"
+                - StaticText "France vs England"
+                - StaticText "France to advance"
+              - button "Build Finals collision course — 2 pick combo, 41%" [ref=e3053]
+                - StaticText "2 pick combo"
+                - StaticText "41%"
+              - StaticText "Star-power stampede"
+              - generic [ref=e3054] focusable [tabindex]
+                - generic
+              - button "Build Star-power stampede — 4 pick combo, 8%" [ref=e3055]
+                - StaticText "4 pick combo"
+                - StaticText "8%"
+              - StaticText "Deadlock dynamos"
+              - generic
+                - image
+                - StaticText "Spain vs Argentina"
+                - button "Reg time" [ref=e3112]
+                - StaticText "Draw"
+                - StaticText "Yes"
+                - StaticText "Spain vs Argentina"
+                - StaticText "Lionel Messi 1+ G+A"
+                - StaticText "Yes"
+                - StaticText "Spain vs Argentina"
+                - StaticText "Mikel Oyarzabal 1+ G+A"
+                - StaticText "Yes"
+              - button "Build Deadlock dynamos — 3 pick combo, 10%" [ref=e3056]
+                - StaticText "3 pick combo"
+                - StaticText "10%"
+          - paragraph
+            - StaticText "Sun, July 19"
+          - paragraph
+            - StaticText "MONEYLINE"
+          - paragraph
+            - StaticText "SPREAD"
+          - paragraph
+            - StaticText "TOTAL"
+          - generic [ref=e3057] clickable [cursor:pointer]
+            - link "France vs. England" [ref=e3081]
+              - StaticText "France vs. England"
+            - image "Combo"
+            - paragraph
+              - StaticText "4:00 AM"
+            - StaticText "$9.38M Vol"
+            - button "Order Book" [ref=e3113]
+            - image "fra icon"
+            - StaticText "France"
+            - image "eng icon"
+            - StaticText "England"
+            - button "FRA 67%" [ref=e3114]
+              - StaticText "FRA"
+              - image "67%"
+                - generic
+                - generic
+            - button "ENG 34%" [ref=e3115]
+              - StaticText "ENG"
+              - image "34%"
+                - generic
+                - generic
+            - button "FRA -1.5 30%" [ref=e3116]
+              - StaticText "FRA"
+              - StaticText "-1.5"
+              - image "30%"
+                - generic
+                - generic
+            - button "ENG +1.5 71%" [ref=e3117]
+              - StaticText "ENG"
+              - StaticText "+1.5"
+              - image "71%"
+                - generic
+                - generic
+            - button "O 3.5 45%" [ref=e3118]
+              - StaticText "O"
+              - StaticText "3.5"
+              - image "45%"
+                - generic
+                - generic
+            - button "U 3.5 56%" [ref=e3119]
+              - StaticText "U"
+              - StaticText "3.5"
+              - image "56%"
+                - generic
+                - generic
+          - paragraph
+            - StaticText "Mon, July 20"
+          - paragraph
+            - StaticText "MONEYLINE"
+          - paragraph
+            - StaticText "SPREAD"
+          - paragraph
+            - StaticText "TOTAL"
+          - generic [ref=e3058] clickable [cursor:pointer]
+            - link "Spain vs. Argentina" [ref=e3082]
+              - StaticText "Spain vs. Argentina"
+            - image "Combo"
+            - paragraph
+              - StaticText "2:00 AM"
+            - StaticText "$4.97M Vol"
+            - button "Order Book" [ref=e3120]
+            - image "esp icon"
+            - StaticText "Spain"
+            - image "arg icon"
+            - StaticText "Argentina"
+            - button "ESP 60%" [ref=e3121]
+              - StaticText "ESP"
+              - image "60%"
+                - generic
+                - generic
+            - button "ARG 41%" [ref=e3122]
+              - StaticText "ARG"
+              - image "41%"
+                - generic
+                - generic
+            - button "ESP -1.5 20%" [ref=e3123]
+              - StaticText "ESP"
+              - StaticText "-1.5"
+              - image "20%"
+                - generic
+                - generic
+            - button "ARG +1.5 81%" [ref=e3124]
+              - StaticText "ARG"
+              - StaticText "+1.5"
+              - image "81%"
+                - generic
+                - generic
+            - button "O 2.5 42%" [ref=e3125]
+              - StaticText "O"
+              - StaticText "2.5"
+              - image "42%"
+                - generic
+                - generic
+            - button "U 2.5 59%" [ref=e3126]
+              - StaticText "U"
+              - StaticText "2.5"
+              - image "59%"
+                - generic
+                - generic
+          - button "View Finished" [ref=e3033]
+            - image
+            - paragraph
+              - StaticText "View Finished"
+          - generic
+            - form
+              - generic
+                - textbox "Add a comment..." [ref=e3083]
+                - generic
+                  - button [expanded=false, ref=e3127]
+                  - button [ref=e3128]
+                  - button "Post" [disabled, ref=e3129]
+            - button "sort-comments-by" [expanded=false, ref=e3034]
+              - StaticText "Newest"
+              - image
+            - LabelText [ref=e3035] clickable [cursor:pointer]
+              - checkbox "Holders" [checked=false, ref=e3059]
+              - paragraph
+                - StaticText "Holders"
+            - image
+            - paragraph
+              - StaticText "Beware of external links."
+            - article
+              - link [ref=e3060]
+              - generic
+                - link "B-vitamin" [ref=e3084]
+                  - generic [ref=e3130] clickable [cursor:pointer, onclick]
+                - time
+                - button [expanded=false, ref=e3131]
+              - StaticText "draw xD"
+              - button "0" [ref=e3061]
+                - image
+                - StaticText "0"
+            - article
+              - link "1eone" [ref=e3062]
+                - image "1eone"
+              - generic
+                - link "1eone" [ref=e3085]
+                  - generic [ref=e3132] clickable [cursor:pointer, onclick]
+                - button "sort-markets-by" [expanded=false, ref=e3086]
+                - time
+                - button [expanded=false, ref=e3133]
+              - StaticText "France let's go"
+              - button "0" [ref=e3063]
+                - image
+                - StaticText "0"
+            - article
+              - link [ref=e3064]
+              - generic
+                - link "Elegant-Weekend" [ref=e3087]
+                  - generic [ref=e3134] clickable [cursor:pointer, onclick]
+                - time
+                - button [expanded=false, ref=e3135]
+              - StaticText "why btts so high"
+              - button "0" [ref=e3065]
+                - image
+                - StaticText "0"
+            - article
+              - link [ref=e3066]
+              - generic
+                - link "solarhydra3328" [ref=e3088]
+                  - generic [ref=e3136] clickable [cursor:pointer, onclick]
+                - time
+                - button [expanded=false, ref=e3137]
+              - StaticText "didnt know copy trading was a thing until recently"
+              - button "0" [ref=e3067]
+                - image
+                - StaticText "0"
+            - article
+              - link "Negaakoko" [ref=e3068]
+                - image "Negaakoko"
+              - generic
+                - link "Negaakoko" [ref=e3089]
+                  - generic [ref=e3138] clickable [cursor:pointer, onclick]
+                - button "sort-markets-by" [expanded=false, ref=e3090]
+                - time
+                - button [expanded=false, ref=e3139]
+              - StaticText "plz win france"
+              - button "0" [ref=e3069]
+                - image
+                - StaticText "0"
+            - article
+              - link "SrChris" [ref=e3070]
+                - image "SrChris"
+              - generic
+                - link "SrChris" [ref=e3091]
+                  - generic [ref=e3140] clickable [cursor:pointer, onclick]
+                - time
+                - button [expanded=false, ref=e3141]
+              - StaticText "Cñ a millionaire who sends something to you 😭"
+              - button "0" [ref=e3071]
+                - image
+                - StaticText "0"
+            - article
+              - link "AungPYAE22" [ref=e3072]
+                - image "AungPYAE22"
+              - generic
+                - link "AungPYAE22" [ref=e3092]
+                  - generic [ref=e3142] clickable [cursor:pointer, onclick]
+                - button "sort-markets-by" [expanded=false, disabled, ref=e3093]
+                - time
+                - button [expanded=false, ref=e3143]
+              - StaticText "ez under"
+              - button "0" [ref=e3073]
+                - image
+                - StaticText "0"
+            - article
+              - link [ref=e3074]
+              - generic
+                - link "LOYDIS" [ref=e3094]
+                  - generic [ref=e3144] clickable [cursor:pointer, onclick]
+                - time
+                - button [expanded=false, ref=e3145]
+              - StaticText "01azkor5"
+              - button "0" [ref=e3075]
+                - image
+                - StaticText "0"
+            - article
+              - link [ref=e3076]
+              - generic
+                - link "densecastle5776" [ref=e3095]
+                  - generic [ref=e3146] clickable [cursor:pointer, onclick]
+                - time
+                - button [expanded=false, ref=e3147]
+              - StaticText "New to copy trading already eating..."
+              - button "0" [ref=e3077]
+                - image
+                - StaticText "0"
+            - article
+              - link [ref=e3078]
+              - generic
+                - link "cocardovich1" [ref=e3096]
+                  - generic [ref=e3148] clickable [cursor:pointer, onclick]
+                - button "sort-markets-by" [expanded=false, ref=e3097]
+                - button [expanded=false, ref=e3149]
+              - button "0" [ref=e3079]
+            - button "Show more" [ref=e3036]
+        - complementary
+          - image "icon for Team to Advance"
+          - StaticText "Team to Advance"
+          - StaticText "France"
+          - radiogroup [ref=e3027] focusable [tabindex]
+            - radio "Buy" [checked=true, ref=e3037]
+            - radio "Sell" [checked=false, ref=e3038]
+          - button "Market" [expanded=false, ref=e3028]
+            - StaticText "Market"
+            - image
+          - radiogroup [ref=e3029] focusable [tabindex]
+            - radio "France 67%" [checked=true, ref=e3039]
+            - radio "England 34%" [checked=false, ref=e3040]
+          - paragraph
+            - StaticText "Amount"
+          - generic
+            - StaticText "$"
+            - textbox "$0" [ref=e3080]
+          - button "+$1" [ref=e3041]
+          - button "+$5" [ref=e3042]
+          - button "+$10" [ref=e3043]
+          - button "+$100" [ref=e3044]
+          - button "T r a d e" [ref=e3030]
+            - StaticText "T"
+            - StaticText "r"
+            - StaticText "a"
+            - StaticText "d"
+            - StaticText "e"
+          - button "Combo Combo Beta" [ref=e3031]
+            - image "Combo"
+            - StaticText "Combo"
+            - StaticText "Beta"
+          - button "By trading, you agree to the Terms of Use." [ref=e3023]
+            - StaticText "By trading, you agree to the "
+            - link "Terms of Use" [ref=e3032]
+            - StaticText "."
+      - region "About World Cup Odds & Predictions" [ref=e82]
+        - heading "About World Cup Odds & Predictions" [level=2, ref=e86]
+        - paragraph
+          - StaticText "Staged every four years, the World Cup is the most prestigious tournament in international soccer, bringing the world’s top national teams together. And the 2026 FIFA World Cup is the biggest edition yet, with 48 teams playing 104 matches across the United States, Canada and Mexico from June 11 through July 19."
+        - paragraph
+          - StaticText "The first World Cup ever co-hosted by three countries has stretched across 16 host cities, from Los Angeles and Seattle to Toronto, Mexico City and New York/New Jersey. MetLife Stadium is scheduled to host the championship match on July 19."
+        - paragraph
+          - StaticText "The expanded 48-team field transformed the competition. Twelve groups of four teams opened the tournament, with each group winner and runner-up advancing alongside the eight best third-place finishers to a newly-introduced Round of 32. From there, the knockout rounds run through the Round of 16, quarterfinals and semi-finals before the championship match."
+        - paragraph
+          - StaticText "That new format has produced plenty of chaos. Germany and the Netherlands were eliminated on penalty kicks in the Round of 32, while Brazil fell to Norway in the Round of 16. Portugal, Mexico and the USMNT also went home before the quarterfinals. Paraguay reached the Round of 16 after eliminating Germany, while Morocco, Switzerland and Norway reached the final eight."
+        - paragraph
+          - StaticText "The quarterfinal field mixed established powers with breakthrough contenders. France, Argentina, Spain and England, joined by Belgium, Morocco, Norway and Switzerland. France won each of its first five matches while outscoring opponents 14-2, Spain had yet to concede a goal, and defending champion Argentina survived back-to-back 3-2 thrillers in the knockout stage."
+        - paragraph
+          - StaticText "The tournament’s biggest stars have also delivered throughout the group stage and knockout rounds. Lionel Messi entered the quarterfinals as the top goalscorer with eight total goals for Argentina, followed by Kylian Mbappé and Erling Haaland with seven apiece. Harry Kane has scored six times for England, keeping Golden Boot odds moving."
+        - paragraph
+          - StaticText "The three host nations each made the knockout stage. Mexico won Group A before beating Ecuador and pushing England in a 3-2 Round of 16 loss. Canada defeated South Africa before falling to Morocco. The USMNT won Group D, beat Bosnia and Herzegovina and then saw its tournament end with a 4-1 loss to Belgium."
+        - paragraph
+          - StaticText "Other countries saw their stage of elimination arrive much earlier. Uruguay and Saudi Arabia exited in the group stage, while Senegal fell to Belgium in extra time in the Round of 32. For every group winner that carried momentum deep into the bracket, another contender saw its stage of elimination come far earlier."
+        - paragraph
+          - StaticText "The semi-finals delivered two very different paths to the championship match. On July 14 in Dallas, Spain dispatched France 2-0 with the kind of controlled, efficient display that has defined its tournament. Mikel Oyarzabal converted a 22nd-minute penalty and Pedro Porro added a second goal in the 58th minute, while Spain's defensive organization kept Kylian Mbappé and the 2022 runners-up largely quiet. A night later in Atlanta, Argentina produced yet another late escape, coming from behind to beat England 2-1. Anthony Gordon put England ahead in the 55th minute, but Enzo Fernández equalized in the 85th and Lautaro Martínez struck the winner in second-half stoppage time, sending the defending champion to its second consecutive final."
+        - paragraph
+          - StaticText "That sets up a Spain vs. Argentina final on Sunday, July 19, at 3:00 p.m. ET at MetLife Stadium in East Rutherford, New Jersey, a matchup many are calling a dream final. Spain brings tactical discipline, midfield control anchored by Rodri and the explosive talent of 18-year-old standout Lamine Yamal. Argentina counters with Lionel Messi, still producing at the highest level, and the resilience it showed in the semi-final comeback, with Lautaro Martínez emerging as a key goal threat alongside Messi's creativity. The storylines write themselves: the generational contrast between the veteran maestro and the teenage phenom, Spain's defensive solidity against Argentina's knack for scoring late, and the chance for Messi to lift a second World Cup title."
+        - paragraph
+          - StaticText "Those results show why 2026 World Cup odds can move so quickly. A single goal, extra-time winner or penalty shootout can eliminate a favorite or turn an underdog into a contender. Bettors may track the outright winner, which teams are most likely to reach the final, and markets such as both teams to score."
+        - paragraph
+          - StaticText "Traditional betting sites offer fixed odds and moneylines on matches and tournament futures. The FanDuel Sportsbook, DraftKings, BetMGM and Fanatics may also feature live betting, same-game parlays and player prop markets. Those markets are typically structured around bets placed against sportsbook prices, with payouts determined by the odds offered at the time of the wager."
+        - paragraph
+          - StaticText "Prediction markets offer a different approach. On Polymarket, users trade probabilities, with soccer odds and tournament expectations updating in real time. Rather than placing a single wager at fixed odds and waiting for the result, traders can react as new information changes the outlook for each team and trade any time before an outcome officially resolves."
+        - paragraph
+          - StaticText "This exchange-style structure gives prediction markets a different dynamic from traditional sports betting. Market prices reflect changing crowd expectations, allowing users to follow how the perceived probability of an outcome rises or falls. Markets can cover the outright winner, a team’s stage of elimination, Golden Boot odds and whether a nation will reach a particular round."
+        - paragraph
+          - StaticText "The 2026 World Cup has offered plenty of examples. France, Argentina, Spain and England all reached the quarterfinals after winning their groups, while Brazil, Germany and the Netherlands were eliminated earlier. Norway's run behind Haaland and Morocco's return to the final eight have created new contenders, while Messi's scoring surge has strengthened Argentina's bid to repeat as world champion."
+        - paragraph
+          - StaticText "With the final set between Spain and Argentina, one match will decide everything, and any development, from a lineup change to an early goal or late equalizer, can dramatically reshape 2026 World Cup odds. The winner at MetLife Stadium on July 19 will be crowned the outright champion."
+        - paragraph
+          - StaticText "Few sporting events combine global scale, national pride and high-stakes drama quite like the FIFA World Cup. Whether following the match schedule, analyzing soccer odds or tracking probabilities on a prediction market, the FIFA World Cup 2026 offers a constantly changing view of who may ultimately lift the trophy."
+        - button "Read more" [ref=e87]
+      - generic
+        - heading "FAQ" [level=2, ref=e88]
+        - heading "What is Polymarket?" [level=3, ref=e89]
+          - button "What is Polymarket?" [expanded=false, ref=e106]
+            - StaticText "What is Polymarket?"
+            - image
+        - region "What is Polymarket?" [ref=e90]
+          - paragraph
+            - StaticText "Polymarket is the World's Largest Prediction Market™, a transparent alternative to traditional sports betting where you trade on real-world outcomes using your knowledge of the beautiful game. While markets span the NFL, NBA, MLB, NHL, college football, world events, and politics, international soccer is one of the most active categories — especially around the FIFA World Cup 2026."
+          - paragraph
+            - StaticText "The 2026 World Cup is set to be one of the biggest sporting events ever, hosted across the USA, Canada, and Mexico. Matches will take place in major host cities like Los Angeles and Seattle, as well as venues such as MetLife Stadium, a New Jersey stadium perfectly suited to deliver a truly world-class tournament experience. Each local host committee will also organize fan events, including the FIFA Fan Festival."
+          - paragraph
+            - StaticText "Whether you're tracking elite national team programs like France, Argentina, Brazil, or Belgium — or rising challengers such as Morocco, Croatia, or Senegal — prices update in real time to reflect crowd-sourced probabilities, often reacting faster than traditional sportsbook odds or pundit predictions."
+        - heading "How do World Cup prediction markets work on Polymarket?" [level=3, ref=e91]
+          - button "How do World Cup prediction markets work on Polymarket?" [expanded=false, ref=e107]
+            - StaticText "How do World Cup prediction markets work on Polymarket?"
+            - image
+        - region "How do World Cup prediction markets work on Polymarket?" [ref=e92]
+          - paragraph
+            - StaticText "Polymarket lets you trade on the outcomes of matches, group-stage advancement, knockout rounds, and tournament-long storylines. Each market is structured as a simple yes/no question — for example, whether Portugal wins the tournament or whether Colombia advances."
+          - paragraph
+            - StaticText "Users buy shares priced between $0 and $1 to reflect probability. As the match schedule unfolds, prices shift in response to results — whether that's a surprise outcome in Group B, a reshuffle in Group D, or movement in Group G."
+          - paragraph
+            - StaticText "Instead of relying on static predictions, you're trading a live market that evolves throughout the competition."
+        - heading "What types of World Cup markets are available?" [level=3, ref=e93]
+          - button "What types of World Cup markets are available?" [expanded=false, ref=e108]
+            - StaticText "What types of World Cup markets are available?"
+            - image
+        - region "What types of World Cup markets are available?" [ref=e94]
+          - paragraph
+            - StaticText "Polymarket covers the full lifecycle of the FIFA World Cup 26, including group-stage matches and advancement through the expanded knockout rounds — from the Round of 32 to the Round of 16, the quarterfinal, the semi-finals, and ultimately the final."
+          - paragraph
+            - StaticText "Markets span teams from every region. That includes established contenders like Germany, Spain, Uruguay, and Belgium, along with a wide range of qualifiers such as Panama, Paraguay, Ecuador, Tunisia, and Bosnia and Herzegovina."
+          - paragraph
+            - StaticText "Global representation extends further to teams like Australia, New Zealand, Iran, Saudi Arabia, Ghana, South Africa, Sweden, Scotland, and Türkiye, as well as smaller or emerging programs like Curaçao and Uzbekistan."
+          - paragraph
+            - StaticText "Recent tournaments — including the 2022 World Cup in Qatar — have shown how quickly expectations can shift at mid-tourney."
+        - heading "What do the prices mean?" [level=3, ref=e95]
+          - button "What do the prices mean?" [expanded=false, ref=e109]
+            - StaticText "What do the prices mean?"
+            - image
+        - region "What do the prices mean?" [ref=e96]
+          - paragraph
+            - StaticText "Every price is a direct probability. A share listed at 25¢ implies a 25% chance; a share at 60¢ implies 60%. If the outcome happens, shares settle at $1; if not, they settle at $0."
+          - paragraph
+            - StaticText "Instead of navigating complex betting structures, you're simply trading the probability itself — with the flexibility to enter or exit positions whenever you want."
+        - heading "How accurate are Polymarket's World Cup odds?" [level=3, ref=e97]
+          - button "How accurate are Polymarket's World Cup odds?" [expanded=false, ref=e110]
+            - StaticText "How accurate are Polymarket's World Cup odds?"
+            - image
+        - region "How accurate are Polymarket's World Cup odds?" [ref=e98]
+          - paragraph
+            - StaticText "Prediction markets are widely considered one of the most accurate forecasting tools because they aggregate the financial conviction of thousands of participants in real time."
+          - paragraph
+            - StaticText "During the FIFA World Cup 2026, prices update continuously as results come in, reacting instantly to new information — whether that's a group-stage upset or a knockout-stage breakthrough."
+        - button "View more" [ref=e99]
+          - StaticText "View more"
+          - image
+      - heading "World Cup odds" [level=2, ref=e83]
+      - generic
+        - table "World Cup odds — Live Prediction Market Odds for the 2026 FIFA World Cup"
+          - caption
+            - StaticText "World Cup odds — Live Prediction Market Odds for the 2026 FIFA World Cup"
+          - rowgroup
+            - row
+              - columnheader "Market" [ref=e1566]
+              - columnheader "Top Contender" [ref=e1567]
+              - columnheader "Live Market Odds" [ref=e1568]
+          - row
+            - rowheader "World Cup Winner" [ref=e112]
+              - link "World Cup Winner" [ref=e1569]
+            - cell "Spain" [ref=e113]
+              - link "Spain" [ref=e1570]
+            - cell "59%" [ref=e114]
+              - link "59%" [ref=e1571]
+          - row
+            - cell
+            - cell "Argentina" [ref=e115]
+              - link "Argentina" [ref=e1572]
+            - cell "40%" [ref=e116]
+              - link "40%" [ref=e1573]
+          - row
+            - rowheader "Golden Boot Winner" [ref=e117]
+              - link "Golden Boot Winner" [ref=e1574]
+            - cell "Lionel Messi" [ref=e118]
+              - link "Lionel Messi" [ref=e1575]
+            - cell "57%" [ref=e119]
+              - link "57%" [ref=e1576]
+          - row
+            - cell
+            - cell "Kylian Mbappe" [ref=e120]
+              - link "Kylian Mbappe" [ref=e1577]
+            - cell "43%" [ref=e121]
+              - link "43%" [ref=e1578]
+          - row
+            - cell
+            - cell "Harry Kane" [ref=e122]
+              - link "Harry Kane" [ref=e1579]
+            - cell "<1%" [ref=e123]
+              - link "<1%" [ref=e1580]
+          - row
+            - cell
+            - cell "Jude Bellingham" [ref=e124]
+              - link "Jude Bellingham" [ref=e1581]
+            - cell "<1%" [ref=e125]
+              - link "<1%" [ref=e1582]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e126]
+              - link "Lamine Yamal" [ref=e1583]
+            - cell "<1%" [ref=e127]
+              - link "<1%" [ref=e1584]
+          - row
+            - cell
+            - cell "Ferran Torres" [ref=e128]
+              - link "Ferran Torres" [ref=e1585]
+            - cell "<1%" [ref=e129]
+              - link "<1%" [ref=e1586]
+          - row
+            - cell
+            - cell "Dani Olmo" [ref=e130]
+              - link "Dani Olmo" [ref=e1587]
+            - cell "<1%" [ref=e131]
+              - link "<1%" [ref=e1588]
+          - row
+            - cell
+            - cell "Marcus Thuram" [ref=e132]
+              - link "Marcus Thuram" [ref=e1589]
+            - cell "<1%" [ref=e133]
+              - link "<1%" [ref=e1590]
+          - row
+            - cell
+            - cell "Desire Doue" [ref=e134]
+              - link "Desire Doue" [ref=e1591]
+            - cell "<1%" [ref=e135]
+              - link "<1%" [ref=e1592]
+          - row
+            - cell
+            - cell "Ousmane Dembele" [ref=e136]
+              - link "Ousmane Dembele" [ref=e1593]
+            - cell "<1%" [ref=e137]
+              - link "<1%" [ref=e1594]
+          - row
+            - cell
+            - cell "Bradley Barcola" [ref=e138]
+              - link "Bradley Barcola" [ref=e1595]
+            - cell "<1%" [ref=e139]
+              - link "<1%" [ref=e1596]
+          - row
+            - cell
+            - cell "Michael Olise" [ref=e140]
+              - link "Michael Olise" [ref=e1597]
+            - cell "<1%" [ref=e141]
+              - link "<1%" [ref=e1598]
+          - row
+            - cell
+            - cell "Julian Alvarez" [ref=e142]
+              - link "Julian Alvarez" [ref=e1599]
+            - cell "<1%" [ref=e143]
+              - link "<1%" [ref=e1600]
+          - row
+            - cell
+            - cell "Bukayo Saka" [ref=e144]
+              - link "Bukayo Saka" [ref=e1601]
+            - cell "<1%" [ref=e145]
+              - link "<1%" [ref=e1602]
+          - row
+            - cell
+            - cell "Lautaro Martinez" [ref=e146]
+              - link "Lautaro Martinez" [ref=e1603]
+            - cell "<1%" [ref=e147]
+              - link "<1%" [ref=e1604]
+          - row
+            - cell
+            - cell "Mikel Oyarzabal" [ref=e148]
+              - link "Mikel Oyarzabal" [ref=e1605]
+            - cell "<1%" [ref=e149]
+              - link "<1%" [ref=e1606]
+          - row
+            - cell
+            - cell "Pedri" [ref=e150]
+              - link "Pedri" [ref=e1607]
+            - cell "<1%" [ref=e151]
+              - link "<1%" [ref=e1608]
+          - row
+            - rowheader "Golden Ball Winner" [ref=e152]
+              - link "Golden Ball Winner" [ref=e1609]
+            - cell "Lionel Messi" [ref=e153]
+              - link "Lionel Messi" [ref=e1610]
+            - cell "90%" [ref=e154]
+              - link "90%" [ref=e1611]
+          - row
+            - cell
+            - cell "Rodri" [ref=e155]
+              - link "Rodri" [ref=e1612]
+            - cell "7%" [ref=e156]
+              - link "7%" [ref=e1613]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e157]
+              - link "Lamine Yamal" [ref=e1614]
+            - cell "2%" [ref=e158]
+              - link "2%" [ref=e1615]
+          - row
+            - cell
+            - cell "Kylian Mbappé" [ref=e159]
+              - link "Kylian Mbappé" [ref=e1616]
+            - cell "1%" [ref=e160]
+              - link "1%" [ref=e1617]
+          - row
+            - cell
+            - cell "Harry Kane" [ref=e161]
+              - link "Harry Kane" [ref=e1618]
+            - cell "<1%" [ref=e162]
+              - link "<1%" [ref=e1619]
+          - row
+            - cell
+            - cell "Michael Olise" [ref=e163]
+              - link "Michael Olise" [ref=e1620]
+            - cell "<1%" [ref=e164]
+              - link "<1%" [ref=e1621]
+          - row
+            - cell
+            - cell "Vinícius Jr." [ref=e165]
+              - link "Vinícius Jr." [ref=e1622]
+            - cell "<1%" [ref=e166]
+              - link "<1%" [ref=e1623]
+          - row
+            - cell
+            - cell "Ousmane Dembélé" [ref=e167]
+              - link "Ousmane Dembélé" [ref=e1624]
+            - cell "<1%" [ref=e168]
+              - link "<1%" [ref=e1625]
+          - row
+            - cell
+            - cell "Cristiano Ronaldo" [ref=e169]
+              - link "Cristiano Ronaldo" [ref=e1626]
+            - cell "<1%" [ref=e170]
+              - link "<1%" [ref=e1627]
+          - row
+            - cell
+            - cell "Rayan Cherki" [ref=e171]
+              - link "Rayan Cherki" [ref=e1628]
+            - cell "<1%" [ref=e172]
+              - link "<1%" [ref=e1629]
+          - row
+            - cell
+            - cell "Erling Haaland" [ref=e173]
+              - link "Erling Haaland" [ref=e1630]
+            - cell "<1%" [ref=e174]
+              - link "<1%" [ref=e1631]
+          - row
+            - cell
+            - cell "Jude Bellingham" [ref=e175]
+              - link "Jude Bellingham" [ref=e1632]
+            - cell "<1%" [ref=e176]
+              - link "<1%" [ref=e1633]
+          - row
+            - cell
+            - cell "Pedri" [ref=e177]
+              - link "Pedri" [ref=e1634]
+            - cell "<1%" [ref=e178]
+              - link "<1%" [ref=e1635]
+          - row
+            - cell
+            - cell "Bruno Fernandes" [ref=e179]
+              - link "Bruno Fernandes" [ref=e1636]
+            - cell "<1%" [ref=e180]
+              - link "<1%" [ref=e1637]
+          - row
+            - cell
+            - cell "Vitinha" [ref=e181]
+              - link "Vitinha" [ref=e1638]
+            - cell "<1%" [ref=e182]
+              - link "<1%" [ref=e1639]
+          - row
+            - cell
+            - cell "Florian Wirtz" [ref=e183]
+              - link "Florian Wirtz" [ref=e1640]
+            - cell "<1%" [ref=e184]
+              - link "<1%" [ref=e1641]
+          - row
+            - cell
+            - cell "Neymar" [ref=e185]
+              - link "Neymar" [ref=e1642]
+            - cell "<1%" [ref=e186]
+              - link "<1%" [ref=e1643]
+          - row
+            - cell
+            - cell "Gavi" [ref=e187]
+              - link "Gavi" [ref=e1644]
+            - cell "<1%" [ref=e188]
+              - link "<1%" [ref=e1645]
+          - row
+            - cell
+            - cell "Bukayo Saka" [ref=e189]
+              - link "Bukayo Saka" [ref=e1646]
+            - cell "<1%" [ref=e190]
+              - link "<1%" [ref=e1647]
+          - row
+            - cell
+            - cell "Declan Rice" [ref=e191]
+              - link "Declan Rice" [ref=e1648]
+            - cell "<1%" [ref=e192]
+              - link "<1%" [ref=e1649]
+          - row
+            - rowheader "Which continent will win the World Cup?" [ref=e193]
+              - link "Which continent will win the World Cup?" [ref=e1650]
+            - cell "Europe (UEFA)" [ref=e194]
+              - link "Europe (UEFA)" [ref=e1651]
+            - cell "59%" [ref=e195]
+              - link "59%" [ref=e1652]
+          - row
+            - cell
+            - cell "South America (CONMEBOL)" [ref=e196]
+              - link "South America (CONMEBOL)" [ref=e1653]
+            - cell "41%" [ref=e197]
+              - link "41%" [ref=e1654]
+          - row
+            - rowheader "Nation of Top Goalscorer" [ref=e198]
+              - link "Nation of Top Goalscorer" [ref=e1655]
+            - cell "Argentina" [ref=e199]
+              - link "Argentina" [ref=e1656]
+            - cell "57%" [ref=e200]
+              - link "57%" [ref=e1657]
+          - row
+            - cell
+            - cell "France" [ref=e201]
+              - link "France" [ref=e1658]
+            - cell "42%" [ref=e202]
+              - link "42%" [ref=e1659]
+          - row
+            - cell
+            - cell "England" [ref=e203]
+              - link "England" [ref=e1660]
+            - cell "1%" [ref=e204]
+              - link "1%" [ref=e1661]
+          - row
+            - cell
+            - cell "Spain" [ref=e205]
+              - link "Spain" [ref=e1662]
+            - cell "<1%" [ref=e206]
+              - link "<1%" [ref=e1663]
+          - row
+            - rowheader "Spain Stage of Elimination" [ref=e207]
+              - link "Spain Stage of Elimination" [ref=e1664]
+            - cell "Champion" [ref=e208]
+              - link "Champion" [ref=e1665]
+            - cell "60%" [ref=e209]
+              - link "60%" [ref=e1666]
+          - row
+            - cell
+            - cell "Final" [ref=e210]
+              - link "Final" [ref=e1667]
+            - cell "42%" [ref=e211]
+              - link "42%" [ref=e1668]
+          - row
+            - rowheader "Number of Missed Penalties" [ref=e212]
+              - link "Number of Missed Penalties" [ref=e1669]
+            - cell "10+ missed penalties" [ref=e213]
+              - link "10+ missed penalties" [ref=e1670]
+            - cell "<1%" [ref=e214]
+              - link "<1%" [ref=e1671]
+          - row
+            - cell
+            - cell "15+ missed penalties" [ref=e215]
+              - link "15+ missed penalties" [ref=e1672]
+            - cell "<1%" [ref=e216]
+              - link "<1%" [ref=e1673]
+          - row
+            - cell
+            - cell "20+ missed penalties" [ref=e217]
+              - link "20+ missed penalties" [ref=e1674]
+            - cell "<1%" [ref=e218]
+              - link "<1%" [ref=e1675]
+          - row
+            - cell
+            - cell "25+ missed penalties" [ref=e219]
+              - link "25+ missed penalties" [ref=e1676]
+            - cell "<1%" [ref=e220]
+              - link "<1%" [ref=e1677]
+          - row
+            - cell
+            - cell "30+ missed penalties" [ref=e221]
+              - link "30+ missed penalties" [ref=e1678]
+            - cell "<1%" [ref=e222]
+              - link "<1%" [ref=e1679]
+          - row
+            - cell
+            - cell "35+ missed penalties" [ref=e223]
+              - link "35+ missed penalties" [ref=e1680]
+            - cell "<1%" [ref=e224]
+              - link "<1%" [ref=e1681]
+          - row
+            - cell
+            - cell "40+ missed penalties" [ref=e225]
+              - link "40+ missed penalties" [ref=e1682]
+            - cell "<1%" [ref=e226]
+              - link "<1%" [ref=e1683]
+          - row
+            - cell
+            - cell "45+ missed penalties" [ref=e227]
+              - link "45+ missed penalties" [ref=e1684]
+            - cell "<1%" [ref=e228]
+              - link "<1%" [ref=e1685]
+          - row
+            - cell
+            - cell "50+ missed penalties" [ref=e229]
+              - link "50+ missed penalties" [ref=e1686]
+            - cell "<1%" [ref=e230]
+              - link "<1%" [ref=e1687]
+          - row
+            - rowheader "Player to score" [ref=e231]
+              - link "Player to score" [ref=e1688]
+            - cell "Rayan Cherki" [ref=e232]
+              - link "Rayan Cherki" [ref=e1689]
+            - cell "20%" [ref=e233]
+              - link "20%" [ref=e1690]
+          - row
+            - cell
+            - cell "Michael Olise" [ref=e234]
+              - link "Michael Olise" [ref=e1691]
+            - cell "16%" [ref=e235]
+              - link "16%" [ref=e1692]
+          - row
+            - cell
+            - cell "Dani Olmo" [ref=e236]
+              - link "Dani Olmo" [ref=e1693]
+            - cell "16%" [ref=e237]
+              - link "16%" [ref=e1694]
+          - row
+            - cell
+            - cell "Ferran Torres" [ref=e238]
+              - link "Ferran Torres" [ref=e1695]
+            - cell "15%" [ref=e239]
+              - link "15%" [ref=e1696]
+          - row
+            - cell
+            - cell "Eberechi Eze" [ref=e240]
+              - link "Eberechi Eze" [ref=e1697]
+            - cell "13%" [ref=e241]
+              - link "13%" [ref=e1698]
+          - row
+            - cell
+            - cell "Bukayo Saka" [ref=e242]
+              - link "Bukayo Saka" [ref=e1699]
+            - cell "10%" [ref=e243]
+              - link "10%" [ref=e1700]
+          - row
+            - cell
+            - cell "Rodri" [ref=e244]
+              - link "Rodri" [ref=e1701]
+            - cell "9%" [ref=e245]
+              - link "9%" [ref=e1702]
+          - row
+            - cell
+            - cell "Nico Williams" [ref=e246]
+              - link "Nico Williams" [ref=e1703]
+            - cell "9%" [ref=e247]
+              - link "9%" [ref=e1704]
+          - row
+            - cell
+            - cell "Pedri" [ref=e248]
+              - link "Pedri" [ref=e1705]
+            - cell "8%" [ref=e249]
+              - link "8%" [ref=e1706]
+          - row
+            - cell
+            - cell "Declan Rice" [ref=e250]
+              - link "Declan Rice" [ref=e1707]
+            - cell "7%" [ref=e251]
+              - link "7%" [ref=e1708]
+          - row
+            - cell
+            - cell "Marc Cucurella" [ref=e252]
+              - link "Marc Cucurella" [ref=e1709]
+            - cell "7%" [ref=e253]
+              - link "7%" [ref=e1710]
+          - row
+            - cell
+            - cell "Marc Guéhi" [ref=e254]
+              - link "Marc Guéhi" [ref=e1711]
+            - cell "5%" [ref=e255]
+              - link "5%" [ref=e1712]
+          - row
+            - cell
+            - cell "Marcus Thuram" [ref=e256]
+              - link "Marcus Thuram" [ref=e1713]
+            - cell "4%" [ref=e257]
+              - link "4%" [ref=e1714]
+          - row
+            - cell
+            - cell "Aurélien Tchouaméni" [ref=e258]
+              - link "Aurélien Tchouaméni" [ref=e1715]
+            - cell "3%" [ref=e259]
+              - link "3%" [ref=e1716]
+          - row
+            - cell
+            - cell "Ibrahima Konaté" [ref=e260]
+              - link "Ibrahima Konaté" [ref=e1717]
+            - cell "3%" [ref=e261]
+              - link "3%" [ref=e1718]
+          - row
+            - cell
+            - cell "Pau Cubarsí" [ref=e262]
+              - link "Pau Cubarsí" [ref=e1719]
+            - cell "3%" [ref=e263]
+              - link "3%" [ref=e1720]
+          - row
+            - cell
+            - cell "Jules Koundé" [ref=e264]
+              - link "Jules Koundé" [ref=e1721]
+            - cell "2%" [ref=e265]
+              - link "2%" [ref=e1722]
+          - row
+            - cell
+            - cell "Gavi" [ref=e266]
+              - link "Gavi" [ref=e1723]
+            - cell "2%" [ref=e267]
+              - link "2%" [ref=e1724]
+          - row
+            - cell
+            - cell "N'Golo Kanté" [ref=e268]
+              - link "N'Golo Kanté" [ref=e1725]
+            - cell "1%" [ref=e269]
+              - link "1%" [ref=e1726]
+          - row
+            - cell
+            - cell "David Raya" [ref=e270]
+              - link "David Raya" [ref=e1727]
+            - cell "<1%" [ref=e271]
+              - link "<1%" [ref=e1728]
+          - row
+            - cell
+            - cell "Martin Zubimendi" [ref=e272]
+              - link "Martin Zubimendi" [ref=e1729]
+            - cell "1%" [ref=e273]
+              - link "1%" [ref=e1730]
+          - row
+            - cell
+            - cell "Reece James" [ref=e274]
+              - link "Reece James" [ref=e1731]
+            - cell "1%" [ref=e275]
+              - link "1%" [ref=e1732]
+          - row
+            - cell
+            - cell "William Saliba" [ref=e276]
+              - link "William Saliba" [ref=e1733]
+            - cell "<1%" [ref=e277]
+              - link "<1%" [ref=e1734]
+          - row
+            - rowheader "Top Scorer (Nation)" [ref=e278]
+              - link "Top Scorer (Nation)" [ref=e1735]
+            - cell "Argentina" [ref=e279]
+              - link "Argentina" [ref=e1736]
+            - cell "91%" [ref=e280]
+              - link "91%" [ref=e1737]
+          - row
+            - cell
+            - cell "France" [ref=e281]
+              - link "France" [ref=e1738]
+            - cell "9%" [ref=e282]
+              - link "9%" [ref=e1739]
+          - row
+            - cell
+            - cell "England" [ref=e283]
+              - link "England" [ref=e1740]
+            - cell "<1%" [ref=e284]
+              - link "<1%" [ref=e1741]
+          - row
+            - cell
+            - cell "Spain" [ref=e285]
+              - link "Spain" [ref=e1742]
+            - cell "<1%" [ref=e286]
+              - link "<1%" [ref=e1743]
+          - row
+            - rowheader "No. of Matches Decided by Penalty Shootout" [ref=e287]
+              - link "No. of Matches Decided by Penalty Shootout" [ref=e1744]
+            - cell "5+ matches" [ref=e288]
+              - link "5+ matches" [ref=e1745]
+            - cell "17%" [ref=e289]
+              - link "17%" [ref=e1746]
+          - row
+            - cell
+            - cell "6+ matches" [ref=e290]
+              - link "6+ matches" [ref=e1747]
+            - cell "2%" [ref=e291]
+              - link "2%" [ref=e1748]
+          - row
+            - rowheader "Argentina Stage of Elimination" [ref=e292]
+              - link "Argentina Stage of Elimination" [ref=e1749]
+            - cell "Final" [ref=e293]
+              - link "Final" [ref=e1750]
+            - cell "59%" [ref=e294]
+              - link "59%" [ref=e1751]
+          - row
+            - cell
+            - cell "Champion" [ref=e295]
+              - link "Champion" [ref=e1752]
+            - cell "41%" [ref=e296]
+              - link "41%" [ref=e1753]
+          - row
+            - rowheader "Lionel Messi Goals" [ref=e297]
+              - link "Lionel Messi Goals" [ref=e1754]
+            - cell "9+" [ref=e298]
+              - link "9+" [ref=e1755]
+            - cell "33%" [ref=e299]
+              - link "33%" [ref=e1756]
+          - row
+            - cell
+            - cell "10+" [ref=e300]
+              - link "10+" [ref=e1757]
+            - cell "9%" [ref=e301]
+              - link "9%" [ref=e1758]
+          - row
+            - cell
+            - cell "11+" [ref=e302]
+              - link "11+" [ref=e1759]
+            - cell "2%" [ref=e303]
+              - link "2%" [ref=e1760]
+          - row
+            - cell
+            - cell "12+" [ref=e304]
+              - link "12+" [ref=e1761]
+            - cell "<1%" [ref=e305]
+              - link "<1%" [ref=e1762]
+          - row
+            - cell
+            - cell "13+" [ref=e306]
+              - link "13+" [ref=e1763]
+            - cell "<1%" [ref=e307]
+              - link "<1%" [ref=e1764]
+          - row
+            - rowheader "Most Assists" [ref=e308]
+              - link "Most Assists" [ref=e1765]
+            - cell "Michael Olise" [ref=e309]
+              - link "Michael Olise" [ref=e1766]
+            - cell "94%" [ref=e310]
+              - link "94%" [ref=e1767]
+          - row
+            - cell
+            - cell "Rodrigo De Paul" [ref=e311]
+              - link "Rodrigo De Paul" [ref=e1768]
+            - cell "<1%" [ref=e312]
+              - link "<1%" [ref=e1769]
+          - row
+            - cell
+            - cell "Bukayo Saka" [ref=e313]
+              - link "Bukayo Saka" [ref=e1770]
+            - cell "1%" [ref=e314]
+              - link "1%" [ref=e1771]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e315]
+              - link "Lamine Yamal" [ref=e1772]
+            - cell "<1%" [ref=e316]
+              - link "<1%" [ref=e1773]
+          - row
+            - rowheader "Kylian Mbappe Goals" [ref=e317]
+              - link "Kylian Mbappe Goals" [ref=e1774]
+            - cell "9+" [ref=e318]
+              - link "9+" [ref=e1775]
+            - cell "56%" [ref=e319]
+              - link "56%" [ref=e1776]
+          - row
+            - cell
+            - cell "15+" [ref=e320]
+              - link "15+" [ref=e1777]
+            - cell "50%" [ref=e321]
+              - link "50%" [ref=e1778]
+          - row
+            - cell
+            - cell "14+" [ref=e322]
+              - link "14+" [ref=e1779]
+            - cell "50%" [ref=e323]
+              - link "50%" [ref=e1780]
+          - row
+            - cell
+            - cell "10+" [ref=e324]
+              - link "10+" [ref=e1781]
+            - cell "19%" [ref=e325]
+              - link "19%" [ref=e1782]
+          - row
+            - cell
+            - cell "11+" [ref=e326]
+              - link "11+" [ref=e1783]
+            - cell "4%" [ref=e327]
+              - link "4%" [ref=e1784]
+          - row
+            - cell
+            - cell "12+" [ref=e328]
+              - link "12+" [ref=e1785]
+            - cell "<1%" [ref=e329]
+              - link "<1%" [ref=e1786]
+          - row
+            - cell
+            - cell "13+" [ref=e330]
+              - link "13+" [ref=e1787]
+            - cell "<1%" [ref=e331]
+              - link "<1%" [ref=e1788]
+          - row
+            - rowheader "Golden Glove Winner" [ref=e332]
+              - link "Golden Glove Winner" [ref=e1789]
+            - cell "Unai Simón" [ref=e333]
+              - link "Unai Simón" [ref=e1790]
+            - cell "86%" [ref=e334]
+              - link "86%" [ref=e1791]
+          - row
+            - cell
+            - cell "Emiliano Martínez" [ref=e335]
+              - link "Emiliano Martínez" [ref=e1792]
+            - cell "15%" [ref=e336]
+              - link "15%" [ref=e1793]
+          - row
+            - cell
+            - cell "Jordan Pickford" [ref=e337]
+              - link "Jordan Pickford" [ref=e1794]
+            - cell "<1%" [ref=e338]
+              - link "<1%" [ref=e1795]
+          - row
+            - cell
+            - cell "Mike Maignan" [ref=e339]
+              - link "Mike Maignan" [ref=e1796]
+            - cell "<1%" [ref=e340]
+              - link "<1%" [ref=e1797]
+          - row
+            - cell
+            - cell "Alisson Becker" [ref=e341]
+              - link "Alisson Becker" [ref=e1798]
+            - cell "<1%" [ref=e342]
+              - link "<1%" [ref=e1799]
+          - row
+            - cell
+            - cell "Diogo Costa" [ref=e343]
+              - link "Diogo Costa" [ref=e1800]
+            - cell "<1%" [ref=e344]
+              - link "<1%" [ref=e1801]
+          - row
+            - cell
+            - cell "David Raya" [ref=e345]
+              - link "David Raya" [ref=e1802]
+            - cell "<1%" [ref=e346]
+              - link "<1%" [ref=e1803]
+          - row
+            - cell
+            - cell "Manuel Neuer" [ref=e347]
+              - link "Manuel Neuer" [ref=e1804]
+            - cell "<1%" [ref=e348]
+              - link "<1%" [ref=e1805]
+          - row
+            - cell
+            - cell "Oliver Baumann" [ref=e349]
+              - link "Oliver Baumann" [ref=e1806]
+            - cell "<1%" [ref=e350]
+              - link "<1%" [ref=e1807]
+          - row
+            - cell
+            - cell "Thibaut Courtois" [ref=e351]
+              - link "Thibaut Courtois" [ref=e1808]
+            - cell "<1%" [ref=e352]
+              - link "<1%" [ref=e1809]
+          - row
+            - cell
+            - cell "Ederson" [ref=e353]
+              - link "Ederson" [ref=e1810]
+            - cell "<1%" [ref=e354]
+              - link "<1%" [ref=e1811]
+          - row
+            - cell
+            - cell "Bart Verbruggen" [ref=e355]
+              - link "Bart Verbruggen" [ref=e1812]
+            - cell "<1%" [ref=e356]
+              - link "<1%" [ref=e1813]
+          - row
+            - cell
+            - cell "Matt Freese" [ref=e357]
+              - link "Matt Freese" [ref=e1814]
+            - cell "<1%" [ref=e358]
+              - link "<1%" [ref=e1815]
+          - row
+            - cell
+            - cell "Senne Lammens" [ref=e359]
+              - link "Senne Lammens" [ref=e1816]
+            - cell "<1%" [ref=e360]
+              - link "<1%" [ref=e1817]
+          - row
+            - cell
+            - cell "Joan García" [ref=e361]
+              - link "Joan García" [ref=e1818]
+            - cell "<1%" [ref=e362]
+              - link "<1%" [ref=e1819]
+          - row
+            - cell
+            - cell "Guillermo Ochoa" [ref=e363]
+              - link "Guillermo Ochoa" [ref=e1820]
+            - cell "<1%" [ref=e364]
+              - link "<1%" [ref=e1821]
+          - row
+            - cell
+            - cell "Gregor Kobel" [ref=e365]
+              - link "Gregor Kobel" [ref=e1822]
+            - cell "<1%" [ref=e366]
+              - link "<1%" [ref=e1823]
+          - row
+            - cell
+            - cell "Yassine Bounou" [ref=e367]
+              - link "Yassine Bounou" [ref=e1824]
+            - cell "<1%" [ref=e368]
+              - link "<1%" [ref=e1825]
+          - row
+            - cell
+            - cell "Ørjan Nyland" [ref=e369]
+              - link "Ørjan Nyland" [ref=e1826]
+            - cell "<1%" [ref=e370]
+              - link "<1%" [ref=e1827]
+          - row
+            - cell
+            - cell "Sergio Rochet" [ref=e371]
+              - link "Sergio Rochet" [ref=e1828]
+            - cell "<1%" [ref=e372]
+              - link "<1%" [ref=e1829]
+          - row
+            - rowheader "Fair Play Award Winner" [ref=e373]
+              - link "Fair Play Award Winner" [ref=e1830]
+            - cell "Norway" [ref=e374]
+              - link "Norway" [ref=e1831]
+            - cell "78%" [ref=e375]
+              - link "78%" [ref=e1832]
+          - row
+            - cell
+            - cell "Spain" [ref=e376]
+              - link "Spain" [ref=e1833]
+            - cell "16%" [ref=e377]
+              - link "16%" [ref=e1834]
+          - row
+            - cell
+            - cell "Argentina" [ref=e378]
+              - link "Argentina" [ref=e1835]
+            - cell "2%" [ref=e379]
+              - link "2%" [ref=e1836]
+          - row
+            - cell
+            - cell "Cape Verde" [ref=e380]
+              - link "Cape Verde" [ref=e1837]
+            - cell "2%" [ref=e381]
+              - link "2%" [ref=e1838]
+          - row
+            - cell
+            - cell "France" [ref=e382]
+              - link "France" [ref=e1839]
+            - cell "2%" [ref=e383]
+              - link "2%" [ref=e1840]
+          - row
+            - cell
+            - cell "Japan" [ref=e384]
+              - link "Japan" [ref=e1841]
+            - cell "2%" [ref=e385]
+              - link "2%" [ref=e1842]
+          - row
+            - cell
+            - cell "England" [ref=e386]
+              - link "England" [ref=e1843]
+            - cell "<1%" [ref=e387]
+              - link "<1%" [ref=e1844]
+          - row
+            - cell
+            - cell "Netherlands" [ref=e388]
+              - link "Netherlands" [ref=e1845]
+            - cell "<1%" [ref=e389]
+              - link "<1%" [ref=e1846]
+          - row
+            - cell
+            - cell "Algeria" [ref=e390]
+              - link "Algeria" [ref=e1847]
+            - cell "<1%" [ref=e391]
+              - link "<1%" [ref=e1848]
+          - row
+            - cell
+            - cell "Australia" [ref=e392]
+              - link "Australia" [ref=e1849]
+            - cell "<1%" [ref=e393]
+              - link "<1%" [ref=e1850]
+          - row
+            - cell
+            - cell "Austria" [ref=e394]
+              - link "Austria" [ref=e1851]
+            - cell "<1%" [ref=e395]
+              - link "<1%" [ref=e1852]
+          - row
+            - cell
+            - cell "Belgium" [ref=e396]
+              - link "Belgium" [ref=e1853]
+            - cell "<1%" [ref=e397]
+              - link "<1%" [ref=e1854]
+          - row
+            - cell
+            - cell "Bosnia & Herzegovina" [ref=e398]
+              - link "Bosnia & Herzegovina" [ref=e1855]
+            - cell "<1%" [ref=e399]
+              - link "<1%" [ref=e1856]
+          - row
+            - cell
+            - cell "Brazil" [ref=e400]
+              - link "Brazil" [ref=e1857]
+            - cell "<1%" [ref=e401]
+              - link "<1%" [ref=e1858]
+          - row
+            - cell
+            - cell "Canada" [ref=e402]
+              - link "Canada" [ref=e1859]
+            - cell "<1%" [ref=e403]
+              - link "<1%" [ref=e1860]
+          - row
+            - cell
+            - cell "Colombia" [ref=e404]
+              - link "Colombia" [ref=e1861]
+            - cell "<1%" [ref=e405]
+              - link "<1%" [ref=e1862]
+          - row
+            - cell
+            - cell "Croatia" [ref=e406]
+              - link "Croatia" [ref=e1863]
+            - cell "<1%" [ref=e407]
+              - link "<1%" [ref=e1864]
+          - row
+            - cell
+            - cell "Curaçao" [ref=e408]
+              - link "Curaçao" [ref=e1865]
+            - cell "<1%" [ref=e409]
+              - link "<1%" [ref=e1866]
+          - row
+            - cell
+            - cell "Czechia" [ref=e410]
+              - link "Czechia" [ref=e1867]
+            - cell "<1%" [ref=e411]
+              - link "<1%" [ref=e1868]
+          - row
+            - cell
+            - cell "DR Congo" [ref=e412]
+              - link "DR Congo" [ref=e1869]
+            - cell "<1%" [ref=e413]
+              - link "<1%" [ref=e1870]
+          - row
+            - cell
+            - cell "Ecuador" [ref=e414]
+              - link "Ecuador" [ref=e1871]
+            - cell "<1%" [ref=e415]
+              - link "<1%" [ref=e1872]
+          - row
+            - cell
+            - cell "Egypt" [ref=e416]
+              - link "Egypt" [ref=e1873]
+            - cell "<1%" [ref=e417]
+              - link "<1%" [ref=e1874]
+          - row
+            - cell
+            - cell "Germany" [ref=e418]
+              - link "Germany" [ref=e1875]
+            - cell "<1%" [ref=e419]
+              - link "<1%" [ref=e1876]
+          - row
+            - cell
+            - cell "Ghana" [ref=e420]
+              - link "Ghana" [ref=e1877]
+            - cell "<1%" [ref=e421]
+              - link "<1%" [ref=e1878]
+          - row
+            - cell
+            - cell "Haiti" [ref=e422]
+              - link "Haiti" [ref=e1879]
+            - cell "<1%" [ref=e423]
+              - link "<1%" [ref=e1880]
+          - row
+            - cell
+            - cell "Iran" [ref=e424]
+              - link "Iran" [ref=e1881]
+            - cell "<1%" [ref=e425]
+              - link "<1%" [ref=e1882]
+          - row
+            - cell
+            - cell "Iraq" [ref=e426]
+              - link "Iraq" [ref=e1883]
+            - cell "<1%" [ref=e427]
+              - link "<1%" [ref=e1884]
+          - row
+            - cell
+            - cell "Ivory Coast" [ref=e428]
+              - link "Ivory Coast" [ref=e1885]
+            - cell "<1%" [ref=e429]
+              - link "<1%" [ref=e1886]
+          - row
+            - cell
+            - cell "Jordan" [ref=e430]
+              - link "Jordan" [ref=e1887]
+            - cell "<1%" [ref=e431]
+              - link "<1%" [ref=e1888]
+          - row
+            - cell
+            - cell "Mexico" [ref=e432]
+              - link "Mexico" [ref=e1889]
+            - cell "<1%" [ref=e433]
+              - link "<1%" [ref=e1890]
+          - row
+            - cell
+            - cell "Morocco" [ref=e434]
+              - link "Morocco" [ref=e1891]
+            - cell "<1%" [ref=e435]
+              - link "<1%" [ref=e1892]
+          - row
+            - cell
+            - cell "New Zealand" [ref=e436]
+              - link "New Zealand" [ref=e1893]
+            - cell "<1%" [ref=e437]
+              - link "<1%" [ref=e1894]
+          - row
+            - cell
+            - cell "Panama" [ref=e438]
+              - link "Panama" [ref=e1895]
+            - cell "<1%" [ref=e439]
+              - link "<1%" [ref=e1896]
+          - row
+            - cell
+            - cell "Paraguay" [ref=e440]
+              - link "Paraguay" [ref=e1897]
+            - cell "<1%" [ref=e441]
+              - link "<1%" [ref=e1898]
+          - row
+            - cell
+            - cell "Portugal" [ref=e442]
+              - link "Portugal" [ref=e1899]
+            - cell "<1%" [ref=e443]
+              - link "<1%" [ref=e1900]
+          - row
+            - cell
+            - cell "Qatar" [ref=e444]
+              - link "Qatar" [ref=e1901]
+            - cell "<1%" [ref=e445]
+              - link "<1%" [ref=e1902]
+          - row
+            - cell
+            - cell "Saudi Arabia" [ref=e446]
+              - link "Saudi Arabia" [ref=e1903]
+            - cell "<1%" [ref=e447]
+              - link "<1%" [ref=e1904]
+          - row
+            - cell
+            - cell "Scotland" [ref=e448]
+              - link "Scotland" [ref=e1905]
+            - cell "<1%" [ref=e449]
+              - link "<1%" [ref=e1906]
+          - row
+            - cell
+            - cell "Senegal" [ref=e450]
+              - link "Senegal" [ref=e1907]
+            - cell "<1%" [ref=e451]
+              - link "<1%" [ref=e1908]
+          - row
+            - cell
+            - cell "South Africa" [ref=e452]
+              - link "South Africa" [ref=e1909]
+            - cell "<1%" [ref=e453]
+              - link "<1%" [ref=e1910]
+          - row
+            - cell
+            - cell "South Korea" [ref=e454]
+              - link "South Korea" [ref=e1911]
+            - cell "<1%" [ref=e455]
+              - link "<1%" [ref=e1912]
+          - row
+            - cell
+            - cell "Sweden" [ref=e456]
+              - link "Sweden" [ref=e1913]
+            - cell "<1%" [ref=e457]
+              - link "<1%" [ref=e1914]
+          - row
+            - cell
+            - cell "Switzerland" [ref=e458]
+              - link "Switzerland" [ref=e1915]
+            - cell "<1%" [ref=e459]
+              - link "<1%" [ref=e1916]
+          - row
+            - cell
+            - cell "Tunisia" [ref=e460]
+              - link "Tunisia" [ref=e1917]
+            - cell "<1%" [ref=e461]
+              - link "<1%" [ref=e1918]
+          - row
+            - cell
+            - cell "Türkiye" [ref=e462]
+              - link "Türkiye" [ref=e1919]
+            - cell "<1%" [ref=e463]
+              - link "<1%" [ref=e1920]
+          - row
+            - cell
+            - cell "United States" [ref=e464]
+              - link "United States" [ref=e1921]
+            - cell "<1%" [ref=e465]
+              - link "<1%" [ref=e1922]
+          - row
+            - cell
+            - cell "Uruguay" [ref=e466]
+              - link "Uruguay" [ref=e1923]
+            - cell "<1%" [ref=e467]
+              - link "<1%" [ref=e1924]
+          - row
+            - cell
+            - cell "Uzbekistan" [ref=e468]
+              - link "Uzbekistan" [ref=e1925]
+            - cell "<1%" [ref=e469]
+              - link "<1%" [ref=e1926]
+          - row
+            - rowheader "How many World Cup matches will Trump attend?" [ref=e470]
+              - link "How many World Cup matches will Trump attend?" [ref=e1927]
+            - cell "1" [ref=e471]
+              - link "1" [ref=e1928]
+            - cell "97%" [ref=e472]
+              - link "97%" [ref=e1929]
+          - row
+            - cell
+            - cell "0" [ref=e473]
+              - link "0" [ref=e1930]
+            - cell "3%" [ref=e474]
+              - link "3%" [ref=e1931]
+          - row
+            - cell
+            - cell "2" [ref=e475]
+              - link "2" [ref=e1932]
+            - cell "<1%" [ref=e476]
+              - link "<1%" [ref=e1933]
+          - row
+            - rowheader "Most Goal Contributions" [ref=e477]
+              - link "Most Goal Contributions" [ref=e1934]
+            - cell "Lionel Messi" [ref=e478]
+              - link "Lionel Messi" [ref=e1935]
+            - cell "61%" [ref=e479]
+              - link "61%" [ref=e1936]
+          - row
+            - cell
+            - cell "Kylian Mbappé" [ref=e480]
+              - link "Kylian Mbappé" [ref=e1937]
+            - cell "39%" [ref=e481]
+              - link "39%" [ref=e1938]
+          - row
+            - cell
+            - cell "Lautaro Martínez" [ref=e482]
+              - link "Lautaro Martínez" [ref=e1939]
+            - cell "<1%" [ref=e483]
+              - link "<1%" [ref=e1940]
+          - row
+            - cell
+            - cell "Harry Kane" [ref=e484]
+              - link "Harry Kane" [ref=e1941]
+            - cell "<1%" [ref=e485]
+              - link "<1%" [ref=e1942]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e486]
+              - link "Lamine Yamal" [ref=e1943]
+            - cell "<1%" [ref=e487]
+              - link "<1%" [ref=e1944]
+          - row
+            - rowheader "3rd Place Finish" [ref=e488]
+              - link "3rd Place Finish" [ref=e1945]
+            - cell "France" [ref=e489]
+              - link "France" [ref=e1946]
+            - cell "67%" [ref=e490]
+              - link "67%" [ref=e1947]
+          - row
+            - cell
+            - cell "England" [ref=e491]
+              - link "England" [ref=e1948]
+            - cell "34%" [ref=e492]
+              - link "34%" [ref=e1949]
+          - row
+            - rowheader "What will the announcers say during Argentina vs Spain World Cup Match?" [ref=e493]
+              - link "What will the announcers say during Argentina vs Spain World Cup Match?" [ref=e1950]
+            - cell "History" [ref=e494]
+              - link "History" [ref=e1951]
+            - cell "95%" [ref=e495]
+              - link "95%" [ref=e1952]
+          - row
+            - cell
+            - cell "Record" [ref=e496]
+              - link "Record" [ref=e1953]
+            - cell "94%" [ref=e497]
+              - link "94%" [ref=e1954]
+          - row
+            - cell
+            - cell "Comeback / Come Back" [ref=e498]
+              - link "Comeback / Come Back" [ref=e1955]
+            - cell "93%" [ref=e499]
+              - link "93%" [ref=e1956]
+          - row
+            - cell
+            - cell "Transition" [ref=e500]
+              - link "Transition" [ref=e1957]
+            - cell "91%" [ref=e501]
+              - link "91%" [ref=e1958]
+          - row
+            - cell
+            - cell "Gianni / Infantino" [ref=e502]
+              - link "Gianni / Infantino" [ref=e1959]
+            - cell "91%" [ref=e503]
+              - link "91%" [ref=e1960]
+          - row
+            - cell
+            - cell "Euro" [ref=e504]
+              - link "Euro" [ref=e1961]
+            - cell "84%" [ref=e505]
+              - link "84%" [ref=e1962]
+          - row
+            - cell
+            - cell "VAR" [ref=e506]
+              - link "VAR" [ref=e1963]
+            - cell "81%" [ref=e507]
+              - link "81%" [ref=e1964]
+          - row
+            - cell
+            - cell "Pressure 15+ times" [ref=e508]
+              - link "Pressure 15+ times" [ref=e1965]
+            - cell "78%" [ref=e509]
+              - link "78%" [ref=e1966]
+          - row
+            - cell
+            - cell "Foul 12+ times" [ref=e510]
+              - link "Foul 12+ times" [ref=e1967]
+            - cell "77%" [ref=e511]
+              - link "77%" [ref=e1968]
+          - row
+            - cell
+            - cell "Zlatan / Ibrahimovic" [ref=e512]
+              - link "Zlatan / Ibrahimovic" [ref=e1969]
+            - cell "77%" [ref=e513]
+              - link "77%" [ref=e1970]
+          - row
+            - cell
+            - cell "Handball" [ref=e514]
+              - link "Handball" [ref=e1971]
+            - cell "76%" [ref=e515]
+              - link "76%" [ref=e1972]
+          - row
+            - cell
+            - cell "Shutout / Shut Out" [ref=e516]
+              - link "Shutout / Shut Out" [ref=e1973]
+            - cell "74%" [ref=e517]
+              - link "74%" [ref=e1974]
+          - row
+            - cell
+            - cell "Shakira" [ref=e518]
+              - link "Shakira" [ref=e1975]
+            - cell "69%" [ref=e519]
+              - link "69%" [ref=e1976]
+          - row
+            - cell
+            - cell "Qatar / Russia" [ref=e520]
+              - link "Qatar / Russia" [ref=e1977]
+            - cell "68%" [ref=e521]
+              - link "68%" [ref=e1978]
+          - row
+            - cell
+            - cell "Bench / Benches 7+ times" [ref=e522]
+              - link "Bench / Benches 7+ times" [ref=e1979]
+            - cell "67%" [ref=e523]
+              - link "67%" [ref=e1980]
+          - row
+            - cell
+            - cell "Trump" [ref=e524]
+              - link "Trump" [ref=e1981]
+            - cell "66%" [ref=e525]
+              - link "66%" [ref=e1982]
+          - row
+            - cell
+            - cell "Bieber" [ref=e526]
+              - link "Bieber" [ref=e1983]
+            - cell "65%" [ref=e527]
+              - link "65%" [ref=e1984]
+          - row
+            - cell
+            - cell "Nutmeg" [ref=e528]
+              - link "Nutmeg" [ref=e1985]
+            - cell "64%" [ref=e529]
+              - link "64%" [ref=e1986]
+          - row
+            - cell
+            - cell "GOAT / Greatest Of All Time" [ref=e530]
+              - link "GOAT / Greatest Of All Time" [ref=e1987]
+            - cell "62%" [ref=e531]
+              - link "62%" [ref=e1988]
+          - row
+            - cell
+            - cell "Penalty Kick" [ref=e532]
+              - link "Penalty Kick" [ref=e1989]
+            - cell "62%" [ref=e533]
+              - link "62%" [ref=e1990]
+          - row
+            - cell
+            - cell "Penalty Shootout" [ref=e534]
+              - link "Penalty Shootout" [ref=e1991]
+            - cell "61%" [ref=e535]
+              - link "61%" [ref=e1992]
+          - row
+            - cell
+            - cell "Captain" [ref=e536]
+              - link "Captain" [ref=e1993]
+            - cell "59%" [ref=e537]
+              - link "59%" [ref=e1994]
+          - row
+            - cell
+            - cell "Maradona / Pelé" [ref=e538]
+              - link "Maradona / Pelé" [ref=e1995]
+            - cell "56%" [ref=e539]
+              - link "56%" [ref=e1996]
+          - row
+            - cell
+            - cell "Powerade" [ref=e540]
+              - link "Powerade" [ref=e1997]
+            - cell "56%" [ref=e541]
+              - link "56%" [ref=e1998]
+          - row
+            - cell
+            - cell "Legacy" [ref=e542]
+              - link "Legacy" [ref=e1999]
+            - cell "55%" [ref=e543]
+              - link "55%" [ref=e2000]
+          - row
+            - cell
+            - cell "Crossbar" [ref=e544]
+              - link "Crossbar" [ref=e2001]
+            - cell "55%" [ref=e545]
+              - link "55%" [ref=e2002]
+          - row
+            - cell
+            - cell "What a Strike / What a Finish" [ref=e546]
+              - link "What a Strike / What a Finish" [ref=e2003]
+            - cell "54%" [ref=e547]
+              - link "54%" [ref=e2004]
+          - row
+            - cell
+            - cell "Goal 75+ times" [ref=e548]
+              - link "Goal 75+ times" [ref=e2005]
+            - cell "52%" [ref=e549]
+              - link "52%" [ref=e2006]
+          - row
+            - cell
+            - cell "Vertical / Verticality" [ref=e550]
+              - link "Vertical / Verticality" [ref=e2007]
+            - cell "47%" [ref=e551]
+              - link "47%" [ref=e2008]
+          - row
+            - cell
+            - cell "What a Save" [ref=e552]
+              - link "What a Save" [ref=e2009]
+            - cell "46%" [ref=e553]
+              - link "46%" [ref=e2010]
+          - row
+            - cell
+            - cell "Own Goal" [ref=e554]
+              - link "Own Goal" [ref=e2011]
+            - cell "46%" [ref=e555]
+              - link "46%" [ref=e2012]
+          - row
+            - cell
+            - cell "Tom Cruise" [ref=e556]
+              - link "Tom Cruise" [ref=e2013]
+            - cell "46%" [ref=e557]
+              - link "46%" [ref=e2014]
+          - row
+            - cell
+            - cell "Red Card" [ref=e558]
+              - link "Red Card" [ref=e2015]
+            - cell "41%" [ref=e559]
+              - link "41%" [ref=e2016]
+          - row
+            - cell
+            - cell "Hattrick / Hat Trick" [ref=e560]
+              - link "Hattrick / Hat Trick" [ref=e2017]
+            - cell "37%" [ref=e561]
+              - link "37%" [ref=e2018]
+          - row
+            - cell
+            - cell "Ronaldo" [ref=e562]
+              - link "Ronaldo" [ref=e2019]
+            - cell "36%" [ref=e563]
+              - link "36%" [ref=e2020]
+          - row
+            - cell
+            - cell "Ticket" [ref=e564]
+              - link "Ticket" [ref=e2021]
+            - cell "34%" [ref=e565]
+              - link "34%" [ref=e2022]
+          - row
+            - cell
+            - cell "Appeal / Appealed" [ref=e566]
+              - link "Appeal / Appealed" [ref=e2023]
+            - cell "32%" [ref=e567]
+              - link "32%" [ref=e2024]
+          - row
+            - cell
+            - cell "Heavyweight" [ref=e568]
+              - link "Heavyweight" [ref=e2025]
+            - cell "27%" [ref=e569]
+              - link "27%" [ref=e2026]
+          - row
+            - cell
+            - cell "Giants / Jets" [ref=e570]
+              - link "Giants / Jets" [ref=e2027]
+            - cell "25%" [ref=e571]
+              - link "25%" [ref=e2028]
+          - row
+            - cell
+            - cell "Equalizer" [ref=e572]
+              - link "Equalizer" [ref=e2029]
+            - cell "24%" [ref=e573]
+              - link "24%" [ref=e2030]
+          - row
+            - cell
+            - cell "Super Bowl" [ref=e574]
+              - link "Super Bowl" [ref=e2031]
+            - cell "23%" [ref=e575]
+              - link "23%" [ref=e2032]
+          - row
+            - cell
+            - cell "Zohran / Mamdani" [ref=e576]
+              - link "Zohran / Mamdani" [ref=e2033]
+            - cell "23%" [ref=e577]
+              - link "23%" [ref=e2034]
+          - row
+            - cell
+            - cell "Adidas" [ref=e578]
+              - link "Adidas" [ref=e2035]
+            - cell "20%" [ref=e579]
+              - link "20%" [ref=e2036]
+          - row
+            - cell
+            - cell "Lenovo" [ref=e580]
+              - link "Lenovo" [ref=e2037]
+            - cell "19%" [ref=e581]
+              - link "19%" [ref=e2038]
+          - row
+            - cell
+            - cell "Tenure" [ref=e582]
+              - link "Tenure" [ref=e2039]
+            - cell "14%" [ref=e583]
+              - link "14%" [ref=e2040]
+          - row
+            - cell
+            - cell "Golden Boot 5+ times" [ref=e584]
+              - link "Golden Boot 5+ times" [ref=e2041]
+            - cell "12%" [ref=e585]
+              - link "12%" [ref=e2042]
+          - row
+            - cell
+            - cell "iShowSpeed" [ref=e586]
+              - link "iShowSpeed" [ref=e2043]
+            - cell "11%" [ref=e587]
+              - link "11%" [ref=e2044]
+          - row
+            - cell
+            - cell "-No Qualifying Event-" [ref=e588]
+              - link "-No Qualifying Event-" [ref=e2045]
+            - cell "1%" [ref=e589]
+              - link "1%" [ref=e2046]
+          - row
+            - rowheader "Group of Champion" [ref=e590]
+              - link "Group of Champion" [ref=e2047]
+            - cell "Group H (Cape Verde, Uruguay, Spain, Saudi Arabia)" [ref=e591]
+              - link "Group H (Cape Verde, Uruguay, Spain, Saudi Arabia)" [ref=e2048]
+            - cell "60%" [ref=e592]
+              - link "60%" [ref=e2049]
+          - row
+            - cell
+            - cell "Group J (Algeria, Jordan, Argentina, Austria)" [ref=e593]
+              - link "Group J (Algeria, Jordan, Argentina, Austria)" [ref=e2050]
+            - cell "40%" [ref=e594]
+              - link "40%" [ref=e2051]
+          - row
+            - rowheader "Silver Ball Winner" [ref=e595]
+              - link "Silver Ball Winner" [ref=e2052]
+            - cell "Kylian Mbappé" [ref=e596]
+              - link "Kylian Mbappé" [ref=e2053]
+            - cell "61%" [ref=e597]
+              - link "61%" [ref=e2054]
+          - row
+            - cell
+            - cell "Rodri" [ref=e598]
+              - link "Rodri" [ref=e2055]
+            - cell "29%" [ref=e599]
+              - link "29%" [ref=e2056]
+          - row
+            - cell
+            - cell "Jude Bellingham" [ref=e600]
+              - link "Jude Bellingham" [ref=e2057]
+            - cell "5%" [ref=e601]
+              - link "5%" [ref=e2058]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e602]
+              - link "Lamine Yamal" [ref=e2059]
+            - cell "4%" [ref=e603]
+              - link "4%" [ref=e2060]
+          - row
+            - cell
+            - cell "Lionel Messi" [ref=e604]
+              - link "Lionel Messi" [ref=e2061]
+            - cell "3%" [ref=e605]
+              - link "3%" [ref=e2062]
+          - row
+            - cell
+            - cell "Harry Kane" [ref=e606]
+              - link "Harry Kane" [ref=e2063]
+            - cell "2%" [ref=e607]
+              - link "2%" [ref=e2064]
+          - row
+            - cell
+            - cell "Erling Haaland" [ref=e608]
+              - link "Erling Haaland" [ref=e2065]
+            - cell "<1%" [ref=e609]
+              - link "<1%" [ref=e2066]
+          - row
+            - cell
+            - cell "Michael Olise" [ref=e610]
+              - link "Michael Olise" [ref=e2067]
+            - cell "<1%" [ref=e611]
+              - link "<1%" [ref=e2068]
+          - row
+            - cell
+            - cell "Vinícius Jr." [ref=e612]
+              - link "Vinícius Jr." [ref=e2069]
+            - cell "<1%" [ref=e613]
+              - link "<1%" [ref=e2070]
+          - row
+            - cell
+            - cell "Ousmane Dembélé" [ref=e614]
+              - link "Ousmane Dembélé" [ref=e2071]
+            - cell "<1%" [ref=e615]
+              - link "<1%" [ref=e2072]
+          - row
+            - cell
+            - cell "Cristiano Ronaldo" [ref=e616]
+              - link "Cristiano Ronaldo" [ref=e2073]
+            - cell "<1%" [ref=e617]
+              - link "<1%" [ref=e2074]
+          - row
+            - cell
+            - cell "Rayan Cherki" [ref=e618]
+              - link "Rayan Cherki" [ref=e2075]
+            - cell "<1%" [ref=e619]
+              - link "<1%" [ref=e2076]
+          - row
+            - cell
+            - cell "Pedri" [ref=e620]
+              - link "Pedri" [ref=e2077]
+            - cell "<1%" [ref=e621]
+              - link "<1%" [ref=e2078]
+          - row
+            - cell
+            - cell "Bruno Fernandes" [ref=e622]
+              - link "Bruno Fernandes" [ref=e2079]
+            - cell "<1%" [ref=e623]
+              - link "<1%" [ref=e2080]
+          - row
+            - cell
+            - cell "Vitinha" [ref=e624]
+              - link "Vitinha" [ref=e2081]
+            - cell "<1%" [ref=e625]
+              - link "<1%" [ref=e2082]
+          - row
+            - cell
+            - cell "Florian Wirtz" [ref=e626]
+              - link "Florian Wirtz" [ref=e2083]
+            - cell "<1%" [ref=e627]
+              - link "<1%" [ref=e2084]
+          - row
+            - cell
+            - cell "Neymar" [ref=e628]
+              - link "Neymar" [ref=e2085]
+            - cell "<1%" [ref=e629]
+              - link "<1%" [ref=e2086]
+          - row
+            - cell
+            - cell "Gavi" [ref=e630]
+              - link "Gavi" [ref=e2087]
+            - cell "<1%" [ref=e631]
+              - link "<1%" [ref=e2088]
+          - row
+            - cell
+            - cell "Bukayo Saka" [ref=e632]
+              - link "Bukayo Saka" [ref=e2089]
+            - cell "<1%" [ref=e633]
+              - link "<1%" [ref=e2090]
+          - row
+            - cell
+            - cell "Declan Rice" [ref=e634]
+              - link "Declan Rice" [ref=e2091]
+            - cell "<1%" [ref=e635]
+              - link "<1%" [ref=e2092]
+          - row
+            - rowheader "What will the announcers say during France vs England World Cup Match?" [ref=e636]
+              - link "What will the announcers say during France vs England World Cup Match?" [ref=e2093]
+            - cell "Captain" [ref=e637]
+              - link "Captain" [ref=e2094]
+            - cell "96%" [ref=e638]
+              - link "96%" [ref=e2095]
+          - row
+            - cell
+            - cell "Messi" [ref=e639]
+              - link "Messi" [ref=e2096]
+            - cell "93%" [ref=e640]
+              - link "93%" [ref=e2097]
+          - row
+            - cell
+            - cell "Record" [ref=e641]
+              - link "Record" [ref=e2098]
+            - cell "85%" [ref=e642]
+              - link "85%" [ref=e2099]
+          - row
+            - cell
+            - cell "History" [ref=e643]
+              - link "History" [ref=e2100]
+            - cell "84%" [ref=e644]
+              - link "84%" [ref=e2101]
+          - row
+            - cell
+            - cell "Euro" [ref=e645]
+              - link "Euro" [ref=e2102]
+            - cell "83%" [ref=e646]
+              - link "83%" [ref=e2103]
+          - row
+            - cell
+            - cell "Bronze" [ref=e647]
+              - link "Bronze" [ref=e2104]
+            - cell "74%" [ref=e648]
+              - link "74%" [ref=e2105]
+          - row
+            - cell
+            - cell "Zlatan / Ibrahimovic" [ref=e649]
+              - link "Zlatan / Ibrahimovic" [ref=e2106]
+            - cell "69%" [ref=e650]
+              - link "69%" [ref=e2107]
+          - row
+            - cell
+            - cell "Bench / Benches 7+ times" [ref=e651]
+              - link "Bench / Benches 7+ times" [ref=e2108]
+            - cell "67%" [ref=e652]
+              - link "67%" [ref=e2109]
+          - row
+            - cell
+            - cell "VAR" [ref=e653]
+              - link "VAR" [ref=e2110]
+            - cell "67%" [ref=e654]
+              - link "67%" [ref=e2111]
+          - row
+            - cell
+            - cell "What a Save" [ref=e655]
+              - link "What a Save" [ref=e2112]
+            - cell "67%" [ref=e656]
+              - link "67%" [ref=e2113]
+          - row
+            - cell
+            - cell "Qatar / Russia" [ref=e657]
+              - link "Qatar / Russia" [ref=e2114]
+            - cell "66%" [ref=e658]
+              - link "66%" [ref=e2115]
+          - row
+            - cell
+            - cell "Goal 75+ times" [ref=e659]
+              - link "Goal 75+ times" [ref=e2116]
+            - cell "58%" [ref=e660]
+              - link "58%" [ref=e2117]
+          - row
+            - cell
+            - cell "Handball" [ref=e661]
+              - link "Handball" [ref=e2118]
+            - cell "56%" [ref=e662]
+              - link "56%" [ref=e2119]
+          - row
+            - cell
+            - cell "Comeback / Come Back" [ref=e663]
+              - link "Comeback / Come Back" [ref=e2120]
+            - cell "56%" [ref=e664]
+              - link "56%" [ref=e2121]
+          - row
+            - cell
+            - cell "Golden Boot 3+ times" [ref=e665]
+              - link "Golden Boot 3+ times" [ref=e2122]
+            - cell "55%" [ref=e666]
+              - link "55%" [ref=e2123]
+          - row
+            - cell
+            - cell "Equalizer" [ref=e667]
+              - link "Equalizer" [ref=e2124]
+            - cell "55%" [ref=e668]
+              - link "55%" [ref=e2125]
+          - row
+            - cell
+            - cell "Nutmeg / Nutmegs" [ref=e669]
+              - link "Nutmeg / Nutmegs" [ref=e2126]
+            - cell "52%" [ref=e670]
+              - link "52%" [ref=e2127]
+          - row
+            - cell
+            - cell "Dolphins" [ref=e671]
+              - link "Dolphins" [ref=e2128]
+            - cell "47%" [ref=e672]
+              - link "47%" [ref=e2129]
+          - row
+            - cell
+            - cell "Hattrick / Hat Trick" [ref=e673]
+              - link "Hattrick / Hat Trick" [ref=e2130]
+            - cell "42%" [ref=e674]
+              - link "42%" [ref=e2131]
+          - row
+            - cell
+            - cell "Gianni / Infantino" [ref=e675]
+              - link "Gianni / Infantino" [ref=e2132]
+            - cell "41%" [ref=e676]
+              - link "41%" [ref=e2133]
+          - row
+            - cell
+            - cell "Foul 12+ times" [ref=e677]
+              - link "Foul 12+ times" [ref=e2134]
+            - cell "40%" [ref=e678]
+              - link "40%" [ref=e2135]
+          - row
+            - cell
+            - cell "Own Goal" [ref=e679]
+              - link "Own Goal" [ref=e2136]
+            - cell "36%" [ref=e680]
+              - link "36%" [ref=e2137]
+          - row
+            - cell
+            - cell "Maradona / Pelé" [ref=e681]
+              - link "Maradona / Pelé" [ref=e2138]
+            - cell "36%" [ref=e682]
+              - link "36%" [ref=e2139]
+          - row
+            - cell
+            - cell "Vertical / Verticality" [ref=e683]
+              - link "Vertical / Verticality" [ref=e2140]
+            - cell "35%" [ref=e684]
+              - link "35%" [ref=e2141]
+          - row
+            - cell
+            - cell "Ronaldo" [ref=e685]
+              - link "Ronaldo" [ref=e2142]
+            - cell "35%" [ref=e686]
+              - link "35%" [ref=e2143]
+          - row
+            - cell
+            - cell "Powerade" [ref=e687]
+              - link "Powerade" [ref=e2144]
+            - cell "31%" [ref=e688]
+              - link "31%" [ref=e2145]
+          - row
+            - cell
+            - cell "Penalty Shootout" [ref=e689]
+              - link "Penalty Shootout" [ref=e2146]
+            - cell "30%" [ref=e690]
+              - link "30%" [ref=e2147]
+          - row
+            - cell
+            - cell "Penalty Kick" [ref=e691]
+              - link "Penalty Kick" [ref=e2148]
+            - cell "29%" [ref=e692]
+              - link "29%" [ref=e2149]
+          - row
+            - cell
+            - cell "Pressure 15+ times" [ref=e693]
+              - link "Pressure 15+ times" [ref=e2150]
+            - cell "28%" [ref=e694]
+              - link "28%" [ref=e2151]
+          - row
+            - cell
+            - cell "Crossbar" [ref=e695]
+              - link "Crossbar" [ref=e2152]
+            - cell "28%" [ref=e696]
+              - link "28%" [ref=e2153]
+          - row
+            - cell
+            - cell "GOAT / Greatest Of All Time" [ref=e697]
+              - link "GOAT / Greatest Of All Time" [ref=e2154]
+            - cell "24%" [ref=e698]
+              - link "24%" [ref=e2155]
+          - row
+            - cell
+            - cell "Lenovo" [ref=e699]
+              - link "Lenovo" [ref=e2156]
+            - cell "24%" [ref=e700]
+              - link "24%" [ref=e2157]
+          - row
+            - cell
+            - cell "Red Card" [ref=e701]
+              - link "Red Card" [ref=e2158]
+            - cell "22%" [ref=e702]
+              - link "22%" [ref=e2159]
+          - row
+            - cell
+            - cell "Legacy" [ref=e703]
+              - link "Legacy" [ref=e2160]
+            - cell "21%" [ref=e704]
+              - link "21%" [ref=e2161]
+          - row
+            - cell
+            - cell "Tenure" [ref=e705]
+              - link "Tenure" [ref=e2162]
+            - cell "17%" [ref=e706]
+              - link "17%" [ref=e2163]
+          - row
+            - cell
+            - cell "Transition" [ref=e707]
+              - link "Transition" [ref=e2164]
+            - cell "14%" [ref=e708]
+              - link "14%" [ref=e2165]
+          - row
+            - cell
+            - cell "Shakira" [ref=e709]
+              - link "Shakira" [ref=e2166]
+            - cell "14%" [ref=e710]
+              - link "14%" [ref=e2167]
+          - row
+            - cell
+            - cell "Soccer" [ref=e711]
+              - link "Soccer" [ref=e2168]
+            - cell "11%" [ref=e712]
+              - link "11%" [ref=e2169]
+          - row
+            - cell
+            - cell "Heavyweight" [ref=e713]
+              - link "Heavyweight" [ref=e2170]
+            - cell "10%" [ref=e714]
+              - link "10%" [ref=e2171]
+          - row
+            - cell
+            - cell "Shutout / Shut Out" [ref=e715]
+              - link "Shutout / Shut Out" [ref=e2172]
+            - cell "10%" [ref=e716]
+              - link "10%" [ref=e2173]
+          - row
+            - cell
+            - cell "Golden Ball" [ref=e717]
+              - link "Golden Ball" [ref=e2174]
+            - cell "10%" [ref=e718]
+              - link "10%" [ref=e2175]
+          - row
+            - cell
+            - cell "Trump" [ref=e719]
+              - link "Trump" [ref=e2176]
+            - cell "8%" [ref=e720]
+              - link "8%" [ref=e2177]
+          - row
+            - cell
+            - cell "-No Qualifying Event-" [ref=e721]
+              - link "-No Qualifying Event-" [ref=e2178]
+            - cell "<1%" [ref=e722]
+              - link "<1%" [ref=e2179]
+          - row
+            - rowheader "No. of Matches to go to Extra Time" [ref=e723]
+              - link "No. of Matches to go to Extra Time" [ref=e2180]
+            - cell "9+ matches" [ref=e724]
+              - link "9+ matches" [ref=e2181]
+            - cell "49%" [ref=e725]
+              - link "49%" [ref=e2182]
+          - row
+            - rowheader "Lamine Yamal Goals" [ref=e726]
+              - link "Lamine Yamal Goals" [ref=e2183]
+            - cell "2+" [ref=e727]
+              - link "2+" [ref=e2184]
+            - cell "27%" [ref=e728]
+              - link "27%" [ref=e2185]
+          - row
+            - cell
+            - cell "3+" [ref=e729]
+              - link "3+" [ref=e2186]
+            - cell "5%" [ref=e730]
+              - link "5%" [ref=e2187]
+          - row
+            - cell
+            - cell "4+" [ref=e731]
+              - link "4+" [ref=e2188]
+            - cell "<1%" [ref=e732]
+              - link "<1%" [ref=e2189]
+          - row
+            - cell
+            - cell "5+" [ref=e733]
+              - link "5+" [ref=e2190]
+            - cell "<1%" [ref=e734]
+              - link "<1%" [ref=e2191]
+          - row
+            - cell
+            - cell "6+" [ref=e735]
+              - link "6+" [ref=e2192]
+            - cell "<1%" [ref=e736]
+              - link "<1%" [ref=e2193]
+          - row
+            - rowheader "Bronze Ball Winner" [ref=e737]
+              - link "Bronze Ball Winner" [ref=e2194]
+            - cell "Jude Bellingham" [ref=e738]
+              - link "Jude Bellingham" [ref=e2195]
+            - cell "45%" [ref=e739]
+              - link "45%" [ref=e2196]
+          - row
+            - cell
+            - cell "Kylian Mbappé" [ref=e740]
+              - link "Kylian Mbappé" [ref=e2197]
+            - cell "30%" [ref=e741]
+              - link "30%" [ref=e2198]
+          - row
+            - cell
+            - cell "Rodri" [ref=e742]
+              - link "Rodri" [ref=e2199]
+            - cell "16%" [ref=e743]
+              - link "16%" [ref=e2200]
+          - row
+            - cell
+            - cell "Harry Kane" [ref=e744]
+              - link "Harry Kane" [ref=e2201]
+            - cell "5%" [ref=e745]
+              - link "5%" [ref=e2202]
+          - row
+            - cell
+            - cell "Michael Olise" [ref=e746]
+              - link "Michael Olise" [ref=e2203]
+            - cell "4%" [ref=e747]
+              - link "4%" [ref=e2204]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e748]
+              - link "Lamine Yamal" [ref=e2205]
+            - cell "3%" [ref=e749]
+              - link "3%" [ref=e2206]
+          - row
+            - cell
+            - cell "Erling Haaland" [ref=e750]
+              - link "Erling Haaland" [ref=e2207]
+            - cell "3%" [ref=e751]
+              - link "3%" [ref=e2208]
+          - row
+            - cell
+            - cell "Lionel Messi" [ref=e752]
+              - link "Lionel Messi" [ref=e2209]
+            - cell "2%" [ref=e753]
+              - link "2%" [ref=e2210]
+          - row
+            - cell
+            - cell "Ousmane Dembélé" [ref=e754]
+              - link "Ousmane Dembélé" [ref=e2211]
+            - cell "<1%" [ref=e755]
+              - link "<1%" [ref=e2212]
+          - row
+            - cell
+            - cell "Vinícius Jr." [ref=e756]
+              - link "Vinícius Jr." [ref=e2213]
+            - cell "<1%" [ref=e757]
+              - link "<1%" [ref=e2214]
+          - row
+            - cell
+            - cell "Cristiano Ronaldo" [ref=e758]
+              - link "Cristiano Ronaldo" [ref=e2215]
+            - cell "<1%" [ref=e759]
+              - link "<1%" [ref=e2216]
+          - row
+            - cell
+            - cell "Rayan Cherki" [ref=e760]
+              - link "Rayan Cherki" [ref=e2217]
+            - cell "<1%" [ref=e761]
+              - link "<1%" [ref=e2218]
+          - row
+            - cell
+            - cell "Pedri" [ref=e762]
+              - link "Pedri" [ref=e2219]
+            - cell "<1%" [ref=e763]
+              - link "<1%" [ref=e2220]
+          - row
+            - cell
+            - cell "Bruno Fernandes" [ref=e764]
+              - link "Bruno Fernandes" [ref=e2221]
+            - cell "<1%" [ref=e765]
+              - link "<1%" [ref=e2222]
+          - row
+            - cell
+            - cell "Vitinha" [ref=e766]
+              - link "Vitinha" [ref=e2223]
+            - cell "<1%" [ref=e767]
+              - link "<1%" [ref=e2224]
+          - row
+            - cell
+            - cell "Florian Wirtz" [ref=e768]
+              - link "Florian Wirtz" [ref=e2225]
+            - cell "<1%" [ref=e769]
+              - link "<1%" [ref=e2226]
+          - row
+            - cell
+            - cell "Neymar" [ref=e770]
+              - link "Neymar" [ref=e2227]
+            - cell "<1%" [ref=e771]
+              - link "<1%" [ref=e2228]
+          - row
+            - cell
+            - cell "Gavi" [ref=e772]
+              - link "Gavi" [ref=e2229]
+            - cell "<1%" [ref=e773]
+              - link "<1%" [ref=e2230]
+          - row
+            - cell
+            - cell "Bukayo Saka" [ref=e774]
+              - link "Bukayo Saka" [ref=e2231]
+            - cell "<1%" [ref=e775]
+              - link "<1%" [ref=e2232]
+          - row
+            - cell
+            - cell "Declan Rice" [ref=e776]
+              - link "Declan Rice" [ref=e2233]
+            - cell "<1%" [ref=e777]
+              - link "<1%" [ref=e2234]
+          - row
+            - rowheader "No. of Matches Suspended By Weather Protocol" [ref=e778]
+              - link "No. of Matches Suspended By Weather Protocol" [ref=e2235]
+            - cell "4+ matches" [ref=e779]
+              - link "4+ matches" [ref=e2236]
+            - cell "8%" [ref=e780]
+              - link "8%" [ref=e2237]
+          - row
+            - cell
+            - cell "5+ matches" [ref=e781]
+              - link "5+ matches" [ref=e2238]
+            - cell "<1%" [ref=e782]
+              - link "<1%" [ref=e2239]
+          - row
+            - rowheader "World Cup Final: Who Will Attend?" [ref=e783]
+              - link "World Cup Final: Who Will Attend?" [ref=e2240]
+            - cell "Antonela Roccuzzo" [ref=e784]
+              - link "Antonela Roccuzzo" [ref=e2241]
+            - cell "100%" [ref=e785]
+              - link "100%" [ref=e2242]
+          - row
+            - cell
+            - cell "King Felipe VI" [ref=e786]
+              - link "King Felipe VI" [ref=e2243]
+            - cell "98%" [ref=e787]
+              - link "98%" [ref=e2244]
+          - row
+            - cell
+            - cell "Tom Brady" [ref=e788]
+              - link "Tom Brady" [ref=e2245]
+            - cell "96%" [ref=e789]
+              - link "96%" [ref=e2246]
+          - row
+            - cell
+            - cell "Timothée Chalamet" [ref=e790]
+              - link "Timothée Chalamet" [ref=e2247]
+            - cell "94%" [ref=e791]
+              - link "94%" [ref=e2248]
+          - row
+            - cell
+            - cell "Claudia Sheinbaum" [ref=e792]
+              - link "Claudia Sheinbaum" [ref=e2249]
+            - cell "94%" [ref=e793]
+              - link "94%" [ref=e2250]
+          - row
+            - cell
+            - cell "David Beckham" [ref=e794]
+              - link "David Beckham" [ref=e2251]
+            - cell "90%" [ref=e795]
+              - link "90%" [ref=e2252]
+          - row
+            - cell
+            - cell "Mark Carney" [ref=e796]
+              - link "Mark Carney" [ref=e2253]
+            - cell "90%" [ref=e797]
+              - link "90%" [ref=e2254]
+          - row
+            - cell
+            - cell "Sean Duffy" [ref=e798]
+              - link "Sean Duffy" [ref=e2255]
+            - cell "75%" [ref=e799]
+              - link "75%" [ref=e2256]
+          - row
+            - cell
+            - cell "Drake" [ref=e800]
+              - link "Drake" [ref=e2257]
+            - cell "75%" [ref=e801]
+              - link "75%" [ref=e2258]
+          - row
+            - cell
+            - cell "Leonardo DiCaprio" [ref=e802]
+              - link "Leonardo DiCaprio" [ref=e2259]
+            - cell "72%" [ref=e803]
+              - link "72%" [ref=e2260]
+          - row
+            - cell
+            - cell "LeBron James" [ref=e804]
+              - link "LeBron James" [ref=e2261]
+            - cell "70%" [ref=e805]
+              - link "70%" [ref=e2262]
+          - row
+            - cell
+            - cell "Kathy Hochul" [ref=e806]
+              - link "Kathy Hochul" [ref=e2263]
+            - cell "66%" [ref=e807]
+              - link "66%" [ref=e2264]
+          - row
+            - cell
+            - cell "Marco Rubio" [ref=e808]
+              - link "Marco Rubio" [ref=e2265]
+            - cell "60%" [ref=e809]
+              - link "60%" [ref=e2266]
+          - row
+            - cell
+            - cell "Kim Kardashian" [ref=e810]
+              - link "Kim Kardashian" [ref=e2267]
+            - cell "60%" [ref=e811]
+              - link "60%" [ref=e2268]
+          - row
+            - cell
+            - cell "Mikie Sherrill" [ref=e812]
+              - link "Mikie Sherrill" [ref=e2269]
+            - cell "59%" [ref=e813]
+              - link "59%" [ref=e2270]
+          - row
+            - cell
+            - cell "Serena Williams" [ref=e814]
+              - link "Serena Williams" [ref=e2271]
+            - cell "59%" [ref=e815]
+              - link "59%" [ref=e2272]
+          - row
+            - cell
+            - cell "Rosalía" [ref=e816]
+              - link "Rosalía" [ref=e2273]
+            - cell "50%" [ref=e817]
+              - link "50%" [ref=e2274]
+          - row
+            - cell
+            - cell "Rafael Nadal" [ref=e818]
+              - link "Rafael Nadal" [ref=e2275]
+            - cell "50%" [ref=e819]
+              - link "50%" [ref=e2276]
+          - row
+            - cell
+            - cell "Jeff Bezos" [ref=e820]
+              - link "Jeff Bezos" [ref=e2277]
+            - cell "40%" [ref=e821]
+              - link "40%" [ref=e2278]
+          - row
+            - cell
+            - cell "Rupert Murdoch" [ref=e822]
+              - link "Rupert Murdoch" [ref=e2279]
+            - cell "37%" [ref=e823]
+              - link "37%" [ref=e2280]
+          - row
+            - cell
+            - cell "Elon Musk" [ref=e824]
+              - link "Elon Musk" [ref=e2281]
+            - cell "29%" [ref=e825]
+              - link "29%" [ref=e2282]
+          - row
+            - cell
+            - cell "Zinedine Zidane" [ref=e826]
+              - link "Zinedine Zidane" [ref=e2283]
+            - cell "26%" [ref=e827]
+              - link "26%" [ref=e2284]
+          - row
+            - cell
+            - cell "Pep Guardiola" [ref=e828]
+              - link "Pep Guardiola" [ref=e2285]
+            - cell "20%" [ref=e829]
+              - link "20%" [ref=e2286]
+          - row
+            - cell
+            - cell "Kristi Noem" [ref=e830]
+              - link "Kristi Noem" [ref=e2287]
+            - cell "16%" [ref=e831]
+              - link "16%" [ref=e2288]
+          - row
+            - cell
+            - cell "Bad Bunny" [ref=e832]
+              - link "Bad Bunny" [ref=e2289]
+            - cell "11%" [ref=e833]
+              - link "11%" [ref=e2290]
+          - row
+            - cell
+            - cell "Javier Milei" [ref=e834]
+              - link "Javier Milei" [ref=e2291]
+            - cell "2%" [ref=e835]
+              - link "2%" [ref=e2292]
+          - row
+            - cell
+            - cell "Pam Bondi" [ref=e836]
+              - link "Pam Bondi" [ref=e2293]
+            - cell "2%" [ref=e837]
+              - link "2%" [ref=e2294]
+          - row
+            - cell
+            - cell "Cristiano Ronaldo" [ref=e838]
+              - link "Cristiano Ronaldo" [ref=e2295]
+            - cell "<1%" [ref=e839]
+              - link "<1%" [ref=e2296]
+          - row
+            - rowheader "Shirt Manufacturer Worn by Champion" [ref=e840]
+              - link "Shirt Manufacturer Worn by Champion" [ref=e2297]
+            - cell "Adidas" [ref=e841]
+              - link "Adidas" [ref=e2298]
+            - cell "100%" [ref=e842]
+              - link "100%" [ref=e2299]
+          - row
+            - rowheader "Continent to Score the Most Goals" [ref=e843]
+              - link "Continent to Score the Most Goals" [ref=e2300]
+            - cell "Europe (UEFA)" [ref=e844]
+              - link "Europe (UEFA)" [ref=e2301]
+            - cell "100%" [ref=e845]
+              - link "100%" [ref=e2302]
+          - row
+            - cell
+            - cell "South America (CONMEBOL)" [ref=e846]
+              - link "South America (CONMEBOL)" [ref=e2303]
+            - cell "<1%" [ref=e847]
+              - link "<1%" [ref=e2304]
+          - row
+            - rowheader "Bronze Boot Winner" [ref=e848]
+              - link "Bronze Boot Winner" [ref=e2305]
+            - cell "Erling Haaland" [ref=e849]
+              - link "Erling Haaland" [ref=e2306]
+            - cell "50%" [ref=e850]
+              - link "50%" [ref=e2307]
+          - row
+            - cell
+            - cell "Harry Kane" [ref=e851]
+              - link "Harry Kane" [ref=e2308]
+            - cell "29%" [ref=e852]
+              - link "29%" [ref=e2309]
+          - row
+            - cell
+            - cell "Jude Bellingham" [ref=e853]
+              - link "Jude Bellingham" [ref=e2310]
+            - cell "17%" [ref=e854]
+              - link "17%" [ref=e2311]
+          - row
+            - cell
+            - cell "Ousmane Dembélé" [ref=e855]
+              - link "Ousmane Dembélé" [ref=e2312]
+            - cell "5%" [ref=e856]
+              - link "5%" [ref=e2313]
+          - row
+            - cell
+            - cell "Mikel Oyarzabal" [ref=e857]
+              - link "Mikel Oyarzabal" [ref=e2314]
+            - cell "3%" [ref=e858]
+              - link "3%" [ref=e2315]
+          - row
+            - cell
+            - cell "Lionel Messi" [ref=e859]
+              - link "Lionel Messi" [ref=e2316]
+            - cell "2%" [ref=e860]
+              - link "2%" [ref=e2317]
+          - row
+            - cell
+            - cell "Kylian Mbappé" [ref=e861]
+              - link "Kylian Mbappé" [ref=e2318]
+            - cell "1%" [ref=e862]
+              - link "1%" [ref=e2319]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e863]
+              - link "Lamine Yamal" [ref=e2320]
+            - cell "<1%" [ref=e864]
+              - link "<1%" [ref=e2321]
+          - row
+            - cell
+            - cell "Lautaro Martínez" [ref=e865]
+              - link "Lautaro Martínez" [ref=e2322]
+            - cell "<1%" [ref=e866]
+              - link "<1%" [ref=e2323]
+          - row
+            - cell
+            - cell "Álvaro Morata" [ref=e867]
+              - link "Álvaro Morata" [ref=e2324]
+            - cell "<1%" [ref=e868]
+              - link "<1%" [ref=e2325]
+          - row
+            - cell
+            - cell "Julián Álvarez" [ref=e869]
+              - link "Julián Álvarez" [ref=e2326]
+            - cell "<1%" [ref=e870]
+              - link "<1%" [ref=e2327]
+          - row
+            - cell
+            - cell "Ferran Torres" [ref=e871]
+              - link "Ferran Torres" [ref=e2328]
+            - cell "<1%" [ref=e872]
+              - link "<1%" [ref=e2329]
+          - row
+            - cell
+            - cell "Bukayo Saka" [ref=e873]
+              - link "Bukayo Saka" [ref=e2330]
+            - cell "<1%" [ref=e874]
+              - link "<1%" [ref=e2331]
+          - row
+            - rowheader "Julian Alvarez Goals" [ref=e875]
+              - link "Julian Alvarez Goals" [ref=e2332]
+            - cell "2+" [ref=e876]
+              - link "2+" [ref=e2333]
+            - cell "20%" [ref=e877]
+              - link "20%" [ref=e2334]
+          - row
+            - cell
+            - cell "3+" [ref=e878]
+              - link "3+" [ref=e2335]
+            - cell "5%" [ref=e879]
+              - link "5%" [ref=e2336]
+          - row
+            - cell
+            - cell "4+" [ref=e880]
+              - link "4+" [ref=e2337]
+            - cell "1%" [ref=e881]
+              - link "1%" [ref=e2338]
+          - row
+            - cell
+            - cell "5+" [ref=e882]
+              - link "5+" [ref=e2339]
+            - cell "<1%" [ref=e883]
+              - link "<1%" [ref=e2340]
+          - row
+            - cell
+            - cell "6+" [ref=e884]
+              - link "6+" [ref=e2341]
+            - cell "<1%" [ref=e885]
+              - link "<1%" [ref=e2342]
+          - row
+            - rowheader "World Cup: Silver Boot Winner" [ref=e886]
+              - link "World Cup: Silver Boot Winner" [ref=e2343]
+            - cell "Kylian Mbappé" [ref=e887]
+              - link "Kylian Mbappé" [ref=e2344]
+            - cell "56%" [ref=e888]
+              - link "56%" [ref=e2345]
+          - row
+            - cell
+            - cell "Lionel Messi" [ref=e889]
+              - link "Lionel Messi" [ref=e2346]
+            - cell "43%" [ref=e890]
+              - link "43%" [ref=e2347]
+          - row
+            - cell
+            - cell "Harry Kane" [ref=e891]
+              - link "Harry Kane" [ref=e2348]
+            - cell "2%" [ref=e892]
+              - link "2%" [ref=e2349]
+          - row
+            - cell
+            - cell "Mikel Oyarzabal" [ref=e893]
+              - link "Mikel Oyarzabal" [ref=e2350]
+            - cell "<1%" [ref=e894]
+              - link "<1%" [ref=e2351]
+          - row
+            - cell
+            - cell "Jude Bellingham" [ref=e895]
+              - link "Jude Bellingham" [ref=e2352]
+            - cell "1%" [ref=e896]
+              - link "1%" [ref=e2353]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e897]
+              - link "Lamine Yamal" [ref=e2354]
+            - cell "<1%" [ref=e898]
+              - link "<1%" [ref=e2355]
+          - row
+            - cell
+            - cell "Ousmane Dembélé" [ref=e899]
+              - link "Ousmane Dembélé" [ref=e2356]
+            - cell "<1%" [ref=e900]
+              - link "<1%" [ref=e2357]
+          - row
+            - cell
+            - cell "Lautaro Martínez" [ref=e901]
+              - link "Lautaro Martínez" [ref=e2358]
+            - cell "<1%" [ref=e902]
+              - link "<1%" [ref=e2359]
+          - row
+            - cell
+            - cell "Álvaro Morata" [ref=e903]
+              - link "Álvaro Morata" [ref=e2360]
+            - cell "<1%" [ref=e904]
+              - link "<1%" [ref=e2361]
+          - row
+            - cell
+            - cell "Julián Álvarez" [ref=e905]
+              - link "Julián Álvarez" [ref=e2362]
+            - cell "<1%" [ref=e906]
+              - link "<1%" [ref=e2363]
+          - row
+            - cell
+            - cell "Ferran Torres" [ref=e907]
+              - link "Ferran Torres" [ref=e2364]
+            - cell "<1%" [ref=e908]
+              - link "<1%" [ref=e2365]
+          - row
+            - cell
+            - cell "Bukayo Saka" [ref=e909]
+              - link "Bukayo Saka" [ref=e2366]
+            - cell "<1%" [ref=e910]
+              - link "<1%" [ref=e2367]
+          - row
+            - rowheader "World Cup Final: U.S. Viewership" [ref=e911]
+              - link "World Cup Final: U.S. Viewership" [ref=e2368]
+            - cell "58m+" [ref=e912]
+              - link "58m+" [ref=e2369]
+            - cell "28%" [ref=e913]
+              - link "28%" [ref=e2370]
+          - row
+            - cell
+            - cell "46m-50m" [ref=e914]
+              - link "46m-50m" [ref=e2371]
+            - cell "17%" [ref=e915]
+              - link "17%" [ref=e2372]
+          - row
+            - cell
+            - cell "50m-54m" [ref=e916]
+              - link "50m-54m" [ref=e2373]
+            - cell "16%" [ref=e917]
+              - link "16%" [ref=e2374]
+          - row
+            - cell
+            - cell "54m-58m" [ref=e918]
+              - link "54m-58m" [ref=e2375]
+            - cell "14%" [ref=e919]
+              - link "14%" [ref=e2376]
+          - row
+            - cell
+            - cell "42m-46m" [ref=e920]
+              - link "42m-46m" [ref=e2377]
+            - cell "10%" [ref=e921]
+              - link "10%" [ref=e2378]
+          - row
+            - cell
+            - cell "38m-42m" [ref=e922]
+              - link "38m-42m" [ref=e2379]
+            - cell "7%" [ref=e923]
+              - link "7%" [ref=e2380]
+          - row
+            - cell
+            - cell "34m-38m" [ref=e924]
+              - link "34m-38m" [ref=e2381]
+            - cell "3%" [ref=e925]
+              - link "3%" [ref=e2382]
+          - row
+            - cell
+            - cell "<30m" [ref=e926]
+              - link "<30m" [ref=e2383]
+            - cell "2%" [ref=e927]
+              - link "2%" [ref=e2384]
+          - row
+            - cell
+            - cell "30m-34m" [ref=e928]
+              - link "30m-34m" [ref=e2385]
+            - cell "1%" [ref=e929]
+              - link "1%" [ref=e2386]
+          - row
+            - rowheader "4th Place Finish" [ref=e930]
+              - link "4th Place Finish" [ref=e2387]
+            - cell "England" [ref=e931]
+              - link "England" [ref=e2388]
+            - cell "67%" [ref=e932]
+              - link "67%" [ref=e2389]
+          - row
+            - cell
+            - cell "France" [ref=e933]
+              - link "France" [ref=e2390]
+            - cell "35%" [ref=e934]
+              - link "35%" [ref=e2391]
+          - row
+            - rowheader "Justin Bieber monthly listeners hits __ by August 31?" [ref=e935]
+              - link "Justin Bieber monthly listeners hits __ by August 31?" [ref=e2392]
+            - cell "↑ 130m" [ref=e936]
+              - link "↑ 130m" [ref=e2393]
+            - cell "60%" [ref=e937]
+              - link "60%" [ref=e2394]
+          - row
+            - cell
+            - cell "↑ 140m" [ref=e938]
+              - link "↑ 140m" [ref=e2395]
+            - cell "44%" [ref=e939]
+              - link "44%" [ref=e2396]
+          - row
+            - cell
+            - cell "↑ 150m" [ref=e940]
+              - link "↑ 150m" [ref=e2397]
+            - cell "19%" [ref=e941]
+              - link "19%" [ref=e2398]
+          - row
+            - cell
+            - cell "↑ 160m" [ref=e942]
+              - link "↑ 160m" [ref=e2399]
+            - cell "5%" [ref=e943]
+              - link "5%" [ref=e2400]
+          - row
+            - rowheader "World Cup Finals: Goal Scored During Minute..." [ref=e944]
+              - link "World Cup Finals: Goal Scored During Minute..." [ref=e2401]
+            - cell "76-90" [ref=e945]
+              - link "76-90" [ref=e2402]
+            - cell "48%" [ref=e946]
+              - link "48%" [ref=e2403]
+          - row
+            - cell
+            - cell "106-120" [ref=e947]
+              - link "106-120" [ref=e2404]
+            - cell "44%" [ref=e948]
+              - link "44%" [ref=e2405]
+          - row
+            - cell
+            - cell "91-105" [ref=e949]
+              - link "91-105" [ref=e2406]
+            - cell "42%" [ref=e950]
+              - link "42%" [ref=e2407]
+          - row
+            - cell
+            - cell "61-75" [ref=e951]
+              - link "61-75" [ref=e2408]
+            - cell "37%" [ref=e952]
+              - link "37%" [ref=e2409]
+          - row
+            - cell
+            - cell "31-45" [ref=e953]
+              - link "31-45" [ref=e2410]
+            - cell "34%" [ref=e954]
+              - link "34%" [ref=e2411]
+          - row
+            - cell
+            - cell "16-30" [ref=e955]
+              - link "16-30" [ref=e2412]
+            - cell "31%" [ref=e956]
+              - link "31%" [ref=e2413]
+          - row
+            - cell
+            - cell "46-60" [ref=e957]
+              - link "46-60" [ref=e2414]
+            - cell "30%" [ref=e958]
+              - link "30%" [ref=e2415]
+          - row
+            - cell
+            - cell "1-15" [ref=e959]
+              - link "1-15" [ref=e2416]
+            - cell "19%" [ref=e960]
+              - link "19%" [ref=e2417]
+          - row
+            - rowheader "World Cup Finals: Player to Miss Penalty" [ref=e961]
+              - link "World Cup Finals: Player to Miss Penalty" [ref=e2418]
+            - cell "Nico Paz" [ref=e962]
+              - link "Nico Paz" [ref=e2419]
+            - cell "6%" [ref=e963]
+              - link "6%" [ref=e2420]
+          - row
+            - cell
+            - cell "Lionel Messi" [ref=e964]
+              - link "Lionel Messi" [ref=e2421]
+            - cell "5%" [ref=e965]
+              - link "5%" [ref=e2422]
+          - row
+            - cell
+            - cell "Mikel Oyarzabal" [ref=e966]
+              - link "Mikel Oyarzabal" [ref=e2423]
+            - cell "3%" [ref=e967]
+              - link "3%" [ref=e2424]
+          - row
+            - cell
+            - cell "Lautaro Martínez" [ref=e968]
+              - link "Lautaro Martínez" [ref=e2425]
+            - cell "3%" [ref=e969]
+              - link "3%" [ref=e2426]
+          - row
+            - cell
+            - cell "Rodri" [ref=e970]
+              - link "Rodri" [ref=e2427]
+            - cell "2%" [ref=e971]
+              - link "2%" [ref=e2428]
+          - row
+            - cell
+            - cell "Ferran Torres" [ref=e972]
+              - link "Ferran Torres" [ref=e2429]
+            - cell "2%" [ref=e973]
+              - link "2%" [ref=e2430]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e974]
+              - link "Lamine Yamal" [ref=e2431]
+            - cell "2%" [ref=e975]
+              - link "2%" [ref=e2432]
+          - row
+            - cell
+            - cell "Alexis Mac Allister" [ref=e976]
+              - link "Alexis Mac Allister" [ref=e2433]
+            - cell "2%" [ref=e977]
+              - link "2%" [ref=e2434]
+          - row
+            - cell
+            - cell "Enzo Fernández" [ref=e978]
+              - link "Enzo Fernández" [ref=e2435]
+            - cell "2%" [ref=e979]
+              - link "2%" [ref=e2436]
+          - row
+            - cell
+            - cell "Julián Álvarez" [ref=e980]
+              - link "Julián Álvarez" [ref=e2437]
+            - cell "2%" [ref=e981]
+              - link "2%" [ref=e2438]
+          - row
+            - cell
+            - cell "Dani Olmo" [ref=e982]
+              - link "Dani Olmo" [ref=e2439]
+            - cell "<1%" [ref=e983]
+              - link "<1%" [ref=e2440]
+          - row
+            - cell
+            - cell "David Raya" [ref=e984]
+              - link "David Raya" [ref=e2441]
+            - cell "<1%" [ref=e985]
+              - link "<1%" [ref=e2442]
+          - row
+            - cell
+            - cell "Joan García" [ref=e986]
+              - link "Joan García" [ref=e2443]
+            - cell "<1%" [ref=e987]
+              - link "<1%" [ref=e2444]
+          - row
+            - cell
+            - cell "Unai Simón" [ref=e988]
+              - link "Unai Simón" [ref=e2445]
+            - cell "<1%" [ref=e989]
+              - link "<1%" [ref=e2446]
+          - row
+            - cell
+            - cell "Marc Pubill" [ref=e990]
+              - link "Marc Pubill" [ref=e2447]
+            - cell "<1%" [ref=e991]
+              - link "<1%" [ref=e2448]
+          - row
+            - cell
+            - cell "Álex Grimaldo" [ref=e992]
+              - link "Álex Grimaldo" [ref=e2449]
+            - cell "<1%" [ref=e993]
+              - link "<1%" [ref=e2450]
+          - row
+            - cell
+            - cell "Eric García" [ref=e994]
+              - link "Eric García" [ref=e2451]
+            - cell "<1%" [ref=e995]
+              - link "<1%" [ref=e2452]
+          - row
+            - cell
+            - cell "Marcos Llorente" [ref=e996]
+              - link "Marcos Llorente" [ref=e2453]
+            - cell "<1%" [ref=e997]
+              - link "<1%" [ref=e2454]
+          - row
+            - cell
+            - cell "Pedro Porro" [ref=e998]
+              - link "Pedro Porro" [ref=e2455]
+            - cell "<1%" [ref=e999]
+              - link "<1%" [ref=e2456]
+          - row
+            - cell
+            - cell "Aymeric Laporte" [ref=e1000]
+              - link "Aymeric Laporte" [ref=e2457]
+            - cell "<1%" [ref=e1001]
+              - link "<1%" [ref=e2458]
+          - row
+            - cell
+            - cell "Pau Cubarsí" [ref=e1002]
+              - link "Pau Cubarsí" [ref=e2459]
+            - cell "<1%" [ref=e1003]
+              - link "<1%" [ref=e2460]
+          - row
+            - cell
+            - cell "Marc Cucurella" [ref=e1004]
+              - link "Marc Cucurella" [ref=e2461]
+            - cell "<1%" [ref=e1005]
+              - link "<1%" [ref=e2462]
+          - row
+            - cell
+            - cell "Mikel Merino" [ref=e1006]
+              - link "Mikel Merino" [ref=e2463]
+            - cell "<1%" [ref=e1007]
+              - link "<1%" [ref=e2464]
+          - row
+            - cell
+            - cell "Fabián Ruiz" [ref=e1008]
+              - link "Fabián Ruiz" [ref=e2465]
+            - cell "<1%" [ref=e1009]
+              - link "<1%" [ref=e2466]
+          - row
+            - cell
+            - cell "Gavi" [ref=e1010]
+              - link "Gavi" [ref=e2467]
+            - cell "<1%" [ref=e1011]
+              - link "<1%" [ref=e2468]
+          - row
+            - cell
+            - cell "Álex Baena" [ref=e1012]
+              - link "Álex Baena" [ref=e2469]
+            - cell "<1%" [ref=e1013]
+              - link "<1%" [ref=e2470]
+          - row
+            - cell
+            - cell "Martín Zubimendi" [ref=e1014]
+              - link "Martín Zubimendi" [ref=e2471]
+            - cell "<1%" [ref=e1015]
+              - link "<1%" [ref=e2472]
+          - row
+            - cell
+            - cell "Pedri" [ref=e1016]
+              - link "Pedri" [ref=e2473]
+            - cell "<1%" [ref=e1017]
+              - link "<1%" [ref=e2474]
+          - row
+            - cell
+            - cell "Yeremy Pino" [ref=e1018]
+              - link "Yeremy Pino" [ref=e2475]
+            - cell "<1%" [ref=e1019]
+              - link "<1%" [ref=e2476]
+          - row
+            - cell
+            - cell "Nico Williams" [ref=e1020]
+              - link "Nico Williams" [ref=e2477]
+            - cell "<1%" [ref=e1021]
+              - link "<1%" [ref=e2478]
+          - row
+            - cell
+            - cell "Víctor Muñoz" [ref=e1022]
+              - link "Víctor Muñoz" [ref=e2479]
+            - cell "<1%" [ref=e1023]
+              - link "<1%" [ref=e2480]
+          - row
+            - cell
+            - cell "Borja Iglesias" [ref=e1024]
+              - link "Borja Iglesias" [ref=e2481]
+            - cell "<1%" [ref=e1025]
+              - link "<1%" [ref=e2482]
+          - row
+            - cell
+            - cell "Juan Musso" [ref=e1026]
+              - link "Juan Musso" [ref=e2483]
+            - cell "<1%" [ref=e1027]
+              - link "<1%" [ref=e2484]
+          - row
+            - cell
+            - cell "Gerónimo Rulli" [ref=e1028]
+              - link "Gerónimo Rulli" [ref=e2485]
+            - cell "<1%" [ref=e1029]
+              - link "<1%" [ref=e2486]
+          - row
+            - cell
+            - cell "Emiliano Martínez" [ref=e1030]
+              - link "Emiliano Martínez" [ref=e2487]
+            - cell "<1%" [ref=e1031]
+              - link "<1%" [ref=e2488]
+          - row
+            - cell
+            - cell "Marcos Senesi" [ref=e1032]
+              - link "Marcos Senesi" [ref=e2489]
+            - cell "<1%" [ref=e1033]
+              - link "<1%" [ref=e2490]
+          - row
+            - cell
+            - cell "Nicolás Tagliafico" [ref=e1034]
+              - link "Nicolás Tagliafico" [ref=e2491]
+            - cell "<1%" [ref=e1035]
+              - link "<1%" [ref=e2492]
+          - row
+            - cell
+            - cell "Gonzalo Montiel" [ref=e1036]
+              - link "Gonzalo Montiel" [ref=e2493]
+            - cell "<1%" [ref=e1037]
+              - link "<1%" [ref=e2494]
+          - row
+            - cell
+            - cell "Lisandro Martínez" [ref=e1038]
+              - link "Lisandro Martínez" [ref=e2495]
+            - cell "<1%" [ref=e1039]
+              - link "<1%" [ref=e2496]
+          - row
+            - cell
+            - cell "Cristian Romero" [ref=e1040]
+              - link "Cristian Romero" [ref=e2497]
+            - cell "<1%" [ref=e1041]
+              - link "<1%" [ref=e2498]
+          - row
+            - cell
+            - cell "Nicolás Otamendi" [ref=e1042]
+              - link "Nicolás Otamendi" [ref=e2499]
+            - cell "<1%" [ref=e1043]
+              - link "<1%" [ref=e2500]
+          - row
+            - cell
+            - cell "Facundo Medina" [ref=e1044]
+              - link "Facundo Medina" [ref=e2501]
+            - cell "<1%" [ref=e1045]
+              - link "<1%" [ref=e2502]
+          - row
+            - cell
+            - cell "Nahuel Molina" [ref=e1046]
+              - link "Nahuel Molina" [ref=e2503]
+            - cell "<1%" [ref=e1047]
+              - link "<1%" [ref=e2504]
+          - row
+            - cell
+            - cell "Leandro Paredes" [ref=e1048]
+              - link "Leandro Paredes" [ref=e2505]
+            - cell "<1%" [ref=e1049]
+              - link "<1%" [ref=e2506]
+          - row
+            - cell
+            - cell "Rodrigo De Paul" [ref=e1050]
+              - link "Rodrigo De Paul" [ref=e2507]
+            - cell "<1%" [ref=e1051]
+              - link "<1%" [ref=e2508]
+          - row
+            - cell
+            - cell "Valentín Barco" [ref=e1052]
+              - link "Valentín Barco" [ref=e2509]
+            - cell "<1%" [ref=e1053]
+              - link "<1%" [ref=e2510]
+          - row
+            - cell
+            - cell "Giovani Lo Celso" [ref=e1054]
+              - link "Giovani Lo Celso" [ref=e2511]
+            - cell "<1%" [ref=e1055]
+              - link "<1%" [ref=e2512]
+          - row
+            - cell
+            - cell "Exequiel Palacios" [ref=e1056]
+              - link "Exequiel Palacios" [ref=e2513]
+            - cell "<1%" [ref=e1057]
+              - link "<1%" [ref=e2514]
+          - row
+            - cell
+            - cell "Nico González" [ref=e1058]
+              - link "Nico González" [ref=e2515]
+            - cell "<1%" [ref=e1059]
+              - link "<1%" [ref=e2516]
+          - row
+            - cell
+            - cell "Thiago Almada" [ref=e1060]
+              - link "Thiago Almada" [ref=e2517]
+            - cell "<1%" [ref=e1061]
+              - link "<1%" [ref=e2518]
+          - row
+            - cell
+            - cell "Giuliano Simeone" [ref=e1062]
+              - link "Giuliano Simeone" [ref=e2519]
+            - cell "<1%" [ref=e1063]
+              - link "<1%" [ref=e2520]
+          - row
+            - cell
+            - cell "José Manuel López" [ref=e1064]
+              - link "José Manuel López" [ref=e2521]
+            - cell "<1%" [ref=e1065]
+              - link "<1%" [ref=e2522]
+          - row
+            - rowheader "World Cup Final: First Madonna Song at Halftime Show?" [ref=e1066]
+              - link "World Cup Final: First Madonna Song at Halftime Show?" [ref=e2523]
+            - cell "Love Sensation" [ref=e1067]
+              - link "Love Sensation" [ref=e2524]
+            - cell "32%" [ref=e1068]
+              - link "32%" [ref=e2525]
+          - row
+            - cell
+            - cell "Like a Prayer" [ref=e1069]
+              - link "Like a Prayer" [ref=e2526]
+            - cell "24%" [ref=e1070]
+              - link "24%" [ref=e2527]
+          - row
+            - cell
+            - cell "4 Minutes" [ref=e1071]
+              - link "4 Minutes" [ref=e2528]
+            - cell "16%" [ref=e1072]
+              - link "16%" [ref=e2529]
+          - row
+            - cell
+            - cell "Dai Dai" [ref=e1073]
+              - link "Dai Dai" [ref=e2530]
+            - cell "8%" [ref=e1074]
+              - link "8%" [ref=e2531]
+          - row
+            - cell
+            - cell "Vogue" [ref=e1075]
+              - link "Vogue" [ref=e2532]
+            - cell "6%" [ref=e1076]
+              - link "6%" [ref=e2533]
+          - row
+            - cell
+            - cell "Into the Groove" [ref=e1077]
+              - link "Into the Groove" [ref=e2534]
+            - cell "6%" [ref=e1078]
+              - link "6%" [ref=e2535]
+          - row
+            - cell
+            - cell "I Feel So Free" [ref=e1079]
+              - link "I Feel So Free" [ref=e2536]
+            - cell "6%" [ref=e1080]
+              - link "6%" [ref=e2537]
+          - row
+            - cell
+            - cell "Bring Your Love" [ref=e1081]
+              - link "Bring Your Love" [ref=e2538]
+            - cell "5%" [ref=e1082]
+              - link "5%" [ref=e2539]
+          - row
+            - cell
+            - cell "Hung Up" [ref=e1083]
+              - link "Hung Up" [ref=e2540]
+            - cell "5%" [ref=e1084]
+              - link "5%" [ref=e2541]
+          - row
+            - cell
+            - cell "Popular" [ref=e1085]
+              - link "Popular" [ref=e2542]
+            - cell "5%" [ref=e1086]
+              - link "5%" [ref=e2543]
+          - row
+            - cell
+            - cell "Viva La Vida" [ref=e1087]
+              - link "Viva La Vida" [ref=e2544]
+            - cell "5%" [ref=e1088]
+              - link "5%" [ref=e2545]
+          - row
+            - cell
+            - cell "Material Girl" [ref=e1089]
+              - link "Material Girl" [ref=e2546]
+            - cell "4%" [ref=e1090]
+              - link "4%" [ref=e2547]
+          - row
+            - rowheader "2nd Place Finish" [ref=e1091]
+              - link "2nd Place Finish" [ref=e2548]
+            - cell "Argentina" [ref=e1092]
+              - link "Argentina" [ref=e2549]
+            - cell "59%" [ref=e1093]
+              - link "59%" [ref=e2550]
+          - row
+            - cell
+            - cell "Spain" [ref=e1094]
+              - link "Spain" [ref=e2551]
+            - cell "42%" [ref=e1095]
+              - link "42%" [ref=e2552]
+          - row
+            - rowheader "World Cup Final: First Shakira Song at Halftime Show?" [ref=e1096]
+              - link "World Cup Final: First Shakira Song at Halftime Show?" [ref=e2553]
+            - cell "Dai Dai" [ref=e1097]
+              - link "Dai Dai" [ref=e2554]
+            - cell "73%" [ref=e1098]
+              - link "73%" [ref=e2555]
+          - row
+            - cell
+            - cell "Chantaje" [ref=e1099]
+              - link "Chantaje" [ref=e2556]
+            - cell "11%" [ref=e1100]
+              - link "11%" [ref=e2557]
+          - row
+            - cell
+            - cell "Hips Don't Lie" [ref=e1101]
+              - link "Hips Don't Lie" [ref=e2558]
+            - cell "5%" [ref=e1102]
+              - link "5%" [ref=e2559]
+          - row
+            - cell
+            - cell "Whenever, Wherever" [ref=e1103]
+              - link "Whenever, Wherever" [ref=e2560]
+            - cell "5%" [ref=e1104]
+              - link "5%" [ref=e2561]
+          - row
+            - cell
+            - cell "Can't Remember to Forget You" [ref=e1105]
+              - link "Can't Remember to Forget You" [ref=e2562]
+            - cell "5%" [ref=e1106]
+              - link "5%" [ref=e2563]
+          - row
+            - cell
+            - cell "GIRL LIKE ME" [ref=e1107]
+              - link "GIRL LIKE ME" [ref=e2564]
+            - cell "3%" [ref=e1108]
+              - link "3%" [ref=e2565]
+          - row
+            - cell
+            - cell "Viva La Vida" [ref=e1109]
+              - link "Viva La Vida" [ref=e2566]
+            - cell "3%" [ref=e1110]
+              - link "3%" [ref=e2567]
+          - row
+            - cell
+            - cell "Zoo" [ref=e1111]
+              - link "Zoo" [ref=e2568]
+            - cell "2%" [ref=e1112]
+              - link "2%" [ref=e2569]
+          - row
+            - cell
+            - cell "Waka Waka (This Time for Africa)" [ref=e1113]
+              - link "Waka Waka (This Time for Africa)" [ref=e2570]
+            - cell "1%" [ref=e1114]
+              - link "1%" [ref=e2571]
+          - row
+            - cell
+            - cell "La Tortura" [ref=e1115]
+              - link "La Tortura" [ref=e2572]
+            - cell "1%" [ref=e1116]
+              - link "1%" [ref=e2573]
+          - row
+            - cell
+            - cell "TQG" [ref=e1117]
+              - link "TQG" [ref=e2574]
+            - cell "<1%" [ref=e1118]
+              - link "<1%" [ref=e2575]
+          - row
+            - rowheader "Glove Brand Worn by Golden Glove Winner" [ref=e1119]
+              - link "Glove Brand Worn by Golden Glove Winner" [ref=e2576]
+            - cell "Reusch" [ref=e1120]
+              - link "Reusch" [ref=e2577]
+            - cell "83%" [ref=e1121]
+              - link "83%" [ref=e2578]
+          - row
+            - cell
+            - cell "RG" [ref=e1122]
+              - link "RG" [ref=e2579]
+            - cell "30%" [ref=e1123]
+              - link "30%" [ref=e2580]
+          - row
+            - cell
+            - cell "The One Glove" [ref=e1124]
+              - link "The One Glove" [ref=e2581]
+            - cell "21%" [ref=e1125]
+              - link "21%" [ref=e2582]
+          - row
+            - cell
+            - cell "Adidas" [ref=e1126]
+              - link "Adidas" [ref=e2583]
+            - cell "18%" [ref=e1127]
+              - link "18%" [ref=e2584]
+          - row
+            - cell
+            - cell "Elite Sport" [ref=e1128]
+              - link "Elite Sport" [ref=e2585]
+            - cell "9%" [ref=e1129]
+              - link "9%" [ref=e2586]
+          - row
+            - cell
+            - cell "T1tan" [ref=e1130]
+              - link "T1tan" [ref=e2587]
+            - cell "8%" [ref=e1131]
+              - link "8%" [ref=e2588]
+          - row
+            - cell
+            - cell "Ho Soccer" [ref=e1132]
+              - link "Ho Soccer" [ref=e2589]
+            - cell "7%" [ref=e1133]
+              - link "7%" [ref=e2590]
+          - row
+            - cell
+            - cell "Puma" [ref=e1134]
+              - link "Puma" [ref=e2591]
+            - cell "6%" [ref=e1135]
+              - link "6%" [ref=e2592]
+          - row
+            - cell
+            - cell "Uhlsport" [ref=e1136]
+              - link "Uhlsport" [ref=e2593]
+            - cell "5%" [ref=e1137]
+              - link "5%" [ref=e2594]
+          - row
+            - cell
+            - cell "West Coast Goalkeeping" [ref=e1138]
+              - link "West Coast Goalkeeping" [ref=e2595]
+            - cell "4%" [ref=e1139]
+              - link "4%" [ref=e2596]
+          - row
+            - cell
+            - cell "N1 Goalkeeper" [ref=e1140]
+              - link "N1 Goalkeeper" [ref=e2597]
+            - cell "4%" [ref=e1141]
+              - link "4%" [ref=e2598]
+          - row
+            - cell
+            - cell "Nike" [ref=e1142]
+              - link "Nike" [ref=e2599]
+            - cell "2%" [ref=e1143]
+              - link "2%" [ref=e2600]
+          - row
+            - cell
+            - cell "Voit" [ref=e1144]
+              - link "Voit" [ref=e2601]
+            - cell "2%" [ref=e1145]
+              - link "2%" [ref=e2602]
+          - row
+            - cell
+            - cell "Rinat" [ref=e1146]
+              - link "Rinat" [ref=e2603]
+            - cell "<1%" [ref=e1147]
+              - link "<1%" [ref=e2604]
+          - row
+            - cell
+            - cell "Raptor" [ref=e1148]
+              - link "Raptor" [ref=e2605]
+            - cell "<1%" [ref=e1149]
+              - link "<1%" [ref=e2606]
+          - row
+            - cell
+            - cell "Sells" [ref=e1150]
+              - link "Sells" [ref=e2607]
+            - cell "<1%" [ref=e1151]
+              - link "<1%" [ref=e2608]
+          - row
+            - cell
+            - cell "Onekeeper" [ref=e1152]
+              - link "Onekeeper" [ref=e2609]
+            - cell "<1%" [ref=e1153]
+              - link "<1%" [ref=e2610]
+          - row
+            - cell
+            - cell "Twofive" [ref=e1154]
+              - link "Twofive" [ref=e2611]
+            - cell "<1%" [ref=e1155]
+              - link "<1%" [ref=e2612]
+          - row
+            - cell
+            - cell "Real Tec" [ref=e1156]
+              - link "Real Tec" [ref=e2613]
+            - cell "<1%" [ref=e1157]
+              - link "<1%" [ref=e2614]
+          - row
+            - cell
+            - cell "Calma" [ref=e1158]
+              - link "Calma" [ref=e2615]
+            - cell "<1%" [ref=e1159]
+              - link "<1%" [ref=e2616]
+          - row
+            - cell
+            - cell "Senda" [ref=e1160]
+              - link "Senda" [ref=e2617]
+            - cell "<1%" [ref=e1161]
+              - link "<1%" [ref=e2618]
+          - row
+            - rowheader "World Cup Final: First Justin Bieber Song at Halftime Show?" [ref=e1162]
+              - link "World Cup Final: First Justin Bieber Song at Halftime Show?" [ref=e2619]
+            - cell "Despacito" [ref=e1163]
+              - link "Despacito" [ref=e2620]
+            - cell "25%" [ref=e1164]
+              - link "25%" [ref=e2621]
+          - row
+            - cell
+            - cell "Beauty And A Beat" [ref=e1165]
+              - link "Beauty And A Beat" [ref=e2622]
+            - cell "22%" [ref=e1166]
+              - link "22%" [ref=e2623]
+          - row
+            - cell
+            - cell "Daisies" [ref=e1167]
+              - link "Daisies" [ref=e2624]
+            - cell "15%" [ref=e1168]
+              - link "15%" [ref=e2625]
+          - row
+            - cell
+            - cell "Where Are Ü Now" [ref=e1169]
+              - link "Where Are Ü Now" [ref=e2626]
+            - cell "14%" [ref=e1170]
+              - link "14%" [ref=e2627]
+          - row
+            - cell
+            - cell "STAY" [ref=e1171]
+              - link "STAY" [ref=e2628]
+            - cell "13%" [ref=e1172]
+              - link "13%" [ref=e2629]
+          - row
+            - cell
+            - cell "Ghost" [ref=e1173]
+              - link "Ghost" [ref=e2630]
+            - cell "13%" [ref=e1174]
+              - link "13%" [ref=e2631]
+          - row
+            - cell
+            - cell "Confident" [ref=e1175]
+              - link "Confident" [ref=e2632]
+            - cell "12%" [ref=e1176]
+              - link "12%" [ref=e2633]
+          - row
+            - cell
+            - cell "Eenie Meenie" [ref=e1177]
+              - link "Eenie Meenie" [ref=e2634]
+            - cell "12%" [ref=e1178]
+              - link "12%" [ref=e2635]
+          - row
+            - cell
+            - cell "Never Say Never" [ref=e1179]
+              - link "Never Say Never" [ref=e2636]
+            - cell "11%" [ref=e1180]
+              - link "11%" [ref=e2637]
+          - row
+            - cell
+            - cell "Viva La Vida" [ref=e1181]
+              - link "Viva La Vida" [ref=e2638]
+            - cell "11%" [ref=e1182]
+              - link "11%" [ref=e2639]
+          - row
+            - cell
+            - cell "Yummy" [ref=e1183]
+              - link "Yummy" [ref=e2640]
+            - cell "11%" [ref=e1184]
+              - link "11%" [ref=e2641]
+          - row
+            - cell
+            - cell "Yukon" [ref=e1185]
+              - link "Yukon" [ref=e2642]
+            - cell "10%" [ref=e1186]
+              - link "10%" [ref=e2643]
+          - row
+            - cell
+            - cell "Baby" [ref=e1187]
+              - link "Baby" [ref=e2644]
+            - cell "7%" [ref=e1188]
+              - link "7%" [ref=e2645]
+          - row
+            - cell
+            - cell "Love Yourself" [ref=e1189]
+              - link "Love Yourself" [ref=e2646]
+            - cell "6%" [ref=e1190]
+              - link "6%" [ref=e2647]
+          - row
+            - cell
+            - cell "Let Me Love You" [ref=e1191]
+              - link "Let Me Love You" [ref=e2648]
+            - cell "5%" [ref=e1192]
+              - link "5%" [ref=e2649]
+          - row
+            - cell
+            - cell "Sorry" [ref=e1193]
+              - link "Sorry" [ref=e2650]
+            - cell "4%" [ref=e1194]
+              - link "4%" [ref=e2651]
+          - row
+            - cell
+            - cell "Dai Dai" [ref=e1195]
+              - link "Dai Dai" [ref=e2652]
+            - cell "3%" [ref=e1196]
+              - link "3%" [ref=e2653]
+          - row
+            - rowheader "World Cup Final: First BTS Song at Halftime Show?" [ref=e1197]
+              - link "World Cup Final: First BTS Song at Halftime Show?" [ref=e2654]
+            - cell "Dynamite" [ref=e1198]
+              - link "Dynamite" [ref=e2655]
+            - cell "39%" [ref=e1199]
+              - link "39%" [ref=e2656]
+          - row
+            - cell
+            - cell "NORMAL" [ref=e1200]
+              - link "NORMAL" [ref=e2657]
+            - cell "5%" [ref=e1201]
+              - link "5%" [ref=e2658]
+          - row
+            - cell
+            - cell "SWIM" [ref=e1202]
+              - link "SWIM" [ref=e2659]
+            - cell "4%" [ref=e1203]
+              - link "4%" [ref=e2660]
+          - row
+            - cell
+            - cell "Hooligan" [ref=e1204]
+              - link "Hooligan" [ref=e2661]
+            - cell "4%" [ref=e1205]
+              - link "4%" [ref=e2662]
+          - row
+            - cell
+            - cell "2.0" [ref=e1206]
+              - link "2.0" [ref=e2663]
+            - cell "4%" [ref=e1207]
+              - link "4%" [ref=e2664]
+          - row
+            - cell
+            - cell "Dai Dai" [ref=e1208]
+              - link "Dai Dai" [ref=e2665]
+            - cell "4%" [ref=e1209]
+              - link "4%" [ref=e2666]
+          - row
+            - cell
+            - cell "Aliens" [ref=e1210]
+              - link "Aliens" [ref=e2667]
+            - cell "4%" [ref=e1211]
+              - link "4%" [ref=e2668]
+          - row
+            - cell
+            - cell "Viva La Viva" [ref=e1212]
+              - link "Viva La Viva" [ref=e2669]
+            - cell "4%" [ref=e1213]
+              - link "4%" [ref=e2670]
+          - row
+            - cell
+            - cell "Boy With Luv" [ref=e1214]
+              - link "Boy With Luv" [ref=e2671]
+            - cell "4%" [ref=e1215]
+              - link "4%" [ref=e2672]
+          - row
+            - cell
+            - cell "they don't know 'bout us" [ref=e1216]
+              - link "they don't know 'bout us" [ref=e2673]
+            - cell "4%" [ref=e1217]
+              - link "4%" [ref=e2674]
+          - row
+            - cell
+            - cell "FAKE LOVE" [ref=e1218]
+              - link "FAKE LOVE" [ref=e2675]
+            - cell "4%" [ref=e1219]
+              - link "4%" [ref=e2676]
+          - row
+            - cell
+            - cell "Into the Sun" [ref=e1220]
+              - link "Into the Sun" [ref=e2677]
+            - cell "4%" [ref=e1221]
+              - link "4%" [ref=e2678]
+          - row
+            - cell
+            - cell "Body to Body" [ref=e1222]
+              - link "Body to Body" [ref=e2679]
+            - cell "3%" [ref=e1223]
+              - link "3%" [ref=e2680]
+          - row
+            - cell
+            - cell "FYA" [ref=e1224]
+              - link "FYA" [ref=e2681]
+            - cell "3%" [ref=e1225]
+              - link "3%" [ref=e2682]
+          - row
+            - cell
+            - cell "Like Animals" [ref=e1226]
+              - link "Like Animals" [ref=e2683]
+            - cell "3%" [ref=e1227]
+              - link "3%" [ref=e2684]
+          - row
+            - rowheader "World Cup Final: Penalty Shootout Exact Score" [ref=e1228]
+              - link "World Cup Final: Penalty Shootout Exact Score" [ref=e2685]
+            - cell "Any Other Score" [ref=e1229]
+              - link "Any Other Score" [ref=e2686]
+            - cell "83%" [ref=e1230]
+              - link "83%" [ref=e2687]
+          - row
+            - cell
+            - cell "Spain 4 - 2 Argentina" [ref=e1231]
+              - link "Spain 4 - 2 Argentina" [ref=e2688]
+            - cell "4%" [ref=e1232]
+              - link "4%" [ref=e2689]
+          - row
+            - cell
+            - cell "Spain 2 - 4 Argentina" [ref=e1233]
+              - link "Spain 2 - 4 Argentina" [ref=e2690]
+            - cell "3%" [ref=e1234]
+              - link "3%" [ref=e2691]
+          - row
+            - cell
+            - cell "Spain 3 - 4 Argentina" [ref=e1235]
+              - link "Spain 3 - 4 Argentina" [ref=e2692]
+            - cell "3%" [ref=e1236]
+              - link "3%" [ref=e2693]
+          - row
+            - cell
+            - cell "Spain 4 - 3 Argentina" [ref=e1237]
+              - link "Spain 4 - 3 Argentina" [ref=e2694]
+            - cell "3%" [ref=e1238]
+              - link "3%" [ref=e2695]
+          - row
+            - cell
+            - cell "Spain 4 - 5 Argentina" [ref=e1239]
+              - link "Spain 4 - 5 Argentina" [ref=e2696]
+            - cell "3%" [ref=e1240]
+              - link "3%" [ref=e2697]
+          - row
+            - cell
+            - cell "Spain 5 - 4 Argentina" [ref=e1241]
+              - link "Spain 5 - 4 Argentina" [ref=e2698]
+            - cell "3%" [ref=e1242]
+              - link "3%" [ref=e2699]
+          - row
+            - cell
+            - cell "Spain 3 - 1 Argentina" [ref=e1243]
+              - link "Spain 3 - 1 Argentina" [ref=e2700]
+            - cell "2%" [ref=e1244]
+              - link "2%" [ref=e2701]
+          - row
+            - cell
+            - cell "Spain 3 - 2 Argentina" [ref=e1245]
+              - link "Spain 3 - 2 Argentina" [ref=e2702]
+            - cell "2%" [ref=e1246]
+              - link "2%" [ref=e2703]
+          - row
+            - cell
+            - cell "Spain 0 - 1 Argentina" [ref=e1247]
+              - link "Spain 0 - 1 Argentina" [ref=e2704]
+            - cell "<1%" [ref=e1248]
+              - link "<1%" [ref=e2705]
+          - row
+            - cell
+            - cell "Spain 0 - 2 Argentina" [ref=e1249]
+              - link "Spain 0 - 2 Argentina" [ref=e2706]
+            - cell "1%" [ref=e1250]
+              - link "1%" [ref=e2707]
+          - row
+            - cell
+            - cell "Spain 0 - 3 Argentina" [ref=e1251]
+              - link "Spain 0 - 3 Argentina" [ref=e2708]
+            - cell "1%" [ref=e1252]
+              - link "1%" [ref=e2709]
+          - row
+            - cell
+            - cell "Spain 1 - 0 Argentina" [ref=e1253]
+              - link "Spain 1 - 0 Argentina" [ref=e2710]
+            - cell "<1%" [ref=e1254]
+              - link "<1%" [ref=e2711]
+          - row
+            - cell
+            - cell "Spain 1 - 2 Argentina" [ref=e1255]
+              - link "Spain 1 - 2 Argentina" [ref=e2712]
+            - cell "1%" [ref=e1256]
+              - link "1%" [ref=e2713]
+          - row
+            - cell
+            - cell "Spain 1 - 3 Argentina" [ref=e1257]
+              - link "Spain 1 - 3 Argentina" [ref=e2714]
+            - cell "1%" [ref=e1258]
+              - link "1%" [ref=e2715]
+          - row
+            - cell
+            - cell "Spain 1 - 4 Argentina" [ref=e1259]
+              - link "Spain 1 - 4 Argentina" [ref=e2716]
+            - cell "1%" [ref=e1260]
+              - link "1%" [ref=e2717]
+          - row
+            - cell
+            - cell "Spain 2 - 0 Argentina" [ref=e1261]
+              - link "Spain 2 - 0 Argentina" [ref=e2718]
+            - cell "1%" [ref=e1262]
+              - link "1%" [ref=e2719]
+          - row
+            - cell
+            - cell "Spain 2 - 1 Argentina" [ref=e1263]
+              - link "Spain 2 - 1 Argentina" [ref=e2720]
+            - cell "<1%" [ref=e1264]
+              - link "<1%" [ref=e2721]
+          - row
+            - cell
+            - cell "Spain 2 - 3 Argentina" [ref=e1265]
+              - link "Spain 2 - 3 Argentina" [ref=e2722]
+            - cell "1%" [ref=e1266]
+              - link "1%" [ref=e2723]
+          - row
+            - cell
+            - cell "Spain 3 - 0 Argentina" [ref=e1267]
+              - link "Spain 3 - 0 Argentina" [ref=e2724]
+            - cell "<1%" [ref=e1268]
+              - link "<1%" [ref=e2725]
+          - row
+            - cell
+            - cell "Spain 3 - 5 Argentina" [ref=e1269]
+              - link "Spain 3 - 5 Argentina" [ref=e2726]
+            - cell "1%" [ref=e1270]
+              - link "1%" [ref=e2727]
+          - row
+            - cell
+            - cell "Spain 4 - 1 Argentina" [ref=e1271]
+              - link "Spain 4 - 1 Argentina" [ref=e2728]
+            - cell "1%" [ref=e1272]
+              - link "1%" [ref=e2729]
+          - row
+            - cell
+            - cell "Spain 5 - 3 Argentina" [ref=e1273]
+              - link "Spain 5 - 3 Argentina" [ref=e2730]
+            - cell "1%" [ref=e1274]
+              - link "1%" [ref=e2731]
+          - row
+            - cell
+            - cell "Spain 5 - 6 Argentina" [ref=e1275]
+              - link "Spain 5 - 6 Argentina" [ref=e2732]
+            - cell "<1%" [ref=e1276]
+              - link "<1%" [ref=e2733]
+          - row
+            - cell
+            - cell "Spain 6 - 5 Argentina" [ref=e1277]
+              - link "Spain 6 - 5 Argentina" [ref=e2734]
+            - cell "<1%" [ref=e1278]
+              - link "<1%" [ref=e2735]
+          - row
+            - cell
+            - cell "Spain 6 - 7 Argentina" [ref=e1279]
+              - link "Spain 6 - 7 Argentina" [ref=e2736]
+            - cell "1%" [ref=e1280]
+              - link "1%" [ref=e2737]
+          - row
+            - cell
+            - cell "Spain 7 - 6 Argentina" [ref=e1281]
+              - link "Spain 7 - 6 Argentina" [ref=e2738]
+            - cell "1%" [ref=e1282]
+              - link "1%" [ref=e2739]
+          - row
+            - cell
+            - cell "Spain 7 - 8 Argentina" [ref=e1283]
+              - link "Spain 7 - 8 Argentina" [ref=e2740]
+            - cell "<1%" [ref=e1284]
+              - link "<1%" [ref=e2741]
+          - row
+            - cell
+            - cell "Spain 8 - 7 Argentina" [ref=e1285]
+              - link "Spain 8 - 7 Argentina" [ref=e2742]
+            - cell "<1%" [ref=e1286]
+              - link "<1%" [ref=e2743]
+          - row
+            - cell
+            - cell "Spain 10 - 9 Argentina" [ref=e1287]
+              - link "Spain 10 - 9 Argentina" [ref=e2744]
+            - cell "1%" [ref=e1288]
+              - link "1%" [ref=e2745]
+          - row
+            - cell
+            - cell "Spain 8 - 9 Argentina" [ref=e1289]
+              - link "Spain 8 - 9 Argentina" [ref=e2746]
+            - cell "<1%" [ref=e1290]
+              - link "<1%" [ref=e2747]
+          - row
+            - cell
+            - cell "Spain 9 - 8 Argentina" [ref=e1291]
+              - link "Spain 9 - 8 Argentina" [ref=e2748]
+            - cell "<1%" [ref=e1292]
+              - link "<1%" [ref=e2749]
+          - row
+            - cell
+            - cell "Spain 9 - 10 Argentina" [ref=e1293]
+              - link "Spain 9 - 10 Argentina" [ref=e2750]
+            - cell "<1%" [ref=e1294]
+              - link "<1%" [ref=e2751]
+          - row
+            - rowheader "Boot Brand Worn by Golden Ball Winner" [ref=e1295]
+              - link "Boot Brand Worn by Golden Ball Winner" [ref=e2752]
+            - cell "Adidas" [ref=e1296]
+              - link "Adidas" [ref=e2753]
+            - cell "91%" [ref=e1297]
+              - link "91%" [ref=e2754]
+          - row
+            - cell
+            - cell "Nike" [ref=e1298]
+              - link "Nike" [ref=e2755]
+            - cell "9%" [ref=e1299]
+              - link "9%" [ref=e2756]
+          - row
+            - cell
+            - cell "Skechers" [ref=e1300]
+              - link "Skechers" [ref=e2757]
+            - cell "1%" [ref=e1301]
+              - link "1%" [ref=e2758]
+          - row
+            - cell
+            - cell "Puma" [ref=e1302]
+              - link "Puma" [ref=e2759]
+            - cell "<1%" [ref=e1303]
+              - link "<1%" [ref=e2760]
+          - row
+            - cell
+            - cell "New Balance" [ref=e1304]
+              - link "New Balance" [ref=e2761]
+            - cell "<1%" [ref=e1305]
+              - link "<1%" [ref=e2762]
+          - row
+            - cell
+            - cell "Mizuno" [ref=e1306]
+              - link "Mizuno" [ref=e2763]
+            - cell "<1%" [ref=e1307]
+              - link "<1%" [ref=e2764]
+          - row
+            - rowheader "World Cup Final: Method of Victory" [ref=e1308]
+              - link "World Cup Final: Method of Victory" [ref=e2765]
+            - cell "Spain Win: Regular Time" [ref=e1309]
+              - link "Spain Win: Regular Time" [ref=e2766]
+            - cell "41%" [ref=e1310]
+              - link "41%" [ref=e2767]
+          - row
+            - cell
+            - cell "Argentina Win: Regular Time" [ref=e1311]
+              - link "Argentina Win: Regular Time" [ref=e2768]
+            - cell "28%" [ref=e1312]
+              - link "28%" [ref=e2769]
+          - row
+            - cell
+            - cell "Argentina Win: Penalty Shootout" [ref=e1313]
+              - link "Argentina Win: Penalty Shootout" [ref=e2770]
+            - cell "11%" [ref=e1314]
+              - link "11%" [ref=e2771]
+          - row
+            - cell
+            - cell "Argentina Win: Extra Time" [ref=e1315]
+              - link "Argentina Win: Extra Time" [ref=e2772]
+            - cell "9%" [ref=e1316]
+              - link "9%" [ref=e2773]
+          - row
+            - cell
+            - cell "Spain Win: Extra Time" [ref=e1317]
+              - link "Spain Win: Extra Time" [ref=e2774]
+            - cell "9%" [ref=e1318]
+              - link "9%" [ref=e2775]
+          - row
+            - cell
+            - cell "Spain Win: Penalty Shootout" [ref=e1319]
+              - link "Spain Win: Penalty Shootout" [ref=e2776]
+            - cell "9%" [ref=e1320]
+              - link "9%" [ref=e2777]
+          - row
+            - rowheader "Boot Sponsor Worn by Golden Boot Winner" [ref=e1321]
+              - link "Boot Sponsor Worn by Golden Boot Winner" [ref=e2778]
+            - cell "Adidas" [ref=e1322]
+              - link "Adidas" [ref=e2779]
+            - cell "42%" [ref=e1323]
+              - link "42%" [ref=e2780]
+          - row
+            - cell
+            - cell "Nike" [ref=e1324]
+              - link "Nike" [ref=e2781]
+            - cell "31%" [ref=e1325]
+              - link "31%" [ref=e2782]
+          - row
+            - cell
+            - cell "Skechers" [ref=e1326]
+              - link "Skechers" [ref=e2783]
+            - cell "11%" [ref=e1327]
+              - link "11%" [ref=e2784]
+          - row
+            - cell
+            - cell "Puma" [ref=e1328]
+              - link "Puma" [ref=e2785]
+            - cell "<1%" [ref=e1329]
+              - link "<1%" [ref=e2786]
+          - row
+            - cell
+            - cell "New Balance" [ref=e1330]
+              - link "New Balance" [ref=e2787]
+            - cell "<1%" [ref=e1331]
+              - link "<1%" [ref=e2788]
+          - row
+            - cell
+            - cell "Mizuno" [ref=e1332]
+              - link "Mizuno" [ref=e2789]
+            - cell "<1%" [ref=e1333]
+              - link "<1%" [ref=e2790]
+          - row
+            - rowheader "World Cup Final: US National Anthem Length?" [ref=e1334]
+              - link "World Cup Final: US National Anthem Length?" [ref=e2791]
+            - cell "130-140s" [ref=e1335]
+              - link "130-140s" [ref=e2792]
+            - cell "30%" [ref=e1336]
+              - link "30%" [ref=e2793]
+          - row
+            - cell
+            - cell "120-130s" [ref=e1337]
+              - link "120-130s" [ref=e2794]
+            - cell "26%" [ref=e1338]
+              - link "26%" [ref=e2795]
+          - row
+            - cell
+            - cell "140-150s" [ref=e1339]
+              - link "140-150s" [ref=e2796]
+            - cell "16%" [ref=e1340]
+              - link "16%" [ref=e2797]
+          - row
+            - cell
+            - cell "150s+" [ref=e1341]
+              - link "150s+" [ref=e2798]
+            - cell "16%" [ref=e1342]
+              - link "16%" [ref=e2799]
+          - row
+            - cell
+            - cell "110-120s" [ref=e1343]
+              - link "110-120s" [ref=e2800]
+            - cell "9%" [ref=e1344]
+              - link "9%" [ref=e2801]
+          - row
+            - cell
+            - cell "90-100s" [ref=e1345]
+              - link "90-100s" [ref=e2802]
+            - cell "6%" [ref=e1346]
+              - link "6%" [ref=e2803]
+          - row
+            - cell
+            - cell "<80s" [ref=e1347]
+              - link "<80s" [ref=e2804]
+            - cell "5%" [ref=e1348]
+              - link "5%" [ref=e2805]
+          - row
+            - cell
+            - cell "100-110s" [ref=e1349]
+              - link "100-110s" [ref=e2806]
+            - cell "4%" [ref=e1350]
+              - link "4%" [ref=e2807]
+          - row
+            - cell
+            - cell "80-90s" [ref=e1351]
+              - link "80-90s" [ref=e2808]
+            - cell "2%" [ref=e1352]
+              - link "2%" [ref=e2809]
+          - row
+            - rowheader "World Cup Final: Get-In Ticket Price" [ref=e1353]
+              - link "World Cup Final: Get-In Ticket Price" [ref=e2810]
+            - cell "$9000+" [ref=e1354]
+              - link "$9000+" [ref=e2811]
+            - cell "48%" [ref=e1355]
+              - link "48%" [ref=e2812]
+          - row
+            - cell
+            - cell "$8,000-$8,500" [ref=e1356]
+              - link "$8,000-$8,500" [ref=e2813]
+            - cell "47%" [ref=e1357]
+              - link "47%" [ref=e2814]
+          - row
+            - cell
+            - cell "$7,500-$8,000" [ref=e1358]
+              - link "$7,500-$8,000" [ref=e2815]
+            - cell "45%" [ref=e1359]
+              - link "45%" [ref=e2816]
+          - row
+            - cell
+            - cell "$8,500-$9,000" [ref=e1360]
+              - link "$8,500-$9,000" [ref=e2817]
+            - cell "45%" [ref=e1361]
+              - link "45%" [ref=e2818]
+          - row
+            - cell
+            - cell "$7,000-$7,500" [ref=e1362]
+              - link "$7,000-$7,500" [ref=e2819]
+            - cell "38%" [ref=e1363]
+              - link "38%" [ref=e2820]
+          - row
+            - cell
+            - cell "$6,500-$7,000" [ref=e1364]
+              - link "$6,500-$7,000" [ref=e2821]
+            - cell "8%" [ref=e1365]
+              - link "8%" [ref=e2822]
+          - row
+            - cell
+            - cell "$6,000-$6,500" [ref=e1366]
+              - link "$6,000-$6,500" [ref=e2823]
+            - cell "6%" [ref=e1367]
+              - link "6%" [ref=e2824]
+          - row
+            - cell
+            - cell "<$6,000" [ref=e1368]
+              - link "<$6,000" [ref=e2825]
+            - cell "4%" [ref=e1369]
+              - link "4%" [ref=e2826]
+          - row
+            - rowheader "World Cup Final: Spain Penalty Shootout Result" [ref=e1370]
+              - link "World Cup Final: Spain Penalty Shootout Result" [ref=e2827]
+            - cell "Kick 4" [ref=e1371]
+              - link "Kick 4" [ref=e2828]
+            - cell "56%" [ref=e1372]
+              - link "56%" [ref=e2829]
+          - row
+            - cell
+            - cell "Kick 3" [ref=e1373]
+              - link "Kick 3" [ref=e2830]
+            - cell "55%" [ref=e1374]
+              - link "55%" [ref=e2831]
+          - row
+            - cell
+            - cell "Kick 1" [ref=e1375]
+              - link "Kick 1" [ref=e2832]
+            - cell "54%" [ref=e1376]
+              - link "54%" [ref=e2833]
+          - row
+            - cell
+            - cell "Kick 2" [ref=e1377]
+              - link "Kick 2" [ref=e2834]
+            - cell "53%" [ref=e1378]
+              - link "53%" [ref=e2835]
+          - row
+            - cell
+            - cell "Kick 5" [ref=e1379]
+              - link "Kick 5" [ref=e2836]
+            - cell "52%" [ref=e1380]
+              - link "52%" [ref=e2837]
+          - row
+            - cell
+            - cell "Kick 6" [ref=e1381]
+              - link "Kick 6" [ref=e2838]
+            - cell "51%" [ref=e1382]
+              - link "51%" [ref=e2839]
+          - row
+            - cell
+            - cell "Kick 7" [ref=e1383]
+              - link "Kick 7" [ref=e2840]
+            - cell "51%" [ref=e1384]
+              - link "51%" [ref=e2841]
+          - row
+            - cell
+            - cell "Kick 8" [ref=e1385]
+              - link "Kick 8" [ref=e2842]
+            - cell "51%" [ref=e1386]
+              - link "51%" [ref=e2843]
+          - row
+            - cell
+            - cell "Kick 9" [ref=e1387]
+              - link "Kick 9" [ref=e2844]
+            - cell "51%" [ref=e1388]
+              - link "51%" [ref=e2845]
+          - row
+            - cell
+            - cell "Kick 10" [ref=e1389]
+              - link "Kick 10" [ref=e2846]
+            - cell "51%" [ref=e1390]
+              - link "51%" [ref=e2847]
+          - row
+            - cell
+            - cell "Kick 11" [ref=e1391]
+              - link "Kick 11" [ref=e2848]
+            - cell "51%" [ref=e1392]
+              - link "51%" [ref=e2849]
+          - row
+            - rowheader "World Cup Finals: Player of the Match" [ref=e1393]
+              - link "World Cup Finals: Player of the Match" [ref=e2850]
+            - cell "Lionel Messi" [ref=e1394]
+              - link "Lionel Messi" [ref=e2851]
+            - cell "23%" [ref=e1395]
+              - link "23%" [ref=e2852]
+          - row
+            - cell
+            - cell "Lamine Yamal" [ref=e1396]
+              - link "Lamine Yamal" [ref=e2853]
+            - cell "22%" [ref=e1397]
+              - link "22%" [ref=e2854]
+          - row
+            - cell
+            - cell "Rodri" [ref=e1398]
+              - link "Rodri" [ref=e2855]
+            - cell "17%" [ref=e1399]
+              - link "17%" [ref=e2856]
+          - row
+            - cell
+            - cell "Enzo Fernández" [ref=e1400]
+              - link "Enzo Fernández" [ref=e2857]
+            - cell "14%" [ref=e1401]
+              - link "14%" [ref=e2858]
+          - row
+            - cell
+            - cell "Lautaro Martínez" [ref=e1402]
+              - link "Lautaro Martínez" [ref=e2859]
+            - cell "14%" [ref=e1403]
+              - link "14%" [ref=e2860]
+          - row
+            - cell
+            - cell "Dani Olmo" [ref=e1404]
+              - link "Dani Olmo" [ref=e2861]
+            - cell "12%" [ref=e1405]
+              - link "12%" [ref=e2862]
+          - row
+            - cell
+            - cell "Mikel Oyarzabal" [ref=e1406]
+              - link "Mikel Oyarzabal" [ref=e2863]
+            - cell "12%" [ref=e1407]
+              - link "12%" [ref=e2864]
+          - row
+            - cell
+            - cell "Fabián Ruiz" [ref=e1408]
+              - link "Fabián Ruiz" [ref=e2865]
+            - cell "11%" [ref=e1409]
+              - link "11%" [ref=e2866]
+          - row
+            - cell
+            - cell "Alexis Mac Allister" [ref=e1410]
+              - link "Alexis Mac Allister" [ref=e2867]
+            - cell "11%" [ref=e1411]
+              - link "11%" [ref=e2868]
+          - row
+            - cell
+            - cell "Julián Álvarez" [ref=e1412]
+              - link "Julián Álvarez" [ref=e2869]
+            - cell "11%" [ref=e1413]
+              - link "11%" [ref=e2870]
+          - row
+            - cell
+            - cell "Gavi" [ref=e1414]
+              - link "Gavi" [ref=e2871]
+            - cell "10%" [ref=e1415]
+              - link "10%" [ref=e2872]
+          - row
+            - cell
+            - cell "Unai Simón" [ref=e1416]
+              - link "Unai Simón" [ref=e2873]
+            - cell "9%" [ref=e1417]
+              - link "9%" [ref=e2874]
+          - row
+            - cell
+            - cell "Emiliano Martínez" [ref=e1418]
+              - link "Emiliano Martínez" [ref=e2875]
+            - cell "9%" [ref=e1419]
+              - link "9%" [ref=e2876]
+          - row
+            - cell
+            - cell "Pedri" [ref=e1420]
+              - link "Pedri" [ref=e2877]
+            - cell "8%" [ref=e1421]
+              - link "8%" [ref=e2878]
+          - row
+            - cell
+            - cell "Ferran Torres" [ref=e1422]
+              - link "Ferran Torres" [ref=e2879]
+            - cell "5%" [ref=e1423]
+              - link "5%" [ref=e2880]
+          - row
+            - cell
+            - cell "Nico Williams" [ref=e1424]
+              - link "Nico Williams" [ref=e2881]
+            - cell "5%" [ref=e1425]
+              - link "5%" [ref=e2882]
+          - row
+            - cell
+            - cell "Leandro Paredes" [ref=e1426]
+              - link "Leandro Paredes" [ref=e2883]
+            - cell "5%" [ref=e1427]
+              - link "5%" [ref=e2884]
+          - row
+            - cell
+            - cell "Lisandro Martínez" [ref=e1428]
+              - link "Lisandro Martínez" [ref=e2885]
+            - cell "4%" [ref=e1429]
+              - link "4%" [ref=e2886]
+          - row
+            - cell
+            - cell "Cristian Romero" [ref=e1430]
+              - link "Cristian Romero" [ref=e2887]
+            - cell "4%" [ref=e1431]
+              - link "4%" [ref=e2888]
+          - row
+            - cell
+            - cell "Eric García" [ref=e1432]
+              - link "Eric García" [ref=e2889]
+            - cell "3%" [ref=e1433]
+              - link "3%" [ref=e2890]
+          - row
+            - cell
+            - cell "Marcos Llorente" [ref=e1434]
+              - link "Marcos Llorente" [ref=e2891]
+            - cell "3%" [ref=e1435]
+              - link "3%" [ref=e2892]
+          - row
+            - cell
+            - cell "Pedro Porro" [ref=e1436]
+              - link "Pedro Porro" [ref=e2893]
+            - cell "3%" [ref=e1437]
+              - link "3%" [ref=e2894]
+          - row
+            - cell
+            - cell "Aymeric Laporte" [ref=e1438]
+              - link "Aymeric Laporte" [ref=e2895]
+            - cell "3%" [ref=e1439]
+              - link "3%" [ref=e2896]
+          - row
+            - cell
+            - cell "Pau Cubarsí" [ref=e1440]
+              - link "Pau Cubarsí" [ref=e2897]
+            - cell "3%" [ref=e1441]
+              - link "3%" [ref=e2898]
+          - row
+            - cell
+            - cell "Marc Cucurella" [ref=e1442]
+              - link "Marc Cucurella" [ref=e2899]
+            - cell "3%" [ref=e1443]
+              - link "3%" [ref=e2900]
+          - row
+            - cell
+            - cell "Mikel Merino" [ref=e1444]
+              - link "Mikel Merino" [ref=e2901]
+            - cell "3%" [ref=e1445]
+              - link "3%" [ref=e2902]
+          - row
+            - cell
+            - cell "Álex Baena" [ref=e1446]
+              - link "Álex Baena" [ref=e2903]
+            - cell "3%" [ref=e1447]
+              - link "3%" [ref=e2904]
+          - row
+            - cell
+            - cell "Martín Zubimendi" [ref=e1448]
+              - link "Martín Zubimendi" [ref=e2905]
+            - cell "3%" [ref=e1449]
+              - link "3%" [ref=e2906]
+          - row
+            - cell
+            - cell "Yeremy Pino" [ref=e1450]
+              - link "Yeremy Pino" [ref=e2907]
+            - cell "3%" [ref=e1451]
+              - link "3%" [ref=e2908]
+          - row
+            - cell
+            - cell "Marcos Senesi" [ref=e1452]
+              - link "Marcos Senesi" [ref=e2909]
+            - cell "3%" [ref=e1453]
+              - link "3%" [ref=e2910]
+          - row
+            - cell
+            - cell "Nicolás Tagliafico" [ref=e1454]
+              - link "Nicolás Tagliafico" [ref=e2911]
+            - cell "3%" [ref=e1455]
+              - link "3%" [ref=e2912]
+          - row
+            - cell
+            - cell "Gonzalo Montiel" [ref=e1456]
+              - link "Gonzalo Montiel" [ref=e2913]
+            - cell "3%" [ref=e1457]
+              - link "3%" [ref=e2914]
+          - row
+            - cell
+            - cell "Nicolás Otamendi" [ref=e1458]
+              - link "Nicolás Otamendi" [ref=e2915]
+            - cell "3%" [ref=e1459]
+              - link "3%" [ref=e2916]
+          - row
+            - cell
+            - cell "Facundo Medina" [ref=e1460]
+              - link "Facundo Medina" [ref=e2917]
+            - cell "3%" [ref=e1461]
+              - link "3%" [ref=e2918]
+          - row
+            - cell
+            - cell "Nahuel Molina" [ref=e1462]
+              - link "Nahuel Molina" [ref=e2919]
+            - cell "3%" [ref=e1463]
+              - link "3%" [ref=e2920]
+          - row
+            - cell
+            - cell "Rodrigo De Paul" [ref=e1464]
+              - link "Rodrigo De Paul" [ref=e2921]
+            - cell "3%" [ref=e1465]
+              - link "3%" [ref=e2922]
+          - row
+            - cell
+            - cell "Valentín Barco" [ref=e1466]
+              - link "Valentín Barco" [ref=e2923]
+            - cell "3%" [ref=e1467]
+              - link "3%" [ref=e2924]
+          - row
+            - cell
+            - cell "Giovani Lo Celso" [ref=e1468]
+              - link "Giovani Lo Celso" [ref=e2925]
+            - cell "3%" [ref=e1469]
+              - link "3%" [ref=e2926]
+          - row
+            - cell
+            - cell "Nico González" [ref=e1470]
+              - link "Nico González" [ref=e2927]
+            - cell "3%" [ref=e1471]
+              - link "3%" [ref=e2928]
+          - row
+            - cell
+            - cell "Thiago Almada" [ref=e1472]
+              - link "Thiago Almada" [ref=e2929]
+            - cell "3%" [ref=e1473]
+              - link "3%" [ref=e2930]
+          - row
+            - cell
+            - cell "Giuliano Simeone" [ref=e1474]
+              - link "Giuliano Simeone" [ref=e2931]
+            - cell "3%" [ref=e1475]
+              - link "3%" [ref=e2932]
+          - row
+            - cell
+            - cell "Nico Paz" [ref=e1476]
+              - link "Nico Paz" [ref=e2933]
+            - cell "3%" [ref=e1477]
+              - link "3%" [ref=e2934]
+          - row
+            - cell
+            - cell "David Raya" [ref=e1478]
+              - link "David Raya" [ref=e2935]
+            - cell "2%" [ref=e1479]
+              - link "2%" [ref=e2936]
+          - row
+            - cell
+            - cell "Joan García" [ref=e1480]
+              - link "Joan García" [ref=e2937]
+            - cell "2%" [ref=e1481]
+              - link "2%" [ref=e2938]
+          - row
+            - cell
+            - cell "Marc Pubill" [ref=e1482]
+              - link "Marc Pubill" [ref=e2939]
+            - cell "2%" [ref=e1483]
+              - link "2%" [ref=e2940]
+          - row
+            - cell
+            - cell "Víctor Muñoz" [ref=e1484]
+              - link "Víctor Muñoz" [ref=e2941]
+            - cell "2%" [ref=e1485]
+              - link "2%" [ref=e2942]
+          - row
+            - cell
+            - cell "Borja Iglesias" [ref=e1486]
+              - link "Borja Iglesias" [ref=e2943]
+            - cell "2%" [ref=e1487]
+              - link "2%" [ref=e2944]
+          - row
+            - cell
+            - cell "Juan Musso" [ref=e1488]
+              - link "Juan Musso" [ref=e2945]
+            - cell "2%" [ref=e1489]
+              - link "2%" [ref=e2946]
+          - row
+            - cell
+            - cell "Gerónimo Rulli" [ref=e1490]
+              - link "Gerónimo Rulli" [ref=e2947]
+            - cell "2%" [ref=e1491]
+              - link "2%" [ref=e2948]
+          - row
+            - cell
+            - cell "Álex Grimaldo" [ref=e1492]
+              - link "Álex Grimaldo" [ref=e2949]
+            - cell "<1%" [ref=e1493]
+              - link "<1%" [ref=e2950]
+          - row
+            - cell
+            - cell "Exequiel Palacios" [ref=e1494]
+              - link "Exequiel Palacios" [ref=e2951]
+            - cell "1%" [ref=e1495]
+              - link "1%" [ref=e2952]
+          - row
+            - cell
+            - cell "José Manuel López" [ref=e1496]
+              - link "José Manuel López" [ref=e2953]
+            - cell "<1%" [ref=e1497]
+              - link "<1%" [ref=e2954]
+          - row
+            - rowheader "World Cup Final: Argentina Penalty Shootout Result" [ref=e1498]
+              - link "World Cup Final: Argentina Penalty Shootout Result" [ref=e2955]
+            - cell "Kick 1" [ref=e1499]
+              - link "Kick 1" [ref=e2956]
+            - cell "57%" [ref=e1500]
+              - link "57%" [ref=e2957]
+          - row
+            - cell
+            - cell "Kick 2" [ref=e1501]
+              - link "Kick 2" [ref=e2958]
+            - cell "54%" [ref=e1502]
+              - link "54%" [ref=e2959]
+          - row
+            - cell
+            - cell "Kick 4" [ref=e1503]
+              - link "Kick 4" [ref=e2960]
+            - cell "54%" [ref=e1504]
+              - link "54%" [ref=e2961]
+          - row
+            - cell
+            - cell "Kick 3" [ref=e1505]
+              - link "Kick 3" [ref=e2962]
+            - cell "53%" [ref=e1506]
+              - link "53%" [ref=e2963]
+          - row
+            - cell
+            - cell "Kick 5" [ref=e1507]
+              - link "Kick 5" [ref=e2964]
+            - cell "53%" [ref=e1508]
+              - link "53%" [ref=e2965]
+          - row
+            - cell
+            - cell "Kick 6" [ref=e1509]
+              - link "Kick 6" [ref=e2966]
+            - cell "53%" [ref=e1510]
+              - link "53%" [ref=e2967]
+          - row
+            - cell
+            - cell "Kick 7" [ref=e1511]
+              - link "Kick 7" [ref=e2968]
+            - cell "52%" [ref=e1512]
+              - link "52%" [ref=e2969]
+          - row
+            - cell
+            - cell "Kick 8" [ref=e1513]
+              - link "Kick 8" [ref=e2970]
+            - cell "51%" [ref=e1514]
+              - link "51%" [ref=e2971]
+          - row
+            - cell
+            - cell "Kick 9" [ref=e1515]
+              - link "Kick 9" [ref=e2972]
+            - cell "51%" [ref=e1516]
+              - link "51%" [ref=e2973]
+          - row
+            - cell
+            - cell "Kick 10" [ref=e1517]
+              - link "Kick 10" [ref=e2974]
+            - cell "51%" [ref=e1518]
+              - link "51%" [ref=e2975]
+          - row
+            - cell
+            - cell "Kick 11" [ref=e1519]
+              - link "Kick 11" [ref=e2976]
+            - cell "51%" [ref=e1520]
+              - link "51%" [ref=e2977]
+          - row
+            - rowheader "Unbeaten Champion?" [ref=e1521]
+              - link "Unbeaten Champion?" [ref=e2978]
+            - cell "Yes" [ref=e1522]
+              - link "Yes" [ref=e2979]
+            - cell "100%" [ref=e1523]
+              - link "100%" [ref=e2980]
+          - row
+            - rowheader "Goalkeeper to Score?" [ref=e1524]
+              - link "Goalkeeper to Score?" [ref=e2981]
+            - cell "Yes" [ref=e1525]
+              - link "Yes" [ref=e2982]
+            - cell "<1%" [ref=e1526]
+              - link "<1%" [ref=e2983]
+          - row
+            - rowheader "President Trump to Attend World Cup Final?" [ref=e1527]
+              - link "President Trump to Attend World Cup Final?" [ref=e2984]
+            - cell "Yes" [ref=e1528]
+              - link "Yes" [ref=e2985]
+            - cell "97%" [ref=e1529]
+              - link "97%" [ref=e2986]
+          - row
+            - rowheader "Will Trump be in the WC Champions Photo?" [ref=e1530]
+              - link "Will Trump be in the WC Champions Photo?" [ref=e2987]
+            - cell "Yes" [ref=e1531]
+              - link "Yes" [ref=e2988]
+            - cell "56%" [ref=e1532]
+              - link "56%" [ref=e2989]
+          - row
+            - rowheader "Single Match Yellow Cards Record Broken?" [ref=e1533]
+              - link "Single Match Yellow Cards Record Broken?" [ref=e2990]
+            - cell "Yes" [ref=e1534]
+              - link "Yes" [ref=e2991]
+            - cell "<1%" [ref=e1535]
+              - link "<1%" [ref=e2992]
+          - row
+            - rowheader "Messi to Score 2+ Penalties?" [ref=e1536]
+              - link "Messi to Score 2+ Penalties?" [ref=e2993]
+            - cell "Yes" [ref=e1537]
+              - link "Yes" [ref=e2994]
+            - cell "5%" [ref=e1538]
+              - link "5%" [ref=e2995]
+          - row
+            - rowheader "Fastest Goal in a Final Record Broken?" [ref=e1539]
+              - link "Fastest Goal in a Final Record Broken?" [ref=e2996]
+            - cell "Yes" [ref=e1540]
+              - link "Yes" [ref=e2997]
+            - cell "<1%" [ref=e1541]
+              - link "<1%" [ref=e2998]
+          - row
+            - rowheader "World Cup Goals H2H: Dembele vs. Olise" [ref=e1542]
+              - link "World Cup Goals H2H: Dembele vs. Olise" [ref=e2999]
+            - cell "Yes" [ref=e1543]
+              - link "Yes" [ref=e3000]
+            - cell "100%" [ref=e1544]
+              - link "100%" [ref=e3001]
+          - row
+            - rowheader "World Cup Goals H2H: Haaland vs. Alvarez" [ref=e1545]
+              - link "World Cup Goals H2H: Haaland vs. Alvarez" [ref=e3002]
+            - cell "Yes" [ref=e1546]
+              - link "Yes" [ref=e3003]
+            - cell "100%" [ref=e1547]
+              - link "100%" [ref=e3004]
+          - row
+            - rowheader "World Cup Final: Weather Delay?" [ref=e1548]
+              - link "World Cup Final: Weather Delay?" [ref=e3005]
+            - cell "Yes" [ref=e1549]
+              - link "Yes" [ref=e3006]
+            - cell "6%" [ref=e1550]
+              - link "6%" [ref=e3007]
+          - row
+            - rowheader "World Cup Finals: Own Goal Scored?" [ref=e1551]
+              - link "World Cup Finals: Own Goal Scored?" [ref=e3008]
+            - cell "Yes" [ref=e1552]
+              - link "Yes" [ref=e3009]
+            - cell "7%" [ref=e1553]
+              - link "7%" [ref=e3010]
+          - row
+            - rowheader "World Cup Goal Contributions H2H: Vitinha vs. Pedri" [ref=e1554]
+              - link "World Cup Goal Contributions H2H: Vitinha vs. Pedri" [ref=e3011]
+            - cell "Yes" [ref=e1555]
+              - link "Yes" [ref=e3012]
+            - cell "43%" [ref=e1556]
+              - link "43%" [ref=e3013]
+          - row
+            - rowheader "World Cup Final: Any Player to Score a Hat Trick?" [ref=e1557]
+              - link "World Cup Final: Any Player to Score a Hat Trick?" [ref=e3014]
+            - cell "Yes" [ref=e1558]
+              - link "Yes" [ref=e3015]
+            - cell "4%" [ref=e1559]
+              - link "4%" [ref=e3016]
+          - row
+            - rowheader "World Cup Finals: Final Score Even or Odd?" [ref=e1560]
+              - link "World Cup Finals: Final Score Even or Odd?" [ref=e3017]
+            - cell "Yes" [ref=e1561]
+              - link "Yes" [ref=e3018]
+            - cell "56%" [ref=e1562]
+              - link "56%" [ref=e3019]
+          - row
+            - rowheader "World Cup Finals: Coin Toss Result" [ref=e1563]
+              - link "World Cup Finals: Coin Toss Result" [ref=e3020]
+            - cell "Yes" [ref=e1564]
+              - link "Yes" [ref=e3021]
+            - cell "51%" [ref=e1565]
+              - link "51%" [ref=e3022]
+      - button "View more" [ref=e84]
+    - contentinfo
+      - link "Polymarket" [ref=e10]
+      - paragraph
+      - heading "Related topics" [level=3, ref=e11]
+      - link "Games Predictions & odds" [ref=e12]
+      - link "Soccer Predictions & odds" [ref=e13]
+      - link "Tennis Predictions & odds" [ref=e14]
+      - link "Baseball Predictions & odds" [ref=e15]
+      - link "Wimbledon Predictions & odds" [ref=e16]
+      - link "UFC Predictions & odds" [ref=e17]
+      - link "WNBA Predictions & odds" [ref=e18]
+      - link "Basketball Predictions & odds" [ref=e19]
+      - link "NBA Predictions & odds" [ref=e20]
+      - link "Cricket Predictions & odds" [ref=e21]
+      - button "View more" [ref=e22]
+      - heading "Popular world cup markets" [level=3, ref=e23]
+      - link "World Cup: Golden Ball Winner" [ref=e24]
+      - link "President Trump to Attend World Cup Final?" [ref=e25]
+      - link "World Cup: 3rd Place Finish" [ref=e26]
+      - link "Will Trump be in the WC Champions Photo?" [ref=e27]
+      - link "Which continent will win the World Cup?" [ref=e28]
+      - link "World Cup Final: Who Will Attend?" [ref=e29]
+      - link "World Cup: Number of Missed Penalties" [ref=e30]
+      - link "World Cup: Goalkeeper to Score?" [ref=e31]
+      - link "World Cup: Golden Glove Winner" [ref=e32]
+      - link "World Cup: Kylian Mbappe Goals" [ref=e33]
+      - button "View more" [ref=e34]
+      - heading "New world cup markets" [level=3, ref=e35]
+      - link "Highest Air Quality Index at the stadium during the World Cup Final?" [ref=e36]
+      - link "World Cup Final: US National Anthem Length?" [ref=e37]
+      - link "World Cup Final: U.S. Viewership" [ref=e38]
+      - link "World Cup Final: First Justin Bieber Song at Halftime Show?" [ref=e39]
+      - link "World Cup Final: First BTS Song at Halftime Show?" [ref=e40]
+      - link "World Cup Final: First Shakira Song at Halftime Show?" [ref=e41]
+      - link "World Cup Final: First Madonna Song at Halftime Show?" [ref=e42]
+      - link "World Cup Final: Spain Penalty Shootout Result" [ref=e43]
+      - link "World Cup Final: Argentina Penalty Shootout Result" [ref=e44]
+      - link "World Cup Final: Penalty Shootout Exact Score" [ref=e45]
+      - button "View more" [ref=e46]
+      - link "Email" [ref=e47]
+      - link "X (Twitter)" [ref=e48]
+      - link "Instagram" [ref=e49]
+      - link "Discord" [ref=e50]
+      - link "TikTok" [ref=e51]
+      - StaticText "Adventure One QSS Inc. © "
+      - StaticText "2026"
+      - StaticText "·"
+      - link "Privacy" [ref=e52]
+      - StaticText "·"
+      - link "Terms of Use" [ref=e53]
+      - StaticText "·"
+      - link "Market Integrity" [ref=e54]
+      - StaticText "·"
+      - link "Help Center" [ref=e55]
+      - StaticText "·"
+      - link "Docs" [ref=e56]
+      - button "English" [expanded=false, ref=e57]
+      - paragraph
+        - link "Polymarket US" [ref=e79]
+        - link "Terms of Service" [ref=e80]
+        - link "Privacy Policy" [ref=e81]
+  - region "Notifications (F8)" [ref=e3]

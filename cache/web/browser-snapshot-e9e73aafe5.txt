@@ -1,0 +1,2741 @@
+- generic
+  - link "Skip to navigation" [ref=e1]
+  - link "Skip to main content" [ref=e2]
+  - link "Skip to right column" [ref=e3]
+  - banner
+    - banner
+      - heading "Yahoo Finance" [level=1, ref=e5]
+      - link "Yahoo Finance" [ref=e6]
+      - search
+        - searchbox "Search for news, tickers or companies" [ref=e9]
+        - button "Search" [ref=e10]
+      - navigation
+        - list
+          - listitem [level=1]
+            - link "News" [ref=e26]
+          - listitem [level=1]
+            - link "Finance" [ref=e27]
+          - listitem [level=1]
+            - link "Sports" [ref=e28]
+          - listitem [level=1]
+            - button "More" [expanded=false, ref=e29]
+      - toolbar
+        - generic
+          - button "Notifications" [expanded=false, ref=e23]
+        - link "Check your mail, link" [ref=e24]
+        - link "Sign in" [ref=e25]
+    - navigation "Navigation" [ref=e4]
+      - menubar "Navigation menubar"
+        - menuitem "My Portfolio" [ref=e11]
+          - StaticText "My Portfolio"
+        - menuitem "News" [ref=e12]
+          - StaticText "News"
+        - menuitem "Markets" [ref=e13]
+          - StaticText "Markets"
+        - menuitem "Calendars" [ref=e14]
+          - StaticText "Calendars"
+        - menuitem "Research" [ref=e15]
+          - StaticText "Research"
+        - menuitem "Community" [ref=e16]
+          - StaticText "Community"
+        - menuitem "Personal Finance" [ref=e17]
+          - StaticText "Personal Finance"
+        - menuitem "Videos" [ref=e18]
+          - StaticText "Videos"
+        - menuitem "Watch Now" [ref=e19]
+          - StaticText "Watch Now"
+      - button "Network" [ref=e7]
+        - StaticText "Network"
+  - generic
+    - complementary
+      - button "U.S. markets closed" [ref=e8]
+      - menu
+        - button "US Markets" [ref=e20]
+          - StaticText "US Markets"
+      - generic
+        - link "S&P 500" [ref=e30]
+          - StaticText "S&P 500"
+        - StaticText "7,457.69"
+        - generic
+          - StaticText "-76.08 -1.01%"
+        - image
+        - link "Dow 30" [ref=e31]
+          - StaticText "Dow 30"
+        - StaticText "52,146.42"
+        - generic
+          - StaticText "-406.55 -0.77%"
+        - image
+        - link "Nasdaq" [ref=e32]
+          - StaticText "Nasdaq"
+        - StaticText "25,520.24"
+        - generic
+          - StaticText "-361.70 -1.40%"
+        - image
+        - link "Russell 2000" [ref=e33]
+          - StaticText "Russell 2000"
+        - StaticText "2,962.22"
+        - generic
+          - StaticText "-12.35"
+          - StaticText " "
+          - StaticText "-0.42%"
+        - image
+        - link "VIX" [ref=e34]
+          - StaticText "VIX"
+        - StaticText "18.77"
+        - generic
+          - StaticText "+2.04 +12.19%"
+        - image
+        - link "Gold" [ref=e35]
+          - StaticText "Gold"
+        - StaticText "4,018.80"
+        - generic
+          - StaticText "+26.70 +0.67%"
+        - image
+        - link "Bitcoin USD" [ref=e36]
+          - StaticText "Bitcoin USD"
+        - StaticText "64,085.00"
+        - generic
+          - StaticText "+534.89 +0.84%"
+        - image
+        - link "Crude Oil Aug 26" [ref=e37]
+          - StaticText "Crude Oil Aug 26"
+        - StaticText "81.78"
+        - generic
+          - StaticText "+3.50 +4.47%"
+        - image
+      - generic
+        - button "prev" [disabled, ref=e21]
+        - button "next" [ref=e22]
+    - main
+      - generic
+        - complementary "Left navigation"
+          - navigation "Markets Navigation" [ref=e38]
+            - menubar "Markets Navigation menubar"
+              - menuitem "Overview" [ref=e65]
+                - StaticText "Overview"
+              - menuitem "World Indices" [ref=e66]
+                - StaticText "World Indices"
+              - menuitem "Futures" [ref=e67]
+                - StaticText "Futures"
+              - menuitem "Bonds" [ref=e68]
+                - StaticText "Bonds"
+              - menuitem "Currencies" [ref=e69]
+                - StaticText "Currencies"
+              - menuitem "Options" [ref=e70]
+                - StaticText "Options"
+              - menuitem "Sectors" [ref=e71]
+                - StaticText "Sectors"
+              - menuitem "Stocks" [ref=e72]
+                - StaticText "Stocks"
+              - menuitem "Crypto" [ref=e73]
+                - StaticText "Crypto"
+              - menuitem "Private Companies" [ref=e74]
+                - StaticText "Private Companies"
+              - menuitem "ETFs" [ref=e75]
+                - StaticText "ETFs"
+              - menuitem "Mutual Funds" [ref=e76]
+                - StaticText "Mutual Funds"
+        - generic
+          - generic
+            - heading "Markets Overview" [level=1, ref=e39]
+            - generic
+              - sectionheader
+                - link "View More" [ref=e77]
+                  - heading "World Indices" [level=3, ref=e103]
+                - generic
+                  - button "prev" [disabled, ref=e104]
+                  - button "next" [ref=e105]
+              - generic
+                - generic
+                  - sectionheader
+                    - heading "Americas" [level=3, ref=e417]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e972] clickable [cursor:pointer]
+                        - columnheader "" [ref=e973]
+                        - columnheader "Price" [ref=e974] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e975] clickable [cursor:pointer]
+                    - row
+                      - cell "VIX" [ref=e531]
+                        - link "VIX" [ref=e976]
+                          - StaticText "VIX"
+                      - cell "Advanced Chart" [ref=e532]
+                        - link "Advanced Chart" [ref=e977]
+                          - figure
+                      - cell "18.77" [ref=e533]
+                        - StaticText "18.77"
+                      - cell "+12.19%" [ref=e534]
+                        - StaticText "+"
+                        - StaticText "12.19%"
+                    - row
+                      - cell "US Dollar Index" [ref=e535]
+                        - link "US Dollar Index" [ref=e978]
+                          - StaticText "US Dollar Index"
+                      - cell "Advanced Chart" [ref=e536]
+                        - link "Advanced Chart" [ref=e979]
+                          - figure
+                      - cell "100.75" [ref=e537]
+                        - StaticText "100.75"
+                      - cell "-0.01%" [ref=e538]
+                        - StaticText "-0.01%"
+                    - row
+                      - cell "IBOVESPA" [ref=e539]
+                        - link "IBOVESPA" [ref=e980]
+                          - StaticText "IBOVESPA"
+                      - cell "Advanced Chart" [ref=e540]
+                        - link "Advanced Chart" [ref=e981]
+                          - figure
+                      - cell "173,714.08" [ref=e541]
+                        - StaticText "173,714.08"
+                      - cell "-0.06%" [ref=e542]
+                        - StaticText "-0.06%"
+                    - row
+                      - cell "S&P/TSX Composite index" [ref=e543]
+                        - link "S&P/TSX Composite index" [ref=e982]
+                          - StaticText "S&P/TSX Composite index"
+                      - cell "Advanced Chart" [ref=e544]
+                        - link "Advanced Chart" [ref=e983]
+                          - figure
+                      - cell "35,263.85" [ref=e545]
+                        - StaticText "35,263.85"
+                      - cell "-0.22%" [ref=e546]
+                        - StaticText "-0.22%"
+                    - row
+                      - cell "Russell 2000" [ref=e547]
+                        - link "Russell 2000" [ref=e984]
+                          - StaticText "Russell 2000"
+                      - cell "Advanced Chart" [ref=e548]
+                        - link "Advanced Chart" [ref=e985]
+                          - figure
+                      - cell "2,962.22" [ref=e549]
+                        - StaticText "2,962.22"
+                      - cell "-0.42%" [ref=e550]
+                        - StaticText "-0.42%"
+                    - row
+                      - cell "Dow 30" [ref=e551]
+                        - link "Dow 30" [ref=e986]
+                          - StaticText "Dow 30"
+                      - cell "Advanced Chart" [ref=e552]
+                        - link "Advanced Chart" [ref=e987]
+                          - figure
+                      - cell "52,146.42" [ref=e553]
+                        - StaticText "52,146.42"
+                      - cell "-0.77%" [ref=e554]
+                        - StaticText "-0.77%"
+                    - row
+                      - cell "S&P 500" [ref=e555]
+                        - link "S&P 500" [ref=e988]
+                          - StaticText "S&P 500"
+                      - cell "Advanced Chart" [ref=e556]
+                        - link "Advanced Chart" [ref=e989]
+                          - figure
+                      - cell "7,457.69" [ref=e557]
+                        - StaticText "7,457.69"
+                      - cell "-1.01%" [ref=e558]
+                        - StaticText "-1.01%"
+                    - row
+                      - cell "Nasdaq" [ref=e559]
+                        - link "Nasdaq" [ref=e990]
+                          - StaticText "Nasdaq"
+                      - cell "Advanced Chart" [ref=e560]
+                        - link "Advanced Chart" [ref=e991]
+                          - figure
+                      - cell "25,520.24" [ref=e561]
+                        - StaticText "25,520.24"
+                      - cell "-1.40%" [ref=e562]
+                        - StaticText "-1.40%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - heading "Europe" [level=3, ref=e418]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e992] clickable [cursor:pointer]
+                        - columnheader "" [ref=e993]
+                        - columnheader "Price" [ref=e994] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e995] clickable [cursor:pointer]
+                    - row
+                      - cell "FTSE 100" [ref=e563]
+                        - link "FTSE 100" [ref=e996]
+                          - StaticText "FTSE 100"
+                      - cell "Advanced Chart" [ref=e564]
+                        - link "Advanced Chart" [ref=e997]
+                          - figure
+                      - cell "10,600.37" [ref=e565]
+                        - StaticText "10,600.37"
+                      - cell "+0.27%" [ref=e566]
+                        - StaticText "+"
+                        - StaticText "0.27%"
+                    - row
+                      - cell "Euro Index" [ref=e567]
+                        - link "Euro Index" [ref=e998]
+                          - StaticText "Euro Index"
+                      - cell "Advanced Chart" [ref=e568]
+                        - link "Advanced Chart" [ref=e999]
+                          - figure
+                      - cell "114.38" [ref=e569]
+                        - StaticText "114.38"
+                      - cell "-0.04%" [ref=e570]
+                        - StaticText "-0.04%"
+                    - row
+                      - cell "British Pound Index" [ref=e571]
+                        - link "British Pound Index" [ref=e1000]
+                          - StaticText "British Pound Index"
+                      - cell "Advanced Chart" [ref=e572]
+                        - link "Advanced Chart" [ref=e1001]
+                          - figure
+                      - cell "134.52" [ref=e573]
+                        - StaticText "134.52"
+                      - cell "-0.20%" [ref=e574]
+                        - StaticText "-0.20%"
+                    - row
+                      - cell "DAX P" [ref=e575]
+                        - link "DAX P" [ref=e1002]
+                          - StaticText "DAX P"
+                      - cell "Advanced Chart" [ref=e576]
+                        - link "Advanced Chart" [ref=e1003]
+                          - figure
+                      - cell "24,830.98" [ref=e577]
+                        - StaticText "24,830.98"
+                      - cell "-0.34%" [ref=e578]
+                        - StaticText "-0.34%"
+                    - row
+                      - cell "MSCI EUROPE" [ref=e579]
+                        - link "MSCI EUROPE" [ref=e1004]
+                          - StaticText "MSCI EUROPE"
+                      - cell "Advanced Chart" [ref=e580]
+                        - link "Advanced Chart" [ref=e1005]
+                          - figure
+                      - cell "2,793.57" [ref=e581]
+                        - StaticText "2,793.57"
+                      - cell "-0.35%" [ref=e582]
+                        - StaticText "-0.35%"
+                    - row
+                      - cell "CAC 40" [ref=e583]
+                        - link "CAC 40" [ref=e1006]
+                          - StaticText "CAC 40"
+                      - cell "Advanced Chart" [ref=e584]
+                        - link "Advanced Chart" [ref=e1007]
+                          - figure
+                      - cell "8,338.81" [ref=e585]
+                        - StaticText "8,338.81"
+                      - cell "-0.47%" [ref=e586]
+                        - StaticText "-0.47%"
+                    - row
+                      - cell "Euronext 100 Index" [ref=e587]
+                        - link "Euronext 100 Index" [ref=e1008]
+                          - StaticText "Euronext 100 Index"
+                      - cell "Advanced Chart" [ref=e588]
+                        - link "Advanced Chart" [ref=e1009]
+                          - figure
+                      - cell "1,905.37" [ref=e589]
+                        - StaticText "1,905.37"
+                      - cell "-0.79%" [ref=e590]
+                        - StaticText "-0.79%"
+                    - row
+                      - cell "EURO STOXX 50 I" [ref=e591]
+                        - link "EURO STOXX 50 I" [ref=e1010]
+                          - StaticText "EURO STOXX 50 I"
+                      - cell "Advanced Chart" [ref=e592]
+                        - link "Advanced Chart" [ref=e1011]
+                          - figure
+                      - cell "6,230.87" [ref=e593]
+                        - StaticText "6,230.87"
+                      - cell "-0.84%" [ref=e594]
+                        - StaticText "-0.84%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - heading "Asia" [level=3, ref=e419]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1012] clickable [cursor:pointer]
+                        - columnheader "" [ref=e1013]
+                        - columnheader "Price" [ref=e1014] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1015] clickable [cursor:pointer]
+                    - row
+                      - cell "S&P BSE SENSEX" [ref=e595]
+                        - link "S&P BSE SENSEX" [ref=e1016]
+                          - StaticText "S&P BSE SENSEX"
+                      - cell "Advanced Chart" [ref=e596]
+                        - link "Advanced Chart" [ref=e1017]
+                          - figure
+                      - cell "78,151.45" [ref=e597]
+                        - StaticText "78,151.45"
+                      - cell "+1.25%" [ref=e598]
+                        - StaticText "+"
+                        - StaticText "1.25%"
+                    - row
+                      - cell "Japanese Yen Index" [ref=e599]
+                        - link "Japanese Yen Index" [ref=e1018]
+                          - StaticText "Japanese Yen Index"
+                      - cell "Advanced Chart" [ref=e600]
+                        - link "Advanced Chart" [ref=e1019]
+                          - figure
+                      - cell "61.57" [ref=e601]
+                        - StaticText "61.57"
+                      - cell "-0.02%" [ref=e602]
+                        - StaticText "-0.02%"
+                    - row
+                      - cell "Australian Dollar Index" [ref=e603]
+                        - link "Australian Dollar Index" [ref=e1020]
+                          - StaticText "Australian Dollar Index"
+                      - cell "Advanced Chart" [ref=e604]
+                        - link "Advanced Chart" [ref=e1021]
+                          - figure
+                      - cell "69.82" [ref=e605]
+                        - StaticText "69.82"
+                      - cell "-0.19%" [ref=e606]
+                        - StaticText "-0.19%"
+                    - row
+                      - cell "S&P/ASX 200 [XJO]" [ref=e607]
+                        - link "S&P/ASX 200 [XJO]" [ref=e1022]
+                          - StaticText "S&P/ASX 200 [XJO]"
+                      - cell "Advanced Chart" [ref=e608]
+                        - link "Advanced Chart" [ref=e1023]
+                          - figure
+                      - cell "8,796.70" [ref=e609]
+                        - StaticText "8,796.70"
+                      - cell "-0.50%" [ref=e610]
+                        - StaticText "-0.50%"
+                    - row
+                      - cell "Hang Seng" [ref=e611]
+                        - link "Hang Seng" [ref=e1024]
+                          - StaticText "Hang Seng"
+                      - cell "Advanced Chart" [ref=e612]
+                        - link "Advanced Chart" [ref=e1025]
+                          - figure
+                      - cell "24,562.24" [ref=e613]
+                        - StaticText "24,562.24"
+                      - cell "-1.78%" [ref=e614]
+                        - StaticText "-1.78%"
+                    - row
+                      - cell "SSE Composite Index" [ref=e615]
+                        - link "SSE Composite Index" [ref=e1026]
+                          - StaticText "SSE Composite Index"
+                      - cell "Advanced Chart" [ref=e616]
+                        - link "Advanced Chart" [ref=e1027]
+                          - figure
+                      - cell "3,764.15" [ref=e617]
+                        - StaticText "3,764.15"
+                      - cell "-3.05%" [ref=e618]
+                        - StaticText "-3.05%"
+                    - row
+                      - cell "Nikkei 225" [ref=e619]
+                        - link "Nikkei 225" [ref=e1028]
+                          - StaticText "Nikkei 225"
+                      - cell "Advanced Chart" [ref=e620]
+                        - link "Advanced Chart" [ref=e1029]
+                          - figure
+                      - cell "64,141.12" [ref=e621]
+                        - StaticText "64,141.12"
+                      - cell "-4.03%" [ref=e622]
+                        - StaticText "-4.03%"
+                    - row
+                      - cell "KOSPI Composite Index" [ref=e623]
+                        - link "KOSPI Composite Index" [ref=e1030]
+                          - StaticText "KOSPI Composite Index"
+                      - cell "Advanced Chart" [ref=e624]
+                        - link "Advanced Chart" [ref=e1031]
+                          - figure
+                      - cell "6,820.60" [ref=e625]
+                        - StaticText "6,820.60"
+                      - cell "-6.37%" [ref=e626]
+                        - StaticText "-6.37%"
+                    - rowgroup
+                      - row
+            - generic
+              - sectionheader
+                - heading "Assets" [level=3, ref=e78]
+                - generic
+                  - button "prev" [disabled, ref=e106]
+                  - button "next" [ref=e107]
+              - generic
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e420]
+                      - heading "Commodities" [level=3, ref=e627]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1032] clickable [cursor:pointer]
+                        - columnheader "" [ref=e1033]
+                        - columnheader "Price" [ref=e1034] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1035] clickable [cursor:pointer]
+                    - row
+                      - cell "Brent Crude Oil Last Day Financ" [ref=e628]
+                        - link "Brent Crude Oil Last Day Financ" [ref=e1036]
+                          - StaticText "Brent Crude Oil Last Day Financ"
+                      - cell "Advanced Chart" [ref=e629]
+                        - link "Advanced Chart" [ref=e1037]
+                          - figure
+                      - cell "88.10" [ref=e630]
+                        - StaticText "88.10"
+                      - cell "+4.59%" [ref=e631]
+                        - StaticText "+"
+                        - StaticText "4.59%"
+                    - row
+                      - cell "Crude Oil" [ref=e632]
+                        - link "Crude Oil" [ref=e1038]
+                          - StaticText "Crude Oil"
+                      - cell "Advanced Chart" [ref=e633]
+                        - link "Advanced Chart" [ref=e1039]
+                          - figure
+                      - cell "81.78" [ref=e634]
+                        - StaticText "81.78"
+                      - cell "+4.47%" [ref=e635]
+                        - StaticText "+"
+                        - StaticText "4.47%"
+                    - row
+                      - cell "Natural Gas Aug 26" [ref=e636]
+                        - link "Natural Gas Aug 26" [ref=e1040]
+                          - StaticText "Natural Gas Aug 26"
+                      - cell "Advanced Chart" [ref=e637]
+                        - link "Advanced Chart" [ref=e1041]
+                          - figure
+                      - cell "2.9110" [ref=e638]
+                        - StaticText "2.9110"
+                      - cell "+1.85%" [ref=e639]
+                        - StaticText "+"
+                        - StaticText "1.85%"
+                    - row
+                      - cell "Gold" [ref=e640]
+                        - link "Gold" [ref=e1042]
+                          - StaticText "Gold"
+                      - cell "Advanced Chart" [ref=e641]
+                        - link "Advanced Chart" [ref=e1043]
+                          - figure
+                      - cell "4,018.80" [ref=e642]
+                        - StaticText "4,018.80"
+                      - cell "+0.67%" [ref=e643]
+                        - StaticText "+"
+                        - StaticText "0.67%"
+                    - row
+                      - cell "Silver" [ref=e644]
+                        - link "Silver" [ref=e1044]
+                          - StaticText "Silver"
+                      - cell "Advanced Chart" [ref=e645]
+                        - link "Advanced Chart" [ref=e1045]
+                          - figure
+                      - cell "56.33" [ref=e646]
+                        - StaticText "56.33"
+                      - cell "+0.25%" [ref=e647]
+                        - StaticText "+"
+                        - StaticText "0.25%"
+                    - row
+                      - cell "Copper Sep 26" [ref=e648]
+                        - link "Copper Sep 26" [ref=e1046]
+                          - StaticText "Copper Sep 26"
+                      - cell "Advanced Chart" [ref=e649]
+                        - link "Advanced Chart" [ref=e1047]
+                          - figure
+                      - cell "6.26" [ref=e650]
+                        - StaticText "6.26"
+                      - cell "-1.21%" [ref=e651]
+                        - StaticText "-1.21%"
+                    - row
+                      - cell "Platinum Oct 26" [ref=e652]
+                        - link "Platinum Oct 26" [ref=e1048]
+                          - StaticText "Platinum Oct 26"
+                      - cell "Advanced Chart" [ref=e653]
+                        - link "Advanced Chart" [ref=e1049]
+                          - figure
+                      - cell "1,612.50" [ref=e654]
+                        - StaticText "1,612.50"
+                      - cell "-1.83%" [ref=e655]
+                        - StaticText "-1.83%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e421]
+                      - heading "Currencies" [level=3, ref=e656]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1050] clickable [cursor:pointer]
+                        - columnheader "" [ref=e1051]
+                        - columnheader "Price" [ref=e1052] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1053] clickable [cursor:pointer]
+                    - row
+                      - cell "USD/MXN" [ref=e657]
+                        - link "USD/MXN" [ref=e1054]
+                          - StaticText "USD/MXN"
+                      - cell "Advanced Chart" [ref=e658]
+                        - link "Advanced Chart" [ref=e1055]
+                          - figure
+                      - cell "17.5260" [ref=e659]
+                        - StaticText "17.5260"
+                      - cell "+0.63%" [ref=e660]
+                        - StaticText "+"
+                        - StaticText "0.63%"
+                    - row
+                      - cell "USD/GBP" [ref=e661]
+                        - link "USD/GBP" [ref=e1056]
+                          - StaticText "USD/GBP"
+                      - cell "Advanced Chart" [ref=e662]
+                        - link "Advanced Chart" [ref=e1057]
+                          - figure
+                      - cell "0.7434" [ref=e663]
+                        - StaticText "0.7434"
+                      - cell "+0.20%" [ref=e664]
+                        - StaticText "+"
+                        - StaticText "0.20%"
+                    - row
+                      - cell "USD/AUD" [ref=e665]
+                        - link "USD/AUD" [ref=e1058]
+                          - StaticText "USD/AUD"
+                      - cell "Advanced Chart" [ref=e666]
+                        - link "Advanced Chart" [ref=e1059]
+                          - figure
+                      - cell "1.4317" [ref=e667]
+                        - StaticText "1.4317"
+                      - cell "+0.20%" [ref=e668]
+                        - StaticText "+"
+                        - StaticText "0.20%"
+                    - row
+                      - cell "EUR/USD" [ref=e669]
+                        - link "EUR/USD" [ref=e1060]
+                          - StaticText "EUR/USD"
+                      - cell "Advanced Chart" [ref=e670]
+                        - link "Advanced Chart" [ref=e1061]
+                          - figure
+                      - cell "1.1446" [ref=e671]
+                        - StaticText "1.1446"
+                      - cell "+0.01%" [ref=e672]
+                        - StaticText "+"
+                        - StaticText "0.01%"
+                    - row
+                      - cell "USD/JPY" [ref=e673]
+                        - link "USD/JPY" [ref=e1062]
+                          - StaticText "USD/JPY"
+                      - cell "Advanced Chart" [ref=e674]
+                        - link "Advanced Chart" [ref=e1063]
+                          - figure
+                      - cell "162.3530" [ref=e675]
+                        - StaticText "162.3530"
+                      - cell "+0.01%" [ref=e676]
+                        - StaticText "+"
+                        - StaticText "0.01%"
+                    - row
+                      - cell "USD/HKD" [ref=e677]
+                        - link "USD/HKD" [ref=e1064]
+                          - StaticText "USD/HKD"
+                      - cell "Advanced Chart" [ref=e678]
+                        - link "Advanced Chart" [ref=e1065]
+                          - figure
+                      - cell "7.8397" [ref=e679]
+                        - StaticText "7.8397"
+                      - cell "+0.01%" [ref=e680]
+                        - StaticText "+"
+                        - StaticText "0.01%"
+                    - row
+                      - cell "USD/CAD" [ref=e681]
+                        - link "USD/CAD" [ref=e1066]
+                          - StaticText "USD/CAD"
+                      - cell "Advanced Chart" [ref=e682]
+                        - link "Advanced Chart" [ref=e1067]
+                          - figure
+                      - cell "1.4020" [ref=e683]
+                        - StaticText "1.4020"
+                      - cell "-0.14%" [ref=e684]
+                        - StaticText "-0.14%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e422]
+                      - heading "US Treasury Bonds" [level=3, ref=e685]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1068] clickable [cursor:pointer]
+                        - columnheader "" [ref=e1069]
+                        - columnheader "Price" [ref=e1070] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1071] clickable [cursor:pointer]
+                    - row
+                      - cell "iShares 20+ Year Treasury Bond ETF" [ref=e686]
+                        - link "iShares 20+ Year Treasury Bond ETF" [ref=e1072]
+                          - StaticText "iShares 20+ Year Treasury Bond ETF"
+                      - cell "Advanced Chart" [ref=e687]
+                        - link "Advanced Chart" [ref=e1073]
+                          - figure
+                      - cell "84.52" [ref=e688]
+                        - StaticText "84.52"
+                      - cell "+0.37%" [ref=e689]
+                        - StaticText "+"
+                        - StaticText "0.37%"
+                    - row
+                      - cell "13-Wk Bond" [ref=e690]
+                        - link "13-Wk Bond" [ref=e1074]
+                          - StaticText "13-Wk Bond"
+                      - cell "Advanced Chart" [ref=e691]
+                        - link "Advanced Chart" [ref=e1075]
+                          - figure
+                      - cell "3.7070" [ref=e692]
+                        - StaticText "3.7070"
+                      - cell "+0.27%" [ref=e693]
+                        - StaticText "+"
+                        - StaticText "0.27%"
+                    - row
+                      - cell "10 Yr T-Note Futures" [ref=e694]
+                        - link "10 Yr T-Note Futures" [ref=e1076]
+                          - StaticText "10 Yr T-Note Futures"
+                      - cell "Advanced Chart" [ref=e695]
+                        - link "Advanced Chart" [ref=e1077]
+                          - figure
+                      - cell "109.27" [ref=e696]
+                        - StaticText "109.27"
+                      - cell "+0.11%" [ref=e697]
+                        - StaticText "+"
+                        - StaticText "0.11%"
+                    - row
+                      - cell "2 Yr T-Note Futures" [ref=e698]
+                        - link "2 Yr T-Note Futures" [ref=e1078]
+                          - StaticText "2 Yr T-Note Futures"
+                      - cell "Advanced Chart" [ref=e699]
+                        - link "Advanced Chart" [ref=e1079]
+                          - figure
+                      - cell "103.01" [ref=e700]
+                        - StaticText "103.01"
+                      - cell "-0.03%" [ref=e701]
+                        - StaticText "-0.03%"
+                    - row
+                      - cell "5-Yr Bond" [ref=e702]
+                        - link "5-Yr Bond" [ref=e1080]
+                          - StaticText "5-Yr Bond"
+                      - cell "Advanced Chart" [ref=e703]
+                        - link "Advanced Chart" [ref=e1081]
+                          - figure
+                      - cell "4.2730" [ref=e704]
+                        - StaticText "4.2730"
+                      - cell "-0.21%" [ref=e705]
+                        - StaticText "-0.21%"
+                    - row
+                      - cell "10-Yr Bond" [ref=e706]
+                        - link "10-Yr Bond" [ref=e1082]
+                          - StaticText "10-Yr Bond"
+                      - cell "Advanced Chart" [ref=e707]
+                        - link "Advanced Chart" [ref=e1083]
+                          - figure
+                      - cell "4.5410" [ref=e708]
+                        - StaticText "4.5410"
+                      - cell "-0.61%" [ref=e709]
+                        - StaticText "-0.61%"
+                    - row
+                      - cell "30-Yr Bond" [ref=e710]
+                        - link "30-Yr Bond" [ref=e1084]
+                          - StaticText "30-Yr Bond"
+                      - cell "Advanced Chart" [ref=e711]
+                        - link "Advanced Chart" [ref=e1085]
+                          - figure
+                      - cell "5.06" [ref=e712]
+                        - StaticText "5.06"
+                      - cell "-0.67%" [ref=e713]
+                        - StaticText "-0.67%"
+                    - rowgroup
+                      - row
+            - generic
+              - sectionheader
+                - link "View More" [ref=e79]
+                  - heading "Sectors" [level=3, ref=e108]
+              - generic
+                - heading "Select a Sector for a Visual Breakdown" [level=3, ref=e109]
+                - table
+                  - rowgroup
+                    - row
+                      - columnheader "Sector" [ref=e1225]
+                      - columnheader "Market Weight" [ref=e1226]
+                      - columnheader "YTD Return" [ref=e1227]
+                  - row [ref=e714] focusable [tabindex]
+                    - cell "All Sectors" [ref=e1086]
+                    - cell "100.00%" [ref=e1087]
+                      - StaticText "100.00%"
+                    - cell "+11.84%" [ref=e1088]
+                      - StaticText "+"
+                      - StaticText "11.84%"
+                  - row [ref=e715] focusable [tabindex]
+                    - cell "Technology" [ref=e1089]
+                    - cell "31.17%" [ref=e1090]
+                      - StaticText "31.17%"
+                    - cell "+15.11%" [ref=e1091]
+                      - StaticText "+"
+                      - StaticText "15.11%"
+                  - row [ref=e716] focusable [tabindex]
+                    - cell "Financial Services" [ref=e1092]
+                    - cell "13.99%" [ref=e1093]
+                      - StaticText "13.99%"
+                    - cell "+3.57%" [ref=e1094]
+                      - StaticText "+"
+                      - StaticText "3.57%"
+                  - row [ref=e717] focusable [tabindex]
+                    - cell "Industrials" [ref=e1095]
+                    - cell "10.83%" [ref=e1096]
+                      - StaticText "10.83%"
+                    - cell "+44.30%" [ref=e1097]
+                      - StaticText "+"
+                      - StaticText "44.30%"
+                  - row [ref=e718] focusable [tabindex]
+                    - cell "Consumer Cyclical" [ref=e1098]
+                    - cell "9.52%" [ref=e1099]
+                      - StaticText "9.52%"
+                    - cell "-0.58%" [ref=e1100]
+                  - row [ref=e719] focusable [tabindex]
+                    - cell "Communication Services" [ref=e1101]
+                    - cell "9.44%" [ref=e1102]
+                      - StaticText "9.44%"
+                    - cell "+1.28%" [ref=e1103]
+                      - StaticText "+"
+                      - StaticText "1.28%"
+                  - row [ref=e720] focusable [tabindex]
+                    - cell "Healthcare" [ref=e1104]
+                    - cell "9.18%" [ref=e1105]
+                      - StaticText "9.18%"
+                    - cell "+9.16%" [ref=e1106]
+                      - StaticText "+"
+                      - StaticText "9.16%"
+                  - row [ref=e721] focusable [tabindex]
+                    - cell "Energy" [ref=e1107]
+                    - cell "4.65%" [ref=e1108]
+                      - StaticText "4.65%"
+                    - cell "+26.58%" [ref=e1109]
+                      - StaticText "+"
+                      - StaticText "26.58%"
+                  - row [ref=e722] focusable [tabindex]
+                    - cell "Consumer Defensive" [ref=e1110]
+                    - cell "4.48%" [ref=e1111]
+                      - StaticText "4.48%"
+                    - cell "+7.40%" [ref=e1112]
+                      - StaticText "+"
+                      - StaticText "7.40%"
+                  - row [ref=e723] focusable [tabindex]
+                    - cell "Basic Materials" [ref=e1113]
+                    - cell "2.51%" [ref=e1114]
+                      - StaticText "2.51%"
+                    - cell "+4.73%" [ref=e1115]
+                      - StaticText "+"
+                      - StaticText "4.73%"
+                  - row [ref=e724] focusable [tabindex]
+                    - cell "Real Estate" [ref=e1116]
+                    - cell "2.17%" [ref=e1117]
+                      - StaticText "2.17%"
+                    - cell "+13.77%" [ref=e1118]
+                      - StaticText "+"
+                      - StaticText "13.77%"
+                  - row [ref=e725] focusable [tabindex]
+                    - cell "Utilities" [ref=e1119]
+                    - cell "2.06%" [ref=e1120]
+                      - StaticText "2.06%"
+                    - cell "+10.09%" [ref=e1121]
+                      - StaticText "+"
+                      - StaticText "10.09%"
+                - paragraph
+                  - StaticText "Note: Percentage % data on heatmap indicates Day Return"
+              - heading "All Sectors" [level=3, ref=e80]
+              - generic
+                - region "Heatmap" [ref=e110] clickable [cursor:pointer]
+                  - link "Heatmap region for Technology" [ref=e124]
+                    - StaticText "Technology"
+                    - StaticText "-2.22%"
+                  - link "Heatmap region for Financial Services" [ref=e125]
+                    - StaticText "Financial Services"
+                    - StaticText "+0.23%"
+                  - link "Heatmap region for Industrials" [ref=e126]
+                    - StaticText "Industrials"
+                    - StaticText "+0.08%"
+                  - link "Heatmap region for Consumer Cyclical" [ref=e127]
+                    - StaticText "Consumer Cyclical"
+                    - StaticText "+0.08%"
+                  - link "Heatmap region for Communication Services" [ref=e128]
+                    - StaticText "Communication Services"
+                    - StaticText "-0.02%"
+                  - link "Heatmap region for Healthcare" [ref=e129]
+                    - StaticText "Healthcare"
+                    - StaticText "+0.00%"
+                  - link "Heatmap region for Energy" [ref=e130]
+                    - StaticText "Energy"
+                    - StaticText "+0.15%"
+                  - link "Heatmap region for Consumer Defensive" [ref=e131]
+                    - StaticText "Consumer Defensive"
+                    - StaticText "-0.09%"
+                  - link "Heatmap region for Basic Materials" [ref=e132]
+                    - StaticText "Basic Materials"
+                    - StaticText "+0.14%"
+                  - link "Heatmap region for Real Estate" [ref=e133]
+                  - link "Heatmap region for Utilities" [ref=e134]
+                    - StaticText "Utilities"
+                    - StaticText "+0.09%"
+                - paragraph
+                  - StaticText "<= -3"
+                - paragraph
+                  - StaticText "-2"
+                - paragraph
+                  - StaticText "-1"
+                - paragraph
+                  - StaticText "0"
+                - paragraph
+                  - StaticText "1"
+                - paragraph
+                  - StaticText "2"
+                - paragraph
+                  - StaticText ">= 3"
+            - generic
+              - sectionheader
+                - link "View More" [ref=e81]
+                  - heading "Stocks" [level=3, ref=e111]
+              - generic
+                - heading "Trending Now" [level=4, ref=e82]
+                - generic
+                  - button "prev" [disabled, ref=e112]
+                  - button "next" [ref=e113]
+                - generic
+                  - generic
+                    - StaticText "EBAY"
+                    - StaticText "eBay Inc."
+                    - strong
+                      - StaticText "112.06"
+                    - StaticText "+"
+                    - StaticText "1.04%"
+                    - link "EBAY" [ref=e423]
+                  - generic
+                    - StaticText "PLOW"
+                    - StaticText "Douglas Dynamics, Inc."
+                    - strong
+                      - StaticText "44.62"
+                    - StaticText "-0.67%"
+                    - link "PLOW" [ref=e424]
+                  - generic
+                    - StaticText "WMB"
+                    - StaticText "The Williams Companies, Inc."
+                    - strong
+                      - StaticText "73.38"
+                    - StaticText "-1.81%"
+                    - link "WMB" [ref=e425]
+                  - generic
+                    - StaticText "LCID"
+                    - StaticText "Lucid Group, Inc."
+                    - strong
+                      - StaticText "7.36"
+                    - StaticText "+"
+                    - StaticText "13.93%"
+                    - link "LCID" [ref=e426]
+                  - generic
+                    - StaticText "GS"
+                    - StaticText "The Goldman Sachs Group, Inc."
+                    - strong
+                      - StaticText "1,065.22"
+                    - StaticText "-2.76%"
+                    - link "GS" [ref=e427]
+                  - generic
+                    - StaticText "MCD"
+                    - StaticText "McDonald's Corporation"
+                    - strong
+                      - StaticText "267.71"
+                    - StaticText "-2.10%"
+                    - link "MCD" [ref=e428]
+                  - generic
+                    - StaticText "MMM"
+                    - StaticText "3M Company"
+                    - strong
+                      - StaticText "159.84"
+                    - StaticText "-1.19%"
+                    - link "MMM" [ref=e429]
+                  - generic
+                    - StaticText "NEE"
+                    - StaticText "NextEra Energy, Inc."
+                    - strong
+                      - StaticText "88.80"
+                    - StaticText "-0.62%"
+                    - link "NEE" [ref=e430]
+                  - generic
+                    - StaticText "HD"
+                    - StaticText "The Home Depot, Inc."
+                    - strong
+                      - StaticText "338.87"
+                    - StaticText "-2.63%"
+                    - link "HD" [ref=e431]
+                  - generic
+                    - StaticText "CVX"
+                    - StaticText "Chevron Corporation"
+                    - strong
+                      - StaticText "187.38"
+                    - StaticText "+"
+                    - StaticText "1.91%"
+                    - link "CVX" [ref=e432]
+                  - generic
+                    - StaticText "PEP"
+                    - StaticText "PepsiCo, Inc."
+                    - strong
+                      - StaticText "137.12"
+                    - StaticText "-1.66%"
+                    - link "PEP" [ref=e433]
+                  - generic
+                    - generic
+                      - StaticText "000660.KS"
+                      - StaticText "SK hynix Inc."
+                      - strong
+                        - StaticText "1,842,000.00"
+                      - StaticText "-11.53%"
+                    - link "000660.KS" [ref=e434]
+                  - generic
+                    - StaticText "DIS"
+                    - StaticText "The Walt Disney Company"
+                    - strong
+                      - StaticText "97.67"
+                    - StaticText "-2.05%"
+                    - link "DIS" [ref=e435]
+                  - generic
+                    - StaticText "XOM"
+                    - StaticText "ExxonMobil Holdings Corporation"
+                    - strong
+                      - StaticText "147.36"
+                    - StaticText "+"
+                    - StaticText "0.97%"
+                    - link "XOM" [ref=e436]
+                  - generic
+                    - StaticText "BA"
+                    - StaticText "The Boeing Company"
+                    - strong
+                      - StaticText "214.03"
+                    - StaticText "-0.14%"
+                    - link "BA" [ref=e437]
+                  - generic
+                    - StaticText "CEG"
+                    - StaticText "Constellation Energy Corporation"
+                    - strong
+                      - StaticText "252.39"
+                    - StaticText "+"
+                    - StaticText "0.25%"
+                    - link "CEG" [ref=e438]
+                  - generic
+                    - StaticText "LMT"
+                    - StaticText "Lockheed Martin Corporation"
+                    - strong
+                      - StaticText "508.77"
+                    - StaticText "-0.92%"
+                    - link "LMT" [ref=e439]
+                  - generic
+                    - StaticText "KO"
+                    - StaticText "The Coca-Cola Company"
+                    - strong
+                      - StaticText "81.56"
+                    - StaticText "-3.96%"
+                    - link "KO" [ref=e440]
+                  - generic
+                    - StaticText "ET"
+                    - StaticText "Energy Transfer LP"
+                    - strong
+                      - StaticText "20.32"
+                    - StaticText "+"
+                    - StaticText "0.59%"
+                    - link "ET" [ref=e441]
+                  - generic
+                    - StaticText "VZ"
+                    - StaticText "Verizon Communications Inc."
+                    - strong
+                      - StaticText "43.59"
+                    - StaticText "-0.66%"
+                    - link "VZ" [ref=e442]
+              - tablist
+                - tab "Most Active" [selected, ref=e83]
+                - tab "Trending Now" [ref=e84]
+                - tab "Top Gainers" [ref=e85]
+                - tab "Top Losers" [ref=e86]
+                - tab "52 Week Gainers" [ref=e87]
+                - tab "52 Week Losers" [ref=e88]
+                - tab "More" [ref=e114]
+                  - StaticText "More"
+              - table
+                - rowgroup
+                  - row
+                    - columnheader "Symbol" [ref=e443] clickable [cursor:pointer]
+                    - columnheader "Name" [ref=e444] clickable [cursor:pointer]
+                    - columnheader "" [ref=e445]
+                    - columnheader "Price" [ref=e446] clickable [cursor:pointer]
+                      - StaticText "Price"
+                    - columnheader "Change" [ref=e447] clickable [cursor:pointer]
+                    - columnheader "Change %" [ref=e448] clickable [cursor:pointer]
+                    - columnheader "Volume" [ref=e449] clickable [cursor:pointer]
+                    - columnheader "Avg Vol (3M)" [ref=e450] clickable [cursor:pointer]
+                    - columnheader "Market Cap" [ref=e451] clickable [cursor:pointer]
+                    - columnheader "P/E Ratio (TTM)" [ref=e452] clickable [cursor:pointer]
+                      - StaticText "P/E Ratio"
+                      - StaticText "(TTM)"
+                    - columnheader "52 Wk Change %" [ref=e453] clickable [cursor:pointer]
+                      - StaticText "52 Wk"
+                      - StaticText "Change %"
+                    - columnheader "52 Wk Range" [ref=e454]
+                - row
+                  - cell "Ondas Inc." [ref=e135]
+                    - link "Ondas Inc." [ref=e455]
+                      - StaticText "ONDS"
+                  - cell "Ondas Inc." [ref=e136]
+                    - StaticText "Ondas Inc."
+                  - cell "Advanced Chart" [ref=e137]
+                    - link "Advanced Chart" [ref=e456]
+                      - figure
+                  - cell "6.53" [ref=e138]
+                    - StaticText "6.53"
+                  - cell "-0.12" [ref=e139]
+                    - StaticText "-0.12"
+                  - cell "-1.88%" [ref=e140]
+                    - StaticText "-1.88%"
+                  - cell "211.152M" [ref=e141]
+                    - StaticText "211.152M"
+                  - cell "76.676M" [ref=e142]
+                  - cell "3.718B" [ref=e143]
+                    - StaticText "3.718B"
+                  - cell "15.20" [ref=e144]
+                  - cell "+190.00%" [ref=e145]
+                    - StaticText "+"
+                    - StaticText "190.00%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e146]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "1.78"
+                        - StaticText "15.28"
+                - row
+                  - cell "American Airlines Group Inc." [ref=e147]
+                    - link "American Airlines Group Inc." [ref=e457]
+                      - StaticText "AAL"
+                  - cell "American Airlines Group Inc." [ref=e148]
+                    - StaticText "American Airlines Group Inc."
+                  - cell "Advanced Chart" [ref=e149]
+                    - link "Advanced Chart" [ref=e458]
+                      - figure
+                  - cell "14.98" [ref=e150]
+                    - StaticText "14.98"
+                  - cell "-0.62" [ref=e151]
+                    - StaticText "-0.62"
+                  - cell "-3.97%" [ref=e152]
+                    - StaticText "-3.97%"
+                  - cell "176.722M" [ref=e153]
+                    - StaticText "176.722M"
+                  - cell "103.661M" [ref=e154]
+                  - cell "9.908B" [ref=e155]
+                    - StaticText "9.908B"
+                  - cell "51.01" [ref=e156]
+                  - cell "+21.59%" [ref=e157]
+                    - StaticText "+"
+                    - StaticText "21.59%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e158]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "10.09"
+                        - StaticText "18.79"
+                - row
+                  - cell "Netflix, Inc." [ref=e159]
+                    - link "Netflix, Inc." [ref=e459]
+                      - StaticText "NFLX"
+                  - cell "Netflix, Inc." [ref=e160]
+                    - StaticText "Netflix, Inc."
+                  - cell "Advanced Chart" [ref=e161]
+                    - link "Advanced Chart" [ref=e460]
+                      - figure
+                  - cell "68.95" [ref=e162]
+                    - StaticText "68.95"
+                  - cell "-5.40" [ref=e163]
+                    - StaticText "-5.40"
+                  - cell "-7.26%" [ref=e164]
+                    - StaticText "-7.26%"
+                  - cell "131.496M" [ref=e165]
+                    - StaticText "131.496M"
+                  - cell "42.635M" [ref=e166]
+                  - cell "290.335B" [ref=e167]
+                    - StaticText "290.335B"
+                  - cell "23.42" [ref=e168]
+                  - cell "-44.09%" [ref=e169]
+                    - StaticText "-44.09%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e170]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "65.08"
+                        - StaticText "126.71"
+                - row
+                  - cell "NVIDIA Corporation" [ref=e171]
+                    - link "NVIDIA Corporation" [ref=e461]
+                      - StaticText "NVDA"
+                  - cell "NVIDIA Corporation" [ref=e172]
+                    - StaticText "NVIDIA Corporation"
+                  - cell "Advanced Chart" [ref=e173]
+                    - link "Advanced Chart" [ref=e462]
+                      - figure
+                  - cell "202.81" [ref=e174]
+                    - StaticText "202.81"
+                  - cell "-4.59" [ref=e175]
+                    - StaticText "-4.59"
+                  - cell "-2.21%" [ref=e176]
+                    - StaticText "-2.21%"
+                  - cell "126.82M" [ref=e177]
+                    - StaticText "126.82M"
+                  - cell "156.692M" [ref=e178]
+                  - cell "4.912T" [ref=e179]
+                    - StaticText "4.912T"
+                  - cell "31.76" [ref=e180]
+                  - cell "+18.34%" [ref=e181]
+                    - StaticText "+"
+                    - StaticText "18.34%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e182]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "164.07"
+                        - StaticText "236.54"
+                - row
+                  - cell "Nu Holdings Ltd." [ref=e183]
+                    - link "Nu Holdings Ltd." [ref=e463]
+                      - StaticText "NU"
+                  - cell "Nu Holdings Ltd." [ref=e184]
+                    - StaticText "Nu Holdings Ltd."
+                  - cell "Advanced Chart" [ref=e185]
+                    - link "Advanced Chart" [ref=e464]
+                      - figure
+                  - cell "13.59" [ref=e186]
+                    - StaticText "13.59"
+                  - cell "-0.20" [ref=e187]
+                    - StaticText "-0.20"
+                  - cell "-1.45%" [ref=e188]
+                    - StaticText "-1.45%"
+                  - cell "112.184M" [ref=e189]
+                    - StaticText "112.184M"
+                  - cell "64.106M" [ref=e190]
+                  - cell "65.646B" [ref=e191]
+                    - StaticText "65.646B"
+                  - cell "21.28" [ref=e192]
+                  - cell "+5.43%" [ref=e193]
+                    - StaticText "+"
+                    - StaticText "5.43%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e194]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "11.20"
+                        - StaticText "18.98"
+                - row
+                  - cell "Intel Corporation" [ref=e195]
+                    - link "Intel Corporation" [ref=e465]
+                      - StaticText "INTC"
+                  - cell "Intel Corporation" [ref=e196]
+                    - StaticText "Intel Corporation"
+                  - cell "Advanced Chart" [ref=e197]
+                    - link "Advanced Chart" [ref=e466]
+                      - figure
+                  - cell "95.04" [ref=e198]
+                    - StaticText "95.04"
+                  - cell "-1.94" [ref=e199]
+                    - StaticText "-1.94"
+                  - cell "-2.00%" [ref=e200]
+                    - StaticText "-2.00%"
+                  - cell "111.526M" [ref=e201]
+                    - StaticText "111.526M"
+                  - cell "134.28M" [ref=e202]
+                  - cell "477.671B" [ref=e203]
+                    - StaticText "477.671B"
+                  - cell "--" [ref=e204]
+                  - cell "+308.60%" [ref=e205]
+                    - StaticText "+"
+                    - StaticText "308.60%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e206]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "18.97"
+                        - StaticText "142.35"
+                - row
+                  - cell "SK hynix Inc." [ref=e207]
+                    - link "SK hynix Inc." [ref=e467]
+                      - StaticText "SKHYV"
+                  - cell "SK hynix Inc." [ref=e208]
+                    - StaticText "SK hynix Inc."
+                  - cell "Advanced Chart" [ref=e209]
+                    - link "Advanced Chart" [ref=e468]
+                      - figure
+                  - cell "168.01" [ref=e210]
+                    - StaticText "168.01"
+                  - cell "+168.01" [ref=e211]
+                    - StaticText "+"
+                    - StaticText "168.01"
+                  - cell "0.00%" [ref=e212]
+                    - StaticText "0.00%"
+                  - cell "107.675M" [ref=e213]
+                    - StaticText "107.675M"
+                  - cell "78.177M" [ref=e214]
+                  - cell "1.193T" [ref=e215]
+                    - StaticText "1.193T"
+                  - cell "--" [ref=e216]
+                  - cell "+15.59%" [ref=e217]
+                    - StaticText "+"
+                    - StaticText "15.59%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e218]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "151.30"
+                        - StaticText "194.80"
+                - row
+                  - cell "Opendoor Technologies Inc." [ref=e219]
+                    - link "Opendoor Technologies Inc." [ref=e469]
+                      - StaticText "OPEN"
+                  - cell "Opendoor Technologies Inc." [ref=e220]
+                    - StaticText "Opendoor Technologies Inc."
+                  - cell "Advanced Chart" [ref=e221]
+                    - link "Advanced Chart" [ref=e470]
+                      - figure
+                  - cell "4.50" [ref=e222]
+                    - StaticText "4.50"
+                  - cell "-0.07" [ref=e223]
+                    - StaticText "-0.07"
+                  - cell "-1.53%" [ref=e224]
+                    - StaticText "-1.53%"
+                  - cell "106.419M" [ref=e225]
+                    - StaticText "106.419M"
+                  - cell "53.491M" [ref=e226]
+                  - cell "4.341B" [ref=e227]
+                    - StaticText "4.341B"
+                  - cell "--" [ref=e228]
+                  - cell "+40.19%" [ref=e229]
+                    - StaticText "+"
+                    - StaticText "40.19%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e230]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "1.70"
+                        - StaticText "10.87"
+                - rowgroup
+                  - row
+            - generic
+              - sectionheader
+                - link "View More" [ref=e89]
+                  - heading "Cryptocurrencies" [level=3, ref=e115]
+              - tablist
+                - tab "All" [selected, ref=e90]
+                - tab "Most Active" [ref=e91]
+                - tab "Top Gainers" [ref=e92]
+                - tab "Top Losers" [ref=e93]
+              - table
+                - rowgroup
+                  - row
+                    - columnheader "Symbol" [ref=e471] clickable [cursor:pointer]
+                    - columnheader "Name" [ref=e472]
+                    - columnheader "" [ref=e473]
+                    - columnheader "Price" [ref=e474] clickable [cursor:pointer]
+                      - StaticText "Price"
+                    - columnheader "Change" [ref=e475] clickable [cursor:pointer]
+                    - columnheader "Change %" [ref=e476] clickable [cursor:pointer]
+                    - columnheader "Market Cap" [ref=e477] clickable [cursor:pointer]
+                    - columnheader "Volume" [ref=e478] clickable [cursor:pointer]
+                    - columnheader "Volume In Currency (24hr)" [ref=e479] clickable [cursor:pointer]
+                      - StaticText "Volume In"
+                      - StaticText "Currency (24hr)"
+                    - columnheader "Total Volume All Currencies (24hr)" [ref=e480] clickable [cursor:pointer]
+                      - StaticText "Total Volume All"
+                      - StaticText "Currencies (24hr)"
+                    - columnheader "Circulating Supply" [ref=e481] clickable [cursor:pointer]
+                      - StaticText "Circulating"
+                      - StaticText "Supply"
+                    - columnheader "52 Wk Change %" [ref=e482] clickable [cursor:pointer]
+                      - StaticText "52 Wk"
+                      - StaticText "Change %"
+                    - columnheader "52 Wk Range" [ref=e483]
+                - row
+                  - cell "Bitcoin USD" [ref=e231]
+                    - link "Bitcoin USD" [ref=e484]
+                      - StaticText "BTC-USD"
+                  - cell "Bitcoin USD" [ref=e232]
+                    - StaticText "Bitcoin USD"
+                  - cell "Advanced Chart" [ref=e233]
+                    - link "Advanced Chart" [ref=e485]
+                      - figure
+                  - cell "64,086.61" [ref=e234]
+                    - StaticText "64,086.61"
+                  - cell "+536.50" [ref=e235]
+                    - StaticText "+"
+                    - StaticText "536.50"
+                  - cell "+0.84%" [ref=e236]
+                    - StaticText "+"
+                    - StaticText "0.84%"
+                  - cell "1.285T" [ref=e237]
+                    - StaticText "1.285T"
+                  - cell "15.605B" [ref=e238]
+                    - StaticText "15.605B"
+                  - cell "15.605B" [ref=e239]
+                  - cell "15.605B" [ref=e240]
+                  - cell "20.058M" [ref=e241]
+                  - cell "-45.82%" [ref=e242]
+                    - StaticText "-45.82%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e243]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "57,747.77"
+                        - StaticText "126,198.07"
+                - row
+                  - cell "Ethereum USD" [ref=e244]
+                    - link "Ethereum USD" [ref=e486]
+                      - StaticText "ETH-USD"
+                  - cell "Ethereum USD" [ref=e245]
+                    - StaticText "Ethereum USD"
+                  - cell "Advanced Chart" [ref=e246]
+                    - link "Advanced Chart" [ref=e487]
+                      - figure
+                  - cell "1,842.01" [ref=e247]
+                    - StaticText "1,842.01"
+                  - cell "+7.10" [ref=e248]
+                    - StaticText "+"
+                    - StaticText "7.10"
+                  - cell "+0.39%" [ref=e249]
+                    - StaticText "+"
+                    - StaticText "0.39%"
+                  - cell "222.29B" [ref=e250]
+                    - StaticText "222.29B"
+                  - cell "5.014B" [ref=e251]
+                    - StaticText "5.014B"
+                  - cell "5.014B" [ref=e252]
+                  - cell "5.014B" [ref=e253]
+                  - cell "120.683M" [ref=e254]
+                  - cell "-48.79%" [ref=e255]
+                    - StaticText "-48.79%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e256]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "1,506.51"
+                        - StaticText "4,953.73"
+                - row
+                  - cell "Tether USDt USD" [ref=e257]
+                    - link "Tether USDt USD" [ref=e488]
+                      - StaticText "USDT-USD"
+                  - cell "Tether USDt USD" [ref=e258]
+                    - StaticText "Tether USDt USD"
+                  - cell "Advanced Chart" [ref=e259]
+                    - link "Advanced Chart" [ref=e489]
+                      - figure
+                  - cell "1.00" [ref=e260]
+                    - StaticText "1.00"
+                  - cell "+0.00" [ref=e261]
+                    - StaticText "+"
+                    - StaticText "0.00"
+                  - cell "+0.01%" [ref=e262]
+                    - StaticText "+"
+                    - StaticText "0.01%"
+                  - cell "184.091B" [ref=e263]
+                    - StaticText "184.091B"
+                  - cell "34.135B" [ref=e264]
+                    - StaticText "34.135B"
+                  - cell "34.135B" [ref=e265]
+                  - cell "34.135B" [ref=e266]
+                  - cell "184.223B" [ref=e267]
+                  - cell "-0.11%" [ref=e268]
+                    - StaticText "-0.11%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e269]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "0.99"
+                        - StaticText "1.01"
+                - row
+                  - cell "BNB USD" [ref=e270]
+                    - link "BNB USD" [ref=e490]
+                      - StaticText "BNB-USD"
+                  - cell "BNB USD" [ref=e271]
+                    - StaticText "BNB USD"
+                  - cell "Advanced Chart" [ref=e272]
+                    - link "Advanced Chart" [ref=e491]
+                      - figure
+                  - cell "569.80" [ref=e273]
+                    - StaticText "569.80"
+                  - cell "+5.80" [ref=e274]
+                    - StaticText "+"
+                    - StaticText "5.80"
+                  - cell "+1.03%" [ref=e275]
+                    - StaticText "+"
+                    - StaticText "1.03%"
+                  - cell "75.903B" [ref=e276]
+                    - StaticText "75.903B"
+                  - cell "856.224M" [ref=e277]
+                    - StaticText "856.224M"
+                  - cell "856.224M" [ref=e278]
+                  - cell "856.224M" [ref=e279]
+                  - cell "133.166M" [ref=e280]
+                  - cell "-22.60%" [ref=e281]
+                    - StaticText "-22.60%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e282]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "538.60"
+                        - StaticText "1,370.55"
+                - row
+                  - cell "USD Coin USD" [ref=e283]
+                    - link "USD Coin USD" [ref=e492]
+                      - StaticText "USDC-USD"
+                  - cell "USD Coin USD" [ref=e284]
+                    - StaticText "USD Coin USD"
+                  - cell "Advanced Chart" [ref=e285]
+                    - link "Advanced Chart" [ref=e493]
+                      - figure
+                  - cell "1.00" [ref=e286]
+                    - StaticText "1.00"
+                  - cell "-0.00" [ref=e287]
+                    - StaticText "-0.00"
+                  - cell "-0.00%" [ref=e288]
+                    - StaticText "-0.00%"
+                  - cell "73.273B" [ref=e289]
+                    - StaticText "73.273B"
+                  - cell "4.265B" [ref=e290]
+                    - StaticText "4.265B"
+                  - cell "4.265B" [ref=e291]
+                  - cell "4.265B" [ref=e292]
+                  - cell "73.284B" [ref=e293]
+                  - cell "+0.00%" [ref=e294]
+                    - StaticText "+"
+                    - StaticText "0.00%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e295]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "1.00"
+                        - StaticText "1.00"
+                - row
+                  - cell "XRP USD" [ref=e296]
+                    - link "XRP USD" [ref=e494]
+                      - StaticText "XRP-USD"
+                  - cell "XRP USD" [ref=e297]
+                    - StaticText "XRP USD"
+                  - cell "Advanced Chart" [ref=e298]
+                    - link "Advanced Chart" [ref=e495]
+                      - figure
+                  - cell "1.09" [ref=e299]
+                    - StaticText "1.09"
+                  - cell "+0.00" [ref=e300]
+                    - StaticText "+"
+                    - StaticText "0.00"
+                  - cell "+0.08%" [ref=e301]
+                    - StaticText "+"
+                    - StaticText "0.08%"
+                  - cell "67.902B" [ref=e302]
+                    - StaticText "67.902B"
+                  - cell "585.474M" [ref=e303]
+                    - StaticText "585.474M"
+                  - cell "585.474M" [ref=e304]
+                  - cell "585.474M" [ref=e305]
+                  - cell "62.467B" [ref=e306]
+                  - cell "-68.26%" [ref=e307]
+                    - StaticText "-68.26%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e308]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "1.01"
+                        - StaticText "3.64"
+                - row
+                  - cell "Solana USD" [ref=e309]
+                    - link "Solana USD" [ref=e496]
+                      - StaticText "SOL-USD"
+                  - cell "Solana USD" [ref=e310]
+                    - StaticText "Solana USD"
+                  - cell "Advanced Chart" [ref=e311]
+                    - link "Advanced Chart" [ref=e497]
+                      - figure
+                  - cell "74.94" [ref=e312]
+                    - StaticText "74.94"
+                  - cell "+0.03" [ref=e313]
+                    - StaticText "+"
+                    - StaticText "0.03"
+                  - cell "+0.04%" [ref=e314]
+                    - StaticText "+"
+                    - StaticText "0.04%"
+                  - cell "43.658B" [ref=e315]
+                    - StaticText "43.658B"
+                  - cell "915.975M" [ref=e316]
+                    - StaticText "915.975M"
+                  - cell "915.975M" [ref=e317]
+                  - cell "915.975M" [ref=e318]
+                  - cell "582.516M" [ref=e319]
+                  - cell "-57.64%" [ref=e320]
+                    - StaticText "-57.64%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e321]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "60.41"
+                        - StaticText "253.21"
+                - row
+                  - cell "TRON USD" [ref=e322]
+                    - link "TRON USD" [ref=e498]
+                      - StaticText "TRX-USD"
+                  - cell "TRON USD" [ref=e323]
+                    - StaticText "TRON USD"
+                  - cell "Advanced Chart" [ref=e324]
+                    - link "Advanced Chart" [ref=e499]
+                      - figure
+                  - cell "0.32" [ref=e325]
+                    - StaticText "0.32"
+                  - cell "-0.00" [ref=e326]
+                    - StaticText "-0.00"
+                  - cell "-0.04%" [ref=e327]
+                    - StaticText "-0.04%"
+                  - cell "30.61B" [ref=e328]
+                    - StaticText "30.61B"
+                  - cell "328.762M" [ref=e329]
+                    - StaticText "328.762M"
+                  - cell "328.762M" [ref=e330]
+                  - cell "328.762M" [ref=e331]
+                  - cell "94.871B" [ref=e332]
+                  - cell "+1.43%" [ref=e333]
+                    - StaticText "+"
+                    - StaticText "1.43%"
+                  - cell "Graph showing stock performance over fifty two week range" [ref=e334]
+                    - image "Graph showing stock performance over fifty two week range"
+                      - generic
+                        - image
+                      - generic
+                        - StaticText "0.27"
+                        - StaticText "0.38"
+                - rowgroup
+                  - row
+            - generic
+              - sectionheader
+                - link "View More" [ref=e94]
+                  - heading "Private Companies" [level=3, ref=e116]
+              - tablist
+                - tab "Highest Valuation" [selected, ref=e95]
+                - tab "52 Week Gainers" [ref=e96]
+                - tab "Recently Funded" [ref=e97]
+                - tab "Most Funded" [ref=e98]
+              - table
+                - rowgroup
+                  - row
+                    - columnheader "Symbol" [ref=e500] clickable [cursor:pointer]
+                    - columnheader "Company" [ref=e501] clickable [cursor:pointer]
+                    - columnheader "Price" [ref=e502] clickable [cursor:pointer]
+                      - StaticText "Price"
+                    - columnheader "52 Wk Change %" [ref=e503] clickable [cursor:pointer]
+                      - StaticText "52 Wk"
+                      - StaticText "Change %"
+                    - columnheader "Estimated Valuation" [ref=e504] clickable [cursor:pointer]
+                      - StaticText "Estimated"
+                      - StaticText "Valuation"
+                    - columnheader "Total Funding Raised" [ref=e505] clickable [cursor:pointer]
+                      - StaticText "Total Funding"
+                      - StaticText "Raised"
+                    - columnheader "Latest Funding Date" [ref=e506] clickable [cursor:pointer]
+                      - StaticText "Latest Funding"
+                      - StaticText "Date"
+                    - columnheader "Latest Amount Raised" [ref=e507] clickable [cursor:pointer]
+                      - StaticText "Latest Amount"
+                      - StaticText "Raised"
+                    - columnheader "Latest Round Share Class" [ref=e508] clickable [cursor:pointer]
+                      - StaticText "Latest Round"
+                      - StaticText "Share Class"
+                    - columnheader "Private Company Sector" [ref=e509] clickable [cursor:pointer]
+                      - StaticText "Private Company"
+                      - StaticText "Sector"
+                - row
+                  - cell "Anthropic" [ref=e335]
+                    - link "Anthropic" [ref=e510]
+                      - StaticText "ANTH.PVT"
+                  - cell "Anthropic" [ref=e336]
+                  - cell "589.01" [ref=e337]
+                    - StaticText "589.01"
+                  - cell "+898.32%" [ref=e338]
+                    - StaticText "+"
+                    - StaticText "898.32%"
+                  - cell "965.001B" [ref=e339]
+                  - cell "68.15B" [ref=e340]
+                  - cell "2026-05-27" [ref=e341]
+                  - cell "41.287B" [ref=e342]
+                  - cell "Series H-1" [ref=e343]
+                  - cell "Artificial Intelligence" [ref=e344]
+                - row
+                  - cell "OpenAI" [ref=e345]
+                    - link "OpenAI" [ref=e511]
+                      - StaticText "OPAI.PVT"
+                  - cell "OpenAI" [ref=e346]
+                  - cell "721.85" [ref=e347]
+                    - StaticText "721.85"
+                  - cell "+117.41%" [ref=e348]
+                    - StaticText "+"
+                    - StaticText "117.41%"
+                  - cell "894.326B" [ref=e349]
+                  - cell "178.07B" [ref=e350]
+                  - cell "2026-03-30" [ref=e351]
+                  - cell "68,209" [ref=e352]
+                  - cell "Series C-NV" [ref=e353]
+                  - cell "Artificial Intelligence" [ref=e354]
+                - row
+                  - cell "Stripe" [ref=e355]
+                    - link "Stripe" [ref=e512]
+                      - StaticText "STRI.PVT"
+                  - cell "Stripe" [ref=e356]
+                  - cell "72.45" [ref=e357]
+                    - StaticText "72.45"
+                  - cell "+99.53%" [ref=e358]
+                    - StaticText "+"
+                    - StaticText "99.53%"
+                  - cell "180.011B" [ref=e359]
+                  - cell "8.733B" [ref=e360]
+                  - cell "2026-02-23" [ref=e361]
+                  - cell "--" [ref=e362]
+                  - cell "Tender Offer 3" [ref=e363]
+                  - cell "Financial Services" [ref=e364]
+                - row
+                  - cell "Databricks" [ref=e365]
+                    - link "Databricks" [ref=e513]
+                      - StaticText "DATB.PVT"
+                  - cell "Databricks" [ref=e366]
+                  - cell "242.04" [ref=e367]
+                    - StaticText "242.04"
+                  - cell "+114.67%" [ref=e368]
+                    - StaticText "+"
+                    - StaticText "114.67%"
+                  - cell "170.702B" [ref=e369]
+                  - cell "20.551B" [ref=e370]
+                  - cell "2026-02-08" [ref=e371]
+                  - cell "5B" [ref=e372]
+                  - cell "Series L" [ref=e373]
+                  - cell "Data and Analytics" [ref=e374]
+                - row
+                  - cell "Anduril Industries" [ref=e375]
+                    - link "Anduril Industries" [ref=e514]
+                      - StaticText "ANIN.PVT"
+                  - cell "Anduril Industries" [ref=e376]
+                  - cell "116.68" [ref=e377]
+                    - StaticText "116.68"
+                  - cell "+80.68%" [ref=e378]
+                    - StaticText "+"
+                    - StaticText "80.68%"
+                  - cell "103.227B" [ref=e379]
+                  - cell "11.955B" [ref=e380]
+                  - cell "2026-05-12" [ref=e381]
+                  - cell "5B" [ref=e382]
+                  - cell "Series H" [ref=e383]
+                  - cell "Government and Military" [ref=e384]
+                - row
+                  - cell "Ramp" [ref=e385]
+                    - link "Ramp" [ref=e515]
+                      - StaticText "RAMP.PVT"
+                  - cell "Ramp" [ref=e386]
+                  - cell "125.55" [ref=e387]
+                    - StaticText "125.55"
+                  - cell "+164.32%" [ref=e388]
+                    - StaticText "+"
+                    - StaticText "164.32%"
+                  - cell "46.035B" [ref=e389]
+                  - cell "2.191B" [ref=e390]
+                  - cell "2026-06-03" [ref=e391]
+                  - cell "726.863M" [ref=e392]
+                  - cell "Series F" [ref=e393]
+                  - cell "Financial Services" [ref=e394]
+                - row
+                  - cell "Crusoe" [ref=e395]
+                    - link "Crusoe" [ref=e516]
+                      - StaticText "CUES.PVT"
+                  - cell "Crusoe" [ref=e396]
+                  - cell "225.00" [ref=e397]
+                    - StaticText "225.00"
+                  - cell "+671.34%" [ref=e398]
+                    - StaticText "+"
+                    - StaticText "671.34%"
+                  - cell "26.783B" [ref=e399]
+                  - cell "2.62B" [ref=e400]
+                  - cell "2025-10-23" [ref=e401]
+                  - cell "1.375B" [ref=e402]
+                  - cell "Series E" [ref=e403]
+                  - cell "Energy" [ref=e404]
+                - row
+                  - cell "Kalshi" [ref=e405]
+                    - link "Kalshi" [ref=e517]
+                      - StaticText "KLSH.PVT"
+                  - cell "Kalshi" [ref=e406]
+                  - cell "604.86" [ref=e407]
+                    - StaticText "604.86"
+                  - cell "+1,245.33%" [ref=e408]
+                    - StaticText "+"
+                    - StaticText "1,245.33%"
+                  - cell "22B" [ref=e409]
+                  - cell "2.531B" [ref=e410]
+                  - cell "2026-03-18" [ref=e411]
+                  - cell "1B" [ref=e412]
+                  - cell "Series F" [ref=e413]
+                  - cell "Financial Services" [ref=e414]
+                - rowgroup
+                  - row
+              - link "Valuation by Forge" [ref=e40]
+                - paragraph
+                  - StaticText "Valuation by Forge"
+              - link "Firm data by EquityZen" [ref=e41]
+                - paragraph
+                  - StaticText "Firm data by EquityZen"
+            - generic
+              - sectionheader
+                - heading "ETFs" [level=3, ref=e99]
+                - generic
+                  - button "prev" [disabled, ref=e117]
+                  - button "next" [ref=e118]
+              - generic
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e518]
+                      - heading "Most Active" [level=3, ref=e726]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1122] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1123] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1124] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1125] clickable [cursor:pointer]
+                    - row
+                      - cell "SNDQ" [ref=e727]
+                        - link "SNDQ" [ref=e1126]
+                      - cell "Tradr 2X Short SNDK Daily ETF" [ref=e728]
+                      - cell "4.1900" [ref=e729]
+                        - StaticText "4.1900"
+                      - cell "+7.16%" [ref=e730]
+                        - StaticText "+"
+                        - StaticText "7.16%"
+                    - row
+                      - cell "DRAM" [ref=e731]
+                        - link "DRAM" [ref=e1127]
+                      - cell "Roundhill Memory ETF" [ref=e732]
+                      - cell "52.72" [ref=e733]
+                        - StaticText "52.72"
+                      - cell "+0.73%" [ref=e734]
+                        - StaticText "+"
+                        - StaticText "0.73%"
+                    - row
+                      - cell "LCDL" [ref=e735]
+                        - link "LCDL" [ref=e1128]
+                      - cell "GraniteShares 2x Long LCID Daily ETF" [ref=e736]
+                      - cell "0.2876" [ref=e737]
+                        - StaticText "0.2876"
+                      - cell "0.00%" [ref=e738]
+                        - StaticText "0.00%"
+                    - row
+                      - cell "BITO" [ref=e739]
+                        - link "BITO" [ref=e1129]
+                      - cell "ProShares Bitcoin ETF" [ref=e740]
+                      - cell "8.69" [ref=e741]
+                        - StaticText "8.69"
+                      - cell "-0.34%" [ref=e742]
+                        - StaticText "-0.34%"
+                    - row
+                      - cell "SNXX" [ref=e743]
+                        - link "SNXX" [ref=e1130]
+                      - cell "Tradr 2X Long Sndk Daily ETF" [ref=e744]
+                      - cell "13.20" [ref=e745]
+                        - StaticText "13.20"
+                      - cell "-8.84%" [ref=e746]
+                        - StaticText "-8.84%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e519]
+                      - heading "Top Gainers" [level=3, ref=e747]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1131] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1132] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1133] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1134] clickable [cursor:pointer]
+                    - row
+                      - cell "LASC" [ref=e748]
+                        - link "LASC" [ref=e1135]
+                      - cell "Corgi LASR 2x Daily ETF" [ref=e749]
+                      - cell "24.95" [ref=e750]
+                        - StaticText "24.95"
+                      - cell "+12.10%" [ref=e751]
+                        - StaticText "+"
+                        - StaticText "12.10%"
+                    - row
+                      - cell "STXL" [ref=e752]
+                        - link "STXL" [ref=e1136]
+                      - cell "Defiance Daily Target 2X Long Stx ETF" [ref=e753]
+                      - cell "30.54" [ref=e754]
+                        - StaticText "30.54"
+                      - cell "+11.95%" [ref=e755]
+                        - StaticText "+"
+                        - StaticText "11.95%"
+                    - row
+                      - cell "LEUX" [ref=e756]
+                        - link "LEUX" [ref=e1137]
+                      - cell "Tradr 2X Long LEU Daily ETF" [ref=e757]
+                      - cell "10.39" [ref=e758]
+                        - StaticText "10.39"
+                      - cell "+11.84%" [ref=e759]
+                        - StaticText "+"
+                        - StaticText "11.84%"
+                    - row
+                      - cell "STXX" [ref=e760]
+                        - link "STXX" [ref=e1138]
+                      - cell "Tradr 2X Long STX Daily ETF" [ref=e761]
+                      - cell "37.89" [ref=e762]
+                        - StaticText "37.89"
+                      - cell "+11.67%" [ref=e763]
+                        - StaticText "+"
+                        - StaticText "11.67%"
+                    - row
+                      - cell "HOOZ" [ref=e764]
+                        - link "HOOZ" [ref=e1139]
+                      - cell "Defiance Daily Target 2X Short HOOD ETF" [ref=e765]
+                      - cell "11.64" [ref=e766]
+                        - StaticText "11.64"
+                      - cell "+11.49%" [ref=e767]
+                        - StaticText "+"
+                        - StaticText "11.49%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e520]
+                      - heading "Top Losers" [level=3, ref=e768]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1140] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1141] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1142] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1143] clickable [cursor:pointer]
+                    - row
+                      - cell "NFXL" [ref=e769]
+                        - link "NFXL" [ref=e1144]
+                      - cell "Direxion Daily NFLX Bull 2X Shares" [ref=e770]
+                      - cell "14.24" [ref=e771]
+                        - StaticText "14.24"
+                      - cell "-15.44%" [ref=e772]
+                        - StaticText "-15.44%"
+                    - row
+                      - cell "NFLU" [ref=e773]
+                        - link "NFLU" [ref=e1145]
+                      - cell "T-REX 2X Long NFLX Daily Target ETF" [ref=e774]
+                      - cell "15.08" [ref=e775]
+                        - StaticText "15.08"
+                      - cell "-15.52%" [ref=e776]
+                        - StaticText "-15.52%"
+                    - row
+                      - cell "CDNG" [ref=e777]
+                        - link "CDNG" [ref=e1146]
+                      - cell "Leverage Shares 2X Long CDNS Daily ETF" [ref=e778]
+                      - cell "10.62" [ref=e779]
+                        - StaticText "10.62"
+                      - cell "-18.06%" [ref=e780]
+                        - StaticText "-18.06%"
+                    - row
+                      - cell "WZRD" [ref=e781]
+                        - link "WZRD" [ref=e1147]
+                      - cell "Opportunistic Trader ETF" [ref=e782]
+                      - cell "2.4758" [ref=e783]
+                        - StaticText "2.4758"
+                      - cell "-28.65%" [ref=e784]
+                        - StaticText "-28.65%"
+                    - row
+                      - cell "ISUL" [ref=e785]
+                        - link "ISUL" [ref=e1148]
+                      - cell "GraniteShares 2x Long ISRG Daily ETF" [ref=e786]
+                      - cell "12.27" [ref=e787]
+                        - StaticText "12.27"
+                      - cell "-28.75%" [ref=e788]
+                        - StaticText "-28.75%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e521]
+                      - heading "Top Performing" [level=3, ref=e789]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1149] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1150] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1151] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1152] clickable [cursor:pointer]
+                    - row
+                      - cell "BIV" [ref=e790]
+                        - link "BIV" [ref=e1153]
+                      - cell "Vanguard Intermediate-Term Bond Index Fund" [ref=e791]
+                      - cell "76.14" [ref=e792]
+                        - StaticText "76.14"
+                      - cell "+0.07%" [ref=e793]
+                        - StaticText "+"
+                        - StaticText "0.07%"
+                    - row
+                      - cell "IVOG" [ref=e794]
+                        - link "IVOG" [ref=e1154]
+                      - cell "Vanguard S&P Mid-Cap 400 Growth Index Fund ETF Shares" [ref=e795]
+                      - cell "140.10" [ref=e796]
+                        - StaticText "140.10"
+                      - cell "-0.48%" [ref=e797]
+                        - StaticText "-0.48%"
+                    - row
+                      - cell "SCHA" [ref=e798]
+                        - link "SCHA" [ref=e1155]
+                      - cell "Schwab U.S. Small-Cap ETF" [ref=e799]
+                      - cell "34.05" [ref=e800]
+                        - StaticText "34.05"
+                      - cell "-0.58%" [ref=e801]
+                        - StaticText "-0.58%"
+                    - row
+                      - cell "SPYM" [ref=e802]
+                        - link "SPYM" [ref=e1156]
+                      - cell "State Street SPDR Portfolio S&P 500 ETF" [ref=e803]
+                      - cell "87.48" [ref=e804]
+                        - StaticText "87.48"
+                      - cell "-1.01%" [ref=e805]
+                        - StaticText "-1.01%"
+                    - row
+                      - cell "IVV" [ref=e806]
+                        - link "IVV" [ref=e1157]
+                      - cell "iShares Core S&P 500 ETF" [ref=e807]
+                      - cell "746.72" [ref=e808]
+                        - StaticText "746.72"
+                      - cell "-1.02%" [ref=e809]
+                        - StaticText "-1.02%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e522]
+                      - heading "Best Historical Performance" [level=3, ref=e810]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1158] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1159] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1160] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1161] clickable [cursor:pointer]
+                    - row
+                      - cell "UCO" [ref=e811]
+                        - link "UCO" [ref=e1162]
+                      - cell "ProShares Ultra Bloomberg Crude Oil" [ref=e812]
+                      - cell "41.00" [ref=e813]
+                        - StaticText "41.00"
+                      - cell "+4.73%" [ref=e814]
+                        - StaticText "+"
+                        - StaticText "4.73%"
+                    - row
+                      - cell "BDRY" [ref=e815]
+                        - link "BDRY" [ref=e1163]
+                      - cell "Breakwave Dry Bulk Shipping ETF" [ref=e816]
+                      - cell "12.66" [ref=e817]
+                        - StaticText "12.66"
+                      - cell "+0.08%" [ref=e818]
+                        - StaticText "+"
+                        - StaticText "0.08%"
+                    - row
+                      - cell "DRN" [ref=e819]
+                        - link "DRN" [ref=e1164]
+                      - cell "Direxion Daily Real Estate Bull 3X Shares" [ref=e820]
+                      - cell "11.46" [ref=e821]
+                        - StaticText "11.46"
+                      - cell "-0.35%" [ref=e822]
+                        - StaticText "-0.35%"
+                    - row
+                      - cell "FNGU" [ref=e823]
+                        - link "FNGU" [ref=e1165]
+                      - cell
+                      - cell "26.54" [ref=e824]
+                        - StaticText "26.54"
+                      - cell "-6.78%" [ref=e825]
+                        - StaticText "-6.78%"
+                    - row
+                      - cell "NAIL" [ref=e826]
+                        - link "NAIL" [ref=e1166]
+                      - cell "Direxion Daily Homebuilders & Supplies Bull 3X Shares" [ref=e827]
+                      - cell "41.26" [ref=e828]
+                        - StaticText "41.26"
+                      - cell "-8.58%" [ref=e829]
+                        - StaticText "-8.58%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e523]
+                      - heading "Top ETFs" [level=3, ref=e830]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1167] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1168] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1169] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1170] clickable [cursor:pointer]
+                    - row
+                      - cell "SBIO" [ref=e831]
+                        - link "SBIO" [ref=e1171]
+                      - cell "ALPS Medical Breakthroughs ETF" [ref=e832]
+                      - cell "65.20" [ref=e833]
+                        - StaticText "65.20"
+                      - cell "+2.77%" [ref=e834]
+                        - StaticText "+"
+                        - StaticText "2.77%"
+                    - row
+                      - cell "PTH" [ref=e835]
+                        - link "PTH" [ref=e1172]
+                      - cell "Invesco Dorsey Wright Healthcare Momentum ETF" [ref=e836]
+                      - cell "59.55" [ref=e837]
+                        - StaticText "59.55"
+                      - cell "+2.40%" [ref=e838]
+                        - StaticText "+"
+                        - StaticText "2.40%"
+                    - row
+                      - cell "IAK" [ref=e839]
+                        - link "IAK" [ref=e1173]
+                      - cell "iShares U.S. Insurance ETF" [ref=e840]
+                      - cell "146.10" [ref=e841]
+                        - StaticText "146.10"
+                      - cell "+2.18%" [ref=e842]
+                        - StaticText "+"
+                        - StaticText "2.18%"
+                    - row
+                      - cell "BBC" [ref=e843]
+                        - link "BBC" [ref=e1174]
+                      - cell "Virtus LifeSci Biotech Clinical Trials ETF" [ref=e844]
+                      - cell "50.97" [ref=e845]
+                        - StaticText "50.97"
+                      - cell "+2.12%" [ref=e846]
+                        - StaticText "+"
+                        - StaticText "2.12%"
+                    - row
+                      - cell "IEO" [ref=e847]
+                        - link "IEO" [ref=e1175]
+                      - cell "iShares U.S. Oil & Gas Exploration & Production ETF" [ref=e848]
+                      - cell "121.51" [ref=e849]
+                        - StaticText "121.51"
+                      - cell "+2.04%" [ref=e850]
+                        - StaticText "+"
+                        - StaticText "2.04%"
+                    - rowgroup
+                      - row
+            - generic
+              - sectionheader
+                - heading "Mutual Funds" [level=3, ref=e100]
+                - generic
+                  - button "prev" [disabled, ref=e119]
+                  - button "next" [ref=e120]
+              - generic
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e524]
+                      - heading "Top Gainers" [level=3, ref=e851]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1176] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1177] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1178] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1179] clickable [cursor:pointer]
+                    - row
+                      - cell "FTPAX" [ref=e852]
+                        - link "FTPAX" [ref=e1180]
+                      - cell "First Trust Private Assets Fund - A" [ref=e853]
+                      - cell "17.38" [ref=e854]
+                        - StaticText "17.38"
+                      - cell "+7.15%" [ref=e855]
+                        - StaticText "+"
+                        - StaticText "7.15%"
+                    - row
+                      - cell "0P0001KYH4" [ref=e856]
+                        - link "0P0001KYH4" [ref=e1181]
+                      - cell "Fidelity Global Value Long/Short O" [ref=e857]
+                      - cell "8.64" [ref=e858]
+                        - StaticText "8.64"
+                      - cell "+5.67%" [ref=e859]
+                        - StaticText "+"
+                        - StaticText "5.67%"
+                    - row
+                      - cell "0P0001KYH9" [ref=e860]
+                        - link "0P0001KYH9" [ref=e1182]
+                      - cell "Fidelity Global Value Long/Short F5" [ref=e861]
+                      - cell "12.13" [ref=e862]
+                        - StaticText "12.13"
+                      - cell "+5.67%" [ref=e863]
+                        - StaticText "+"
+                        - StaticText "5.67%"
+                    - row
+                      - cell "0P0001KYHA" [ref=e864]
+                        - link "0P0001KYHA" [ref=e1183]
+                      - cell "Fidelity Global Value Long/Short F8" [ref=e865]
+                      - cell "10.11" [ref=e866]
+                        - StaticText "10.11"
+                      - cell "+5.67%" [ref=e867]
+                        - StaticText "+"
+                        - StaticText "5.67%"
+                    - row
+                      - cell "0P0001KYH3" [ref=e868]
+                        - link "0P0001KYH3" [ref=e1184]
+                      - cell "Fidelity Global Value Long/Short F" [ref=e869]
+                      - cell "8.09" [ref=e870]
+                        - StaticText "8.09"
+                      - cell "+5.67%" [ref=e871]
+                        - StaticText "+"
+                        - StaticText "5.67%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e525]
+                      - heading "Top Losers" [level=3, ref=e872]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1185] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1186] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1187] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1188] clickable [cursor:pointer]
+                    - row
+                      - cell "IBSAX" [ref=e873]
+                        - link "IBSAX" [ref=e1189]
+                      - cell "VY Baron Growth A" [ref=e874]
+                      - cell "0.3000" [ref=e875]
+                        - StaticText "0.3000"
+                      - cell "0.00%" [ref=e876]
+                        - StaticText "0.00%"
+                    - row
+                      - cell "GLSOX" [ref=e877]
+                        - link "GLSOX" [ref=e1190]
+                      - cell "Glenmede Secured Options Portfolio" [ref=e878]
+                      - cell "14.03" [ref=e879]
+                        - StaticText "14.03"
+                      - cell "-7.02%" [ref=e880]
+                        - StaticText "-7.02%"
+                    - row
+                      - cell "GTSOX" [ref=e881]
+                        - link "GTSOX" [ref=e1191]
+                      - cell "Glenmede Secured Options" [ref=e882]
+                      - cell "13.72" [ref=e883]
+                        - StaticText "13.72"
+                      - cell "-7.17%" [ref=e884]
+                        - StaticText "-7.17%"
+                    - row
+                      - cell "0P0001J42J" [ref=e885]
+                        - link "0P0001J42J" [ref=e1192]
+                      - cell "Manulife GF Taiwan Equity AA Acc" [ref=e886]
+                      - cell "32.74" [ref=e887]
+                        - StaticText "32.74"
+                      - cell "-8.35%" [ref=e888]
+                        - StaticText "-8.35%"
+                    - row
+                      - cell "0P00008YD0" [ref=e889]
+                        - link "0P00008YD0" [ref=e1193]
+                      - cell "Manulife GF Taiwan Equity AA" [ref=e890]
+                      - cell "11.21" [ref=e891]
+                        - StaticText "11.21"
+                      - cell "-8.35%" [ref=e892]
+                        - StaticText "-8.35%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e526]
+                      - heading "Top Performing" [level=3, ref=e893]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1194] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1195] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1196] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1197] clickable [cursor:pointer]
+                    - row
+                      - cell "0P00000HSG" [ref=e894]
+                        - link "0P00000HSG" [ref=e1198]
+                      - cell "Janus Henderson Glb Rl EstEqInc A2USD" [ref=e895]
+                      - cell "29.27" [ref=e896]
+                        - StaticText "29.27"
+                      - cell "+2.27%" [ref=e897]
+                        - StaticText "+"
+                        - StaticText "2.27%"
+                    - row
+                      - cell "0P00000HSE" [ref=e898]
+                        - link "0P00000HSE" [ref=e1199]
+                      - cell "Janus Henderson Glb Rl EstEqInc A3qUSD" [ref=e899]
+                      - cell "16.38" [ref=e900]
+                        - StaticText "16.38"
+                      - cell "+2.25%" [ref=e901]
+                        - StaticText "+"
+                        - StaticText "2.25%"
+                    - row
+                      - cell "0P00000HSI" [ref=e902]
+                        - link "0P00000HSI" [ref=e1200]
+                      - cell "Janus Henderson Glb Rl EstEqInc B1qUSD" [ref=e903]
+                      - cell "20.66" [ref=e904]
+                        - StaticText "20.66"
+                      - cell "+2.23%" [ref=e905]
+                        - StaticText "+"
+                        - StaticText "2.23%"
+                    - row
+                      - cell "0P00000C23" [ref=e906]
+                        - link "0P00000C23" [ref=e1201]
+                      - cell "AXA IM Global Small Cap Eq QI B" [ref=e907]
+                      - cell "73.63" [ref=e908]
+                        - StaticText "73.63"
+                      - cell "+0.31%" [ref=e909]
+                        - StaticText "+"
+                        - StaticText "0.31%"
+                    - row
+                      - cell "0P00000H5G" [ref=e910]
+                        - link "0P00000H5G" [ref=e1202]
+                      - cell "Emerging World Retail A" [ref=e911]
+                      - cell "161.63" [ref=e912]
+                        - StaticText "161.63"
+                      - cell "-1.07%" [ref=e913]
+                        - StaticText "-1.07%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e527]
+                      - heading "Best Historical Performance" [level=3, ref=e914]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1203] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1204] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1205] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1206] clickable [cursor:pointer]
+                    - row
+                      - cell "UHPSX" [ref=e915]
+                        - link "UHPSX" [ref=e1207]
+                      - cell "ProFunds UltraShort China" [ref=e916]
+                      - cell "2.4800" [ref=e917]
+                        - StaticText "2.4800"
+                      - cell "+3.77%" [ref=e918]
+                        - StaticText "+"
+                        - StaticText "3.77%"
+                    - row
+                      - cell "UHPIX" [ref=e919]
+                        - link "UHPIX" [ref=e1208]
+                      - cell "ProFunds UltraShort China" [ref=e920]
+                      - cell "2.8300" [ref=e921]
+                        - StaticText "2.8300"
+                      - cell "+3.66%" [ref=e922]
+                        - StaticText "+"
+                        - StaticText "3.66%"
+                    - row
+                      - cell "ENPIX" [ref=e923]
+                        - link "ENPIX" [ref=e1209]
+                      - cell "ProFunds UltraSector Energy Fund" [ref=e924]
+                      - cell "58.12" [ref=e925]
+                        - StaticText "58.12"
+                      - cell "+1.77%" [ref=e926]
+                        - StaticText "+"
+                        - StaticText "1.77%"
+                    - row
+                      - cell "RSNYX" [ref=e927]
+                        - link "RSNYX" [ref=e1210]
+                      - cell "Victory Global Energy Transition Y" [ref=e928]
+                      - cell "66.21" [ref=e929]
+                        - StaticText "66.21"
+                      - cell "-2.03%" [ref=e930]
+                        - StaticText "-2.03%"
+                    - row
+                      - cell "RSNRX" [ref=e931]
+                        - link "RSNRX" [ref=e1211]
+                      - cell "Victory Global Energy Transition A" [ref=e932]
+                      - cell "62.96" [ref=e933]
+                        - StaticText "62.96"
+                      - cell "-2.04%" [ref=e934]
+                        - StaticText "-2.04%"
+                    - rowgroup
+                      - row
+                - generic
+                  - sectionheader
+                    - link "View More" [ref=e528]
+                      - heading "Top Mutual Funds" [level=3, ref=e935]
+                  - table
+                    - rowgroup
+                      - row
+                        - columnheader "Symbol" [ref=e1212] clickable [cursor:pointer]
+                        - columnheader "Name" [ref=e1213] clickable [cursor:pointer]
+                        - columnheader "Price" [ref=e1214] clickable [cursor:pointer]
+                        - columnheader "Change %" [ref=e1215] clickable [cursor:pointer]
+                    - row
+                      - cell "BIPIX" [ref=e936]
+                        - link "BIPIX" [ref=e1216]
+                      - cell "ProFunds Biotechnology UltraSector Fund" [ref=e937]
+                      - cell "92.53" [ref=e938]
+                        - StaticText "92.53"
+                      - cell "+2.30%" [ref=e939]
+                        - StaticText "+"
+                        - StaticText "2.30%"
+                    - row
+                      - cell "BIPSX" [ref=e940]
+                        - link "BIPSX" [ref=e1217]
+                      - cell "ProFunds Biotechnology UltraSector Fund" [ref=e941]
+                      - cell "47.71" [ref=e942]
+                        - StaticText "47.71"
+                      - cell "+2.29%" [ref=e943]
+                        - StaticText "+"
+                        - StaticText "2.29%"
+                    - row
+                      - cell "ENPIX" [ref=e944]
+                        - link "ENPIX" [ref=e1218]
+                      - cell "ProFunds UltraSector Energy Fund" [ref=e945]
+                      - cell "58.12" [ref=e946]
+                        - StaticText "58.12"
+                      - cell "+1.77%" [ref=e947]
+                        - StaticText "+"
+                        - StaticText "1.77%"
+                    - row
+                      - cell "ENPSX" [ref=e948]
+                        - link "ENPSX" [ref=e1219]
+                      - cell "ProFunds UltraSector Energy Fund" [ref=e949]
+                      - cell "48.96" [ref=e950]
+                        - StaticText "48.96"
+                      - cell "+1.77%" [ref=e951]
+                        - StaticText "+"
+                        - StaticText "1.77%"
+                    - row
+                      - cell "SRECX" [ref=e952]
+                        - link "SRECX" [ref=e1220]
+                      - cell "PGIM Select Real Estate C" [ref=e953]
+                      - cell "15.33" [ref=e954]
+                        - StaticText "15.33"
+                      - cell "+0.28%" [ref=e955]
+                        - StaticText "+"
+                        - StaticText "0.28%"
+                    - rowgroup
+                      - row
+          - sectionfooter
+            - generic
+              - link "Yahoo Finance" [ref=e42]
+                - image
+              - StaticText "Copyright © 2026 Yahoo. All rights reserved."
+              - link "Follow on Twitter" [ref=e43]
+              - link "Follow on Facebook" [ref=e44]
+              - link "Follow on LinkedIn" [ref=e45]
+              - StaticText "Trending Topics"
+              - link "Dow Jones" [ref=e46]
+              - link "S&P 500" [ref=e47]
+              - link "DAX Index" [ref=e48]
+              - link "Nvidia" [ref=e49]
+              - link "Tesla" [ref=e50]
+              - link "DJT" [ref=e51]
+              - link "Tariffs" [ref=e52]
+              - StaticText "Explore Further"
+              - link "Mortgages" [ref=e53]
+              - link "Credit Cards" [ref=e54]
+              - link "Sectors" [ref=e55]
+              - link "Crypto Heatmap" [ref=e56]
+              - link "Financial News" [ref=e57]
+              - StaticText "About"
+              - link "Data Disclaimer" [ref=e58]
+              - link "Help" [ref=e59]
+              - link "Feedback" [ref=e60]
+              - link "Sitemap" [ref=e61]
+              - link "Licensing" [ref=e62]
+              - link "What's New" [ref=e63]
+              - link "About Our Ads" [ref=e64]
+              - generic
+                - generic
+                  - link "Terms" [ref=e121]
+                  - StaticText "and"
+                  - link "Privacy Policy" [ref=e122]
+                - link "Privacy Dashboard" [ref=e101]
+      - complementary "Dock"
+        - dialog "Dock"
+          - search
+            - textbox "Quote Lookup" [ref=e529]
+          - list
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Trending tickers" [ref=e1221]
+                    - StaticText "Trending tickers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "BTC-USD Bitcoin USD 64,084.99 +534.88 (+0.84%)" [ref=e1228]
+                        - StaticText "BTC-USD"
+                        - StaticText "Bitcoin USD"
+                        - figure
+                          - Canvas "BTC-USD chart"
+                        - StaticText "64,084.99"
+                        - StaticText "+534.88"
+                        - StaticText "(+0.84%)"
+                      - button "Follow" [ref=e1229]
+                  - listitem [level=2]
+                    - generic
+                      - link "ETH-USD Ethereum USD 1,842.10 +7.19 (+0.39%)" [ref=e1230]
+                        - StaticText "ETH-USD"
+                        - StaticText "Ethereum USD"
+                        - figure
+                          - Canvas "ETH-USD chart"
+                        - StaticText "1,842.10"
+                        - generic
+                          - StaticText "+7.19"
+                        - StaticText "(+0.39%)"
+                      - button "Follow" [ref=e1231]
+                  - listitem [level=2]
+                    - generic
+                      - link "EBAY eBay Inc. 112.06 +1.15 (+1.04%)" [ref=e1232]
+                        - StaticText "EBAY"
+                        - StaticText "eBay Inc."
+                        - figure
+                          - Canvas "EBAY chart"
+                        - StaticText "112.06"
+                        - generic
+                          - StaticText "+1.15"
+                        - StaticText "(+1.04%)"
+                      - button "Follow" [ref=e1233]
+                  - listitem [level=2]
+                    - generic
+                      - link "XRP-USD XRP USD 1.09 +0.00 (+0.11%)" [ref=e1234]
+                        - StaticText "XRP-USD"
+                        - StaticText "XRP USD"
+                        - figure
+                          - Canvas "XRP-USD chart"
+                        - StaticText "1.09"
+                        - generic
+                          - StaticText "+0.00"
+                        - StaticText "(+0.11%)"
+                      - button "Follow" [ref=e1235]
+                  - listitem [level=2]
+                    - generic
+                      - link "PLOW Douglas Dynamics, Inc. 44.62 -0.30 (-0.67%)" [ref=e1236]
+                        - StaticText "PLOW"
+                        - StaticText "Douglas Dynamics, Inc."
+                        - figure
+                          - Canvas "PLOW chart"
+                        - StaticText "44.62"
+                        - StaticText "-0.30"
+                        - StaticText "(-0.67%)"
+                      - button "Follow" [ref=e1237]
+            - listitem [level=1]
+            - listitem [level=1]
+              - generic
+                - link "Portfolio" [ref=e956]
+                - paragraph
+                  - StaticText "Sign in to access your portfolio"
+                - link "Sign in" [ref=e530]
+            - listitem [level=1]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Top gainers" [ref=e1222]
+                    - StaticText "Top gainers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "LCID Lucid Group, Inc. 7.36 +0.90 (+13.93%)" [ref=e1238]
+                        - StaticText "LCID"
+                        - StaticText "Lucid Group, Inc."
+                        - StaticText "7.36"
+                        - generic
+                          - StaticText "+0.90"
+                        - StaticText "(+13.93%)"
+                      - button "Follow" [ref=e1239]
+                  - listitem [level=2]
+                    - generic
+                      - link "SLS SELLAS Life Sciences Group, Inc. 13.19 +1.44 (+12.26%)" [ref=e1240]
+                        - StaticText "SLS"
+                        - StaticText "SELLAS Life Sciences Group, Inc."
+                        - StaticText "13.19"
+                        - generic
+                          - StaticText "+1.44"
+                        - StaticText "(+12.26%)"
+                      - button "Follow" [ref=e1241]
+                  - listitem [level=2]
+                    - generic
+                      - link "ORKA Oruka Therapeutics, Inc. 92.70 +9.66 (+11.63%)" [ref=e1242]
+                        - StaticText "ORKA"
+                        - StaticText "Oruka Therapeutics, Inc."
+                        - StaticText "92.70"
+                        - generic
+                          - StaticText "+9.66"
+                        - StaticText "(+11.63%)"
+                      - button "Follow" [ref=e1243]
+                  - listitem [level=2]
+                    - generic
+                      - link "DNTH Dianthus Therapeutics, Inc. 105.60 +10.25 (+10.75%)" [ref=e1244]
+                        - StaticText "DNTH"
+                        - StaticText "Dianthus Therapeutics, Inc."
+                        - StaticText "105.60"
+                        - generic
+                          - StaticText "+10.25"
+                        - StaticText "(+10.75%)"
+                      - button "Follow" [ref=e1245]
+                  - listitem [level=2]
+                    - generic
+                      - link "COAG Hemab Therapeutics Holdings, Inc. 49.29 +4.76 (+10.69%)" [ref=e1246]
+                        - StaticText "COAG"
+                        - StaticText "Hemab Therapeutics Holdings, Inc."
+                        - StaticText "49.29"
+                        - generic
+                          - StaticText "+4.76"
+                        - StaticText "(+10.69%)"
+                      - button "Follow" [ref=e1247]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Top losers" [ref=e1223]
+                    - StaticText "Top losers"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "ISRG Intuitive Surgical, Inc. 345.42 -56.91 (-14.15%)" [ref=e1248]
+                        - StaticText "ISRG"
+                        - StaticText "Intuitive Surgical, Inc."
+                        - StaticText "345.42"
+                        - StaticText "-56.91"
+                        - StaticText "(-14.15%)"
+                      - button "Follow" [ref=e1249]
+                  - listitem [level=2]
+                    - generic
+                      - link "CDNS Cadence Design Systems, Inc. 330.11 -34.54 (-9.47%)" [ref=e1250]
+                        - StaticText "CDNS"
+                        - StaticText "Cadence Design Systems, Inc."
+                        - StaticText "330.11"
+                        - StaticText "-34.54"
+                        - StaticText "(-9.47%)"
+                      - button "Follow" [ref=e1251]
+                  - listitem [level=2]
+                    - generic
+                      - link "PENG Penguin Solutions, Inc. 60.41 -5.56 (-8.43%)" [ref=e1252]
+                        - StaticText "PENG"
+                        - StaticText "Penguin Solutions, Inc."
+                        - StaticText "60.41"
+                        - StaticText "-5.56"
+                        - StaticText "(-8.43%)"
+                      - button "Follow" [ref=e1253]
+                  - listitem [level=2]
+                    - generic
+                      - link "SNPS Synopsys, Inc. 384.28 -32.76 (-7.85%)" [ref=e1254]
+                        - StaticText "SNPS"
+                        - StaticText "Synopsys, Inc."
+                        - StaticText "384.28"
+                        - StaticText "-32.76"
+                        - StaticText "(-7.85%)"
+                      - button "Follow" [ref=e1255]
+                  - listitem [level=2]
+                    - generic
+                      - link "NFLX Netflix, Inc. 68.95 -5.40 (-7.26%)" [ref=e1256]
+                        - StaticText "NFLX"
+                        - StaticText "Netflix, Inc."
+                        - StaticText "68.95"
+                        - StaticText "-5.40"
+                        - StaticText "(-7.26%)"
+                      - button "Follow" [ref=e1257]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Most active" [ref=e1224]
+                    - StaticText "Most active"
+                - list
+                  - listitem [level=2]
+                    - generic
+                      - link "ONDS Ondas Inc. 6.53 -0.12 (-1.88%)" [ref=e1258]
+                        - StaticText "ONDS"
+                        - StaticText "Ondas Inc."
+                        - StaticText "6.53"
+                        - StaticText "-0.12"
+                        - StaticText "(-1.88%)"
+                      - button "Follow" [ref=e1259]
+                  - listitem [level=2]
+                    - generic
+                      - link "AAL American Airlines Group Inc. 14.98 -0.62 (-3.97%)" [ref=e1260]
+                        - StaticText "AAL"
+                        - StaticText "American Airlines Group Inc."
+                        - StaticText "14.98"
+                        - StaticText "-0.62"
+                        - StaticText "(-3.97%)"
+                      - button "Follow" [ref=e1261]
+                  - listitem [level=2]
+                    - generic
+                      - link "NFLX Netflix, Inc. 68.95 -5.40 (-7.26%)" [ref=e1262]
+                        - StaticText "NFLX"
+                        - StaticText "Netflix, Inc."
+                        - StaticText "68.95"
+                        - StaticText "-5.40"
+                        - StaticText "(-7.26%)"
+                      - button "Follow" [ref=e1263]
+                  - listitem [level=2]
+                    - generic
+                      - link "NVDA NVIDIA Corporation 202.81 -4.59 (-2.21%)" [ref=e1264]
+                        - StaticText "NVDA"
+                        - StaticText "NVIDIA Corporation"
+                        - StaticText "202.81"
+                        - StaticText "-4.59"
+                        - StaticText "(-2.21%)"
+                      - button "Follow" [ref=e1265]
+                  - listitem [level=2]
+                    - generic
+                      - link "NU Nu Holdings Ltd. 13.59 -0.20 (-1.45%)" [ref=e1266]
+                        - StaticText "NU"
+                        - StaticText "Nu Holdings Ltd."
+                        - StaticText "13.59"
+                        - StaticText "-0.20"
+                        - StaticText "(-1.45%)"
+                      - button "Follow" [ref=e1267]
+            - listitem [level=1]
+              - link "Top economic events" [ref=e957]
+                - StaticText "Top economic events"
+              - button "Thailand" [ref=e958]
+                - StaticText "Thailand"
+              - StaticText "There are no important events for this country at this time. Select \"All\" to see top events in other countries or view all events."
+              - link "View All Events" [ref=e959]
+            - listitem [level=1]
+              - generic
+                - sectionheader
+                  - link "Earnings events" [ref=e960]
+                    - StaticText "Earnings events"
+                  - group
+                    - generic
+                      - checkbox "My earnings events" [checked=false, ref=e1268]
+                    - generic
+                      - checkbox "Earnings events" [checked=true, ref=e1269]
+                - button "Upcoming" [ref=e961]
+                  - StaticText "Upcoming"
+                - StaticText "JUL"
+                - StaticText "21"
+                - link "AGNC" [ref=e962]
+                - StaticText "AGNC Investment Corp."
+                - button "Add to calendar" [ref=e963]
+                - link "KEY" [ref=e964]
+                - StaticText "KeyCorp"
+                - button "Add to calendar" [ref=e965]
+                - StaticText "JUL"
+                - StaticText "22"
+                - link "SAN" [ref=e966]
+                - StaticText "Banco Santander, S.A."
+                - button "Add to calendar" [ref=e967]
+                - link "T" [ref=e968]
+                - StaticText "AT&T Inc."
+                - button "Add to calendar" [ref=e969]
+                - StaticText "JUL"
+                - StaticText "23"
+                - link "GOOGL" [ref=e970]
+                - StaticText "Alphabet Inc."
+                - button "Add to calendar" [ref=e971]
+          - button "Edit your Dock" [ref=e102]
+            - StaticText "Edit your Dock"
+          - generic
+            - generic
+              - link "Terms" [ref=e415]
+              - StaticText "and"
+              - link "Privacy Policy" [ref=e416]
+            - link "Privacy Dashboard" [ref=e123]

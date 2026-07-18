@@ -1,0 +1,1332 @@
+- generic
+  - banner
+    - generic
+      - link "Google News" [ref=e18]
+        - StaticText "News"
+      - search
+        - combobox "Search for topics, locations & sources" [expanded=false, ref=e19]: Thailand
+          - StaticText "Thailand"
+        - button "Advanced search" [ref=e1]
+          - image
+        - button "Clear search" [ref=e2]
+          - image
+        - button "Search" [ref=e3]
+          - image
+      - generic
+        - button "Help" [expanded=false, ref=e44]
+      - generic
+        - button "Settings" [expanded=false, ref=e45]
+      - generic
+        - button "Google apps" [expanded=false, ref=e46]
+          - StaticText "  "
+        - link "Sign in" [ref=e4]
+          - StaticText "  "
+          - StaticText "Sign in"
+    - navigation
+      - tablist
+        - tab "Home" [ref=e5]
+          - tab "Home" [ref=e20]
+        - tab "For you" [ref=e6]
+          - tab "For you" [ref=e21]
+        - tab "Following" [ref=e7]
+          - tab "Following" [ref=e22]
+        - tab "U.S." [ref=e8]
+          - tab "U.S." [ref=e23]
+        - tab "World" [ref=e9]
+          - tab "World" [ref=e24]
+        - tab "Local" [ref=e10]
+          - tab "Local" [ref=e25]
+        - tab "Business" [ref=e11]
+          - tab "Business" [ref=e26]
+        - tab "Technology" [ref=e12]
+          - tab "Technology" [ref=e27]
+        - tab "Entertainment" [ref=e13]
+          - tab "Entertainment" [ref=e28]
+        - tab "Sports" [ref=e14]
+          - tab "Sports" [ref=e29]
+        - tab "Science" [ref=e15]
+          - tab "Science" [ref=e30]
+        - tab "Health" [ref=e16]
+          - tab "Health" [ref=e31]
+  - generic
+    - main
+      - generic
+        - generic
+          - generic
+            - generic
+              - StaticText "Town & Country Magazine"
+              - generic
+                - button "More - Princess Anne Meets Thailand’s Queen Suthida in Bangkok" [expanded=false, ref=e148]
+            - link "Princess Anne Meets Thailand’s Queen Suthida in Bangkok - Town &amp; Country Magazine - Yesterday - By Rachel King" [ref=e48]
+              - StaticText "Princess Anne Meets Thailand’s Queen Suthida in Bangkok"
+        - time
+          - StaticText "Yesterday"
+        - separator
+        - StaticText "By Rachel King"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Human Rights Watch"
+                - generic
+                  - button "More - Thailand: Don’t Forcibly Return Chinese Dissidents" [expanded=false, ref=e149]
+              - link "Thailand: Don’t Forcibly Return Chinese Dissidents - Human Rights Watch - 4 days ago" [ref=e49]
+                - StaticText "Thailand: Don’t Forcibly Return Chinese Dissidents"
+          - time
+            - StaticText "4 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Radio Free Europe/Radio Liberty"
+                - generic
+                  - button "More - An Alleged Russian FSB Hacker Traveled To Thailand. Now He's Facing 10 Years In A US Prison." [expanded=false, ref=e150]
+              - link "An Alleged Russian FSB Hacker Traveled To Thailand. Now He's Facing 10 Years In A US Prison. - Radio Free Europe/Radio Liberty - Yesterday - By Mike Eckel" [ref=e50]
+                - StaticText "An Alleged Russian FSB Hacker Traveled To Thailand. Now He's Facing 10 Years In A US Prison."
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Mike Eckel"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "U.S. Department of War (.gov)"
+                - generic
+                  - button "More - U.S., Canadian, Thai Navies Sharpen Maritime Capabilities During Exercise CARAT Thailand" [expanded=false, ref=e151]
+              - link "U.S., Canadian, Thai Navies Sharpen Maritime Capabilities During Exercise CARAT Thailand - U.S. Department of War (.gov) - 21 hours ago" [ref=e51]
+                - StaticText "U.S., Canadian, Thai Navies Sharpen Maritime Capabilities During Exercise CARAT Thailand"
+          - time
+            - StaticText "21 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Times of Israel"
+                - generic
+                  - button "More - IDF reservist detained in Thailand for 8 months finally freed, Netanyahu reveals" [expanded=false, ref=e152]
+              - link "IDF reservist detained in Thailand for 8 months finally freed, Netanyahu reveals - The Times of Israel - 23 hours ago - By Stav Levaton" [ref=e52]
+                - StaticText "IDF reservist detained in Thailand for 8 months finally freed, Netanyahu reveals"
+          - time
+            - StaticText "23 hours ago"
+          - separator
+          - StaticText "By Stav Levaton"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Mothership"
+                - generic
+                  - button "More - Thailand man, 61, drives to work but later finds dead woman's body in back seat" [expanded=false, ref=e153]
+              - link "Thailand man, 61, drives to work but later finds dead woman's body in back seat - Mothership - Yesterday" [ref=e53]
+                - StaticText "Thailand man, 61, drives to work but later finds dead woman's body in back seat"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - Deadly Bangkok bar fire exposes Thailand’s safety loopholes for nightlife venues" [expanded=false, ref=e154]
+              - link "Deadly Bangkok bar fire exposes Thailand’s safety loopholes for nightlife venues - AP News - 2 days ago - By Jintamas Saksornchai" [ref=e54]
+                - StaticText "Deadly Bangkok bar fire exposes Thailand’s safety loopholes for nightlife venues"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Jintamas Saksornchai"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Reuters"
+                - generic
+                  - button "More - China asks Thailand to deport Chinese journalist, rights groups warn of persecution" [expanded=false, ref=e155]
+              - link "China asks Thailand to deport Chinese journalist, rights groups warn of persecution - Reuters - 2 days ago - By Mei Mei Chu" [ref=e55]
+                - StaticText "China asks Thailand to deport Chinese journalist, rights groups warn of persecution"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Mei Mei Chu"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FIBA Basketball"
+                - generic
+                  - button "More - Samoa vs Thailand - Class. 5-6 - FIBA U18 Women’s Asia Cup 2026 Division B" [expanded=false, ref=e156]
+              - link "Samoa vs Thailand - Class. 5-6 - FIBA U18 Women’s Asia Cup 2026 Division B - FIBA Basketball - Yesterday" [ref=e56]
+                - StaticText "Samoa vs Thailand - Class. 5-6 - FIBA U18 Women’s Asia Cup 2026 Division B"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Bangkok Post"
+                - generic
+                  - button "More - No more lessons to learn" [expanded=false, ref=e157]
+              - link "No more lessons to learn - Bangkok Post - 10 hours ago" [ref=e57]
+                - StaticText "No more lessons to learn"
+          - time
+            - StaticText "10 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "South China Morning Post"
+                - generic
+                  - button "More - Chinese leader urges Thailand and Cambodia to settle long-running border dispute" [expanded=false, ref=e158]
+              - link "Chinese leader urges Thailand and Cambodia to settle long-running border dispute - South China Morning Post - 9 hours ago - By Sylvia Ma" [ref=e58]
+                - StaticText "Chinese leader urges Thailand and Cambodia to settle long-running border dispute"
+          - time
+            - StaticText "9 hours ago"
+          - separator
+          - StaticText "By Sylvia Ma"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NPR"
+                - generic
+                  - button "More - The band playing when a Bangkok bar caught fire mourns its members among the 33 dead" [expanded=false, ref=e159]
+              - link "The band playing when a Bangkok bar caught fire mourns its members among the 33 dead - NPR - 2 days ago" [ref=e59]
+                - StaticText "The band playing when a Bangkok bar caught fire mourns its members among the 33 dead"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "markets.businessinsider.com"
+                - generic
+                  - button "More - Delta Thailand Earns Top Rankings Across Four Categories at Alpha Southeast Asia’s 16th Annual Institutional Investor Awards" [expanded=false, ref=e160]
+              - link "Delta Thailand Earns Top Rankings Across Four Categories at Alpha Southeast Asia’s 16th Annual Institutional Investor Awards - markets.businessinsider.com - 5 hours ago" [ref=e60]
+                - StaticText "Delta Thailand Earns Top Rankings Across Four Categories at Alpha Southeast Asia’s 16th Annual Institutional Investor Awards"
+          - time
+            - StaticText "5 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "PRWeb"
+                - generic
+                  - button "More - Thailand Health Excellence 2026 Announces Airbnb as an Accommodation Partner for Wellness Travel" [expanded=false, ref=e161]
+              - link "Thailand Health Excellence 2026 Announces Airbnb as an Accommodation Partner for Wellness Travel - PRWeb - 3 hours ago" [ref=e61]
+                - StaticText "Thailand Health Excellence 2026 Announces Airbnb as an Accommodation Partner for Wellness Travel"
+          - time
+            - StaticText "3 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC11 News"
+                - generic
+                  - button "More - Kree's Flowers: NC Made entrepreneur journey started in refugee camp in Thailand to blooming flower business" [expanded=false, ref=e162]
+              - link "Kree's Flowers: NC Made entrepreneur journey started in refugee camp in Thailand to blooming flower business - ABC11 News - 19 hours ago - By Amber Rupinta" [ref=e62]
+                - StaticText "Kree's Flowers: NC Made entrepreneur journey started in refugee camp in Thailand to blooming flower business"
+          - time
+            - StaticText "19 hours ago"
+          - separator
+          - StaticText "By Amber Rupinta"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Gasgoo"
+                - generic
+                  - button "More - BYD Thailand Cumulative Deliveries Top 130,000 Units" [expanded=false, ref=e163]
+              - link "BYD Thailand Cumulative Deliveries Top 130,000 Units - Gasgoo - 10 hours ago" [ref=e63]
+                - StaticText "BYD Thailand Cumulative Deliveries Top 130,000 Units"
+          - time
+            - StaticText "10 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "news.cgtn.com"
+                - generic
+                  - button "More - China, Thailand to build lab for AI-powered disaster prediction" [expanded=false, ref=e164]
+              - link "China, Thailand to build lab for AI-powered disaster prediction - news.cgtn.com - 5 hours ago" [ref=e64]
+                - StaticText "China, Thailand to build lab for AI-powered disaster prediction"
+          - time
+            - StaticText "5 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "USA Today"
+                - generic
+                  - button "More - Why one cannabis gummy could land travelers in serious trouble abroad" [expanded=false, ref=e165]
+              - link "Why one cannabis gummy could land travelers in serious trouble abroad - USA Today - 20 hours ago - By Kathleen Wong" [ref=e65]
+                - StaticText "Why one cannabis gummy could land travelers in serious trouble abroad"
+          - time
+            - StaticText "20 hours ago"
+          - separator
+          - StaticText "By Kathleen Wong"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Bloomberg.com"
+                - generic
+                  - button "More - Thailand Scraps Plan to End Visa-Free Entry for Indian Tourists" [expanded=false, ref=e166]
+              - link "Thailand Scraps Plan to End Visa-Free Entry for Indian Tourists - Bloomberg.com - 4 days ago" [ref=e66]
+                - StaticText "Thailand Scraps Plan to End Visa-Free Entry for Indian Tourists"
+          - time
+            - StaticText "4 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Tehran Times"
+                - generic
+                  - button "More - Iran water polo defeat Thailand at Asian Age Group Championships 2026" [expanded=false, ref=e167]
+              - link "Iran water polo defeat Thailand at Asian Age Group Championships 2026 - Tehran Times - 4 hours ago" [ref=e67]
+                - StaticText "Iran water polo defeat Thailand at Asian Age Group Championships 2026"
+          - time
+            - StaticText "4 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Royal Family"
+                - generic
+                  - button "More - The Princess Royal in South Korea and Thailand" [expanded=false, ref=e168]
+              - link "The Princess Royal in South Korea and Thailand - The Royal Family - 4 days ago" [ref=e68]
+                - StaticText "The Princess Royal in South Korea and Thailand"
+          - time
+            - StaticText "4 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "KOIN.com"
+                - generic
+                  - button "More - Foodie Friday: Tradition, community at center of Taste of Thailand fest" [expanded=false, ref=e169]
+              - link "Foodie Friday: Tradition, community at center of Taste of Thailand fest - KOIN.com - 20 hours ago - By Mia Villanueva & Emily Burris" [ref=e69]
+                - StaticText "Foodie Friday: Tradition, community at center of Taste of Thailand fest"
+          - time
+            - StaticText "20 hours ago"
+          - separator
+          - StaticText "By Mia Villanueva & Emily Burris"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand probes possible negligence in deadly Bangkok bar fire" [expanded=false, ref=e170]
+              - link "Thailand probes possible negligence in deadly Bangkok bar fire - BBC - 4 days ago - By Panisa Aemocha" [ref=e70]
+                - StaticText "Thailand probes possible negligence in deadly Bangkok bar fire"
+          - time
+            - StaticText "4 days ago"
+          - separator
+          - StaticText "By Panisa Aemocha"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "World Bank Group"
+                - generic
+                  - button "More - New World Bank Group Support for Thailand to Scale Low-Carbon Cities and Carbon Markets" [expanded=false, ref=e171]
+              - link "New World Bank Group Support for Thailand to Scale Low-Carbon Cities and Carbon Markets - World Bank Group - 5 days ago" [ref=e71]
+                - StaticText "New World Bank Group Support for Thailand to Scale Low-Carbon Cities and Carbon Markets"
+          - time
+            - StaticText "5 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "PRWeb"
+                - generic
+                  - button "More - Thailand Health Excellence 2026 Joins Hands with Siam Piwat and Huawei's HarmonyOS to Offer Privileges to Medical Tourists and ONESIAM Global Members" [expanded=false, ref=e172]
+              - link "Thailand Health Excellence 2026 Joins Hands with Siam Piwat and Huawei's HarmonyOS to Offer Privileges to Medical Tourists and ONESIAM Global Members - PRWeb - 2 hours ago" [ref=e72]
+                - StaticText "Thailand Health Excellence 2026 Joins Hands with Siam Piwat and Huawei's HarmonyOS to Offer Privileges to Medical Tourists and ONESIAM Global Members"
+          - time
+            - StaticText "2 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Gasgoo"
+                - generic
+                  - button "More - [Gasgoo Express] BYD's Cumulative Deliveries in Thailand Exceed 130,000 Units; IM Motors Officially Responds to Operational Crises at Dealerships in Multiple Regions" [expanded=false, ref=e173]
+              - link "[Gasgoo Express] BYD's Cumulative Deliveries in Thailand Exceed 130,000 Units; IM Motors Officially Responds to Operational Crises at Dealerships in Multiple Regions - Gasgoo - 9 hours ago" [ref=e73]
+                - StaticText "[Gasgoo Express] BYD's Cumulative Deliveries in Thailand Exceed 130,000 Units; IM Motors Officially Responds to Operational Crises at Dealerships in Multiple Regions"
+          - time
+            - StaticText "9 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Nation Thailand"
+                - generic
+                  - button "More - Thailand braces for fuel and trade shock as two Middle East routes face disruption" [expanded=false, ref=e174]
+              - link "Thailand braces for fuel and trade shock as two Middle East routes face disruption - Nation Thailand - 8 hours ago" [ref=e74]
+                - StaticText "Thailand braces for fuel and trade shock as two Middle East routes face disruption"
+          - time
+            - StaticText "8 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand PM visits aftermath of deadly Bangkok bar fire" [expanded=false, ref=e175]
+              - link "Thailand PM visits aftermath of deadly Bangkok bar fire - BBC - 5 days ago" [ref=e75]
+                - StaticText "Thailand PM visits aftermath of deadly Bangkok bar fire"
+          - time
+            - StaticText "5 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "news.cgtn.com"
+                - generic
+                  - button "More - Thailand-China Investment Forum strengthens economic partnership" [expanded=false, ref=e176]
+              - link "Thailand-China Investment Forum strengthens economic partnership - news.cgtn.com - 1 hour ago" [ref=e76]
+                - StaticText "Thailand-China Investment Forum strengthens economic partnership"
+          - time
+            - StaticText "1 hour ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Ocean News & Technology"
+                - generic
+                  - button "More - CARAT Thailand 2026 Wraps 32nd Iteration With Expanded US Maritime Forces" [expanded=false, ref=e177]
+              - link "CARAT Thailand 2026 Wraps 32nd Iteration With Expanded US Maritime Forces - Ocean News &amp; Technology - Yesterday" [ref=e77]
+                - StaticText "CARAT Thailand 2026 Wraps 32nd Iteration With Expanded US Maritime Forces"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Anadolu Ajansı"
+                - generic
+                  - button "More - China's Xi urges Thailand, Cambodia to resolve border dispute through dialogue" [expanded=false, ref=e178]
+              - link "China's Xi urges Thailand, Cambodia to resolve border dispute through dialogue - Anadolu Ajansı - 20 hours ago" [ref=e78]
+                - StaticText "China's Xi urges Thailand, Cambodia to resolve border dispute through dialogue"
+          - time
+            - StaticText "20 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Diplomatic Insight"
+                - generic
+                  - button "More - Thailand’s Prisons Brew Second Chances, One Cup at a Time" [expanded=false, ref=e179]
+              - link "Thailand’s Prisons Brew Second Chances, One Cup at a Time - The Diplomatic Insight - 7 hours ago" [ref=e79]
+                - StaticText "Thailand’s Prisons Brew Second Chances, One Cup at a Time"
+          - time
+            - StaticText "7 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Cargo Facts"
+                - generic
+                  - button "More - DHL Express dedicates 777F Thailand-U.S. capacity to DHL Global Forwarding" [expanded=false, ref=e180]
+              - link "DHL Express dedicates 777F Thailand-U.S. capacity to DHL Global Forwarding - Cargo Facts - 20 hours ago" [ref=e80]
+                - StaticText "DHL Express dedicates 777F Thailand-U.S. capacity to DHL Global Forwarding"
+          - time
+            - StaticText "20 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Bloomberg.com"
+                - generic
+                  - button "More - Thailand Cuts Welfare Card Eligibility by 28% With Tougher Rules" [expanded=false, ref=e181]
+              - link "Thailand Cuts Welfare Card Eligibility by 28% With Tougher Rules - Bloomberg.com - Yesterday" [ref=e81]
+                - StaticText "Thailand Cuts Welfare Card Eligibility by 28% With Tougher Rules"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "KOIN.com"
+                - generic
+                  - button "More - Foodie Friday: Tradition, community at center of Taste of Thailand fest" [expanded=false, ref=e182]
+              - link "Foodie Friday: Tradition, community at center of Taste of Thailand fest - KOIN.com - 20 hours ago" [ref=e82]
+                - StaticText "Foodie Friday: Tradition, community at center of Taste of Thailand fest"
+          - time
+            - StaticText "20 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Impakter"
+                - generic
+                  - button "More - Thailand Approves Measures to Boost Clean Energy Markets" [expanded=false, ref=e183]
+              - link "Thailand Approves Measures to Boost Clean Energy Markets - Impakter - Yesterday" [ref=e83]
+                - StaticText "Thailand Approves Measures to Boost Clean Energy Markets"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "KCBD"
+                - generic
+                  - button "More - 17-year-old collapses on graduation trip to Thailand from severe brain injury" [expanded=false, ref=e184]
+              - link "17-year-old collapses on graduation trip to Thailand from severe brain injury - KCBD - 3 days ago - By Paige Stockton" [ref=e84]
+                - StaticText "17-year-old collapses on graduation trip to Thailand from severe brain injury"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Paige Stockton"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Euromoney"
+                - generic
+                  - button "More - Awards for Excellence country/territory winners 2026: Thailand" [expanded=false, ref=e185]
+              - link "Awards for Excellence country/territory winners 2026: Thailand - Euromoney - Yesterday" [ref=e85]
+                - StaticText "Awards for Excellence country/territory winners 2026: Thailand"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Khaosod English"
+                - generic
+                  - button "More - Cambodia upset Thailand to reach first SEA V Cup final" [expanded=false, ref=e186]
+              - link "Cambodia upset Thailand to reach first SEA V Cup final - Khaosod English - 5 hours ago" [ref=e86]
+                - StaticText "Cambodia upset Thailand to reach first SEA V Cup final"
+          - time
+            - StaticText "5 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Yahoo Finance"
+                - generic
+                  - button "More - Hyundai to export BEVs to Australia from Thailand" [expanded=false, ref=e187]
+              - link "Hyundai to export BEVs to Australia from Thailand - Yahoo Finance - 3 days ago" [ref=e87]
+                - StaticText "Hyundai to export BEVs to Australia from Thailand"
+          - time
+            - StaticText "3 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Nation Thailand"
+                - generic
+                  - button "More - Thailand and Cambodia diverge over UNCLOS maritime talks and Gulf energy resources" [expanded=false, ref=e188]
+              - link "Thailand and Cambodia diverge over UNCLOS maritime talks and Gulf energy resources - Nation Thailand - 10 hours ago" [ref=e88]
+                - StaticText "Thailand and Cambodia diverge over UNCLOS maritime talks and Gulf energy resources"
+          - time
+            - StaticText "10 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Energy-Storage.News"
+                - generic
+                  - button "More - Thailand needs ‘many regulatory reforms’ of electricity sector to catch up with ASEAN leaders on energy storage" [expanded=false, ref=e189]
+              - link "Thailand needs ‘many regulatory reforms’ of electricity sector to catch up with ASEAN leaders on energy storage - Energy-Storage.News - 2 days ago - By Andy Colthorpe" [ref=e89]
+                - StaticText "Thailand needs ‘many regulatory reforms’ of electricity sector to catch up with ASEAN leaders on energy storage"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Andy Colthorpe"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Biometric Update"
+                - generic
+                  - button "More - Thailand taps Amadeus, Edgewater to modernize six airports with biometrics" [expanded=false, ref=e190]
+              - link "Thailand taps Amadeus, Edgewater to modernize six airports with biometrics - Biometric Update - Yesterday - By Ayang Macdonald" [ref=e90]
+                - StaticText "Thailand taps Amadeus, Edgewater to modernize six airports with biometrics"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Ayang Macdonald"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "World Meteorological Organization WMO"
+                - generic
+                  - button "More - China-Thailand Joint Laboratory for Intelligent Prediction and Early Warning of Meteorological Disasters launched" [expanded=false, ref=e191]
+              - link "China-Thailand Joint Laboratory for Intelligent Prediction and Early Warning of Meteorological Disasters launched - World Meteorological Organization WMO - Yesterday" [ref=e91]
+                - StaticText "China-Thailand Joint Laboratory for Intelligent Prediction and Early Warning of Meteorological Disasters launched"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Nation Thailand"
+                - generic
+                  - button "More - Anutin heads to Chengdu to court Chinese tech, EV and tourism investment" [expanded=false, ref=e192]
+              - link "Anutin heads to Chengdu to court Chinese tech, EV and tourism investment - Nation Thailand - 14 hours ago" [ref=e92]
+                - StaticText "Anutin heads to Chengdu to court Chinese tech, EV and tourism investment"
+          - time
+            - StaticText "14 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "UNESCO"
+                - generic
+                  - button "More - Sustaining Our Oceans: Educational package for Thailand" [expanded=false, ref=e193]
+              - link "Sustaining Our Oceans: Educational package for Thailand - UNESCO - 4 days ago" [ref=e93]
+                - StaticText "Sustaining Our Oceans: Educational package for Thailand"
+          - time
+            - StaticText "4 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Nation Thailand"
+                - generic
+                  - button "More - Thailand steps up US trade talks as tariff pressure grows" [expanded=false, ref=e194]
+              - link "Thailand steps up US trade talks as tariff pressure grows - Nation Thailand - 13 hours ago" [ref=e94]
+                - StaticText "Thailand steps up US trade talks as tariff pressure grows"
+          - time
+            - StaticText "13 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ホロライブ公式サイト"
+                - generic
+                  - button "More - hololive production x Birdzilla store “SAWASDEE KAA THAILAND” Exclusive Collection and Pop-Up Store coming this July! | NEWS" [expanded=false, ref=e195]
+              - link "hololive production x Birdzilla store “SAWASDEE KAA THAILAND” Exclusive Collection and Pop-Up Store coming this July! | NEWS - ホロライブ公式サイト - 8 days ago" [ref=e95]
+                - StaticText "hololive production x Birdzilla store “SAWASDEE KAA THAILAND” Exclusive Collection and Pop-Up Store coming this July! | NEWS"
+          - time
+            - StaticText "8 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Straits Times"
+                - generic
+                  - button "More - Vietnamese gang smuggled meth hidden in tamarind jars to Japan via Thailand" [expanded=false, ref=e196]
+              - link "Vietnamese gang smuggled meth hidden in tamarind jars to Japan via Thailand - The Straits Times - 7 hours ago" [ref=e96]
+                - StaticText "Vietnamese gang smuggled meth hidden in tamarind jars to Japan via Thailand"
+          - time
+            - StaticText "7 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "19FortyFive"
+                - generic
+                  - button "More - Thailand Owns the World's Smallest Aircraft Carrier. It Has No Aircraft, Rarely Sails, and Includes a Royal Apartment" [expanded=false, ref=e197]
+              - link "Thailand Owns the World's Smallest Aircraft Carrier. It Has No Aircraft, Rarely Sails, and Includes a Royal Apartment - 19FortyFive - 23 hours ago - By Harry Kazianis" [ref=e97]
+                - StaticText "Thailand Owns the World's Smallest Aircraft Carrier. It Has No Aircraft, Rarely Sails, and Includes a Royal Apartment"
+          - time
+            - StaticText "23 hours ago"
+          - separator
+          - StaticText "By Harry Kazianis"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "SWI swissinfo.ch"
+                - generic
+                  - button "More - Thailand tightens visa policy, much to the dismay of Swiss seasonal retirees" [expanded=false, ref=e198]
+              - link "Thailand tightens visa policy, much to the dismay of Swiss seasonal retirees - SWI swissinfo.ch - 3 days ago - By Emilie Ridard" [ref=e98]
+                - StaticText "Thailand tightens visa policy, much to the dismay of Swiss seasonal retirees"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Emilie Ridard"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Time Out Worldwide"
+                - generic
+                  - button "More - Thailand’s Koh Samui named the world’s best island in 2026" [expanded=false, ref=e199]
+              - link "Thailand’s Koh Samui named the world’s best island in 2026 - Time Out Worldwide - 2 days ago" [ref=e99]
+                - StaticText "Thailand’s Koh Samui named the world’s best island in 2026"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WBOC TV"
+                - generic
+                  - button "More - Thailand Content Market 2026 Elevates Thailand’s Content Industry onto the Global Stage, Targeting Over THB 2 Billion in Trade Value" [expanded=false, ref=e200]
+              - link "Thailand Content Market 2026 Elevates Thailand’s Content Industry onto the Global Stage, Targeting Over THB 2 Billion in Trade Value - WBOC TV - Yesterday" [ref=e100]
+                - StaticText "Thailand Content Market 2026 Elevates Thailand’s Content Industry onto the Global Stage, Targeting Over THB 2 Billion in Trade Value"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Skeletal remains with 2,000-year-old gold rings found by archaeologists in Thailand" [expanded=false, ref=e201]
+              - link "Skeletal remains with 2,000-year-old gold rings found by archaeologists in Thailand - CBS News - 11 days ago" [ref=e101]
+                - StaticText "Skeletal remains with 2,000-year-old gold rings found by archaeologists in Thailand"
+          - time
+            - StaticText "11 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Nation Thailand"
+                - generic
+                  - button "More - Thailand warned of more rain through July 23 as monsoon strengthens" [expanded=false, ref=e202]
+              - link "Thailand warned of more rain through July 23 as monsoon strengthens - Nation Thailand - 14 hours ago" [ref=e102]
+                - StaticText "Thailand warned of more rain through July 23 as monsoon strengthens"
+          - time
+            - StaticText "14 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Guardian"
+                - generic
+                  - button "More - Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand" [expanded=false, ref=e203]
+              - link "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand - The Guardian - 17 days ago - By Natasha May" [ref=e103]
+                - StaticText "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand"
+          - time
+            - StaticText "17 days ago"
+          - separator
+          - StaticText "By Natasha May"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "dw.com"
+                - generic
+                  - button "More - Thailand: Child crashes vehicle into group of monks" [expanded=false, ref=e204]
+              - link "Thailand: Child crashes vehicle into group of monks - dw.com - 16 days ago - By Mark Hallam" [ref=e104]
+                - StaticText "Thailand: Child crashes vehicle into group of monks"
+          - time
+            - StaticText "16 days ago"
+          - separator
+          - StaticText "By Mark Hallam"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Travel And Tour World"
+                - generic
+                  - button "More - Radisson Resort Opens as a New Coastal Retreat in Thailand Bringing Luxury Stays and Experiences to Phuket’s Peaceful Northwest Coast – All You Need to Know" [expanded=false, ref=e205]
+              - link "Radisson Resort Opens as a New Coastal Retreat in Thailand Bringing Luxury Stays and Experiences to Phuket’s Peaceful Northwest Coast – All You Need to Know - Travel And Tour World - 3 hours ago" [ref=e105]
+                - StaticText "Radisson Resort Opens as a New Coastal Retreat in Thailand Bringing Luxury Stays and Experiences to Phuket’s Peaceful Northwest Coast – All You Need to Know"
+          - time
+            - StaticText "3 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NT News"
+                - generic
+                  - button "More - ‘You can feel that Thailand is here’: Thailand Grand Festival NT celebrates 10 years in Darwin" [expanded=false, ref=e206]
+              - link "‘You can feel that Thailand is here’: Thailand Grand Festival NT celebrates 10 years in Darwin - NT News - 2 hours ago - By Lottie Hood" [ref=e106]
+                - StaticText "‘You can feel that Thailand is here’: Thailand Grand Festival NT celebrates 10 years in Darwin"
+          - time
+            - StaticText "2 hours ago"
+          - separator
+          - StaticText "By Lottie Hood"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AsiaNews"
+                - generic
+                  - button "More - Thai farmworkers remain in Israel despite wars" [expanded=false, ref=e207]
+              - link "Thai farmworkers remain in Israel despite wars - AsiaNews - 2 hours ago" [ref=e107]
+                - StaticText "Thai farmworkers remain in Israel despite wars"
+          - time
+            - StaticText "2 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Eco-Business"
+                - generic
+                  - button "More - Thailand seeks Japan’s backing for flood-control projects as climate risks intensify" [expanded=false, ref=e208]
+              - link "Thailand seeks Japan’s backing for flood-control projects as climate risks intensify - Eco-Business - Yesterday" [ref=e108]
+                - StaticText "Thailand seeks Japan’s backing for flood-control projects as climate risks intensify"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Straits Times"
+                - generic
+                  - button "More - Thailand’s Moo Deng backs Argentina to win World Cup 2026 final" [expanded=false, ref=e209]
+              - link "Thailand’s Moo Deng backs Argentina to win World Cup 2026 final - The Straits Times - 7 hours ago" [ref=e109]
+                - StaticText "Thailand’s Moo Deng backs Argentina to win World Cup 2026 final"
+          - time
+            - StaticText "7 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Undercurrent News"
+                - generic
+                  - button "More - Trade Insights: US slump outweighs Egypt, Israel surge in Thailand's May canned tuna exports" [expanded=false, ref=e210]
+              - link "Trade Insights: US slump outweighs Egypt, Israel surge in Thailand's May canned tuna exports - Undercurrent News - Yesterday" [ref=e110]
+                - StaticText "Trade Insights: US slump outweighs Egypt, Israel surge in Thailand's May canned tuna exports"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AsiaNews"
+                - generic
+                  - button "More - Ajahn Jayasaro, first foreign-born monk in Thailand’s senior hierarchy" [expanded=false, ref=e211]
+              - link "Ajahn Jayasaro, first foreign-born monk in Thailand’s senior hierarchy - AsiaNews - Yesterday" [ref=e111]
+                - StaticText "Ajahn Jayasaro, first foreign-born monk in Thailand’s senior hierarchy"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "e-architect"
+                - generic
+                  - button "More - Athita Pool Villa and Spa in Chiang Rai, Thailand" [expanded=false, ref=e212]
+              - link "Athita Pool Villa and Spa in Chiang Rai, Thailand - e-architect - Yesterday - By Isabelle Lomholt" [ref=e112]
+                - StaticText "Athita Pool Villa and Spa in Chiang Rai, Thailand"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Isabelle Lomholt"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Khmer Times"
+                - generic
+                  - button "More - Hun Manet tells Chinese leaders Thailand encroached on Cambodian territory (VIDEO)" [expanded=false, ref=e213]
+              - link "Hun Manet tells Chinese leaders Thailand encroached on Cambodian territory (VIDEO) - Khmer Times - 8 hours ago" [ref=e113]
+                - StaticText "Hun Manet tells Chinese leaders Thailand encroached on Cambodian territory (VIDEO)"
+          - time
+            - StaticText "8 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Nation Thailand"
+                - generic
+                  - button "More - Thailand strengthens controls on cannabis flower sales and exports" [expanded=false, ref=e214]
+              - link "Thailand strengthens controls on cannabis flower sales and exports - Nation Thailand - Yesterday" [ref=e114]
+                - StaticText "Thailand strengthens controls on cannabis flower sales and exports"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Travel And Tour World"
+                - generic
+                  - button "More - Thailand Strengthens India Tourism Ties as Indian Travellers Retain Visa-Free Access Under New 30-Day Exemption Scheme, Creating Easier Holiday Opportunities, Faster Entry Procedures and a Major Boost for Southeast Asia Travel Growth" [expanded=false, ref=e215]
+              - link "Thailand Strengthens India Tourism Ties as Indian Travellers Retain Visa-Free Access Under New 30-Day Exemption Scheme, Creating Easier Holiday Opportunities, Faster Entry Procedures and a Major Boost for Southeast Asia Travel Growth - Travel And Tour World - 2 hours ago" [ref=e115]
+                - StaticText "Thailand Strengthens India Tourism Ties as Indian Travellers Retain Visa-Free Access Under New 30-Day Exemption Scheme, Creating Easier Holiday Opportunities, Faster Entry Procedures and a Major Boost for Southeast Asia Travel Growth"
+          - time
+            - StaticText "2 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Archaeology Magazine"
+                - generic
+                  - button "More - News - Skeletons Uncovered at Thailand’s Don Yai Thong Burial Site" [expanded=false, ref=e216]
+              - link "News - Skeletons Uncovered at Thailand’s Don Yai Thong Burial Site - Archaeology Magazine - 16 days ago" [ref=e116]
+                - StaticText "News - Skeletons Uncovered at Thailand’s Don Yai Thong Burial Site"
+          - time
+            - StaticText "16 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Manila Standard"
+                - generic
+                  - button "More - Filipino art students find new classroom in Thailand" [expanded=false, ref=e217]
+              - link "Filipino art students find new classroom in Thailand - Manila Standard - 3 hours ago - By Jasper Valdez" [ref=e117]
+                - StaticText "Filipino art students find new classroom in Thailand"
+          - time
+            - StaticText "3 hours ago"
+          - separator
+          - StaticText "By Jasper Valdez"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Asian Banker"
+                - generic
+                  - button "More - How is UOB Thailand turning integration complexity into retail profitability?" [expanded=false, ref=e218]
+              - link "How is UOB Thailand turning integration complexity into retail profitability? - The Asian Banker - Yesterday" [ref=e118]
+                - StaticText "How is UOB Thailand turning integration complexity into retail profitability?"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Star"
+                - generic
+                  - button "More - Vietnamese gang smuggled meth hidden in tamarind jars to Japan via Thailand" [expanded=false, ref=e219]
+              - link "Vietnamese gang smuggled meth hidden in tamarind jars to Japan via Thailand - The Star - 44 minutes ago" [ref=e119]
+                - StaticText "Vietnamese gang smuggled meth hidden in tamarind jars to Japan via Thailand"
+          - time
+            - StaticText "44 minutes ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Khaosod English"
+                - generic
+                  - button "More - Myanmar's Min Aung Hlaing to visit Thailand in early August, PM says" [expanded=false, ref=e220]
+              - link "Myanmar's Min Aung Hlaing to visit Thailand in early August, PM says - Khaosod English - Yesterday" [ref=e120]
+                - StaticText "Myanmar's Min Aung Hlaing to visit Thailand in early August, PM says"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Bloomberg.com"
+                - generic
+                  - button "More - Thailand Gets Serious About Chasing High-Spending Tourists" [expanded=false, ref=e221]
+              - link "Thailand Gets Serious About Chasing High-Spending Tourists - Bloomberg.com - Jun 30 - By Randy Thanthong-Knight" [ref=e121]
+                - StaticText "Thailand Gets Serious About Chasing High-Spending Tourists"
+          - time
+            - StaticText "Jun 30"
+          - separator
+          - StaticText "By Randy Thanthong-Knight"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "dw.com"
+                - generic
+                  - button "More - Can Thailand, Cambodia unlock massive oil and gas reserves?" [expanded=false, ref=e222]
+              - link "Can Thailand, Cambodia unlock massive oil and gas reserves? - dw.com - Jun 30 - By Zsombor Peter" [ref=e122]
+                - StaticText "Can Thailand, Cambodia unlock massive oil and gas reserves?"
+          - time
+            - StaticText "Jun 30"
+          - separator
+          - StaticText "By Zsombor Peter"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "World Bank Group"
+                - generic
+                  - button "More - Event | Thailand Young Economist Contest 2026" [expanded=false, ref=e223]
+              - link "Event | Thailand Young Economist Contest 2026 - World Bank Group - Jun 9" [ref=e123]
+                - StaticText "Event | Thailand Young Economist Contest 2026"
+          - time
+            - StaticText "Jun 9"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - Australian man charged with murder over death of a teenage girl in Thailand’s Pattaya" [expanded=false, ref=e224]
+              - link "Australian man charged with murder over death of a teenage girl in Thailand’s Pattaya - AP News - Jun 30 - By Jintamas Saksornchai" [ref=e124]
+                - StaticText "Australian man charged with murder over death of a teenage girl in Thailand’s Pattaya"
+          - time
+            - StaticText "Jun 30"
+          - separator
+          - StaticText "By Jintamas Saksornchai"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Mini Me Insights"
+                - generic
+                  - button "More - URC Thailand rolls out Roller Coaster Spicy Keemao bringing fiery street‑food flavours into crunchy snack form" [expanded=false, ref=e225]
+              - link "URC Thailand rolls out Roller Coaster Spicy Keemao bringing fiery street‑food flavours into crunchy snack form - Mini Me Insights - 3 hours ago" [ref=e125]
+                - StaticText "URC Thailand rolls out Roller Coaster Spicy Keemao bringing fiery street‑food flavours into crunchy snack form"
+          - time
+            - StaticText "3 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Khaosod English"
+                - generic
+                  - button "More - China assures Cambodia-bound tanks will not be used against Thailand, PM says" [expanded=false, ref=e226]
+              - link "China assures Cambodia-bound tanks will not be used against Thailand, PM says - Khaosod English - Yesterday" [ref=e126]
+                - StaticText "China assures Cambodia-bound tanks will not be used against Thailand, PM says"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "U.S. Embassy & Consulate in Thailand (.gov)"
+                - generic
+                  - button "More - Health Alert: U.S. Embassy – June 2, 2026 – Thailand Enhanced Ebola Screening" [expanded=false, ref=e227]
+              - link "Health Alert: U.S. Embassy – June 2, 2026 – Thailand Enhanced Ebola Screening - U.S. Embassy &amp; Consulate in Thailand (.gov) - Jun 2" [ref=e127]
+                - StaticText "Health Alert: U.S. Embassy – June 2, 2026 – Thailand Enhanced Ebola Screening"
+          - time
+            - StaticText "Jun 2"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "UNESCO"
+                - generic
+                  - button "More - Thailand: Artificial Intelligence Readiness Assessment Report" [expanded=false, ref=e228]
+              - link "Thailand: Artificial Intelligence Readiness Assessment Report - UNESCO - Jun 23" [ref=e128]
+                - StaticText "Thailand: Artificial Intelligence Readiness Assessment Report"
+          - time
+            - StaticText "Jun 23"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Breaking Travel News"
+                - generic
+                  - button "More - 44% of Thailand holidays have been booked by couples, here’s why it’s becoming the romantic capital" [expanded=false, ref=e229]
+              - link "44% of Thailand holidays have been booked by couples, here’s why it’s becoming the romantic capital - Breaking Travel News - Yesterday" [ref=e129]
+                - StaticText "44% of Thailand holidays have been booked by couples, here’s why it’s becoming the romantic capital"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Travel And Tour World"
+                - generic
+                  - button "More - Thailand Teams Up with United Arab Emirates, South Korea, Seychelles and More Countries Around the World to Participate at TTF Ahmedabad 2026 to Bring Together More Than Nine Hundred Exhibitors from Over Thirty Countries as India’s Western Travel" [expanded=false, ref=e230]
+              - link "Thailand Teams Up with United Arab Emirates, South Korea, Seychelles and More Countries Around the World to Participate at TTF Ahmedabad 2026 to Bring Together More Than Nine Hundred Exhibitors from Over Thirty Countries as India’s Western Travel - Travel And Tour World - 36 minutes ago - By Tuhin Sarkar" [ref=e130]
+                - StaticText "Thailand Teams Up with United Arab Emirates, South Korea, Seychelles and More Countries Around the World to Participate at TTF Ahmedabad 2026 to Bring Together More Than Nine Hundred Exhibitors from Over Thirty Countries as India’s Western Travel"
+          - time
+            - StaticText "36 minutes ago"
+          - separator
+          - StaticText "By Tuhin Sarkar"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Nation Thailand"
+                - generic
+                  - button "More - PM heeds business concerns, reshapes Landbridge plan around Chumphon–Ranong links" [expanded=false, ref=e231]
+              - link "PM heeds business concerns, reshapes Landbridge plan around Chumphon–Ranong links - Nation Thailand - 6 hours ago" [ref=e131]
+                - StaticText "PM heeds business concerns, reshapes Landbridge plan around Chumphon–Ranong links"
+          - time
+            - StaticText "6 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - What I Learned About Masculinity at Thai Kickboxing School" [expanded=false, ref=e232]
+              - link "What I Learned About Masculinity at Thai Kickboxing School - The New York Times - Jun 22 - By Dan Brooks" [ref=e132]
+                - StaticText "What I Learned About Masculinity at Thai Kickboxing School"
+          - time
+            - StaticText "Jun 22"
+          - separator
+          - StaticText "By Dan Brooks"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Travel And Tour World"
+                - generic
+                  - button "More - Thailand Unleashes a Travel-Tech Thunderbolt as Agoda’s Eleventh Tech Camp Day Powers an Agentic AI Revolution Set to Redefine Holiday Planning Across Asia" [expanded=false, ref=e233]
+              - link "Thailand Unleashes a Travel-Tech Thunderbolt as Agoda’s Eleventh Tech Camp Day Powers an Agentic AI Revolution Set to Redefine Holiday Planning Across Asia - Travel And Tour World - 12 hours ago" [ref=e133]
+                - StaticText "Thailand Unleashes a Travel-Tech Thunderbolt as Agoda’s Eleventh Tech Camp Day Powers an Agentic AI Revolution Set to Redefine Holiday Planning Across Asia"
+          - time
+            - StaticText "12 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BoxingScene"
+                - generic
+                  - button "More - Tyson Fury claims $250,000 raised through Thailand tussle with Mariusz Wach" [expanded=false, ref=e234]
+              - link "Tyson Fury claims $250,000 raised through Thailand tussle with Mariusz Wach - BoxingScene - Yesterday - By Tom Ivers" [ref=e134]
+                - StaticText "Tyson Fury claims $250,000 raised through Thailand tussle with Mariusz Wach"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Tom Ivers"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Reuters"
+                - generic
+                  - button "More - Thailand seeks to arrest fugitive Chinese businessman over illegal crypto mining" [expanded=false, ref=e235]
+              - link "Thailand seeks to arrest fugitive Chinese businessman over illegal crypto mining - Reuters - Jun 25 - By Tom Wilson & William Mallard" [ref=e135]
+                - StaticText "Thailand seeks to arrest fugitive Chinese businessman over illegal crypto mining"
+          - time
+            - StaticText "Jun 25"
+          - separator
+          - StaticText "By Tom Wilson & William Mallard"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AOL.com"
+                - generic
+                  - button "More - Princess Anne Meets Thailand’s Queen Suthida in Bangkok" [expanded=false, ref=e236]
+              - link "Princess Anne Meets Thailand’s Queen Suthida in Bangkok - AOL.com - 23 hours ago - By Rachel King" [ref=e136]
+                - StaticText "Princess Anne Meets Thailand’s Queen Suthida in Bangkok"
+          - time
+            - StaticText "23 hours ago"
+          - separator
+          - StaticText "By Rachel King"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Travel And Tour World"
+                - generic
+                  - button "More - Thailand Outshines Japan, Vietnam, South Korea, Cambodia and Several other Countries as Asia Discovers a New LGBTQIA+ Tourism Leader Driving Visitor Confidence, Global Recognition and a More Inclusive Future for Travel" [expanded=false, ref=e237]
+              - link "Thailand Outshines Japan, Vietnam, South Korea, Cambodia and Several other Countries as Asia Discovers a New LGBTQIA+ Tourism Leader Driving Visitor Confidence, Global Recognition and a More Inclusive Future for Travel - Travel And Tour World - 14 hours ago" [ref=e137]
+                - StaticText "Thailand Outshines Japan, Vietnam, South Korea, Cambodia and Several other Countries as Asia Discovers a New LGBTQIA+ Tourism Leader Driving Visitor Confidence, Global Recognition and a More Inclusive Future for Travel"
+          - time
+            - StaticText "14 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "EX-YU Aviation News"
+                - generic
+                  - button "More - Thailand tourism body backs Belgrade - Bangkok flights" [expanded=false, ref=e238]
+              - link "Thailand tourism body backs Belgrade - Bangkok flights - EX-YU Aviation News - 2 days ago" [ref=e138]
+                - StaticText "Thailand tourism body backs Belgrade - Bangkok flights"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABS-CBN"
+                - generic
+                  - button "More - Stunner in Candon as Cambodia topples Thailand to book spot in SEA V Cup finale" [expanded=false, ref=e239]
+              - link "Stunner in Candon as Cambodia topples Thailand to book spot in SEA V Cup finale - ABS-CBN - 3 hours ago - By Kennedy Caacbay" [ref=e139]
+                - StaticText "Stunner in Candon as Cambodia topples Thailand to book spot in SEA V Cup finale"
+          - time
+            - StaticText "3 hours ago"
+          - separator
+          - StaticText "By Kennedy Caacbay"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Travel And Tour World"
+                - generic
+                  - button "More - Taiwan Secures Visa-Free Travel for Thailand, Brunei and the Philippines Until July 2027 as Faster Southeast Asian Growth, Digital Entry Rules and Selective Border Access Reshape Regional Tourism" [expanded=false, ref=e240]
+              - link "Taiwan Secures Visa-Free Travel for Thailand, Brunei and the Philippines Until July 2027 as Faster Southeast Asian Growth, Digital Entry Rules and Selective Border Access Reshape Regional Tourism - Travel And Tour World - 6 hours ago" [ref=e140]
+                - StaticText "Taiwan Secures Visa-Free Travel for Thailand, Brunei and the Philippines Until July 2027 as Faster Southeast Asian Growth, Digital Entry Rules and Selective Border Access Reshape Regional Tourism"
+          - time
+            - StaticText "6 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Myanmar International TV"
+                - generic
+                  - button "More - Xi says China always reliable strategic partner for Thailand" [expanded=false, ref=e241]
+              - link "Xi says China always reliable strategic partner for Thailand - Myanmar International TV - 9 hours ago" [ref=e141]
+                - StaticText "Xi says China always reliable strategic partner for Thailand"
+          - time
+            - StaticText "9 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Bangkok Post"
+                - generic
+                  - button "More - Thailand foreign arrivals down 3.09% so far this year" [expanded=false, ref=e242]
+              - link "Thailand foreign arrivals down 3.09% so far this year - Bangkok Post - 3 days ago" [ref=e142]
+                - StaticText "Thailand foreign arrivals down 3.09% so far this year"
+          - time
+            - StaticText "3 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "GovInsider"
+                - generic
+                  - button "More - How Thailand enhanced its public sector cybersecurity posture" [expanded=false, ref=e243]
+              - link "How Thailand enhanced its public sector cybersecurity posture - GovInsider - Yesterday" [ref=e143]
+                - StaticText "How Thailand enhanced its public sector cybersecurity posture"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Fédération internationale pour les droits humains"
+                - generic
+                  - button "More - Thailand: Two Uyghurs sentenced to death after flawed trial" [expanded=false, ref=e244]
+              - link "Thailand: Two Uyghurs sentenced to death after flawed trial - Fédération internationale pour les droits humains - Jun 11" [ref=e144]
+                - StaticText "Thailand: Two Uyghurs sentenced to death after flawed trial"
+          - time
+            - StaticText "Jun 11"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Star"
+                - generic
+                  - button "More - Speculation that China could mediate Cambodia-Thailand border dispute" [expanded=false, ref=e245]
+              - link "Speculation that China could mediate Cambodia-Thailand border dispute - The Star - 8 hours ago" [ref=e145]
+                - StaticText "Speculation that China could mediate Cambodia-Thailand border dispute"
+          - time
+            - StaticText "8 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Nation Thailand"
+                - generic
+                  - button "More - Navy says vessel in Gulf of Oman report is not Thai" [expanded=false, ref=e246]
+              - link "Navy says vessel in Gulf of Oman report is not Thai - Nation Thailand - 12 hours ago" [ref=e146]
+                - StaticText "Navy says vessel in Gulf of Oman report is not Thai"
+          - time
+            - StaticText "12 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Tatler"
+                - generic
+                  - button "More - Princess Anne channels her mother Queen Elizabeth II in pearls in Thailand" [expanded=false, ref=e247]
+              - link "Princess Anne channels her mother Queen Elizabeth II in pearls in Thailand - Tatler - 2 days ago - By Isaac Bickerstaff" [ref=e147]
+      - complementary
+        - generic
+          - link "Thailand Business News" [ref=e32]
+          - heading "Thailand Business News" [level=2, ref=e33]
+          - button "Follow this source - Thailand Business News" [ref=e47]
+          - button "Share" [ref=e34]
+        - heading "Topics" [level=2, ref=e17]
+        - separator
+        - generic
+          - link "Thailand" [ref=e35]
+        - generic
+          - link "Thailand national football team" [ref=e36]
+        - generic
+          - link "Thailand women's national volleyball team" [ref=e37]
+        - generic
+          - link "Thailand women's national cricket team" [ref=e38]
+        - generic
+          - link "Tomorrowland Thailand" [ref=e39]
+        - generic
+          - link "Thailand national cricket team" [ref=e40]
+        - generic
+          - link "Thailand women's national football team" [ref=e41]
+        - generic
+          - link "Northern Thailand" [ref=e42]
+        - generic
+          - link "Southern Thailand" [ref=e43]
