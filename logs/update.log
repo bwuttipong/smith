@@ -2285,3 +2285,269 @@ Skipping notarization: APPLE_API_KEY, APPLE_API_KEY_ID, and APPLE_API_ISSUER are
 
 Tip: You can now select a provider and model:
   hermes model              # Select provider and model
+
+=== hermes update started 2026-07-18T10:43:04 ===
+⚕ Updating Hermes Agent...
+
+→ Fetching updates...
+→ Found 623 new commit(s)
+  ✓ Pre-update snapshot: 20260718-034305-pre-update
+→ Pulling updates...
+  ✓ Cleared 102 stale __pycache__ directories
+→ Updating Python dependencies...
+
+→ Refreshing 18 active lazy backend(s)...
+  ↑ 1 refreshed: platform.slack
+  ✓ 16 already current
+  ⚠ platform.matrix failed to refresh: pip install failed: , in _finalize_setup_keywords
+  [31m   [0m     ep.load()(self, ep.name, value)
+  [31m   [0m   File "/private/var/folders/jw/mz45fg8s26zgz3cx72ztxxgw0000gn/T/pip-build-env-97oa5...
+  Backends keep their previously-installed version; rerun
+  `hermes update` once the upstream issue is resolved.
+→ Updating Node.js dependencies...
+  ✓ repo root + ui-tui, web workspaces (desktop skipped)
+→ Building web UI...
+    
+    > web@0.0.0 build
+    > tsc -b && vite build
+    
+    [36mvite v8.1.0 [32mbuilding client environment for production...[36m[39m
+    [2K
+    transforming...[32m✓[0m 496 modules transformed.
+    rendering chunks...
+    computing gzip size...
+    [2m../hermes_cli/web_dist/[0m[32mindex.html                                     [0m[1;2m    0.51 kB[0m[2m │ gzip:   0.32 kB[0m
+    [2m../hermes_cli/web_dist/[0m[2massets/[0m[32mMondwest-Regular-CWscgue7.woff2         [0m[1;2m   23.82 kB[0m
+    [2m../hermes_cli/web_dist/[0m[2massets/[0m[32mRulesExpanded-Regular-l8uVympt.woff2    [0m[1;2m   33.82 kB[0m
+    [2m../hermes_cli/web_dist/[0m[2massets/[0m[32mRulesExpanded-Bold-DZA7s8Pa.woff2       [0m[1;2m   35.01 kB[0m
+    [2m../hermes_cli/web_dist/[0m[2massets/[0m[32mRulesCompressed-Regular-BSXFyF4x.woff2  [0m[1;2m   37.76 kB[0m
+    [2m../hermes_cli/web_dist/[0m[2massets/[0m[32mRulesCompressed-Medium-CA76_CrB.woff2   [0m[1;2m   38.84 kB[0m
+    [2m../hermes_cli/web_dist/[0m[2massets/[0m[32mCollapse-Bold-mgICk9-_.woff2            [0m[1;2m   59.14 kB[0m
+    [2m../hermes_cli/web_dist/[0m[2massets/[0m[32mCollapse-Regular-DysayoTY.woff2         [0m[1;2m   62.81 kB[0m
+    [2m../hermes_cli/web_dist/[0m[2massets/[0m[35mindex-op4J7rJJ.css                      [0m[1;2m  115.77 kB[0m[2m │ gzip:  18.26 kB[0m
+    [2m../hermes_cli/web_dist/[0m[2massets/[0m[36mindex-BJuuq6jA.js                       [0m[33;1m2,397.38 kB[0m[2m │ gzip: 654.54 kB[0m
+    
+    [32m✓ built in 755ms[39m
+    [33m[plugin builtin:vite-reporter] [33;1m
+    (!) Some chunks are larger than 500 kB after minification. Consider:
+    - Using dynamic import() to code-split the application
+    - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+    - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[0m[39m
+  ✓ Web UI built
+→ Checking if desktop app needs rebuilding...
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+npm warn deprecated boolean@3.2.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm warn deprecated rcedit@5.0.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+
+> hermes-agent@1.0.0 postinstall
+> echo '✅ Browser tools ready. Run: python run_agent.py --help'
+
+✅ Browser tools ready. Run: python run_agent.py --help
+
+added 1300 packages, and audited 1308 packages in 25s
+
+357 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm warn allow-scripts 7 packages have install scripts not yet covered by allowScripts:
+npm warn allow-scripts   agent-browser@0.26.0 (postinstall: node scripts/postinstall.js)
+npm warn allow-scripts   electron@40.10.2 (postinstall: node install.js)
+npm warn allow-scripts   electron-winstaller@5.4.0 (install: node ./script/select-7z-arch.js)
+npm warn allow-scripts   esbuild@0.28.1 (postinstall: node install.js)
+npm warn allow-scripts   fsevents@2.3.3 (install: (install scripts present))
+npm warn allow-scripts   node-pty@1.1.0 (install: node scripts/prebuild.js || node-gyp rebuild; postinstall: node scripts/post-install.js)
+npm warn allow-scripts   unicode-animations@1.0.3 (postinstall: node scripts/postinstall.cjs)
+npm warn allow-scripts
+npm warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+
+> hermes@0.17.0 pack
+> npm run build && npm run builder -- --dir
+
+
+> hermes@0.17.0 prebuild
+> tsc -b . --clean
+
+
+> hermes@0.17.0 build
+> node scripts/assert-root-install.mjs && node scripts/write-build-stamp.mjs && vite build && node scripts/bundle-electron-main.mjs && node scripts/stage-native-deps.mjs
+
+[write-build-stamp] wrote apps/desktop/build/install-stamp.json -> d59b79fadd1e (main)
+[36mvite v8.1.0 [32mbuilding client environment for production...[36m[39m
+[2K
+transforming...Found 1 warning while optimizing generated CSS:
+
+[2m│   -moz-tab-size: 2;[22m
+[2m│ }[22m
+[2m│[22m text-* variant utilities. */ .btn-arc {
+[2m┆[22m      [33m[2m^--[22m Unexpected token Delim('*')[39m
+[2m┆[22m
+[2m│   background-image: linear-gradient(110deg, #5b6cff 0%, #8b5cf6 28%, #d946ef 58%, #fb7185 82%, #fb923c 100%);[22m
+[2m│   color: #fff;[22m
+
+[38;5;147m[LARGE_BARREL_MODULES] [0m../../node_modules/@tabler/icons-react/dist/esm/tabler-icons-react.mjs has 6149 re-exports. Eagerly resolving every entry can significantly slow down the build. Consider using `@rolldown/plugin-transform-imports` to rewrite imports at the source level so the barrel file is never loaded.
+ [38;5;240m │[0m 
+ [38;5;240m │[0m [38;5;115mHelp[0m: See https://github.com/rolldown/plugins/tree/main/packages/transform-imports for usage.
+
+[32m✓[0m 4440 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[0m[32mindex.html                                       [0m[1;2m     1.77 kB[0m[2m │ gzip:     0.82 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size3-Regular-CTq5MqoE.woff         [0m[1;2m     4.42 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size4-Regular-Dl5lxZxV.woff2        [0m[1;2m     4.92 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size2-Regular-Dy4dx90m.woff2        [0m[1;2m     5.20 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size1-Regular-mCD8mA8B.woff2        [0m[1;2m     5.46 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size4-Regular-BF-4gkZK.woff         [0m[1;2m     5.98 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size2-Regular-oD1tc_U0.woff         [0m[1;2m     6.18 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size1-Regular-C195tn64.woff         [0m[1;2m     6.49 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Caligraphic-Regular-Di6jR-x-.woff2  [0m[1;2m     6.90 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Caligraphic-Bold-Dq_IR9rO.woff2     [0m[1;2m     6.91 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size3-Regular-DgpXs0kz.ttf          [0m[1;2m     7.58 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Caligraphic-Regular-CTRA-rTL.woff   [0m[1;2m     7.65 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Caligraphic-Bold-BEiXGLvX.woff      [0m[1;2m     7.71 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Script-Regular-D3wIWfF6.woff2       [0m[1;2m     9.64 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_SansSerif-Regular-DDBCnlJ7.woff2    [0m[1;2m    10.34 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size4-Regular-DWFBv043.ttf          [0m[1;2m    10.36 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Script-Regular-D5yQViql.woff        [0m[1;2m    10.58 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Fraktur-Regular-CTYiF6lA.woff2      [0m[1;2m    11.31 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Fraktur-Bold-CL6g_b3V.woff2         [0m[1;2m    11.34 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size2-Regular-B7gKUWhC.ttf          [0m[1;2m    11.50 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_SansSerif-Italic-C3H0VqGB.woff2     [0m[1;2m    12.02 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_SansSerif-Bold-D1sUS0GD.woff2       [0m[1;2m    12.21 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Size1-Regular-Dbsnue_I.ttf          [0m[1;2m    12.22 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_SansSerif-Regular-CS6fqUqJ.woff     [0m[1;2m    12.31 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Caligraphic-Regular-wX97UBjC.ttf    [0m[1;2m    12.34 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Caligraphic-Bold-ATXxdsX0.ttf       [0m[1;2m    12.36 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Fraktur-Regular-Dxdc4cR9.woff       [0m[1;2m    13.20 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Fraktur-Bold-BsDP51OF.woff          [0m[1;2m    13.29 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Typewriter-Regular-CO6r4hn1.woff2   [0m[1;2m    13.56 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_SansSerif-Italic-DN2j7dab.woff      [0m[1;2m    14.11 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_SansSerif-Bold-DbIhKOiC.woff        [0m[1;2m    14.40 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Typewriter-Regular-C0xS9mPB.woff    [0m[1;2m    16.02 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Math-BoldItalic-CZnvNsCZ.woff2      [0m[1;2m    16.40 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Math-Italic-t53AETM-.woff2          [0m[1;2m    16.44 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Script-Regular-C5JkGWo-.ttf         [0m[1;2m    16.64 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-BoldItalic-DxDJ3AOS.woff2      [0m[1;2m    16.78 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-Italic-NWA7e6Wa.woff2          [0m[1;2m    16.98 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Math-BoldItalic-iY-2wyZ7.woff       [0m[1;2m    18.66 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Math-Italic-DA0__PXp.woff           [0m[1;2m    18.74 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-BoldItalic-SpSLRI95.woff       [0m[1;2m    19.41 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_SansSerif-Regular-BNo7hRIc.ttf      [0m[1;2m    19.43 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Fraktur-Regular-CB_wures.ttf        [0m[1;2m    19.57 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Fraktur-Bold-BdnERNNW.ttf           [0m[1;2m    19.58 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-Italic-BMLOBm91.woff           [0m[1;2m    19.67 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_SansSerif-Italic-YYjJ1zSn.ttf       [0m[1;2m    22.36 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_SansSerif-Bold-CFMepnvq.ttf         [0m[1;2m    24.50 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-Bold-Cx986IdX.woff2            [0m[1;2m    25.32 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-Regular-B22Nviop.woff2         [0m[1;2m    26.27 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Typewriter-Regular-D3Ib7_Hf.ttf     [0m[1;2m    27.55 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_AMS-Regular-BQhdFMY1.woff2          [0m[1;2m    28.07 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-Bold-Jm3AIy58.woff             [0m[1;2m    29.91 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-Regular-Dr94JaBh.woff          [0m[1;2m    30.77 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Math-BoldItalic-B3XSjfu4.ttf        [0m[1;2m    31.19 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Math-Italic-flOr_0UB.ttf            [0m[1;2m    31.30 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-BoldItalic-DzxPMmG6.ttf        [0m[1;2m    32.96 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_AMS-Regular-DMm9YOAa.woff           [0m[1;2m    33.51 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-Italic-3WenGoN9.ttf            [0m[1;2m    33.58 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-Bold-waoOVXN0.ttf              [0m[1;2m    51.33 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_Main-Regular-ypZvNtVU.ttf           [0m[1;2m    53.58 kB[0m
+[2mdist/[0m[2massets/[0m[32mCollapse-Bold-mgICk9-_.woff2              [0m[1;2m    59.14 kB[0m
+[2mdist/[0m[2massets/[0m[32mKaTeX_AMS-Regular-DRggAlZN.ttf            [0m[1;2m    63.63 kB[0m
+[2mdist/[0m[2massets/[0m[32mJetBrainsMono-Regular-CA-Os4ii.woff2      [0m[1;2m    92.38 kB[0m
+[2mdist/[0m[2massets/[0m[32mJetBrainsMono-Bold-CUogYd9I.woff2         [0m[1;2m    94.62 kB[0m
+[2mdist/[0m[2massets/[0m[32mJetBrainsMono-Italic-LIR7wr3B.woff2       [0m[1;2m    96.42 kB[0m
+[2mdist/[0m[2massets/[0m[32mcodicon-DjkITdqj.ttf                      [0m[1;2m   125.82 kB[0m
+[2mdist/[0m[2massets/[0m[35mindex-CJZmLVpt.css                        [0m[1;2m   312.46 kB[0m[2m │ gzip:    52.93 kB[0m
+[2mdist/[0m[2massets/[0m[36mindex-BdeUTGYx.js                         [0m[33;1m28,729.96 kB[0m[2m │ gzip: 6,187.95 kB[0m
+
+[32m✓ built in 6.09s[39m
+[33m[plugin builtin:vite-reporter] [33;1m
+(!) Some chunks are larger than 25000 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[0m[39m
+
+  dist/electron-main.mjs  485.5kb
+
+⚡ Done in 48ms
+bundled /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/dist/electron-main.mjs
+
+  dist/electron-preload.js  16.7kb
+
+⚡ Done in 3ms
+bundled /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/dist/electron-preload.js
+[stage-native-deps] staged node-pty (darwin-arm64) -> /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/dist/node_modules/node-pty
+
+> hermes@0.17.0 postbuild
+> node scripts/assert-dist-built.mjs
+
+✓ assert-dist-built: dist/index.html + assets present
+
+> hermes@0.17.0 prebuilder
+> node scripts/patch-electron-builder-mac-binary.mjs
+
+[patch-electron-builder] applied macOS Electron binary fallback
+
+> hermes@0.17.0 builder
+> cross-env NODE_OPTIONS=--max-old-space-size=16384 node scripts/run-electron-builder.mjs --dir
+
+  [34m•[39m electron-builder  [34mversion[39m=26.15.3 [34mos[39m=25.5.0
+  [34m•[39m loaded configuration  [34mfile[39m=package.json ("build" field)
+  [34m•[39m @electron/rebuild already used by electron-builder, please consider to remove excess dependency from devDependencies
+
+To ensure your native dependencies are always matched electron version, simply add script `"postinstall": "electron-builder install-app-deps" to your `package.json`
+  [34m•[39m packageManager not detected by file, falling back to environment detection  [34mresolvedPackageManager[39m=npm [34mdetected[39m=/Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop
+  [34m•[39m detected workspace root for project using lock file  [34mpm[39m=npm [34mconfig[39m=undefined [34mresolved[39m=/Users/Jeff/Smith/.hermes/hermes-agent [34mprojectDir[39m=/Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop
+[before-pack] removed stale unpacked dir before staging: /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/release/mac-arm64
+[stage-native-deps] staged node-pty (darwin-arm64) -> /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/dist/node_modules/node-pty
+[before-pack] re-staged node-pty for target darwin-arm64
+  [34m•[39m packaging       [34mplatform[39m=darwin [34march[39m=arm64 [34melectron[39m=40.10.2 [34mappOutDir[39m=release/mac-arm64
+  [34m•[39m using custom unpacked Electron distribution  [34melectronDist[39m=/Users/Jeff/Smith/.hermes/hermes-agent/node_modules/electron/dist
+  [34m•[39m copying unpacked Electron  [34msource[39m=/Users/Jeff/Smith/.hermes/hermes-agent/node_modules/electron/dist/Electron.app [34mdestination[39m=/Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/release/mac-arm64/Electron.app
+  [33m•[39m skipped macOS application code signing  [33mreason[39m=, see https://electron.build/code-signing [33mCSC_IDENTITY_AUTO_DISCOVERY[39m=false
+Skipping notarization: APPLE_API_KEY, APPLE_API_KEY_ID, and APPLE_API_ISSUER are not fully configured.
+/Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/release/mac-arm64/Hermes.app: replacing existing signature
+→ Installing desktop workspace dependencies...
+→ Building desktop packaged app...
+  → No Developer ID configured; ad-hoc signing this local rebuild (CSC_IDENTITY_AUTO_DISCOVERY=false)
+✓ Desktop packaged app ready: /Users/Jeff/Smith/.hermes/hermes-agent/apps/desktop/release/mac-arm64/Hermes.app/Contents/MacOS/Hermes (not launching; --build-only)
+  ✓ Desktop app up to date
+
+✓ Code updated!
+  ✓ Model catalog cache refreshed from checkout
+
+→ Syncing bundled skills...
+  + 1 new: hermes-desktop-plugins
+  ↑ 2 updated: humanizer, hermes-agent
+  ~ 3 user-modified (kept)
+    → see them: hermes skills list-modified  (diff/reset to resume updates)
+
+→ Syncing bundled skills to all profiles...
+  default: +1 new, ↑1 updated, ~2 user-modified
+  smith: ~3 user-modified
+
+→ Checking configuration for new options...
+  ✓ Configuration is up to date
+
+✓ Update complete!
+→ Stopping gateway (PID 15975) — draining in-flight runs (up to 180s)...
+✓ Service restarted
+
+  ✓ Restarted ai.hermes.gateway-8af49564
+
+Tip: You can now select a provider and model:
+  hermes model              # Select provider and model
+
+=== hermes update started 2026-07-18T10:45:55 ===
+⚕ Updating Hermes Agent...
+
+→ Fetching updates...
+✓ Already up to date!
+
+=== hermes update started 2026-07-18T10:46:03 ===
+⚕ Updating Hermes Agent...
+
+→ Fetching updates...
+✓ Already up to date!

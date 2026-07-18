@@ -1,0 +1,1337 @@
+- generic
+  - banner
+    - generic
+      - link "Google News" [ref=e17]
+        - StaticText "News"
+      - search
+        - combobox "Search for topics, locations & sources" [expanded=false, ref=e18]: Japan news today
+          - StaticText "Japan news today"
+        - button "Advanced search" [ref=e1]
+          - image
+        - button "Clear search" [ref=e2]
+          - image
+        - button "Search" [ref=e3]
+          - image
+      - generic
+        - button "Help" [expanded=false, ref=e32]
+      - generic
+        - button "Settings" [expanded=false, ref=e33]
+      - generic
+        - button "Google apps" [expanded=false, ref=e34]
+          - StaticText "  "
+        - link "Sign in" [ref=e4]
+          - StaticText "  "
+          - StaticText "Sign in"
+    - navigation
+      - tablist
+        - tab "Home" [ref=e5]
+          - tab "Home" [ref=e19]
+        - tab "For you" [ref=e6]
+          - tab "For you" [ref=e20]
+        - tab "Following" [ref=e7]
+          - tab "Following" [ref=e21]
+        - tab "U.S." [ref=e8]
+          - tab "U.S." [ref=e22]
+        - tab "World" [ref=e9]
+          - tab "World" [ref=e23]
+        - tab "Local" [ref=e10]
+          - tab "Local" [ref=e24]
+        - tab "Business" [ref=e11]
+          - tab "Business" [ref=e25]
+        - tab "Technology" [ref=e12]
+          - tab "Technology" [ref=e26]
+        - tab "Entertainment" [ref=e13]
+          - tab "Entertainment" [ref=e27]
+        - tab "Sports" [ref=e14]
+          - tab "Sports" [ref=e28]
+        - tab "Science" [ref=e15]
+          - tab "Science" [ref=e29]
+        - tab "Health" [ref=e16]
+          - tab "Health" [ref=e30]
+  - generic
+    - main
+      - generic
+        - generic
+          - generic
+            - generic
+              - StaticText "Japan Today"
+              - generic
+                - button "More - Japan enshrines male-only succession for shrinking imperial family" [expanded=false, ref=e136]
+            - link "Japan enshrines male-only succession for shrinking imperial family - Japan Today - 19 hours ago - By Mari Yamaguchi" [ref=e36]
+              - StaticText "Japan enshrines male-only succession for shrinking imperial family"
+        - time
+          - StaticText "19 hours ago"
+        - separator
+        - StaticText "By Mari Yamaguchi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Japan outlaws flag desecration; opponents say it's threat to free speech" [expanded=false, ref=e137]
+              - link "Japan outlaws flag desecration; opponents say it's threat to free speech - Japan Today - 21 hours ago - By Mari Yamaguchi" [ref=e37]
+                - StaticText "Japan outlaws flag desecration; opponents say it's threat to free speech"
+          - time
+            - StaticText "21 hours ago"
+          - separator
+          - StaticText "By Mari Yamaguchi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Burger King Japan goes viral for its new Big Mouth Dirty, but is it really worth the hype?" [expanded=false, ref=e138]
+              - link "Burger King Japan goes viral for its new Big Mouth Dirty, but is it really worth the hype? - Japan Today - Yesterday - By Oona Mcgee" [ref=e38]
+                - StaticText "Burger King Japan goes viral for its new Big Mouth Dirty, but is it really worth the hype?"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Oona Mcgee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Trump uses prime time address to nation to once again raise doubts about past elections" [expanded=false, ref=e139]
+              - link "Trump uses prime time address to nation to once again raise doubts about past elections - Japan Today - Yesterday" [ref=e39]
+                - StaticText "Trump uses prime time address to nation to once again raise doubts about past elections"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Deer population in Nara Park hits record high" [expanded=false, ref=e140]
+              - link "Deer population in Nara Park hits record high - Japan Today - Yesterday" [ref=e40]
+                - StaticText "Deer population in Nara Park hits record high"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - UK nationalises struggling British Steel" [expanded=false, ref=e141]
+              - link "UK nationalises struggling British Steel - Japan Today - Yesterday" [ref=e41]
+                - StaticText "UK nationalises struggling British Steel"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Kane 'gutted' after England crashes out of World Cup" [expanded=false, ref=e142]
+              - link "Kane 'gutted' after England crashes out of World Cup - Japan Today - 2 days ago" [ref=e42]
+                - StaticText "Kane 'gutted' after England crashes out of World Cup"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - NFL boss eyes Japan among 10 new nations for regular-season games" [expanded=false, ref=e143]
+              - link "NFL boss eyes Japan among 10 new nations for regular-season games - Japan Today - 8 hours ago" [ref=e43]
+                - StaticText "NFL boss eyes Japan among 10 new nations for regular-season games"
+          - time
+            - StaticText "8 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "MacRumors"
+                - generic
+                  - button "More - Apple Raises iPhone Prices in Japan" [expanded=false, ref=e144]
+              - link "Apple Raises iPhone Prices in Japan - MacRumors - 8 hours ago - By Joe Rossignol" [ref=e44]
+                - StaticText "Apple Raises iPhone Prices in Japan"
+          - time
+            - StaticText "8 hours ago"
+          - separator
+          - StaticText "By Joe Rossignol"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan Times"
+                - generic
+                  - button "More - Parliament extends current session through July 25" [expanded=false, ref=e145]
+              - link "Parliament extends current session through July 25 - The Japan Times - 19 hours ago" [ref=e45]
+                - StaticText "Parliament extends current session through July 25"
+          - time
+            - StaticText "19 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Munk School of Global Affairs & Public Policy"
+                - generic
+                  - button "More - Event Report: Religion and Politics in Japan Today: New Perspectives from Grassroots Level Activists" [expanded=false, ref=e146]
+              - link "Event Report: Religion and Politics in Japan Today: New Perspectives from Grassroots Level Activists - Munk School of Global Affairs &amp; Public Policy - 2 days ago" [ref=e46]
+                - StaticText "Event Report: Religion and Politics in Japan Today: New Perspectives from Grassroots Level Activists"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "USA Today"
+                - generic
+                  - button "More - Trump says 'Islamic Republic of Japan' fired missiles at US ship" [expanded=false, ref=e147]
+              - link "Trump says 'Islamic Republic of Japan' fired missiles at US ship - USA Today - 9 days ago - By Drew Pittock" [ref=e47]
+                - StaticText "Trump says 'Islamic Republic of Japan' fired missiles at US ship"
+          - time
+            - StaticText "9 days ago"
+          - separator
+          - StaticText "By Drew Pittock"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "India Today"
+                - generic
+                  - button "More - India to blame for Bullet Train project delay? Govt junks Japan ex-minister's claim" [expanded=false, ref=e148]
+              - link "India to blame for Bullet Train project delay? Govt junks Japan ex-minister's claim - India Today - 17 hours ago" [ref=e48]
+                - StaticText "India to blame for Bullet Train project delay? Govt junks Japan ex-minister's claim"
+          - time
+            - StaticText "17 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - A powerful 7.2 magnitude earthquake strikes off northern Japan. No tsunami warning is triggered" [expanded=false, ref=e149]
+              - link "A powerful 7.2 magnitude earthquake strikes off northern Japan. No tsunami warning is triggered - AP News - Jun 25 - By Mari Yamaguchi" [ref=e49]
+                - StaticText "A powerful 7.2 magnitude earthquake strikes off northern Japan. No tsunami warning is triggered"
+          - time
+            - StaticText "Jun 25"
+          - separator
+          - StaticText "By Mari Yamaguchi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "nhk.or.jp"
+                - generic
+                  - button "More - Nvidia CEO expresses gratitude for Sega's early support" [expanded=false, ref=e150]
+              - link "Nvidia CEO expresses gratitude for Sega's early support - nhk.or.jp - Yesterday" [ref=e50]
+                - StaticText "Nvidia CEO expresses gratitude for Sega's early support"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Hindustan Times"
+                - generic
+                  - button "More - 'Sheer recklessness': Ex-Japan minister slams India for delays in bullet train project, MEA hits back | India News" [expanded=false, ref=e151]
+              - link "'Sheer recklessness': Ex-Japan minister slams India for delays in bullet train project, MEA hits back | India News - Hindustan Times - 15 hours ago - By Rezaul Hasan Laskar" [ref=e51]
+                - StaticText "'Sheer recklessness': Ex-Japan minister slams India for delays in bullet train project, MEA hits back | India News"
+          - time
+            - StaticText "15 hours ago"
+          - separator
+          - StaticText "By Rezaul Hasan Laskar"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Today in BC"
+                - generic
+                  - button "More - Kimberley hosts Japanese musicians at Matsuri Music Festival" [expanded=false, ref=e152]
+              - link "Kimberley hosts Japanese musicians at Matsuri Music Festival - Today in BC - Yesterday" [ref=e52]
+                - StaticText "Kimberley hosts Japanese musicians at Matsuri Music Festival"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC News"
+                - generic
+                  - button "More - From The Sports Desk: Japan, Germany and Netherlands eliminated in roller-coaster day" [expanded=false, ref=e153]
+              - link "From The Sports Desk: Japan, Germany and Netherlands eliminated in roller-coaster day - NBC News - Jun 30 - By David Hickey" [ref=e53]
+                - StaticText "From The Sports Desk: Japan, Germany and Netherlands eliminated in roller-coaster day"
+          - time
+            - StaticText "Jun 30"
+          - separator
+          - StaticText "By David Hickey"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Hiker needs to be rescued from Mount Fuji two times in two days" [expanded=false, ref=e154]
+              - link "Hiker needs to be rescued from Mount Fuji two times in two days - Japan Today - 3 days ago" [ref=e54]
+                - StaticText "Hiker needs to be rescued from Mount Fuji two times in two days"
+          - time
+            - StaticText "3 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - House Republicans' $95 billion Iran war package clears first hurdle" [expanded=false, ref=e155]
+              - link "House Republicans' $95 billion Iran war package clears first hurdle - Japan Today - Yesterday - By Lisa Mascaro" [ref=e55]
+                - StaticText "House Republicans' $95 billion Iran war package clears first hurdle"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Lisa Mascaro"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Wire by Kyodo News"
+                - generic
+                  - button "More - Over 10 injured as M7.2 quake hits northeastern Japan, traffic disrupted" [expanded=false, ref=e156]
+              - link "Over 10 injured as M7.2 quake hits northeastern Japan, traffic disrupted - Japan Wire by Kyodo News - Jun 26" [ref=e56]
+                - StaticText "Over 10 injured as M7.2 quake hits northeastern Japan, traffic disrupted"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - What are US and Japanese soldiers doing in the middle of the Australian bush?" [expanded=false, ref=e157]
+              - link "What are US and Japanese soldiers doing in the middle of the Australian bush? - BBC - Jun 30" [ref=e57]
+                - StaticText "What are US and Japanese soldiers doing in the middle of the Australian bush?"
+          - time
+            - StaticText "Jun 30"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Japan parliament cuts to disproportionately hit female lawmakers: estimate" [expanded=false, ref=e158]
+              - link "Japan parliament cuts to disproportionately hit female lawmakers: estimate - Japan Today - 12 days ago" [ref=e58]
+                - StaticText "Japan parliament cuts to disproportionately hit female lawmakers: estimate"
+          - time
+            - StaticText "12 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "SoraNews24"
+                - generic
+                  - button "More - McDonald’s Japan reveals new Pokémon collaboration range, covering McNuggets and lucky bags" [expanded=false, ref=e159]
+              - link "McDonald’s Japan reveals new Pokémon collaboration range, covering McNuggets and lucky bags - SoraNews24 - 8 days ago - By Oona Mcgee" [ref=e59]
+                - StaticText "McDonald’s Japan reveals new Pokémon collaboration range, covering McNuggets and lucky bags"
+          - time
+            - StaticText "8 days ago"
+          - separator
+          - StaticText "By Oona Mcgee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Free Malaysia Today"
+                - generic
+                  - button "More - Japan’s LDP warns of suspected collusion between activist investors and private equity" [expanded=false, ref=e160]
+              - link "Japan’s LDP warns of suspected collusion between activist investors and private equity - Free Malaysia Today - 20 hours ago" [ref=e60]
+                - StaticText "Japan’s LDP warns of suspected collusion between activist investors and private equity"
+          - time
+            - StaticText "20 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Wire by Kyodo News"
+                - generic
+                  - button "More - Japan weather agency warns typhoon to make landfall over weekend" [expanded=false, ref=e161]
+              - link "Japan weather agency warns typhoon to make landfall over weekend - Japan Wire by Kyodo News - Jun 26" [ref=e61]
+                - StaticText "Japan weather agency warns typhoon to make landfall over weekend"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Japan and Sweden both advance to knockout round after 1-1 draw" [expanded=false, ref=e162]
+              - link "Japan and Sweden both advance to knockout round after 1-1 draw - Japan Today - Jun 26" [ref=e62]
+                - StaticText "Japan and Sweden both advance to knockout round after 1-1 draw"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Magnitude 6.9 earthquake strikes northern Japan" [expanded=false, ref=e163]
+              - link "Magnitude 6.9 earthquake strikes northern Japan - Al Jazeera - Jun 25" [ref=e63]
+                - StaticText "Magnitude 6.9 earthquake strikes northern Japan"
+          - time
+            - StaticText "Jun 25"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan Times"
+                - generic
+                  - button "More - Magnitude 6.1 earthquake strikes off coast of Iwate" [expanded=false, ref=e164]
+              - link "Magnitude 6.1 earthquake strikes off coast of Iwate - The Japan Times - Jun 28" [ref=e64]
+                - StaticText "Magnitude 6.1 earthquake strikes off coast of Iwate"
+          - time
+            - StaticText "Jun 28"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Outbreak News Today"
+                - generic
+                  - button "More - Japan measles outbreak continues rise in 2026" [expanded=false, ref=e165]
+              - link "Japan measles outbreak continues rise in 2026 - Outbreak News Today - Apr 28 - By Robert Herriman" [ref=e65]
+                - StaticText "Japan measles outbreak continues rise in 2026"
+          - time
+            - StaticText "Apr 28"
+          - separator
+          - StaticText "By Robert Herriman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "upi.com"
+                - generic
+                  - button "More - China's rare-earth curbs squeeze Japanese manufacturers" [expanded=false, ref=e166]
+              - link "China's rare-earth curbs squeeze Japanese manufacturers - upi.com - Jun 22" [ref=e66]
+                - StaticText "China's rare-earth curbs squeeze Japanese manufacturers"
+          - time
+            - StaticText "Jun 22"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "RTL Today"
+                - generic
+                  - button "More - Nations Championship: Japan, France ready for tussle in steamy Tokyo" [expanded=false, ref=e167]
+              - link "Nations Championship: Japan, France ready for tussle in steamy Tokyo - RTL Today - Yesterday" [ref=e67]
+                - StaticText "Nations Championship: Japan, France ready for tussle in steamy Tokyo"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan Times"
+                - generic
+                  - button "More - Magnitude 7.2 quake hits northern Japan" [expanded=false, ref=e168]
+              - link "Magnitude 7.2 quake hits northern Japan - The Japan Times - Jun 25 - By Kanako Takahara & Jessica Speed" [ref=e68]
+                - StaticText "Magnitude 7.2 quake hits northern Japan"
+          - time
+            - StaticText "Jun 25"
+          - separator
+          - StaticText "By Kanako Takahara & Jessica Speed"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan News"
+                - generic
+                  - button "More - M5.8 Earthquake Hits Kanto Region in Japan; No Tsunami Expected (Update 2)" [expanded=false, ref=e169]
+              - link "M5.8 Earthquake Hits Kanto Region in Japan; No Tsunami Expected (Update 2) - The Japan News - Jun 26" [ref=e69]
+                - StaticText "M5.8 Earthquake Hits Kanto Region in Japan; No Tsunami Expected (Update 2)"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Salah scores as Egypt downs New Zealand 3-1" [expanded=false, ref=e170]
+              - link "Salah scores as Egypt downs New Zealand 3-1 - Japan Today - Jun 22 - By Anne M Peterson" [ref=e70]
+                - StaticText "Salah scores as Egypt downs New Zealand 3-1"
+          - time
+            - StaticText "Jun 22"
+          - separator
+          - StaticText "By Anne M Peterson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Map: 6.9-Magnitude Earthquake Shakes Japan" [expanded=false, ref=e171]
+              - link "Map: 6.9-Magnitude Earthquake Shakes Japan - The New York Times - Jun 26 - By William B. Davis, Bea Malsky & Madison D." [ref=e71]
+                - StaticText "Map: 6.9-Magnitude Earthquake Shakes Japan"
+          - time
+            - StaticText "Jun 26"
+          - separator
+          - StaticText "By William B. Davis, Bea Malsky & Madison D."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Outbreak News Today"
+                - generic
+                  - button "More - Measles cases in Japan top 500 cases" [expanded=false, ref=e172]
+              - link "Measles cases in Japan top 500 cases - Outbreak News Today - Jun 2 - By Robert Herriman" [ref=e72]
+                - StaticText "Measles cases in Japan top 500 cases"
+          - time
+            - StaticText "Jun 2"
+          - separator
+          - StaticText "By Robert Herriman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Japan visa fees quintuple in first increase since 1978" [expanded=false, ref=e173]
+              - link "Japan visa fees quintuple in first increase since 1978 - BBC - Jun 21 - By Kelly Ng" [ref=e73]
+                - StaticText "Japan visa fees quintuple in first increase since 1978"
+          - time
+            - StaticText "Jun 21"
+          - separator
+          - StaticText "By Kelly Ng"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 13 Seattle"
+                - generic
+                  - button "More - Venezuela earthquakes: Death toll tops 1,450 and continues to rise" [expanded=false, ref=e174]
+              - link "Venezuela earthquakes: Death toll tops 1,450 and continues to rise - FOX 13 Seattle - Jun 25 - By Jim Jensen" [ref=e74]
+                - StaticText "Venezuela earthquakes: Death toll tops 1,450 and continues to rise"
+          - time
+            - StaticText "Jun 25"
+          - separator
+          - StaticText "By Jim Jensen"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "nhk.or.jp"
+                - generic
+                  - button "More - Takaichi, Modi pledge stronger ties, economic cooperation | NHK WORLD-JAPAN News" [expanded=false, ref=e175]
+              - link "Takaichi, Modi pledge stronger ties, economic cooperation | NHK WORLD-JAPAN News - nhk.or.jp - 16 days ago" [ref=e75]
+                - StaticText "Takaichi, Modi pledge stronger ties, economic cooperation | NHK WORLD-JAPAN News"
+          - time
+            - StaticText "16 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Wire by Kyodo News"
+                - generic
+                  - button "More - BREAKING NEWS: Japan logs current account surplus of 4.68 tril. yen in March" [expanded=false, ref=e176]
+              - link "BREAKING NEWS: Japan logs current account surplus of 4.68 tril. yen in March - Japan Wire by Kyodo News - May 13" [ref=e76]
+                - StaticText "BREAKING NEWS: Japan logs current account surplus of 4.68 tril. yen in March"
+          - time
+            - StaticText "May 13"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - In Japan, life lessons in healthy eating" [expanded=false, ref=e177]
+              - link "In Japan, life lessons in healthy eating - CBS News - Jun 14 - By Adam Yamaguchi" [ref=e77]
+                - StaticText "In Japan, life lessons in healthy eating"
+          - time
+            - StaticText "Jun 14"
+          - separator
+          - StaticText "By Adam Yamaguchi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan News"
+                - generic
+                  - button "More - M5.1 Earthquake Shakes Kyushu, Southern Japan; No Tsunami Expected, Japanese Seismic Intensity of 4 Recorded" [expanded=false, ref=e178]
+              - link "M5.1 Earthquake Shakes Kyushu, Southern Japan; No Tsunami Expected, Japanese Seismic Intensity of 4 Recorded - The Japan News - 17 days ago" [ref=e78]
+                - StaticText "M5.1 Earthquake Shakes Kyushu, Southern Japan; No Tsunami Expected, Japanese Seismic Intensity of 4 Recorded"
+          - time
+            - StaticText "17 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "pacom.mil"
+                - generic
+                  - button "More - U.S., Australia, Japan begin Exercise Southern Jackaroo 2026" [expanded=false, ref=e179]
+              - link "U.S., Australia, Japan begin Exercise Southern Jackaroo 2026 - pacom.mil - Jun 3" [ref=e79]
+                - StaticText "U.S., Australia, Japan begin Exercise Southern Jackaroo 2026"
+          - time
+            - StaticText "Jun 3"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Yahoo"
+                - generic
+                  - button "More - Xi launched surprise attack on Japan’s new PM in row with Trump" [expanded=false, ref=e180]
+              - link "Xi launched surprise attack on Japan’s new PM in row with Trump - Yahoo - May 25 - By Allegra Mendelson" [ref=e80]
+                - StaticText "Xi launched surprise attack on Japan’s new PM in row with Trump"
+          - time
+            - StaticText "May 25"
+          - separator
+          - StaticText "By Allegra Mendelson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - 'My dream is broken': Japan visa rules put squeeze on foreign residents" [expanded=false, ref=e181]
+              - link "'My dream is broken': Japan visa rules put squeeze on foreign residents - Japan Today - 16 days ago - By Kyoko Hasegawa" [ref=e81]
+                - StaticText "'My dream is broken': Japan visa rules put squeeze on foreign residents"
+          - time
+            - StaticText "16 days ago"
+          - separator
+          - StaticText "By Kyoko Hasegawa"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan Times"
+                - generic
+                  - button "More - Strong earthquake jolts Yamanashi and Kanagawa amid landslide fears" [expanded=false, ref=e182]
+              - link "Strong earthquake jolts Yamanashi and Kanagawa amid landslide fears - The Japan Times - Jun 26 - By Jessica Speed" [ref=e82]
+                - StaticText "Strong earthquake jolts Yamanashi and Kanagawa amid landslide fears"
+          - time
+            - StaticText "Jun 26"
+          - separator
+          - StaticText "By Jessica Speed"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CHAT News Today"
+                - generic
+                  - button "More - Powerful 6.9-magnitude earthquake strikes off northern Japan. No tsunami warning" [expanded=false, ref=e183]
+              - link "Powerful 6.9-magnitude earthquake strikes off northern Japan. No tsunami warning - CHAT News Today - Jun 24" [ref=e83]
+                - StaticText "Powerful 6.9-magnitude earthquake strikes off northern Japan. No tsunami warning"
+          - time
+            - StaticText "Jun 24"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Foreign tourist arrested in Tochigi after drifting in museum parking lot" [expanded=false, ref=e184]
+              - link "Foreign tourist arrested in Tochigi after drifting in museum parking lot - Japan Today - Jun 23" [ref=e84]
+                - StaticText "Foreign tourist arrested in Tochigi after drifting in museum parking lot"
+          - time
+            - StaticText "Jun 23"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan News"
+                - generic
+                  - button "More - More Foreign Workers in Japan Being Hired as Bus Drivers After Residence System Change" [expanded=false, ref=e185]
+              - link "More Foreign Workers in Japan Being Hired as Bus Drivers After Residence System Change - The Japan News - Jun 26" [ref=e85]
+                - StaticText "More Foreign Workers in Japan Being Hired as Bus Drivers After Residence System Change"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "朝日新聞"
+                - generic
+                  - button "More - ‘Unusual’ pair of typhoons nears Japan, heavy rains feared" [expanded=false, ref=e186]
+              - link "‘Unusual’ pair of typhoons nears Japan, heavy rains feared - 朝日新聞 - Jun 26 - By Takahiro Takenouchi" [ref=e86]
+                - StaticText "‘Unusual’ pair of typhoons nears Japan, heavy rains feared"
+          - time
+            - StaticText "Jun 26"
+          - separator
+          - StaticText "By Takahiro Takenouchi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Japan foreigner entry visa fees to be hiked 5-fold to ¥15,000 from July" [expanded=false, ref=e187]
+              - link "Japan foreigner entry visa fees to be hiked 5-fold to ¥15,000 from July - Japan Today - Jun 20" [ref=e87]
+                - StaticText "Japan foreigner entry visa fees to be hiked 5-fold to ¥15,000 from July"
+          - time
+            - StaticText "Jun 20"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC News"
+                - generic
+                  - button "More - Auburn student’s family appeals for help a week after he went missing in Japan" [expanded=false, ref=e188]
+              - link "Auburn student’s family appeals for help a week after he went missing in Japan - NBC News - Jun 5 - By David K. Li" [ref=e88]
+                - StaticText "Auburn student’s family appeals for help a week after he went missing in Japan"
+          - time
+            - StaticText "Jun 5"
+          - separator
+          - StaticText "By David K. Li"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Outbreak News Today"
+                - generic
+                  - button "More - Japan reports 56 additional measles cases in past week, Tokyo total tops 100" [expanded=false, ref=e189]
+              - link "Japan reports 56 additional measles cases in past week, Tokyo total tops 100 - Outbreak News Today - Apr 21 - By Robert Herriman" [ref=e89]
+                - StaticText "Japan reports 56 additional measles cases in past week, Tokyo total tops 100"
+          - time
+            - StaticText "Apr 21"
+          - separator
+          - StaticText "By Robert Herriman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan News"
+                - generic
+                  - button "More - M7.2 Earthquake Hits Japan’s Aomori Prefecture; No Tsunami Warning Issued (Update1)" [expanded=false, ref=e190]
+              - link "M7.2 Earthquake Hits Japan’s Aomori Prefecture; No Tsunami Warning Issued (Update1) - The Japan News - Jun 25" [ref=e90]
+                - StaticText "M7.2 Earthquake Hits Japan’s Aomori Prefecture; No Tsunami Warning Issued (Update1)"
+          - time
+            - StaticText "Jun 25"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Japan rejects ‘new militarism’, says China is rapidly arming" [expanded=false, ref=e191]
+              - link "Japan rejects ‘new militarism’, says China is rapidly arming - Al Jazeera - May 31" [ref=e91]
+                - StaticText "Japan rejects ‘new militarism’, says China is rapidly arming"
+          - time
+            - StaticText "May 31"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan News"
+                - generic
+                  - button "More - Double Typhoons Mekkhala, Higos Moving toward Japan" [expanded=false, ref=e192]
+              - link "Double Typhoons Mekkhala, Higos Moving toward Japan - The Japan News - Jun 23" [ref=e92]
+                - StaticText "Double Typhoons Mekkhala, Higos Moving toward Japan"
+          - time
+            - StaticText "Jun 23"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "PR Newswire"
+                - generic
+                  - button "More - United Adds Nonstop Service to Sapporo, New Flight Between Chicago and Tokyo-Narita" [expanded=false, ref=e193]
+              - link "United Adds Nonstop Service to Sapporo, New Flight Between Chicago and Tokyo-Narita - PR Newswire - May 14" [ref=e93]
+                - StaticText "United Adds Nonstop Service to Sapporo, New Flight Between Chicago and Tokyo-Narita"
+          - time
+            - StaticText "May 14"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Japan's men told to clean up at home, not just World Cup" [expanded=false, ref=e194]
+              - link "Japan's men told to clean up at home, not just World Cup - Japan Today - Jun 20" [ref=e94]
+                - StaticText "Japan's men told to clean up at home, not just World Cup"
+          - time
+            - StaticText "Jun 20"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Missing Auburn University student in Japan found dead, mother says: \"Unimaginable loss\"" [expanded=false, ref=e195]
+              - link "Missing Auburn University student in Japan found dead, mother says: \"Unimaginable loss\" - CBS News - Jun 6 - By Kerry Breen" [ref=e95]
+                - StaticText "Missing Auburn University student in Japan found dead, mother says: \"Unimaginable loss\""
+          - time
+            - StaticText "Jun 6"
+          - separator
+          - StaticText "By Kerry Breen"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Henry M. Jackson School of International Studies"
+                - generic
+                  - button "More - TODAY ‘Positioning Japan in AI and Emerging Technologies’" [expanded=false, ref=e196]
+              - link "TODAY ‘Positioning Japan in AI and Emerging Technologies’ - The Henry M. Jackson School of International Studies - Apr 24" [ref=e96]
+                - StaticText "TODAY ‘Positioning Japan in AI and Emerging Technologies’"
+          - time
+            - StaticText "Apr 24"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "nhk.or.jp"
+                - generic
+                  - button "More - Japan assesses damage as Mekkhala moves offshore | NHK WORLD-JAPAN News" [expanded=false, ref=e197]
+              - link "Japan assesses damage as Mekkhala moves offshore | NHK WORLD-JAPAN News - nhk.or.jp - Jun 26" [ref=e97]
+                - StaticText "Japan assesses damage as Mekkhala moves offshore | NHK WORLD-JAPAN News"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Nissan launches all-new Kicks in Japan" [expanded=false, ref=e198]
+              - link "Nissan launches all-new Kicks in Japan - Japan Today - Jun 18" [ref=e98]
+                - StaticText "Nissan launches all-new Kicks in Japan"
+          - time
+            - StaticText "Jun 18"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Syracuse University Today"
+                - generic
+                  - button "More - Trump-Takaichi Summit: Expert Analysis on U.S.-Japan Relations" [expanded=false, ref=e199]
+              - link "Trump-Takaichi Summit: Expert Analysis on U.S.-Japan Relations - Syracuse University Today - Mar 20 - By Vanessa Marquette" [ref=e99]
+                - StaticText "Trump-Takaichi Summit: Expert Analysis on U.S.-Japan Relations"
+          - time
+            - StaticText "Mar 20"
+          - separator
+          - StaticText "By Vanessa Marquette"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Japan to set core English vocabulary list under new curriculum guidelines" [expanded=false, ref=e200]
+              - link "Japan to set core English vocabulary list under new curriculum guidelines - Japan Today - Jun 4" [ref=e100]
+                - StaticText "Japan to set core English vocabulary list under new curriculum guidelines"
+          - time
+            - StaticText "Jun 4"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan News"
+                - generic
+                  - button "More - 2 Typhoons Bring Heavy Rain to Multiple Prefectures in Japan" [expanded=false, ref=e201]
+              - link "2 Typhoons Bring Heavy Rain to Multiple Prefectures in Japan - The Japan News - Jun 27" [ref=e101]
+                - StaticText "2 Typhoons Bring Heavy Rain to Multiple Prefectures in Japan"
+          - time
+            - StaticText "Jun 27"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC News"
+                - generic
+                  - button "More - Auburn student goes missing in Japan; family fears he’s ‘emotionally distressed’" [expanded=false, ref=e202]
+              - link "Auburn student goes missing in Japan; family fears he’s ‘emotionally distressed’ - NBC News - Jun 3 - By David K. Li & Jean H. Lee" [ref=e102]
+                - StaticText "Auburn student goes missing in Japan; family fears he’s ‘emotionally distressed’"
+          - time
+            - StaticText "Jun 3"
+          - separator
+          - StaticText "By David K. Li & Jean H. Lee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Fire breaks out at Tokyo elementary school, injuring at least one" [expanded=false, ref=e203]
+              - link "Fire breaks out at Tokyo elementary school, injuring at least one - Japan Today - Jun 19" [ref=e103]
+                - StaticText "Fire breaks out at Tokyo elementary school, injuring at least one"
+          - time
+            - StaticText "Jun 19"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Reuters"
+                - generic
+                  - button "More - BOJ Deputy Governor Uchida's comments at news conference" [expanded=false, ref=e204]
+              - link "BOJ Deputy Governor Uchida's comments at news conference - Reuters - Jun 16" [ref=e104]
+                - StaticText "BOJ Deputy Governor Uchida's comments at news conference"
+          - time
+            - StaticText "Jun 16"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Japan ramping up defence is 'critical' to prevent war, Defence Minister Koizumi tells BBC" [expanded=false, ref=e205]
+              - link "Japan ramping up defence is 'critical' to prevent war, Defence Minister Koizumi tells BBC - BBC - Jun 17 - By Kurumi Mori" [ref=e105]
+                - StaticText "Japan ramping up defence is 'critical' to prevent war, Defence Minister Koizumi tells BBC"
+          - time
+            - StaticText "Jun 17"
+          - separator
+          - StaticText "By Kurumi Mori"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC News"
+                - generic
+                  - button "More - Bear attacks in Japan on the rise" [expanded=false, ref=e206]
+              - link "Bear attacks in Japan on the rise - NBC News - Jun 2" [ref=e106]
+                - StaticText "Bear attacks in Japan on the rise"
+          - time
+            - StaticText "Jun 2"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Anti-war protests rock Japan as PM Sanae Takaichi pushes for stronger defence" [expanded=false, ref=e207]
+              - link "Anti-war protests rock Japan as PM Sanae Takaichi pushes for stronger defence - BBC - May 7 - By Kurumi Mori" [ref=e107]
+                - StaticText "Anti-war protests rock Japan as PM Sanae Takaichi pushes for stronger defence"
+          - time
+            - StaticText "May 7"
+          - separator
+          - StaticText "By Kurumi Mori"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Microsoft Source"
+                - generic
+                  - button "More - Microsoft deepens its commitment to Japan with $10 billion investment in AI infrastructure, cybersecurity, and workforce" [expanded=false, ref=e208]
+              - link "Microsoft deepens its commitment to Japan with $10 billion investment in AI infrastructure, cybersecurity, and workforce - Microsoft Source - Apr 3" [ref=e108]
+                - StaticText "Microsoft deepens its commitment to Japan with $10 billion investment in AI infrastructure, cybersecurity, and workforce"
+          - time
+            - StaticText "Apr 3"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "India Today"
+                - generic
+                  - button "More - Powerful earthquake shook Japan minutes after Venezuela earthquake: What happened?" [expanded=false, ref=e209]
+              - link "Powerful earthquake shook Japan minutes after Venezuela earthquake: What happened? - India Today - Jun 25" [ref=e109]
+                - StaticText "Powerful earthquake shook Japan minutes after Venezuela earthquake: What happened?"
+          - time
+            - StaticText "Jun 25"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC News"
+                - generic
+                  - button "More - Body of missing Auburn University student found in Japan" [expanded=false, ref=e210]
+              - link "Body of missing Auburn University student found in Japan - NBC News - Jun 6 - By Mirna Alsharif" [ref=e110]
+                - StaticText "Body of missing Auburn University student found in Japan"
+          - time
+            - StaticText "Jun 6"
+          - separator
+          - StaticText "By Mirna Alsharif"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Bank of Japan hikes rate to 31-year high of 1%" [expanded=false, ref=e211]
+              - link "Bank of Japan hikes rate to 31-year high of 1% - Japan Today - Jun 16 - By Kyoko Hasegawa & Hiroshi Hiyama" [ref=e111]
+                - StaticText "Bank of Japan hikes rate to 31-year high of 1%"
+          - time
+            - StaticText "Jun 16"
+          - separator
+          - StaticText "By Kyoko Hasegawa & Hiroshi Hiyama"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Wire by Kyodo News"
+                - generic
+                  - button "More - Typhoon Jangmi churns along Japan's Pacific coast, leaves dozens hurt" [expanded=false, ref=e212]
+              - link "Typhoon Jangmi churns along Japan's Pacific coast, leaves dozens hurt - Japan Wire by Kyodo News - Jun 3" [ref=e112]
+                - StaticText "Typhoon Jangmi churns along Japan's Pacific coast, leaves dozens hurt"
+          - time
+            - StaticText "Jun 3"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Why Antiwar Protesters Are Rallying in Japan" [expanded=false, ref=e213]
+              - link "Why Antiwar Protesters Are Rallying in Japan - The New York Times - May 9 - By Kiuko Notoya & John Yoon" [ref=e113]
+                - StaticText "Why Antiwar Protesters Are Rallying in Japan"
+          - time
+            - StaticText "May 9"
+          - separator
+          - StaticText "By Kiuko Notoya & John Yoon"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC News - Breaking News, Latest News and Videos"
+                - generic
+                  - button "More - American missing in Japan found dead in mountainous area near Kyoto" [expanded=false, ref=e214]
+              - link "American missing in Japan found dead in mountainous area near Kyoto - ABC News - Breaking News, Latest News and Videos - Jun 7 - By Nadine El-Bawab" [ref=e114]
+                - StaticText "American missing in Japan found dead in mountainous area near Kyoto"
+          - time
+            - StaticText "Jun 7"
+          - separator
+          - StaticText "By Nadine El-Bawab"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Japan raids ice cream giants over price-fixing allegations" [expanded=false, ref=e215]
+              - link "Japan raids ice cream giants over price-fixing allegations - BBC - Jun 17 - By Osmond Chia" [ref=e115]
+                - StaticText "Japan raids ice cream giants over price-fixing allegations"
+          - time
+            - StaticText "Jun 17"
+          - separator
+          - StaticText "By Osmond Chia"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "upi.com"
+                - generic
+                  - button "More - Japan to launch prime minister-led National Intelligence Bureau" [expanded=false, ref=e216]
+              - link "Japan to launch prime minister-led National Intelligence Bureau - upi.com - May 7" [ref=e116]
+                - StaticText "Japan to launch prime minister-led National Intelligence Bureau"
+          - time
+            - StaticText "May 7"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Gulf News"
+                - generic
+                  - button "More - Strong 6.1 magnitude earthquake strikes off Japan's coast" [expanded=false, ref=e217]
+              - link "Strong 6.1 magnitude earthquake strikes off Japan's coast - Gulf News - 15 days ago - By Jay Hilotin" [ref=e117]
+                - StaticText "Strong 6.1 magnitude earthquake strikes off Japan's coast"
+          - time
+            - StaticText "15 days ago"
+          - separator
+          - StaticText "By Jay Hilotin"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan Times"
+                - generic
+                  - button "More - Japan to raise visa fees for foreign nationals in first revision in 48 years" [expanded=false, ref=e218]
+              - link "Japan to raise visa fees for foreign nationals in first revision in 48 years - The Japan Times - Jun 20" [ref=e118]
+                - StaticText "Japan to raise visa fees for foreign nationals in first revision in 48 years"
+          - time
+            - StaticText "Jun 20"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "PBS"
+                - generic
+                  - button "More - WATCH: Trump meets with Japanese Prime Minister Sanae Takaichi at the White House" [expanded=false, ref=e219]
+              - link "WATCH: Trump meets with Japanese Prime Minister Sanae Takaichi at the White House - PBS - Mar 19 - By Michelle L. Price" [ref=e119]
+                - StaticText "WATCH: Trump meets with Japanese Prime Minister Sanae Takaichi at the White House"
+          - time
+            - StaticText "Mar 19"
+          - separator
+          - StaticText "By Michelle L. Price"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Today"
+                - generic
+                  - button "More - Tropical storm batters Japan, cuts power to 60,000 homes" [expanded=false, ref=e220]
+              - link "Tropical storm batters Japan, cuts power to 60,000 homes - Japan Today - Jun 3" [ref=e120]
+                - StaticText "Tropical storm batters Japan, cuts power to 60,000 homes"
+          - time
+            - StaticText "Jun 3"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Guardian"
+                - generic
+                  - button "More - Japan sees largest protest in support of pacifist constitution as PM Takaichi pushes revisions" [expanded=false, ref=e221]
+              - link "Japan sees largest protest in support of pacifist constitution as PM Takaichi pushes revisions - The Guardian - May 4 - By Justin Mccurry" [ref=e121]
+                - StaticText "Japan sees largest protest in support of pacifist constitution as PM Takaichi pushes revisions"
+          - time
+            - StaticText "May 4"
+          - separator
+          - StaticText "By Justin Mccurry"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "TradingView"
+                - generic
+                  - button "More - Top 3 reasons Japan’s Nikkei 225 Index is falling today" [expanded=false, ref=e222]
+              - link "Top 3 reasons Japan’s Nikkei 225 Index is falling today - TradingView - Jun 7" [ref=e122]
+                - StaticText "Top 3 reasons Japan’s Nikkei 225 Index is falling today"
+          - time
+            - StaticText "Jun 7"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "nhk.or.jp"
+                - generic
+                  - button "More - Heavy rain hits Kyushu region of southwestern Japan | NHK WORLD-JAPAN News" [expanded=false, ref=e223]
+              - link "Heavy rain hits Kyushu region of southwestern Japan | NHK WORLD-JAPAN News - nhk.or.jp - Jun 24" [ref=e123]
+                - StaticText "Heavy rain hits Kyushu region of southwestern Japan | NHK WORLD-JAPAN News"
+          - time
+            - StaticText "Jun 24"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan News"
+                - generic
+                  - button "More - Typhoon Mekkhala May Approach Japan on Friday, Saturday" [expanded=false, ref=e224]
+              - link "Typhoon Mekkhala May Approach Japan on Friday, Saturday - The Japan News - Jun 24" [ref=e124]
+                - StaticText "Typhoon Mekkhala May Approach Japan on Friday, Saturday"
+          - time
+            - StaticText "Jun 24"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan News"
+                - generic
+                  - button "More - M5.6 Earthquake Hits Japan’s Fuji Five Lakes Area in Yamanashi Prefecture; No Tsunami Warning Issued" [expanded=false, ref=e225]
+              - link "M5.6 Earthquake Hits Japan’s Fuji Five Lakes Area in Yamanashi Prefecture; No Tsunami Warning Issued - The Japan News - Jun 26" [ref=e125]
+                - StaticText "M5.6 Earthquake Hits Japan’s Fuji Five Lakes Area in Yamanashi Prefecture; No Tsunami Warning Issued"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Japan Wire by Kyodo News"
+                - generic
+                  - button "More - Japan FY 2025 current account surplus hits record high for 3rd year in row" [expanded=false, ref=e226]
+              - link "Japan FY 2025 current account surplus hits record high for 3rd year in row - Japan Wire by Kyodo News - May 13" [ref=e126]
+                - StaticText "Japan FY 2025 current account surplus hits record high for 3rd year in row"
+          - time
+            - StaticText "May 13"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CTV News"
+                - generic
+                  - button "More - CTV News in Tokyo: Canadian business leaders went to Japan to make deals. Here’s what they’re bringing home." [expanded=false, ref=e227]
+              - link "CTV News in Tokyo: Canadian business leaders went to Japan to make deals. Here’s what they’re bringing home. - CTV News - Jun 25 - By Judy Trinh" [ref=e127]
+                - StaticText "CTV News in Tokyo: Canadian business leaders went to Japan to make deals. Here’s what they’re bringing home."
+          - time
+            - StaticText "Jun 25"
+          - separator
+          - StaticText "By Judy Trinh"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Japan raises interest rate to highest for 31 years" [expanded=false, ref=e228]
+              - link "Japan raises interest rate to highest for 31 years - BBC - Jun 16 - By Peter Hoskins" [ref=e128]
+                - StaticText "Japan raises interest rate to highest for 31 years"
+          - time
+            - StaticText "Jun 16"
+          - separator
+          - StaticText "By Peter Hoskins"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Outbreak News Today"
+                - generic
+                  - button "More - Japan measles cases near 200 in first 3 months of 2026" [expanded=false, ref=e229]
+              - link "Japan measles cases near 200 in first 3 months of 2026 - Outbreak News Today - Apr 8 - By Robert Herriman" [ref=e129]
+                - StaticText "Japan measles cases near 200 in first 3 months of 2026"
+          - time
+            - StaticText "Apr 8"
+          - separator
+          - StaticText "By Robert Herriman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "wvtm"
+                - generic
+                  - button "More - Body of missing American student found in Japan by search team" [expanded=false, ref=e230]
+              - link "Body of missing American student found in Japan by search team - wvtm - Jun 8" [ref=e130]
+                - StaticText "Body of missing American student found in Japan by search team"
+          - time
+            - StaticText "Jun 8"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Royal House of the Netherlands"
+                - generic
+                  - button "More - State visit by the Emperor of Japan - programme" [expanded=false, ref=e231]
+              - link "State visit by the Emperor of Japan - programme - Royal House of the Netherlands - Jun 2" [ref=e131]
+                - StaticText "State visit by the Emperor of Japan - programme"
+          - time
+            - StaticText "Jun 2"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Japan News"
+                - generic
+                  - button "More - Typhoon Mekkhala Heads North-Northeast from Okinawa Pref.; Typhoon Higos Moves Closer to Japan" [expanded=false, ref=e232]
+              - link "Typhoon Mekkhala Heads North-Northeast from Okinawa Pref.; Typhoon Higos Moves Closer to Japan - The Japan News - Jun 26" [ref=e132]
+                - StaticText "Typhoon Mekkhala Heads North-Northeast from Okinawa Pref.; Typhoon Higos Moves Closer to Japan"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC News"
+                - generic
+                  - button "More - 2 arrested after person breaks into Punch the monkey’s enclosure in Japan, zoo says" [expanded=false, ref=e233]
+              - link "2 arrested after person breaks into Punch the monkey’s enclosure in Japan, zoo says - NBC News - May 18 - By Rebecca Cohen" [ref=e133]
+                - StaticText "2 arrested after person breaks into Punch the monkey’s enclosure in Japan, zoo says"
+          - time
+            - StaticText "May 18"
+          - separator
+          - StaticText "By Rebecca Cohen"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - Japan's Takaichi tries to reaffirm alliance with Trump as he seeks help securing Strait of Hormuz" [expanded=false, ref=e234]
+              - link "Japan's Takaichi tries to reaffirm alliance with Trump as he seeks help securing Strait of Hormuz - AP News - Mar 19 - By Michelle L. Price & Didi Tang" [ref=e134]
+                - StaticText "Japan's Takaichi tries to reaffirm alliance with Trump as he seeks help securing Strait of Hormuz"
+          - time
+            - StaticText "Mar 19"
+          - separator
+          - StaticText "By Michelle L. Price & Didi Tang"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Taipei Times"
+                - generic
+                  - button "More - Japan ‘mystery illness’ not new: CDC" [expanded=false, ref=e235]
+              - link "Japan ‘mystery illness’ not new: CDC - Taipei Times - May 24" [ref=e135]
+                - StaticText "Japan ‘mystery illness’ not new: CDC"
+      - complementary
+        - generic
+          - heading "Japan news today" [level=2, ref=e31]
+          - button "Save this search - Japan news today" [ref=e35]

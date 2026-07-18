@@ -1,0 +1,568 @@
+- generic
+  - link "Skip to content" [ref=e1]
+  - banner
+    - generic
+      - figure
+        - link "TechCrunch Desktop Logo" [ref=e15]
+          - StaticText "TechCrunch Desktop Logo"
+      - generic
+        - navigation "Redesign: Primary Navigation" [ref=e54]
+          - list
+            - listitem [level=1]
+              - link "Latest" [ref=e176]
+            - listitem [level=1]
+              - link "Startups" [ref=e177]
+            - listitem [level=1]
+              - link "Venture" [ref=e178]
+            - listitem [level=1]
+              - link "Apple" [ref=e179]
+            - listitem [level=1]
+              - link "Security" [ref=e180]
+            - listitem [level=1]
+              - link "AI" [ref=e181]
+            - listitem [level=1]
+              - link "Apps" [ref=e182]
+            - listitem [level=1]
+              - link "Disrupt 2026" [ref=e183]
+        - navigation "Redesign: Secondary Navigation" [ref=e55]
+          - list
+            - listitem [level=1]
+              - link "Events" [ref=e184]
+            - listitem [level=1]
+              - link "Podcasts" [ref=e185]
+            - listitem [level=1]
+              - link "Newsletters" [ref=e186]
+      - button "Site Search Toggle" [expanded=false, ref=e11]
+        - StaticText "Site Search Toggle"
+      - button "Mega Menu Toggle" [expanded=false, ref=e12]
+        - StaticText "Mega Menu Toggle"
+  - StaticText "Advertisement"
+  - main
+    - heading "AI" [level=1, ref=e2]
+    - paragraph
+      - StaticText "News coverage on artificial intelligence and machine learning tech, the companies building them, and the ethical issues AI raises today. This encompasses "
+      - link "generative AI" [ref=e5]
+      - StaticText ", including large language models, text-to-image and text-to-video models; speech recognition and generation; and predictive analytics."
+    - separator
+    - button "HEADLINES ONLY" [ref=e3]
+      - StaticText "HEADLINES ONLY"
+    - list
+      - listitem [level=1]
+        - generic
+          - figure
+          - link "VENTURE" [ref=e56]
+          - heading "Neil Rimer thinks the AI money is coming back out" [level=3, ref=e16]
+            - link "Neil Rimer thinks the AI money is coming back out" [ref=e57]
+          - list
+            - listitem [level=2]
+              - link "Connie Loizos" [ref=e134]
+          - time
+            - StaticText "- "
+            - StaticText "2 hours ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Vertu Alphafold"
+          - link "HARDWARE" [ref=e58]
+          - heading "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs" [level=3, ref=e17]
+            - link "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs" [ref=e59]
+          - list
+            - listitem [level=2]
+              - link "Jagmeet Singh" [ref=e135]
+          - time
+            - StaticText "- "
+            - StaticText "8 hours ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "dollar signs, data center"
+          - link "STARTUPS" [ref=e60]
+          - heading "Databricks hits $188B valuation, extending its run as AI’s favorite second act" [level=3, ref=e18]
+            - link "Databricks hits $188B valuation, extending its run as AI’s favorite second act" [ref=e61]
+          - list
+            - listitem [level=2]
+              - link "Julie Bort" [ref=e136]
+          - time
+            - StaticText "- "
+            - StaticText "9 hours ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Flat Design Smiley Face with zipped lips"
+          - StaticText "IN BRIEF"
+          - heading "The Zoom hack that says, ‘Don’t record me’" [level=3, ref=e19]
+            - link "The Zoom hack that says, ‘Don’t record me’" [ref=e62]
+          - list
+            - listitem [level=2]
+              - link "Connie Loizos" [ref=e137]
+          - time
+            - StaticText "- "
+            - StaticText "10 hours ago"
+      - listitem [level=1]
+        - generic
+          - figure
+          - link "ROBOTICS" [ref=e63]
+          - heading "Agility Robotics plants its flag in Tesla’s backyard" [level=3, ref=e20]
+            - link "Agility Robotics plants its flag in Tesla’s backyard" [ref=e64]
+          - list
+            - listitem [level=2]
+              - link "Tim Fernholz" [ref=e138]
+          - time
+            - StaticText "- "
+            - StaticText "11 hours ago"
+      - listitem [level=1]
+        - generic
+          - figure
+          - link "HARDWARE" [ref=e65]
+          - heading "AI-driven memory crunch jolts India’s smartphone market" [level=3, ref=e21]
+            - link "AI-driven memory crunch jolts India’s smartphone market" [ref=e66]
+          - list
+            - listitem [level=2]
+              - link "Jagmeet Singh" [ref=e139]
+          - time
+            - StaticText "- "
+            - StaticText "11 hours ago"
+      - listitem [level=1]
+        - generic
+          - figure
+          - link "AI" [ref=e67]
+          - heading "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans" [level=3, ref=e22]
+            - link "How Apple’s big lawsuit could disrupt OpenAI’s IPO plans" [ref=e68]
+          - list
+            - listitem [level=2]
+              - link "Theresa Loconsolo" [ref=e140]
+          - time
+            - StaticText "- "
+            - StaticText "13 hours ago"
+          - StaticText "-"
+          - StaticText "33 min"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Patreon logo with colorful background"
+          - link "AI" [ref=e69]
+          - heading "Patreon stops asking AI bots not to scrape — and starts blocking them" [level=3, ref=e23]
+            - link "Patreon stops asking AI bots not to scrape — and starts blocking them" [ref=e70]
+          - list
+            - listitem [level=2]
+              - link "Sarah Perez" [ref=e141]
+          - time
+            - StaticText "- "
+            - StaticText "16 hours ago"
+      - listitem [level=1]
+        - generic
+          - figure
+          - link "AI" [ref=e71]
+          - heading "Apple’s lawsuit couldn’t come at a worse time for OpenAI" [level=3, ref=e24]
+            - link "Apple’s lawsuit couldn’t come at a worse time for OpenAI" [ref=e72]
+          - list
+            - listitem [level=2]
+              - link "Anthony Ha" [ref=e142]
+              - StaticText ","
+            - listitem [level=2]
+              - link "Theresa Loconsolo" [ref=e143]
+              - StaticText ","
+            - listitem [level=2]
+              - link "Kirsten Korosec" [ref=e144]
+              - StaticText ","
+            - listitem [level=2]
+              - link "Sean O'Kane" [ref=e145]
+          - time
+            - StaticText "- "
+            - StaticText "17 hours ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "General Compute Billboard"
+          - link "AI" [ref=e73]
+          - heading "Why the first GPU financiers are turning to inference chips in a $400 million deal" [level=3, ref=e25]
+            - link "Why the first GPU financiers are turning to inference chips in a $400 million deal" [ref=e74]
+          - list
+            - listitem [level=2]
+              - link "Tim Fernholz" [ref=e146]
+          - time
+            - StaticText "- "
+            - StaticText "19 hours ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Google Vids"
+          - link "AI" [ref=e75]
+          - heading "Google Vids now lets you star in your own AI videos" [level=3, ref=e26]
+            - link "Google Vids now lets you star in your own AI videos" [ref=e76]
+          - list
+            - listitem [level=2]
+              - link "Sarah Perez" [ref=e147]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+          - link "GAMING" [ref=e77]
+          - heading "Roblox launches an AI-powered game-creation feature in its mobile app" [level=3, ref=e27]
+            - link "Roblox launches an AI-powered game-creation feature in its mobile app" [ref=e78]
+          - list
+            - listitem [level=2]
+              - link "Lauren Forristal" [ref=e148]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Andrew Dai, co-founder and CEO of Elorian, during a Build Mode podcast interview discussing visual AI, raising a $55 million seed round, and the future of AI."
+          - link "STARTUPS" [ref=e79]
+          - heading "The founder who left Google and secured a $300M pre-seed valuation in months" [level=3, ref=e28]
+            - link "The founder who left Google and secured a $300M pre-seed valuation in months" [ref=e80]
+          - list
+            - listitem [level=2]
+              - link "Maggie Nye" [ref=e149]
+              - StaticText ","
+            - listitem [level=2]
+              - link "Isabelle Johannessen" [ref=e150]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+          - StaticText "-"
+          - StaticText "34 min"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "In this photo illustration, the Google Meet AI Mode logo is seen displayed on a smartphone screen."
+          - link "APPS" [ref=e81]
+          - heading "Google’s AI Mode now lets you link and interact with select apps" [level=3, ref=e29]
+            - link "Google’s AI Mode now lets you link and interact with select apps" [ref=e82]
+          - list
+            - listitem [level=2]
+              - link "Aisha Malik" [ref=e151]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "DoorDash bike delivery person in San Francisco"
+          - link "COMMERCE" [ref=e83]
+          - heading "Yes, you can now order DoorDash from the command line" [level=3, ref=e30]
+            - link "Yes, you can now order DoorDash from the command line" [ref=e84]
+          - list
+            - listitem [level=2]
+              - link "Sarah Perez" [ref=e152]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "green basketball with ChatGPT logo"
+          - link "AI" [ref=e85]
+          - heading "Why is OpenAI selling a ChatGPT basketball?" [level=3, ref=e31]
+            - link "Why is OpenAI selling a ChatGPT basketball?" [ref=e86]
+          - list
+            - listitem [level=2]
+              - link "Amanda Silberling" [ref=e153]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Andrew Dai, co-founder and CEO of Elorian, during a Build Mode podcast interview discussing visual AI, raising a $55 million seed round, and the future of AI."
+          - link "SECURITY" [ref=e87]
+          - heading "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product" [level=3, ref=e32]
+            - link "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product" [ref=e88]
+          - list
+            - listitem [level=2]
+              - link "Maggie Nye" [ref=e154]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Alexandre LeBrun (AMI Labs CEO) JP Lee (SBVA CEO)"
+          - link "AI" [ref=e89]
+          - heading "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’" [level=3, ref=e33]
+            - link "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’" [ref=e90]
+          - list
+            - listitem [level=2]
+              - link "Kate Park" [ref=e155]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Information for MoonshotAI'sKimi chatbot arranged on a computer."
+          - StaticText "IN BRIEF"
+          - heading "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8" [level=3, ref=e34]
+            - link "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8" [ref=e91]
+          - list
+            - listitem [level=2]
+              - link "Dominic-Madori Davis" [ref=e156]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Andrew Dai, co-founder and CEO of Elorian, during a Build Mode podcast interview discussing visual AI, raising a $55 million seed round, and the future of AI."
+          - link "STARTUPS" [ref=e92]
+          - heading "How Elorian AI pulled off a $300M pre-seed valuation" [level=3, ref=e35]
+            - link "How Elorian AI pulled off a $300M pre-seed valuation" [ref=e93]
+          - list
+            - listitem [level=2]
+              - link "Maggie Nye" [ref=e157]
+              - StaticText ","
+            - listitem [level=2]
+              - link "Isabelle Johannessen" [ref=e158]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Tim Cook"
+          - StaticText "IN BRIEF"
+          - heading "Apple Intelligence approved for launch in China with Alibaba and Baidu" [level=3, ref=e36]
+            - link "Apple Intelligence approved for launch in China with Alibaba and Baidu" [ref=e94]
+          - list
+            - listitem [level=2]
+              - link "Sarah Perez" [ref=e159]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+          - link "STARTUPS" [ref=e95]
+          - heading "Applied Computing wants to give oil and gas operators an AI model for the entire plant" [level=3, ref=e37]
+            - link "Applied Computing wants to give oil and gas operators an AI model for the entire plant" [ref=e96]
+          - list
+            - listitem [level=2]
+              - link "Ram Iyer" [ref=e160]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+          - link "AI" [ref=e97]
+          - heading "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic" [level=3, ref=e38]
+            - link "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic" [ref=e98]
+          - list
+            - listitem [level=2]
+              - link "Lucas Ropek" [ref=e161]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "OpenAI x Work Louder graphic"
+          - link "AI" [ref=e99]
+          - heading "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex" [level=3, ref=e39]
+            - link "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex" [ref=e100]
+          - list
+            - listitem [level=2]
+              - link "Lucas Ropek" [ref=e162]
+          - time
+            - StaticText "- "
+            - StaticText "2 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "SpaceX Starship V3 on launch pad"
+          - link "SPACE" [ref=e101]
+          - heading "SpaceX falls to $135 IPO price ahead of Starship launch" [level=3, ref=e40]
+            - link "SpaceX falls to $135 IPO price ahead of Starship launch" [ref=e102]
+          - list
+            - listitem [level=2]
+              - link "Sean O'Kane" [ref=e163]
+          - time
+            - StaticText "- "
+            - StaticText "3 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Mira Murati, Thinking Machines Lab"
+          - link "AI" [ref=e103]
+          - heading "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling" [level=3, ref=e41]
+            - link "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling" [ref=e104]
+          - list
+            - listitem [level=2]
+              - link "Connie Loizos" [ref=e164]
+          - time
+            - StaticText "- "
+            - StaticText "3 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Suno logo on smartphone screen"
+          - StaticText "IN BRIEF"
+          - heading "Hack suggests AI music generator Suno scraped YouTube for training data" [level=3, ref=e42]
+            - link "Hack suggests AI music generator Suno scraped YouTube for training data" [ref=e105]
+          - list
+            - listitem [level=2]
+              - link "Amanda Silberling" [ref=e165]
+          - time
+            - StaticText "- "
+            - StaticText "3 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+          - link "COMMERCE" [ref=e106]
+          - heading "Whatnot acquires Shaped to power real-time live shopping recommendations" [level=3, ref=e43]
+            - link "Whatnot acquires Shaped to power real-time live shopping recommendations" [ref=e107]
+          - list
+            - listitem [level=2]
+              - link "Lauren Forristal" [ref=e166]
+          - time
+            - StaticText "- "
+            - StaticText "3 days ago"
+      - listitem [level=1]
+        - generic
+          - figure
+            - image "Windows logo blurred on a blue background."
+          - StaticText "IN BRIEF"
+          - heading "Microsoft patches record number of security vulnerabilities, citing its use of AI" [level=3, ref=e44]
+            - link "Microsoft patches record number of security vulnerabilities, citing its use of AI" [ref=e108]
+          - list
+            - listitem [level=2]
+              - link "Zack Whittaker" [ref=e167]
+          - time
+            - StaticText "- "
+            - StaticText "3 days ago"
+      - listitem [level=1]
+        - link "STARTUPS" [ref=e109]
+        - heading "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise" [level=3, ref=e45]
+          - link "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise" [ref=e110]
+        - list
+          - listitem [level=2]
+            - link "Theresa Loconsolo" [ref=e168]
+        - time
+          - StaticText "- "
+          - StaticText "3 days ago"
+    - navigation "Pagination" [ref=e4]
+      - link "Next" [ref=e6]
+        - StaticText "Next"
+        - image
+    - StaticText "Advertisement"
+    - image "Event Logo"
+    - StaticText "November 4"
+    - StaticText "Boston"
+    - paragraph
+      - LineBreak "\n"
+      - StaticText "Last chance to save up to $190 on TechCrunch Founder Summit. Join 1,000+ founders and VCs at all stages for real-world scaling insights and connections that move the needle."
+      - LineBreak "\n"
+      - LineBreak "\n"
+      - strong
+        - StaticText "Savings end June 26, 11:59 p.m. PT"
+      - StaticText "."
+    - link "REGISTER NOW" [ref=e7]
+      - strong
+        - StaticText "REGISTER NOW"
+        - image
+    - generic
+      - generic
+        - heading "Most Popular" [level=2, ref=e13]
+        - image
+      - list
+        - listitem [level=1]
+          - generic
+            - heading "Tesla driver in fatal Texas crash pressed accelerator 100%, NTSB confirms " [level=3, ref=e111]
+              - paragraph
+                - link "Tesla driver in fatal Texas crash pressed accelerator 100%, NTSB confirms" [ref=e169]
+        - listitem [level=1]
+          - generic
+            - heading "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex " [level=3, ref=e112]
+              - paragraph
+                - link "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex" [ref=e170]
+        - listitem [level=1]
+          - generic
+            - heading "OpenAI’s first hardware device is reportedly a screenless speaker that can move " [level=3, ref=e113]
+              - paragraph
+                - link "OpenAI’s first hardware device is reportedly a screenless speaker that can move" [ref=e171]
+        - listitem [level=1]
+          - generic
+            - heading "Anthropic’s newest ad is creeping people out " [level=3, ref=e114]
+              - paragraph
+                - link "Anthropic’s newest ad is creeping people out" [ref=e172]
+        - listitem [level=1]
+          - generic
+            - heading "Satya Nadella has issued a shocking warning to companies using AI " [level=3, ref=e115]
+              - paragraph
+                - link "Satya Nadella has issued a shocking warning to companies using AI" [ref=e173]
+        - listitem [level=1]
+          - generic
+            - heading "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI " [level=3, ref=e116]
+              - paragraph
+                - link "The wildest allegations in Apple’s trade secrets lawsuit against OpenAI" [ref=e174]
+        - listitem [level=1]
+          - generic
+            - heading "Anthropic starts localizing Claude pricing for India, its biggest market after the US " [level=3, ref=e117]
+              - paragraph
+                - link "Anthropic starts localizing Claude pricing for India, its biggest market after the US" [ref=e175]
+    - StaticText "Advertisement"
+  - contentinfo
+    - StaticText "Advertisement"
+    - generic
+      - figure
+        - link "TechCrunch Logo" [ref=e14]
+          - image "TechCrunch Logo"
+      - list
+        - listitem [level=1]
+          - link "X" [ref=e46]
+        - listitem [level=1]
+          - link "LinkedIn" [ref=e47]
+        - listitem [level=1]
+          - link "Facebook" [ref=e48]
+        - listitem [level=1]
+          - link "Instagram" [ref=e49]
+        - listitem [level=1]
+          - link "youTube" [ref=e50]
+        - listitem [level=1]
+          - link "Mastodon" [ref=e51]
+        - listitem [level=1]
+          - link "Threads" [ref=e52]
+        - listitem [level=1]
+          - link "Bluesky" [ref=e53]
+      - navigation "Footer – About: Col1" [ref=e8]
+        - list
+          - listitem [level=1]
+            - link "TechCrunch" [ref=e118]
+          - listitem [level=1]
+            - link "Staff" [ref=e119]
+          - listitem [level=1]
+            - link "Contact Us" [ref=e120]
+          - listitem [level=1]
+            - link "Advertise" [ref=e121]
+          - listitem [level=1]
+            - link "Crunchboard Jobs" [ref=e122]
+          - listitem [level=1]
+            - link "Site Map" [ref=e123]
+      - navigation "Footer – Legal: Col2" [ref=e9]
+        - list
+          - listitem [level=1]
+            - link "Terms of Service" [ref=e124]
+          - listitem [level=1]
+            - link "Privacy Policy" [ref=e125]
+          - listitem [level=1]
+            - link "RSS Terms of Use" [ref=e126]
+      - navigation "Footer – Trending Topics: Col3" [ref=e10]
+        - list
+          - listitem [level=1]
+            - link "OpenAI vs Apple" [ref=e127]
+          - listitem [level=1]
+            - link "Nous Research" [ref=e128]
+          - listitem [level=1]
+            - link "Space Data Centers" [ref=e129]
+          - listitem [level=1]
+            - link "Staya Nadella" [ref=e130]
+          - listitem [level=1]
+            - link "SpaceX Starship" [ref=e131]
+          - listitem [level=1]
+            - link "Tech Layoffs" [ref=e132]
+          - listitem [level=1]
+            - link "ChatGPT" [ref=e133]

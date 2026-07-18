@@ -445,6 +445,10 @@
       1779286310000000000,
       706
     ],
+    "hermes-desktop-plugins/SKILL.md": [
+      1784346186210205660,
+      6888
+    ],
     "mcp/DESCRIPTION.md": [
       1779286310000000000,
       216
@@ -634,8 +638,8 @@
       10131
     ],
     "creative/humanizer/SKILL.md": [
-      1779286310000000000,
-      30025
+      1784346186210015993,
+      34463
     ],
     "creative/p5js/SKILL.md": [
       1779286310000000000,
@@ -1478,7 +1482,7 @@
       "skill_name": "kanban-worker",
       "category": "devops",
       "frontmatter_name": "kanban-worker",
-      "description": "Pitfalls, examples, and edge cases for Hermes Kanban work...",
+      "description": "",
       "platforms": [
         "linux",
         "macos",
@@ -1689,6 +1693,23 @@
       "frontmatter_name": "healthcheck",
       "description": "Track water and sleep with JSON file storage",
       "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "hermes-desktop-plugins",
+      "category": "hermes-desktop-plugins",
+      "frontmatter_name": "hermes-desktop-plugins",
+      "description": "Write desktop app plugins that add UI panes and commands.",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
       "conditions": {
         "fallback_for_toolsets": [],
         "requires_toolsets": [],

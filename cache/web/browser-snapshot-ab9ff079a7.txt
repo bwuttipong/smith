@@ -1,0 +1,711 @@
+- generic
+  - navigation
+    - link "Kimi AI" [ref=e1]
+    - link "Features" [ref=e2]
+    - link "API" [ref=e3]
+    - link "App" [ref=e4]
+    - link "Pricing" [ref=e5]
+    - link "How It Works" [ref=e6]
+    - link "GitHub" [ref=e7]
+    - link "Try Kimi K2" [ref=e8]
+  - generic
+    - StaticText "🚀 "
+    - link "Kimi K2.6 Now Available" [ref=e9]
+    - StaticText " - The latest evolution: 300-Agent Swarm, 262K context, open source MIT"
+  - generic
+    - generic
+      - generic
+        - StaticText "OPEN SOURCE · AGENTIC INTELLIGENCE · JULY 2025"
+      - heading "Hello, Kimi K2" [level=1, ref=e15]
+        - StaticText "Hello,"
+        - StaticText "Kimi K2"
+      - paragraph
+        - StaticText "Kimi K2 is Moonshot AI's "
+        - strong
+          - StaticText "original trillion-parameter open-source frontier model"
+        - StaticText " — a Mixture-of-Experts architecture with 32B active parameters, 128K context, and an agentic-first design built explicitly for coding, reasoning, and autonomous tool-use workflows. Released July 2025. Modified MIT License."
+      - link "Try Kimi K2 Free" [ref=e16]
+      - link "Weights on HuggingFace" [ref=e17]
+    - StaticText "1T"
+    - StaticText "PARAMETERS"
+    - StaticText "32B"
+    - StaticText "ACTIVE / TOKEN"
+    - StaticText "128K"
+    - StaticText "CONTEXT"
+    - StaticText "15.5T"
+    - StaticText "TRAINING TOKENS"
+    - StaticText "MIT"
+    - StaticText "LICENSE"
+    - insertion
+      - Iframe "Advertisement" [ref=e50]
+    - StaticText "01 — WHAT IS KIMI K2"
+    - heading "The Open-Source Model That Changed the Frontier" [level=2, ref=e10]
+    - paragraph
+      - StaticText "Kimi K2 is Moonshot AI's "
+      - strong
+        - StaticText "state-of-the-art Mixture-of-Experts language model"
+      - StaticText ", released in July 2025 under a Modified MIT License. With one trillion total parameters and 32 billion activated per token, it became the most capable open-source agentic model available at release — distinguished not by scale alone, but by Moonshot's deliberate focus on autonomous, tool-using workflows over static benchmark performance."
+    - paragraph
+      - StaticText "What made K2's release historically significant was a rare combination: "
+      - strong
+        - StaticText "frontier benchmark performance"
+      - StaticText " across coding, reasoning, and knowledge tasks; "
+      - strong
+        - StaticText "deep native tool-use capability"
+      - StaticText " built through post-training on synthetic agentic scenarios; and "
+      - strong
+        - StaticText "full commercially usable open weights"
+      - StaticText ". Prior to K2, models at this capability level existed exclusively behind closed vendor APIs. K2 made frontier-class agentic intelligence genuinely accessible."
+    - paragraph
+      - StaticText "K2 ships in two variants: "
+      - strong
+        - StaticText "K2-Base"
+      - StaticText " - the raw pre-trained model for researchers and builders who want fine-tuning control; and "
+      - strong
+        - StaticText "K2-Instruct"
+      - StaticText " — the post-trained model ready for conversational and agentic use out of the box. Both sets of weights are on HuggingFace in block-fp8 format."
+    - list
+      - listitem [level=1]
+        - StaticText "→"
+        - strong
+          - StaticText "1T total, 32B active per token"
+        - StaticText "- MoE efficiency at trillion-parameter scale"
+      - listitem [level=1]
+        - StaticText "→"
+        - strong
+          - StaticText "384 expert networks"
+        - StaticText "- 8 specialist + 1 shared expert activated per token"
+      - listitem [level=1]
+        - StaticText "→"
+        - strong
+          - StaticText "61 layers"
+        - StaticText "- 1 dense standardization layer + 60 MoE layers"
+      - listitem [level=1]
+        - StaticText "→"
+        - strong
+          - StaticText "MuonClip optimizer"
+        - StaticText "- zero training instability across 15.5T tokens"
+      - listitem [level=1]
+        - StaticText "→"
+        - strong
+          - StaticText "128K context window"
+        - StaticText "- ~96,000 words per session"
+      - listitem [level=1]
+        - StaticText "→"
+        - strong
+          - StaticText "Modified MIT License"
+        - StaticText "- commercial use permitted for most deployments"
+    - generic
+      - StaticText "KIMI K2 · JULY 2025"
+      - generic
+        - StaticText "Open"
+        - LineBreak "\n"
+        - StaticText "Agentic"
+        - LineBreak "\n"
+        - StaticText "Intelligence"
+      - StaticText "The original trillion-parameter open-source frontier. Built for coding, reasoning, and autonomous tool-use workflows at 32B active parameter efficiency."
+      - StaticText "65.8%"
+      - StaticText "SWE-BENCH"
+      - StaticText "80%"
+      - StaticText "Τ²-BENCH"
+      - StaticText "5×"
+      - StaticText "CHEAPER"
+    - generic
+      - StaticText "02 — MOE ARCHITECTURE"
+      - heading "Mixture-of-Experts: Why 32B Active Feels Like 1T" [level=2, ref=e18]
+      - paragraph
+        - StaticText "Kimi K2's Mixture-of-Experts architecture is the engineering foundation that makes the model simultaneously powerful and practical to deploy. Rather than activating all one trillion parameters for every token — which would make inference cost-prohibitive — K2 uses "
+        - strong
+          - StaticText "sparse activation"
+        - StaticText ": only 32 billion parameters engage for any given token."
+      - paragraph
+        - StaticText "The architecture contains "
+        - strong
+          - StaticText "384 specialized expert networks"
+        - StaticText " organized across 61 layers: one dense standardization layer at the base followed by 60 MoE layers for hierarchical processing. For each token, K2's routing mechanism selects exactly "
+        - strong
+          - StaticText "8 specialist experts plus one shared expert"
+        - StaticText ". The shared expert ensures universal knowledge access; the 8 selected experts bring task-specific capabilities. This fine-grained routing — 384 experts with 9 activated — provides more specialization depth than coarser designs (e.g., 8 total experts with 2 activated)."
+      - paragraph
+        - StaticText "The practical result: K2 delivers the knowledge capacity and representational depth of a trillion-parameter system at the "
+        - strong
+          - StaticText "inference cost of a ~32B dense model"
+        - StaticText ". API token costs are dramatically lower than the headline parameter count suggests, and self-hosted deployments need far less GPU memory than a truly dense 1T model would require. K2's MoE architecture is comparable in principle to DeepSeek-V3 but distinct in routing granularity, expert dimensionality, and the MuonClip optimizer that stabilizes training at this scale."
+      - list
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— 64 attention heads via Multi-Head Latent Attention (MLA)"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+            - StaticText "Expert intermediate dimension: 2,048"
+          - StaticText "— per MoE expert network"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— proven performance at large model scale"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— broad multilingual, code, and scientific coverage"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— efficient storage and inference"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— reduces KV cache size at longer context lengths"
+      - generic
+        - StaticText "⚙ MOE ARCHITECTURE"
+        - generic
+          - StaticText "384"
+          - LineBreak "\n"
+          - StaticText "Experts."
+          - LineBreak "\n"
+          - StaticText "32B Active."
+        - StaticText "8 specialist + 1 shared expert activated per token. The knowledge capacity of 1 trillion parameters at the inference cost of 32 billion."
+        - StaticText "384"
+        - StaticText "TOTAL EXPERTS"
+        - StaticText "9"
+        - StaticText "ACTIVE PER TOKEN"
+        - StaticText "61"
+        - StaticText "LAYERS"
+    - generic
+      - StaticText "03 — MUONCLIP OPTIMIZER"
+      - heading "MuonClip: Stable Training at Unprecedented Scale" [level=2, ref=e19]
+      - paragraph
+        - StaticText "Training a 1T-parameter MoE model is a genuinely hard engineering challenge. MoE architectures at this scale are prone to "
+        - strong
+          - StaticText "attention logit explosion"
+        - StaticText " — where values in the attention layers grow unbounded during training, causing catastrophic loss spikes and requiring expensive checkpoint rollbacks. Historically, training runs at this scale have required multiple interventions to recover from instability events."
+      - paragraph
+        - StaticText "Moonshot AI developed "
+        - strong
+          - StaticText "MuonClip"
+        - StaticText " specifically to solve this problem. MuonClip applies the Muon optimizer — an improvement over standard Adam that applies the Nesterov momentum update in the spectral domain for better gradient conditioning — at unprecedented trillion-parameter scale. The key innovation is a novel "
+        - strong
+          - StaticText "qk-clip technique"
+        - StaticText ": rather than using standard gradient clipping after the fact, MuonClip directly adjusts the query and key projection matrices in the attention mechanism to prevent logit explosion before it begins."
+      - paragraph
+        - StaticText "The outcome was a complete pre-training run of 1 trillion parameters on "
+        - strong
+          - StaticText "15.5 trillion tokens with zero training instability"
+        - StaticText ". This is an unusual achievement — most large MoE training runs encounter instability events requiring restart from checkpoint. Moonshot's ability to complete a clean 15.5T token run at this scale is a significant engineering validation of MuonClip's design, and it carries forward to K2.5 and K2.6 with the same stability characteristics."
+      - list
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— Nesterov momentum in the spectral domain, superior gradient conditioning vs Adam"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— proactively prevents attention logit explosion in MoE layers"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— clean run across all 15.5T tokens, no loss spike interventions"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— unprecedented use of Muon-family optimizers"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— MuonClip is consistent from K2 to K2.6"
+      - generic
+        - StaticText "🛠 MUONCLIP OPTIMIZER"
+        - generic
+          - StaticText "Zero"
+          - LineBreak "\n"
+          - StaticText "Instability."
+          - LineBreak "\n"
+          - StaticText "15.5T Tokens."
+        - StaticText "A custom optimizer that solved attention logit explosion at trillion-parameter MoE scale, enabling a clean pre-training run with no interventions."
+        - StaticText "15.5T"
+        - StaticText "TOKENS TRAINED"
+        - StaticText "0"
+        - StaticText "INSTABILITIES"
+        - StaticText "QK-Clip"
+        - StaticText "NOVEL TECHNIQUE"
+    - generic
+      - StaticText "04 — K2 THINKING · NOV 2025"
+      - heading "K2 Thinking: Where Reasoning Meets Tool Use" [level=2, ref=e20]
+      - paragraph
+        - StaticText "Kimi K2 Thinking is the post-trained reasoning variant released in "
+        - strong
+          - StaticText "November 2025"
+        - StaticText ", four months after the original K2. It introduced a capability that had not been achieved reliably at production scale before: "
+        - strong
+          - StaticText "seamlessly interleaved chain-of-thought reasoning with native tool calls"
+        - StaticText "."
+      - paragraph
+        - StaticText "In practice, this means K2 Thinking can reason about a problem, determine that it needs external data or a code execution result, call the appropriate tool, receive the result, reason about the result, decide on a follow-up action, call another tool, and continue this reasoning-action chain for "
+        - strong
+          - StaticText "up to 200–300 sequential steps"
+        - StaticText " without losing track of the overall task. Earlier reasoning models would either complete their full thinking trace before acting, or execute tool calls without integrated reasoning between them — not both simultaneously."
+      - paragraph
+        - StaticText "K2 Thinking also introduced "
+        - strong
+          - StaticText "Quantization-Aware Training (QAT)"
+        - StaticText " at the post-training stage. By incorporating INT4 weight-only quantization to MoE components during training — rather than applying it as post-hoc compression — K2 Thinking achieves a "
+        - strong
+          - StaticText "~2× generation speed improvement"
+        - StaticText " over FP16 inference without accuracy degradation. All K2 Thinking benchmark results are measured under INT4 precision, making them directly comparable to production deployment characteristics."
+      - list
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— reason, act, observe, reason, act — seamlessly"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— without losing task coherence"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— ~2× speed vs FP16, no accuracy degradation"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+            - StaticText "Recommended temperature: 1.0"
+          - StaticText "— for optimal reasoning chain quality"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+          - StaticText "— access full chain-of-thought trace for debugging"
+        - listitem [level=1]
+          - StaticText "→"
+          - strong
+            - StaticText "Partners: Tencent CodeBuddy, Genspark"
+          - StaticText "— production deployments built on K2 Thinking"
+      - StaticText "API ACCESS"
+      - paragraph
+        - StaticText "K2 Thinking API: "
+        - code
+          - StaticText "platform.moonshot.ai"
+        - StaticText ", model: "
+        - code
+          - StaticText "\"kimi-k2-thinking\""
+        - StaticText ". Recommended "
+        - code
+          - StaticText "temperature=1.0"
+        - StaticText ". Access the reasoning trace via "
+        - code
+          - StaticText "response.choices[0].message.reasoning_content"
+        - StaticText ". Tool-calling API follows OpenAI's function-calling schema exactly."
+      - generic
+        - StaticText "🧠 K2 THINKING"
+        - generic
+          - StaticText "Reason."
+          - LineBreak "\n"
+          - StaticText "Act."
+          - LineBreak "\n"
+          - StaticText "Observe."
+        - StaticText "Interleaved chain-of-thought and tool use — up to 300 sequential steps. Think, call a tool, see the result, think, call another tool. Seamlessly."
+        - StaticText "300"
+        - StaticText "TOOL CALLS"
+        - StaticText "2×"
+        - StaticText "SPEED (INT4)"
+        - StaticText "INT4"
+        - StaticText "NATIVE QAT"
+    - generic
+      - StaticText "05 — KEY FEATURES"
+      - heading "Key Features of Kimi K2" [level=2, ref=e21]
+      - paragraph
+        - StaticText "Kimi K2 was engineered specifically for agentic intelligence — designed to perform reliably in the multi-step, tool-using, context-heavy workflows that real AI applications require, not just to score well on static benchmarks."
+      - generic
+        - StaticText "// 01"
+        - heading "Native Agentic Intelligence" [level=3, ref=e51]
+        - paragraph
+          - StaticText "Post-trained extensively on synthetic agentic scenarios — multi-step tool use, autonomous problem-solving, error recovery, and long-horizon task execution. K2 was trained to understand when and how to invoke tools in complex workflows, not just to understand tool schemas abstractly."
+        - StaticText "Built for autonomous work"
+      - generic
+        - StaticText "// 02"
+        - heading "OpenAI + Anthropic Compatible API" [level=3, ref=e52]
+        - paragraph
+          - StaticText "K2's API at platform.moonshot.ai is compatible with both the OpenAI and Anthropic SDK standards. Any integration using OpenAI's messages format can switch to K2 by changing two lines: base_url and model name. The Anthropic-compatible endpoint scales temperature by 0.6 for existing Claude integrations."
+        - StaticText "Zero refactoring to migrate"
+      - generic
+        - StaticText "// 03"
+        - heading "Open Weights — Modified MIT" [level=3, ref=e53]
+        - paragraph
+          - StaticText "Both K2-Base and K2-Instruct model weights are available on HuggingFace under the Modified MIT License. Commercial use is permitted. The sole restriction applies only to deployments serving more than 100M monthly active users or generating more than $20M/month in revenue — an irrelevant threshold for the vast majority of developers and companies."
+        - StaticText "Commercial use permitted"
+      - generic
+        - StaticText "// 04"
+        - heading "128K Context Window" [level=3, ref=e54]
+        - paragraph
+          - StaticText "K2 ships with a 128K token context — approximately 96,000 words or 192 pages of text in a single session. Sufficient for large codebases, extensive document analysis, and multi-hour agentic sessions. The K2.5 and K2.6 successors extended this to 256K and 262K respectively for longer-horizon workflows."
+        - StaticText "~96,000 words per session"
+      - generic
+        - StaticText "// 05"
+        - heading "Flexible Multi-Path Deployment" [level=3, ref=e55]
+        - paragraph
+          - StaticText "Access via kimi.com for zero-setup; platform.moonshot.ai API for production integration; HuggingFace weights for self-hosted deployment with vLLM, SGLang, KTransformers, or TensorRT-LLM; or "
+          - link "Kimi Code CLI" [ref=e82]
+          - StaticText " for terminal-native coding workflows. Every path uses the same underlying model."
+        - StaticText "API · Cloud · Self-hosted · CLI"
+      - generic
+        - StaticText "// 06"
+        - heading "Cost-Efficient at Frontier Performance" [level=3, ref=e56]
+        - paragraph
+          - StaticText "MoE sparse activation means 32B active parameters despite 1T total. Running K2's full benchmark evaluation suite costs approximately $0.27 — versus $0.48 for GPT-5.2 and $1.14 for Claude Opus 4.5. K2 is estimated to be 5× cheaper than leading closed-source models at comparable performance levels."
+        - StaticText "5× cheaper than Claude Opus 4.5"
+    - generic
+      - StaticText "06 — BENCHMARKS"
+      - heading "Kimi K2 Benchmark Results" [level=2, ref=e22]
+      - paragraph
+        - StaticText "Released in July 2025, Kimi K2 immediately became one of the highest-performing open-source models on coding, agentic, and reasoning benchmarks. The results below reflect K2 Instruct performance at release, sourced from Moonshot AI's official technical report and independent evaluations."
+      - table
+        - rowgroup
+          - row
+            - columnheader "BENCHMARK" [ref=e183]
+            - columnheader "CATEGORY" [ref=e184]
+            - columnheader "K2 SCORE" [ref=e185]
+            - columnheader "VISUAL" [ref=e186]
+        - row
+          - cell "SWE-bench Verified" [ref=e83]
+          - cell "Coding" [ref=e84]
+          - cell "65.8%" [ref=e85]
+          - cell
+        - row
+          - cell "MMLU-Pro" [ref=e86]
+          - cell "Knowledge" [ref=e87]
+          - cell "73.3%" [ref=e88]
+          - cell
+        - row
+          - cell "GPQA Diamond" [ref=e89]
+          - cell "Science" [ref=e90]
+          - cell "71.0%" [ref=e91]
+          - cell
+        - row
+          - cell "MATH-500" [ref=e92]
+          - cell "Maths" [ref=e93]
+          - cell "90.6%" [ref=e94]
+          - cell
+        - row
+          - cell "HumanEval" [ref=e95]
+          - cell "Coding" [ref=e96]
+          - cell "88.2%" [ref=e97]
+          - cell
+        - row
+          - cell "LiveCodeBench" [ref=e98]
+          - cell "Coding" [ref=e99]
+          - cell "57.6%" [ref=e100]
+          - cell
+        - row
+          - cell "AIME 2025" [ref=e101]
+          - cell "Maths" [ref=e102]
+          - cell "66.2%" [ref=e103]
+          - cell
+        - row
+          - cell "tau2-bench (Airline)" [ref=e104]
+          - cell "Agentic" [ref=e105]
+          - cell "80.0%" [ref=e106]
+          - cell
+      - paragraph
+        - StaticText "Scores from Moonshot AI K2 technical report (July 2025). K2 Thinking results reported under INT4 precision. For comparison: K2.5 (Jan 2026) reached 76.8% SWE-bench; K2.6 (Apr 2026) reached 80.2%. See "
+        - link "K2.6 page" [ref=e57]
+        - StaticText " for current frontier numbers."
+      - StaticText "K2 VS K2.5 VS K2.6 AT A GLANCE"
+      - paragraph
+        - StaticText "K2 (Jul 2025): SWE-bench 65.8%, 128K context, text only, no Agent Swarm. K2.5 (Jan 2026): 76.8% SWE-bench, 256K context, native vision (MoonViT), Agent Swarm 100 agents. K2.6 (Apr 2026): 80.2% SWE-bench, 262K context, Agent Swarm 300 agents / 4,000 steps. "
+        - strong
+          - StaticText "K2 remains a strong cost-efficient production model"
+        - StaticText " when K2.5/K2.6 capability isn't needed."
+    - generic
+      - StaticText "07 — HOW TO USE KIMI K2"
+      - heading "How to Use Kimi K2" [level=2, ref=e23]
+      - paragraph
+        - StaticText "Four deployment paths cover every use case from no-setup exploration to fully self-hosted infrastructure."
+      - generic
+        - StaticText "// PATH 01"
+        - heading "kimi.com — No Setup Required" [level=3, ref=e58]
+        - paragraph
+          - StaticText "Access K2 through "
+          - link "kimi.com" [ref=e107]
+          - StaticText " (web) or the Kimi App (iOS/Android). Instant mode for fast responses; Thinking mode for deep reasoning chains. No API key or infrastructure needed. Free tier available with basic quotas; paid plans unlock higher usage."
+        - StaticText "Free · No setup"
+      - generic
+        - StaticText "// PATH 02"
+        - heading "Official API — Production" [level=3, ref=e59]
+        - paragraph
+          - StaticText "Get your key at "
+          - link "platform.moonshot.ai" [ref=e108]
+          - StaticText ". Use "
+          - code
+          - StaticText " or "
+          - code
+          - StaticText " with any OpenAI SDK. Fully OpenAI and Anthropic-compatible. Token-based billing, separate from app membership."
+        - StaticText "OpenAI-compatible · Production"
+      - generic
+        - StaticText "// PATH 03"
+        - heading "Open Weights — Self-Host" [level=3, ref=e60]
+        - paragraph
+          - StaticText "Download K2-Base or K2-Instruct from "
+          - link "HuggingFace" [ref=e109]
+          - StaticText " (block-fp8 format). Deploy with vLLM, SGLang, KTransformers, or TensorRT-LLM. Run the Kimi Vendor Verifier before production traffic. Best for privacy-critical or regulated deployments."
+        - StaticText "Full infrastructure control"
+      - generic
+        - StaticText "// PATH 04"
+        - heading "Kimi Code CLI" [level=3, ref=e61]
+        - paragraph
+          - StaticText "Use K2 as the engine for the open-source "
+          - link "Kimi Code CLI" [ref=e110]
+          - StaticText " terminal agent. Integrates with VS Code, Cursor, JetBrains, and Zed. Supports autonomous coding sessions, codebase navigation, and multi-file editing workflows natively."
+        - StaticText "Terminal · VS Code · Cursor"
+      - heading "Python API Quick Start" [level=3, ref=e24]
+      - StaticText "Python · OpenAI SDK · K2 Instruct & K2 Thinking"
+      - generic
+        - StaticText "# pip install openai from openai import OpenAI client = OpenAI( api_key=\"YOUR_MOONSHOT_API_KEY\", # get at platform.moonshot.ai base_url=\"https://api.moonshot.ai/v1\" ) # K2 Instruct — conversational & agentic (temperature 0.6) response = client.chat.completions.create( model=\"kimi-k2-instruct\", temperature=0.6, max_tokens=4096, messages=[ {\"role\": \"system\", \"content\": \"You are Kimi, an AI assistant by Moonshot AI.\"}, {\"role\": \"user\", \"content\": \"Debug this function and explain the fix...\"} ] ) print(response.choices[0].message.content) # K2 Thinking — extended chain-of-thought (temperature 1.0) thinking = client.chat.completions.create( model=\"kimi-k2-thinking\", temperature=1.0, messages=[{\"role\": \"user\", \"content\": \"Prove this algorithm is O(n log n)...\"}] ) # Access the chain-of-thought reasoning trace print(thinking.choices[0].message.reasoning_content) print(thinking.choices[0].message.content)"
+    - generic
+      - StaticText "08 — USE CASES"
+      - heading "What Can You Build with Kimi K2" [level=2, ref=e25]
+      - insertion
+      - paragraph
+        - StaticText "K2's combination of agentic capability, native tool use, open weights, and cost efficiency makes it a strong foundation for autonomous systems that require deep reasoning and reliable multi-step execution. These are the highest-impact application patterns."
+      - heading "💻 Autonomous Code Agents" [level=4, ref=e26]
+      - insertion
+      - paragraph
+        - StaticText "K2's instruction-following and logical reasoning capabilities underpin autonomous programming agents. Debugging, refactoring, and multi-step development workflows with up to 300 sequential tool calls in K2 Thinking mode."
+      - heading "🔬 Long-Horizon Research" [level=4, ref=e27]
+      - insertion
+      - paragraph
+        - StaticText "K2 Thinking's 300-step tool-call support makes it viable for long research tasks: multi-source web search, data synthesis, competitive analysis, and structured report generation with source validation."
+      - heading "⚖️ Legal & Document Processing" [level=4, ref=e28]
+      - insertion
+      - paragraph
+        - StaticText "Optimized for rigorous attention to detail — contract review, patent drafting, legal document analysis, and annotation workflows requiring strict adherence to terminology and logical structure."
+      - heading "📊 Financial Intelligence" [level=4, ref=e29]
+      - insertion
+      - paragraph
+        - StaticText "AlphaEngine built a FinGPT Agent on K2 Thinking supporting 300+ tool calls — macroeconomic analysis, research report processing, supply chain breakdown, and automated financial report generation."
+      - heading "🏗️ Full-Stack Development" [level=4, ref=e30]
+      - insertion
+      - paragraph
+        - StaticText "Generate complete applications from a description: backend logic, API design, database schema, and frontend — held simultaneously within K2's 128K context window for consistent cross-layer implementation."
+      - heading "🌐 Multilingual Applications" [level=4, ref=e31]
+      - insertion
+      - paragraph
+        - StaticText "160K vocabulary with coverage of 50+ languages makes K2 effective for cross-language summarization, translation pipelines, and global content workflows. Particularly strong for CJK and English contexts."
+      - heading "🔧 Developer Tooling" [level=4, ref=e32]
+      - insertion
+      - paragraph
+        - StaticText "Tencent CodeBuddy and Genspark run production coding agents on K2. The OpenAI-compatible API makes K2 a drop-in replacement in existing developer tool infrastructure without refactoring."
+      - heading "🧬 Scientific & Domain Research" [level=4, ref=e33]
+      - insertion
+      - paragraph
+        - StaticText "Kimi K2's reasoning capabilities extend to specialized scientific domains. DP Technology and XtalPi deploy K2.5 (built on K2's base) for chemical literature understanding and drug discovery workflows."
+      - insertion
+    - generic
+      - StaticText "09 — K2 MODEL FAMILY"
+      - heading "The Kimi K2 Family: 9 Months of Evolution" [level=2, ref=e34]
+      - paragraph
+        - StaticText "Between July 2025 and April 2026, Moonshot AI shipped five major model updates in the K2 lineage. Each release targeted a specific capability frontier while preserving the same underlying trillion-parameter MoE architecture and MuonClip-stabilized training approach. This cadence — a major update roughly every two months — is faster than any closed-source frontier lab over the same period."
+      - generic
+        - StaticText "K2"
+        - StaticText "JULY 2025"
+        - heading "Kimi K2 — Open-Source Frontier Foundation" [level=4, ref=e62]
+        - paragraph
+          - StaticText "1T MoE, 32B active, 128K context. MuonClip optimizer for zero-instability training on 15.5T tokens. K2-Base + K2-Instruct variants. Modified MIT License. First open-source model at this capability tier, setting the trillion-parameter open-source baseline for agentic AI."
+        - StaticText "K2-09"
+        - StaticText "SEPTEMBER 2025"
+        - heading "K2-Instruct-0905 — Coding Capability Sharpened" [level=4, ref=e63]
+        - paragraph
+          - StaticText "An interim instruct update targeting coding performance improvements. SWE-bench accuracy improved versus the July checkpoint. Genspark deploys this specific version (\"Kimi K2 (0905)\") as the engine for their autonomous agent platform — a production endorsement of the 0905 checkpoint's reliability."
+        - StaticText "K2-T"
+        - StaticText "NOVEMBER 2025"
+        - heading "K2 Thinking — Interleaved Reasoning & Tool Use" [level=4, ref=e64]
+        - paragraph
+          - StaticText "Post-trained reasoning variant. Interleaves chain-of-thought with native tool calls, supporting 200–300 sequential steps. Native INT4 quantization via QAT for 2× speed improvement over FP16. Tencent CodeBuddy integrates K2 Thinking as its core model for developer workflows. Recommended temperature: 1.0."
+        - StaticText "K2.5"
+        - StaticText "JANUARY 27, 2026"
+        - heading "Kimi K2.5 — Visual Agentic Intelligence" [level=4, ref=e65]
+          - link "Kimi K2.5" [ref=e111]
+          - StaticText " — Visual Agentic Intelligence"
+        - paragraph
+          - StaticText "Continual pretraining on 15T mixed visual + text tokens. MoonViT 400M encoder for native multimodal input (images + video). Context extended to 256K. Agent Swarm v1: 100 parallel sub-agents, 1,500 tool calls, 4.5× speedup on research tasks. SWE-bench 76.8%. BrowseComp (Swarm): 78.4%."
+        - StaticText "K2.6"
+        - StaticText "APRIL 20, 2026 — CURRENT GA"
+        - heading "Kimi K2.6 — Long-Horizon Agentic Coding General Availability" [level=4, ref=e66]
+          - link "Kimi K2.6" [ref=e112]
+          - StaticText " — Long-Horizon Agentic Coding General Availability"
+        - paragraph
+          - StaticText "Context extended to 262K. Agent Swarm v2: 300 sub-agents, 4,000 coordinated steps — 3× capacity increase from "
+          - link "K2.5. Claw" [ref=e113]
+          - StaticText " Groups for cross-model collaboration. Document-to-Skill conversion. SWE-bench 80.2%. BrowseComp Swarm 86.3%. DeepSearchQA F1 92.5%. Beta label removed — GA release."
+    - generic
+      - StaticText "10 — COMPARE"
+      - heading "Kimi K2 vs Other AI Models" [level=2, ref=e35]
+      - paragraph
+        - StaticText "At its July 2025 release, K2's most significant differentiator was delivering frontier-quality benchmarks with open, commercially usable weights. No other model in the same performance tier offered all three elements simultaneously."
+      - table
+        - rowgroup
+          - row
+            - columnheader "MODEL" [ref=e187]
+            - columnheader "KIMI K2 MOONSHOT AI · JUL 2025" [ref=e188]
+            - columnheader "GPT-4.1 OPENAI" [ref=e189]
+            - columnheader "CLAUDE OPUS 4 ANTHROPIC" [ref=e190]
+            - columnheader "LLAMA 3.1 405B META" [ref=e191]
+            - columnheader "DEEPSEEK-V3 DEEPSEEK" [ref=e192]
+        - row
+          - cell "ARCHITECTURE & ACCESS" [ref=e114]
+        - row
+          - cell "Open weights" [ref=e115]
+          - cell "✓ Modified MIT" [ref=e116]
+          - cell "✗" [ref=e117]
+          - cell "✗" [ref=e118]
+          - cell "✓ Llama license" [ref=e119]
+          - cell "✓" [ref=e120]
+        - row
+          - cell "Total parameters" [ref=e121]
+          - cell "1T (MoE)" [ref=e122]
+          - cell "~200B est." [ref=e123]
+          - cell "~200B est." [ref=e124]
+          - cell "405B dense" [ref=e125]
+          - cell "671B (MoE)" [ref=e126]
+        - row
+          - cell "Active parameters" [ref=e127]
+          - cell "32B" [ref=e128]
+          - cell "Dense" [ref=e129]
+          - cell "Dense" [ref=e130]
+          - cell "405B" [ref=e131]
+          - cell "37B" [ref=e132]
+        - row
+          - cell "Context window" [ref=e133]
+          - cell "128K" [ref=e134]
+          - cell "128K" [ref=e135]
+          - cell "200K" [ref=e136]
+          - cell "128K" [ref=e137]
+          - cell "128K" [ref=e138]
+        - row
+          - cell "KEY BENCHMARKS (CONTEMPORARY COMPARISONS)" [ref=e139]
+        - row
+          - cell "SWE-bench Verified" [ref=e140]
+          - cell "65.8%" [ref=e141]
+          - cell "~50%" [ref=e142]
+          - cell "~72%" [ref=e143]
+          - cell "~30%" [ref=e144]
+          - cell "~49%" [ref=e145]
+        - row
+          - cell "MMLU-Pro" [ref=e146]
+          - cell "73.3%" [ref=e147]
+          - cell "~72%" [ref=e148]
+          - cell "~74%" [ref=e149]
+          - cell "~73%" [ref=e150]
+          - cell "~75%" [ref=e151]
+        - row
+          - cell "GPQA Diamond" [ref=e152]
+          - cell "71.0%" [ref=e153]
+          - cell "~60%" [ref=e154]
+          - cell "~73%" [ref=e155]
+          - cell "~51%" [ref=e156]
+          - cell "~60%" [ref=e157]
+        - row
+          - cell "tau2-bench (agentic)" [ref=e158]
+          - cell "80.0%" [ref=e159]
+          - cell "~65%" [ref=e160]
+          - cell "~70%" [ref=e161]
+          - cell "~55%" [ref=e162]
+          - cell "~60%" [ref=e163]
+        - row
+          - cell "COST" [ref=e164]
+        - row
+          - cell "API input $/1M tokens" [ref=e165]
+          - cell "~$0.60" [ref=e166]
+          - cell "$2.00+" [ref=e167]
+          - cell "$3.00+" [ref=e168]
+          - cell "~$0.80" [ref=e169]
+          - cell "$0.27" [ref=e170]
+        - row
+          - cell "Commercial use" [ref=e171]
+          - cell "✓ Free (most)" [ref=e172]
+          - cell "API only" [ref=e173]
+          - cell "API only" [ref=e174]
+          - cell "License terms" [ref=e175]
+          - cell "✓" [ref=e176]
+        - row
+          - cell "Self-hostable" [ref=e177]
+          - cell "✓ vLLM, SGLang" [ref=e178]
+          - cell "✗" [ref=e179]
+          - cell "✗" [ref=e180]
+          - cell "✓" [ref=e181]
+          - cell "✓" [ref=e182]
+      - paragraph
+        - link "K2.6 guide" [ref=e67]
+    - generic
+      - StaticText "11 — TIPS & BEST PRACTICES"
+      - heading "Getting the Most from Kimi K2" [level=2, ref=e36]
+      - StaticText "1"
+      - heading "Use K2 Instruct for most tasks; K2 Thinking for hard problems" [level=4, ref=e37]
+      - paragraph
+      - StaticText "2"
+      - heading "Access reasoning traces for debugging complex failures" [level=4, ref=e38]
+      - paragraph
+      - StaticText "3"
+      - heading "Design for iterative tool-call sequences, not single mega-prompts" [level=4, ref=e39]
+      - paragraph
+      - StaticText "4"
+      - heading "Use the Anthropic-compatible endpoint for Claude migrations" [level=4, ref=e40]
+      - paragraph
+        - StaticText "If migrating from Claude, use K2's Anthropic-compatible endpoint at platform.moonshot.ai. Note: the Anthropic API applies temperature scaling — "
+      - StaticText "5"
+      - heading "Validate self-hosted deployments before serving production" [level=4, ref=e41]
+      - paragraph
+      - StaticText "6"
+      - heading "For new projects requiring vision or longer context, start with K2.5 or K2.6" [level=4, ref=e42]
+      - paragraph
+        - StaticText "K2 remains a solid cost-efficient model for text-only workflows. For new projects: if you need native image/video understanding, use K2.5 (256K context, MoonViT encoder). If you need Agent Swarm or the best possible long-horizon coding reliability, use K2.6 (262K, 300 agents, GA stability). Switching between K2 variants is a one-line model string change in your API calls."
+    - generic
+      - StaticText "12 — LIMITATIONS"
+      - heading "Limitations of Kimi K2" [level=2, ref=e43]
+      - generic
+        - heading "Text-Only — No Vision" [level=3, ref=e68]
+      - generic
+        - heading "128K Context vs Later Models" [level=3, ref=e69]
+      - generic
+        - heading "Self-Hosting Requires Enterprise GPU" [level=3, ref=e70]
+      - generic
+        - heading "Commercial License Threshold" [level=3, ref=e71]
+    - generic
+      - StaticText "13 — FAQ"
+      - heading "Frequently Asked Questions About Kimi K2" [level=2, ref=e44]
+      - paragraph
+        - link "our contact page" [ref=e72]
+        - link "official GitHub repository" [ref=e73]
+      - generic
+        - button "What is Kimi K2? +" [expanded=false, ref=e74]
+        - button "Is Kimi K2 truly free to use commercially? +" [expanded=false, ref=e75]
+        - StaticText "Yes, with one condition. The Modified MIT License permits commercial use for the vast majority of deployments. The sole restriction: products with more than 100 million monthly active users OR generating more than $20 million per month in revenue must display visible \"Kimi K2\" credit in the user interface. For almost every team, this threshold is irrelevant. The weights are free to download and deploy."
+        - button "What is the difference between K2-Base and K2-Instruct? +" [expanded=false, ref=e76]
+        - button "How does K2 Thinking differ from K2 Instruct? +" [expanded=false, ref=e77]
+        - button "How does K2 compare to K2.5 and K2.6? +" [expanded=false, ref=e78]
+        - StaticText "K2 (July 2025): text-only, 128K context, 65.8% SWE-bench. K2.5 (January 2026): added native vision (MoonViT encoder), 256K context, Agent Swarm (100 agents, 4.5× speedup), 76.8% SWE-bench. K2.6 (April 2026): 262K context, Agent Swarm 300 agents/4,000 steps, 80.2% SWE-bench, General Availability. K2 remains a strong cost-efficient model for text-only workflows where K2.5/K2.6 capabilities are not needed."
+        - button "Does Kimi K2 support images or video? +" [expanded=false, ref=e79]
+        - button "How do I use K2 with the OpenAI SDK? +" [expanded=false, ref=e80]
+        - button "What inference engines can I use to self-host K2? +" [expanded=false, ref=e81]
+        - StaticText "K2 weights are stored in block-fp8 format on HuggingFace. Supported inference engines: vLLM, SGLang, KTransformers, and TensorRT-LLM. Enterprise-grade GPUs (A100-class minimum) are required for practical inference throughput. Before routing production traffic, run the official Kimi Vendor Verifier to confirm your deployment matches the reference implementation output characteristics."
+    - generic
+      - heading "Start Building with Kimi K2" [level=2, ref=e45]
+      - link "Try Kimi K2 Free" [ref=e46]
+      - link "API Docs" [ref=e47]
+      - link "See K2.6 →" [ref=e48]
+  - insertion
+  - contentinfo
+    - StaticText "© 2026 • Visual Coding Meets Agent Swarm"
+    - link "About" [ref=e11]
+    - link "Privacy" [ref=e12]
+    - link "Terms" [ref=e13]
+    - link "Contact" [ref=e14]
+  - insertion
+  - insertion
+    - insertion
+    - Iframe "Advertisement" [ref=e49] focusable [tabindex]
+      - link "instagantt.com" [ref=e196]
+      - link "Free Gantt Chart Trial" [ref=e197]
+      - link "Online Gantt Chart Maker Software for Project Management | Instagantt" [ref=e198]
+      - link "Open" [ref=e195]
+      - button [ref=e193]
+      - Iframe [ref=e194]

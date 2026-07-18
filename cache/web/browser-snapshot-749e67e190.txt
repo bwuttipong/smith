@@ -1,0 +1,556 @@
+- generic
+  - banner
+    - generic
+      - link "Google News" [ref=e19]
+        - StaticText "News"
+      - search
+        - combobox "ค้นหาหัวข้อ สถานที่ และแหล่งที่มา" [expanded=false, ref=e20]
+        - button "การค้นหาขั้นสูง" [ref=e4]
+          - image
+        - button "ค้นหา" [ref=e5]
+          - image
+      - generic
+        - button "ความช่วยเหลือ" [expanded=false, ref=e50]
+      - generic
+        - button "การตั้งค่า" [expanded=false, ref=e51]
+      - generic
+        - button "แอป Google" [expanded=false, ref=e52]
+          - StaticText "  "
+        - link "เข้าสู่ระบบ" [ref=e6]
+          - StaticText "  "
+          - StaticText "เข้าสู่ระบบ"
+    - navigation
+      - tablist
+        - tab "หน้าแรก" [ref=e7]
+          - tab "หน้าแรก" [ref=e21]
+        - tab "สำหรับคุณ" [ref=e8]
+          - tab "สำหรับคุณ" [ref=e22]
+        - tab "กำลังติดตาม" [ref=e9]
+          - tab "กำลังติดตาม" [ref=e23]
+        - tab "ประเทศไทย" [ref=e10]
+          - tab "ประเทศไทย" [ref=e24]
+        - tab "โลก" [ref=e11]
+          - tab "โลก" [ref=e25]
+        - tab "ท้องถิ่น" [ref=e12]
+          - tab "ท้องถิ่น" [ref=e26]
+        - tab "ธุรกิจ" [ref=e13]
+          - tab "ธุรกิจ" [ref=e27]
+        - tab "เทคโนโลยี" [ref=e14]
+          - tab "เทคโนโลยี" [ref=e28]
+        - tab "บันเทิง" [ref=e15]
+          - tab "บันเทิง" [ref=e29]
+        - tab "กีฬา" [ref=e16]
+          - tab "กีฬา" [ref=e30]
+        - tab "วิทยาศาสตร์" [ref=e17]
+          - tab "วิทยาศาสตร์" [ref=e31]
+        - tab "สุขภาพ" [ref=e18]
+          - tab "สุขภาพ" [ref=e32]
+  - generic
+    - main
+      - heading "ธุรกิจ" [level=1, ref=e1]
+      - button "ติดตามหัวข้อนี้ - ธุรกิจ" [ref=e2]
+        - StaticText "ติดตาม"
+      - button "แชร์" [ref=e3]
+      - generic
+        - link "SET100 Index 2,328.77 +0.54% +12.48" [ref=e33]
+          - StaticText "SET100 Index"
+          - StaticText "2,328.77"
+          - StaticText "+0.54%"
+          - StaticText "+12.48"
+        - link "FTSE SET All Shares Index 1,805.17 +0.20% +3.67" [ref=e34]
+          - StaticText "FTSE SET All Shares Index"
+          - StaticText "1,805.17"
+          - StaticText "+0.20%"
+          - StaticText "+3.67"
+        - link "นิคเคอิ 225 64,141.12 -4.03% -2,694.42" [ref=e35]
+          - StaticText "นิคเคอิ 225"
+          - StaticText "64,141.12"
+          - StaticText "-4.03%"
+          - StaticText "-2,694.42"
+        - link "SSE 3,764.15 -3.05% -118.26" [ref=e36]
+          - StaticText "SSE"
+          - StaticText "3,764.15"
+          - StaticText "-3.05%"
+          - StaticText "-118.26"
+        - time
+          - StaticText "เมื่อวานนี้"
+        - link "ข้อจำกัดความรับผิด" [ref=e37]
+        - separator
+        - link "เพิ่มเติมจาก Google Finance" [ref=e38]
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "InterGold"
+              - generic
+                - button "เพิ่มเติม - สรุปข่าวทองคำประจำสัปดาห์ | InterGOLD WEEKLY NEWS EP.210| ราคาทองวันนี้ | ราคาทองคำแท่ง | ทองคำราคา" [expanded=false, ref=e99]
+            - link "สรุปข่าวทองคำประจำสัปดาห์ | InterGOLD WEEKLY NEWS EP.210| ราคาทองวันนี้ | ราคาทองคำแท่ง | ทองคำราคา - InterGold - 5 ชั่วโมงที่แล้ว" [ref=e53]
+              - StaticText "สรุปข่าวทองคำประจำสัปดาห์ | InterGOLD WEEKLY NEWS EP.210| ราคาทองวันนี้ | ราคาทองคำแท่ง | ทองคำราคา"
+            - time
+              - StaticText "5 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Hua Seng Heng"
+              - generic
+                - button "เพิ่มเติม - Night Recap Gold Spot 17-07-2569" [expanded=false, ref=e100]
+            - link "Night Recap Gold Spot 17-07-2569 - Hua Seng Heng - เมื่อวานนี้" [ref=e54]
+              - StaticText "Night Recap Gold Spot 17-07-2569"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "Thairath.co.th"
+              - generic
+                - button "เพิ่มเติม - ราคาทองวันนี้ 18 กรกฎาคม 2569 ล่าสุด ราคาปรับเพิ่ม 350 บาท ราคาทองรูปพรรณ บาทละ 64,850 บาท" [expanded=false, ref=e101]
+            - link "ราคาทองวันนี้ 18 กรกฎาคม 2569 ล่าสุด ราคาปรับเพิ่ม 350 บาท ราคาทองรูปพรรณ บาทละ 64,850 บาท - Thairath.co.th - 9 ชั่วโมงที่แล้ว" [ref=e55]
+              - StaticText "ราคาทองวันนี้ 18 กรกฎาคม 2569 ล่าสุด ราคาปรับเพิ่ม 350 บาท ราคาทองรูปพรรณ บาทละ 64,850 บาท"
+            - time
+              - StaticText "9 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - “ทองคำนิวยอร์ก” ปิดบวก 27 เหรียญ รับปมสหรัฐ-อิหร่านระอุ | ข่าวหุ้นธุรกิจ" [expanded=false, ref=e102]
+            - link "“ทองคำนิวยอร์ก” ปิดบวก 27 เหรียญ รับปมสหรัฐ-อิหร่านระอุ | ข่าวหุ้นธุรกิจ - LINE TODAY - 6 ชั่วโมงที่แล้ว" [ref=e56]
+              - StaticText "“ทองคำนิวยอร์ก” ปิดบวก 27 เหรียญ รับปมสหรัฐ-อิหร่านระอุ | ข่าวหุ้นธุรกิจ"
+            - time
+              - StaticText "6 ชั่วโมงที่แล้ว"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e39]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "Hoonsmart"
+              - generic
+                - button "เพิ่มเติม - ดาวโจนส์ปิดร่วง 406 จุด แรงขายหุ้นชิปขยายวง" [expanded=false, ref=e103]
+            - link "ดาวโจนส์ปิดร่วง 406 จุด แรงขายหุ้นชิปขยายวง - Hoonsmart - 8 ชั่วโมงที่แล้ว" [ref=e57]
+              - StaticText "ดาวโจนส์ปิดร่วง 406 จุด แรงขายหุ้นชิปขยายวง"
+            - time
+              - StaticText "8 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "RYT9"
+              - generic
+                - button "เพิ่มเติม - ภาวะตลาดหุ้นนิวยอร์ก ดาวโจนส์ปิดลบ 406.55 จุด แรงขายหุ้น AI ฉุดตลาด" [expanded=false, ref=e104]
+            - link "ภาวะตลาดหุ้นนิวยอร์ก ดาวโจนส์ปิดลบ 406.55 จุด แรงขายหุ้น AI ฉุดตลาด - RYT9 - 10 ชั่วโมงที่แล้ว" [ref=e58]
+              - StaticText "ภาวะตลาดหุ้นนิวยอร์ก ดาวโจนส์ปิดลบ 406.55 จุด แรงขายหุ้น AI ฉุดตลาด"
+            - time
+              - StaticText "10 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Investing.com"
+              - generic
+                - button "เพิ่มเติม - หุ้นชิปยุโรปร่วงหนักตามการขายทิ้งของหุ้นชิปสหรัฐฯ" [expanded=false, ref=e105]
+            - link "หุ้นชิปยุโรปร่วงหนักตามการขายทิ้งของหุ้นชิปสหรัฐฯ - Investing.com - เมื่อวานนี้ - โดย Vahid Karaahmetovic" [ref=e59]
+              - StaticText "หุ้นชิปยุโรปร่วงหนักตามการขายทิ้งของหุ้นชิปสหรัฐฯ"
+            - time
+              - StaticText "เมื่อวานนี้"
+            - separator
+            - StaticText "โดย Vahid Karaahmetovic"
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - ตลาดหุ้นเอเชีย ร่วงทั่วภูมิภาค! นิกเกอิดิ่งกว่า 4% จีน-ฮ่องกงอ่อนตัว | การเงินธนาคาร" [expanded=false, ref=e106]
+            - link "ตลาดหุ้นเอเชีย ร่วงทั่วภูมิภาค! นิกเกอิดิ่งกว่า 4% จีน-ฮ่องกงอ่อนตัว | การเงินธนาคาร - LINE TODAY - เมื่อวานนี้" [ref=e60]
+              - StaticText "ตลาดหุ้นเอเชีย ร่วงทั่วภูมิภาค! นิกเกอิดิ่งกว่า 4% จีน-ฮ่องกงอ่อนตัว | การเงินธนาคาร"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e40]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - Apple แซง Nvidia ทวงบัลลังก์บริษัทมูลค่าสูงสุดของโลก หลังมูลค่าแตะ 4.88 ล้านล้านดอลลาร์" [expanded=false, ref=e107]
+            - link "Apple แซง Nvidia ทวงบัลลังก์บริษัทมูลค่าสูงสุดของโลก หลังมูลค่าแตะ 4.88 ล้านล้านดอลลาร์ - LINE TODAY - 7 ชั่วโมงที่แล้ว" [ref=e61]
+              - StaticText "Apple แซง Nvidia ทวงบัลลังก์บริษัทมูลค่าสูงสุดของโลก หลังมูลค่าแตะ 4.88 ล้านล้านดอลลาร์"
+            - time
+              - StaticText "7 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Investing.com"
+              - generic
+                - button "เพิ่มเติม - HSBC อัปเกรด Apple เป็น ซื้อ คาด \"วัฏจักรที่แข็งแกร่งรออยู่ข้างหน้า\"" [expanded=false, ref=e108]
+            - link "HSBC อัปเกรด Apple เป็น ซื้อ คาด \"วัฏจักรที่แข็งแกร่งรออยู่ข้างหน้า\" - Investing.com - เมื่อวานนี้ - โดย Sam Boughedda" [ref=e62]
+              - StaticText "HSBC อัปเกรด Apple เป็น ซื้อ คาด \"วัฏจักรที่แข็งแกร่งรออยู่ข้างหน้า\""
+            - time
+              - StaticText "เมื่อวานนี้"
+            - separator
+            - StaticText "โดย Sam Boughedda"
+          - generic
+            - generic
+              - StaticText "Yellow.com"
+              - generic
+                - button "เพิ่มเติม - หุ้นแอปเปิลทุบสถิติใหม่ 331 ดอลลาร์ สะท้อนอิทธิพลดีล AI ในจีน" [expanded=false, ref=e109]
+            - link "หุ้นแอปเปิลทุบสถิติใหม่ 331 ดอลลาร์ สะท้อนอิทธิพลดีล AI ในจีน - Yellow.com - เมื่อวานนี้ - โดย Alexey Bondarev" [ref=e63]
+              - StaticText "หุ้นแอปเปิลทุบสถิติใหม่ 331 ดอลลาร์ สะท้อนอิทธิพลดีล AI ในจีน"
+            - time
+              - StaticText "เมื่อวานนี้"
+            - separator
+            - StaticText "โดย Alexey Bondarev"
+          - generic
+            - generic
+              - StaticText "Letem světem Applem"
+              - generic
+                - button "เพิ่มเติม - Apple บริษัทนี้กลับมาเป็นบริษัทที่มีมูลค่ามากที่สุดในโลกอีกครั้ง และในไม่ช้าก็จะยิ่งมีมูลค่าสูงขึ้นไปอีก" [expanded=false, ref=e110]
+            - link "Apple บริษัทนี้กลับมาเป็นบริษัทที่มีมูลค่ามากที่สุดในโลกอีกครั้ง และในไม่ช้าก็จะยิ่งมีมูลค่าสูงขึ้นไปอีก - Letem světem Applem - 21 ชั่วโมงที่แล้ว - โดย Jiri Filip" [ref=e64]
+              - StaticText "Apple บริษัทนี้กลับมาเป็นบริษัทที่มีมูลค่ามากที่สุดในโลกอีกครั้ง และในไม่ช้าก็จะยิ่งมีมูลค่าสูงขึ้นไปอีก"
+            - time
+              - StaticText "21 ชั่วโมงที่แล้ว"
+            - separator
+            - StaticText "โดย Jiri Filip"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e41]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "TechTalkThai"
+              - generic
+                - button "เพิ่มเติม - Anthropic คุยดีลหมื่นล้านดอลลาร์ เช่าดาต้าเซ็นเตอร์ Meta" [expanded=false, ref=e111]
+            - link "Anthropic คุยดีลหมื่นล้านดอลลาร์ เช่าดาต้าเซ็นเตอร์ Meta - TechTalkThai - 4 ชั่วโมงที่แล้ว" [ref=e65]
+              - StaticText "Anthropic คุยดีลหมื่นล้านดอลลาร์ เช่าดาต้าเซ็นเตอร์ Meta"
+            - time
+              - StaticText "4 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Investing.com"
+              - generic
+                - button "เพิ่มเติม - หุ้น Meta Platforms ฟื้นตัวหลังรายงานเจรจาดีลคอมพิวติ้ง AI" [expanded=false, ref=e112]
+            - link "หุ้น Meta Platforms ฟื้นตัวหลังรายงานเจรจาดีลคอมพิวติ้ง AI - Investing.com - 18 ชั่วโมงที่แล้ว - โดย Louis Juricic" [ref=e66]
+              - StaticText "หุ้น Meta Platforms ฟื้นตัวหลังรายงานเจรจาดีลคอมพิวติ้ง AI"
+            - time
+              - StaticText "18 ชั่วโมงที่แล้ว"
+            - separator
+            - StaticText "โดย Louis Juricic"
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - Anthropic เจรจาเช่า AI Compute จาก Meta ดีลอาจแตะ 1 หมื่นล้านดอลลาร์ เปิดทาง Meta รุกธุรกิจคลาวด์ AI" [expanded=false, ref=e113]
+            - link "Anthropic เจรจาเช่า AI Compute จาก Meta ดีลอาจแตะ 1 หมื่นล้านดอลลาร์ เปิดทาง Meta รุกธุรกิจคลาวด์ AI - LINE TODAY - 8 ชั่วโมงที่แล้ว" [ref=e67]
+              - StaticText "Anthropic เจรจาเช่า AI Compute จาก Meta ดีลอาจแตะ 1 หมื่นล้านดอลลาร์ เปิดทาง Meta รุกธุรกิจคลาวด์ AI"
+            - time
+              - StaticText "8 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "posttoday"
+              - generic
+                - button "เพิ่มเติม - เปิดความคืบหน้าชิป MTIA ของ Meta พร้อมเข้าสายการผลิตกันยายนนี้" [expanded=false, ref=e114]
+            - link "เปิดความคืบหน้าชิป MTIA ของ Meta พร้อมเข้าสายการผลิตกันยายนนี้ - posttoday - 10 ชั่วโมงที่แล้ว" [ref=e68]
+              - StaticText "เปิดความคืบหน้าชิป MTIA ของ Meta พร้อมเข้าสายการผลิตกันยายนนี้"
+            - time
+              - StaticText "10 ชั่วโมงที่แล้ว"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e42]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "Thairath.co.th"
+              - generic
+                - button "เพิ่มเติม - CDC เตือนอย่ากินผักกาดหอม Taco Bell ใน 5 รัฐ หลังพบเป็นต้นตอพยาธิไซโคลสปอรา" [expanded=false, ref=e115]
+            - link "CDC เตือนอย่ากินผักกาดหอม Taco Bell ใน 5 รัฐ หลังพบเป็นต้นตอพยาธิไซโคลสปอรา - Thairath.co.th - 6 ชั่วโมงที่แล้ว" [ref=e69]
+              - StaticText "CDC เตือนอย่ากินผักกาดหอม Taco Bell ใน 5 รัฐ หลังพบเป็นต้นตอพยาธิไซโคลสปอรา"
+            - time
+              - StaticText "6 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Sanook"
+              - generic
+                - button "เพิ่มเติม - CDC สหรัฐฯ เผย 6 ผัก-ผลไม้ กินสดๆ เสี่ยงปนเปื้อนปรสิต แต่คนไทยชอบกินทุกอย่าง!" [expanded=false, ref=e116]
+            - link "CDC สหรัฐฯ เผย 6 ผัก-ผลไม้ กินสดๆ เสี่ยงปนเปื้อนปรสิต แต่คนไทยชอบกินทุกอย่าง! - Sanook - 11 ชั่วโมงที่แล้ว" [ref=e70]
+              - StaticText "CDC สหรัฐฯ เผย 6 ผัก-ผลไม้ กินสดๆ เสี่ยงปนเปื้อนปรสิต แต่คนไทยชอบกินทุกอย่าง!"
+            - time
+              - StaticText "11 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Investing.com"
+              - generic
+                - button "เพิ่มเติม - Taylor Farms เตรียมเรียกคืนสินค้าหลังพบการระบาดของปรสิตในมิชิแกน" [expanded=false, ref=e117]
+            - link "Taylor Farms เตรียมเรียกคืนสินค้าหลังพบการระบาดของปรสิตในมิชิแกน - Investing.com - 20 ชั่วโมงที่แล้ว - โดย Louis Juricic" [ref=e71]
+              - StaticText "Taylor Farms เตรียมเรียกคืนสินค้าหลังพบการระบาดของปรสิตในมิชิแกน"
+            - time
+              - StaticText "20 ชั่วโมงที่แล้ว"
+            - separator
+            - StaticText "โดย Louis Juricic"
+          - generic
+            - generic
+              - StaticText "TrueID"
+              - generic
+                - button "เพิ่มเติม - โลกร้อนเร่งโรคระบาด ปรสิตโตเร็ว-อยู่นาน คุกคามสุขภาพมนุษย์ระยะยาว" [expanded=false, ref=e118]
+            - link "โลกร้อนเร่งโรคระบาด ปรสิตโตเร็ว-อยู่นาน คุกคามสุขภาพมนุษย์ระยะยาว - TrueID - 7 ชั่วโมงที่แล้ว" [ref=e72]
+              - StaticText "โลกร้อนเร่งโรคระบาด ปรสิตโตเร็ว-อยู่นาน คุกคามสุขภาพมนุษย์ระยะยาว"
+            - time
+              - StaticText "7 ชั่วโมงที่แล้ว"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e43]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "thestandard.co"
+              - generic
+                - button "เพิ่มเติม - SpaceX พักฐาน แต่กำลังเติบโตไกลกว่าธุรกิจจรวด" [expanded=false, ref=e119]
+            - link "SpaceX พักฐาน แต่กำลังเติบโตไกลกว่าธุรกิจจรวด - thestandard.co - 3 ชั่วโมงที่แล้ว" [ref=e73]
+              - StaticText "SpaceX พักฐาน แต่กำลังเติบโตไกลกว่าธุรกิจจรวด"
+            - time
+              - StaticText "3 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Investing.com"
+              - generic
+                - button "เพิ่มเติม - หุ้น SpaceX พุ่งชั่วคราวหลังข่าว AI เพนตากอน ขณะ CoreWeave ร่วง" [expanded=false, ref=e120]
+            - link "หุ้น SpaceX พุ่งชั่วคราวหลังข่าว AI เพนตากอน ขณะ CoreWeave ร่วง - Investing.com - 16 ชั่วโมงที่แล้ว - โดย Louis Juricic" [ref=e74]
+              - StaticText "หุ้น SpaceX พุ่งชั่วคราวหลังข่าว AI เพนตากอน ขณะ CoreWeave ร่วง"
+            - time
+              - StaticText "16 ชั่วโมงที่แล้ว"
+            - separator
+            - StaticText "โดย Louis Juricic"
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - นักลงทุนรายย่อย-วอลล์สตรีท ติดดอย SpaceX แต่ไม่ยอมแพ้ เชื่อหุ้นฟื้นระยะยาว | การเงินธนาคาร" [expanded=false, ref=e121]
+            - link "นักลงทุนรายย่อย-วอลล์สตรีท ติดดอย SpaceX แต่ไม่ยอมแพ้ เชื่อหุ้นฟื้นระยะยาว | การเงินธนาคาร - LINE TODAY - 7 ชั่วโมงที่แล้ว" [ref=e75]
+              - StaticText "นักลงทุนรายย่อย-วอลล์สตรีท ติดดอย SpaceX แต่ไม่ยอมแพ้ เชื่อหุ้นฟื้นระยะยาว | การเงินธนาคาร"
+            - time
+              - StaticText "7 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Siam Blockchain"
+              - generic
+                - button "เพิ่มเติม - Elon Musk สูญเงินกว่า 5 แสนล้านดอลลาร์ในเวลา 1 เดือน หลัง SpaceX ร่วง 45% หลุดมหาเศรษฐีล้านล้านดอลลาร์" [expanded=false, ref=e122]
+            - link "Elon Musk สูญเงินกว่า 5 แสนล้านดอลลาร์ในเวลา 1 เดือน หลัง SpaceX ร่วง 45% หลุดมหาเศรษฐีล้านล้านดอลลาร์ - Siam Blockchain - 8 ชั่วโมงที่แล้ว" [ref=e76]
+              - StaticText "Elon Musk สูญเงินกว่า 5 แสนล้านดอลลาร์ในเวลา 1 เดือน หลัง SpaceX ร่วง 45% หลุดมหาเศรษฐีล้านล้านดอลลาร์"
+            - time
+              - StaticText "8 ชั่วโมงที่แล้ว"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e44]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "Investing.com"
+              - generic
+                - button "เพิ่มเติม - KGI Securities ปรับลดอันดับหุ้น Netflix เหตุกังวลการเติบโต" [expanded=false, ref=e123]
+            - link "KGI Securities ปรับลดอันดับหุ้น Netflix เหตุกังวลการเติบโต - Investing.com - 23 ชั่วโมงที่แล้ว" [ref=e77]
+              - StaticText "KGI Securities ปรับลดอันดับหุ้น Netflix เหตุกังวลการเติบโต"
+            - time
+              - StaticText "23 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Investing.com"
+              - generic
+                - button "เพิ่มเติม - UBS ปรับลดเป้าราคาหุ้น Netflix ลงเหลือ $115 จากการทบทวนมูลค่า" [expanded=false, ref=e124]
+            - link "UBS ปรับลดเป้าราคาหุ้น Netflix ลงเหลือ $115 จากการทบทวนมูลค่า - Investing.com - 21 ชั่วโมงที่แล้ว" [ref=e78]
+              - StaticText "UBS ปรับลดเป้าราคาหุ้น Netflix ลงเหลือ $115 จากการทบทวนมูลค่า"
+            - time
+              - StaticText "21 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - Netflix ร่วง 9% เซ่นคาดการณ์ Q3 ต่ำกว่าเป้า แม้กำไรไตรมาส 2 โตเกินคาด | ข่าวหุ้นธุรกิจ" [expanded=false, ref=e125]
+            - link "Netflix ร่วง 9% เซ่นคาดการณ์ Q3 ต่ำกว่าเป้า แม้กำไรไตรมาส 2 โตเกินคาด | ข่าวหุ้นธุรกิจ - LINE TODAY - เมื่อวานนี้" [ref=e79]
+              - StaticText "Netflix ร่วง 9% เซ่นคาดการณ์ Q3 ต่ำกว่าเป้า แม้กำไรไตรมาส 2 โตเกินคาด | ข่าวหุ้นธุรกิจ"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "RYT9"
+              - generic
+                - button "เพิ่มเติม - Netflix ทำรายได้ Q2 ต่ำกว่าคาด หั่นแนวโน้มรายได้ปี 69 ฉุดหุ้นร่วงกว่า 9%" [expanded=false, ref=e126]
+            - link "Netflix ทำรายได้ Q2 ต่ำกว่าคาด หั่นแนวโน้มรายได้ปี 69 ฉุดหุ้นร่วงกว่า 9% - RYT9 - เมื่อวานนี้" [ref=e80]
+              - StaticText "Netflix ทำรายได้ Q2 ต่ำกว่าคาด หั่นแนวโน้มรายได้ปี 69 ฉุดหุ้นร่วงกว่า 9%"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e45]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "spacebar.th"
+              - generic
+                - button "เพิ่มเติม - AI จีน 'Kimi K3' ขึ้นอันดับ 1 โลก สั่นคลอนอุตสาหกรรม AI สหรัฐฯ" [expanded=false, ref=e127]
+            - link "AI จีน 'Kimi K3' ขึ้นอันดับ 1 โลก สั่นคลอนอุตสาหกรรม AI สหรัฐฯ - spacebar.th - 13 ชั่วโมงที่แล้ว" [ref=e81]
+              - StaticText "AI จีน 'Kimi K3' ขึ้นอันดับ 1 โลก สั่นคลอนอุตสาหกรรม AI สหรัฐฯ"
+            - time
+              - StaticText "13 ชั่วโมงที่แล้ว"
+          - generic
+            - generic
+              - StaticText "Investing.com"
+              - generic
+                - button "เพิ่มเติม - Kimi K3: ความก้าวหน้า AI ที่ Wall Street จับตามอง และภัยคุกคามจากจีน" [expanded=false, ref=e128]
+            - link "Kimi K3: ความก้าวหน้า AI ที่ Wall Street จับตามอง และภัยคุกคามจากจีน - Investing.com - 23 ชั่วโมงที่แล้ว - โดย Louis Juricic" [ref=e82]
+              - StaticText "Kimi K3: ความก้าวหน้า AI ที่ Wall Street จับตามอง และภัยคุกคามจากจีน"
+            - time
+              - StaticText "23 ชั่วโมงที่แล้ว"
+            - separator
+            - StaticText "โดย Louis Juricic"
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - Z.AI จ่อขึ้นแท่นบริษัท AI จีนรายแรก ทำรายได้แตะ 1 พันล้านดอลลาร์/ปี | การเงินธนาคาร" [expanded=false, ref=e129]
+            - link "Z.AI จ่อขึ้นแท่นบริษัท AI จีนรายแรก ทำรายได้แตะ 1 พันล้านดอลลาร์/ปี | การเงินธนาคาร - LINE TODAY - เมื่อวานนี้" [ref=e83]
+              - StaticText "Z.AI จ่อขึ้นแท่นบริษัท AI จีนรายแรก ทำรายได้แตะ 1 พันล้านดอลลาร์/ปี | การเงินธนาคาร"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "RYT9"
+              - generic
+                - button "เพิ่มเติม - หุ้น Zhipu AI ดิ่ง 23% หลัง Moonshot เปิดตัวโมเดล AI แบบ open-weight ขนาดใหญ่สุดในโลก" [expanded=false, ref=e130]
+            - link "หุ้น Zhipu AI ดิ่ง 23% หลัง Moonshot เปิดตัวโมเดล AI แบบ open-weight ขนาดใหญ่สุดในโลก - RYT9 - เมื่อวานนี้" [ref=e84]
+              - StaticText "หุ้น Zhipu AI ดิ่ง 23% หลัง Moonshot เปิดตัวโมเดล AI แบบ open-weight ขนาดใหญ่สุดในโลก"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e46]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "Hoonsmart"
+              - generic
+                - button "เพิ่มเติม - เงินไหลเข้ากอง ETF คริปโทในรอบ 2 เดือน \"Bitget\" มองบิทคอยน์ฟื้นตัวได้ต่อเนื่อง" [expanded=false, ref=e131]
+            - link "เงินไหลเข้ากอง ETF คริปโทในรอบ 2 เดือน \"Bitget\" มองบิทคอยน์ฟื้นตัวได้ต่อเนื่อง - Hoonsmart - เมื่อวานนี้" [ref=e85]
+              - StaticText "เงินไหลเข้ากอง ETF คริปโทในรอบ 2 เดือน \"Bitget\" มองบิทคอยน์ฟื้นตัวได้ต่อเนื่อง"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "Investing.com"
+              - generic
+                - button "เพิ่มเติม - Bitcoin ร่วงต่ำกว่า $63,000 กดดันจากความกังวลดอกเบี้ยและความตึงเครียดอิหร่าน" [expanded=false, ref=e132]
+            - link "Bitcoin ร่วงต่ำกว่า $63,000 กดดันจากความกังวลดอกเบี้ยและความตึงเครียดอิหร่าน - Investing.com - เมื่อวานนี้ - โดย Ambar Warrick" [ref=e86]
+              - StaticText "Bitcoin ร่วงต่ำกว่า $63,000 กดดันจากความกังวลดอกเบี้ยและความตึงเครียดอิหร่าน"
+            - time
+              - StaticText "เมื่อวานนี้"
+            - separator
+            - StaticText "โดย Ambar Warrick"
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - Bitget เผยครึ่งแรกเดือนก.ค. เม็ดเงินไหลกลับเข้ากอง ETF คริปโท มองกรอบสำคัญ 63,000 - 66,000 ดอลลาร์ | The Better" [expanded=false, ref=e133]
+            - link "Bitget เผยครึ่งแรกเดือนก.ค. เม็ดเงินไหลกลับเข้ากอง ETF คริปโท มองกรอบสำคัญ 63,000 - 66,000 ดอลลาร์ | The Better - LINE TODAY - เมื่อวานนี้" [ref=e87]
+              - StaticText "Bitget เผยครึ่งแรกเดือนก.ค. เม็ดเงินไหลกลับเข้ากอง ETF คริปโท มองกรอบสำคัญ 63,000 - 66,000 ดอลลาร์ | The Better"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "efinanceThai"
+              - generic
+                - button "เพิ่มเติม - สรุปข่าวเด่นคริปโต ประจำวันที่ 17 กรกฎาคม 2569" [expanded=false, ref=e134]
+            - link "สรุปข่าวเด่นคริปโต ประจำวันที่ 17 กรกฎาคม 2569 - efinanceThai - เมื่อวานนี้" [ref=e88]
+              - StaticText "สรุปข่าวเด่นคริปโต ประจำวันที่ 17 กรกฎาคม 2569"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e47]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Share2Trade"
+                - generic
+                  - button "เพิ่มเติม - เปิด 13 หุ้นดัง! กลางปีมีปันผลระหว่างกาล หาจังหวะเก็บ รับยีลด์สูงถึง 4%" [expanded=false, ref=e143]
+              - link "เปิด 13 หุ้นดัง! กลางปีมีปันผลระหว่างกาล หาจังหวะเก็บ รับยีลด์สูงถึง 4% - Share2Trade - เมื่อวานนี้" [ref=e98]
+          - time
+            - StaticText "เมื่อวานนี้"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม - เปิด 13 หุ้นดัง! กลางปีมีปันผลระหว่างกาล หาจังหวะเก็บ รับยีลด์สูงถึง 4%" [ref=e89]
+            - image
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "มติชนออนไลน์"
+              - generic
+                - button "เพิ่มเติม - กองทุนน้ำมันฯ เคาะอัตราใหม่ ลดอุดหนุน ‘ดีเซล’ เหลือลิตรละ 6.95 บาท มีผลวันนี้" [expanded=false, ref=e135]
+            - link "กองทุนน้ำมันฯ เคาะอัตราใหม่ ลดอุดหนุน ‘ดีเซล’ เหลือลิตรละ 6.95 บาท มีผลวันนี้ - มติชนออนไลน์ - เมื่อวานนี้" [ref=e90]
+              - StaticText "กองทุนน้ำมันฯ เคาะอัตราใหม่ ลดอุดหนุน ‘ดีเซล’ เหลือลิตรละ 6.95 บาท มีผลวันนี้"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - ปลดล็อกเพดานดีเซล 35 บาทเปิดทางกองทุนน้ำมันฯบริหารตามกลไกตลาด | The Better" [expanded=false, ref=e136]
+            - link "ปลดล็อกเพดานดีเซล 35 บาทเปิดทางกองทุนน้ำมันฯบริหารตามกลไกตลาด | The Better - LINE TODAY - เมื่อวานนี้" [ref=e91]
+              - StaticText "ปลดล็อกเพดานดีเซล 35 บาทเปิดทางกองทุนน้ำมันฯบริหารตามกลไกตลาด | The Better"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "ผู้จัดการออนไลน์"
+              - generic
+                - button "เพิ่มเติม - กบง.ดอดยกเลิกเพดานราคาน้ำมัน 35 บาท/ลิตร เปิดช่องขยับขึ้นราคาขายปลีก หากราคาตลาดโลกพุ่ง" [expanded=false, ref=e137]
+            - link "กบง.ดอดยกเลิกเพดานราคาน้ำมัน 35 บาท/ลิตร เปิดช่องขยับขึ้นราคาขายปลีก หากราคาตลาดโลกพุ่ง - ผู้จัดการออนไลน์ - เมื่อวานนี้" [ref=e92]
+              - StaticText "กบง.ดอดยกเลิกเพดานราคาน้ำมัน 35 บาท/ลิตร เปิดช่องขยับขึ้นราคาขายปลีก หากราคาตลาดโลกพุ่ง"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "ประชาชาติธุรกิจ"
+              - generic
+                - button "เพิ่มเติม - เลิกเพดานน้ำมันลิตร 35 บาท กองทุนอ่วมอุ้ม B20-ตรึงLPG" [expanded=false, ref=e138]
+            - link "เลิกเพดานน้ำมันลิตร 35 บาท กองทุนอ่วมอุ้ม B20-ตรึงLPG - ประชาชาติธุรกิจ - 10 ชั่วโมงที่แล้ว" [ref=e93]
+              - StaticText "เลิกเพดานน้ำมันลิตร 35 บาท กองทุนอ่วมอุ้ม B20-ตรึงLPG"
+            - time
+              - StaticText "10 ชั่วโมงที่แล้ว"
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e48]
+            - image
+            - StaticText "ดูพาดหัวและความคิดเห็นเพิ่มเติม"
+        - generic
+          - separator
+          - generic
+            - generic
+              - StaticText "มติชนออนไลน์"
+              - generic
+                - button "เพิ่มเติม - เช็กช่องทาง-วิธีจอง พันธบัตรออมพลัส ดอกเบี้ยสูงสุด 2.80% เริ่มต้นเพียง 100 บาท" [expanded=false, ref=e139]
+            - link "เช็กช่องทาง-วิธีจอง พันธบัตรออมพลัส ดอกเบี้ยสูงสุด 2.80% เริ่มต้นเพียง 100 บาท - มติชนออนไลน์ - เมื่อวานนี้" [ref=e94]
+              - StaticText "เช็กช่องทาง-วิธีจอง พันธบัตรออมพลัส ดอกเบี้ยสูงสุด 2.80% เริ่มต้นเพียง 100 บาท"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "kapook.com"
+              - generic
+                - button "เพิ่มเติม - พันธบัตรออมพลัส 2569 มี 100 บาทก็ซื้อได้ ดอกเบี้ยสูงสุด 2.80% เช็กเงื่อนไข-วิธีซื้อที่นี่ !" [expanded=false, ref=e140]
+            - link "พันธบัตรออมพลัส 2569 มี 100 บาทก็ซื้อได้ ดอกเบี้ยสูงสุด 2.80% เช็กเงื่อนไข-วิธีซื้อที่นี่ ! - kapook.com - เมื่อวานนี้" [ref=e95]
+              - StaticText "พันธบัตรออมพลัส 2569 มี 100 บาทก็ซื้อได้ ดอกเบี้ยสูงสุด 2.80% เช็กเงื่อนไข-วิธีซื้อที่นี่ !"
+            - time
+              - StaticText "เมื่อวานนี้"
+          - generic
+            - generic
+              - StaticText "efinanceThai"
+              - generic
+                - button "เพิ่มเติม - ตลาดหลักทรัพย์ฯ ร่วมกับ สบน. ธปท. และ 24 ผู้จัดจำหน่าย เปิดจองซื้อพันธบัตรรัฐบาล “ออมพลัส” ผ่านบัญชีหุ้นไทยครั้งแรก" [expanded=false, ref=e141]
+            - link "ตลาดหลักทรัพย์ฯ ร่วมกับ สบน. ธปท. และ 24 ผู้จัดจำหน่าย เปิดจองซื้อพันธบัตรรัฐบาล “ออมพลัส” ผ่านบัญชีหุ้นไทยครั้งแรก - efinanceThai - 2 วันที่แล้ว" [ref=e96]
+              - StaticText "ตลาดหลักทรัพย์ฯ ร่วมกับ สบน. ธปท. และ 24 ผู้จัดจำหน่าย เปิดจองซื้อพันธบัตรรัฐบาล “ออมพลัส” ผ่านบัญชีหุ้นไทยครั้งแรก"
+            - time
+              - StaticText "2 วันที่แล้ว"
+          - generic
+            - generic
+              - StaticText "LINE TODAY"
+              - generic
+                - button "เพิ่มเติม - บล.หยวนต้า พร้อมขายพันธบัตรออมทรัพย์ “ออมพลัส” ผ่าน Bond Connect Platform เปิดจอง 3 ส.ค.นี้ | การเงินธนาคาร" [expanded=false, ref=e142]
+            - link "บล.หยวนต้า พร้อมขายพันธบัตรออมทรัพย์ “ออมพลัส” ผ่าน Bond Connect Platform เปิดจอง 3 ส.ค.นี้ | การเงินธนาคาร - LINE TODAY - เมื่อวานนี้" [ref=e97]
+          - link "ดูพาดหัวและความคิดเห็นเพิ่มเติม" [ref=e49]

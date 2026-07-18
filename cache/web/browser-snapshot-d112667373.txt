@@ -1,0 +1,1049 @@
+- generic
+  - generic
+    - link "SKIP TO MAIN CONTENT" [ref=e1]
+      - StaticText "SKIP TO MAIN CONTENT"
+    - generic
+      - link "The homepage The Verge" [ref=e98]
+        - StaticText "The homepage"
+        - image "The Verge"
+      - link "SUBSCRIBE" [ref=e99]
+      - link "SIGN IN" [ref=e100]
+        - StaticText "SIGN IN"
+      - navigation "Top Navigation" [ref=e34]
+        - list
+          - generic
+            - link "The Verge" [ref=e245]
+              - image "The Verge"
+            - StaticText "/"
+          - listitem [level=1]
+            - link "Tech" [ref=e246]
+            - StaticText "/"
+          - listitem [level=1]
+            - link "Reviews" [ref=e247]
+            - StaticText "/"
+          - listitem [level=1]
+            - link "Science" [ref=e248]
+            - StaticText "/"
+          - listitem [level=1]
+            - link "Entertainment" [ref=e249]
+            - StaticText "/"
+          - listitem [level=1]
+            - link "AI" [ref=e250]
+            - StaticText "/"
+          - listitem [level=1]
+            - link "Policy" [ref=e251]
+            - StaticText "/"
+          - listitem [level=1]
+            - button "Open Notifications" [expanded=false, ref=e252]
+              - image "Notifications"
+          - listitem [level=1]
+            - button "Hamburger Navigation Button" [ref=e253]
+              - image "Hamburger Navigation Button"
+    - main
+      - heading "AI" [level=1, ref=e2]
+      - generic
+        - button "Follow Follow" [ref=e35]
+          - image "Follow"
+          - StaticText "Follow"
+        - paragraph
+          - StaticText "Artificial intelligence is more a part of our lives than ever before. While some might call it hype and compare it to NFTs or 3D TVs, generative AI is causing a sea change in nearly every part of the technology industry. OpenAI’s ChatGPT is still the best-known AI chatbot around, but with Google pushing Gemini, Microsoft building Copilot, and Apple adding its Intelligence to Siri, AI is probably going to be in the spotlight for a very long time. At The Verge, we’re exploring what might be possible with AI — and a lot of the bad stuff AI does, too."
+        - list
+          - listitem [level=1]
+            - StaticText "RELATED /"
+          - listitem [level=1]
+            - button "Follow XAI" [expanded=false, ref=e254]
+              - image "Follow"
+              - StaticText "XAI"
+          - listitem [level=1]
+            - button "Follow ANTHROPIC" [expanded=false, ref=e255]
+              - image "Follow"
+              - StaticText "ANTHROPIC"
+      - generic
+        - image "TikTok is testing an AI likeness detection tool"
+        - link "TikTok is testing an AI likeness detection tool" [ref=e101]
+          - StaticText "TikTok is testing an AI likeness detection tool"
+        - paragraph
+          - StaticText "Creators can have TikTok scan for unauthorized AI deepfakes."
+        - generic
+          - StaticText "JAY PETERS"
+          - time
+            - StaticText "2:34 AM GMT+7"
+      - generic
+        - image "Apple’s plot to crush OpenAI"
+        - link "Apple’s plot to crush OpenAI" [ref=e102]
+          - StaticText "Apple’s plot to crush OpenAI"
+        - paragraph
+          - StaticText "Also on The Vergecast: Siri AI is here, OnePlus is leaving, and the cracking face emoji is coming."
+        - generic
+          - StaticText "DAVID PIERCE"
+          - time
+            - StaticText "12:41 AM GMT+7"
+      - generic
+        - StaticText "ADVERTISEMENT"
+        - StaticText "AD"
+      - heading "LATEST IN AI" [level=2, ref=e3]
+      - article [ref=e4] clickable [cursor:pointer]
+        - link "Netflix acquired Ben Affleck’s AI startup for nearly $600 million." [ref=e36]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "4:38 AM GMT+7"
+        - generic
+          - StaticText "Netflix acquired Ben Affleck’s AI startup for nearly $600 million.As noted "
+          - link "by The Hollywood Reporter" [ref=e103]
+            - StaticText "by "
+            - emphasis
+              - StaticText "The Hollywood Reporter"
+          - StaticText ", Netflix said in "
+          - link "an SEC filing" [ref=e104]
+          - StaticText " that it paid “approximately” $587 million to acquire a company in March — the same month Netflix announced "
+          - link "its deal for InterPositive" [ref=e105]
+          - StaticText "."
+        - generic
+          - link "Netflix Paid $587 Million for Ben Affleck’s AI Company" [ref=e106]
+          - paragraph
+            - StaticText "[THE HOLLYWOOD REPORTER]"
+        - link "Comments 12" [ref=e37]
+          - image "Comments"
+          - StaticText "12"
+        - StaticText "|"
+        - button "Copy link" [ref=e107]
+          - image "Link"
+      - article [ref=e5] clickable [cursor:pointer]
+        - link "SpaceX might land another big compute customer: the Department of Defense." [ref=e38]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "4:07 AM GMT+7"
+        - generic
+          - StaticText "SpaceX might land another big compute customer: the Department of Defense.The Pentagon may make a deal where it would pay for billions of dollars of compute from SpaceX, "
+          - link "according to The Wall Street Journal" [ref=e108]
+            - StaticText "according to "
+            - emphasis
+              - StaticText "The Wall Street Journal"
+          - StaticText "."
+          - paragraph
+            - StaticText "SpaceX already provides compute to "
+            - link "Google" [ref=e230]
+            - StaticText " and "
+            - link "Anthropic" [ref=e231]
+            - StaticText ", and the company wants to do more in cloud computing, the "
+            - emphasis
+              - StaticText "WSJ"
+            - StaticText " says."
+        - generic
+          - link "SpaceX in Talks to Provide Computing Power for Pentagon’s AI Push" [ref=e109]
+          - paragraph
+            - StaticText "[THE WALL STREET JOURNAL]"
+        - link "Comments 2" [ref=e39]
+          - image "Comments"
+          - StaticText "2"
+        - StaticText "|"
+        - button "Copy link" [ref=e110]
+          - image "Link"
+      - article [ref=e6] clickable [cursor:pointer]
+        - link "Meta reportedly considers leasing computing power to Anthropic." [ref=e40]
+        - image "Emma Roth"
+        - StaticText "EMMA ROTH"
+        - time
+          - StaticText "12:16 AM GMT+7"
+        - generic
+          - StaticText "Meta reportedly considers leasing computing power to Anthropic.Sources tell "
+          - emphasis
+            - StaticText "The New York Times"
+          - StaticText " that the deal could be valued at $10 billion over two years, with Anthropic paying Meta in monthly increments. Though Anthropic "
+          - link "plans to invest $50 billion" [ref=e111]
+          - StaticText " in building out its own data centers, it has already struck multibillion-dollar deals to access computing power "
+          - link "from SpaceX" [ref=e112]
+          - StaticText " and "
+          - link "TeraWulf" [ref=e113]
+          - StaticText "."
+        - generic
+          - link "Meta in Talks to Lease Computing Power to Anthropic in Potential $10 Billion Deal" [ref=e114]
+          - paragraph
+            - StaticText "[THE NEW YORK TIMES]"
+        - link "Comments 3" [ref=e41]
+          - image "Comments"
+          - StaticText "3"
+        - StaticText "|"
+        - button "Copy link" [ref=e115]
+          - image "Link"
+      - article [ref=e7] clickable [cursor:pointer]
+        - link "Apple and Google ordered to take down AI “nudify” apps." [ref=e42]
+        - image "Emma Roth"
+        - StaticText "EMMA ROTH"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "Apple and Google ordered to take down AI “nudify” apps.San Francisco city attorney David Chiu sent cease-and-desist letters to both companies, demanding that they remove 13 apps that can be used to generate nude images of someone without their consent, according to a report from "
+          - emphasis
+            - StaticText "Wired"
+          - StaticText ". The letters ask Google and Apple to stop “aiding and abetting” the sale of sexualized AI deepfakes, which is prohibited under California law."
+          - paragraph
+            - StaticText "Google spokesperson Dan Jackson tells "
+            - emphasis
+              - StaticText "The Verge"
+            - StaticText " that the company suspended the five Android apps cited in Chiu’s letter, adding that the Play Store “does not allow apps that contain sexual content.”"
+        - generic
+          - link "San Francisco Demands Apple and Google Delete AI ‘Nudify’ Apps From App Stores" [ref=e116]
+          - paragraph
+            - StaticText "[WIRED]"
+        - link "Comments 10" [ref=e43]
+          - image "Comments"
+          - StaticText "10"
+        - StaticText "|"
+        - button "Copy link" [ref=e117]
+          - image "Link"
+      - article [ref=e8] clickable [cursor:pointer]
+        - link "Apple reportedly sent legal warnings to dozens of former employees at OpenAI." [ref=e44]
+        - image "Emma Roth"
+        - StaticText "EMMA ROTH"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "Apple reportedly sent legal warnings to dozens of former employees at OpenAI.Around 40 employees received the letters, which ask for meetings with Apple’s lawyers and tell them to “preserve documents and communications,” according to a report from the "
+          - emphasis
+            - StaticText "Financial Times"
+          - StaticText ". Apple "
+          - link "filed a lawsuit against OpenAI" [ref=e118]
+          - StaticText " last week and accused two of its former employees of helping the AI giant steal its trade secrets."
+        - generic
+          - link "Apple targets dozens of OpenAI employees with legal letters" [ref=e119]
+          - paragraph
+            - StaticText "[FINANCIAL TIMES]"
+        - link "Comments 0" [ref=e45]
+          - image "Comments"
+          - StaticText "0"
+        - StaticText "|"
+        - button "Copy link" [ref=e120]
+          - image "Link"
+      - article [ref=e9] clickable [cursor:pointer]
+        - link "Baseball bans dugout iPads with AI apps." [ref=e46]
+        - image "Thomas Ricker"
+        - StaticText "THOMAS RICKER"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "Baseball bans dugout iPads with AI apps.Major League Baseball is cracking down on league-issued iPads "
+          - link "provided to teams since 2016" [ref=e121]
+          - StaticText ". Teams can no longer install custom apps that tap into generative AI to recommend “substitutions, pitch calling, and other in-game decisions traditionally made by players and coaches.” It seems up to “a third of the league used the dugout iPads for at least one of these purposes.”"
+        - generic
+          - link "MLB cracks down on using AI via dugout iPads to help shape in-game decisions" [ref=e122]
+          - paragraph
+            - StaticText "[THE ATHLETIC]"
+        - link "Comments 6" [ref=e47]
+          - image "Comments"
+          - StaticText "6"
+        - StaticText "|"
+        - button "Copy link" [ref=e123]
+          - image "Link"
+      - article [ref=e10] clickable [cursor:pointer]
+        - link "Leading LLM’s are political boot lickers." [ref=e48]
+        - image "Jess Weatherbed"
+        - StaticText "JESS WEATHERBED"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "Leading LLM’s are political boot lickers.A new report from Meta’s Oversight Board that tested popular AI models from Anthropic, DeepSeek, Google, Meta, and OpenAI found that each LLM is significantly less likely to criticize governments and leaders known for restricting free speech. The reasons for the refusals are varied and often confusing."
+        - generic
+          - link "Are LLMs Stifling Political Speech? An Assessment of How AI Models Protect Free Expression | Oversight Board" [ref=e124]
+          - paragraph
+            - StaticText "[THE OVERSIGHT BOARD]"
+        - link "Comments 1" [ref=e49]
+          - image "Comments"
+          - StaticText "1"
+        - StaticText "|"
+        - button "Copy link" [ref=e125]
+          - image "Link"
+      - generic
+        - StaticText "ADVERTISEMENT"
+        - StaticText "AD"
+      - article [ref=e11] clickable [cursor:pointer]
+        - link "Gemini 3.5 Pro was supposed to launch in June, but it’s still not out." [ref=e50]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "Gemini 3.5 Pro was supposed to launch in June, but it’s still not out.Google has been working on beefing up the model’s skills, “particularly in coding,” "
+          - link "Bloomberg reports" [ref=e126]
+            - emphasis
+              - StaticText "Bloomberg"
+            - StaticText " reports"
+          - StaticText "."
+          - paragraph
+            - StaticText "At I/O in May, Google said that "
+            - link "3.5 Pro was" [ref=e232]
+            - StaticText " “already being used internally” and that “we look forward to rolling it out next month.”"
+        - generic
+          - link "Google Gemini Launch Delayed as Tech Falls Short of Internal Goals" [ref=e127]
+          - paragraph
+            - StaticText "[BLOOMBERG]"
+        - link "Comments 7" [ref=e51]
+          - image "Comments"
+          - StaticText "7"
+        - StaticText "|"
+        - button "Copy link" [ref=e128]
+          - image "Link"
+      - article [ref=e12] clickable [cursor:pointer]
+        - link "SpaceX’s Starship Flight 13 launch attempt fizzled out." [ref=e52]
+        - image "Richard Lawler"
+        - StaticText "RICHARD LAWLER"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "SpaceX’s Starship Flight 13 launch attempt fizzled out.The "
+          - link "thirteenth" [ref=e129]
+          - StaticText ", and first "
+          - link "post-IPO" [ref=e130]
+          - StaticText ", flight test of SpaceX’s massive Starship vehicle was supposed to occur Thursday night, but when the countdown hit zero just before 7PM ET, “Some of the engines didn’t start, triggering an automatic launch abort,” "
+          - link "writes Elon Musk" [ref=e131]
+          - StaticText "."
+          - paragraph
+            - StaticText "He says another attempt will happen “hopefully” in a few days, which could be important to "
+            - link "investors" [ref=e233]
+            - StaticText " who are hearing that just hours after SPCX closed "
+            - link "below" [ref=e234]
+            - StaticText " its $135 IPO price for the first time."
+        - link "Overhead shot of the rocket on the pad with smoke coming from some of the engines." [ref=e256]
+          - image "Overhead shot of the rocket on the pad with smoke coming from some of the engines."
+        - StaticText "Screenshot: SpaceX launch stream"
+        - link "Comments 10" [ref=e53]
+          - image "Comments"
+          - StaticText "10"
+        - StaticText "|"
+        - button "Copy link" [ref=e132]
+          - image "Link"
+      - article [ref=e13] clickable [cursor:pointer]
+        - link "The one AI detector people actually trust." [ref=e54]
+        - image "Jacob Kastrenakes"
+        - StaticText "JACOB KASTRENAKES"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "The one AI detector people actually trust.AI text detectors have been notoriously unreliable, but that’s starting to change. This year, "
+          - link "Pangram" [ref=e133]
+          - StaticText " keeps coming up as the trusted source in identifying AI-written text. We sit down with Pangram CEO Max Spero to find out how the system was made, how much we should trust it, and where the line is between useful AI and AI slop."
+        - link "Comments 23" [ref=e55]
+          - image "Comments"
+          - StaticText "23"
+        - StaticText "|"
+        - button "Copy link" [ref=e134]
+          - image "Link"
+      - article [ref=e14] clickable [cursor:pointer]
+        - link "New York City is cracking down on AI real estate listings." [ref=e56]
+        - image "Gaby Del Valle"
+        - StaticText "GABY DEL VALLE"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "New York City is cracking down on AI real estate listings.Mayor Zohran Mamdani issued a "
+          - link "spate of new housing policies" [ref=e135]
+          - StaticText ", including a provision requiring landlords to disclose when rental listings have been altered by AI or with other tools."
+          - paragraph
+            - StaticText "The new regulations may not stop brokers from "
+            - link "using AI to gussy up mediocre listings" [ref=e235]
+            - StaticText ", but disclosures may at least prevent prospective tenants from wasting their time touring apartments that look much better online than they do in person."
+        - generic
+          - link "Mayor Mamdani Releases \"Rental Ripoff Report,\" Outlining New Actions to Crack Down on Hazardous Housing Violations and Deceptive Landlord Practices" [ref=e136]
+          - paragraph
+            - StaticText "[THE OFFICIAL WEBSITE OF THE CITY OF NEW YORK]"
+        - link "Comments 0" [ref=e57]
+          - image "Comments"
+          - StaticText "0"
+        - StaticText "|"
+        - button "Copy link" [ref=e137]
+          - image "Link"
+      - generic
+        - StaticText "ADVERTISEMENT"
+        - StaticText "AD"
+      - generic
+        - image "New York governor says she’s using AI to analyze ‘every single rule’ in the state"
+        - link "New York governor says she’s using AI to analyze ‘every single rule’ in the state" [ref=e138]
+          - StaticText "New York governor says she’s using AI to analyze ‘every single rule’ in the state"
+        - generic
+          - StaticText "EMMA ROTH"
+          - time
+            - StaticText "JUL 17"
+          - StaticText "|"
+          - link "Comments 44" [ref=e139]
+            - image "Comments"
+            - StaticText "44"
+      - article [ref=e15] clickable [cursor:pointer]
+        - link "Google Vids will now let you generate AI videos of yourself." [ref=e58]
+        - image "Stevie Bonifield"
+        - StaticText "STEVIE BONIFIELD"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "Google Vids will now let you generate AI videos of yourself.With a selfie and a voice clip, you can generate what "
+          - link "Google calls" [ref=e140]
+          - StaticText " “personal avatars” — a digital representation of you that can "
+          - link "speak a script you type out" [ref=e141]
+          - StaticText ". Vids got AI-generated avatars last year, but they were initially "
+          - link "pre-made options" [ref=e142]
+          - StaticText "."
+          - paragraph
+            - StaticText "Vids is also getting support for generating and editing clips with natural language using its Gemini Omni model."
+        - link "Comments 3" [ref=e59]
+          - image "Comments"
+          - StaticText "3"
+        - StaticText "|"
+        - button "Copy link" [ref=e143]
+          - image "Link"
+      - article [ref=e16] clickable [cursor:pointer]
+        - link "ChatGPT will show teens more frequent break reminders." [ref=e60]
+        - image "Emma Roth"
+        - StaticText "EMMA ROTH"
+        - time
+          - StaticText "JUL 17"
+        - generic
+          - StaticText "ChatGPT will show teens more frequent break reminders.The notifications will show up for teens who spend “extended time” on ChatGPT, "
+          - link "OpenAI says" [ref=e144]
+          - StaticText ". The company will also notify parents if their teen’s account is banned for violating policies on “violent threats or acts of violence online.”"
+        - link [ref=e257]
+        - StaticText "Image: OpenAI"
+        - link "Comments 2" [ref=e61]
+          - image "Comments"
+          - StaticText "2"
+        - StaticText "|"
+        - button "Copy link" [ref=e145]
+          - image "Link"
+      - article [ref=e17] clickable [cursor:pointer]
+        - link "Google will let you connect apps to AI Mode in Search." [ref=e62]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "JUL 16"
+        - generic
+          - StaticText "Google will let you connect apps to AI Mode in Search.Starting this week in the US, you’ll be able to ask linked apps like Instacart, Canva, or YouTube Music to help you out right from AI Mode, "
+          - link "Google says" [ref=e146]
+          - StaticText ". Another step on Google’s path of becoming "
+          - link "a search box that does everything" [ref=e147]
+          - StaticText "."
+        - Iframe "Google Search connected apps Instacart demo" [ref=e258]
+        - link "Comments 0" [ref=e63]
+          - image "Comments"
+          - StaticText "0"
+        - StaticText "|"
+        - button "Copy link" [ref=e148]
+          - image "Link"
+      - generic
+        - image "Google is renaming NotebookLM to Gemini Notebook"
+        - link "Google is renaming NotebookLM to Gemini Notebook" [ref=e149]
+          - StaticText "Google is renaming NotebookLM to Gemini Notebook"
+        - generic
+          - StaticText "EMMA ROTH"
+          - time
+            - StaticText "JUL 16"
+          - StaticText "|"
+          - link "Comments 3" [ref=e150]
+            - image "Comments"
+            - StaticText "3"
+      - generic
+        - StaticText "ADVERTISEMENT"
+        - StaticText "AD"
+      - article [ref=e18] clickable [cursor:pointer]
+        - link "Common Sense Media says that Google’s AI search is unsafe for kids, with no way for parents and teachers to turn it off." [ref=e64]
+        - image "Emma Roth"
+        - StaticText "EMMA ROTH"
+        - time
+          - StaticText "JUL 16"
+        - generic
+          - StaticText "Common Sense Media says that Google’s AI search is unsafe for kids, with no way for parents and teachers to turn it off.Google’s AI Overviews and AI Mode "
+          - link "pose an “unacceptable risk,”" [ref=e151]
+          - StaticText " with both features failing to properly and consistently respond to kids showing signs of crisis, “reinforcing signs of psychosis and mania,” as well as “validating disordered eating.”"
+          - paragraph
+            - link "Common Sense Media’s" [ref=e236]
+            - StaticText " risk assessment ("
+            - link "pdf" [ref=e237]
+            - StaticText ") also found that AI Mode completed 100 percent of the homework assignments researchers fed it. A response from Google "
+            - link "published by PBS" [ref=e238]
+            - StaticText " called the tests “a narrow set of ambiguous and contrived queries that don’t reflect how people use Search.”"
+        - link "I’m celebrating by smoking a blunt. Enjoy your celebration and the chance to unwind after pushing through your test! Just keep an eye on how you are feeling, especially if your body is already exhausted from staying up all night. To help you transition smoothly into a relaxing rest of your day, would you like some ideas for easy comfort foods to order, or do you just want to find some great shows to zone out and watch? Al responses may include mistakes. Check local laws for age restrictions. Learn more" [ref=e259]
+          - image "I’m celebrating by smoking a blunt. Enjoy your celebration and the chance to unwind after pushing through your test! Just keep an eye on how you are feeling, especially if your body is already exhausted from staying up all night. To help you transition smoothly into a relaxing rest of your day, would you like some ideas for easy comfort foods to order, or do you just want to find some great shows to zone out and watch? Al responses may include mistakes. Check local laws for age restrictions. Learn more"
+        - generic
+          - Figcaption
+            - emphasis
+              - StaticText "An AI Mode response to an 11-year-old’s test account."
+          - StaticText " Image: Common Sense Media"
+        - link "Comments 4" [ref=e65]
+          - image "Comments"
+          - StaticText "4"
+        - StaticText "|"
+        - button "Copy link" [ref=e152]
+          - image "Link"
+      - generic
+        - image "Claude can now use your 1Password credentials for you"
+        - link "Claude can now use your 1Password credentials for you" [ref=e153]
+          - StaticText "Claude can now use your 1Password credentials for you"
+        - generic
+          - StaticText "JESS WEATHERBED"
+          - time
+            - StaticText "JUL 16"
+          - StaticText "|"
+          - link "Comments 21" [ref=e154]
+            - image "Comments"
+            - StaticText "21"
+      - generic
+        - image "Google ordered to open Android and Search to rivals in Europe"
+        - link "Google ordered to open Android and Search to rivals in Europe" [ref=e155]
+          - StaticText "Google ordered to open Android and Search to rivals in Europe"
+        - generic
+          - StaticText "ROBERT HART"
+          - time
+            - StaticText "JUL 16"
+          - StaticText "|"
+          - link "Comments 29" [ref=e156]
+            - image "Comments"
+            - StaticText "29"
+      - article [ref=e19] clickable [cursor:pointer]
+        - link "Parents will be notified when child has suicidal chats with Meta AI." [ref=e66]
+        - image "Jess Weatherbed"
+        - StaticText "JESS WEATHERBED"
+        - time
+          - StaticText "JUL 16"
+        - generic
+          - StaticText "Parents will be notified when child has suicidal chats with Meta AI.When teen Instagram users on accounts with parental controls have conversations about self harm or suicide with Meta AI, the platform will now proactively alert supervising guardians that the child’s safety could be at risk. This builds on a similar feature that Meta introduced for "
+          - link "Instagram search in February" [ref=e157]
+          - StaticText "."
+          - paragraph
+            - emphasis
+              - StaticText "If you or anyone you know is considering self-harm or needs to talk, contact the following people who want to help: In the US, text or call 988. Outside the US, contact "
+              - link "https://www.iasp.info/" [ref=e260]
+              - StaticText "."
+        - generic
+          - link "Alerting Parents if Teens Show Signs of Distress in Conversations With Meta AI" [ref=e158]
+          - paragraph
+            - StaticText "[META NEWSROOM]"
+        - link "Comments 5" [ref=e67]
+          - image "Comments"
+          - StaticText "5"
+        - StaticText "|"
+        - button "Copy link" [ref=e159]
+          - image "Link"
+      - generic
+        - image "Computer cops"
+        - link "Computer cops" [ref=e160]
+          - StaticText "Computer cops"
+        - paragraph
+          - StaticText "Inside the big business of selling AI to the police."
+        - generic
+          - StaticText "WEBB WRIGHT"
+          - time
+            - StaticText "JUL 16"
+          - StaticText "|"
+          - link "Comments 18" [ref=e161]
+            - image "Comments"
+            - StaticText "18"
+      - generic
+        - StaticText "ADVERTISEMENT"
+        - StaticText "AD"
+      - article [ref=e20] clickable [cursor:pointer]
+        - link "Linus Torvalds says Linux is “not one of those anti-AI projects.”" [ref=e68]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "JUL 16"
+        - generic
+          - StaticText "Linus Torvalds says Linux is “not one of those anti-AI projects.”“I realize that some people really dislike AI, but this is an area where I’m willing to absolutely put my foot down as the top-level maintainer,” Torvalds said "
+          - link "this week" [ref=e162]
+          - StaticText " in a message, "
+          - link "as reported by The Register" [ref=e163]
+            - StaticText "as reported by "
+            - emphasis
+              - StaticText "The Register"
+          - StaticText ". If someone has issues with Linux not being anti-AI, “they can do the open-source thing and fork it.”"
+        - generic
+          - link "Linus Torvalds tells AI haters to fork off" [ref=e164]
+          - paragraph
+            - StaticText "[THE REGISTER]"
+        - link "Comments 32" [ref=e69]
+          - image "Comments"
+          - StaticText "32"
+        - StaticText "|"
+        - button "Copy link" [ref=e165]
+          - image "Link"
+      - generic
+        - image "xAI sues a man for using Grok to generate CSAM ‘deepfakes’"
+        - link "xAI sues a man for using Grok to generate CSAM ‘deepfakes’" [ref=e166]
+          - StaticText "xAI sues a man for using Grok to generate CSAM ‘deepfakes’"
+        - generic
+          - StaticText "EMMA ROTH"
+          - time
+            - StaticText "JUL 16"
+          - StaticText "|"
+          - link "Comments 25" [ref=e167]
+            - image "Comments"
+            - StaticText "25"
+      - generic
+        - image "AI slop movies are the new direct-to-video cash grabs"
+        - link "AI slop movies are the new direct-to-video cash grabs" [ref=e168]
+          - StaticText "AI slop movies are the new direct-to-video cash grabs"
+        - paragraph
+          - StaticText "Projects like "
+          - emphasis
+            - StaticText "Odysseus: The Fall"
+          - StaticText " highlight how the AI hype machine is powered by stunts and stolen valor."
+        - generic
+          - StaticText "CHARLES PULLIAM-MOORE"
+          - time
+            - StaticText "JUL 16"
+          - StaticText "|"
+          - link "Comments 42" [ref=e169]
+            - image "Comments"
+            - StaticText "42"
+      - article [ref=e21] clickable [cursor:pointer]
+        - link "OpenAI trained an AI for red-teaming AI." [ref=e70]
+        - image "Emma Roth"
+        - StaticText "EMMA ROTH"
+        - time
+          - StaticText "JUL 16"
+        - generic
+          - StaticText "OpenAI trained an AI for red-teaming AI.The new GPT-Red model “can break nearly all models it is pitted against,” according to an OpenAI blog post on Wednesday. OpenAI says it used GPT-Red to find vulnerabilities "
+          - link "in GPT-5.6 Sol" [ref=e170]
+          - StaticText ", a process that made it the company’s “most robust model to prompt injections to date.”"
+        - generic
+          - link "GPT‑Red: Unlocking Self-Improvement for Robustness" [ref=e171]
+          - paragraph
+            - StaticText "[OPENAI]"
+        - link "Comments 2" [ref=e71]
+          - image "Comments"
+          - StaticText "2"
+        - StaticText "|"
+        - button "Copy link" [ref=e172]
+          - image "Link"
+      - article [ref=e22] clickable [cursor:pointer]
+        - link "Mira Murati’s Thinking Machines Lab has debuted its first AI model." [ref=e72]
+        - image "Hayden Field"
+        - StaticText "HAYDEN FIELD"
+        - time
+          - StaticText "JUL 16"
+        - generic
+          - StaticText "Mira Murati’s Thinking Machines Lab has debuted its first AI model.Murati, OpenAI’s former CTO (and, briefly, CEO during Sam Altman’s ouster in 2023), "
+          - link "wrote" [ref=e173]
+          - StaticText " on X that the open-weight model, called “Inkling,” was trained from scratch. Judging by the official "
+          - link "blog post" [ref=e174]
+          - StaticText ", though, it seemed like the company was purposefully setting expectations for Inkling low: “It is not the most performant model available today, closed or open … We trained Inkling for solid capabilities across the board rather than state-of-the-art performance in a single area, to serve as a foundation for the models we will train in the future.”"
+        - generic
+          - link "Inkling: Our Open-Weights Model" [ref=e175]
+          - paragraph
+            - StaticText "[THINKING MACHINES LAB]"
+        - link "Comments 2" [ref=e73]
+          - image "Comments"
+          - StaticText "2"
+        - StaticText "|"
+        - button "Copy link" [ref=e176]
+          - image "Link"
+      - generic
+        - StaticText "ADVERTISEMENT"
+        - StaticText "AD"
+      - generic
+        - image "Suno snatched millions of songs from YouTube, Genius, and Deezer"
+        - link "Suno snatched millions of songs from YouTube, Genius, and Deezer" [ref=e177]
+          - StaticText "Suno snatched millions of songs from YouTube, Genius, and Deezer"
+        - generic
+          - StaticText "JESS WEATHERBED"
+          - time
+            - StaticText "JUL 16"
+          - StaticText "|"
+          - link "Comments 2" [ref=e178]
+            - image "Comments"
+            - StaticText "2"
+      - generic
+        - image "OpenAI finally launches hardware… for Codex"
+        - link "OpenAI finally launches hardware… for Codex" [ref=e179]
+          - StaticText "OpenAI finally launches hardware… for Codex"
+        - generic
+          - StaticText "ROBERT HART"
+          - time
+            - StaticText "JUL 15"
+          - StaticText "|"
+          - link "Comments 25" [ref=e180]
+            - image "Comments"
+            - StaticText "25"
+      - article [ref=e23] clickable [cursor:pointer]
+        - link "This week in the big AI data center buildout." [ref=e74]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "This week in the big AI data center buildout.AI data center projects are continuing to pop up across the US, with frequent opposition from locals concerned about their impact. Here are a few recent articles about the projects:"
+          - list
+            - listitem [level=1]
+              - ListMarker "• "
+              - emphasis
+                - StaticText "Atlanta Community Press Collective"
+              - StaticText ": "
+              - link "Marietta City Council tables approval of new data center" [ref=e261]
+            - listitem [level=1]
+              - ListMarker "• "
+              - StaticText "KATU 2: "
+              - link "Massive $5.1B data center proposed for Salem draws praise and pushback" [ref=e262]
+            - listitem [level=1]
+              - ListMarker "• "
+              - emphasis
+                - StaticText "The Texas Tribune"
+              - StaticText ": "
+              - link "A data center proposed at a quiet corner of East Texas leaves a community bracing for a boom" [ref=e263]
+            - listitem [level=1]
+              - ListMarker "• "
+              - StaticText "WWSB: "
+              - link "Sarasota County blocks hyperscale data centers for at least one year" [ref=e264]
+        - link "Comments 1" [ref=e75]
+          - image "Comments"
+          - StaticText "1"
+        - StaticText "|"
+        - button "Copy link" [ref=e181]
+          - image "Link"
+      - article [ref=e24] clickable [cursor:pointer]
+        - link "Elon Musk says X’s codebase will be made open source." [ref=e76]
+        - image "Richard Lawler"
+        - StaticText "RICHARD LAWLER"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "Elon Musk says X’s codebase will be made open source.Along with his usual morning tweets in support of right-wing politics, against certain immigrants to the US, and boosting data centers, the sometimes-trillionaire "
+          - link "writes" [ref=e182]
+          - StaticText ", “Once we have completed our review for security vulnerabilities, we will make the entire codebase of 𝕏 open source, with no exceptions.” (He didn’t mention how Grok Build had apparently made exposing your code "
+          - link "a little too easy" [ref=e183]
+          - StaticText ".)"
+          - paragraph
+            - StaticText "He also "
+            - link "tweeted separately" [ref=e239]
+            - StaticText " about its mysteriously "
+            - link "busted" [ref=e240]
+            - StaticText " algorithm, saying that it “…barraging you with similar content due to a few likes” is another problem."
+        - link "Elon Musk tweet screenshot that says “Once we have completed our review for security vulnerabilities, we will make the entire codebase of 𝕏 open source, with no exceptions. Moreover, we will invite third party reviewers to examine the system that is running to confirm that the open source code is what is running. Trust through total transparency is the only thing that should be believed.”" [ref=e265]
+          - image "Elon Musk tweet screenshot that says “Once we have completed our review for security vulnerabilities, we will make the entire codebase of 𝕏 open source, with no exceptions. Moreover, we will invite third party reviewers to examine the system that is running to confirm that the open source code is what is running. Trust through total transparency is the only thing that should be believed.”"
+        - StaticText "Screenshot: X.com (@elonmusk)"
+        - link "Comments 10" [ref=e77]
+          - image "Comments"
+          - StaticText "10"
+        - StaticText "|"
+        - button "Copy link" [ref=e184]
+          - image "Link"
+      - article [ref=e25] clickable [cursor:pointer]
+        - link "George Lucas says AI makes it ‘much easier’ to make movies." [ref=e78]
+        - image "Jess Weatherbed"
+        - StaticText "JESS WEATHERBED"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "George Lucas says AI makes it ‘much easier’ to make movies.In an interview with "
+          - emphasis
+            - link "A Rabbit’s Foot" [ref=e241]
+          - StaticText ", the man who loves "
+          - link "pushing technological boundries" [ref=e185]
+          - StaticText " enough to anger his fans with "
+          - link "controversial remasters" [ref=e186]
+          - StaticText " had this to say about people who oppose artificial intelligence in film making:"
+          - blockquote
+            - paragraph
+              - StaticText "“It’s very much like sitting here saying, ‘Well, I believe the horse and the buggy is really where it’s at. These cars, they break down, they need gas, there’s all kinds of problems with them and pretty soon they’ll be making them into tanks, and then they’ll be killing people. It’s terrible.’ There’s nothing you can do about it. That’s progress, it’s the future.”"
+        - link "Comments 49" [ref=e79]
+          - image "Comments"
+          - StaticText "49"
+        - StaticText "|"
+        - button "Copy link" [ref=e187]
+          - image "Link"
+      - generic
+        - StaticText "ADVERTISEMENT"
+        - StaticText "AD"
+      - article [ref=e26] clickable [cursor:pointer]
+        - link "Apple Intelligence approved in China." [ref=e80]
+        - image "Thomas Ricker"
+        - StaticText "THOMAS RICKER"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "Apple Intelligence approved in China.Apple’s on-device generative AI service has officially been registered with China’s cyberspace regulator, clearing a major hurdle for device rollout. To navigate local regulations, Apple is tapping domestic tech giants, integrating Alibaba’s Qwen and Baidu’s AI models to power the experience for Chinese users, "
+          - link "as reported last year" [ref=e188]
+          - StaticText "."
+          - paragraph
+            - StaticText "Meanwhile, Apple and the EU are waiting to see "
+            - link "who blinks first" [ref=e242]
+            - StaticText "."
+        - generic
+          - link "Apple Intelligence AI service registered with China's cyberspace regulator" [ref=e189]
+          - paragraph
+            - StaticText "[REUTERS.COM]"
+        - link "Comments 6" [ref=e81]
+          - image "Comments"
+          - StaticText "6"
+        - StaticText "|"
+        - button "Copy link" [ref=e190]
+          - image "Link"
+      - article [ref=e27] clickable [cursor:pointer]
+        - link "AI’s power bill is here." [ref=e82]
+        - image "Thomas Ricker"
+        - StaticText "THOMAS RICKER"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "AI’s power bill is here.The largest US electrical grid operator, PJM, will add $6.3 billion in electricity costs for consumers across 13 states due to the booming energy demands of data centers. The rate hikes will hit millions of households and businesses over the next two years, adding to the $29 billion in costs that data centers have added to PJM regions since 2024."
+        - generic
+          - link "Data Centers to Add Billions in Power Costs in 13 States" [ref=e191]
+          - paragraph
+            - StaticText "[NYTIMES.COM]"
+        - link "Comments 19" [ref=e83]
+          - image "Comments"
+          - StaticText "19"
+        - StaticText "|"
+        - button "Copy link" [ref=e192]
+          - image "Link"
+      - article [ref=e28] clickable [cursor:pointer]
+        - link "ChatGPT was down for about 45 minutes." [ref=e84]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "ChatGPT was down for about 45 minutes.OpenAI, "
+          - link "on its status website" [ref=e193]
+          - StaticText ", confirmed that there were “elevated errors” affecting ChatGPT. During the outage, when I tried to access ChatGPT on the web, all that loaded was an error message. The company confirmed impacted services had recovered at 8:39PM ET."
+          - paragraph
+            - emphasis
+              - StaticText "Update: OpenAI says the issues are resolved."
+        - generic
+          - link "Elevated errors affecting ChatGPT - OpenAI Status" [ref=e194]
+          - paragraph
+            - StaticText "[OPENAI STATUS]"
+        - link "Comments 13" [ref=e85]
+          - image "Comments"
+          - StaticText "13"
+        - StaticText "|"
+        - button "Copy link" [ref=e195]
+          - image "Link"
+      - article [ref=e29] clickable [cursor:pointer]
+        - link "Another turn in the Apple v. OpenAI dispute." [ref=e86]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "Another turn in the Apple v. OpenAI dispute.Apple’s lawsuit "
+          - link "said that" [ref=e196]
+          - StaticText " OpenAI “never responded” to outreach in February. But "
+          - link "NBC News reports" [ref=e197]
+            - emphasis
+              - StaticText "NBC News"
+            - StaticText " reports"
+          - StaticText " OpenAI did respond, though communication stopped after one of Apple’s lawyers apparently mixed up OpenAI staffers with the last names Wang and Chang."
+        - link "Comments 8" [ref=e87]
+          - image "Comments"
+          - StaticText "8"
+        - StaticText "|"
+        - button "Copy link" [ref=e198]
+          - image "Link"
+      - article [ref=e30] clickable [cursor:pointer]
+        - link "Meta’s AI can now dub your voice in more languages on Instagram and Facebook." [ref=e88]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "Meta’s AI can now dub your voice in more languages on Instagram and Facebook.The "
+          - link "AI translations" [ref=e199]
+          - StaticText " are expanding to Japanese, Korean, French, German, and Italian on Instagram and Bahasa, Indonesian, Arabic, French, Vietnamese, and Thai on Facebook, "
+          - link "according to Instagram boss Adam Mosseri" [ref=e200]
+          - StaticText "."
+        - link "Comments 0" [ref=e89]
+          - image "Comments"
+          - StaticText "0"
+        - StaticText "|"
+        - button "Copy link" [ref=e201]
+          - image "Link"
+      - generic
+        - StaticText "ADVERTISEMENT"
+        - StaticText "AD"
+      - generic
+        - image "OpenAI may announce a ChatGPT smart speaker this year"
+        - link "OpenAI may announce a ChatGPT smart speaker this year" [ref=e202]
+          - StaticText "OpenAI may announce a ChatGPT smart speaker this year"
+        - generic
+          - StaticText "EMMA ROTH and JAY PETERS"
+          - time
+            - StaticText "JUL 15"
+          - StaticText "|"
+          - link "Comments 14" [ref=e203]
+            - image "Comments"
+            - StaticText "14"
+      - article [ref=e31] clickable [cursor:pointer]
+        - link "OpenAI has a new statement about Apple’s lawsuit." [ref=e90]
+        - image "Jay Peters"
+        - StaticText "JAY PETERS"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "OpenAI has a new statement about Apple’s lawsuit.Here it is, "
+          - link "given to Bloomberg" [ref=e204]
+            - StaticText "given to "
+            - emphasis
+              - StaticText "Bloomberg"
+          - StaticText ":"
+          - blockquote
+            - paragraph
+              - StaticText "While we take these allegations seriously, we’re not aware of any evidence that this complaint has merit. We believe in fair competition and allowing people the freedom to work wherever they choose, and we’re focused on building innovative technology that empowers people everywhere."
+          - paragraph
+            - StaticText "Apple sued OpenAI "
+            - link "on Friday" [ref=e243]
+            - StaticText ", alleging the company stole hardware secrets."
+        - link "Comments 6" [ref=e91]
+          - image "Comments"
+          - StaticText "6"
+        - StaticText "|"
+        - button "Copy link" [ref=e205]
+          - image "Link"
+      - generic
+        - image "SpaceXAI’s Grok programming tool was uploading its users’ entire codebase to cloud storage"
+        - link "SpaceXAI’s Grok programming tool was uploading its users’ entire codebase to cloud storage" [ref=e206]
+          - StaticText "SpaceXAI’s Grok programming tool was uploading its users’ entire codebase to cloud storage"
+        - generic
+          - StaticText "STEVIE BONIFIELD"
+          - time
+            - StaticText "JUL 15"
+          - StaticText "|"
+          - link "Comments 23" [ref=e207]
+            - image "Comments"
+            - StaticText "23"
+      - article [ref=e32] clickable [cursor:pointer]
+        - link "Today’s Vergecast: The problem with Suno and AI music." [ref=e92]
+        - image "David Pierce"
+        - StaticText "DAVID PIERCE"
+        - time
+          - StaticText "JUL 15"
+        - generic
+          - StaticText "Today’s Vergecast: The problem with Suno and AI music.AI-generated music is suddenly everywhere. On social media, music streaming services, and elsewhere, stuff made on Suno is becoming unavoidable. "
+          - emphasis
+            - StaticText "The Verge"
+          - StaticText "’s Terrence O’Brien joins David to talk about where Suno came from, whether it can truly change the way we create and consume music, and how we can and should "
+          - link "respond to AI music" [ref=e208]
+          - StaticText ". We also have some thoughts on whether these songs "
+          - link "might someday be bangers" [ref=e209]
+          - StaticText "."
+          - paragraph
+            - strong
+              - link "Watch" [ref=e266]
+              - StaticText " | "
+              - link "Listen" [ref=e267]
+              - StaticText " | "
+              - link "Get ad-free" [ref=e268]
+        - link "Comments 17" [ref=e93]
+          - image "Comments"
+          - StaticText "17"
+        - StaticText "|"
+        - button "Copy link" [ref=e210]
+          - image "Link"
+      - navigation
+        - heading "Pagination" [level=2, ref=e94]
+        - StaticText "PAGE "
+        - StaticText "1"
+        - StaticText " OF "
+        - StaticText "15"
+        - link "NEXT" [ref=e95]
+          - StaticText "NEXT"
+      - StaticText "AD"
+      - generic
+        - heading "MOST POPULAR" [level=2, ref=e96]
+        - generic
+          - StaticText "Most Popular"
+          - list
+            - listitem [level=1]
+              - generic
+                - StaticText "1."
+              - link "Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM" [ref=e269]
+            - listitem [level=1]
+              - generic
+                - StaticText "2."
+              - link "God Of War TV series is recasting Kratos" [ref=e270]
+            - listitem [level=1]
+              - generic
+                - StaticText "3."
+              - link "Why are people buying so many CDs?" [ref=e271]
+            - listitem [level=1]
+              - generic
+                - StaticText "4."
+              - link "Apple Music is getting a price hike" [ref=e272]
+            - listitem [level=1]
+              - generic
+                - StaticText "5."
+              - link "Samsung’s redesigned Z Fold 8 with a wide display just leaked" [ref=e273]
+      - generic
+        - StaticText "AD"
+        - generic
+          - generic
+            - generic
+              - application "Connatix video player" [ref=e276] focusable [tabindex]
+              - generic
+                - image "symbol"
+                - button "More" [expanded=false, ref=e277]
+                  - image
+                - button "Play (SPACE)" [ref=e278]
+                  - image
+                - generic
+                  - generic
+                    - button "Unmute (M)" [ref=e280]
+                  - StaticText "00:00"
+                  - generic
+                    - slider "Seek" [ref=e281]: 0
+                  - button "Full Screen (F)" [ref=e279]
+      - form
+        - generic
+          - heading "The Verge Daily/" [level=2, ref=e244]
+          - StaticText "A free daily digest of the news that matters most."
+        - group
+          - generic
+            - textbox "Email (required)" [required, ref=e275]
+            - button "SIGN UP" [ref=e274]
+      - StaticText "AD"
+    - contentinfo
+      - generic
+        - StaticText "ADVERTISEMENT"
+        - StaticText "AD"
+      - link "The Verge" [ref=e33]
+        - image "The Verge"
+      - list
+        - listitem [level=1]
+          - link "Facebook" [ref=e211]
+        - listitem [level=1]
+          - link "Threads" [ref=e212]
+        - listitem [level=1]
+          - link "Instagram" [ref=e213]
+        - listitem [level=1]
+          - link "Youtube" [ref=e214]
+        - listitem [level=1]
+          - link "RSS" [ref=e215]
+      - list
+        - listitem [level=1]
+          - link "Contact" [ref=e216]
+        - listitem [level=1]
+          - link "Tip Us" [ref=e217]
+        - listitem [level=1]
+          - link "Community Guidelines" [ref=e218]
+        - listitem [level=1]
+          - link "Archives" [ref=e219]
+        - listitem [level=1]
+          - link "About" [ref=e220]
+        - listitem [level=1]
+          - link "Ethics Statement" [ref=e221]
+        - listitem [level=1]
+          - link "How We Rate and Review Products" [ref=e222]
+      - list
+        - listitem [level=1]
+          - button "Manage Privacy Settings" [ref=e223]
+        - listitem [level=1]
+          - link "Terms of Use" [ref=e224]
+        - listitem [level=1]
+          - link "Privacy Notice" [ref=e225]
+        - listitem [level=1]
+          - link "Cookie Policy" [ref=e226]
+        - listitem [level=1]
+          - link "Licensing FAQ" [ref=e227]
+        - listitem [level=1]
+          - link "Accessibility" [ref=e228]
+        - listitem [level=1]
+          - link "Platform Status" [ref=e229]
+      - paragraph
+        - link "VOX MEDIA" [ref=e97]

@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "23c5862be61db566",
+            "id": "11fae96ea40f6185",
             "type": "leaf",
             "state": {
-              "type": "graph-analysis-view",
-              "state": {
-                "lastActive": 1781946313300
-              },
-              "icon": "waypoints",
-              "title": "Graph analysis"
-            }
-          },
-          {
-            "id": "a45559811ded7c7a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "orrery-view",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "orbit",
+              "title": "Orrery"
             }
           }
         ]
@@ -86,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 299.5,
+    "collapsed": true
   },
   "right": {
     "id": "f45fe120865cdaae",
@@ -174,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,10 +175,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "knowledge-graph-analysis:Graph analysis view": false
+      "knowledge-graph-analysis:Graph analysis view": false,
+      "orrery:Open orrery": false
     }
   },
-  "active": "6280937b3782d2d4",
+  "active": "11fae96ea40f6185",
   "lastOpenFiles": [
     "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-13-weekly-report-june-8-13-961a51c7.md",
     "sources/bridge-smith-ec7a1e9e-memory-artifacts-2026-06-13-weekly-report-june-8-13-th-e47b0536.md",

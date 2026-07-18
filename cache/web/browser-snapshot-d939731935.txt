@@ -1,0 +1,944 @@
+- generic
+  - link "Skip to content" [ref=e1]
+  - banner
+    - heading "Navigation Menu" [level=2, ref=e5]
+    - generic
+      - link "Homepage" [ref=e9]
+      - navigation "Global" [ref=e21]
+        - list
+          - listitem [level=1]
+            - generic
+              - button "Platform" [expanded=false, ref=e135]
+          - listitem [level=1]
+            - generic
+              - button "Solutions" [expanded=false, ref=e136]
+          - listitem [level=1]
+            - generic
+              - button "Resources" [expanded=false, ref=e137]
+          - listitem [level=1]
+            - generic
+              - button "Open Source" [expanded=false, ref=e138]
+          - listitem [level=1]
+            - generic
+              - button "Enterprise" [expanded=false, ref=e139]
+          - listitem [level=1]
+            - link "Pricing" [ref=e69]
+      - generic
+        - button "Search or jump to…" [ref=e22]
+      - link "Sign in" [ref=e23]
+      - link "Sign up" [ref=e11]
+      - button "Appearance settings" [expanded=false, ref=e12]
+- main
+  - generic
+    - link "MoonshotAI" [ref=e6]
+    - StaticText "/"
+    - strong
+      - link "Kimi-K2" [ref=e10]
+    - StaticText "Public"
+    - list
+      - listitem [level=1]
+        - link "You must be signed in to change notification settings" [ref=e24]
+          - StaticText "Notifications"
+      - listitem [level=1]
+        - link "Fork 874" [ref=e25]
+          - StaticText "Fork "
+          - StaticText "874"
+      - listitem [level=1]
+        - link "You must be signed in to star a repository" [ref=e26]
+          - StaticText " Star "
+          - StaticText "10.9k"
+    - navigation "Repository" [ref=e7]
+      - list
+        - listitem [level=1]
+          - link "Code" [ref=e27]
+            - StaticText "Code"
+        - listitem [level=1]
+          - link "Issues 67" [ref=e28]
+            - StaticText "Issues"
+            - StaticText "67"
+        - listitem [level=1]
+          - link "Pull requests 3" [ref=e29]
+            - StaticText "Pull requests"
+            - StaticText "3"
+        - listitem [level=1]
+          - link "Actions" [ref=e30]
+            - StaticText "Actions"
+        - listitem [level=1]
+          - link "Projects" [ref=e31]
+            - StaticText "Projects"
+        - listitem [level=1]
+          - link "Security and quality" [ref=e32]
+            - StaticText "Security and quality"
+        - listitem [level=1]
+          - link "Insights" [ref=e33]
+            - StaticText "Insights"
+  - generic [ref=e13] focusable [tabindex]
+    - sectionheader
+      - heading "MoonshotAI/Kimi-K2" [level=1, ref=e52]
+    - button "main branch" [expanded=false, ref=e42]
+      - generic
+        - StaticText "main"
+    - link "2 Branches" [ref=e34]
+      - strong
+        - StaticText "2 "
+      - StaticText "Branches"
+    - link "0 Tags" [ref=e35]
+      - strong
+        - StaticText "0 "
+      - StaticText "Tags"
+    - generic [ref=e36] clickable [onclick]
+      - combobox "Go to file" [expanded=false, ref=e43]
+    - button "Code" [expanded=false, ref=e37]
+      - StaticText "Code"
+    - heading "Folders and files" [level=2, ref=e38]
+    - table "Folders and files"
+      - rowgroup
+        - row
+          - columnheader "Name" [ref=e70]
+          - columnheader "Last commit message" [ref=e71]
+            - StaticText "Last commit message"
+          - columnheader "Last commit date" [ref=e72]
+            - StaticText "Last commit date"
+      - row
+        - cell "Latest commit DragonSenseiGuy commits by DragonSenseiGuy minor README changes (#86) Open commit details Commit 1b4022b · 9 months ago History 24 Commits" [ref=e53]
+          - heading "Latest commit" [level=2, ref=e73]
+          - link "DragonSenseiGuy" [ref=e74]
+            - image "DragonSenseiGuy"
+          - link "commits by DragonSenseiGuy" [ref=e75]
+            - StaticText "DragonSenseiGuy"
+          - link "minor README changes (" [ref=e76]
+          - link "#86" [ref=e77]
+          - link ")" [ref=e78]
+          - button "Open commit details" [expanded=false, ref=e79]
+          - link "Commit 1b4022b" [ref=e80]
+            - StaticText "1b4022b"
+          - StaticText "·"
+          - StaticText "9 months ago"
+          - heading "History" [level=2, ref=e81]
+          - link "24 Commits" [ref=e82]
+            - StaticText "24 Commits"
+      - row [ref=e44] clickable [onclick]
+        - cell "docs, (Directory)" [ref=e54]
+          - link "docs, (Directory)" [ref=e571]
+            - StaticText "docs"
+        - cell "Update deploy_guidance.md" [ref=e55]
+          - link "Update deploy_guidance.md" [ref=e140]
+        - cell "last year" [ref=e56]
+          - StaticText "last year"
+      - row [ref=e45] clickable [onclick]
+        - cell "figures, (Directory)" [ref=e57]
+          - link "figures, (Directory)" [ref=e572]
+            - StaticText "figures"
+        - cell "add banner fig" [ref=e58]
+          - link "add banner fig" [ref=e141]
+        - cell "last year" [ref=e59]
+          - StaticText "last year"
+      - row [ref=e46] clickable [onclick]
+        - cell "LICENSE, (File)" [ref=e60]
+          - link "LICENSE, (File)" [ref=e573]
+            - StaticText "LICENSE"
+        - cell "initial commit" [ref=e61]
+          - link "initial commit" [ref=e142]
+        - cell "last year" [ref=e62]
+          - StaticText "last year"
+      - row [ref=e47] clickable [onclick]
+        - cell "README.md, (File)" [ref=e63]
+          - link "README.md, (File)" [ref=e574]
+            - StaticText "README.md"
+        - cell "minor README changes (#86)" [ref=e64]
+          - generic
+            - link "minor README changes (" [ref=e143]
+            - link "#86" [ref=e144]
+            - link ")" [ref=e145]
+        - cell "9 months ago" [ref=e65]
+          - StaticText "9 months ago"
+      - row [ref=e48] clickable [onclick]
+        - cell "tech_report.pdf, (File)" [ref=e66]
+          - link "tech_report.pdf, (File)" [ref=e575]
+            - StaticText "tech_report.pdf"
+        - cell "update tech report" [ref=e67]
+          - link "update tech report" [ref=e146]
+        - cell "10 months ago" [ref=e68]
+          - StaticText "10 months ago"
+    - generic
+      - heading "Repository files navigation" [level=2, ref=e49]
+      - navigation "Repository files" [ref=e50]
+        - list
+          - listitem [level=1]
+            - link "README" [ref=e147]
+          - listitem [level=1]
+            - link "License" [ref=e148]
+      - button "Outline" [expanded=false, ref=e51]
+    - generic [ref=e39] clickable [onclick]
+      - article
+        - image "Kimi K2: Open Agentic Intelligence"
+        - separator
+        - generic
+          - link "Chat" [ref=e83]
+            - image "Chat"
+          - StaticText " "
+          - link "Homepage" [ref=e84]
+            - image "Homepage"
+        - generic
+          - link "Hugging Face" [ref=e85]
+            - image "Hugging Face"
+          - StaticText " "
+          - link "Twitter Follow" [ref=e86]
+            - image "Twitter Follow"
+          - StaticText " "
+          - link "Discord" [ref=e87]
+            - image "Discord"
+        - link "License" [ref=e88]
+          - image "License"
+        - paragraph
+          - StaticText "📰"
+          - link "Tech Blog" [ref=e89]
+          - StaticText "  |  📄"
+          - link "Full Report" [ref=e90]
+        - generic
+          - heading "1. Model Introduction" [level=2, ref=e91]
+          - link "Permalink: 1. Model Introduction" [ref=e92]
+        - paragraph
+          - StaticText "Kimi K2 is a state-of-the-art mixture-of-experts (MoE) language model with 32 billion activated parameters and 1 trillion total parameters. Trained with the Muon optimizer, Kimi K2 achieves exceptional performance across frontier knowledge, reasoning, and coding tasks while being meticulously optimized for agentic capabilities."
+        - generic
+          - heading "Key Features" [level=3, ref=e93]
+          - link "Permalink: Key Features" [ref=e94]
+        - list
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "Large-Scale Training: Pre-trained a 1T parameter MoE model on 15.5T tokens with zero training instability."
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "MuonClip Optimizer: We apply the Muon optimizer to an unprecedented scale, and develop novel optimization techniques to resolve instabilities while scaling up."
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "Agentic Intelligence: Specifically designed for tool use, reasoning, and autonomous problem-solving."
+        - generic
+          - heading "Model Variants" [level=3, ref=e95]
+          - link "Permalink: Model Variants" [ref=e96]
+        - list
+          - listitem [level=1]
+            - ListMarker "• "
+            - strong
+            - StaticText ": The foundation model, a strong start for researchers and builders who want full control for fine-tuning and custom solutions."
+          - listitem [level=1]
+            - ListMarker "• "
+            - strong
+            - StaticText ": The post-trained model, best for drop-in, general-purpose chat and agentic experiences. It is a reflex-grade model without long thinking."
+        - image "Evaluation Results"
+        - generic
+          - heading "2. Model Summary" [level=2, ref=e97]
+          - link "Permalink: 2. Model Summary" [ref=e98]
+        - table
+          - rowgroup
+            - row
+          - row
+            - cell "Architecture" [ref=e149]
+            - cell "Mixture-of-Experts (MoE)" [ref=e150]
+          - row
+            - cell "Total Parameters" [ref=e151]
+            - cell "1T" [ref=e152]
+          - row
+            - cell "Activated Parameters" [ref=e153]
+            - cell "32B" [ref=e154]
+          - row
+            - cell "Number of Layers (Dense layer included)" [ref=e155]
+            - cell "61" [ref=e156]
+          - row
+            - cell "Number of Dense Layers" [ref=e157]
+            - cell "1" [ref=e158]
+          - row
+            - cell "Attention Hidden Dimension" [ref=e159]
+            - cell "7168" [ref=e160]
+          - row
+            - cell "MoE Hidden Dimension (per Expert)" [ref=e161]
+            - cell "2048" [ref=e162]
+          - row
+            - cell "Number of Attention Heads" [ref=e163]
+            - cell "64" [ref=e164]
+          - row
+            - cell "Number of Experts" [ref=e165]
+            - cell "384" [ref=e166]
+          - row
+            - cell "Selected Experts per Token" [ref=e167]
+            - cell "8" [ref=e168]
+          - row
+            - cell "Number of Shared Experts" [ref=e169]
+            - cell "1" [ref=e170]
+          - row
+            - cell "Vocabulary Size" [ref=e171]
+            - cell "160K" [ref=e172]
+          - row
+            - cell "Context Length" [ref=e173]
+            - cell "128K" [ref=e174]
+          - row
+            - cell "Attention Mechanism" [ref=e175]
+            - cell "MLA" [ref=e176]
+          - row
+            - cell "Activation Function" [ref=e177]
+            - cell "SwiGLU" [ref=e178]
+        - generic
+          - heading "3. Evaluation Results" [level=2, ref=e99]
+          - link "Permalink: 3. Evaluation Results" [ref=e100]
+        - generic
+          - heading "Instruction model evaluation results" [level=4, ref=e101]
+          - link "Permalink: Instruction model evaluation results" [ref=e102]
+        - table
+          - rowgroup
+            - row
+              - columnheader "Benchmark" [ref=e576]
+              - columnheader "Metric" [ref=e577]
+              - columnheader "Kimi K2 Instruct" [ref=e578]
+              - columnheader "DeepSeek-V3-0324" [ref=e579]
+              - columnheader "Qwen3-235B-A22B (non-thinking)" [ref=e580]
+              - columnheader "Claude Sonnet 4 (w/o extended thinking)" [ref=e581]
+              - columnheader "Claude Opus 4 (w/o extended thinking)" [ref=e582]
+              - columnheader "GPT-4.1" [ref=e583]
+              - columnheader "Gemini 2.5 Flash Preview (05-20)" [ref=e584]
+          - row
+            - cell "Coding Tasks" [ref=e179]
+          - row
+            - cell "LiveCodeBench v6 (Aug 24 - May 25)" [ref=e180]
+            - cell "Pass@1" [ref=e181]
+            - cell "53.7" [ref=e182]
+            - cell "46.9" [ref=e183]
+            - cell "37.0" [ref=e184]
+            - cell "48.5" [ref=e185]
+            - cell "47.4" [ref=e186]
+            - cell "44.7" [ref=e187]
+            - cell "44.7" [ref=e188]
+          - row
+            - cell "OJBench" [ref=e189]
+            - cell "Pass@1" [ref=e190]
+            - cell "27.1" [ref=e191]
+            - cell "24.0" [ref=e192]
+            - cell "11.3" [ref=e193]
+            - cell "15.3" [ref=e194]
+            - cell "19.6" [ref=e195]
+            - cell "19.5" [ref=e196]
+            - cell "19.5" [ref=e197]
+          - row
+            - cell "MultiPL-E" [ref=e198]
+            - cell "Pass@1" [ref=e199]
+            - cell "85.7" [ref=e200]
+            - cell "83.1" [ref=e201]
+            - cell "78.2" [ref=e202]
+            - cell "88.6" [ref=e203]
+            - cell "89.6" [ref=e204]
+            - cell "86.7" [ref=e205]
+            - cell "85.6" [ref=e206]
+          - row
+            - cell "SWE-bench Verified (Agentless Coding)" [ref=e207]
+            - cell "Single Patch w/o Test (Acc)" [ref=e208]
+            - cell "51.8" [ref=e209]
+            - cell "36.6" [ref=e210]
+            - cell "39.4" [ref=e211]
+            - cell "50.2" [ref=e212]
+            - cell "53.0" [ref=e213]
+            - cell "40.8" [ref=e214]
+            - cell "32.6" [ref=e215]
+          - row
+            - cell "SWE-bench Verified (Agentic Coding)" [ref=e216]
+            - cell "Single Attempt (Acc)" [ref=e217]
+            - cell "65.8" [ref=e218]
+            - cell "38.8" [ref=e219]
+            - cell "34.4" [ref=e220]
+            - cell "72.7*" [ref=e221]
+            - cell "72.5*" [ref=e222]
+            - cell "54.6" [ref=e223]
+            - cell "—" [ref=e224]
+          - row
+            - cell "Multiple Attempts (Acc)" [ref=e225]
+            - cell "71.6" [ref=e226]
+            - cell "—" [ref=e227]
+            - cell "—" [ref=e228]
+            - cell "80.2" [ref=e229]
+            - cell "79.4*" [ref=e230]
+            - cell "—" [ref=e231]
+            - cell "—" [ref=e232]
+          - row
+            - cell "SWE-bench Multilingual (Agentic Coding)" [ref=e233]
+            - cell "Single Attempt (Acc)" [ref=e234]
+            - cell "47.3" [ref=e235]
+            - cell "25.8" [ref=e236]
+            - cell "20.9" [ref=e237]
+            - cell "51.0" [ref=e238]
+            - cell "—" [ref=e239]
+            - cell "31.5" [ref=e240]
+            - cell "—" [ref=e241]
+          - row
+            - cell "TerminalBench" [ref=e242]
+            - cell "Inhouse Framework (Acc)" [ref=e243]
+            - cell "30.0" [ref=e244]
+            - cell "—" [ref=e245]
+            - cell "—" [ref=e246]
+            - cell "35.5" [ref=e247]
+            - cell "43.2" [ref=e248]
+            - cell "8.3" [ref=e249]
+            - cell "—" [ref=e250]
+          - row
+            - cell "Terminus (Acc)" [ref=e251]
+            - cell "25.0" [ref=e252]
+            - cell "16.3" [ref=e253]
+            - cell "6.6" [ref=e254]
+            - cell "—" [ref=e255]
+            - cell "—" [ref=e256]
+            - cell "30.3" [ref=e257]
+            - cell "16.8" [ref=e258]
+          - row
+            - cell "Aider-Polyglot" [ref=e259]
+            - cell "Acc" [ref=e260]
+            - cell "60.0" [ref=e261]
+            - cell "55.1" [ref=e262]
+            - cell "61.8" [ref=e263]
+            - cell "56.4" [ref=e264]
+            - cell "70.7" [ref=e265]
+            - cell "52.4" [ref=e266]
+            - cell "44.0" [ref=e267]
+          - row
+            - cell "Tool Use Tasks" [ref=e268]
+          - row
+            - cell "Tau2 retail" [ref=e269]
+            - cell "Avg@4" [ref=e270]
+            - cell "70.6" [ref=e271]
+            - cell "69.1" [ref=e272]
+            - cell "57.0" [ref=e273]
+            - cell "75.0" [ref=e274]
+            - cell "81.8" [ref=e275]
+            - cell "74.8" [ref=e276]
+            - cell "64.3" [ref=e277]
+          - row
+            - cell "Tau2 airline" [ref=e278]
+            - cell "Avg@4" [ref=e279]
+            - cell "56.5" [ref=e280]
+            - cell "39.0" [ref=e281]
+            - cell "26.5" [ref=e282]
+            - cell "55.5" [ref=e283]
+            - cell "60.0" [ref=e284]
+            - cell "54.5" [ref=e285]
+            - cell "42.5" [ref=e286]
+          - row
+            - cell "Tau2 telecom" [ref=e287]
+            - cell "Avg@4" [ref=e288]
+            - cell "65.8" [ref=e289]
+            - cell "32.5" [ref=e290]
+            - cell "22.1" [ref=e291]
+            - cell "45.2" [ref=e292]
+            - cell "57.0" [ref=e293]
+            - cell "38.6" [ref=e294]
+            - cell "16.9" [ref=e295]
+          - row
+            - cell "AceBench" [ref=e296]
+            - cell "Acc" [ref=e297]
+            - cell "76.5" [ref=e298]
+            - cell "72.7" [ref=e299]
+            - cell "70.5" [ref=e300]
+            - cell "76.2" [ref=e301]
+            - cell "75.6" [ref=e302]
+            - cell "80.1" [ref=e303]
+            - cell "74.5" [ref=e304]
+          - row
+            - cell "Math & STEM Tasks" [ref=e305]
+          - row
+            - cell "AIME 2024" [ref=e306]
+            - cell "Avg@64" [ref=e307]
+            - cell "69.6" [ref=e308]
+            - cell "59.4*" [ref=e309]
+            - cell "40.1*" [ref=e310]
+            - cell "43.4" [ref=e311]
+            - cell "48.2" [ref=e312]
+            - cell "46.5" [ref=e313]
+            - cell "61.3" [ref=e314]
+          - row
+            - cell "AIME 2025" [ref=e315]
+            - cell "Avg@64" [ref=e316]
+            - cell "49.5" [ref=e317]
+            - cell "46.7" [ref=e318]
+            - cell "24.7*" [ref=e319]
+            - cell "33.1*" [ref=e320]
+            - cell "33.9*" [ref=e321]
+            - cell "37.0" [ref=e322]
+            - cell "46.6" [ref=e323]
+          - row
+            - cell "MATH-500" [ref=e324]
+            - cell "Acc" [ref=e325]
+            - cell "97.4" [ref=e326]
+            - cell "94.0*" [ref=e327]
+            - cell "91.2*" [ref=e328]
+            - cell "94.0" [ref=e329]
+            - cell "94.4" [ref=e330]
+            - cell "92.4" [ref=e331]
+            - cell "95.4" [ref=e332]
+          - row
+            - cell "HMMT 2025" [ref=e333]
+            - cell "Avg@32" [ref=e334]
+            - cell "38.8" [ref=e335]
+            - cell "27.5" [ref=e336]
+            - cell "11.9" [ref=e337]
+            - cell "15.9" [ref=e338]
+            - cell "15.9" [ref=e339]
+            - cell "19.4" [ref=e340]
+            - cell "34.7" [ref=e341]
+          - row
+            - cell "CNMO 2024" [ref=e342]
+            - cell "Avg@16" [ref=e343]
+            - cell "74.3" [ref=e344]
+            - cell "74.7" [ref=e345]
+            - cell "48.6" [ref=e346]
+            - cell "60.4" [ref=e347]
+            - cell "57.6" [ref=e348]
+            - cell "56.6" [ref=e349]
+            - cell "75.0" [ref=e350]
+          - row
+            - cell "PolyMath-en" [ref=e351]
+            - cell "Avg@4" [ref=e352]
+            - cell "65.1" [ref=e353]
+            - cell "59.5" [ref=e354]
+            - cell "51.9" [ref=e355]
+            - cell "52.8" [ref=e356]
+            - cell "49.8" [ref=e357]
+            - cell "54.0" [ref=e358]
+            - cell "49.9" [ref=e359]
+          - row
+            - cell "ZebraLogic" [ref=e360]
+            - cell "Acc" [ref=e361]
+            - cell "89.0" [ref=e362]
+            - cell "84.0" [ref=e363]
+            - cell "37.7*" [ref=e364]
+            - cell "73.7" [ref=e365]
+            - cell "59.3" [ref=e366]
+            - cell "58.5" [ref=e367]
+            - cell "57.9" [ref=e368]
+          - row
+            - cell "AutoLogi" [ref=e369]
+            - cell "Acc" [ref=e370]
+            - cell "89.5" [ref=e371]
+            - cell "88.9" [ref=e372]
+            - cell "83.3" [ref=e373]
+            - cell "89.8" [ref=e374]
+            - cell "86.1" [ref=e375]
+            - cell "88.2" [ref=e376]
+            - cell "84.1" [ref=e377]
+          - row
+            - cell "GPQA-Diamond" [ref=e378]
+            - cell "Avg@8" [ref=e379]
+            - cell "75.1" [ref=e380]
+            - cell "68.4*" [ref=e381]
+            - cell "62.9*" [ref=e382]
+            - cell "70.0*" [ref=e383]
+            - cell "74.9*" [ref=e384]
+            - cell "66.3" [ref=e385]
+            - cell "68.2" [ref=e386]
+          - row
+            - cell "SuperGPQA" [ref=e387]
+            - cell "Acc" [ref=e388]
+            - cell "57.2" [ref=e389]
+            - cell "53.7" [ref=e390]
+            - cell "50.2" [ref=e391]
+            - cell "55.7" [ref=e392]
+            - cell "56.5" [ref=e393]
+            - cell "50.8" [ref=e394]
+            - cell "49.6" [ref=e395]
+          - row
+            - cell "Humanity's Last Exam (Text Only)" [ref=e396]
+            - cell "-" [ref=e397]
+            - cell "4.7" [ref=e398]
+            - cell "5.2" [ref=e399]
+            - cell "5.7" [ref=e400]
+            - cell "5.8" [ref=e401]
+            - cell "7.1" [ref=e402]
+            - cell "3.7" [ref=e403]
+            - cell "5.6" [ref=e404]
+          - row
+            - cell "General Tasks" [ref=e405]
+          - row
+            - cell "MMLU" [ref=e406]
+            - cell "EM" [ref=e407]
+            - cell "89.5" [ref=e408]
+            - cell "89.4" [ref=e409]
+            - cell "87.0" [ref=e410]
+            - cell "91.5" [ref=e411]
+            - cell "92.9" [ref=e412]
+            - cell "90.4" [ref=e413]
+            - cell "90.1" [ref=e414]
+          - row
+            - cell "MMLU-Redux" [ref=e415]
+            - cell "EM" [ref=e416]
+            - cell "92.7" [ref=e417]
+            - cell "90.5" [ref=e418]
+            - cell "89.2" [ref=e419]
+            - cell "93.6" [ref=e420]
+            - cell "94.2" [ref=e421]
+            - cell "92.4" [ref=e422]
+            - cell "90.6" [ref=e423]
+          - row
+            - cell "MMLU-Pro" [ref=e424]
+            - cell "EM" [ref=e425]
+            - cell "81.1" [ref=e426]
+            - cell "81.2*" [ref=e427]
+            - cell "77.3" [ref=e428]
+            - cell "83.7" [ref=e429]
+            - cell "86.6" [ref=e430]
+            - cell "81.8" [ref=e431]
+            - cell "79.4" [ref=e432]
+          - row
+            - cell "IFEval" [ref=e433]
+            - cell "Prompt Strict" [ref=e434]
+            - cell "89.8" [ref=e435]
+            - cell "81.1" [ref=e436]
+            - cell "83.2*" [ref=e437]
+            - cell "87.6" [ref=e438]
+            - cell "87.4" [ref=e439]
+            - cell "88.0" [ref=e440]
+            - cell "84.3" [ref=e441]
+          - row
+            - cell "Multi-Challenge" [ref=e442]
+            - cell "Acc" [ref=e443]
+            - cell "54.1" [ref=e444]
+            - cell "31.4" [ref=e445]
+            - cell "34.0" [ref=e446]
+            - cell "46.8" [ref=e447]
+            - cell "49.0" [ref=e448]
+            - cell "36.4" [ref=e449]
+            - cell "39.5" [ref=e450]
+          - row
+            - cell "SimpleQA" [ref=e451]
+            - cell "Correct" [ref=e452]
+            - cell "31.0" [ref=e453]
+            - cell "27.7" [ref=e454]
+            - cell "13.2" [ref=e455]
+            - cell "15.9" [ref=e456]
+            - cell "22.8" [ref=e457]
+            - cell "42.3" [ref=e458]
+            - cell "23.3" [ref=e459]
+          - row
+            - cell "Livebench" [ref=e460]
+            - cell "Pass@1" [ref=e461]
+            - cell "76.4" [ref=e462]
+            - cell "72.4" [ref=e463]
+            - cell "67.6" [ref=e464]
+            - cell "74.8" [ref=e465]
+            - cell "74.6" [ref=e466]
+            - cell "69.8" [ref=e467]
+            - cell "67.8" [ref=e468]
+        - superscript
+          - StaticText "• Bold denotes global SOTA, and underlined denotes open-source SOTA."
+        - LineBreak "\n"
+        - superscript
+          - StaticText "• Data points marked with * are directly from the model's tech report or blog."
+        - LineBreak "\n"
+        - superscript
+          - StaticText "• All metrics, except for SWE-bench Verified (Agentless), are evaluated with an 8k output token length. SWE-bench Verified (Agentless) is limited to a 16k output token length."
+        - LineBreak "\n"
+        - superscript
+          - StaticText "• Kimi K2 achieves 65.8% pass@1 on the SWE-bench Verified tests with bash/editor tools (single-attempt patches, no test-time compute). It also achieves a 47.3% pass@1 on the SWE-bench Multilingual tests under the same conditions. Additionally, we report results on SWE-bench Verified tests (71.6%) that leverage parallel test-time compute by sampling multiple sequences and selecting the single best via an internal scoring model."
+        - LineBreak "\n"
+        - superscript
+          - StaticText "• To ensure the stability of the evaluation, we employed avg@k on the AIME, HMMT, CNMO, PolyMath-en, GPQA-Diamond, EvalPlus, Tau2."
+        - LineBreak "\n"
+        - superscript
+          - StaticText "• Some data points have been omitted due to prohibitively expensive evaluation costs."
+        - separator
+        - generic
+          - heading "Base model evaluation results" [level=4, ref=e103]
+          - link "Permalink: Base model evaluation results" [ref=e104]
+        - table
+          - rowgroup
+            - row
+              - columnheader "Benchmark" [ref=e585]
+              - columnheader "Metric" [ref=e586]
+              - columnheader "Shot" [ref=e587]
+              - columnheader "Kimi K2 Base" [ref=e588]
+              - columnheader "Deepseek-V3-Base" [ref=e589]
+              - columnheader "Qwen2.5-72B" [ref=e590]
+              - columnheader "Llama 4 Maverick" [ref=e591]
+          - row
+            - cell "General Tasks" [ref=e469]
+          - row
+            - cell "MMLU" [ref=e470]
+            - cell "EM" [ref=e471]
+            - cell "5-shot" [ref=e472]
+            - cell "87.8" [ref=e473]
+            - cell "87.1" [ref=e474]
+            - cell "86.1" [ref=e475]
+            - cell "84.9" [ref=e476]
+          - row
+            - cell "MMLU-pro" [ref=e477]
+            - cell "EM" [ref=e478]
+            - cell "5-shot" [ref=e479]
+            - cell "69.2" [ref=e480]
+            - cell "60.6" [ref=e481]
+            - cell "62.8" [ref=e482]
+            - cell "63.5" [ref=e483]
+          - row
+            - cell "MMLU-redux-2.0" [ref=e484]
+            - cell "EM" [ref=e485]
+            - cell "5-shot" [ref=e486]
+            - cell "90.2" [ref=e487]
+            - cell "89.5" [ref=e488]
+            - cell "87.8" [ref=e489]
+            - cell "88.2" [ref=e490]
+          - row
+            - cell "SimpleQA" [ref=e491]
+            - cell "Correct" [ref=e492]
+            - cell "5-shot" [ref=e493]
+            - cell "35.3" [ref=e494]
+            - cell "26.5" [ref=e495]
+            - cell "10.3" [ref=e496]
+            - cell "23.7" [ref=e497]
+          - row
+            - cell "TriviaQA" [ref=e498]
+            - cell "EM" [ref=e499]
+            - cell "5-shot" [ref=e500]
+            - cell "85.1" [ref=e501]
+            - cell "84.1" [ref=e502]
+            - cell "76.0" [ref=e503]
+            - cell "79.3" [ref=e504]
+          - row
+            - cell "GPQA-Diamond" [ref=e505]
+            - cell "Avg@8" [ref=e506]
+            - cell "5-shot" [ref=e507]
+            - cell "48.1" [ref=e508]
+            - cell "50.5" [ref=e509]
+            - cell "40.8" [ref=e510]
+            - cell "49.4" [ref=e511]
+          - row
+            - cell "SuperGPQA" [ref=e512]
+            - cell "EM" [ref=e513]
+            - cell "5-shot" [ref=e514]
+            - cell "44.7" [ref=e515]
+            - cell "39.2" [ref=e516]
+            - cell "34.2" [ref=e517]
+            - cell "38.8" [ref=e518]
+          - row
+            - cell "Coding Tasks" [ref=e519]
+          - row
+            - cell "LiveCodeBench v6" [ref=e520]
+            - cell "Pass@1" [ref=e521]
+            - cell "1-shot" [ref=e522]
+            - cell "26.3" [ref=e523]
+            - cell "22.9" [ref=e524]
+            - cell "21.1" [ref=e525]
+            - cell "25.1" [ref=e526]
+          - row
+            - cell "EvalPlus" [ref=e527]
+            - cell "Pass@1" [ref=e528]
+            - cell "-" [ref=e529]
+            - cell "80.3" [ref=e530]
+            - cell "65.6" [ref=e531]
+            - cell "66.0" [ref=e532]
+            - cell "65.5" [ref=e533]
+          - row
+            - cell "Mathematics Tasks" [ref=e534]
+          - row
+            - cell "MATH" [ref=e535]
+            - cell "EM" [ref=e536]
+            - cell "4-shot" [ref=e537]
+            - cell "70.2" [ref=e538]
+            - cell "60.1" [ref=e539]
+            - cell "61.0" [ref=e540]
+            - cell "63.0" [ref=e541]
+          - row
+            - cell "GSM8k" [ref=e542]
+            - cell "EM" [ref=e543]
+            - cell "8-shot" [ref=e544]
+            - cell "92.1" [ref=e545]
+            - cell "91.7" [ref=e546]
+            - cell "90.4" [ref=e547]
+            - cell "86.3" [ref=e548]
+          - row
+            - cell "Chinese Tasks" [ref=e549]
+          - row
+            - cell "C-Eval" [ref=e550]
+            - cell "EM" [ref=e551]
+            - cell "5-shot" [ref=e552]
+            - cell "92.5" [ref=e553]
+            - cell "90.0" [ref=e554]
+            - cell "90.9" [ref=e555]
+            - cell "80.9" [ref=e556]
+          - row
+            - cell "CSimpleQA" [ref=e557]
+            - cell "Correct" [ref=e558]
+            - cell "5-shot" [ref=e559]
+            - cell "77.6" [ref=e560]
+            - cell "72.1" [ref=e561]
+            - cell "50.5" [ref=e562]
+            - cell "53.5" [ref=e563]
+        - superscript
+          - StaticText "• We only evaluate open-source pretrained models in this work. We report results for Qwen2.5-72B because the base checkpoint for Qwen3-235B-A22B was not open-sourced at the time of our study."
+        - LineBreak "\n"
+        - superscript
+          - StaticText "• All models are evaluated using the same evaluation protocol."
+        - generic
+          - heading "4. Deployment" [level=2, ref=e105]
+          - link "Permalink: 4. Deployment" [ref=e106]
+        - StaticText "Note"
+        - paragraph
+          - StaticText "You can access Kimi K2's API on "
+          - link "https://platform.moonshot.ai" [ref=e107]
+          - StaticText " , we provide an OpenAI/Anthropic-compatible API for you."
+        - paragraph
+          - StaticText "The Anthropic-compatible API maps temperature by "
+          - code
+            - StaticText "real_temperature = request_temperature * 0.6"
+          - StaticText " for better compatiblity with existing applications."
+        - paragraph
+          - StaticText "Our model checkpoints are stored in block-fp8 format, you can find it on "
+          - link "Huggingface" [ref=e108]
+          - StaticText "."
+        - paragraph
+          - StaticText "Currently, it is recommended to run Kimi-K2 on the following inference engines:"
+        - list
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "vLLM"
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "SGLang"
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "KTransformers"
+          - listitem [level=1]
+            - ListMarker "• "
+            - StaticText "TensorRT-LLM"
+        - paragraph
+          - StaticText "Deployment examples for vLLM and SGLang can be found in the "
+          - link "Model Deployment Guide" [ref=e109]
+          - StaticText "."
+        - separator
+        - generic
+          - heading "5. Model Usage" [level=2, ref=e110]
+          - link "Permalink: 5. Model Usage" [ref=e111]
+        - generic
+          - heading "Chat Completion" [level=3, ref=e112]
+          - link "Permalink: Chat Completion" [ref=e113]
+        - paragraph
+          - StaticText "Once the local inference service is set up, you can interact with it through the chat endpoint:"
+        - generic
+          - generic
+            - StaticText "def simple_chat(client: OpenAI, model_name: str):\n    messages = [\n        {\"role\": \"system\", \"content\": \"You are Kimi, an AI assistant created by Moonshot AI.\"},\n        {\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Please give a brief self-introduction.\"}]},\n    ]\n    response = client.chat.completions.create(\n        model=model_name,\n        messages=messages,\n        stream=False,\n        temperature=0.6,\n        max_tokens=256\n    )\n    print(response.choices[0].message.content)"
+          - button "Copy code to clipboard" [ref=e114]
+        - StaticText "Note"
+        - paragraph
+          - StaticText "The recommended temperature for Kimi-K2-Instruct is "
+          - code
+            - StaticText "temperature = 0.6"
+          - StaticText ". If no special instructions are required, the system prompt is a good default."
+        - separator
+        - generic
+          - heading "Tool Calling" [level=3, ref=e115]
+          - link "Permalink: Tool Calling" [ref=e116]
+        - paragraph
+          - StaticText "Kimi-K2-Instruct has strong tool-calling capabilities. To enable them, you need to pass the list of available tools in each request, then the model will autonomously decide when and how to invoke them."
+        - paragraph
+          - StaticText "The following example demonstrates calling a weather tool end-to-end:"
+        - generic
+          - generic
+            - StaticText "# Your tool implementation\ndef get_weather(city: str) -> dict:\n    return {\"weather\": \"Sunny\"}\n\n# Tool schema definition\ntools = [{\n    \"type\": \"function\",\n    \"function\": {\n        \"name\": \"get_weather\",\n        \"description\": \"Retrieve current weather information. Call this when the user asks about the weather.\",\n        \"parameters\": {\n            \"type\": \"object\",\n            \"required\": [\"city\"],\n            \"properties\": {\n                \"city\": {\n                    \"type\": \"string\",\n                    \"description\": \"Name of the city\"\n                }\n            }\n        }\n    }\n}]\n\n# Map tool names to their implementations\ntool_map = {\n    \"get_weather\": get_weather\n}\n\ndef tool_call_with_client(client: OpenAI, model_name: str):\n    messages = [\n        {\"role\": \"system\", \"content\": \"You are Kimi, an AI assistant created by Moonshot AI.\"},\n        {\"role\": \"user\", \"content\": \"What's the weather like in Beijing today? Use the tool to check.\"}\n    ]\n    finish_reason = None\n    while finish_reason is None or finish_reason == \"tool_calls\":\n        completion = client.chat.completions.create(\n            model=model_name,\n            messages=messages,\n            temperature=0.6,\n            tools=tools,          # tool list defined above\n            tool_choice=\"auto\"\n        )\n        choice = completion.choices[0]\n        finish_reason = choice.finish_reason\n        if finish_reason == \"tool_calls\":\n            messages.append(choice.message)\n            for tool_call in choice.message.tool_calls:\n                tool_call_name = tool_call.function.name\n                tool_call_arguments = json.loads(tool_call.function.arguments)\n                tool_function = tool_map[tool_call_name]\n                tool_result = tool_function(**tool_call_arguments)\n                print(\"tool_result:\", tool_result)\n\n                messages.append({\n                    \"role\": \"tool\",\n                    \"tool_call_id\": tool_call.id,\n                    \"name\": tool_call_name,\n                    \"content\": json.dumps(tool_result)\n                })\n    print(\"-\" * 100)\n    print(choice.message.content)"
+          - button "Copy code to clipboard" [ref=e117]
+        - paragraph
+          - StaticText "The "
+          - code
+            - StaticText "tool_call_with_client"
+          - StaticText " function implements the pipeline from user query to tool execution. This pipeline requires the inference engine to support Kimi-K2’s native tool-parsing logic. For streaming output and manual tool-parsing, see the "
+          - link "Tool Calling Guide" [ref=e118]
+          - StaticText "."
+        - separator
+        - generic
+          - heading "6. License" [level=2, ref=e119]
+          - link "Permalink: 6. License" [ref=e120]
+        - paragraph
+          - StaticText "Both the code and the model weights are released under the "
+          - link "Modified MIT License" [ref=e121]
+          - StaticText "."
+        - separator
+        - generic
+          - heading "7. Citation" [level=2, ref=e122]
+          - link "Permalink: 7. Citation" [ref=e123]
+        - generic
+          - code
+            - StaticText "@misc{kimiteam2025kimik2openagentic,\n      title={Kimi K2: Open Agentic Intelligence}, \n      author={Kimi Team and Yifan Bai and Yiping Bao and Guanduo Chen and Jiahao Chen and Ningxin Chen and Ruijue Chen and Yanru Chen and Yuankun Chen and Yutian Chen and Zhuofu Chen and Jialei Cui and Hao Ding and Mengnan Dong and Angang Du and Chenzhuang Du and Dikang Du and Yulun Du and Yu Fan and Yichen Feng and Kelin Fu and Bofei Gao and Hongcheng Gao and Peizhong Gao and Tong Gao and Xinran Gu and Longyu Guan and Haiqing Guo and Jianhang Guo and Hao Hu and Xiaoru Hao and Tianhong He and Weiran He and Wenyang He and Chao Hong and Yangyang Hu and Zhenxing Hu and Weixiao Huang and Zhiqi Huang and Zihao Huang and Tao Jiang and Zhejun Jiang and Xinyi Jin and Yongsheng Kang and Guokun Lai and Cheng Li and Fang Li and Haoyang Li and Ming Li and Wentao Li and Yanhao Li and Yiwei Li and Zhaowei Li and Zheming Li and Hongzhan Lin and Xiaohan Lin and Zongyu Lin and Chengyin Liu and Chenyu Liu and Hongzhang Liu and Jingyuan Liu and Junqi Liu and Liang Liu and Shaowei Liu and T. Y. Liu and Tianwei Liu and Weizhou Liu and Yangyang Liu and Yibo Liu and Yiping Liu and Yue Liu and Zhengying Liu and Enzhe Lu and Lijun Lu and Shengling Ma and Xinyu Ma and Yingwei Ma and Shaoguang Mao and Jie Mei and Xin Men and Yibo Miao and Siyuan Pan and Yebo Peng and Ruoyu Qin and Bowen Qu and Zeyu Shang and Lidong Shi and Shengyuan Shi and Feifan Song and Jianlin Su and Zhengyuan Su and Xinjie Sun and Flood Sung and Heyi Tang and Jiawen Tao and Qifeng Teng and Chensi Wang and Dinglu Wang and Feng Wang and Haiming Wang and Jianzhou Wang and Jiaxing Wang and Jinhong Wang and Shengjie Wang and Shuyi Wang and Yao Wang and Yejie Wang and Yiqin Wang and Yuxin Wang and Yuzhi Wang and Zhaoji Wang and Zhengtao Wang and Zhexu Wang and Chu Wei and Qianqian Wei and Wenhao Wu and Xingzhe Wu and Yuxin Wu and Chenjun Xiao and Xiaotong Xie and Weimin Xiong and Boyu Xu and Jing Xu and Jinjing Xu and L. H. Xu and Lin Xu and Suting Xu and Weixin Xu and Xinran Xu and Yangchuan Xu and Ziyao Xu and Junjie Yan and Yuzi Yan and Xiaofei Yang and Ying Yang and Zhen Yang and Zhilin Yang and Zonghan Yang and Haotian Yao and Xingcheng Yao and Wenjie Ye and Zhuorui Ye and Bohong Yin and Longhui Yu and Enming Yuan and Hongbang Yuan and Mengjie Yuan and Haobing Zhan and Dehao Zhang and Hao Zhang and Wanlu Zhang and Xiaobin Zhang and Yangkun Zhang and Yizhi Zhang and Yongting Zhang and Yu Zhang and Yutao Zhang and Yutong Zhang and Zheng Zhang and Haotian Zhao and Yikai Zhao and Huabin Zheng and Shaojie Zheng and Jianren Zhou and Xinyu Zhou and Zaida Zhou and Zhen Zhu and Weiyu Zhuang and Xinxing Zu},\n      year={2025},\n      eprint={2507.20534},\n      archivePrefix={arXiv},\n      primaryClass={cs.LG},\n      url={https://arxiv.org/abs/2507.20534}, \n}\n"
+          - button "Copy code to clipboard" [ref=e124]
+        - separator
+        - generic
+          - heading "8. Contact Us" [level=2, ref=e125]
+          - link "Permalink: 8. Contact Us" [ref=e126]
+        - paragraph
+          - StaticText "If you have any questions or concerns, please reach out to us at "
+          - link "support@moonshot.cn" [ref=e127]
+          - StaticText "."
+    - LayoutTable
+      - LayoutTableRow
+        - LayoutTableCell "About Kimi K2 is the large language model series developed by Moonshot AI team Resources Readme License View license Activity Custom properties Stars 10.9k stars Watchers 92 watching Forks 874 forks Report repository"
+          - heading "About" [level=2, ref=e128]
+          - paragraph
+            - StaticText "Kimi K2 is the large language model series developed by Moonshot AI team"
+          - heading "Resources" [level=3, ref=e129]
+          - link " Readme" [ref=e564]
+          - heading "License" [level=3, ref=e130]
+          - link " View license" [ref=e565]
+          - link "Activity" [ref=e566]
+          - link "Custom properties" [ref=e567]
+          - heading "Stars" [level=3, ref=e131]
+          - generic
+            - strong
+            - StaticText " stars"
+          - heading "Watchers" [level=3, ref=e132]
+          - generic
+            - strong
+            - StaticText " watching"
+          - heading "Forks" [level=3, ref=e133]
+          - link "874 forks" [ref=e568]
+            - strong
+            - StaticText " forks"
+          - link "Report repository" [ref=e569]
+      - LayoutTableRow
+        - LayoutTableCell "Contributors 10 @skyline0705 @bigeagle @zxytim @CharlesCNorton @ppwwyyxx @xxr3376 @DragonSenseiGuy @MoyanZitto @Kiansjet @xuwwwux"
+          - heading "Contributors 10" [level=2, ref=e134]
+            - link "Contributors 10" [ref=e570]
+          - list
+            - listitem [level=1]
+              - link "@skyline0705" [ref=e592]
+            - listitem [level=1]
+              - link "@bigeagle" [ref=e593]
+            - listitem [level=1]
+              - link "@zxytim" [ref=e594]
+            - listitem [level=1]
+              - link "@CharlesCNorton" [ref=e595]
+            - listitem [level=1]
+              - link "@ppwwyyxx" [ref=e596]
+            - listitem [level=1]
+              - link "@xxr3376" [ref=e597]
+            - listitem [level=1]
+              - link "@DragonSenseiGuy" [ref=e598]
+            - listitem [level=1]
+              - link "@MoyanZitto" [ref=e599]
+            - listitem [level=1]
+              - link "@Kiansjet" [ref=e600]
+            - listitem [level=1]
+              - link "@xuwwwux" [ref=e601]
+- contentinfo
+  - heading "Footer" [level=2, ref=e2]
+  - link "GitHub Homepage" [ref=e3]
+  - StaticText "© 2026 GitHub,Inc."
+  - navigation "Footer" [ref=e4]
+    - heading "Footer navigation" [level=3, ref=e8]
+    - list "Footer navigation"
+      - listitem [level=1]
+        - link "Terms" [ref=e14]
+      - listitem [level=1]
+        - link "Privacy" [ref=e15]
+      - listitem [level=1]
+        - link "Security" [ref=e16]
+      - listitem [level=1]
+        - link "Status" [ref=e17]
+      - listitem [level=1]
+        - link "Community" [ref=e18]
+      - listitem [level=1]
+        - link "Docs" [ref=e19]
+      - listitem [level=1]
+        - link "Contact" [ref=e20]
+      - listitem [level=1]
+        - button "Manage cookies" [ref=e40]
+      - listitem [level=1]
+        - button "Do not share my personal information" [ref=e41]

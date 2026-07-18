@@ -1,0 +1,499 @@
+- LayoutTable
+  - LayoutTableRow
+    - LayoutTableCell "Hacker Newsnew | past | comments | ask | show | jobs | submit login"
+      - LayoutTable
+        - LayoutTableRow
+          - LayoutTableCell
+            - link [ref=e102]
+          - LayoutTableCell "Hacker Newsnew | past | comments | ask | show | jobs | submit"
+            - link "Hacker News" [ref=e103]
+            - link "new" [ref=e104]
+            - link "past" [ref=e105]
+            - link "comments" [ref=e106]
+            - link "ask" [ref=e107]
+            - link "show" [ref=e108]
+            - link "jobs" [ref=e109]
+            - link "submit" [ref=e110]
+          - LayoutTableCell "login"
+            - link "login" [ref=e111]
+  - LayoutTableRow
+  - LayoutTableRow
+    - LayoutTableCell
+      - table
+        - row
+          - cell "1." [ref=e11]
+          - cell
+            - link [ref=e259]
+          - cell "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse (localnewsmatters.org)" [ref=e12]
+            - link "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse" [ref=e112]
+            - link "localnewsmatters.org" [ref=e113]
+        - row
+          - cell
+          - cell "471 points by gnabgib 8 hours ago | hide | 302comments" [ref=e13]
+            - link "gnabgib" [ref=e114]
+            - link "8 hours ago" [ref=e260]
+            - link "hide" [ref=e115]
+            - link "302comments" [ref=e116]
+        - row
+        - row
+          - cell "2." [ref=e14]
+          - cell
+            - link [ref=e261]
+          - cell "Regressive JPEGs (maurycyz.com)" [ref=e15]
+            - link "Regressive JPEGs" [ref=e117]
+            - link "maurycyz.com" [ref=e118]
+        - row
+          - cell
+          - cell "88 points by vitaut 3 hours ago | hide | 4comments" [ref=e16]
+            - link "vitaut" [ref=e119]
+            - link "3 hours ago" [ref=e262]
+            - link "hide" [ref=e120]
+            - link "4comments" [ref=e121]
+        - row
+        - row
+          - cell "3." [ref=e17]
+          - cell
+            - link [ref=e263]
+          - cell "Reviving a 15-year-old netbook with Arch Linux (parksb.github.io)" [ref=e18]
+            - link "Reviving a 15-year-old netbook with Arch Linux" [ref=e122]
+            - link "parksb.github.io" [ref=e123]
+        - row
+          - cell
+          - cell "64 points by parksb 3 hours ago | hide | 29comments" [ref=e19]
+            - link "parksb" [ref=e124]
+            - link "3 hours ago" [ref=e264]
+            - link "hide" [ref=e125]
+            - link "29comments" [ref=e126]
+        - row
+        - row
+          - cell "4." [ref=e20]
+          - cell
+            - link [ref=e265]
+          - cell "AWS: Inaccurate Estimated Billing Data – $1.7 billion" [ref=e21]
+            - link "AWS: Inaccurate Estimated Billing Data – $1.7 billion" [ref=e127]
+        - row
+          - cell
+          - cell "1137 points by nprateem 17 hours ago | hide | 677comments" [ref=e22]
+            - link "nprateem" [ref=e128]
+            - link "17 hours ago" [ref=e266]
+            - link "hide" [ref=e129]
+            - link "677comments" [ref=e130]
+        - row
+        - row
+          - cell "5." [ref=e23]
+          - cell
+            - link [ref=e267]
+          - cell "Thanks HN for 15 years of support and helping me find my life's work" [ref=e24]
+            - link "Thanks HN for 15 years of support and helping me find my life's work" [ref=e131]
+        - row
+          - cell
+          - cell "519 points by nicholasjbs 10 hours ago | hide | 51comments" [ref=e25]
+            - link "nicholasjbs" [ref=e132]
+            - link "10 hours ago" [ref=e268]
+            - link "hide" [ref=e133]
+            - link "51comments" [ref=e134]
+        - row
+        - row
+          - cell "6." [ref=e26]
+          - cell
+            - link [ref=e269]
+          - cell "First atmosphere found on Earth-like planet in habitable zone of distant star (bbc.com)" [ref=e27]
+            - link "First atmosphere found on Earth-like planet in habitable zone of distant star" [ref=e135]
+            - link "bbc.com" [ref=e136]
+        - row
+          - cell
+          - cell "431 points by neversaydie 16 hours ago | hide | 253comments" [ref=e28]
+            - link "neversaydie" [ref=e137]
+            - link "16 hours ago" [ref=e270]
+            - link "hide" [ref=e138]
+            - link "253comments" [ref=e139]
+        - row
+        - row
+          - cell "7." [ref=e29]
+          - cell
+            - link [ref=e271]
+          - cell "The Zilog Z80 has turned 50 (goliath32.com)" [ref=e30]
+            - link "The Zilog Z80 has turned 50" [ref=e140]
+            - link "goliath32.com" [ref=e141]
+        - row
+          - cell
+          - cell "204 points by st_goliath 11 hours ago | hide | 63comments" [ref=e31]
+            - link "st_goliath" [ref=e142]
+            - link "11 hours ago" [ref=e272]
+            - link "hide" [ref=e143]
+            - link "63comments" [ref=e144]
+        - row
+        - row
+          - cell "8." [ref=e32]
+          - cell
+            - link [ref=e273]
+          - cell "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig (moonstone.sh)" [ref=e33]
+            - link "Moonstone: Modern, cross-platform Lua runtime and package manager written in Zig" [ref=e145]
+            - link "moonstone.sh" [ref=e146]
+        - row
+          - cell
+          - cell "43 points by ksymph 5 hours ago | hide | 12comments" [ref=e34]
+            - link "ksymph" [ref=e147]
+            - link "5 hours ago" [ref=e274]
+            - link "hide" [ref=e148]
+            - link "12comments" [ref=e149]
+        - row
+        - row
+          - cell "9." [ref=e35]
+          - cell
+            - link [ref=e275]
+          - cell "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years (github.com/badchemical)" [ref=e36]
+            - link "TP-Link Kasa cameras leaked home GPS via unauthenticated UDP for 6 years" [ref=e150]
+            - link "github.com/badchemical" [ref=e151]
+        - row
+          - cell
+          - cell "90 points by BadChemical 9 hours ago | hide | 21comments" [ref=e37]
+            - link "BadChemical" [ref=e152]
+            - link "9 hours ago" [ref=e276]
+            - link "hide" [ref=e153]
+            - link "21comments" [ref=e154]
+        - row
+        - row
+          - cell "10." [ref=e38]
+          - cell
+            - link [ref=e277]
+          - cell "I Started a \"Dirt Notebook\" (pinewind.bearblog.dev)" [ref=e39]
+            - link "I Started a \"Dirt Notebook\"" [ref=e155]
+            - link "pinewind.bearblog.dev" [ref=e156]
+        - row
+          - cell
+          - cell "45 points by herbertl 5 hours ago | hide | 35comments" [ref=e40]
+            - link "herbertl" [ref=e157]
+            - link "5 hours ago" [ref=e278]
+            - link "hide" [ref=e158]
+            - link "35comments" [ref=e159]
+        - row
+        - row
+          - cell "11." [ref=e41]
+          - cell
+            - link [ref=e279]
+          - cell "Learning a few things about running SQLite (jvns.ca)" [ref=e42]
+            - link "Learning a few things about running SQLite" [ref=e160]
+            - link "jvns.ca" [ref=e161]
+        - row
+          - cell
+          - cell "216 points by surprisetalk 13 hours ago | hide | 57comments" [ref=e43]
+            - link "surprisetalk" [ref=e162]
+            - link "13 hours ago" [ref=e280]
+            - link "hide" [ref=e163]
+            - link "57comments" [ref=e164]
+        - row
+        - row
+          - cell "12." [ref=e44]
+          - cell
+            - link [ref=e281]
+          - cell "Stenchill: 3D Printable Solder Paste Stencil Generator (stenchill.com)" [ref=e45]
+            - link "Stenchill: 3D Printable Solder Paste Stencil Generator" [ref=e165]
+            - link "stenchill.com" [ref=e166]
+        - row
+          - cell
+          - cell "35 points by radeeyate 6 hours ago | hide | 6comments" [ref=e46]
+            - link "radeeyate" [ref=e167]
+            - link "6 hours ago" [ref=e282]
+            - link "hide" [ref=e168]
+            - link "6comments" [ref=e169]
+        - row
+        - row
+          - cell "13." [ref=e47]
+          - cell
+            - link [ref=e283]
+          - cell "Shipping OpenStrike: A Counter-Strike-Shaped FPS on a 2004 Handheld (pocketjs.dev)" [ref=e48]
+            - link "Shipping OpenStrike: A Counter-Strike-Shaped FPS on a 2004 Handheld" [ref=e170]
+            - link "pocketjs.dev" [ref=e171]
+        - row
+          - cell
+          - cell "32 points by itvision 4 hours ago | hide | 14comments" [ref=e49]
+            - link "itvision" [ref=e172]
+            - link "4 hours ago" [ref=e284]
+            - link "hide" [ref=e173]
+            - link "14comments" [ref=e174]
+        - row
+        - row
+          - cell "14." [ref=e50]
+          - cell
+            - link [ref=e285]
+          - cell "Kimi K3, and what we can still learn from the pelican benchmark (simonwillison.net)" [ref=e51]
+            - link "Kimi K3, and what we can still learn from the pelican benchmark" [ref=e175]
+            - link "simonwillison.net" [ref=e176]
+        - row
+          - cell
+          - cell "316 points by droidjj 16 hours ago | hide | 166comments" [ref=e52]
+            - link "droidjj" [ref=e177]
+            - link "16 hours ago" [ref=e286]
+            - link "hide" [ref=e178]
+            - link "166comments" [ref=e179]
+        - row
+        - row
+          - cell "15." [ref=e53]
+          - cell
+            - link [ref=e287]
+          - cell "Vāgdhenu: A Sanskrit Chanting TTS System (prathosh.in)" [ref=e54]
+            - link "Vāgdhenu: A Sanskrit Chanting TTS System" [ref=e180]
+            - link "prathosh.in" [ref=e181]
+        - row
+          - cell
+          - cell "131 points by subinalex 7 hours ago | hide | 27comments" [ref=e55]
+            - link "subinalex" [ref=e182]
+            - link "7 hours ago" [ref=e288]
+            - link "hide" [ref=e183]
+            - link "27comments" [ref=e184]
+        - row
+        - row
+          - cell "16." [ref=e56]
+          - cell
+            - link [ref=e289]
+          - cell "An Update on Igalia's Layer Based SVG Engine in WebKit (Reducing Layer Overhead) (igalia.com)" [ref=e57]
+            - link "An Update on Igalia's Layer Based SVG Engine in WebKit (Reducing Layer Overhead)" [ref=e185]
+            - link "igalia.com" [ref=e186]
+        - row
+          - cell
+          - cell "34 points by bkardell 5 hours ago | hide | 1comment" [ref=e58]
+            - link "bkardell" [ref=e187]
+            - link "5 hours ago" [ref=e290]
+            - link "hide" [ref=e188]
+            - link "1comment" [ref=e189]
+        - row
+        - row
+          - cell "17." [ref=e59]
+          - cell
+          - cell "DrDroid (YC W23) Is Hiring (ycombinator.com)" [ref=e60]
+            - link "DrDroid (YC W23) Is Hiring" [ref=e190]
+            - link "ycombinator.com" [ref=e191]
+        - row
+          - cell
+          - cell "5 hours ago | hide" [ref=e61]
+            - link "5 hours ago" [ref=e291]
+            - link "hide" [ref=e192]
+        - row
+        - row
+          - cell "18." [ref=e62]
+          - cell
+            - link [ref=e292]
+          - cell "Battery packs: Let's talk about crates, baby (smallcultfollowing.com)" [ref=e63]
+            - link "Battery packs: Let's talk about crates, baby" [ref=e193]
+            - link "smallcultfollowing.com" [ref=e194]
+        - row
+          - cell
+          - cell "8 points by MeetingsBrowser 3 hours ago | hide | 2comments" [ref=e64]
+            - link "MeetingsBrowser" [ref=e195]
+            - link "3 hours ago" [ref=e293]
+            - link "hide" [ref=e196]
+            - link "2comments" [ref=e197]
+        - row
+        - row
+          - cell "19." [ref=e65]
+          - cell
+            - link [ref=e294]
+          - cell "In-toto: A framework to secure the integrity of software supply chains (in-toto.io)" [ref=e66]
+            - link "In-toto: A framework to secure the integrity of software supply chains" [ref=e198]
+            - link "in-toto.io" [ref=e199]
+        - row
+          - cell
+          - cell "5 points by Erenay09 2 hours ago | hide | discuss" [ref=e67]
+            - link "Erenay09" [ref=e200]
+            - link "2 hours ago" [ref=e295]
+            - link "hide" [ref=e201]
+            - link "discuss" [ref=e202]
+        - row
+        - row
+          - cell "20." [ref=e68]
+          - cell
+            - link [ref=e296]
+          - cell "Static search trees: 40x faster than binary search (2024) (curiouscoding.nl)" [ref=e69]
+            - link "Static search trees: 40x faster than binary search (2024)" [ref=e203]
+            - link "curiouscoding.nl" [ref=e204]
+        - row
+          - cell
+          - cell "93 points by lalitmaganti 10 hours ago | hide | 4comments" [ref=e70]
+            - link "lalitmaganti" [ref=e205]
+            - link "10 hours ago" [ref=e297]
+            - link "hide" [ref=e206]
+            - link "4comments" [ref=e207]
+        - row
+        - row
+          - cell "21." [ref=e71]
+          - cell
+            - link [ref=e298]
+          - cell "Open Book Touch: open-source e-reader (crowdsupply.com)" [ref=e72]
+            - link "Open Book Touch: open-source e-reader" [ref=e208]
+            - link "crowdsupply.com" [ref=e209]
+        - row
+          - cell
+          - cell "90 points by surprisetalk 10 hours ago | hide | 31comments" [ref=e73]
+            - link "surprisetalk" [ref=e210]
+            - link "10 hours ago" [ref=e299]
+            - link "hide" [ref=e211]
+            - link "31comments" [ref=e212]
+        - row
+        - row
+          - cell "22." [ref=e74]
+          - cell
+            - link [ref=e300]
+          - cell "Painting the sides of railroad rails white to reduce derailment (up.com)" [ref=e75]
+            - link "Painting the sides of railroad rails white to reduce derailment" [ref=e213]
+            - link "up.com" [ref=e214]
+        - row
+          - cell
+          - cell "80 points by zdw 10 hours ago | hide | 44comments" [ref=e76]
+            - link "zdw" [ref=e215]
+            - link "10 hours ago" [ref=e301]
+            - link "hide" [ref=e216]
+            - link "44comments" [ref=e217]
+        - row
+        - row
+          - cell "23." [ref=e77]
+          - cell
+            - link [ref=e302]
+          - cell "Lego building instructions through time (lego.com)" [ref=e78]
+            - link "Lego building instructions through time" [ref=e218]
+            - link "lego.com" [ref=e219]
+        - row
+          - cell
+          - cell "99 points by NaOH 12 hours ago | hide | 21comments" [ref=e79]
+            - link "NaOH" [ref=e220]
+            - link "12 hours ago" [ref=e303]
+            - link "hide" [ref=e221]
+            - link "21comments" [ref=e222]
+        - row
+        - row
+          - cell "24." [ref=e80]
+          - cell
+            - link [ref=e304]
+          - cell "The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold (isomorphiclabs.com)" [ref=e81]
+            - link "The Isomorphic Labs Drug Design Engine unlocks a new frontier beyond AlphaFold" [ref=e223]
+            - link "isomorphiclabs.com" [ref=e224]
+        - row
+          - cell
+          - cell "66 points by andsoitis 7 hours ago | hide | 6comments" [ref=e82]
+            - link "andsoitis" [ref=e225]
+            - link "7 hours ago" [ref=e305]
+            - link "hide" [ref=e226]
+            - link "6comments" [ref=e227]
+        - row
+        - row
+          - cell "25." [ref=e83]
+          - cell
+            - link [ref=e306]
+          - cell "The state of open source AI (stateofopensource.ai)" [ref=e84]
+            - link "The state of open source AI" [ref=e228]
+            - link "stateofopensource.ai" [ref=e229]
+        - row
+          - cell
+          - cell "414 points by rellem 16 hours ago | hide | 299comments" [ref=e85]
+            - link "rellem" [ref=e230]
+            - link "16 hours ago" [ref=e307]
+            - link "hide" [ref=e231]
+            - link "299comments" [ref=e232]
+        - row
+        - row
+          - cell "26." [ref=e86]
+          - cell
+            - link [ref=e308]
+          - cell "Show HN: A zoomable timeline of 4M Wikipedia events (diena.co)" [ref=e87]
+            - link "Show HN: A zoomable timeline of 4M Wikipedia events" [ref=e233]
+            - link "diena.co" [ref=e234]
+        - row
+          - cell
+          - cell "82 points by lortex 12 hours ago | hide | 30comments" [ref=e88]
+            - link "lortex" [ref=e235]
+            - link "12 hours ago" [ref=e309]
+            - link "hide" [ref=e236]
+            - link "30comments" [ref=e237]
+        - row
+        - row
+          - cell "27." [ref=e89]
+          - cell
+            - link [ref=e310]
+          - cell "Frank Lloyd Wright’s first home (architecturaldigest.com)" [ref=e90]
+            - link "Frank Lloyd Wright’s first home" [ref=e238]
+            - link "architecturaldigest.com" [ref=e239]
+        - row
+          - cell
+          - cell "98 points by NaOH 15 hours ago | hide | 48comments" [ref=e91]
+            - link "NaOH" [ref=e240]
+            - link "15 hours ago" [ref=e311]
+            - link "hide" [ref=e241]
+            - link "48comments" [ref=e242]
+        - row
+        - row
+          - cell "28." [ref=e92]
+          - cell
+            - link [ref=e312]
+          - cell "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again (cnbc.com)" [ref=e93]
+            - link "FAA lets Boeing sign off on 737 MAX, 787 airworthiness certificates again" [ref=e243]
+            - link "cnbc.com" [ref=e244]
+        - row
+          - cell
+          - cell "166 points by hmm37 9 hours ago | hide | 90comments" [ref=e94]
+            - link "hmm37" [ref=e245]
+            - link "9 hours ago" [ref=e313]
+            - link "hide" [ref=e246]
+            - link "90comments" [ref=e247]
+        - row
+        - row
+          - cell "29." [ref=e95]
+          - cell
+            - link [ref=e314]
+          - cell "Three ways people respond to a problem (other than solving it) (improvesomething.today)" [ref=e96]
+            - link "Three ways people respond to a problem (other than solving it)" [ref=e248]
+            - link "improvesomething.today" [ref=e249]
+        - row
+          - cell
+          - cell "225 points by surprisetalk 17 hours ago | hide | 126comments" [ref=e97]
+            - link "surprisetalk" [ref=e250]
+            - link "17 hours ago" [ref=e315]
+            - link "hide" [ref=e251]
+            - link "126comments" [ref=e252]
+        - row
+        - row
+          - cell "30." [ref=e98]
+          - cell
+            - link [ref=e316]
+          - cell "Show HN: Watch bots interact with an SSH honeypot in real time (honeypotlive.cc)" [ref=e99]
+            - link "Show HN: Watch bots interact with an SSH honeypot in real time" [ref=e253]
+            - link "honeypotlive.cc" [ref=e254]
+        - row
+          - cell
+          - cell "154 points by tusksm 16 hours ago | hide | 56comments" [ref=e100]
+            - link "tusksm" [ref=e255]
+            - link "16 hours ago" [ref=e317]
+            - link "hide" [ref=e256]
+            - link "56comments" [ref=e257]
+        - row
+        - row
+        - row
+          - cell
+          - cell "More" [ref=e101]
+            - link "More" [ref=e258]
+  - LayoutTableRow
+    - LayoutTableCell " Consider applying for YC's Fall 2026 batch! Applications are open till July 27. Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact "
+      - image
+      - LayoutTable
+      - LineBreak "\n"
+      - link "Consider applying for YC's Fall 2026 batch! Applications are open till July 27." [ref=e9]
+      - LineBreak "\n"
+      - link "Guidelines" [ref=e1]
+      - StaticText " | "
+      - link "FAQ" [ref=e2]
+      - StaticText " | "
+      - link "Lists" [ref=e3]
+      - StaticText " | "
+      - link "API" [ref=e4]
+      - StaticText " | "
+      - link "Security" [ref=e5]
+      - StaticText " | "
+      - link "Legal" [ref=e6]
+      - StaticText " | "
+      - link "Apply to YC" [ref=e7]
+      - StaticText " | "
+      - link "Contact" [ref=e8]
+      - LineBreak "\n"
+      - LineBreak "\n"
+      - form
+        - StaticText "Search: "
+        - textbox [ref=e10]

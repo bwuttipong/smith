@@ -1,0 +1,1416 @@
+- generic
+  - banner
+    - generic
+      - link "Google News" [ref=e18]
+        - StaticText "News"
+      - search
+        - combobox "Search for topics, locations & sources" [expanded=false, ref=e19]: cat
+          - StaticText "cat"
+        - button "Advanced search" [ref=e1]
+          - image
+        - button "Clear search" [ref=e2]
+          - image
+        - button "Search" [ref=e3]
+          - image
+      - generic
+        - button "Help" [expanded=false, ref=e48]
+      - generic
+        - button "Settings" [expanded=false, ref=e49]
+      - generic
+        - button "Google apps" [expanded=false, ref=e50]
+          - StaticText "  "
+        - link "Sign in" [ref=e4]
+          - StaticText "  "
+          - StaticText "Sign in"
+    - navigation
+      - tablist
+        - tab "Home" [ref=e5]
+          - tab "Home" [ref=e20]
+        - tab "For you" [ref=e6]
+          - tab "For you" [ref=e21]
+        - tab "Following" [ref=e7]
+          - tab "Following" [ref=e22]
+        - tab "U.S." [ref=e8]
+          - tab "U.S." [ref=e23]
+        - tab "World" [ref=e9]
+          - tab "World" [ref=e24]
+        - tab "Local" [ref=e10]
+          - tab "Local" [ref=e25]
+        - tab "Business" [ref=e11]
+          - tab "Business" [ref=e26]
+        - tab "Technology" [ref=e12]
+          - tab "Technology" [ref=e27]
+        - tab "Entertainment" [ref=e13]
+          - tab "Entertainment" [ref=e28]
+        - tab "Sports" [ref=e14]
+          - tab "Sports" [ref=e29]
+        - tab "Science" [ref=e15]
+          - tab "Science" [ref=e30]
+        - tab "Health" [ref=e16]
+          - tab "Health" [ref=e31]
+  - generic
+    - main
+      - generic
+        - generic
+          - generic
+            - generic
+              - StaticText "CNBC"
+              - generic
+                - button "More - Fat cat? Weight-loss drugs may be coming for your overweight pet" [expanded=false, ref=e154]
+            - link "Fat cat? Weight-loss drugs may be coming for your overweight pet - CNBC - 5 hours ago - By Elsa Ohlen & Carolin Roth" [ref=e52]
+              - StaticText "Fat cat? Weight-loss drugs may be coming for your overweight pet"
+        - time
+          - StaticText "5 hours ago"
+        - separator
+        - StaticText "By Elsa Ohlen & Carolin Roth"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Smithsonian Magazine"
+                - generic
+                  - button "More - When a Cat Licks Another Cat, It's Not Always a Friendly Gesture. New Study Reveals They May Just Want Their Own Space" [expanded=false, ref=e155]
+              - link "When a Cat Licks Another Cat, It's Not Always a Friendly Gesture. New Study Reveals They May Just Want Their Own Space - Smithsonian Magazine - 21 hours ago - By Margherita Bassi" [ref=e53]
+                - StaticText "When a Cat Licks Another Cat, It's Not Always a Friendly Gesture. New Study Reveals They May Just Want Their Own Space"
+          - time
+            - StaticText "21 hours ago"
+          - separator
+          - StaticText "By Margherita Bassi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Yahoo News Singapore"
+                - generic
+                  - button "More - Cat fosterers to be allowed up to six cats in HDB flats under new pilot" [expanded=false, ref=e156]
+              - link "Cat fosterers to be allowed up to six cats in HDB flats under new pilot - Yahoo News Singapore - 3 hours ago - By Liying Lee" [ref=e54]
+                - StaticText "Cat fosterers to be allowed up to six cats in HDB flats under new pilot"
+          - time
+            - StaticText "3 hours ago"
+          - separator
+          - StaticText "By Liying Lee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "U.S. Consumer Product Safety Commission (.gov)"
+                - generic
+                  - button "More - Target Recalls Cat & Jack Children’s Sandals Due to Risk of Serious Injury or Death from Choking Hazard" [expanded=false, ref=e157]
+              - link "Target Recalls Cat & Jack Children’s Sandals Due to Risk of Serious Injury or Death from Choking Hazard - U.S. Consumer Product Safety Commission (.gov) - 2 days ago" [ref=e55]
+                - StaticText "Target Recalls Cat & Jack Children’s Sandals Due to Risk of Serious Injury or Death from Choking Hazard"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "KSL News"
+                - generic
+                  - button "More - Couple accused of killing man's cat while robbing him" [expanded=false, ref=e158]
+              - link "Couple accused of killing man's cat while robbing him - KSL News - Yesterday - By Pat Reavy" [ref=e56]
+                - StaticText "Couple accused of killing man's cat while robbing him"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Pat Reavy"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Los Angeles Times"
+                - generic
+                  - button "More - One-eyed rescue cat with Long Beach cult following celebrates 15th birthday in style" [expanded=false, ref=e159]
+              - link "One-eyed rescue cat with Long Beach cult following celebrates 15th birthday in style - Los Angeles Times - Yesterday - By Julius Miller" [ref=e57]
+                - StaticText "One-eyed rescue cat with Long Beach cult following celebrates 15th birthday in style"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Julius Miller"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - After 40 days in the Colorado wilderness, this cat named Fridge was reunited with her Minnesota owner" [expanded=false, ref=e160]
+              - link "After 40 days in the Colorado wilderness, this cat named Fridge was reunited with her Minnesota owner - CBS News - Yesterday - By Joseph Van Ryn" [ref=e58]
+                - StaticText "After 40 days in the Colorado wilderness, this cat named Fridge was reunited with her Minnesota owner"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Joseph Van Ryn"
+        - heading "News about cats • dogs" [level=3, ref=e32]
+        - separator
+        - generic
+          - generic
+            - generic
+              - generic
+                - StaticText "Milwaukee Journal Sentinel"
+                - generic
+                  - button "More - MADACC requests food donations while 'bursting at the seams' with cats" [expanded=false, ref=e161]
+              - link "MADACC requests food donations while 'bursting at the seams' with cats - Milwaukee Journal Sentinel - 15 hours ago - By Kelli Arseneau" [ref=e59]
+                - StaticText "MADACC requests food donations while 'bursting at the seams' with cats"
+          - time
+            - StaticText "15 hours ago"
+          - separator
+          - StaticText "By Kelli Arseneau"
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "KATU"
+                - generic
+                  - button "More - Humane Society waives fees as 80+ cats from one property strain shelter capacity" [expanded=false, ref=e162]
+              - link "Humane Society waives fees as 80+ cats from one property strain shelter capacity - KATU - 2 days ago" [ref=e60]
+                - StaticText "Humane Society waives fees as 80+ cats from one property strain shelter capacity"
+          - time
+            - StaticText "2 days ago"
+          - generic
+            - generic
+              - generic
+                - StaticText "KSL News"
+                - generic
+                  - button "More - Rescue flight brings 90 cats, dogs from Texas to Utah" [expanded=false, ref=e163]
+              - link "Rescue flight brings 90 cats, dogs from Texas to Utah - KSL News - 3 hours ago - By Alex Cabrero" [ref=e61]
+                - StaticText "Rescue flight brings 90 cats, dogs from Texas to Utah"
+          - time
+            - StaticText "3 hours ago"
+          - separator
+          - StaticText "By Alex Cabrero"
+        - generic
+          - generic
+            - generic
+              - StaticText "kens5.com"
+              - generic
+                - button "More - Missing cat reunited with family after Boerne vet searched floodwaters" [expanded=false, ref=e164]
+            - link "Missing cat reunited with family after Boerne vet searched floodwaters - kens5.com - 19 hours ago - By Andrea Carden" [ref=e62]
+              - StaticText "Missing cat reunited with family after Boerne vet searched floodwaters"
+        - time
+          - StaticText "19 hours ago"
+        - separator
+        - StaticText "By Andrea Carden"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Dodo"
+                - generic
+                  - button "More - Mom Notices Something Different About Her Cat — Then He Breaks A World Record" [expanded=false, ref=e165]
+              - link "Mom Notices Something Different About Her Cat — Then He Breaks A World Record - The Dodo - 12 hours ago - By Alana Francis-crow" [ref=e63]
+                - StaticText "Mom Notices Something Different About Her Cat — Then He Breaks A World Record"
+          - time
+            - StaticText "12 hours ago"
+          - separator
+          - StaticText "By Alana Francis-crow"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "mindmatters.ai"
+                - generic
+                  - button "More - Do Cats Have Souls? Some Reflections" [expanded=false, ref=e166]
+              - link "Do Cats Have Souls? Some Reflections - mindmatters.ai - 12 hours ago - By Denyse O'Leary" [ref=e64]
+                - StaticText "Do Cats Have Souls? Some Reflections"
+          - time
+            - StaticText "12 hours ago"
+          - separator
+          - StaticText "By Denyse O'Leary"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Decider"
+                - generic
+                  - button "More - Now That ‘Obsession’ Is On Peacock, Can We Admit the Cat Death Makes No Sense?" [expanded=false, ref=e167]
+              - link "Now That ‘Obsession’ Is On Peacock, Can We Admit the Cat Death Makes No Sense? - Decider - 19 hours ago - By Anna Menta" [ref=e65]
+                - StaticText "Now That ‘Obsession’ Is On Peacock, Can We Admit the Cat Death Makes No Sense?"
+          - time
+            - StaticText "19 hours ago"
+          - separator
+          - StaticText "By Anna Menta"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC 5 Chicago"
+                - generic
+                  - button "More - Target recalls popular Cat & Jack shoes due to ‘risk of serious injury or death'" [expanded=false, ref=e168]
+              - link "Target recalls popular Cat & Jack shoes due to ‘risk of serious injury or death' - NBC 5 Chicago - 18 hours ago - By Francie Swidler" [ref=e66]
+                - StaticText "Target recalls popular Cat & Jack shoes due to ‘risk of serious injury or death'"
+          - time
+            - StaticText "18 hours ago"
+          - separator
+          - StaticText "By Francie Swidler"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Hartford Courant"
+                - generic
+                  - button "More - Pet of the week: Dante is a resilient CT cat in need of a home" [expanded=false, ref=e169]
+              - link "Pet of the week: Dante is a resilient CT cat in need of a home - Hartford Courant - 1 hour ago" [ref=e67]
+                - StaticText "Pet of the week: Dante is a resilient CT cat in need of a home"
+          - time
+            - StaticText "1 hour ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "UCHealth"
+                - generic
+                  - button "More - Can your cat give you bird flu? What experts say about human risk and the likelihood that bird flu will cause a pandemic." [expanded=false, ref=e170]
+              - link "Can your cat give you bird flu? What experts say about human risk and the likelihood that bird flu will cause a pandemic. - UCHealth - 2 days ago" [ref=e68]
+                - StaticText "Can your cat give you bird flu? What experts say about human risk and the likelihood that bird flu will cause a pandemic."
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Milwaukee Record"
+                - generic
+                  - button "More - Milwaukee Record Cat Of The Week: Hocus Pocus" [expanded=false, ref=e171]
+              - link "Milwaukee Record Cat Of The Week: Hocus Pocus - Milwaukee Record - 5 hours ago" [ref=e69]
+                - StaticText "Milwaukee Record Cat Of The Week: Hocus Pocus"
+          - time
+            - StaticText "5 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBC"
+                - generic
+                  - button "More - Cats don't always lick each other out of affection. Sometimes they're just being jerks" [expanded=false, ref=e172]
+              - link "Cats don't always lick each other out of affection. Sometimes they're just being jerks - CBC - 13 hours ago - By Philip Drost" [ref=e70]
+                - StaticText "Cats don't always lick each other out of affection. Sometimes they're just being jerks"
+          - time
+            - StaticText "13 hours ago"
+          - separator
+          - StaticText "By Philip Drost"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Outside Magazine"
+                - generic
+                  - button "More - A Lost Cat Survived 39 Days Alone Near a Colorado National Park Before a Miracle Rescue" [expanded=false, ref=e173]
+              - link "A Lost Cat Survived 39 Days Alone Near a Colorado National Park Before a Miracle Rescue - Outside Magazine - 12 hours ago - By Kristy Hamilton" [ref=e71]
+                - StaticText "A Lost Cat Survived 39 Days Alone Near a Colorado National Park Before a Miracle Rescue"
+          - time
+            - StaticText "12 hours ago"
+          - separator
+          - StaticText "By Kristy Hamilton"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC News"
+                - generic
+                  - button "More - Cat burglar steals kitten, tries to rob bank in Maryland, gets caught instead" [expanded=false, ref=e174]
+              - link "Cat burglar steals kitten, tries to rob bank in Maryland, gets caught instead - NBC News - 3 days ago - By Jackie Bensen" [ref=e72]
+                - StaticText "Cat burglar steals kitten, tries to rob bank in Maryland, gets caught instead"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Jackie Bensen"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "kmph.com"
+                - generic
+                  - button "More - Rattlesnakes put wild-cat rescue on high alert to protect felines" [expanded=false, ref=e175]
+              - link "Rattlesnakes put wild-cat rescue on high alert to protect felines - kmph.com - 5 hours ago - By Madison Wilber" [ref=e73]
+                - StaticText "Rattlesnakes put wild-cat rescue on high alert to protect felines"
+          - time
+            - StaticText "5 hours ago"
+          - separator
+          - StaticText "By Madison Wilber"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Yourbasin"
+                - generic
+                  - button "More - Alley Cat Rescue: New Odessa rescue aims to tackle stray cat crisis" [expanded=false, ref=e176]
+              - link "Alley Cat Rescue: New Odessa rescue aims to tackle stray cat crisis - Yourbasin - 2 hours ago" [ref=e74]
+                - StaticText "Alley Cat Rescue: New Odessa rescue aims to tackle stray cat crisis"
+          - time
+            - StaticText "2 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Spokesman-Review"
+                - generic
+                  - button "More - Wildlife ambassador: White tiger at Cat Tales dies after bout with mouth cancer" [expanded=false, ref=e177]
+              - link "Wildlife ambassador: White tiger at Cat Tales dies after bout with mouth cancer - The Spokesman-Review - 5 hours ago - By Elizabeth Starr Miller Coyne" [ref=e75]
+                - StaticText "Wildlife ambassador: White tiger at Cat Tales dies after bout with mouth cancer"
+          - time
+            - StaticText "5 hours ago"
+          - separator
+          - StaticText "By Elizabeth Starr Miller Coyne"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Telegraph"
+                - generic
+                  - button "More - Escaped savannah cat found in plant pot after two-month search" [expanded=false, ref=e178]
+              - link "Escaped savannah cat found in plant pot after two-month search - The Telegraph - 15 hours ago" [ref=e76]
+                - StaticText "Escaped savannah cat found in plant pot after two-month search"
+          - time
+            - StaticText "15 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "simplywall.st"
+                - generic
+                  - button "More - Is Caterpillar (CAT) Expensive Following Its Strong Run And Wide Moat Narrative?" [expanded=false, ref=e179]
+              - link "Is Caterpillar (CAT) Expensive Following Its Strong Run And Wide Moat Narrative? - simplywall.st - 1 hour ago" [ref=e77]
+                - StaticText "Is Caterpillar (CAT) Expensive Following Its Strong Run And Wide Moat Narrative?"
+          - time
+            - StaticText "1 hour ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Tribune Chronicle -"
+                - generic
+                  - button "More - Volunteers build houses for stray cats" [expanded=false, ref=e180]
+              - link "Volunteers build houses for stray cats - Tribune Chronicle - - 2 hours ago" [ref=e78]
+                - StaticText "Volunteers build houses for stray cats"
+          - time
+            - StaticText "2 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC Los Angeles"
+                - generic
+                  - button "More - ‘Smells like a dead cat.' 30 days since Boyle Heights warehouse fire" [expanded=false, ref=e181]
+              - link "‘Smells like a dead cat.' 30 days since Boyle Heights warehouse fire - NBC Los Angeles - 11 hours ago" [ref=e79]
+                - StaticText "‘Smells like a dead cat.' 30 days since Boyle Heights warehouse fire"
+          - time
+            - StaticText "11 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WKYT"
+                - generic
+                  - button "More - Lexington ranked number one cat-loving city in the country" [expanded=false, ref=e182]
+              - link "Lexington ranked number one cat-loving city in the country - WKYT - 2 days ago" [ref=e80]
+                - StaticText "Lexington ranked number one cat-loving city in the country"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WPBF"
+                - generic
+                  - button "More - Veterinarians warn of deadly cat virus spreading beyond kittens" [expanded=false, ref=e183]
+              - link "Veterinarians warn of deadly cat virus spreading beyond kittens - WPBF - 2 days ago - By Rachael Perry" [ref=e81]
+                - StaticText "Veterinarians warn of deadly cat virus spreading beyond kittens"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Rachael Perry"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Delawareonline.com"
+                - generic
+                  - button "More - Delaware's cutest cat contest opens with 181 feline entries" [expanded=false, ref=e184]
+              - link "Delaware's cutest cat contest opens with 181 feline entries - Delawareonline.com - 45 minutes ago - By Michelle Ganassi" [ref=e82]
+                - StaticText "Delaware's cutest cat contest opens with 181 feline entries"
+          - time
+            - StaticText "45 minutes ago"
+          - separator
+          - StaticText "By Michelle Ganassi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Economist"
+                - generic
+                  - button "More - Lessons from a cat about to outlast yet another prime minister" [expanded=false, ref=e185]
+              - link "Lessons from a cat about to outlast yet another prime minister - The Economist - 2 days ago" [ref=e83]
+                - StaticText "Lessons from a cat about to outlast yet another prime minister"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "kmph.com"
+                - generic
+                  - button "More - Bahati recovering after rattlesnake bite, seizure; treated with antivenin, returns to Cat Haven" [expanded=false, ref=e186]
+              - link "Bahati recovering after rattlesnake bite, seizure; treated with antivenin, returns to Cat Haven - kmph.com - 7 hours ago" [ref=e84]
+                - StaticText "Bahati recovering after rattlesnake bite, seizure; treated with antivenin, returns to Cat Haven"
+          - time
+            - StaticText "7 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "More - The Animal Rescue League of Boston is caring for over a dozen cats and kittens that were recently surrendered." [expanded=false, ref=e187]
+              - link "The Animal Rescue League of Boston is caring for over a dozen cats and kittens that were recently surrendered. - facebook.com - 3 hours ago" [ref=e85]
+                - StaticText "The Animal Rescue League of Boston is caring for over a dozen cats and kittens that were recently surrendered."
+          - time
+            - StaticText "3 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "MyParisTexas"
+                - generic
+                  - button "More - Target recalls Cat & Jack Children’s Sandals due to risk of serious injury or death" [expanded=false, ref=e188]
+              - link "Target recalls Cat & Jack Children’s Sandals due to risk of serious injury or death - MyParisTexas - 14 hours ago" [ref=e86]
+                - StaticText "Target recalls Cat & Jack Children’s Sandals due to risk of serious injury or death"
+          - time
+            - StaticText "14 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "11alive.com"
+                - generic
+                  - button "More - An AI cat scam devastates one pet owner" [expanded=false, ref=e189]
+              - link "An AI cat scam devastates one pet owner - 11alive.com - 16 hours ago - By Cheryl Preheim" [ref=e87]
+                - StaticText "An AI cat scam devastates one pet owner"
+          - time
+            - StaticText "16 hours ago"
+          - separator
+          - StaticText "By Cheryl Preheim"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ParadePets"
+                - generic
+                  - button "More - Is Your Cat Secretly Overheating? 5 Subtle Signs to Watch For This Week" [expanded=false, ref=e190]
+              - link "Is Your Cat Secretly Overheating? 5 Subtle Signs to Watch For This Week - ParadePets - 1 hour ago - By Leslie Leon" [ref=e88]
+                - StaticText "Is Your Cat Secretly Overheating? 5 Subtle Signs to Watch For This Week"
+          - time
+            - StaticText "1 hour ago"
+          - separator
+          - StaticText "By Leslie Leon"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WKYT"
+                - generic
+                  - button "More - Lawrenceburg police chief ‘rescues’ couple from mischievous cat" [expanded=false, ref=e191]
+              - link "Lawrenceburg police chief ‘rescues’ couple from mischievous cat - WKYT - 14 hours ago" [ref=e89]
+                - StaticText "Lawrenceburg police chief ‘rescues’ couple from mischievous cat"
+          - time
+            - StaticText "14 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ParadePets"
+                - generic
+                  - button "More - This Orange Cat Named ‘Mr. Tina Sparkles’ Might Ironically Be the Grumpiest Cat Ever" [expanded=false, ref=e192]
+              - link "This Orange Cat Named ‘Mr. Tina Sparkles’ Might Ironically Be the Grumpiest Cat Ever - ParadePets - 53 minutes ago - By Kendra Syrdal" [ref=e90]
+                - StaticText "This Orange Cat Named ‘Mr. Tina Sparkles’ Might Ironically Be the Grumpiest Cat Ever"
+          - time
+            - StaticText "53 minutes ago"
+          - separator
+          - StaticText "By Kendra Syrdal"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "People.com"
+                - generic
+                  - button "More - ‘Certified Baddie’ Cat Survives 40 Days Lost and Alone in the Colorado Wilderness" [expanded=false, ref=e193]
+              - link "‘Certified Baddie’ Cat Survives 40 Days Lost and Alone in the Colorado Wilderness - People.com - 15 hours ago - By Charlotte Phillipp" [ref=e91]
+                - StaticText "‘Certified Baddie’ Cat Survives 40 Days Lost and Alone in the Colorado Wilderness"
+          - time
+            - StaticText "15 hours ago"
+          - separator
+          - StaticText "By Charlotte Phillipp"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "IDA - In Defense of Animals"
+                - generic
+                  - button "More - Beloved Cat Killed After Neighbor Allegedly Tossed Him to Dogs" [expanded=false, ref=e194]
+              - link "Beloved Cat Killed After Neighbor Allegedly Tossed Him to Dogs - IDA - In Defense of Animals - 12 hours ago" [ref=e92]
+                - StaticText "Beloved Cat Killed After Neighbor Allegedly Tossed Him to Dogs"
+          - time
+            - StaticText "12 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "More - The Cat & Jack Children’s Sandals have been recalled for having pearls that pose a choking hazard." [expanded=false, ref=e195]
+              - link "The Cat & Jack Children’s Sandals have been recalled for having pearls that pose a choking hazard. - facebook.com - 2 hours ago" [ref=e93]
+                - StaticText "The Cat & Jack Children’s Sandals have been recalled for having pearls that pose a choking hazard."
+          - time
+            - StaticText "2 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "More - The Cat & Jack Children’s Sandals have been recalled for having pearls that pose a choking hazard." [expanded=false, ref=e196]
+              - link "The Cat & Jack Children’s Sandals have been recalled for having pearls that pose a choking hazard. - facebook.com - 2 hours ago" [ref=e94]
+                - StaticText "The Cat & Jack Children’s Sandals have been recalled for having pearls that pose a choking hazard."
+          - time
+            - StaticText "2 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Yahoo Creators"
+                - generic
+                  - button "More - Which cat color matches your personality? Birth month has the answer" [expanded=false, ref=e197]
+              - link "Which cat color matches your personality? Birth month has the answer - Yahoo Creators - 13 hours ago - By CAROL. CASSADA" [ref=e95]
+                - StaticText "Which cat color matches your personality? Birth month has the answer"
+          - time
+            - StaticText "13 hours ago"
+          - separator
+          - StaticText "By CAROL. CASSADA"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 56 News"
+                - generic
+                  - button "More - Lexington ranked #1 US city for cat lovers by PetSmart for 2nd consecutive year" [expanded=false, ref=e198]
+              - link "Lexington ranked #1 US city for cat lovers by PetSmart for 2nd consecutive year - FOX 56 News - 6 hours ago" [ref=e96]
+                - StaticText "Lexington ranked #1 US city for cat lovers by PetSmart for 2nd consecutive year"
+          - time
+            - StaticText "6 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WCVB"
+                - generic
+                  - button "More - With shelters full, MSPCA waives fees for adult cats Friday" [expanded=false, ref=e199]
+              - link "With shelters full, MSPCA waives fees for adult cats Friday - WCVB - 2 days ago - By Veronica Haynes" [ref=e97]
+                - StaticText "With shelters full, MSPCA waives fees for adult cats Friday"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Veronica Haynes"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LiveNOW from FOX"
+                - generic
+                  - button "More - Target issues recall of Cat & Jack kids' sandals" [expanded=false, ref=e200]
+              - link "Target issues recall of Cat & Jack kids' sandals - LiveNOW from FOX - 19 hours ago - By Jason Gunn" [ref=e98]
+                - StaticText "Target issues recall of Cat & Jack kids' sandals"
+          - time
+            - StaticText "19 hours ago"
+          - separator
+          - StaticText "By Jason Gunn"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Fox 59"
+                - generic
+                  - button "More - Docs: Muncie man stabbed after argument over cat" [expanded=false, ref=e201]
+              - link "Docs: Muncie man stabbed after argument over cat - Fox 59 - 2 days ago - By Deja Studdard" [ref=e99]
+                - StaticText "Docs: Muncie man stabbed after argument over cat"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Deja Studdard"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Vet Times"
+                - generic
+                  - button "More - Cats owners needed for new treatment study" [expanded=false, ref=e202]
+              - link "Cats owners needed for new treatment study - Vet Times - 3 days ago - By Allister Webb" [ref=e100]
+                - StaticText "Cats owners needed for new treatment study"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Allister Webb"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "KSL News"
+                - generic
+                  - button "More - Have You Seen This? Cat and cobra engage in tense faceoff" [expanded=false, ref=e203]
+              - link "Have You Seen This? Cat and cobra engage in tense faceoff - KSL News - 12 hours ago - By Tim Vandenack" [ref=e101]
+                - StaticText "Have You Seen This? Cat and cobra engage in tense faceoff"
+          - time
+            - StaticText "12 hours ago"
+          - separator
+          - StaticText "By Tim Vandenack"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Appen Media"
+                - generic
+                  - button "More - Kitten College offers training in Forsyth County to cat rescuers" [expanded=false, ref=e204]
+              - link "Kitten College offers training in Forsyth County to cat rescuers - Appen Media - 19 hours ago - By Jon Wilcox" [ref=e102]
+                - StaticText "Kitten College offers training in Forsyth County to cat rescuers"
+          - time
+            - StaticText "19 hours ago"
+          - separator
+          - StaticText "By Jon Wilcox"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WBAY"
+                - generic
+                  - button "More - Target recalls about 211,000 Cat & Jack children’s sandals over choking hazard" [expanded=false, ref=e205]
+              - link "Target recalls about 211,000 Cat & Jack children’s sandals over choking hazard - WBAY - 14 hours ago" [ref=e103]
+                - StaticText "Target recalls about 211,000 Cat & Jack children’s sandals over choking hazard"
+          - time
+            - StaticText "14 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Crunchyroll"
+                - generic
+                  - button "More - Suis from Yorushika Releases The Cat and the Dragon Anime Opening Song Music Video" [expanded=false, ref=e206]
+              - link "Suis from Yorushika Releases The Cat and the Dragon Anime Opening Song Music Video - Crunchyroll - 8 hours ago" [ref=e104]
+                - StaticText "Suis from Yorushika Releases The Cat and the Dragon Anime Opening Song Music Video"
+          - time
+            - StaticText "8 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WBKR"
+                - generic
+                  - button "More - Follow the Fat Cat on the Garfield Trail in Indiana" [expanded=false, ref=e207]
+              - link "Follow the Fat Cat on the Garfield Trail in Indiana - WBKR - 15 hours ago - By Mary-katherine Maddox" [ref=e105]
+                - StaticText "Follow the Fat Cat on the Garfield Trail in Indiana"
+          - time
+            - StaticText "15 hours ago"
+          - separator
+          - StaticText "By Mary-katherine Maddox"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Independent"
+                - generic
+                  - button "More - Former human rights lawyer, 79, sues after police ‘chop down door’ to seize her cat" [expanded=false, ref=e208]
+              - link "Former human rights lawyer, 79, sues after police ‘chop down door’ to seize her cat - The Independent - 14 hours ago - By Richard Gittins" [ref=e106]
+                - StaticText "Former human rights lawyer, 79, sues after police ‘chop down door’ to seize her cat"
+          - time
+            - StaticText "14 hours ago"
+          - separator
+          - StaticText "By Richard Gittins"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ARLnow"
+                - generic
+                  - button "More - Falls Church named most ‘cat-loving’ city in Virginia" [expanded=false, ref=e209]
+              - link "Falls Church named most ‘cat-loving’ city in Virginia - ARLnow - Yesterday - By Daniel Egitto" [ref=e107]
+                - StaticText "Falls Church named most ‘cat-loving’ city in Virginia"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Daniel Egitto"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WTOP"
+                - generic
+                  - button "More - Cat rescued after being thrown from moving vehicle on Woodrow Wilson Bridge Trail" [expanded=false, ref=e210]
+              - link "Cat rescued after being thrown from moving vehicle on Woodrow Wilson Bridge Trail - WTOP - 5 days ago - By Will Vitka" [ref=e108]
+                - StaticText "Cat rescued after being thrown from moving vehicle on Woodrow Wilson Bridge Trail"
+          - time
+            - StaticText "5 days ago"
+          - separator
+          - StaticText "By Will Vitka"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Deadline"
+                - generic
+                  - button "More - 'Cartoon Cat' Movie In The Works At TriStar Pictures" [expanded=false, ref=e211]
+              - link "'Cartoon Cat' Movie In The Works At TriStar Pictures - Deadline - 4 days ago - By Justin Kroll & Matt Grobar" [ref=e109]
+                - StaticText "'Cartoon Cat' Movie In The Works At TriStar Pictures"
+          - time
+            - StaticText "4 days ago"
+          - separator
+          - StaticText "By Justin Kroll & Matt Grobar"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "paxtonmedia.com"
+                - generic
+                  - button "More - Kernersville cat may be state’s oldest" [expanded=false, ref=e212]
+              - link "Kernersville cat may be state’s oldest - paxtonmedia.com - 15 hours ago" [ref=e110]
+                - StaticText "Kernersville cat may be state’s oldest"
+          - time
+            - StaticText "15 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Florida Times-Union"
+                - generic
+                  - button "More - Take your pick from these dogs and cats yearning for a home" [expanded=false, ref=e213]
+              - link "Take your pick from these dogs and cats yearning for a home - The Florida Times-Union - 1 hour ago - By Beth Reese Cravey" [ref=e111]
+                - StaticText "Take your pick from these dogs and cats yearning for a home"
+          - time
+            - StaticText "1 hour ago"
+          - separator
+          - StaticText "By Beth Reese Cravey"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WSJ"
+                - generic
+                  - button "More - ‘Like a Cat Loves a Bird’ Review: Multiples of Muriel" [expanded=false, ref=e214]
+              - link "‘Like a Cat Loves a Bird’ Review: Multiples of Muriel - WSJ - 19 hours ago - By Nic Rowan" [ref=e112]
+                - StaticText "‘Like a Cat Loves a Bird’ Review: Multiples of Muriel"
+          - time
+            - StaticText "19 hours ago"
+          - separator
+          - StaticText "By Nic Rowan"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Eastern Arizona Courier"
+                - generic
+                  - button "More - Desert Cat of the Week: Meet Hubert" [expanded=false, ref=e215]
+              - link "Desert Cat of the Week: Meet Hubert - Eastern Arizona Courier - 15 hours ago" [ref=e113]
+                - StaticText "Desert Cat of the Week: Meet Hubert"
+          - time
+            - StaticText "15 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Loudoun County (.gov)"
+                - generic
+                  - button "More - Potential Exposure to Rabid Cat Reported; Loudoun Urges Residents to Be Safe Around Animals" [expanded=false, ref=e216]
+              - link "Potential Exposure to Rabid Cat Reported; Loudoun Urges Residents to Be Safe Around Animals - Loudoun County (.gov) - 9 days ago" [ref=e114]
+                - StaticText "Potential Exposure to Rabid Cat Reported; Loudoun Urges Residents to Be Safe Around Animals"
+          - time
+            - StaticText "9 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Lookout Eugene-Springfield"
+                - generic
+                  - button "More - Cat Rescue Adoption Network" [expanded=false, ref=e217]
+              - link "Cat Rescue Adoption Network - Lookout Eugene-Springfield - 23 hours ago" [ref=e115]
+                - StaticText "Cat Rescue Adoption Network"
+          - time
+            - StaticText "23 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Mental Floss"
+                - generic
+                  - button "More - The Queen Ballad Freddie Mercury Wrote About His Favorite Cat" [expanded=false, ref=e218]
+              - link "The Queen Ballad Freddie Mercury Wrote About His Favorite Cat - Mental Floss - 4 days ago - By Jane Alexander" [ref=e116]
+                - StaticText "The Queen Ballad Freddie Mercury Wrote About His Favorite Cat"
+          - time
+            - StaticText "4 days ago"
+          - separator
+          - StaticText "By Jane Alexander"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WAVY.com"
+                - generic
+                  - button "More - Feral cat on Turnberry Road in Smithfield tests positive for rabies" [expanded=false, ref=e219]
+              - link "Feral cat on Turnberry Road in Smithfield tests positive for rabies - WAVY.com - 23 hours ago - By Chrysnel Banzouzi" [ref=e117]
+                - StaticText "Feral cat on Turnberry Road in Smithfield tests positive for rabies"
+          - time
+            - StaticText "23 hours ago"
+          - separator
+          - StaticText "By Chrysnel Banzouzi"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Naples Daily News"
+                - generic
+                  - button "More - YouTube star The Kitten Lady brings her cat know-how to Naples" [expanded=false, ref=e220]
+              - link "YouTube star The Kitten Lady brings her cat know-how to Naples - Naples Daily News - Yesterday - By Charles Runnells" [ref=e118]
+                - StaticText "YouTube star The Kitten Lady brings her cat know-how to Naples"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Charles Runnells"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NewsChannel20"
+                - generic
+                  - button "More - Fur Baby Friday: The Cat's Pyjamas Cat Cafe" [expanded=false, ref=e221]
+              - link "Fur Baby Friday: The Cat's Pyjamas Cat Cafe - NewsChannel20 - 17 hours ago - By Geno Reynolds" [ref=e119]
+                - StaticText "Fur Baby Friday: The Cat's Pyjamas Cat Cafe"
+          - time
+            - StaticText "17 hours ago"
+          - separator
+          - StaticText "By Geno Reynolds"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "More - Urgent recall: 211,000 Target Cat & Jack children's sandals pose a choking risk. Learn how to get a refund." [expanded=false, ref=e222]
+              - link "Urgent recall: 211,000 Target Cat & Jack children's sandals pose a choking risk. Learn how to get a refund. - facebook.com - 18 hours ago" [ref=e120]
+                - StaticText "Urgent recall: 211,000 Target Cat & Jack children's sandals pose a choking risk. Learn how to get a refund."
+          - time
+            - StaticText "18 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The BayNet"
+                - generic
+                  - button "More - Cat Burglar Caught: Man Steals Kitten Before Bank Robbery Attempt" [expanded=false, ref=e223]
+              - link "Cat Burglar Caught: Man Steals Kitten Before Bank Robbery Attempt - The BayNet - 18 hours ago" [ref=e121]
+                - StaticText "Cat Burglar Caught: Man Steals Kitten Before Bank Robbery Attempt"
+          - time
+            - StaticText "18 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ktnv.com"
+                - generic
+                  - button "More - Las Vegas valley stray cat population is growing, and animal advocates say help is needed" [expanded=false, ref=e224]
+              - link "Las Vegas valley stray cat population is growing, and animal advocates say help is needed - ktnv.com - Yesterday - By Shakeria Hawkins" [ref=e122]
+                - StaticText "Las Vegas valley stray cat population is growing, and animal advocates say help is needed"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Shakeria Hawkins"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "11alive.com"
+                - generic
+                  - button "More - AI cat scam targets desperate owner" [expanded=false, ref=e225]
+              - link "AI cat scam targets desperate owner - 11alive.com - 16 hours ago" [ref=e123]
+                - StaticText "AI cat scam targets desperate owner"
+          - time
+            - StaticText "16 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Carolina Panthers"
+                - generic
+                  - button "More - Cat Daddies: Some of the Panthers' biggest dawgs are actually cat guys" [expanded=false, ref=e226]
+              - link "Cat Daddies: Some of the Panthers' biggest dawgs are actually cat guys - Carolina Panthers - 5 days ago - By Darin Gantt" [ref=e124]
+                - StaticText "Cat Daddies: Some of the Panthers' biggest dawgs are actually cat guys"
+          - time
+            - StaticText "5 days ago"
+          - separator
+          - StaticText "By Darin Gantt"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC4 Utah"
+                - generic
+                  - button "More - Man arrested after fatally hitting victim’s cat with metal pole during robbery" [expanded=false, ref=e227]
+              - link "Man arrested after fatally hitting victim’s cat with metal pole during robbery - ABC4 Utah - Yesterday - By Sorina Trauntvein" [ref=e125]
+                - StaticText "Man arrested after fatally hitting victim’s cat with metal pole during robbery"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Sorina Trauntvein"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Hawaii News Now"
+                - generic
+                  - button "More - No ‘large cat-like animal’ found at Manoa Falls, DLNR says" [expanded=false, ref=e228]
+              - link "No ‘large cat-like animal’ found at Manoa Falls, DLNR says - Hawaii News Now - 5 days ago" [ref=e126]
+                - StaticText "No ‘large cat-like animal’ found at Manoa Falls, DLNR says"
+          - time
+            - StaticText "5 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "PetHelpful"
+                - generic
+                  - button "More - Amazon’s Rolling Cat Ball Turns Your Backyard Into a Safe Playground for Indoor Kitties" [expanded=false, ref=e229]
+              - link "Amazon’s Rolling Cat Ball Turns Your Backyard Into a Safe Playground for Indoor Kitties - PetHelpful - 2 days ago - By Eve Vawter" [ref=e127]
+                - StaticText "Amazon’s Rolling Cat Ball Turns Your Backyard Into a Safe Playground for Indoor Kitties"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Eve Vawter"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "RVA Mag"
+                - generic
+                  - button "More - RVA Live Music | Cat Power, Fudge, Tommie’s House, Killing Pace, Destruct" [expanded=false, ref=e230]
+              - link "RVA Live Music | Cat Power, Fudge, Tommie’s House, Killing Pace, Destruct - RVA Mag - Yesterday - By Griffin Smalley" [ref=e128]
+                - StaticText "RVA Live Music | Cat Power, Fudge, Tommie’s House, Killing Pace, Destruct"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Griffin Smalley"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "kmph.com"
+                - generic
+                  - button "More - Rattlesnakes put wild-cat rescue on high alert to protect felines" [expanded=false, ref=e231]
+              - link "Rattlesnakes put wild-cat rescue on high alert to protect felines - kmph.com - 5 hours ago" [ref=e129]
+                - StaticText "Rattlesnakes put wild-cat rescue on high alert to protect felines"
+          - time
+            - StaticText "5 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 56 News"
+                - generic
+                  - button "More - Lexington ranked #1 US city for cat lovers by PetSmart for 2nd consecutive year" [expanded=false, ref=e232]
+              - link "Lexington ranked #1 US city for cat lovers by PetSmart for 2nd consecutive year - FOX 56 News - 22 hours ago - By Corey Elam" [ref=e130]
+                - StaticText "Lexington ranked #1 US city for cat lovers by PetSmart for 2nd consecutive year"
+          - time
+            - StaticText "22 hours ago"
+          - separator
+          - StaticText "By Corey Elam"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC Connecticut"
+                - generic
+                  - button "More - Someone threw box with cats in it from a moving vehicle in East Hartford: Animal Control" [expanded=false, ref=e233]
+              - link "Someone threw box with cats in it from a moving vehicle in East Hartford: Animal Control - NBC Connecticut - 9 days ago - By Bob Connors" [ref=e131]
+                - StaticText "Someone threw box with cats in it from a moving vehicle in East Hartford: Animal Control"
+          - time
+            - StaticText "9 days ago"
+          - separator
+          - StaticText "By Bob Connors"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "local21news.com"
+                - generic
+                  - button "More - GALLERY | Sisters recreate Civil War battles with cat figurines in Gettysburg museum" [expanded=false, ref=e234]
+              - link "GALLERY | Sisters recreate Civil War battles with cat figurines in Gettysburg museum - local21news.com - 13 hours ago" [ref=e132]
+                - StaticText "GALLERY | Sisters recreate Civil War battles with cat figurines in Gettysburg museum"
+          - time
+            - StaticText "13 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Universal Hub"
+                - generic
+                  - button "More - Cat at sunrise on Revere Beach" [expanded=false, ref=e235]
+              - link "Cat at sunrise on Revere Beach - Universal Hub - 20 hours ago" [ref=e133]
+                - StaticText "Cat at sunrise on Revere Beach"
+          - time
+            - StaticText "20 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "PetHelpful"
+                - generic
+                  - button "More - This Baby Otter Thinks He’s a Kitten, and Mama Cat Agrees" [expanded=false, ref=e236]
+              - link "This Baby Otter Thinks He’s a Kitten, and Mama Cat Agrees - PetHelpful - 12 hours ago - By Natalie Hoage" [ref=e134]
+                - StaticText "This Baby Otter Thinks He’s a Kitten, and Mama Cat Agrees"
+          - time
+            - StaticText "12 hours ago"
+          - separator
+          - StaticText "By Natalie Hoage"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "USA Today"
+                - generic
+                  - button "More - Cat or dog? Vote now to choose the 'Best in Nation' pet" [expanded=false, ref=e237]
+              - link "Cat or dog? Vote now to choose the 'Best in Nation' pet - USA Today - 19 hours ago" [ref=e135]
+                - StaticText "Cat or dog? Vote now to choose the 'Best in Nation' pet"
+          - time
+            - StaticText "19 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ParadePets"
+                - generic
+                  - button "More - Amazon’s Portable Carpet Cleaner Is a ‘Dream’ for Cleaning Cat and Dog Messes" [expanded=false, ref=e238]
+              - link "Amazon’s Portable Carpet Cleaner Is a ‘Dream’ for Cleaning Cat and Dog Messes - ParadePets - 12 hours ago - By Stephanie Dube Dwilson" [ref=e136]
+                - StaticText "Amazon’s Portable Carpet Cleaner Is a ‘Dream’ for Cleaning Cat and Dog Messes"
+          - time
+            - StaticText "12 hours ago"
+          - separator
+          - StaticText "By Stephanie Dube Dwilson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Substack"
+                - generic
+                  - button "More - A lost king, royal DNA, and a cat named Snowball" [expanded=false, ref=e239]
+              - link "A lost king, royal DNA, and a cat named Snowball - Substack - 11 hours ago - By Patricia Treble" [ref=e137]
+                - StaticText "A lost king, royal DNA, and a cat named Snowball"
+          - time
+            - StaticText "11 hours ago"
+          - separator
+          - StaticText "By Patricia Treble"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WAVY.com"
+                - generic
+                  - button "More - Feral cat on Turnberry Road in Smithfield tests positive for rabies" [expanded=false, ref=e240]
+              - link "Feral cat on Turnberry Road in Smithfield tests positive for rabies - WAVY.com - 23 hours ago" [ref=e138]
+                - StaticText "Feral cat on Turnberry Road in Smithfield tests positive for rabies"
+          - time
+            - StaticText "23 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "PetHelpful"
+                - generic
+                  - button "More - Aldi’s Cute New Cat Tree Turns Any Living Room Into a Beach Vacation" [expanded=false, ref=e241]
+              - link "Aldi’s Cute New Cat Tree Turns Any Living Room Into a Beach Vacation - PetHelpful - 2 days ago" [ref=e139]
+                - StaticText "Aldi’s Cute New Cat Tree Turns Any Living Room Into a Beach Vacation"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WLOX"
+                - generic
+                  - button "More - Celebrate National Tattoo Day at Good Cat Tattoo" [expanded=false, ref=e242]
+              - link "Celebrate National Tattoo Day at Good Cat Tattoo - WLOX - 22 hours ago" [ref=e140]
+                - StaticText "Celebrate National Tattoo Day at Good Cat Tattoo"
+          - time
+            - StaticText "22 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "qz.com"
+                - generic
+                  - button "More - Target is recalling 211,000 Cat & Jack toddler sandals over a choking hazard" [expanded=false, ref=e243]
+              - link "Target is recalling 211,000 Cat & Jack toddler sandals over a choking hazard - qz.com - 16 hours ago" [ref=e141]
+                - StaticText "Target is recalling 211,000 Cat & Jack toddler sandals over a choking hazard"
+          - time
+            - StaticText "16 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "KOTA Territory News"
+                - generic
+                  - button "More - Heartland Animal Rescue asks for support after removing 30+ kittens from Belle Fourche hoarding case" [expanded=false, ref=e244]
+              - link "Heartland Animal Rescue asks for support after removing 30+ kittens from Belle Fourche hoarding case - KOTA Territory News - 18 hours ago - By Tamara Sanford Chibe" [ref=e142]
+                - StaticText "Heartland Animal Rescue asks for support after removing 30+ kittens from Belle Fourche hoarding case"
+          - time
+            - StaticText "18 hours ago"
+          - separator
+          - StaticText "By Tamara Sanford Chibe"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Outdoors with Bear Grylls"
+                - generic
+                  - button "More - WATCH: Bizarre Fight Between a House Cat and a Cobra in China" [expanded=false, ref=e245]
+              - link "WATCH: Bizarre Fight Between a House Cat and a Cobra in China - Outdoors with Bear Grylls - 14 hours ago" [ref=e143]
+                - StaticText "WATCH: Bizarre Fight Between a House Cat and a Cobra in China"
+          - time
+            - StaticText "14 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Mashable"
+                - generic
+                  - button "More - Best Lego deal: Save $18 on the Lego Ideas Tuxedo Cat" [expanded=false, ref=e246]
+              - link "Best Lego deal: Save $18 on the Lego Ideas Tuxedo Cat - Mashable - 22 hours ago - By Hannah Hoolihan" [ref=e144]
+                - StaticText "Best Lego deal: Save $18 on the Lego Ideas Tuxedo Cat"
+          - time
+            - StaticText "22 hours ago"
+          - separator
+          - StaticText "By Hannah Hoolihan"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Telegraph"
+                - generic
+                  - button "More - Axe-wielding police ‘chopped through’ lawyer’s front door to seize cat" [expanded=false, ref=e247]
+              - link "Axe-wielding police ‘chopped through’ lawyer’s front door to seize cat - The Telegraph - 17 hours ago" [ref=e145]
+                - StaticText "Axe-wielding police ‘chopped through’ lawyer’s front door to seize cat"
+          - time
+            - StaticText "17 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "kens5.com"
+                - generic
+                  - button "More - Missing cat reunited with family after Boerne vet searched floodwaters" [expanded=false, ref=e248]
+              - link "Missing cat reunited with family after Boerne vet searched floodwaters - kens5.com - 19 hours ago" [ref=e146]
+                - StaticText "Missing cat reunited with family after Boerne vet searched floodwaters"
+          - time
+            - StaticText "19 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Des Moines Register"
+                - generic
+                  - button "More - Voting is open! Vote here for Group 3 in Iowa's Cutest Cat contest" [expanded=false, ref=e249]
+              - link "Voting is open! Vote here for Group 3 in Iowa's Cutest Cat contest - The Des Moines Register - 4 days ago - By Gabriela Velasquez" [ref=e147]
+                - StaticText "Voting is open! Vote here for Group 3 in Iowa's Cutest Cat contest"
+          - time
+            - StaticText "4 days ago"
+          - separator
+          - StaticText "By Gabriela Velasquez"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "KLTV.com"
+                - generic
+                  - button "More - Cat declawing: Vet explains risks, alternatives, growing trend away from the ‘ten-finger amputation’" [expanded=false, ref=e250]
+              - link "Cat declawing: Vet explains risks, alternatives, growing trend away from the ‘ten-finger amputation’ - KLTV.com - Yesterday" [ref=e148]
+                - StaticText "Cat declawing: Vet explains risks, alternatives, growing trend away from the ‘ten-finger amputation’"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "KEZI"
+                - generic
+                  - button "More - Eugene cat adoption event brings 3 rescues together" [expanded=false, ref=e251]
+              - link "Eugene cat adoption event brings 3 rescues together - KEZI - Yesterday" [ref=e149]
+                - StaticText "Eugene cat adoption event brings 3 rescues together"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Dodo"
+                - generic
+                  - button "More - Tourists Stop For A Massage — And Get The Sweetest Surprise From A Local Cat" [expanded=false, ref=e252]
+              - link "Tourists Stop For A Massage — And Get The Sweetest Surprise From A Local Cat - The Dodo - 2 days ago - By Ashley Ortiz" [ref=e150]
+                - StaticText "Tourists Stop For A Massage — And Get The Sweetest Surprise From A Local Cat"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Ashley Ortiz"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Smithsonian Magazine"
+                - generic
+                  - button "More - 15 Kitten Photos That Will Make You Feel as Warm and Fuzzy as the Tiny Felines Themselves" [expanded=false, ref=e253]
+              - link "15 Kitten Photos That Will Make You Feel as Warm and Fuzzy as the Tiny Felines Themselves - Smithsonian Magazine - 23 hours ago - By Jess Daninhirsch" [ref=e151]
+                - StaticText "15 Kitten Photos That Will Make You Feel as Warm and Fuzzy as the Tiny Felines Themselves"
+          - time
+            - StaticText "23 hours ago"
+          - separator
+          - StaticText "By Jess Daninhirsch"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Countryfile.com"
+                - generic
+                  - button "More - Can cats and dogs become friends? The answer may surprise you" [expanded=false, ref=e254]
+              - link "Can cats and dogs become friends? The answer may surprise you - Countryfile.com - 1 hour ago - By Maria Hodson" [ref=e152]
+                - StaticText "Can cats and dogs become friends? The answer may surprise you"
+          - time
+            - StaticText "1 hour ago"
+          - separator
+          - StaticText "By Maria Hodson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Hindustan Times"
+                - generic
+                  - button "More - Why does a fluffy cat appear when you search Marc Cucurella on Google? Viral World Cup meme explained | Hindustan Times" [expanded=false, ref=e255]
+              - link "Why does a fluffy cat appear when you search Marc Cucurella on Google? Viral World Cup meme explained | Hindustan Times - Hindustan Times - 13 hours ago - By Prakriti Deb" [ref=e153]
+      - complementary
+        - generic
+          - link "Cats" [ref=e33]
+          - heading "Cats" [level=2, ref=e34]
+          - button "Follow this topic - Cats" [ref=e51]
+          - button "Share" [ref=e35]
+        - heading "Topics" [level=2, ref=e17]
+        - separator
+        - generic
+          - link "Cats" [ref=e36]
+        - generic
+          - link "Cattle" [ref=e37]
+        - generic
+          - link "Categories" [ref=e38]
+        - generic
+          - link "Catalonia" [ref=e39]
+        - generic
+          - link "Catherine O'Hara" [ref=e40]
+        - generic
+          - link "Catania" [ref=e41]
+        - generic
+          - link "Cate Blanchett" [ref=e42]
+        - generic
+          - link "Catalan" [ref=e43]
+        - generic
+          - link "Catherine Oxenberg" [ref=e44]
+        - generic
+          - link "Catherine Zeta-Jones" [ref=e45]
+        - generic
+          - link "Kim Cattrall" [ref=e46]
+        - generic
+          - link "Catholicism" [ref=e47]

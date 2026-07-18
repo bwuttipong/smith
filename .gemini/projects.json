@@ -26,6 +26,7 @@
     "/Users/Jeff/Agents/Cookie": "cookie",
     "/Users/Jeff/Agents/Kermit": "kermit",
     "/Users/Jeff/.ollama": "ollama",
-    "/Users/Jeff/Workspaces/agentos": "agentos"
+    "/Users/Jeff/Workspaces/agentos": "agentos",
+    "/Users/Jeff/Smith/.claude": "claude"
   }
 }

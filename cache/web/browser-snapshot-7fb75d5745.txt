@@ -1,0 +1,1358 @@
+- generic
+  - banner
+    - generic
+      - link "Google News" [ref=e17]
+        - StaticText "News"
+      - search
+        - combobox "Search for topics, locations & sources" [expanded=false, ref=e18]: Thailand news today
+          - StaticText "Thailand news today"
+        - button "Advanced search" [ref=e1]
+          - image
+        - button "Clear search" [ref=e2]
+          - image
+        - button "Search" [ref=e3]
+          - image
+      - generic
+        - button "Help" [expanded=false, ref=e32]
+      - generic
+        - button "Settings" [expanded=false, ref=e33]
+      - generic
+        - button "Google apps" [expanded=false, ref=e34]
+          - StaticText "  "
+        - link "Sign in" [ref=e4]
+          - StaticText "  "
+          - StaticText "Sign in"
+    - navigation
+      - tablist
+        - tab "Home" [ref=e5]
+          - tab "Home" [ref=e19]
+        - tab "For you" [ref=e6]
+          - tab "For you" [ref=e20]
+        - tab "Following" [ref=e7]
+          - tab "Following" [ref=e21]
+        - tab "U.S." [ref=e8]
+          - tab "U.S." [ref=e22]
+        - tab "World" [ref=e9]
+          - tab "World" [ref=e23]
+        - tab "Local" [ref=e10]
+          - tab "Local" [ref=e24]
+        - tab "Business" [ref=e11]
+          - tab "Business" [ref=e25]
+        - tab "Technology" [ref=e12]
+          - tab "Technology" [ref=e26]
+        - tab "Entertainment" [ref=e13]
+          - tab "Entertainment" [ref=e27]
+        - tab "Sports" [ref=e14]
+          - tab "Sports" [ref=e28]
+        - tab "Science" [ref=e15]
+          - tab "Science" [ref=e29]
+        - tab "Health" [ref=e16]
+          - tab "Health" [ref=e30]
+  - generic
+    - main
+      - generic
+        - generic
+          - generic
+            - generic
+              - StaticText "ABC News - Breaking News, Latest News and Videos"
+              - generic
+                - button "More - Deadly Bangkok bar fire exposes Thailand’s safety loopholes for nightlife venues" [expanded=false, ref=e136]
+            - link "Deadly Bangkok bar fire exposes Thailand’s safety loopholes for nightlife venues - ABC News - Breaking News, Latest News and Videos - 2 days ago" [ref=e36]
+              - StaticText "Deadly Bangkok bar fire exposes Thailand’s safety loopholes for nightlife venues"
+        - time
+          - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ONE Championship"
+                - generic
+                  - button "More - ONE Fight Night 45 Muay Thai Results: Suablack, Kovtun, And Black Panther Claim Massive Wins" [expanded=false, ref=e137]
+              - link "ONE Fight Night 45 Muay Thai Results: Suablack, Kovtun, And Black Panther Claim Massive Wins - ONE Championship - 5 hours ago - By John Wolcott" [ref=e37]
+                - StaticText "ONE Fight Night 45 Muay Thai Results: Suablack, Kovtun, And Black Panther Claim Massive Wins"
+          - time
+            - StaticText "5 hours ago"
+          - separator
+          - StaticText "By John Wolcott"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "UN News"
+                - generic
+                  - button "More - Thai youth leaders push for inclusion, partnership and lasting change" [expanded=false, ref=e138]
+              - link "Thai youth leaders push for inclusion, partnership and lasting change - UN News - 6 days ago" [ref=e38]
+                - StaticText "Thai youth leaders push for inclusion, partnership and lasting change"
+          - time
+            - StaticText "6 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Boy driving truck crashes into group of Thai monks, killing 9 and injuring 13" [expanded=false, ref=e139]
+              - link "Boy driving truck crashes into group of Thai monks, killing 9 and injuring 13 - CBS News - 16 days ago" [ref=e39]
+                - StaticText "Boy driving truck crashes into group of Thai monks, killing 9 and injuring 13"
+          - time
+            - StaticText "16 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Nine Thai monks killed after 11-year-old driver collides with procession" [expanded=false, ref=e140]
+              - link "Nine Thai monks killed after 11-year-old driver collides with procession - BBC - 16 days ago - By Olivia Ireland" [ref=e40]
+                - StaticText "Nine Thai monks killed after 11-year-old driver collides with procession"
+          - time
+            - StaticText "16 days ago"
+          - separator
+          - StaticText "By Olivia Ireland"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NT News"
+                - generic
+                  - button "More - ‘You can feel that Thailand is here’: Thailand Grand Festival NT celebrates 10 years in Darwin" [expanded=false, ref=e141]
+              - link "‘You can feel that Thailand is here’: Thailand Grand Festival NT celebrates 10 years in Darwin - NT News - 2 hours ago - By Lottie Hood" [ref=e41]
+                - StaticText "‘You can feel that Thailand is here’: Thailand Grand Festival NT celebrates 10 years in Darwin"
+          - time
+            - StaticText "2 hours ago"
+          - separator
+          - StaticText "By Lottie Hood"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Thai Enquirer"
+                - generic
+                  - button "More - Thai Enquirer News Summary – June 22, 2026" [expanded=false, ref=e142]
+              - link "Thai Enquirer News Summary – June 22, 2026 - Thai Enquirer - Jun 22" [ref=e42]
+                - StaticText "Thai Enquirer News Summary – June 22, 2026"
+          - time
+            - StaticText "Jun 22"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Microsoft Source"
+                - generic
+                  - button "More - Microsoft Deepens Thailand Partnership with more than US$1 billion Investment, Spanning Technology, Trust, and Talent" [expanded=false, ref=e143]
+              - link "Microsoft Deepens Thailand Partnership with more than US$1 billion Investment, Spanning Technology, Trust, and Talent - Microsoft Source - Mar 31" [ref=e43]
+                - StaticText "Microsoft Deepens Thailand Partnership with more than US$1 billion Investment, Spanning Technology, Trust, and Talent"
+          - time
+            - StaticText "Mar 31"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Art Newspaper"
+                - generic
+                  - button "More - Tasmania’s Museum of Old and New Art announces plans for Thailand outpost" [expanded=false, ref=e144]
+              - link "Tasmania’s Museum of Old and New Art announces plans for Thailand outpost - The Art Newspaper - 8 days ago - By Tim Stone" [ref=e44]
+                - StaticText "Tasmania’s Museum of Old and New Art announces plans for Thailand outpost"
+          - time
+            - StaticText "8 days ago"
+          - separator
+          - StaticText "By Tim Stone"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "India Today"
+                - generic
+                  - button "More - This fake official briefed Thailand's Prime Minister - India Today" [expanded=false, ref=e145]
+              - link "This fake official briefed Thailand's Prime Minister - India Today - India Today - Yesterday - By Muskan Singh" [ref=e45]
+                - StaticText "This fake official briefed Thailand's Prime Minister - India Today"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Muskan Singh"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Coin Republic"
+                - generic
+                  - button "More - Crypto News Today: Coinbase Leads as Thailand Targets USDT" [expanded=false, ref=e146]
+              - link "Crypto News Today: Coinbase Leads as Thailand Targets USDT - The Coin Republic - 4 days ago - By Rupam Roy" [ref=e46]
+                - StaticText "Crypto News Today: Coinbase Leads as Thailand Targets USDT"
+          - time
+            - StaticText "4 days ago"
+          - separator
+          - StaticText "By Rupam Roy"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Times of India"
+                - generic
+                  - button "More - Thailand: 11-year-old crashes truck into group of pilgrims; 9 monks killed" [expanded=false, ref=e147]
+              - link "Thailand: 11-year-old crashes truck into group of pilgrims; 9 monks killed - The Times of India - 16 days ago" [ref=e47]
+                - StaticText "Thailand: 11-year-old crashes truck into group of pilgrims; 9 monks killed"
+          - time
+            - StaticText "16 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Human Rights Watch"
+                - generic
+                  - button "More - Thailand: 44 Opposition Politicians Face Lifetime Ban from Politics" [expanded=false, ref=e148]
+              - link "Thailand: 44 Opposition Politicians Face Lifetime Ban from Politics - Human Rights Watch - Apr 24" [ref=e48]
+                - StaticText "Thailand: 44 Opposition Politicians Face Lifetime Ban from Politics"
+          - time
+            - StaticText "Apr 24"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Princess Bha, Seen by Some as Heir to Thai Throne, Dies at 47" [expanded=false, ref=e149]
+              - link "Princess Bha, Seen by Some as Heir to Thai Throne, Dies at 47 - The New York Times - Jun 11 - By Sui-lee Wee" [ref=e49]
+                - StaticText "Princess Bha, Seen by Some as Heir to Thai Throne, Dies at 47"
+          - time
+            - StaticText "Jun 11"
+          - separator
+          - StaticText "By Sui-lee Wee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - Thai Princess Bajrakitiyabha, who was known for her legal work, dies at 47" [expanded=false, ref=e150]
+              - link "Thai Princess Bajrakitiyabha, who was known for her legal work, dies at 47 - AP News - Jun 11 - By Jintamas Saksornchai & Grant Peck" [ref=e50]
+                - StaticText "Thai Princess Bajrakitiyabha, who was known for her legal work, dies at 47"
+          - time
+            - StaticText "Jun 11"
+          - separator
+          - StaticText "By Jintamas Saksornchai & Grant Peck"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "UN News"
+                - generic
+                  - button "More - First Person: Surviving death row in Thailand" [expanded=false, ref=e151]
+              - link "First Person: Surviving death row in Thailand - UN News - May 10 - By Laura Gil" [ref=e51]
+                - StaticText "First Person: Surviving death row in Thailand"
+          - time
+            - StaticText "May 10"
+          - separator
+          - StaticText "By Laura Gil"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Thai police arrest Australian over killing of teenager found in suitcase" [expanded=false, ref=e152]
+              - link "Thai police arrest Australian over killing of teenager found in suitcase - Al Jazeera - Jun 27" [ref=e52]
+                - StaticText "Thai police arrest Australian over killing of teenager found in suitcase"
+          - time
+            - StaticText "Jun 27"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Australian man charged with murder after dead girl found in suitcase in Thailand" [expanded=false, ref=e153]
+              - link "Australian man charged with murder after dead girl found in suitcase in Thailand - BBC - Jun 28 - By Maia Davies" [ref=e53]
+                - StaticText "Australian man charged with murder after dead girl found in suitcase in Thailand"
+          - time
+            - StaticText "Jun 28"
+          - separator
+          - StaticText "By Maia Davies"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thaksin Shinawatra: Thailand's ex-PM is out of jail, but is his era over?" [expanded=false, ref=e154]
+              - link "Thaksin Shinawatra: Thailand's ex-PM is out of jail, but is his era over? - BBC - May 10 - By Jonathan Head" [ref=e54]
+                - StaticText "Thaksin Shinawatra: Thailand's ex-PM is out of jail, but is his era over?"
+          - time
+            - StaticText "May 10"
+          - separator
+          - StaticText "By Jonathan Head"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thai Princess Bajrakitiyabha dies after more than three years in coma" [expanded=false, ref=e155]
+              - link "Thai Princess Bajrakitiyabha dies after more than three years in coma - BBC - Jun 11 - By Jonathan Head" [ref=e55]
+                - StaticText "Thai Princess Bajrakitiyabha dies after more than three years in coma"
+          - time
+            - StaticText "Jun 11"
+          - separator
+          - StaticText "By Jonathan Head"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Thai Enquirer"
+                - generic
+                  - button "More - Thai Enquirer News Summary – June 17, 2026" [expanded=false, ref=e156]
+              - link "Thai Enquirer News Summary – June 17, 2026 - Thai Enquirer - Jun 17" [ref=e56]
+                - StaticText "Thai Enquirer News Summary – June 17, 2026"
+          - time
+            - StaticText "Jun 17"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AgriLife Today"
+                - generic
+                  - button "More - Thailand study abroad enhances education through experience, perspective" [expanded=false, ref=e157]
+              - link "Thailand study abroad enhances education through experience, perspective - AgriLife Today - May 11" [ref=e57]
+                - StaticText "Thailand study abroad enhances education through experience, perspective"
+          - time
+            - StaticText "May 11"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ucanews.com"
+                - generic
+                  - button "More - Hun Sen says Cambodia’s war with Thailand was ‘my fault’" [expanded=false, ref=e158]
+              - link "Hun Sen says Cambodia’s war with Thailand was ‘my fault’ - ucanews.com - Jun 10" [ref=e58]
+                - StaticText "Hun Sen says Cambodia’s war with Thailand was ‘my fault’"
+          - time
+            - StaticText "Jun 10"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "99Bitcoins"
+                - generic
+                  - button "More - Crypto News Today (July 10): BTC Loses $63K Support, Thailand Tightens Stablecoin Regulation, and Eric Trump’s American Bitcoin Avoids Nasdaq Delisting" [expanded=false, ref=e159]
+              - link "Crypto News Today (July 10): BTC Loses $63K Support, Thailand Tightens Stablecoin Regulation, and Eric Trump’s American Bitcoin Avoids Nasdaq Delisting - 99Bitcoins - 5 days ago" [ref=e59]
+                - StaticText "Crypto News Today (July 10): BTC Loses $63K Support, Thailand Tightens Stablecoin Regulation, and Eric Trump’s American Bitcoin Avoids Nasdaq Delisting"
+          - time
+            - StaticText "5 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Smithsonian Magazine"
+                - generic
+                  - button "More - Songkran Is Thailand’s Splashing New Year’s Festival, When Everyone Gets Out a Super Soaker and Prepares to Get Drenched" [expanded=false, ref=e160]
+              - link "Songkran Is Thailand’s Splashing New Year’s Festival, When Everyone Gets Out a Super Soaker and Prepares to Get Drenched - Smithsonian Magazine - Apr 13 - By Ryley Graham" [ref=e60]
+                - StaticText "Songkran Is Thailand’s Splashing New Year’s Festival, When Everyone Gets Out a Super Soaker and Prepares to Get Drenched"
+          - time
+            - StaticText "Apr 13"
+          - separator
+          - StaticText "By Ryley Graham"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "UNESCO"
+                - generic
+                  - button "More - UNESCO Director-General's first visit to Thailand: From ancient wisdom to Artificial Intelligence" [expanded=false, ref=e161]
+              - link "UNESCO Director-General's first visit to Thailand: From ancient wisdom to Artificial Intelligence - UNESCO - May 19" [ref=e61]
+                - StaticText "UNESCO Director-General's first visit to Thailand: From ancient wisdom to Artificial Intelligence"
+          - time
+            - StaticText "May 19"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - In pictures: Thai Princess Bajrakitiyabha dies at age 47" [expanded=false, ref=e162]
+              - link "In pictures: Thai Princess Bajrakitiyabha dies at age 47 - BBC - Jun 12" [ref=e62]
+                - StaticText "In pictures: Thai Princess Bajrakitiyabha dies at age 47"
+          - time
+            - StaticText "Jun 12"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Council on Foreign Relations"
+                - generic
+                  - button "More - Cambodia-Thailand Conflict Continues to Escalate" [expanded=false, ref=e163]
+              - link "Cambodia-Thailand Conflict Continues to Escalate - Council on Foreign Relations - Dec 16, 2025" [ref=e63]
+                - StaticText "Cambodia-Thailand Conflict Continues to Escalate"
+          - time
+            - StaticText "Dec 16, 2025"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Outbreak News Today"
+                - generic
+                  - button "More - Thailand reports being ready to test for Nipah virus after cases reported in India" [expanded=false, ref=e164]
+              - link "Thailand reports being ready to test for Nipah virus after cases reported in India - Outbreak News Today - Jan 25 - By Robert Herriman" [ref=e64]
+                - StaticText "Thailand reports being ready to test for Nipah virus after cases reported in India"
+          - time
+            - StaticText "Jan 25"
+          - separator
+          - StaticText "By Robert Herriman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand’s royal household announces the death of Princess Bajrakitiyabha" [expanded=false, ref=e165]
+              - link "Thailand’s royal household announces the death of Princess Bajrakitiyabha - BBC - Jun 12" [ref=e65]
+                - StaticText "Thailand’s royal household announces the death of Princess Bajrakitiyabha"
+          - time
+            - StaticText "Jun 12"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - Thailand and Cambodia sign a new ceasefire agreement to end border fighting" [expanded=false, ref=e166]
+              - link "Thailand and Cambodia sign a new ceasefire agreement to end border fighting - AP News - Dec 27, 2025 - By Sopheng Cheang" [ref=e66]
+                - StaticText "Thailand and Cambodia sign a new ceasefire agreement to end border fighting"
+          - time
+            - StaticText "Dec 27, 2025"
+          - separator
+          - StaticText "By Sopheng Cheang"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Thai Enquirer"
+                - generic
+                  - button "More - Thai Enquirer News Summary – June 18, 2026" [expanded=false, ref=e167]
+              - link "Thai Enquirer News Summary – June 18, 2026 - Thai Enquirer - Jun 18" [ref=e67]
+                - StaticText "Thai Enquirer News Summary – June 18, 2026"
+          - time
+            - StaticText "Jun 18"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Bangkok bomb: Thai court sentences two Uyghur men to death for Erawan shrine blast" [expanded=false, ref=e168]
+              - link "Bangkok bomb: Thai court sentences two Uyghur men to death for Erawan shrine blast - BBC - Jun 10 - By Jonathan Head" [ref=e68]
+                - StaticText "Bangkok bomb: Thai court sentences two Uyghur men to death for Erawan shrine blast"
+          - time
+            - StaticText "Jun 10"
+          - separator
+          - StaticText "By Jonathan Head"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Video: Princess Bha of Thailand Dies at 47" [expanded=false, ref=e169]
+              - link "Video: Princess Bha of Thailand Dies at 47 - The New York Times - Jun 12 - By Axel Boada" [ref=e69]
+                - StaticText "Video: Princess Bha of Thailand Dies at 47"
+          - time
+            - StaticText "Jun 12"
+          - separator
+          - StaticText "By Axel Boada"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand: Crashed train driver tested positive for drugs, police say" [expanded=false, ref=e170]
+              - link "Thailand: Crashed train driver tested positive for drugs, police say - BBC - May 18 - By Panisa Aemocha" [ref=e70]
+                - StaticText "Thailand: Crashed train driver tested positive for drugs, police say"
+          - time
+            - StaticText "May 18"
+          - separator
+          - StaticText "By Panisa Aemocha"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Thai Enquirer"
+                - generic
+                  - button "More - Thai Enquirer News Summary – May 21, 2026" [expanded=false, ref=e171]
+              - link "Thai Enquirer News Summary – May 21, 2026 - Thai Enquirer - May 21" [ref=e71]
+                - StaticText "Thai Enquirer News Summary – May 21, 2026"
+          - time
+            - StaticText "May 21"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Morning Call"
+                - generic
+                  - button "More - Today in History: June 23, Thai soccer team gets trapped in flooded cave" [expanded=false, ref=e172]
+              - link "Today in History: June 23, Thai soccer team gets trapped in flooded cave - The Morning Call - Jun 23" [ref=e72]
+                - StaticText "Today in History: June 23, Thai soccer team gets trapped in flooded cave"
+          - time
+            - StaticText "Jun 23"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "dw.com"
+                - generic
+                  - button "More - Thailand elects Anutin Charnvirakul as new prime minister" [expanded=false, ref=e173]
+              - link "Thailand elects Anutin Charnvirakul as new prime minister - dw.com - Mar 19 - By Jon Shelton" [ref=e73]
+                - StaticText "Thailand elects Anutin Charnvirakul as new prime minister"
+          - time
+            - StaticText "Mar 19"
+          - separator
+          - StaticText "By Jon Shelton"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Thailand delays release of Cambodian troops over alleged truce breaches" [expanded=false, ref=e174]
+              - link "Thailand delays release of Cambodian troops over alleged truce breaches - Al Jazeera - Dec 30, 2025" [ref=e74]
+                - StaticText "Thailand delays release of Cambodian troops over alleged truce breaches"
+          - time
+            - StaticText "Dec 30, 2025"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Polls close in Thailand as reformists, conservatives vie for power" [expanded=false, ref=e175]
+              - link "Polls close in Thailand as reformists, conservatives vie for power - Al Jazeera - Feb 8" [ref=e75]
+                - StaticText "Polls close in Thailand as reformists, conservatives vie for power"
+          - time
+            - StaticText "Feb 8"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "India Today"
+                - generic
+                  - button "More - Video: 11-year-old rams pickup truck into group of monks in Thailand, 8 killed" [expanded=false, ref=e176]
+              - link "Video: 11-year-old rams pickup truck into group of monks in Thailand, 8 killed - India Today - 14 days ago" [ref=e76]
+                - StaticText "Video: 11-year-old rams pickup truck into group of monks in Thailand, 8 killed"
+          - time
+            - StaticText "14 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Sky News Australia"
+                - generic
+                  - button "More - Today’s News Headlines: Australian man suspected of Thailand murder" [expanded=false, ref=e177]
+              - link "Today’s News Headlines: Australian man suspected of Thailand murder - Sky News Australia - Jun 27" [ref=e77]
+                - StaticText "Today’s News Headlines: Australian man suspected of Thailand murder"
+          - time
+            - StaticText "Jun 27"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand election: The result the polls never saw coming" [expanded=false, ref=e178]
+              - link "Thailand election: The result the polls never saw coming - BBC - Feb 9 - By Jonathan Head" [ref=e78]
+                - StaticText "Thailand election: The result the polls never saw coming"
+          - time
+            - StaticText "Feb 9"
+          - separator
+          - StaticText "By Jonathan Head"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Political outsiders are up against Thailand's powerful patronage system, defeated MP tells BBC" [expanded=false, ref=e179]
+              - link "Political outsiders are up against Thailand's powerful patronage system, defeated MP tells BBC - BBC - Feb 24 - By Jonathan Head" [ref=e79]
+                - StaticText "Political outsiders are up against Thailand's powerful patronage system, defeated MP tells BBC"
+          - time
+            - StaticText "Feb 24"
+          - separator
+          - StaticText "By Jonathan Head"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Thailand releases 18 Cambodian soldiers as ceasefire holds" [expanded=false, ref=e180]
+              - link "Thailand releases 18 Cambodian soldiers as ceasefire holds - Al Jazeera - Dec 31, 2025" [ref=e80]
+                - StaticText "Thailand releases 18 Cambodian soldiers as ceasefire holds"
+          - time
+            - StaticText "Dec 31, 2025"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC News & Headlines – Australian Broadcasting Corporation"
+                - generic
+                  - button "More - Killed teen's father rejects idea of leniency payment from Australian" [expanded=false, ref=e181]
+              - link "Killed teen's father rejects idea of leniency payment from Australian - ABC News &amp; Headlines – Australian Broadcasting Corporation - 14 days ago - By Natalie Whiting" [ref=e81]
+                - StaticText "Killed teen's father rejects idea of leniency payment from Australian"
+          - time
+            - StaticText "14 days ago"
+          - separator
+          - StaticText "By Natalie Whiting"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Thailand to slash tourist visa-free stays" [expanded=false, ref=e182]
+              - link "Thailand to slash tourist visa-free stays - Al Jazeera - May 19" [ref=e82]
+                - StaticText "Thailand to slash tourist visa-free stays"
+          - time
+            - StaticText "May 19"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Seeking Stability, Thai Voters Decisively Reject Progressive Party" [expanded=false, ref=e183]
+              - link "Seeking Stability, Thai Voters Decisively Reject Progressive Party - The New York Times - Feb 8 - By Sui-lee Wee" [ref=e83]
+                - StaticText "Seeking Stability, Thai Voters Decisively Reject Progressive Party"
+          - time
+            - StaticText "Feb 8"
+          - separator
+          - StaticText "By Sui-lee Wee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - Fire breaks out at hotel in Thailand’s popular Pattaya area" [expanded=false, ref=e184]
+              - link "Fire breaks out at hotel in Thailand’s popular Pattaya area - AP News - May 22" [ref=e84]
+                - StaticText "Fire breaks out at hotel in Thailand’s popular Pattaya area"
+          - time
+            - StaticText "May 22"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Reuters"
+                - generic
+                  - button "More - Explainer: What happens after Thailand voted to scrap its constitution" [expanded=false, ref=e185]
+              - link "Explainer: What happens after Thailand voted to scrap its constitution - Reuters - Feb 8 - By Stephen Coates" [ref=e85]
+                - StaticText "Explainer: What happens after Thailand voted to scrap its constitution"
+          - time
+            - StaticText "Feb 8"
+          - separator
+          - StaticText "By Stephen Coates"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "dw.com"
+                - generic
+                  - button "More - Thailand election: PM Anutin Charnvirakul claims victory" [expanded=false, ref=e186]
+              - link "Thailand election: PM Anutin Charnvirakul claims victory - dw.com - Feb 8 - By Nik Martin, Karl Sexton & Kieran Burke" [ref=e86]
+                - StaticText "Thailand election: PM Anutin Charnvirakul claims victory"
+          - time
+            - StaticText "Feb 8"
+          - separator
+          - StaticText "By Nik Martin, Karl Sexton & Kieran Burke"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Thai Enquirer"
+                - generic
+                  - button "More - Thai Enquirer News Summary – June 5, 2026" [expanded=false, ref=e187]
+              - link "Thai Enquirer News Summary – June 5, 2026 - Thai Enquirer - Jun 5" [ref=e87]
+                - StaticText "Thai Enquirer News Summary – June 5, 2026"
+          - time
+            - StaticText "Jun 5"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC News & Headlines – Australian Broadcasting Corporation"
+                - generic
+                  - button "More - Australian arrested after teenage girl's body found in Thailand" [expanded=false, ref=e188]
+              - link "Australian arrested after teenage girl's body found in Thailand - ABC News &amp; Headlines – Australian Broadcasting Corporation - Jun 27 - By Rudi Maxwell & Patrick Martin" [ref=e88]
+                - StaticText "Australian arrested after teenage girl's body found in Thailand"
+          - time
+            - StaticText "Jun 27"
+          - separator
+          - StaticText "By Rudi Maxwell & Patrick Martin"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CNBC"
+                - generic
+                  - button "More - Thailand PM Anutin consolidates power with dominating election win" [expanded=false, ref=e189]
+              - link "Thailand PM Anutin consolidates power with dominating election win - CNBC - Feb 8" [ref=e89]
+                - StaticText "Thailand PM Anutin consolidates power with dominating election win"
+          - time
+            - StaticText "Feb 8"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "People.com"
+                - generic
+                  - button "More - Thai Princess Once Seen as Future Queen Suffers New Health Crisis amid 3-Year Coma" [expanded=false, ref=e190]
+              - link "Thai Princess Once Seen as Future Queen Suffers New Health Crisis amid 3-Year Coma - People.com - May 21 - By Greta Bjornson" [ref=e90]
+                - StaticText "Thai Princess Once Seen as Future Queen Suffers New Health Crisis amid 3-Year Coma"
+          - time
+            - StaticText "May 21"
+          - separator
+          - StaticText "By Greta Bjornson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC News & Headlines – Australian Broadcasting Corporation"
+                - generic
+                  - button "More - Australian 'lived normal life' before allegedly dumping Thai teen's body" [expanded=false, ref=e191]
+              - link "Australian 'lived normal life' before allegedly dumping Thai teen's body - ABC News &amp; Headlines – Australian Broadcasting Corporation - Jun 30 - By Cason Ho & Lucia Stein" [ref=e91]
+                - StaticText "Australian 'lived normal life' before allegedly dumping Thai teen's body"
+          - time
+            - StaticText "Jun 30"
+          - separator
+          - StaticText "By Cason Ho & Lucia Stein"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Thailand and Cambodia Reach Cease-Fire in Brutal Border War" [expanded=false, ref=e192]
+              - link "Thailand and Cambodia Reach Cease-Fire in Brutal Border War - The New York Times - Dec 30, 2025 - By Sui-lee Wee" [ref=e92]
+                - StaticText "Thailand and Cambodia Reach Cease-Fire in Brutal Border War"
+          - time
+            - StaticText "Dec 30, 2025"
+          - separator
+          - StaticText "By Sui-lee Wee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand accuses Cambodia of breaking newly signed ceasefire deal" [expanded=false, ref=e193]
+              - link "Thailand accuses Cambodia of breaking newly signed ceasefire deal - BBC - Dec 29, 2025 - By Yvette Tan" [ref=e93]
+                - StaticText "Thailand accuses Cambodia of breaking newly signed ceasefire deal"
+          - time
+            - StaticText "Dec 29, 2025"
+          - separator
+          - StaticText "By Yvette Tan"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Scots backpacker could face jail in Thailand over mobile phone 'mistake'" [expanded=false, ref=e194]
+              - link "Scots backpacker could face jail in Thailand over mobile phone 'mistake' - BBC - Apr 24 - By Iona Young" [ref=e94]
+                - StaticText "Scots backpacker could face jail in Thailand over mobile phone 'mistake'"
+          - time
+            - StaticText "Apr 24"
+          - separator
+          - StaticText "By Iona Young"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand cuts visa-free stay period for more than 90 countries including UK" [expanded=false, ref=e195]
+              - link "Thailand cuts visa-free stay period for more than 90 countries including UK - BBC - May 19 - By Aleks Phillips" [ref=e95]
+                - StaticText "Thailand cuts visa-free stay period for more than 90 countries including UK"
+          - time
+            - StaticText "May 19"
+          - separator
+          - StaticText "By Aleks Phillips"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Giant new dinosaur identified from remains found in Thailand" [expanded=false, ref=e196]
+              - link "Giant new dinosaur identified from remains found in Thailand - BBC - May 14" [ref=e96]
+                - StaticText "Giant new dinosaur identified from remains found in Thailand"
+          - time
+            - StaticText "May 14"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Thailand, Cambodia agree to build on ceasefire in talks in China’s Yunnan" [expanded=false, ref=e197]
+              - link "Thailand, Cambodia agree to build on ceasefire in talks in China’s Yunnan - Al Jazeera - Dec 29, 2025" [ref=e97]
+                - StaticText "Thailand, Cambodia agree to build on ceasefire in talks in China’s Yunnan"
+          - time
+            - StaticText "Dec 29, 2025"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC News & Headlines – Australian Broadcasting Corporation"
+                - generic
+                  - button "More - Thai teenager's father 'deeply saddened' as Australian charged with murder" [expanded=false, ref=e198]
+              - link "Thai teenager's father 'deeply saddened' as Australian charged with murder - ABC News &amp; Headlines – Australian Broadcasting Corporation - Jun 28" [ref=e98]
+                - StaticText "Thai teenager's father 'deeply saddened' as Australian charged with murder"
+          - time
+            - StaticText "Jun 28"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "USA Today"
+                - generic
+                  - button "More - Giant with a very long neck. Scientists uncover new dinosaur species" [expanded=false, ref=e199]
+              - link "Giant with a very long neck. Scientists uncover new dinosaur species - USA Today - May 15 - By Michelle Del Rey" [ref=e99]
+                - StaticText "Giant with a very long neck. Scientists uncover new dinosaur species"
+          - time
+            - StaticText "May 15"
+          - separator
+          - StaticText "By Michelle Del Rey"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "HOLA"
+                - generic
+                  - button "More - Thai Princess Bajrakitiyabha in critical condition after severe infection complicates 3-year coma" [expanded=false, ref=e200]
+              - link "Thai Princess Bajrakitiyabha in critical condition after severe infection complicates 3-year coma - HOLA - May 22" [ref=e100]
+                - StaticText "Thai Princess Bajrakitiyabha in critical condition after severe infection complicates 3-year coma"
+          - time
+            - StaticText "May 22"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC News"
+                - generic
+                  - button "More - Another construction crane collapse in Thailand kills 2 people a day after deadly train derailment" [expanded=false, ref=e201]
+              - link "Another construction crane collapse in Thailand kills 2 people a day after deadly train derailment - NBC News - Jan 15" [ref=e101]
+                - StaticText "Another construction crane collapse in Thailand kills 2 people a day after deadly train derailment"
+          - time
+            - StaticText "Jan 15"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - 'My six-year-old has nosebleeds': Chiang Mai air pollution sparks health fears" [expanded=false, ref=e202]
+              - link "'My six-year-old has nosebleeds': Chiang Mai air pollution sparks health fears - BBC - Mar 31 - By Kelly Ng" [ref=e102]
+                - StaticText "'My six-year-old has nosebleeds': Chiang Mai air pollution sparks health fears"
+          - time
+            - StaticText "Mar 31"
+          - separator
+          - StaticText "By Kelly Ng"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand-Cambodia ceasefire begins after weeks of deadly clashes" [expanded=false, ref=e203]
+              - link "Thailand-Cambodia ceasefire begins after weeks of deadly clashes - BBC - Dec 27, 2025 - By Jonathan Head" [ref=e103]
+                - StaticText "Thailand-Cambodia ceasefire begins after weeks of deadly clashes"
+          - time
+            - StaticText "Dec 27, 2025"
+          - separator
+          - StaticText "By Jonathan Head"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Strike on Thai tanker in Strait of Hormuz may be message to the U.S., analyst says" [expanded=false, ref=e204]
+              - link "Strike on Thai tanker in Strait of Hormuz may be message to the U.S., analyst says - CBS News - Mar 12 - By Kerry Breen & Matt Gutman" [ref=e104]
+                - StaticText "Strike on Thai tanker in Strait of Hormuz may be message to the U.S., analyst says"
+          - time
+            - StaticText "Mar 12"
+          - separator
+          - StaticText "By Kerry Breen & Matt Gutman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Cambodia blames Thailand for ‘ruthless’ bombardment amid border talks" [expanded=false, ref=e205]
+              - link "Cambodia blames Thailand for ‘ruthless’ bombardment amid border talks - Al Jazeera - Dec 26, 2025 - By Stephen Quillen" [ref=e105]
+                - StaticText "Cambodia blames Thailand for ‘ruthless’ bombardment amid border talks"
+          - time
+            - StaticText "Dec 26, 2025"
+          - separator
+          - StaticText "By Stephen Quillen"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "RideApart.com"
+                - generic
+                  - button "More - Harley's Moving Engine Production To The US. Switches After Years of Offshoring" [expanded=false, ref=e206]
+              - link "Harley's Moving Engine Production To The US. Switches After Years of Offshoring - RideApart.com - Jun 9 - By Jonathon Klein" [ref=e106]
+                - StaticText "Harley's Moving Engine Production To The US. Switches After Years of Offshoring"
+          - time
+            - StaticText "Jun 9"
+          - separator
+          - StaticText "By Jonathon Klein"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Thai army says Cambodia claims new border strike was accident amid truce" [expanded=false, ref=e207]
+              - link "Thai army says Cambodia claims new border strike was accident amid truce - Al Jazeera - Jan 6" [ref=e107]
+                - StaticText "Thai army says Cambodia claims new border strike was accident amid truce"
+          - time
+            - StaticText "Jan 6"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Crunchyroll"
+                - generic
+                  - button "More - Crunchyroll Thailand: New Thai Interface and More Thai Dubs" [expanded=false, ref=e208]
+              - link "Crunchyroll Thailand: New Thai Interface and More Thai Dubs - Crunchyroll - Feb 3" [ref=e108]
+                - StaticText "Crunchyroll Thailand: New Thai Interface and More Thai Dubs"
+          - time
+            - StaticText "Feb 3"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The New York Times"
+                - generic
+                  - button "More - Crane Falls on Passenger Train in Thailand, Killing at Least 32" [expanded=false, ref=e209]
+              - link "Crane Falls on Passenger Train in Thailand, Killing at Least 32 - The New York Times - Jan 14 - By Muktita Suhartono & Jin Yu" [ref=e109]
+                - StaticText "Crane Falls on Passenger Train in Thailand, Killing at Least 32"
+          - time
+            - StaticText "Jan 14"
+          - separator
+          - StaticText "By Muktita Suhartono & Jin Yu"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "heavy.com"
+                - generic
+                  - button "More - China vs Thailand Live Today Raises New Questions Before Crucial International Friendly" [expanded=false, ref=e210]
+              - link "China vs Thailand Live Today Raises New Questions Before Crucial International Friendly - heavy.com - Jun 9 - By Dogli Wilberforce" [ref=e110]
+                - StaticText "China vs Thailand Live Today Raises New Questions Before Crucial International Friendly"
+          - time
+            - StaticText "Jun 9"
+          - separator
+          - StaticText "By Dogli Wilberforce"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand election 2026: PM claims victory with conservatives well ahead" [expanded=false, ref=e211]
+              - link "Thailand election 2026: PM claims victory with conservatives well ahead - BBC - Feb 8 - By Jonathan Head" [ref=e111]
+                - StaticText "Thailand election 2026: PM claims victory with conservatives well ahead"
+          - time
+            - StaticText "Feb 8"
+          - separator
+          - StaticText "By Jonathan Head"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Fox News"
+                - generic
+                  - button "More - American tourist killed in Thailand as love triangle turns deadly during violent confrontation: police" [expanded=false, ref=e212]
+              - link "American tourist killed in Thailand as love triangle turns deadly during violent confrontation: police - Fox News - Feb 18 - By Adam Sabes" [ref=e112]
+                - StaticText "American tourist killed in Thailand as love triangle turns deadly during violent confrontation: police"
+          - time
+            - StaticText "Feb 18"
+          - separator
+          - StaticText "By Adam Sabes"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Asia News Network"
+                - generic
+                  - button "More - After border clashes with Thailand, Cambodia’s economic time bomb ticks louder" [expanded=false, ref=e213]
+              - link "After border clashes with Thailand, Cambodia’s economic time bomb ticks louder - Asia News Network - Mar 31 - By Philip Wen" [ref=e113]
+                - StaticText "After border clashes with Thailand, Cambodia’s economic time bomb ticks louder"
+          - time
+            - StaticText "Mar 31"
+          - separator
+          - StaticText "By Philip Wen"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ABC News & Headlines – Australian Broadcasting Corporation"
+                - generic
+                  - button "More - Photos show room where police allege Thai teenager was last seen" [expanded=false, ref=e214]
+              - link "Photos show room where police allege Thai teenager was last seen - ABC News &amp; Headlines – Australian Broadcasting Corporation - Jun 30 - By Rachel Clayton" [ref=e114]
+                - StaticText "Photos show room where police allege Thai teenager was last seen"
+          - time
+            - StaticText "Jun 30"
+          - separator
+          - StaticText "By Rachel Clayton"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CNN"
+                - generic
+                  - button "More - Thailand frees 18 Cambodian soldiers held since July under new ceasefire deal" [expanded=false, ref=e215]
+              - link "Thailand frees 18 Cambodian soldiers held since July under new ceasefire deal - CNN - Dec 31, 2025" [ref=e115]
+                - StaticText "Thailand frees 18 Cambodian soldiers held since July under new ceasefire deal"
+          - time
+            - StaticText "Dec 31, 2025"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Euronews"
+                - generic
+                  - button "More - US to send $45m to Thailand and Cambodia to ensure regional stability" [expanded=false, ref=e216]
+              - link "US to send $45m to Thailand and Cambodia to ensure regional stability - Euronews - Jan 9 - By Gavin Blackburn" [ref=e116]
+                - StaticText "US to send $45m to Thailand and Cambodia to ensure regional stability"
+          - time
+            - StaticText "Jan 9"
+          - separator
+          - StaticText "By Gavin Blackburn"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - Another construction crane collapse in Thailand kills 2 people a day after deadly train derailment" [expanded=false, ref=e217]
+              - link "Another construction crane collapse in Thailand kills 2 people a day after deadly train derailment - AP News - Jan 15" [ref=e117]
+                - StaticText "Another construction crane collapse in Thailand kills 2 people a day after deadly train derailment"
+          - time
+            - StaticText "Jan 15"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Popular Science"
+                - generic
+                  - button "More - A new dinosaur dubbed the ‘Last Titan of Thailand’ weighed more than 9 elephants" [expanded=false, ref=e218]
+              - link "A new dinosaur dubbed the ‘Last Titan of Thailand’ weighed more than 9 elephants - Popular Science - May 14 - By Laura Baisas" [ref=e118]
+                - StaticText "A new dinosaur dubbed the ‘Last Titan of Thailand’ weighed more than 9 elephants"
+          - time
+            - StaticText "May 14"
+          - separator
+          - StaticText "By Laura Baisas"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Metro.co.uk"
+                - generic
+                  - button "More - Three more women found dead in suitcases could be linked to murder of Thai teen" [expanded=false, ref=e219]
+              - link "Three more women found dead in suitcases could be linked to murder of Thai teen - Metro.co.uk - 16 days ago - By Noora Mykkanen" [ref=e119]
+                - StaticText "Three more women found dead in suitcases could be linked to murder of Thai teen"
+          - time
+            - StaticText "16 days ago"
+          - separator
+          - StaticText "By Noora Mykkanen"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "AP News"
+                - generic
+                  - button "More - A construction crane falls onto a moving train in Thailand, killing at least 32 people" [expanded=false, ref=e220]
+              - link "A construction crane falls onto a moving train in Thailand, killing at least 32 people - AP News - Jan 14" [ref=e120]
+                - StaticText "A construction crane falls onto a moving train in Thailand, killing at least 32 people"
+          - time
+            - StaticText "Jan 14"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "VisasNews"
+                - generic
+                  - button "More - Thailand: government officially launches review of visa-free entry policy" [expanded=false, ref=e221]
+              - link "Thailand: government officially launches review of visa-free entry policy - VisasNews - Apr 9" [ref=e121]
+                - StaticText "Thailand: government officially launches review of visa-free entry policy"
+          - time
+            - StaticText "Apr 9"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand bombs Cambodian border area as ceasefire talks continue" [expanded=false, ref=e222]
+              - link "Thailand bombs Cambodian border area as ceasefire talks continue - BBC - Dec 26, 2025 - By Raffi Berg" [ref=e122]
+                - StaticText "Thailand bombs Cambodian border area as ceasefire talks continue"
+          - time
+            - StaticText "Dec 26, 2025"
+          - separator
+          - StaticText "By Raffi Berg"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "MJBizDaily"
+                - generic
+                  - button "More - Thailand cannabis industry poised to vanish amid backlash" [expanded=false, ref=e223]
+              - link "Thailand cannabis industry poised to vanish amid backlash - MJBizDaily - Jan 22" [ref=e123]
+                - StaticText "Thailand cannabis industry poised to vanish amid backlash"
+          - time
+            - StaticText "Jan 22"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Thailand: Two killed in another construction crane collapse" [expanded=false, ref=e224]
+              - link "Thailand: Two killed in another construction crane collapse - BBC - Jan 15 - By Joel Guinto" [ref=e124]
+                - StaticText "Thailand: Two killed in another construction crane collapse"
+          - time
+            - StaticText "Jan 15"
+          - separator
+          - StaticText "By Joel Guinto"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Time Out Worldwide"
+                - generic
+                  - button "More - Bangkok's election dry day explained" [expanded=false, ref=e225]
+              - link "Bangkok's election dry day explained - Time Out Worldwide - Jun 26" [ref=e125]
+                - StaticText "Bangkok's election dry day explained"
+          - time
+            - StaticText "Jun 26"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - At least 32 killed after crane collapses on train in Thailand" [expanded=false, ref=e226]
+              - link "At least 32 killed after crane collapses on train in Thailand - BBC - Jan 14 - By Jonathan Head & Jessica Rawnsley" [ref=e126]
+                - StaticText "At least 32 killed after crane collapses on train in Thailand"
+          - time
+            - StaticText "Jan 14"
+          - separator
+          - StaticText "By Jonathan Head & Jessica Rawnsley"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - Another crane collapses in Thailand, killing two, after 32 die previous day" [expanded=false, ref=e227]
+              - link "Another crane collapses in Thailand, killing two, after 32 die previous day - Al Jazeera - Jan 15" [ref=e127]
+                - StaticText "Another crane collapses in Thailand, killing two, after 32 die previous day"
+          - time
+            - StaticText "Jan 15"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Times of India"
+                - generic
+                  - button "More - 'World’s largest water fight': 191 killed in 3 days of Thailand’s Songkran festival" [expanded=false, ref=e228]
+              - link "'World’s largest water fight': 191 killed in 3 days of Thailand’s Songkran festival - The Times of India - Apr 16" [ref=e128]
+                - StaticText "'World’s largest water fight': 191 killed in 3 days of Thailand’s Songkran festival"
+          - time
+            - StaticText "Apr 16"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Nine.com.au"
+                - generic
+                  - button "More - Australian man charged over teenage girl’s alleged murder in Thailand" [expanded=false, ref=e229]
+              - link "Australian man charged over teenage girl’s alleged murder in Thailand - Nine.com.au - Jun 27 - By Eleanor Wilson & April Glover" [ref=e129]
+                - StaticText "Australian man charged over teenage girl’s alleged murder in Thailand"
+          - time
+            - StaticText "Jun 27"
+          - separator
+          - StaticText "By Eleanor Wilson & April Glover"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Sky News"
+                - generic
+                  - button "More - Freight train hits bus in Thailand - at least eight dead" [expanded=false, ref=e230]
+              - link "Freight train hits bus in Thailand - at least eight dead - Sky News - May 17" [ref=e130]
+                - StaticText "Freight train hits bus in Thailand - at least eight dead"
+          - time
+            - StaticText "May 17"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Gympie Today"
+                - generic
+                  - button "More - Thailand, Poland beckon" [expanded=false, ref=e231]
+              - link "Thailand, Poland beckon - Gympie Today - Yesterday" [ref=e131]
+                - StaticText "Thailand, Poland beckon"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Al Jazeera"
+                - generic
+                  - button "More - At least 28 people killed as crane falls on train in northeast Thailand" [expanded=false, ref=e232]
+              - link "At least 28 people killed as crane falls on train in northeast Thailand - Al Jazeera - Jan 14 - By Adam Hancock" [ref=e132]
+                - StaticText "At least 28 people killed as crane falls on train in northeast Thailand"
+          - time
+            - StaticText "Jan 14"
+          - separator
+          - StaticText "By Adam Hancock"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BBC"
+                - generic
+                  - button "More - Fake Australian, Chinese and Brazilian police stations: BBC goes inside a seized scam compound" [expanded=false, ref=e233]
+              - link "Fake Australian, Chinese and Brazilian police stations: BBC goes inside a seized scam compound - BBC - Apr 6 - By Jonathan Head" [ref=e133]
+                - StaticText "Fake Australian, Chinese and Brazilian police stations: BBC goes inside a seized scam compound"
+          - time
+            - StaticText "Apr 6"
+          - separator
+          - StaticText "By Jonathan Head"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Taipei Times"
+                - generic
+                  - button "More - Taiwan congratulates Thailand on lower house election" [expanded=false, ref=e234]
+              - link "Taiwan congratulates Thailand on lower house election - Taipei Times - Feb 9" [ref=e134]
+                - StaticText "Taiwan congratulates Thailand on lower house election"
+          - time
+            - StaticText "Feb 9"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Thailand Business News"
+                - generic
+                  - button "More - Thailand News Briefing — Today" [expanded=false, ref=e235]
+              - link "Thailand News Briefing — Today - Thailand Business News - Jun 5" [ref=e135]
+      - complementary
+        - generic
+          - heading "Thailand news today" [level=2, ref=e31]
+          - button "Save this search - Thailand news today" [ref=e35]

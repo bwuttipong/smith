@@ -1,0 +1,896 @@
+- generic
+  - banner
+    - generic
+      - link "Google News" [ref=e17]
+        - StaticText "News"
+      - search
+        - combobox "ค้นหาหัวข้อ สถานที่ และแหล่งที่มา" [expanded=false, ref=e18]: Thailand news today July 2026
+          - StaticText "Thailand news today July 2026"
+        - button "การค้นหาขั้นสูง" [ref=e1]
+          - image
+        - button "ล้างการค้นหา" [ref=e2]
+          - image
+        - button "ค้นหา" [ref=e3]
+          - image
+      - generic
+        - button "ความช่วยเหลือ" [expanded=false, ref=e32]
+      - generic
+        - button "การตั้งค่า" [expanded=false, ref=e33]
+      - generic
+        - button "แอป Google" [expanded=false, ref=e34]
+          - StaticText "  "
+        - link "เข้าสู่ระบบ" [ref=e4]
+          - StaticText "  "
+          - StaticText "เข้าสู่ระบบ"
+    - navigation
+      - tablist
+        - tab "หน้าแรก" [ref=e5]
+          - tab "หน้าแรก" [ref=e19]
+        - tab "สำหรับคุณ" [ref=e6]
+          - tab "สำหรับคุณ" [ref=e20]
+        - tab "กำลังติดตาม" [ref=e7]
+          - tab "กำลังติดตาม" [ref=e21]
+        - tab "ประเทศไทย" [ref=e8]
+          - tab "ประเทศไทย" [ref=e22]
+        - tab "โลก" [ref=e9]
+          - tab "โลก" [ref=e23]
+        - tab "ท้องถิ่น" [ref=e10]
+          - tab "ท้องถิ่น" [ref=e24]
+        - tab "ธุรกิจ" [ref=e11]
+          - tab "ธุรกิจ" [ref=e25]
+        - tab "เทคโนโลยี" [ref=e12]
+          - tab "เทคโนโลยี" [ref=e26]
+        - tab "บันเทิง" [ref=e13]
+          - tab "บันเทิง" [ref=e27]
+        - tab "กีฬา" [ref=e14]
+          - tab "กีฬา" [ref=e28]
+        - tab "วิทยาศาสตร์" [ref=e15]
+          - tab "วิทยาศาสตร์" [ref=e29]
+        - tab "สุขภาพ" [ref=e16]
+          - tab "สุขภาพ" [ref=e30]
+  - generic
+    - main
+      - generic
+        - generic
+          - generic
+            - generic
+              - StaticText "วารสารการเงินธนาคาร"
+              - generic
+                - button "เพิ่มเติม - รัฐบาลเร่งเครื่องดึงการลงทุนจีน เปิด BOI เฉิงตู ชวนธุรกิจเสฉวนลงทุนในไทย - Money & Banking Magazine" [expanded=false, ref=e106]
+            - link "รัฐบาลเร่งเครื่องดึงการลงทุนจีน เปิด BOI เฉิงตู ชวนธุรกิจเสฉวนลงทุนในไทย - Money & Banking Magazine - วารสารการเงินธนาคาร - 2 ชั่วโมงที่แล้ว" [ref=e36]
+              - StaticText "รัฐบาลเร่งเครื่องดึงการลงทุนจีน เปิด BOI เฉิงตู ชวนธุรกิจเสฉวนลงทุนในไทย - Money & Banking Magazine"
+        - time
+          - StaticText "2 ชั่วโมงที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Cushman & Wakefield"
+                - generic
+                  - button "เพิ่มเติม - Inside Thailand's Logistics & Industrial Market: Q2 2026 Update" [expanded=false, ref=e107]
+              - link "Inside Thailand's Logistics & Industrial Market: Q2 2026 Update - Cushman &amp; Wakefield - 22 ชั่วโมงที่แล้ว" [ref=e37]
+                - StaticText "Inside Thailand's Logistics & Industrial Market: Q2 2026 Update"
+          - time
+            - StaticText "22 ชั่วโมงที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Whatphone"
+                - generic
+                  - button "เพิ่มเติม - Acer คว้ารางวัล Marketeer No.1 Brand Thailand 2026 ต่อเนื่องเป็นปีที่ 15 ตอกย้ำความเชื่อมั่นในวาระครบรอบ 50 ปี" [expanded=false, ref=e108]
+              - link "Acer คว้ารางวัล Marketeer No.1 Brand Thailand 2026 ต่อเนื่องเป็นปีที่ 15 ตอกย้ำความเชื่อมั่นในวาระครบรอบ 50 ปี - Whatphone - 23 ชั่วโมงที่แล้ว" [ref=e38]
+                - StaticText "Acer คว้ารางวัล Marketeer No.1 Brand Thailand 2026 ต่อเนื่องเป็นปีที่ 15 ตอกย้ำความเชื่อมั่นในวาระครบรอบ 50 ปี"
+          - time
+            - StaticText "23 ชั่วโมงที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - DITP Launches THAI SELECT Festival 2026 in New York to Strengthen U.S. Market Opportunities for Thailand's Food Industry" [expanded=false, ref=e109]
+              - link "DITP Launches THAI SELECT Festival 2026 in New York to Strengthen U.S. Market Opportunities for Thailand's Food Industry - newswit - 3 วันที่แล้ว" [ref=e39]
+                - StaticText "DITP Launches THAI SELECT Festival 2026 in New York to Strengthen U.S. Market Opportunities for Thailand's Food Industry"
+          - time
+            - StaticText "3 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - ราคาน้ำมันพรุ่งนี้ 17 ก.ค. 69 | News In Thailand" [expanded=false, ref=e110]
+              - link "ราคาน้ำมันพรุ่งนี้ 17 ก.ค. 69 | News In Thailand - LINE TODAY - 2 วันที่แล้ว" [ref=e40]
+                - StaticText "ราคาน้ำมันพรุ่งนี้ 17 ก.ค. 69 | News In Thailand"
+          - time
+            - StaticText "2 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "DMC.tv"
+                - generic
+                  - button "เพิ่มเติม - Meditation training for 1,195 senior monks across Thailand : News" [expanded=false, ref=e111]
+              - link "Meditation training for 1,195 senior monks across Thailand : News - DMC.tv - 8 วันที่แล้ว" [ref=e41]
+                - StaticText "Meditation training for 1,195 senior monks across Thailand : News"
+          - time
+            - StaticText "8 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - CLUB SEEN Koh Samui Unveils AFRODISE an Unmissable Event on the Island" [expanded=false, ref=e112]
+              - link "CLUB SEEN Koh Samui Unveils AFRODISE an Unmissable Event on the Island - newswit - เมื่อวานนี้" [ref=e42]
+                - StaticText "CLUB SEEN Koh Samui Unveils AFRODISE an Unmissable Event on the Island"
+          - time
+            - StaticText "เมื่อวานนี้"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "thestandard.co"
+                - generic
+                  - button "เพิ่มเติม - Global Edition – Thailand News Brief 17 June 2026" [expanded=false, ref=e113]
+              - link "Global Edition – Thailand News Brief 17 June 2026 - thestandard.co - 17 มิ.ย." [ref=e43]
+                - StaticText "Global Edition – Thailand News Brief 17 June 2026"
+          - time
+            - StaticText "17 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - สีเสื้อมงคลหวยออก วันพรุ่งนี้ 16 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand" [expanded=false, ref=e114]
+              - link "สีเสื้อมงคลหวยออก วันพรุ่งนี้ 16 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand - LINE TODAY - 3 วันที่แล้ว" [ref=e44]
+                - StaticText "สีเสื้อมงคลหวยออก วันพรุ่งนี้ 16 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand"
+          - time
+            - StaticText "3 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Creative Economy Agency"
+                - generic
+                  - button "เพิ่มเติม - CEA to Launch “Bangkok International Content Market 2026” — Thailand’s First International Marketplace for Film, Series, and Animation Content" [expanded=false, ref=e115]
+              - link "CEA to Launch “Bangkok International Content Market 2026” — Thailand’s First International Marketplace for Film, Series, and Animation Content - Creative Economy Agency - 26 พ.ค." [ref=e45]
+                - StaticText "CEA to Launch “Bangkok International Content Market 2026” — Thailand’s First International Marketplace for Film, Series, and Animation Content"
+          - time
+            - StaticText "26 พ.ค."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - Ajinomoto Continues \"Ajinomoto Victory Canteen\" for a Second Year, Strengthening Sports Nutrition Support for Team Thailand Ahead of the Aichi-Nagoya 2026 Asian Games" [expanded=false, ref=e116]
+              - link "Ajinomoto Continues \"Ajinomoto Victory Canteen\" for a Second Year, Strengthening Sports Nutrition Support for Team Thailand Ahead of the Aichi-Nagoya 2026 Asian Games - newswit - 4 วันที่แล้ว" [ref=e46]
+                - StaticText "Ajinomoto Continues \"Ajinomoto Victory Canteen\" for a Second Year, Strengthening Sports Nutrition Support for Team Thailand Ahead of the Aichi-Nagoya 2026 Asian Games"
+          - time
+            - StaticText "4 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - เลขเด็ดเพญาบึ้ง ลุ้นโชควันที่ 16 กรกฎาคม 2569 | News In Thailand" [expanded=false, ref=e117]
+              - link "เลขเด็ดเพญาบึ้ง ลุ้นโชควันที่ 16 กรกฎาคม 2569 | News In Thailand - LINE TODAY - 3 วันที่แล้ว" [ref=e47]
+                - StaticText "เลขเด็ดเพญาบึ้ง ลุ้นโชควันที่ 16 กรกฎาคม 2569 | News In Thailand"
+          - time
+            - StaticText "3 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - ทะเบียนรถ หลวงปู่ศิลา นิมนต์กิจ วัดยานนาวา ลุ้น 16 ก.ค. 69 | News In Thailand" [expanded=false, ref=e118]
+              - link "ทะเบียนรถ หลวงปู่ศิลา นิมนต์กิจ วัดยานนาวา ลุ้น 16 ก.ค. 69 | News In Thailand - LINE TODAY - 3 วันที่แล้ว" [ref=e48]
+                - StaticText "ทะเบียนรถ หลวงปู่ศิลา นิมนต์กิจ วัดยานนาวา ลุ้น 16 ก.ค. 69 | News In Thailand"
+          - time
+            - StaticText "3 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - Nestle to invest THB 23 billion in state-of-the-art coffee manufacturing facility in Thailand" [expanded=false, ref=e119]
+              - link "Nestle to invest THB 23 billion in state-of-the-art coffee manufacturing facility in Thailand - newswit - 8 วันที่แล้ว" [ref=e49]
+                - StaticText "Nestle to invest THB 23 billion in state-of-the-art coffee manufacturing facility in Thailand"
+          - time
+            - StaticText "8 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - สีเสื้อมงคลวันพรุ่งนี้ 14 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand" [expanded=false, ref=e120]
+              - link "สีเสื้อมงคลวันพรุ่งนี้ 14 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand - LINE TODAY - 5 วันที่แล้ว" [ref=e50]
+                - StaticText "สีเสื้อมงคลวันพรุ่งนี้ 14 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand"
+          - time
+            - StaticText "5 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - สีเสื้อมงคลวันพรุ่งนี้ 13 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand" [expanded=false, ref=e121]
+              - link "สีเสื้อมงคลวันพรุ่งนี้ 13 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand - LINE TODAY - 6 วันที่แล้ว" [ref=e51]
+                - StaticText "สีเสื้อมงคลวันพรุ่งนี้ 13 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand"
+          - time
+            - StaticText "6 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - เปิดดวงชะตาราศี กลางเดือน ก.ค. 69 ยกความรวย | News In Thailand" [expanded=false, ref=e122]
+              - link "เปิดดวงชะตาราศี กลางเดือน ก.ค. 69 ยกความรวย | News In Thailand - LINE TODAY - 10 วันที่แล้ว" [ref=e52]
+                - StaticText "เปิดดวงชะตาราศี กลางเดือน ก.ค. 69 ยกความรวย | News In Thailand"
+          - time
+            - StaticText "10 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - ราคาน้ำมันวันนี้ 7 ก.ค. 69 | News In Thailand" [expanded=false, ref=e123]
+              - link "ราคาน้ำมันวันนี้ 7 ก.ค. 69 | News In Thailand - LINE TODAY - 11 วันที่แล้ว" [ref=e53]
+                - StaticText "ราคาน้ำมันวันนี้ 7 ก.ค. 69 | News In Thailand"
+          - time
+            - StaticText "11 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - ราคาน้ำมันพรุ่งนี้ 1 กรกฎาคม 2569 | News In Thailand" [expanded=false, ref=e124]
+              - link "ราคาน้ำมันพรุ่งนี้ 1 กรกฎาคม 2569 | News In Thailand - LINE TODAY - 30 มิ.ย." [ref=e54]
+                - StaticText "ราคาน้ำมันพรุ่งนี้ 1 กรกฎาคม 2569 | News In Thailand"
+          - time
+            - StaticText "30 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - สีเสื้อมงคลวันพรุ่งนี้ 11 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand" [expanded=false, ref=e125]
+              - link "สีเสื้อมงคลวันพรุ่งนี้ 11 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand - LINE TODAY - 8 วันที่แล้ว" [ref=e55]
+                - StaticText "สีเสื้อมงคลวันพรุ่งนี้ 11 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand"
+          - time
+            - StaticText "8 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - สีเสื้อมงคลวันพรุ่งนี้ 8 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand" [expanded=false, ref=e126]
+              - link "สีเสื้อมงคลวันพรุ่งนี้ 8 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand - LINE TODAY - 11 วันที่แล้ว" [ref=e56]
+                - StaticText "สีเสื้อมงคลวันพรุ่งนี้ 8 กรกฎาคม 2569 (ความเชื่อส่วนบุคคล) | News In Thailand"
+          - time
+            - StaticText "11 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - เลขเด็ด ม้าสีหมอก มาแล้ว ลุ้นงวดวันที่ 16 กรกฎาคม 69 | News In Thailand" [expanded=false, ref=e127]
+              - link "เลขเด็ด ม้าสีหมอก มาแล้ว ลุ้นงวดวันที่ 16 กรกฎาคม 69 | News In Thailand - LINE TODAY - 14 วันที่แล้ว" [ref=e57]
+                - StaticText "เลขเด็ด ม้าสีหมอก มาแล้ว ลุ้นงวดวันที่ 16 กรกฎาคม 69 | News In Thailand"
+          - time
+            - StaticText "14 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - ส่องเลขปฏิทินจีน งวดที่ 1 ก.ค. 69 | News In Thailand" [expanded=false, ref=e128]
+              - link "ส่องเลขปฏิทินจีน งวดที่ 1 ก.ค. 69 | News In Thailand - LINE TODAY - 25 มิ.ย." [ref=e58]
+                - StaticText "ส่องเลขปฏิทินจีน งวดที่ 1 ก.ค. 69 | News In Thailand"
+          - time
+            - StaticText "25 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - แห่ส่องเลขอ่างน้ำมนต์ฤาษีเณร งวดวันที่ 1 กรกฎาคม 69 | News In Thailand" [expanded=false, ref=e129]
+              - link "แห่ส่องเลขอ่างน้ำมนต์ฤาษีเณร งวดวันที่ 1 กรกฎาคม 69 | News In Thailand - LINE TODAY - 25 มิ.ย." [ref=e59]
+                - StaticText "แห่ส่องเลขอ่างน้ำมนต์ฤาษีเณร งวดวันที่ 1 กรกฎาคม 69 | News In Thailand"
+          - time
+            - StaticText "25 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - เลขเด็ด ปฏิทินคำชะโนด งวดวันที่ 1 กรกฎาคม 2569 | News In Thailand" [expanded=false, ref=e130]
+              - link "เลขเด็ด ปฏิทินคำชะโนด งวดวันที่ 1 กรกฎาคม 2569 | News In Thailand - LINE TODAY - 22 มิ.ย." [ref=e60]
+                - StaticText "เลขเด็ด ปฏิทินคำชะโนด งวดวันที่ 1 กรกฎาคม 2569 | News In Thailand"
+          - time
+            - StaticText "22 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - เลขเด็ด คำชะโนด งวดวันที่ 1 กรกฎาคม 69 | News In Thailand" [expanded=false, ref=e131]
+              - link "เลขเด็ด คำชะโนด งวดวันที่ 1 กรกฎาคม 69 | News In Thailand - LINE TODAY - 21 มิ.ย." [ref=e61]
+                - StaticText "เลขเด็ด คำชะโนด งวดวันที่ 1 กรกฎาคม 69 | News In Thailand"
+          - time
+            - StaticText "21 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - เลขเด็ด เสือตกถังพลังเงินดี งวดวันที่ 1 กรกฎาคม 69 | News In Thailand" [expanded=false, ref=e132]
+              - link "เลขเด็ด เสือตกถังพลังเงินดี งวดวันที่ 1 กรกฎาคม 69 | News In Thailand - LINE TODAY - 20 มิ.ย." [ref=e62]
+                - StaticText "เลขเด็ด เสือตกถังพลังเงินดี งวดวันที่ 1 กรกฎาคม 69 | News In Thailand"
+          - time
+            - StaticText "20 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "LINE TODAY"
+                - generic
+                  - button "เพิ่มเติม - เลขเด็ด ม้าสีหมอก มาแล้ว ลุ้นงวดวันที่ 1 กรกฎาคม 69 | News In Thailand" [expanded=false, ref=e133]
+              - link "เลขเด็ด ม้าสีหมอก มาแล้ว ลุ้นงวดวันที่ 1 กรกฎาคม 69 | News In Thailand - LINE TODAY - 19 มิ.ย." [ref=e63]
+                - StaticText "เลขเด็ด ม้าสีหมอก มาแล้ว ลุ้นงวดวันที่ 1 กรกฎาคม 69 | News In Thailand"
+          - time
+            - StaticText "19 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "dartslive.com"
+                - generic
+                  - button "เพิ่มเติม - SUPER LEAGUE SEASON 3" [expanded=false, ref=e134]
+              - link "SUPER LEAGUE SEASON 3 - dartslive.com - 12 ก.พ." [ref=e64]
+                - StaticText "SUPER LEAGUE SEASON 3"
+          - time
+            - StaticText "12 ก.พ."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "เพิ่มเติม - กรุงเทพธุรกิจ. . The Executives Night: ความภูมิใจของฮาลาลไทย The Pride of Thai Halal | กรุงเทพธุรกิจNEWS . พลังความร่วมมือของอุตสาหกรรมฮาลาลไทย “The Executives Night: The Pride of Thai Halal” ไม่ใช่เพียงงานเลี้ยงขอบคุณ แต่คือเวทีสำคัญที่รวมผู้นำ ผู้ประกอบการ และ" [expanded=false, ref=e135]
+              - link "กรุงเทพธุรกิจ. . The Executives Night: ความภูมิใจของฮาลาลไทย The Pride of Thai Halal | กรุงเทพธุรกิจNEWS . พลังความร่วมมือของอุตสาหกรรมฮาลาลไทย “The Executives Night: The Pride of Thai Halal” ไม่ใช่เพียงงานเลี้ยงขอบคุณ แต่คือเวทีสำคัญที่รวมผู้นำ ผู้ประกอบการ และ - facebook.com - 3 ก.พ." [ref=e65]
+                - StaticText "กรุงเทพธุรกิจ. . The Executives Night: ความภูมิใจของฮาลาลไทย The Pride of Thai Halal | กรุงเทพธุรกิจNEWS . พลังความร่วมมือของอุตสาหกรรมฮาลาลไทย “The Executives Night: The Pride of Thai Halal” ไม่ใช่เพียงงานเลี้ยงขอบคุณ แต่คือเวทีสำคัญที่รวมผู้นำ ผู้ประกอบการ และ"
+          - time
+            - StaticText "3 ก.พ."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Thai PBS"
+                - generic
+                  - button "เพิ่มเติม - Thailand votes: 2026 election" [expanded=false, ref=e136]
+              - link "Thailand votes: 2026 election - Thai PBS - 8 ก.พ." [ref=e66]
+                - StaticText "Thailand votes: 2026 election"
+          - time
+            - StaticText "8 ก.พ."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "fathailand.org"
+                - generic
+                  - button "เพิ่มเติม - ประกาศ : รายชื่อ 30 แข้ง ฟุตบอลชายทีมชาติไทย U17 เก็บตัวครั้งที่ 2/2569 เตรียมพร้อมลุยศึกชิงแชมป์เอเชีย 2027 รอบคัดเลือก" [expanded=false, ref=e137]
+              - link "ประกาศ : รายชื่อ 30 แข้ง ฟุตบอลชายทีมชาติไทย U17 เก็บตัวครั้งที่ 2/2569 เตรียมพร้อมลุยศึกชิงแชมป์เอเชีย 2027 รอบคัดเลือก - fathailand.org - เมื่อวานนี้" [ref=e67]
+                - StaticText "ประกาศ : รายชื่อ 30 แข้ง ฟุตบอลชายทีมชาติไทย U17 เก็บตัวครั้งที่ 2/2569 เตรียมพร้อมลุยศึกชิงแชมป์เอเชีย 2027 รอบคัดเลือก"
+          - time
+            - StaticText "เมื่อวานนี้"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Share2Trade"
+                - generic
+                  - button "เพิ่มเติม - PRINC Group ร่วมสร้างสีสันในงาน Thailand Medical and Wellness Expo 2026" [expanded=false, ref=e138]
+              - link "PRINC Group ร่วมสร้างสีสันในงาน Thailand Medical and Wellness Expo 2026 - Share2Trade - 4 วันที่แล้ว" [ref=e68]
+                - StaticText "PRINC Group ร่วมสร้างสีสันในงาน Thailand Medical and Wellness Expo 2026"
+          - time
+            - StaticText "4 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "fathailand.org"
+                - generic
+                  - button "เพิ่มเติม - โอกาสมาถึงแล้ว! ร่วมท้าทายขีดความสามารถของตัวคุณเองในบทบาท ผู้ควบคุมการแข่งขัน (Match Commissioner) ฟุตบอลไทยลีก ฤดูกาล 2026/27" [expanded=false, ref=e139]
+              - link "โอกาสมาถึงแล้ว! ร่วมท้าทายขีดความสามารถของตัวคุณเองในบทบาท ผู้ควบคุมการแข่งขัน (Match Commissioner) ฟุตบอลไทยลีก ฤดูกาล 2026/27 - fathailand.org - 3 วันที่แล้ว" [ref=e69]
+                - StaticText "โอกาสมาถึงแล้ว! ร่วมท้าทายขีดความสามารถของตัวคุณเองในบทบาท ผู้ควบคุมการแข่งขัน (Match Commissioner) ฟุตบอลไทยลีก ฤดูกาล 2026/27"
+          - time
+            - StaticText "3 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "วารสารการเงินธนาคาร"
+                - generic
+                  - button "เพิ่มเติม - นายกฯ ผนึกเอกชนไทย ให้คำมั่นรัฐบาลเป็น “ลู่ทาง” สร้างโอกาสใหม่ ดันสินค้าไทยบุกตลาดจีน - Money & Banking Magazine" [expanded=false, ref=e140]
+              - link "นายกฯ ผนึกเอกชนไทย ให้คำมั่นรัฐบาลเป็น “ลู่ทาง” สร้างโอกาสใหม่ ดันสินค้าไทยบุกตลาดจีน - Money & Banking Magazine - วารสารการเงินธนาคาร - 2 ชั่วโมงที่แล้ว" [ref=e70]
+                - StaticText "นายกฯ ผนึกเอกชนไทย ให้คำมั่นรัฐบาลเป็น “ลู่ทาง” สร้างโอกาสใหม่ ดันสินค้าไทยบุกตลาดจีน - Money & Banking Magazine"
+          - time
+            - StaticText "2 ชั่วโมงที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "เพิ่มเติม - THE STANDARD. . เมื่อพลังงานสะอาด ไม่ใช่แค่เทรนด์ แต่กำลังกลายเป็นโอกาสทางธุรกิจครั้งใหญ่ของเอเชีย ASIA Sustainable Energy Week 2026 (ASEW) คือแพลตฟอร์มพลังงานสะอาดระดับภูมิภาค ที่รวบรวมเทคโนโลยี นวัตกรรม ความรู้ และโอกาสทางธุรกิจด้านพลังงานแห่งอนาคตไว้" [expanded=false, ref=e141]
+              - link "THE STANDARD. . เมื่อพลังงานสะอาด ไม่ใช่แค่เทรนด์ แต่กำลังกลายเป็นโอกาสทางธุรกิจครั้งใหญ่ของเอเชีย ASIA Sustainable Energy Week 2026 (ASEW) คือแพลตฟอร์มพลังงานสะอาดระดับภูมิภาค ที่รวบรวมเทคโนโลยี นวัตกรรม ความรู้ และโอกาสทางธุรกิจด้านพลังงานแห่งอนาคตไว้ - facebook.com - 19 มิ.ย." [ref=e71]
+                - StaticText "THE STANDARD. . เมื่อพลังงานสะอาด ไม่ใช่แค่เทรนด์ แต่กำลังกลายเป็นโอกาสทางธุรกิจครั้งใหญ่ของเอเชีย ASIA Sustainable Energy Week 2026 (ASEW) คือแพลตฟอร์มพลังงานสะอาดระดับภูมิภาค ที่รวบรวมเทคโนโลยี นวัตกรรม ความรู้ และโอกาสทางธุรกิจด้านพลังงานแห่งอนาคตไว้"
+          - time
+            - StaticText "19 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "มิติหุ้น"
+                - generic
+                  - button "เพิ่มเติม - ไปรษณีย์ไทย คว้ารางวัล Marketeer No.1 Brand Thailand 2026 หมวดบริการส่งของ ตอกย้ำแบรนด์อันดับ 1 ในใจคนไทย พร้อมเดินหน้าเชื่อมทุกไลฟ์สไตล์ให้ตอบโจทย์ทุกเจน - มิติหุ้น | ชี้ชัดทุกการลงทุน" [expanded=false, ref=e142]
+              - link "ไปรษณีย์ไทย คว้ารางวัล Marketeer No.1 Brand Thailand 2026 หมวดบริการส่งของ ตอกย้ำแบรนด์อันดับ 1 ในใจคนไทย พร้อมเดินหน้าเชื่อมทุกไลฟ์สไตล์ให้ตอบโจทย์ทุกเจน - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น - 2 วันที่แล้ว" [ref=e72]
+                - StaticText "ไปรษณีย์ไทย คว้ารางวัล Marketeer No.1 Brand Thailand 2026 หมวดบริการส่งของ ตอกย้ำแบรนด์อันดับ 1 ในใจคนไทย พร้อมเดินหน้าเชื่อมทุกไลฟ์สไตล์ให้ตอบโจทย์ทุกเจน - มิติหุ้น | ชี้ชัดทุกการลงทุน"
+          - time
+            - StaticText "2 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Four Seasons Press Room"
+                - generic
+                  - button "เพิ่มเติม - โรงแรมโฟร์ซีซั่นส์ กรุงเทพฯ ริมแม่น้ำเจ้าพระยา ร่วมเฉลิมฉลองเทศกาลไหว้พระจันทร์ด้วย “Reflections of the River” คอลเลกชันขนมไหว้พระจันทร์ประจำปี 2026" [expanded=false, ref=e143]
+              - link "โรงแรมโฟร์ซีซั่นส์ กรุงเทพฯ ริมแม่น้ำเจ้าพระยา ร่วมเฉลิมฉลองเทศกาลไหว้พระจันทร์ด้วย “Reflections of the River” คอลเลกชันขนมไหว้พระจันทร์ประจำปี 2026 - Four Seasons Press Room - 12 วันที่แล้ว" [ref=e73]
+                - StaticText "โรงแรมโฟร์ซีซั่นส์ กรุงเทพฯ ริมแม่น้ำเจ้าพระยา ร่วมเฉลิมฉลองเทศกาลไหว้พระจันทร์ด้วย “Reflections of the River” คอลเลกชันขนมไหว้พระจันทร์ประจำปี 2026"
+          - time
+            - StaticText "12 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "เพิ่มเติม - สร้างชื่อให้ประเทศไทย! \"น้องเพซ\" วัย 9 ขวบ คว้าแชมป์โลกด้าน Coding คะแนนสูงสุดของโลก #เด็กไทยเก่งไม่แพ้ชาติใดในโลก #เด็กไทยสร้างชื่อให้ประเทศไทย #น้องเพซ #News1 #Newsstory" [expanded=false, ref=e144]
+              - link "สร้างชื่อให้ประเทศไทย! \"น้องเพซ\" วัย 9 ขวบ คว้าแชมป์โลกด้าน Coding คะแนนสูงสุดของโลก #เด็กไทยเก่งไม่แพ้ชาติใดในโลก #เด็กไทยสร้างชื่อให้ประเทศไทย #น้องเพซ #News1 #Newsstory - facebook.com - 3 ชั่วโมงที่แล้ว" [ref=e74]
+                - StaticText "สร้างชื่อให้ประเทศไทย! \"น้องเพซ\" วัย 9 ขวบ คว้าแชมป์โลกด้าน Coding คะแนนสูงสุดของโลก #เด็กไทยเก่งไม่แพ้ชาติใดในโลก #เด็กไทยสร้างชื่อให้ประเทศไทย #น้องเพซ #News1 #Newsstory"
+          - time
+            - StaticText "3 ชั่วโมงที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Brand Buffet"
+                - generic
+                  - button "เพิ่มเติม - กรังด์ปรีซ์ฯ จับมือ ไอคอนสยาม ตอกย้ำ Global Experience Destination จัดงาน “THAILAND DIECAST EXPO 2026” มหกรรมรถโมเดลระดับสากล ขับเคลื่อนอุตสาหกรรมของสะสมไทยสู่เวทีโลก ดึงยอดผู้เข้าชมทะลุ 100,000 คน ตลอด 3 วัน [PR]" [expanded=false, ref=e145]
+              - link "กรังด์ปรีซ์ฯ จับมือ ไอคอนสยาม ตอกย้ำ Global Experience Destination จัดงาน “THAILAND DIECAST EXPO 2026” มหกรรมรถโมเดลระดับสากล ขับเคลื่อนอุตสาหกรรมของสะสมไทยสู่เวทีโลก ดึงยอดผู้เข้าชมทะลุ 100,000 คน ตลอด 3 วัน [PR] - Brand Buffet - 4 วันที่แล้ว" [ref=e75]
+                - StaticText "กรังด์ปรีซ์ฯ จับมือ ไอคอนสยาม ตอกย้ำ Global Experience Destination จัดงาน “THAILAND DIECAST EXPO 2026” มหกรรมรถโมเดลระดับสากล ขับเคลื่อนอุตสาหกรรมของสะสมไทยสู่เวทีโลก ดึงยอดผู้เข้าชมทะลุ 100,000 คน ตลอด 3 วัน [PR]"
+          - time
+            - StaticText "4 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "เพิ่มเติม - News1. . ตัวจี๊ดปรี๊ดข่าว 18 กรกฎาคม 2569" [expanded=false, ref=e146]
+              - link "News1. . ตัวจี๊ดปรี๊ดข่าว 18 กรกฎาคม 2569 - facebook.com - 22 ชั่วโมงที่แล้ว" [ref=e76]
+                - StaticText "News1. . ตัวจี๊ดปรี๊ดข่าว 18 กรกฎาคม 2569"
+          - time
+            - StaticText "22 ชั่วโมงที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "fathailand.org"
+                - generic
+                  - button "เพิ่มเติม - สภากรรมการ มีมติแต่งตั้ง \"อดิศักดิ์ พันธ์เจริญวรกุล\" เป็นกรรมการกลาง สมาคมกีฬาฟุตบอลแห่งประเทศไทยฯ" [expanded=false, ref=e147]
+              - link "สภากรรมการ มีมติแต่งตั้ง \"อดิศักดิ์ พันธ์เจริญวรกุล\" เป็นกรรมการกลาง สมาคมกีฬาฟุตบอลแห่งประเทศไทยฯ - fathailand.org - 5 วันที่แล้ว" [ref=e77]
+                - StaticText "สภากรรมการ มีมติแต่งตั้ง \"อดิศักดิ์ พันธ์เจริญวรกุล\" เป็นกรรมการกลาง สมาคมกีฬาฟุตบอลแห่งประเทศไทยฯ"
+          - time
+            - StaticText "5 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "SBS"
+                - generic
+                  - button "เพิ่มเติม - รายการสด 9 กรกฎาคม 2569" [expanded=false, ref=e148]
+              - link "รายการสด 9 กรกฎาคม 2569 - SBS - 9 วันที่แล้ว" [ref=e78]
+                - StaticText "รายการสด 9 กรกฎาคม 2569"
+          - time
+            - StaticText "9 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ไทยโพสต์"
+                - generic
+                  - button "เพิ่มเติม - กรังด์ปรีซ์ฯ ผนึกไอคอนสยาม ดัน Thailand Diecast Expo 2026 โตแรง ผู้ชมทะลุ 1 แสนคน" [expanded=false, ref=e149]
+              - link "กรังด์ปรีซ์ฯ ผนึกไอคอนสยาม ดัน Thailand Diecast Expo 2026 โตแรง ผู้ชมทะลุ 1 แสนคน - ไทยโพสต์ - 4 วันที่แล้ว" [ref=e79]
+                - StaticText "กรังด์ปรีซ์ฯ ผนึกไอคอนสยาม ดัน Thailand Diecast Expo 2026 โตแรง ผู้ชมทะลุ 1 แสนคน"
+          - time
+            - StaticText "4 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Brand Buffet"
+                - generic
+                  - button "เพิ่มเติม - SYSTEMA ขึ้นแท่นแบรนด์แปรงสีฟันยอดนิยม อันดับ 1 ของไทย คว้ารางวัล Marketeer No.1 Brand Thailand 2026 ตอกย้ำความเชื่อมั่นผู้บริโภคกว่า 27 ปี [PR]" [expanded=false, ref=e150]
+              - link "SYSTEMA ขึ้นแท่นแบรนด์แปรงสีฟันยอดนิยม อันดับ 1 ของไทย คว้ารางวัล Marketeer No.1 Brand Thailand 2026 ตอกย้ำความเชื่อมั่นผู้บริโภคกว่า 27 ปี [PR] - Brand Buffet - เมื่อวานนี้" [ref=e80]
+                - StaticText "SYSTEMA ขึ้นแท่นแบรนด์แปรงสีฟันยอดนิยม อันดับ 1 ของไทย คว้ารางวัล Marketeer No.1 Brand Thailand 2026 ตอกย้ำความเชื่อมั่นผู้บริโภคกว่า 27 ปี [PR]"
+          - time
+            - StaticText "เมื่อวานนี้"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "เพิ่มเติม - คนไทยอพยพชุดแรกจากอิหร่านเดินทางถึงตุรกี เมื่อช่วงเย็นของวันที่ 7 มีนาคม 2569 เวลา 18.40 น. ตามเวลาท้องถิ่นตุรกี (ซึ่งช้ากว่าไทย 4 ชม.) เจ้าหน้าที่จุดผ่านแดน Kapikoy ได้อำนวยความสะดวกให้แก่คณะจากกรมการกงสุลนำโดยนายบัญชา ยืนยงจงเจริญ รองอธิบดีกรมการกงสุล และสถาน" [expanded=false, ref=e151]
+              - link "คนไทยอพยพชุดแรกจากอิหร่านเดินทางถึงตุรกี เมื่อช่วงเย็นของวันที่ 7 มีนาคม 2569 เวลา 18.40 น. ตามเวลาท้องถิ่นตุรกี (ซึ่งช้ากว่าไทย 4 ชม.) เจ้าหน้าที่จุดผ่านแดน Kapikoy ได้อำนวยความสะดวกให้แก่คณะจากกรมการกงสุลนำโดยนายบัญชา ยืนยงจงเจริญ รองอธิบดีกรมการกงสุล และสถาน - facebook.com - 7 มี.ค." [ref=e81]
+                - StaticText "คนไทยอพยพชุดแรกจากอิหร่านเดินทางถึงตุรกี เมื่อช่วงเย็นของวันที่ 7 มีนาคม 2569 เวลา 18.40 น. ตามเวลาท้องถิ่นตุรกี (ซึ่งช้ากว่าไทย 4 ชม.) เจ้าหน้าที่จุดผ่านแดน Kapikoy ได้อำนวยความสะดวกให้แก่คณะจากกรมการกงสุลนำโดยนายบัญชา ยืนยงจงเจริญ รองอธิบดีกรมการกงสุล และสถาน"
+          - time
+            - StaticText "7 มี.ค."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ข่าวสด"
+                - generic
+                  - button "เพิ่มเติม - TrueOnline Home Next ร่วมจุดประกายเวที Mister Global Thailand 2026" [expanded=false, ref=e152]
+              - link "TrueOnline Home Next ร่วมจุดประกายเวที Mister Global Thailand 2026 - ข่าวสด - 11 วันที่แล้ว" [ref=e82]
+                - StaticText "TrueOnline Home Next ร่วมจุดประกายเวที Mister Global Thailand 2026"
+          - time
+            - StaticText "11 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "เพิ่มเติม - กระทรวงการต่างประเทศ Ministry of Foreign Affairs of the Kingdom of Thailand. . ขอเชิญรับฟัง รายการ “MFA Update” ทาง FM 88 MHz ออกอากาศวันศุกร์ที่ 6 กุมภาพันธ์ 2569 เวลา 07.30 – 07.45 น. “Thailand Joined the World Economic Forum Annual Meeting 2026” Interv" [expanded=false, ref=e153]
+              - link "กระทรวงการต่างประเทศ Ministry of Foreign Affairs of the Kingdom of Thailand. . ขอเชิญรับฟัง รายการ “MFA Update” ทาง FM 88 MHz ออกอากาศวันศุกร์ที่ 6 กุมภาพันธ์ 2569 เวลา 07.30 – 07.45 น. “Thailand Joined the World Economic Forum Annual Meeting 2026” Interv - facebook.com - 5 ก.พ." [ref=e83]
+                - StaticText "กระทรวงการต่างประเทศ Ministry of Foreign Affairs of the Kingdom of Thailand. . ขอเชิญรับฟัง รายการ “MFA Update” ทาง FM 88 MHz ออกอากาศวันศุกร์ที่ 6 กุมภาพันธ์ 2569 เวลา 07.30 – 07.45 น. “Thailand Joined the World Economic Forum Annual Meeting 2026” Interv"
+          - time
+            - StaticText "5 ก.พ."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Thai PBS"
+                - generic
+                  - button "เพิ่มเติม - เปิดรับสมัครแล้ว! ค่ายฟรี Thai PBS Verify Youth Camp 2026 ปั้นเยาวชนรู้ทันข้อมูลเท็จ ต้านภัยสแกมเมอร์" [expanded=false, ref=e154]
+              - link "เปิดรับสมัครแล้ว! ค่ายฟรี Thai PBS Verify Youth Camp 2026 ปั้นเยาวชนรู้ทันข้อมูลเท็จ ต้านภัยสแกมเมอร์ - Thai PBS - 11 พ.ค." [ref=e84]
+                - StaticText "เปิดรับสมัครแล้ว! ค่ายฟรี Thai PBS Verify Youth Camp 2026 ปั้นเยาวชนรู้ทันข้อมูลเท็จ ต้านภัยสแกมเมอร์"
+          - time
+            - StaticText "11 พ.ค."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - Agoda Reveals First-Half 2026 Travel Insights: Thailand Draws Visitors from Every Corner of Asia as Malaysia, South Korea, and China Lead the Way" [expanded=false, ref=e155]
+              - link "Agoda Reveals First-Half 2026 Travel Insights: Thailand Draws Visitors from Every Corner of Asia as Malaysia, South Korea, and China Lead the Way - newswit - 24 มิ.ย." [ref=e85]
+                - StaticText "Agoda Reveals First-Half 2026 Travel Insights: Thailand Draws Visitors from Every Corner of Asia as Malaysia, South Korea, and China Lead the Way"
+          - time
+            - StaticText "24 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "topnews.co.th"
+                - generic
+                  - button "เพิ่มเติม - ลำปาง เปิดศึก WorldSkills Thailand 2026 ระดับภาคเหนือ คัดสุดยอดเยาวชนทักษะฝีมือสู่เวทีระดับชาติ" [expanded=false, ref=e156]
+              - link "ลำปาง เปิดศึก WorldSkills Thailand 2026 ระดับภาคเหนือ คัดสุดยอดเยาวชนทักษะฝีมือสู่เวทีระดับชาติ - topnews.co.th - 10 วันที่แล้ว" [ref=e86]
+                - StaticText "ลำปาง เปิดศึก WorldSkills Thailand 2026 ระดับภาคเหนือ คัดสุดยอดเยาวชนทักษะฝีมือสู่เวทีระดับชาติ"
+          - time
+            - StaticText "10 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "techhub.in.th"
+                - generic
+                  - button "เพิ่มเติม - TrueOnline Home Next ยกระดับสมาร์ทโฮม ร่วมหนุน Mister Global Thailand 2026" [expanded=false, ref=e157]
+              - link "TrueOnline Home Next ยกระดับสมาร์ทโฮม ร่วมหนุน Mister Global Thailand 2026 - techhub.in.th - 4 วันที่แล้ว" [ref=e87]
+                - StaticText "TrueOnline Home Next ยกระดับสมาร์ทโฮม ร่วมหนุน Mister Global Thailand 2026"
+          - time
+            - StaticText "4 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "posttoday"
+                - generic
+                  - button "เพิ่มเติม - PostToday ผนึกกำลังพันธมิตร จัดงาน \"Thailand SMART SME 2026: UNLOCK FINANCIAL TRAP\"" [expanded=false, ref=e158]
+              - link "PostToday ผนึกกำลังพันธมิตร จัดงาน \"Thailand SMART SME 2026: UNLOCK FINANCIAL TRAP\" - posttoday - 2 วันที่แล้ว" [ref=e88]
+                - StaticText "PostToday ผนึกกำลังพันธมิตร จัดงาน \"Thailand SMART SME 2026: UNLOCK FINANCIAL TRAP\""
+          - time
+            - StaticText "2 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - Thailand Wellness & Healthcare Expo ? SPORTEC Thailand 2026 / June 25-27, 2026 | Hall 101-102, BITEC Bangna" [expanded=false, ref=e159]
+              - link "Thailand Wellness & Healthcare Expo ? SPORTEC Thailand 2026 / June 25-27, 2026 | Hall 101-102, BITEC Bangna - newswit - 5 มิ.ย." [ref=e89]
+                - StaticText "Thailand Wellness & Healthcare Expo ? SPORTEC Thailand 2026 / June 25-27, 2026 | Hall 101-102, BITEC Bangna"
+          - time
+            - StaticText "5 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ข่าวสด"
+                - generic
+                  - button "เพิ่มเติม - อาหารไทย กรมส่งเสริมการค้าระหว่างประเทศ จัด THAI SELECT Festival 2026 ณ นครนิวยอร์ก" [expanded=false, ref=e160]
+              - link "อาหารไทย กรมส่งเสริมการค้าระหว่างประเทศ จัด THAI SELECT Festival 2026 ณ นครนิวยอร์ก - ข่าวสด - 1 ชั่วโมงที่แล้ว" [ref=e90]
+                - StaticText "อาหารไทย กรมส่งเสริมการค้าระหว่างประเทศ จัด THAI SELECT Festival 2026 ณ นครนิวยอร์ก"
+          - time
+            - StaticText "1 ชั่วโมงที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - Public Garden Returns to Bangkok on July 4-5 with a Curated Celebration of Design Creativity" [expanded=false, ref=e161]
+              - link "Public Garden Returns to Bangkok on July 4-5 with a Curated Celebration of Design Creativity - newswit - 22 มิ.ย." [ref=e91]
+                - StaticText "Public Garden Returns to Bangkok on July 4-5 with a Curated Celebration of Design Creativity"
+          - time
+            - StaticText "22 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - Sun PhuQuoc Airways introduces the first full-service experience on the direct Bangkok-Phu Quoc route, with all-inclusive one-way fares starting from THB 2,250*" [expanded=false, ref=e162]
+              - link "Sun PhuQuoc Airways introduces the first full-service experience on the direct Bangkok-Phu Quoc route, with all-inclusive one-way fares starting from THB 2,250* - newswit - 16 มิ.ย." [ref=e92]
+                - StaticText "Sun PhuQuoc Airways introduces the first full-service experience on the direct Bangkok-Phu Quoc route, with all-inclusive one-way fares starting from THB 2,250*"
+          - time
+            - StaticText "16 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - MR. D.I.Y. Holding (Thailand) Inclusion in Thaipat Institute ESG Emerging List 2026, Strengthening ESG Credentials" [expanded=false, ref=e163]
+              - link "MR. D.I.Y. Holding (Thailand) Inclusion in Thaipat Institute ESG Emerging List 2026, Strengthening ESG Credentials - newswit - 8 มิ.ย." [ref=e93]
+                - StaticText "MR. D.I.Y. Holding (Thailand) Inclusion in Thaipat Institute ESG Emerging List 2026, Strengthening ESG Credentials"
+          - time
+            - StaticText "8 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - DUSIT THANI PATTAYA MARKS GLOBAL WELLNESS DAY 2026 WITH 'WELL-FEST' MORNING ACTIVATIONS" [expanded=false, ref=e164]
+              - link "DUSIT THANI PATTAYA MARKS GLOBAL WELLNESS DAY 2026 WITH 'WELL-FEST' MORNING ACTIVATIONS - newswit - 15 มิ.ย." [ref=e94]
+                - StaticText "DUSIT THANI PATTAYA MARKS GLOBAL WELLNESS DAY 2026 WITH 'WELL-FEST' MORNING ACTIVATIONS"
+          - time
+            - StaticText "15 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "biztalknews.com"
+                - generic
+                  - button "เพิ่มเติม - JUMP THAILAND HACKATHON 2026 ดึง นศ. ใช้ AI พลิกการศึกษา" [expanded=false, ref=e165]
+              - link "JUMP THAILAND HACKATHON 2026 ดึง นศ. ใช้ AI พลิกการศึกษา - biztalknews.com - 12 วันที่แล้ว" [ref=e95]
+                - StaticText "JUMP THAILAND HACKATHON 2026 ดึง นศ. ใช้ AI พลิกการศึกษา"
+          - time
+            - StaticText "12 วันที่แล้ว"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - elekhlekha Residency Information Bangkok Kunsthalle 14 May - 12 July 2026" [expanded=false, ref=e166]
+              - link "elekhlekha Residency Information Bangkok Kunsthalle 14 May - 12 July 2026 - newswit - 19 พ.ค." [ref=e96]
+                - StaticText "elekhlekha Residency Information Bangkok Kunsthalle 14 May - 12 July 2026"
+          - time
+            - StaticText "19 พ.ค."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "thestandard.co"
+                - generic
+                  - button "เพิ่มเติม - Nikkei Asia Forum APAC 2026 to Convene in Bangkok" [expanded=false, ref=e167]
+              - link "Nikkei Asia Forum APAC 2026 to Convene in Bangkok - thestandard.co - 16 มิ.ย." [ref=e97]
+                - StaticText "Nikkei Asia Forum APAC 2026 to Convene in Bangkok"
+          - time
+            - StaticText "16 มิ.ย."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "springnews"
+                - generic
+                  - button "เพิ่มเติม - Amazing Thailand X LISA พาเมืองไทยสู่สายตาชาวโลก l สรุปให้" [expanded=false, ref=e168]
+              - link "Amazing Thailand X LISA พาเมืองไทยสู่สายตาชาวโลก l สรุปให้ - springnews - 9 ก.พ." [ref=e98]
+                - StaticText "Amazing Thailand X LISA พาเมืองไทยสู่สายตาชาวโลก l สรุปให้"
+          - time
+            - StaticText "9 ก.พ."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Share2Trade"
+                - generic
+                  - button "เพิ่มเติม - SME Thailand ร่วมกับ ตลาดหลักทรัพย์ฯ และพันธมิตร จัดงาน SME Thailand Future Day 2026" [expanded=false, ref=e169]
+              - link "SME Thailand ร่วมกับ ตลาดหลักทรัพย์ฯ และพันธมิตร จัดงาน SME Thailand Future Day 2026 - Share2Trade - 7 พ.ย. 2568" [ref=e99]
+                - StaticText "SME Thailand ร่วมกับ ตลาดหลักทรัพย์ฯ และพันธมิตร จัดงาน SME Thailand Future Day 2026"
+          - time
+            - StaticText "7 พ.ย. 2568"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "nintendo.com"
+                - generic
+                  - button "เพิ่มเติม - กำหนดการเริ่มให้บริการ Nintendo eShop และ Nintendo Switch Online ในตลาดประเทศไทย ตั้งแต่วันที่ 18 พฤศจิกายน" [expanded=false, ref=e170]
+              - link "กำหนดการเริ่มให้บริการ Nintendo eShop และ Nintendo Switch Online ในตลาดประเทศไทย ตั้งแต่วันที่ 18 พฤศจิกายน - nintendo.com - 15 ต.ค. 2568" [ref=e100]
+                - StaticText "กำหนดการเริ่มให้บริการ Nintendo eShop และ Nintendo Switch Online ในตลาดประเทศไทย ตั้งแต่วันที่ 18 พฤศจิกายน"
+          - time
+            - StaticText "15 ต.ค. 2568"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Autolifethailand.tv"
+                - generic
+                  - button "เพิ่มเติม - Xiaomi YU7 พิกัดเดียวกับ Tesla Model Y ขุมพลัง EV สามระดับความแรง ขับได้ไกลสุด 835 km" [expanded=false, ref=e171]
+              - link "Xiaomi YU7 พิกัดเดียวกับ Tesla Model Y ขุมพลัง EV สามระดับความแรง ขับได้ไกลสุด 835 km - Autolifethailand.tv - 2 ก.ค. 2568 - โดย GLOBAL NEWS" [ref=e101]
+                - StaticText "Xiaomi YU7 พิกัดเดียวกับ Tesla Model Y ขุมพลัง EV สามระดับความแรง ขับได้ไกลสุด 835 km"
+          - time
+            - StaticText "2 ก.ค. 2568"
+          - separator
+          - StaticText "โดย GLOBAL NEWS"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Scandasia"
+                - generic
+                  - button "เพิ่มเติม - Europe rolls out new entry rules for Asian travellers" [expanded=false, ref=e172]
+              - link "Europe rolls out new entry rules for Asian travellers - Scandasia - 27 มิ.ย. 2568 - โดย Gregers Moller" [ref=e102]
+                - StaticText "Europe rolls out new entry rules for Asian travellers"
+          - time
+            - StaticText "27 มิ.ย. 2568"
+          - separator
+          - StaticText "โดย Gregers Moller"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "เพิ่มเติม - Highlight : Mongolia 0-11 Thailand | AFC Women's Asian Cup 2026 Qualifiers | 02 July 2025" [expanded=false, ref=e173]
+              - link "Highlight : Mongolia 0-11 Thailand | AFC Women's Asian Cup 2026 Qualifiers | 02 July 2025 - facebook.com - 2 ก.ค. 2568" [ref=e103]
+                - StaticText "Highlight : Mongolia 0-11 Thailand | AFC Women's Asian Cup 2026 Qualifiers | 02 July 2025"
+          - time
+            - StaticText "2 ก.ค. 2568"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "newswit"
+                - generic
+                  - button "เพิ่มเติม - ขอเชิญเข้าร่วมเฉลิมฉลองเทศกาลแห่งสีสัน \"Holi Festival Thailand 2024\"" [expanded=false, ref=e174]
+              - link "ขอเชิญเข้าร่วมเฉลิมฉลองเทศกาลแห่งสีสัน \"Holi Festival Thailand 2024\" - newswit - 22 มี.ค. 2567" [ref=e104]
+                - StaticText "ขอเชิญเข้าร่วมเฉลิมฉลองเทศกาลแห่งสีสัน \"Holi Festival Thailand 2024\""
+          - time
+            - StaticText "22 มี.ค. 2567"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "kapook.com"
+                - generic
+                  - button "เพิ่มเติม - ตรวจหวยงวดนี้ 16 ก.ค. 69 หวยออกอะไร อัปเดตทุกรางวัลที่นี่" [expanded=false, ref=e175]
+              - link "ตรวจหวยงวดนี้ 16 ก.ค. 69 หวยออกอะไร อัปเดตทุกรางวัลที่นี่ - kapook.com - 2 วันที่แล้ว" [ref=e105]
+      - complementary
+        - generic
+          - heading "Thailand news today July 2026" [level=2, ref=e31]
+          - button "บันทึกการค้นหานี้ - Thailand news today July 2026" [ref=e35]
