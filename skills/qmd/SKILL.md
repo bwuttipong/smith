@@ -14,10 +14,10 @@ Local search engine over markdown/code files. Supports BM25 keyword search, vect
 ## Setup (Jeff's MacBook Air)
 
 - **Install**: `npm install -g @tobilu/qmd` → `/opt/homebrew/bin/qmd`
-- **Native module fix**: If `better-sqlite3` errors after Node.js upgrade, run `npm rebuild better-sqlite3 --prefix /opt/homebrew/lib/node_modules/@tobilu/qmd`
-- **Ollama required** for embeddings/reranking: `http://localhost:11434`
-  - Embedding model: `nomic-embed-text:latest`
-  - Reranker model: built into qmd (uses local GGUF models)
+- **Native module fix**: If `better-sqlite3` errors after Node.js upgrade:
+  1. Try rebuild: `npm rebuild better-sqlite3 --prefix /opt/homebrew/lib/node_modules/@tobilu/qmd`
+  2. If rebuild fails (permission issues or version mismatch persists): `npm install -g @tobilu/qmd --prefix ~/.local` then `ln -sf ~/.local/bin/qmd /opt/homebrew/bin/qmd`
+- **Ollama removed** (July 2026) — BM25 keyword search (`qmd search`) and embedding (`qmd embed`) work without it. Vector search (`vsearch`) and hybrid reranking (`query`) are broken without Ollama (fall back to BM25 only).
 - **GPU**: Apple M4 with Metal acceleration
 
 ## MCP Integration (configured in ~/.hermes/config.yaml)
@@ -78,8 +78,12 @@ qmd cleanup                                   # clear caches, vacuum DB
 qmd collection update-cmd <name> 'git pull'   # auto-update on index
 ```
 
+## Pitfalls
+
+- **Node version mismatch kills `qmd embed` silently.** If `qmd` was compiled against NODE_MODULE_VERSION 147 but the shell running `embed` has a different Node (e.g. via nvm/fnm in Ghostty vs system Node), ~70% of chunks fail with no visible error. Run `node --version` in the shell before `qmd embed`. If mismatched, either use the same Node version that compiled qmd, or rebuild: `npm rebuild better-sqlite3 --prefix /opt/homebrew/lib/node_modules/@tobilu/qmd`.
+
 ## Notes
-- Index lives at `~/.cache/qmd/index.sqlite` (222 MB)
-- Embeddings use local GGUF models (not Ollama for embeddings — qmd has its own)
-- Ollama at `http://localhost:11434` for generation/reranking
+- Index lives at `~/.cache/qmd/index.sqlite` (350+ MB, grows with collections)
+- `qmd embed` works without Ollama (generates vector embeddings successfully)
+- `qmd vsearch` and reranking in `qmd query` need Ollama — without it, `query` falls back to BM25 only
 - MCP mode: `qmd mcp` (stdio transport)

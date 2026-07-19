@@ -13311,3 +13311,513 @@
 2026-07-18 21:46:53,480 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Honestly I am gonna back' reply_to_id=None reply_to_text=''
 2026-07-18 21:46:58,326 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
 2026-07-18 21:46:58,326 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=4.8s api_calls=1 response=34 chars
+2026-07-19 04:03:17,572 INFO gateway.run: Session expiry: 1 sessions to finalize (telegram:1)
+2026-07-19 04:03:17,603 INFO gateway.run: Session expiry done: 1 finalized
+2026-07-19 11:16:44,386 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (42 chars)
+2026-07-19 11:16:44,417 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Wait a moment. It’ll quite Chrome for you.' reply_to_id=None reply_to_text=''
+2026-07-19 11:16:44,426 WARNING gateway.session: gateway.session: routing key 'agent:main:telegram:dm:8611951691' -> 20260710_064517_f4bf9c9a is ended in state.db but still live in sessions.json; dropping stale entry and recovering/recreating the session (#54878)
+2026-07-19 11:16:56,369 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 11:16:56,369 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=12.0s api_calls=1 response=17 chars
+2026-07-19 12:40:16,019 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (34 chars)
+2026-07-19 12:40:16,027 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='How is your qmd embed progressing?' reply_to_id=None reply_to_text=''
+2026-07-19 12:40:40,945 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (4 chars)
+2026-07-19 12:41:04,869 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=48.8s api_calls=2 response=306 chars
+2026-07-19 12:41:04,887 INFO gateway.platforms.base: [Telegram] Sending response (306 chars) to 8611951691
+2026-07-19 12:44:04,757 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (66 chars)
+2026-07-19 12:44:04,764 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='I have run it on my own in ghostty. It’s been processing right now' reply_to_id=None reply_to_text=''
+2026-07-19 12:44:22,912 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 12:44:22,913 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=18.1s api_calls=3 response=162 chars
+2026-07-19 12:47:33,390 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (137 chars)
+2026-07-19 12:47:33,399 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='In fact when you run something processes in background you got to show me the pr' reply_to_id=None reply_to_text=''
+2026-07-19 12:48:18,335 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 12:48:18,335 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=44.9s api_calls=5 response=1008 chars
+2026-07-19 12:48:42,978 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (13 chars)
+2026-07-19 12:48:42,986 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Like a pop-up' reply_to_id=None reply_to_text=''
+2026-07-19 12:48:59,272 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 12:48:59,272 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=16.3s api_calls=1 response=846 chars
+2026-07-19 12:51:35,949 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (44 chars)
+2026-07-19 12:51:35,956 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Let’s build it, use mimo pro to build right.' reply_to_id=None reply_to_text=''
+2026-07-19 12:52:44,394 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 12:52:44,395 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=68.4s api_calls=4 response=567 chars
+2026-07-19 12:54:32,810 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 12:54:32,821 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[ASYNC DELEGATION BATCH COMPLETE — deleg_e03cf419] A background fan-out of 1 sub' reply_to_id=None reply_to_text=''
+2026-07-19 12:56:37,964 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 12:56:37,965 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=125.1s api_calls=5 response=995 chars
+2026-07-19 12:56:38,002 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Sending media group of 1 photo(s) (chunk 1/1)
+2026-07-19 13:01:05,895 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 0 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-19 13:02:04,903 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (32 chars)
+2026-07-19 13:02:04,910 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Hey, what can we do with failed?' reply_to_id=None reply_to_text=''
+2026-07-19 13:02:56,885 INFO hermes_plugins.telegram_platform.adapter: Telegram clarify button resolved (id=e5e2781d04, choice='Retry + error output + manual dismiss (recommended)', user=Wuttipong)
+2026-07-19 13:03:39,649 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 13:03:39,649 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=94.7s api_calls=3 response=442 chars
+2026-07-19 13:05:17,531 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 13:05:17,542 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[ASYNC DELEGATION BATCH COMPLETE — deleg_c0a64b19] A background fan-out of 1 sub' reply_to_id=None reply_to_text=''
+2026-07-19 13:07:06,143 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=108.6s api_calls=4 response=458 chars
+2026-07-19 13:07:06,158 INFO gateway.platforms.base: [Telegram] Sending response (359 chars) to 8611951691
+2026-07-19 13:07:10,390 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Sending media group of 1 photo(s) (chunk 1/1)
+2026-07-19 13:12:43,351 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 0 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-19 14:06:38,633 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (25 chars)
+2026-07-19 14:06:38,651 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="it's got to be moved able" reply_to_id=None reply_to_text=''
+2026-07-19 14:07:05,715 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (18 chars)
+2026-07-19 14:07:20,143 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (16 chars)
+2026-07-19 14:07:47,624 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:07:47,631 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=69.0s api_calls=2 response=112 chars
+2026-07-19 14:09:10,769 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 14:09:10,774 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[ASYNC DELEGATION BATCH COMPLETE — deleg_6dbbef71] A background fan-out of 1 sub' reply_to_id=None reply_to_text=''
+2026-07-19 14:09:16,780 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 14:09:28,370 INFO gateway.run: Queued follow-up for session agent:main:telegram:dm:8611951691: skipping resend because final streamed delivery was confirmed.
+2026-07-19 14:09:39,966 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:09:39,991 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=29.2s api_calls=1 response=142 chars
+2026-07-19 14:09:57,395 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 14:09:57,424 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[ASYNC DELEGATION BATCH COMPLETE — deleg_f4e1b6ba] A background fan-out of 1 sub' reply_to_id=None reply_to_text=''
+2026-07-19 14:10:42,615 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:10:42,615 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=45.2s api_calls=3 response=278 chars
+2026-07-19 14:10:42,638 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Sending media group of 1 photo(s) (chunk 1/1)
+2026-07-19 14:14:53,404 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (27 chars)
+2026-07-19 14:14:53,415 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="it's gota come up togerther" reply_to_id=None reply_to_text=''
+2026-07-19 14:15:06,198 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (9 chars)
+2026-07-19 14:15:29,206 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:15:29,212 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=35.8s api_calls=2 response=107 chars
+2026-07-19 14:17:11,591 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 14:17:11,602 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[ASYNC DELEGATION BATCH COMPLETE — deleg_3a68894e] A background fan-out of 1 sub' reply_to_id=None reply_to_text=''
+2026-07-19 14:18:13,281 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:18:13,283 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=61.7s api_calls=4 response=163 chars
+2026-07-19 14:18:13,386 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Sending media group of 1 photo(s) (chunk 1/1)
+2026-07-19 14:18:41,958 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (83 chars)
+2026-07-19 14:18:41,966 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="it doesn't have number percent of pregress bar like how may percent there, 1 - 1" reply_to_id=None reply_to_text=''
+2026-07-19 14:19:34,486 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:19:34,487 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=52.5s api_calls=2 response=90 chars
+2026-07-19 14:20:58,403 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 14:20:58,414 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[ASYNC DELEGATION BATCH COMPLETE — deleg_12cee28c] A background fan-out of 1 sub' reply_to_id=None reply_to_text=''
+2026-07-19 14:21:46,520 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:21:46,521 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=48.1s api_calls=3 response=237 chars
+2026-07-19 14:21:46,554 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Sending media group of 1 photo(s) (chunk 1/1)
+2026-07-19 14:22:29,599 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (76 chars)
+2026-07-19 14:22:29,606 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='then, please tell you on the session in agentos, Apollo to use stricly this.' reply_to_id=None reply_to_text=''
+2026-07-19 14:23:12,573 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:23:12,574 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=43.0s api_calls=4 response=484 chars
+2026-07-19 14:24:08,302 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (105 chars)
+2026-07-19 14:24:08,316 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='it loves to happen this often. Apollo: Error: failed to reach Hermes — killed by' reply_to_id=None reply_to_text=''
+2026-07-19 14:24:42,531 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:24:42,531 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=34.2s api_calls=4 response=165 chars
+2026-07-19 14:26:29,595 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110
+2026-07-19 14:26:30,432 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-19 14:27:51,682 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (19 chars)
+2026-07-19 14:27:51,692 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="You're mad my day~!" reply_to_id=None reply_to_text=''
+2026-07-19 14:27:59,736 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:27:59,736 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=8.0s api_calls=1 response=292 chars
+2026-07-19 14:29:27,656 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (55 chars)
+2026-07-19 14:29:27,664 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='hey dude, why do those two "pop-up"s intiailly open up?' reply_to_id=None reply_to_text=''
+2026-07-19 14:29:42,186 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-19 14:29:46,934 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 14:29:46,935 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=19.3s api_calls=2 response=76 chars
+2026-07-19 14:48:49,581 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110
+2026-07-19 14:49:08,955 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-19 14:50:02,920 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110
+2026-07-19 14:50:05,470 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-19 14:50:08,188 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-19 14:50:49,402 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110
+2026-07-19 14:50:59,623 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-19 14:51:14,397 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Sticky fallback IP 149.154.166.110 failed; resetting to primary DNS path
+2026-07-19 14:51:14,408 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-19 14:51:15,998 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling restarted after network error (attempt 1); health pending getUpdates progress
+2026-07-19 14:57:54,352 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110
+2026-07-19 14:57:55,066 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org path unreachable; using sticky fallback IP 149.154.166.110
+2026-07-19 15:03:00,725 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Sticky fallback IP 149.154.166.110 failed; resetting to primary DNS path
+2026-07-19 15:03:00,853 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-19 15:11:26,121 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-19 15:11:40,112 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-19 15:11:43,014 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Sticky fallback IP 149.154.166.110 failed; resetting to primary DNS path
+2026-07-19 15:11:43,014 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Fallback IP 149.154.166.110 failed: 
+2026-07-19 15:12:01,678 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110
+2026-07-19 15:12:02,278 WARNING gateway.run: Gateway swallowed transient network error from Task-76727: TimedOut: Timed out
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 124, in handle_async_request
+    raise last_error
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/telegram_network.py", line 90, in handle_async_request
+    response = await transport.handle_async_request(candidate)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/Users/Jeff/.local/share/uv/python/cpython-3.11.15-macos-aarch64-none/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 4860, in get_updates
+    await self._post(
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/ext/_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/plugins/platforms/telegram/adapter.py", line 2092, in do_request
+    result = await super().do_request(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/Jeff/Smith/.hermes/hermes-agent/venv/lib/python3.11/site-packages/telegram/request/_httpxrequest.py", line 296, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2026-07-19 15:13:45,931 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] updater.stop() timed out during network-error reconnect (likely CLOSE-WAIT socket); forcing drain and restart without clean stop
+2026-07-19 15:14:27,060 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110
+2026-07-19 15:14:45,746 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: 
+2026-07-19 15:14:50,371 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 2/10), reconnecting in 10s. Error: 
+2026-07-19 15:15:34,714 WARNING plugins.platforms.telegram.telegram_network: [Telegram] Primary api.telegram.org connection failed (); trying fallback IPs 149.154.166.110
+2026-07-19 15:15:51,967 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling reconnect failed: 
+2026-07-19 15:15:52,386 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 3/10), reconnecting in 20s. Error: 
+2026-07-19 15:17:10,014 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling restarted after network error (attempt 3); health pending getUpdates progress
+2026-07-19 15:34:35,479 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (79 chars)
+2026-07-19 15:34:35,507 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='✓ Done! Embedded 4288 chunks from 335 documents in 30m 15s ⚠ 9812 chunks failed' reply_to_id=None reply_to_text=''
+2026-07-19 15:35:07,428 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (39 chars)
+2026-07-19 15:35:28,207 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 15:35:28,213 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=52.7s api_calls=1 response=551 chars
+2026-07-19 15:36:25,177 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (50 chars)
+2026-07-19 15:36:25,182 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='give this taks to you on the session in our Apollo' reply_to_id=None reply_to_text=''
+2026-07-19 15:36:49,136 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 15:36:49,137 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=24.0s api_calls=2 response=136 chars
+2026-07-19 15:37:16,964 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (27 chars)
+2026-07-19 15:37:16,971 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='what will say to you on it?' reply_to_id=None reply_to_text=''
+2026-07-19 15:37:38,816 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 15:37:38,817 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=21.8s api_calls=2 response=162 chars
+2026-07-19 15:38:07,732 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (38 chars)
+2026-07-19 15:38:07,743 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='gimme a script to say to you on Apollo' reply_to_id=None reply_to_text=''
+2026-07-19 15:38:15,516 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 15:38:15,516 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=7.8s api_calls=1 response=378 chars
+2026-07-19 15:42:49,156 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (49 chars)
+2026-07-19 15:42:49,163 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="I haven't seen the pop-up that we built together." reply_to_id=None reply_to_text=''
+2026-07-19 15:44:21,741 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 15:44:21,742 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=92.6s api_calls=5 response=271 chars
+2026-07-19 15:44:21,761 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Sending media group of 1 photo(s) (chunk 1/1)
+2026-07-19 15:44:26,750 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 15:44:26,758 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[IMPORTANT: Background process proc_dbae3afcd694 completed normally (exit code 0' reply_to_id=None reply_to_text=''
+2026-07-19 15:47:38,804 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 15:47:38,805 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=192.0s api_calls=12 response=150 chars
+2026-07-19 15:49:08,370 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (413 chars)
+2026-07-19 15:49:08,378 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='You: Fix the qmd embed issue: the better-sqlite3 native module is compiled for t' reply_to_id=None reply_to_text=''
+2026-07-19 15:49:10,097 WARNING [20260719_111644_d22ebc45] gateway.run: Primary provider auth failed: No Anthropic credentials found. Set ANTHROPIC_TOKEN or ANTHROPIC_API_KEY, run 'claude setup-token', or authenticate with 'claude /login'. — trying fallback
+2026-07-19 15:49:10,148 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=1.8s api_calls=0 response=172 chars
+2026-07-19 15:49:10,163 INFO gateway.platforms.base: [Telegram] Sending response (114 chars) to 8611951691
+2026-07-19 15:49:24,283 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8611951691 → 34 (session_reset)
+2026-07-19 15:49:25,154 WARNING gateway.run: Primary provider auth failed: No Anthropic credentials found. Set ANTHROPIC_TOKEN or ANTHROPIC_API_KEY, run 'claude setup-token', or authenticate with 'claude /login'. — trying fallback
+2026-07-19 15:49:31,824 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (412 chars)
+2026-07-19 15:49:31,830 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='You: Fix the qmd embed issue: the better-sqlite3 native module is compiled for t' reply_to_id=None reply_to_text=''
+2026-07-19 15:49:32,659 WARNING gateway.run: Primary provider auth failed: No Anthropic credentials found. Set ANTHROPIC_TOKEN or ANTHROPIC_API_KEY, run 'claude setup-token', or authenticate with 'claude /login'. — trying fallback
+2026-07-19 15:49:32,687 WARNING gateway.run: @ context reference expansion failed: No Anthropic credentials found. Set ANTHROPIC_TOKEN or ANTHROPIC_API_KEY, run 'claude setup-token', or authenticate with 'claude /login'.
+2026-07-19 15:49:33,461 WARNING [20260719_111644_d22ebc45] gateway.run: Primary provider auth failed: No Anthropic credentials found. Set ANTHROPIC_TOKEN or ANTHROPIC_API_KEY, run 'claude setup-token', or authenticate with 'claude /login'. — trying fallback
+2026-07-19 15:49:33,490 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=1.7s api_calls=0 response=172 chars
+2026-07-19 15:49:33,499 INFO gateway.platforms.base: [Telegram] Sending response (114 chars) to 8611951691
+2026-07-19 15:50:11,467 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-07-19 15:50:11,474 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='working' reply_to_id=None reply_to_text=''
+2026-07-19 15:50:12,249 WARNING [20260719_111644_d22ebc45] gateway.run: Primary provider auth failed: No Anthropic credentials found. Set ANTHROPIC_TOKEN or ANTHROPIC_API_KEY, run 'claude setup-token', or authenticate with 'claude /login'. — trying fallback
+2026-07-19 15:50:12,279 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=0.8s api_calls=0 response=172 chars
+2026-07-19 15:50:12,285 INFO gateway.platforms.base: [Telegram] Sending response (114 chars) to 8611951691
+2026-07-19 15:51:54,045 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8611951691 → 37 (session_reset)
+2026-07-19 15:52:05,252 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (6 chars)
+2026-07-19 15:52:05,259 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="G'day!" reply_to_id=None reply_to_text=''
+2026-07-19 15:52:08,537 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=3.3s api_calls=1 response=89 chars
+2026-07-19 15:52:08,568 INFO gateway.platforms.base: [Telegram] Sending response (120 chars) to 8611951691
+2026-07-19 15:58:12,066 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-19 15:58:12,067 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=5.36 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-19 15:58:12,111 INFO gateway.run: Stopping gateway...
+2026-07-19 15:58:13,382 INFO gateway.run: Sent shutdown notification to home channel telegram:8611951691
+2026-07-19 15:58:13,382 INFO gateway.run: Shutdown phase: notify_active_sessions done at +1.27s
+2026-07-19 15:58:13,432 INFO gateway.run: Shutdown phase: drain done at +1.32s (drain took 0.05s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0, api_at_start=0, api_now=0)
+2026-07-19 15:58:17,170 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Disconnected from Telegram
+2026-07-19 15:58:17,170 INFO gateway.run: ✓ telegram disconnected (3.66s)
+2026-07-19 15:58:17,170 INFO gateway.run: Shutdown phase: all adapters disconnected at +5.06s
+2026-07-19 15:58:17,173 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +5.06s
+2026-07-19 15:58:17,184 INFO gateway.run: Shutdown phase: SessionDB close done at +5.07s
+2026-07-19 15:58:17,186 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-19 15:58:17,188 INFO gateway.run: Gateway stopped (total teardown 5.08s)
+2026-07-19 15:58:17,190 INFO gateway.run: Gateway housekeeping stopped
+2026-07-19 15:58:17,550 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+  💾 Self-improvement review: Patched SKILL.md in skill 'building-agent-os' (1 replacement).
+  💾 Self-improvement review: Patched SKILL.md in skill 'qmd' (1 replacement).
+⚡ Interrupted during API call.
+⚡ Interrupted during API call.
+⚡ Interrupted during API call.
+  💾 Self-improvement review: Patched SKILL.md in skill 'building-agent-os' (1 replacement). · Memory updated
+  💾 Self-improvement review: Patched SKILL.md in skill 'qmd' (1 replacement). · Patched SKILL.md in skill 'building-agent-os' (1 replacement).
+  💾 Self-improvement review: Patched SKILL.md in skill 'qmd' (1 replacement). · Memory updated
+⚠️  API call failed (attempt 1/3): BadRequestError [HTTP 400]
+   🔌 Provider: anthropic  Model: claude-sonnet-4-6
+   🌐 Endpoint: https://api.anthropic.com
+   📝 Error: HTTP 400: You're out of extra usage. Add more at claude.ai/settings/usage and keep going.
+   📋 Details: {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': "You're out of extra usage. Add more at claude.ai/settings/usage and keep going."}, 'request_id': 'req_011CdB8bviHgojZyDRwNjSBY'}
+   ⏱️  Elapsed: 1.38s  Context: 2 msgs, ~9,498 tokens
+❌ Non-retryable error (HTTP 400): HTTP 400: You're out of extra usage. Add more at claude.ai/settings/usage and keep going.
+❌ Non-retryable client error (HTTP 400). Aborting.
+   🔌 Provider: anthropic  Model: claude-sonnet-4-6
+   🌐 Endpoint: https://api.anthropic.com
+   💡 anthropic reported that your Claude subscription usage is exhausted for claude-sonnet-4-6 (included quota + extra-usage credits).
+   💡 Options: wait for the billing cycle to reset, or add extra usage at https://claude.ai/settings/usage
+   💡 You can also switch to an Anthropic API key or another provider with /model <model> --provider <provider>.
+2026-07-19 15:58:30,325 ERROR gateway.run: Another gateway instance (PID 81287) started during our startup. Exiting to avoid double-running.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-19 15:58:33,897 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-19 15:58:33,898 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=6.19 takeover_marker_present=other parent_cmdline='(unknown)'
+2026-07-19 15:58:33,910 INFO gateway.run: Stopping gateway...
+2026-07-19 15:58:33,913 INFO gateway.run: Shutdown phase: notify_active_sessions done at +0.00s
+2026-07-19 15:58:33,976 INFO gateway.run: Shutdown phase: drain done at +0.07s (drain took 0.00s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0, api_at_start=0, api_now=0)
+2026-07-19 15:58:33,977 INFO gateway.run: Shutdown phase: all adapters disconnected at +0.07s
+2026-07-19 15:58:34,030 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +0.12s
+2026-07-19 15:58:34,032 INFO gateway.run: Shutdown phase: SessionDB close done at +0.12s
+2026-07-19 15:58:34,036 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-19 15:58:34,040 INFO gateway.run: Gateway stopped (total teardown 0.13s)
+2026-07-19 15:58:38,281 INFO gateway.run: Starting Hermes Gateway...
+2026-07-19 15:58:38,281 INFO gateway.run: Session storage: /Users/Jeff/.hermes/profiles/smith/sessions
+2026-07-19 15:58:38,283 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-19 15:58:38,283 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-19 15:58:38,286 INFO gateway.run: Active profile: custom
+2026-07-19 15:58:56,190 INFO gateway.run: Starting Hermes Gateway...
+2026-07-19 15:58:56,190 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-19 15:58:56,195 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-19 15:58:56,195 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-19 15:58:56,213 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-19 15:58:56,262 INFO gateway.run: Connecting to telegram...
+2026-07-19 15:58:56,267 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-19 15:58:56,470 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-07-19 15:58:56,507 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-07-19 15:58:56,606 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-19 15:58:58,471 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-19 15:58:58,716 INFO gateway.run: ✓ telegram connected
+2026-07-19 15:58:58,761 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-19 15:58:58,805 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-19 15:58:59,812 INFO gateway.run: Press Ctrl+C to stop
+2026-07-19 15:58:59,822 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-07-19 15:58:59,828 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/Smith/kanban/.dispatcher.lock)
+2026-07-19 15:58:59,927 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (60 cmds)
+2026-07-19 15:59:00,337 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (60 cmds)
+2026-07-19 15:59:00,744 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (60 cmds)
+2026-07-19 15:59:00,744 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram menu: 60 commands registered, 136 hidden (over 60 limit). Use /commands for full list.
+2026-07-19 15:59:02,834 WARNING gateway.run: Synthetic event source unresolvable: session_key='' platform='' chat_type='' chat_id='' evt_type=async_delegation
+2026-07-19 15:59:02,835 WARNING gateway.run: Dropping watch notification with no routing metadata for process unknown
+2026-07-19 15:59:02,840 WARNING gateway.run: Synthetic event source unresolvable: session_key='' platform='' chat_type='' chat_id='' evt_type=async_delegation
+2026-07-19 15:59:02,840 WARNING gateway.run: Dropping watch notification with no routing metadata for process unknown
+2026-07-19 15:59:02,843 WARNING gateway.run: Synthetic event source unresolvable: session_key='20260718_184545_d0da28' platform='' chat_type='' chat_id='' evt_type=async_delegation
+2026-07-19 15:59:02,844 WARNING gateway.run: Dropping watch notification with no routing metadata for process unknown
+2026-07-19 15:59:02,848 WARNING gateway.run: Synthetic event source unresolvable: session_key='20260718_184545_d0da28' platform='' chat_type='' chat_id='' evt_type=async_delegation
+2026-07-19 15:59:02,848 WARNING gateway.run: Dropping watch notification with no routing metadata for process unknown
+2026-07-19 15:59:04,829 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-07-19 16:09:29,902 INFO gateway.run: Received SIGTERM — initiating shutdown
+2026-07-19 16:09:29,902 WARNING gateway.run: Shutdown context: signal=SIGTERM under_systemd=yes parent_pid=1 parent_name=? loadavg_1m=30.70 parent_cmdline='(unknown)'
+2026-07-19 16:09:29,922 INFO gateway.run: Stopping gateway...
+2026-07-19 16:09:31,399 INFO gateway.run: Sent shutdown notification to home channel telegram:8611951691
+2026-07-19 16:09:31,399 INFO gateway.run: Shutdown phase: notify_active_sessions done at +1.48s
+2026-07-19 16:09:31,406 INFO gateway.run: Shutdown phase: drain done at +1.48s (drain took 0.01s, timed_out=False, active_at_start=0, active_now=0, cron_at_start=0, cron_now=0, api_at_start=0, api_now=0)
+2026-07-19 16:09:35,029 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Disconnected from Telegram
+2026-07-19 16:09:35,029 INFO gateway.run: ✓ telegram disconnected (3.62s)
+2026-07-19 16:09:35,029 INFO gateway.run: Shutdown phase: all adapters disconnected at +5.11s
+2026-07-19 16:09:35,297 INFO gateway.run: Shutdown phase: final-cleanup tool kill done at +5.38s
+2026-07-19 16:09:35,300 INFO gateway.run: Shutdown phase: SessionDB close done at +5.38s
+2026-07-19 16:09:35,302 INFO gateway.run: Gateway stopped by an unexpected signal — persisting gateway_state=running so container_boot auto-starts on the next boot (issue #42675)
+2026-07-19 16:09:35,305 INFO gateway.run: Gateway stopped (total teardown 5.38s)
+2026-07-19 16:09:35,306 INFO gateway.run: Gateway housekeeping stopped
+2026-07-19 16:09:35,408 INFO gateway.run: Exiting with code 1 (signal-initiated shutdown without restart request) so systemd Restart=on-failure can revive the gateway.
+┌─────────────────────────────────────────────────────────┐
+│           ⚕ Hermes Gateway Starting...                 │
+├─────────────────────────────────────────────────────────┤
+│  Messaging platforms + cron scheduler                    │
+│  Press Ctrl+C to stop                                   │
+└─────────────────────────────────────────────────────────┘
+
+2026-07-19 16:10:10,921 INFO gateway.run: Starting Hermes Gateway...
+2026-07-19 16:10:10,921 INFO gateway.run: Session storage: /Users/Jeff/Smith/sessions
+2026-07-19 16:10:10,929 INFO gateway.run: Agent budget: max_iterations=90 (agent.max_turns from config.yaml, or HERMES_MAX_ITERATIONS from .env, or default 90)
+2026-07-19 16:10:10,929 INFO gateway.run: Secret redaction: ENABLED (tool output, logs, and chat responses are scrubbed before delivery)
+2026-07-19 16:10:10,950 INFO gateway.run: Previous gateway exited cleanly — skipping session suspension
+2026-07-19 16:10:10,996 INFO gateway.run: Connecting to telegram...
+2026-07-19 16:10:11,001 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Discovering Telegram API fallback IPs via DNS-over-HTTPS…
+2026-07-19 16:10:11,187 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Auto-discovered Telegram fallback IPs: 149.154.166.110
+2026-07-19 16:10:11,221 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram fallback IPs active: 149.154.166.110
+2026-07-19 16:10:11,303 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Connecting to Telegram (attempt 1/8)…
+2026-07-19 16:10:12,297 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Connected to Telegram (polling mode)
+2026-07-19 16:10:12,588 INFO gateway.run: ✓ telegram connected
+2026-07-19 16:10:12,668 INFO gateway.run: Gateway running with 1 platform(s)
+2026-07-19 16:10:12,730 INFO gateway.run: Channel directory built: 1 target(s)
+2026-07-19 16:10:13,042 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeDefault (60 cmds)
+2026-07-19 16:10:13,422 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllPrivateChats (60 cmds)
+2026-07-19 16:10:13,747 INFO gateway.run: Press Ctrl+C to stop
+2026-07-19 16:10:13,758 INFO gateway.run: kanban dispatcher: holding singleton dispatcher lock (/Users/Jeff/Smith/kanban/.dispatcher.lock)
+2026-07-19 16:10:13,772 INFO gateway.run: Gateway housekeeping started (interval=60s)
+2026-07-19 16:10:13,921 INFO hermes_plugins.telegram_platform.adapter: [Telegram] set_my_commands OK for scope BotCommandScopeAllGroupChats (60 cmds)
+2026-07-19 16:10:13,921 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram menu: 60 commands registered, 136 hidden (over 60 limit). Use /commands for full list.
+2026-07-19 16:10:17,391 WARNING gateway.run: Synthetic event source unresolvable: session_key='' platform='' chat_type='' chat_id='' evt_type=async_delegation
+2026-07-19 16:10:17,424 WARNING gateway.run: Dropping watch notification with no routing metadata for process unknown
+2026-07-19 16:10:18,856 WARNING gateway.run: Synthetic event source unresolvable: session_key='' platform='' chat_type='' chat_id='' evt_type=async_delegation
+2026-07-19 16:10:18,857 WARNING gateway.run: Dropping watch notification with no routing metadata for process unknown
+2026-07-19 16:10:18,875 WARNING gateway.run: Synthetic event source unresolvable: session_key='20260718_184545_d0da28' platform='' chat_type='' chat_id='' evt_type=async_delegation
+2026-07-19 16:10:18,875 WARNING gateway.run: Dropping watch notification with no routing metadata for process unknown
+2026-07-19 16:10:18,893 WARNING gateway.run: Synthetic event source unresolvable: session_key='20260718_184545_d0da28' platform='' chat_type='' chat_id='' evt_type=async_delegation
+2026-07-19 16:10:18,894 WARNING gateway.run: Dropping watch notification with no routing metadata for process unknown
+2026-07-19 16:10:18,923 INFO gateway.run: kanban dispatcher: embedded in gateway (interval=60.0s)
+2026-07-19 16:15:50,055 INFO gateway.run: User opted out of destructive slash confirm (session=agent:main:telegram:dm:8611951691)
+2026-07-19 16:15:50,055 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8611951691 → 1 (session_reset)
+2026-07-19 16:16:10,937 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-07-19 16:16:10,952 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='working' reply_to_id=None reply_to_text=''
+2026-07-19 16:16:25,825 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 16:16:25,826 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=14.9s api_calls=1 response=73 chars
+2026-07-19 16:34:06,053 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (448 chars)
+2026-07-19 16:34:06,062 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='hey dude, our Apollo loves to fail. You: Fix the qmd embed issue: the better-sql' reply_to_id=None reply_to_text=''
+2026-07-19 16:54:33,075 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling degraded (heartbeat probe); gateway stays alive and will retry. Error: 
+2026-07-19 16:54:33,409 WARNING hermes_plugins.telegram_platform.adapter: [Telegram] Telegram network error (attempt 1/10), reconnecting in 5s. Error: 
+2026-07-19 16:54:44,998 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Telegram polling restarted after network error (attempt 1); health pending getUpdates progress
+2026-07-19 16:57:51,139 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (38 chars)
+2026-07-19 16:57:51,141 INFO gateway.run: Gateway intercepted clarify text response (session=agent:main:telegram:dm:8611951691, id=6d53b0206c)
+2026-07-19 16:58:57,665 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-19 17:04:46,250 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-19 17:08:58,933 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-19 17:16:37,110 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 17:16:37,111 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=2551.0s api_calls=61 response=1796 chars
+2026-07-19 17:32:22,362 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 17:32:22,371 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[IMPORTANT: Background process proc_61a160c0b92d completed normally (exit code 0' reply_to_id=None reply_to_text=''
+2026-07-19 17:47:44,185 INFO gateway.session: SessionStore healed compressed session mapping: 20260719_161550_00c89075 -> 20260719_173313_6026e4
+2026-07-19 17:52:21,632 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (28 chars)
+2026-07-19 17:52:21,926 INFO [20260719_173313_6026e4] gateway.run: Session split detected: 20260719_161550_00c89075 → 20260719_173313_6026e4 (compression)
+2026-07-19 17:54:46,521 INFO hermes_plugins.telegram_platform.adapter: Telegram clarify button resolved (id=2c66bc4c7c, choice='Use the plan skill to set a clear goal + steps for the qmd embed fix', user=Wuttipong)
+2026-07-19 17:57:19,606 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 17:57:19,607 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=1497.2s api_calls=7 response=1538 chars
+2026-07-19 17:57:19,608 INFO gateway.run: Skipping agent-result session split sync for agent:main:telegram:dm:8611951691 because the session binding moved from 20260719_161550_00c89075 to 20260719_173313_6026e4 before compression finished
+2026-07-19 17:57:24,611 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 17:57:24,613 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[IMPORTANT: Background process proc_8c6b33aa0edf completed normally (exit code 0' reply_to_id=None reply_to_text=''
+2026-07-19 17:57:24,649 INFO [20260719_161550_00c89075] gateway.run: Agent cache invalidated for session agent:main:telegram:dm:8611951691: cached agent's session_id 20260719_161550_00c89075 is ended in state.db (stale self-heal artifact, #54878 x #54947) — discarding instead of reusing across the routing recovery
+2026-07-19 18:00:10,787 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 18:00:10,787 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=166.2s api_calls=6 response=1815 chars
+2026-07-19 18:36:37,652 INFO gateway.platforms.base: [Telegram] Sending response (42 chars) to 8611951691
+2026-07-19 18:37:05,470 INFO gateway.platforms.base: [Telegram] Sending response (927 chars) to 8611951691
+2026-07-19 18:37:06,250 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='make this skill. How to master small talk if you’re an introvert I always though' reply_to_id=None reply_to_text=''
+2026-07-19 18:38:13,227 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 18:38:13,227 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=67.0s api_calls=2 response=1144 chars
+2026-07-19 18:39:04,448 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (26 chars)
+2026-07-19 18:39:04,450 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='If it is good, green light' reply_to_id=None reply_to_text=''
+2026-07-19 18:39:51,105 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 18:39:51,105 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=46.7s api_calls=4 response=670 chars
+2026-07-19 18:47:55,032 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (41 chars)
+2026-07-19 18:47:55,035 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Curious that what takes a lot of our ram?' reply_to_id=None reply_to_text=''
+2026-07-19 18:48:32,624 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 18:48:32,624 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=37.6s api_calls=3 response=1652 chars
+2026-07-19 18:53:11,706 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (70 chars)
+2026-07-19 18:53:11,708 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='What we can do with Chrom. I remember in the morning we had a clear it' reply_to_id=None reply_to_text=''
+2026-07-19 18:53:28,964 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 18:53:28,964 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=17.3s api_calls=2 response=1169 chars
+2026-07-19 18:59:23,974 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (61 chars)
+2026-07-19 18:59:23,976 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='I’ll take an item clean it, quit and try to use Brave browser' reply_to_id=None reply_to_text=''
+2026-07-19 18:59:43,605 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 18:59:43,606 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=19.6s api_calls=2 response=679 chars
+2026-07-19 19:02:07,221 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (48 chars)
+2026-07-19 19:02:07,224 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='How many does system overview use ram right now?' reply_to_id=None reply_to_text=''
+2026-07-19 19:02:44,786 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 19:02:44,786 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=37.6s api_calls=3 response=797 chars
+2026-07-19 19:08:37,397 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (236 chars)
+2026-07-19 19:08:37,399 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='Can you go ahead and check my hdd capacity which files that are no longer use, i' reply_to_id=None reply_to_text=''
+2026-07-19 19:18:08,296 INFO [20260719_190947_1dc57e] gateway.run: Session split detected: 20260719_173313_6026e4 → 20260719_190947_1dc57e (compression)
+2026-07-19 19:18:09,519 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 19:18:09,519 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=572.1s api_calls=8 response=3005 chars
+2026-07-19 20:01:12,512 INFO gateway.run: Watch pattern notification — injecting for telegram chat=8611951691 thread=None
+2026-07-19 20:01:12,523 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='[IMPORTANT: Background process proc_e5780f50d157 completed normally (exit code 0' reply_to_id=None reply_to_text=''
+2026-07-19 20:01:38,587 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 20:01:38,588 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=26.1s api_calls=2 response=957 chars
+2026-07-19 20:47:19,131 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 0 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-19 20:55:53,260 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (31 chars)
+2026-07-19 20:55:53,270 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg="let's wrap all it up item 1 - 5" reply_to_id=None reply_to_text=''
+2026-07-19 21:00:15,440 INFO hermes_plugins.telegram_platform.adapter: Telegram button resolved 1 approval(s) for session agent:main:telegram:dm:8611951691 (choice=once, user=Wuttipong)
+2026-07-19 21:01:06,006 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 21:01:06,007 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=312.7s api_calls=8 response=1380 chars
+2026-07-19 21:14:50,919 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (38 chars)
+2026-07-19 21:14:50,928 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='anything else  do we need to clean up?' reply_to_id=None reply_to_text=''
+2026-07-19 21:16:07,124 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 21:16:07,124 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=76.2s api_calls=2 response=1522 chars
+2026-07-19 22:51:00,256 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8611951691 → 16 (session_reset)
+2026-07-19 22:51:00,289 INFO gateway.platforms.base: [Telegram] Sending response (203 chars) to 8611951691
+2026-07-19 22:51:04,221 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-07-19 22:51:04,227 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='working' reply_to_id=None reply_to_text=''
+2026-07-19 22:51:09,630 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 22:51:09,631 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=5.4s api_calls=1 response=55 chars
+2026-07-19 22:52:38,863 INFO gateway.run: Invalidated run generation for agent:main:telegram:dm:8611951691 → 18 (session_reset)
+2026-07-19 22:52:38,888 INFO gateway.platforms.base: [Telegram] Sending response (209 chars) to 8611951691
+2026-07-19 22:52:42,279 INFO hermes_plugins.telegram_platform.adapter: [Telegram] Flushing text batch agent:main:telegram:dm:8611951691 (7 chars)
+2026-07-19 22:52:42,285 INFO gateway.run: inbound message: platform=telegram user=Wuttipong Thongmon chat=8611951691 msg='working' reply_to_id=None reply_to_text=''
+2026-07-19 22:52:47,216 INFO gateway.run: Suppressing normal final send for session agent:main:telegram:dm:8611951691: final delivery already confirmed (streamed=True previewed=False content_delivered=True).
+2026-07-19 22:52:47,216 INFO gateway.run: response ready: platform=telegram chat=8611951691 time=4.9s api_calls=1 response=5 chars

@@ -1,0 +1,2595 @@
+- generic
+  - link "Jump to content" [ref=e1]
+  - banner
+    - navigation "Site" [ref=e2]
+      - generic
+        - button "Main menu" [ref=e6]
+    - link "Wikipedia The Free Encyclopedia" [ref=e3]
+      - image "Wikipedia"
+      - image "The Free Encyclopedia"
+    - search
+      - form
+        - generic
+          - searchbox "Search Wikipedia" [ref=e38]
+        - button "Search" [ref=e7]
+    - navigation "Personal tools" [ref=e4]
+      - list
+        - listitem [level=1]
+          - link "Donate" [ref=e39]
+        - listitem [level=1]
+          - link "Create account" [ref=e40]
+        - listitem [level=1]
+          - link "Log in" [ref=e41]
+  - navigation "Contents" [ref=e5]
+    - generic
+      - generic
+        - heading "Contents" [level=2, ref=e57]
+        - button "Hide Contents" [ref=e58]
+          - StaticText "hide"
+      - list
+        - listitem [level=1]
+          - link "(Top)" [ref=e97]
+            - StaticText "(Top)"
+        - listitem [level=1]
+          - link "Features" [ref=e98]
+            - StaticText "Features"
+          - button "Toggle Features subsection" [expanded=true, ref=e99]
+            - StaticText "Toggle Features subsection"
+          - list
+            - listitem [level=2]
+              - link "Apple Intelligence" [ref=e475]
+                - StaticText "Apple Intelligence"
+              - list
+            - listitem [level=2]
+              - link "Calculator" [ref=e476]
+                - StaticText "Calculator"
+              - list
+            - listitem [level=2]
+              - link "Messages" [ref=e477]
+                - StaticText "Messages"
+              - list
+            - listitem [level=2]
+              - link "Photos" [ref=e478]
+                - StaticText "Photos"
+              - list
+            - listitem [level=2]
+              - link "Home screen" [ref=e479]
+                - StaticText "Home screen"
+              - list
+            - listitem [level=2]
+              - link "Control Center" [ref=e480]
+                - StaticText "Control Center"
+              - list
+            - listitem [level=2]
+              - link "Passwords" [ref=e481]
+                - StaticText "Passwords"
+              - list
+            - listitem [level=2]
+              - link "recoveryOS" [ref=e482]
+                - StaticText "recoveryOS"
+              - list
+            - listitem [level=2]
+              - link "Others" [ref=e483]
+                - StaticText "Others"
+              - list
+        - listitem [level=1]
+          - link "Supported devices" [ref=e100]
+            - StaticText "Supported devices"
+          - list
+        - listitem [level=1]
+          - link "Version history" [ref=e101]
+            - StaticText "Version history"
+          - list
+        - listitem [level=1]
+          - link "Reception" [ref=e102]
+            - StaticText "Reception"
+          - list
+        - listitem [level=1]
+          - link "See also" [ref=e103]
+            - StaticText "See also"
+          - list
+        - listitem [level=1]
+          - link "Notes" [ref=e104]
+            - StaticText "Notes"
+          - list
+        - listitem [level=1]
+          - link "References" [ref=e105]
+            - StaticText "References"
+          - list
+  - main
+    - sectionheader
+      - heading "iOS 18" [level=1, ref=e8]
+      - generic
+        - button "27 languages" [ref=e13]
+    - navigation "Namespaces" [ref=e9]
+      - list
+        - listitem [level=1]
+          - link "Article" [ref=e106]
+            - StaticText "Article"
+        - listitem [level=1]
+          - link "Talk" [ref=e107]
+            - StaticText "Talk"
+    - generic
+      - navigation "Views" [ref=e10]
+        - list
+          - listitem [level=1]
+            - link "Read" [ref=e108]
+              - StaticText "Read"
+          - listitem [level=1]
+            - link "Edit" [ref=e109]
+              - StaticText "Edit"
+          - listitem [level=1]
+            - link "View history" [ref=e110]
+              - StaticText "View history"
+      - navigation "Page tools" [ref=e11]
+        - generic
+          - button "Tools" [ref=e42]
+    - navigation "Appearance" [ref=e12]
+      - generic
+        - generic
+          - StaticText "Appearance"
+          - button "Hide Appearance" [ref=e111]
+            - StaticText "hide"
+        - generic
+          - StaticText "Text"
+          - list
+            - listitem [level=1]
+              - form
+                - generic
+                  - radio "Small" [checked=false, ref=e614]
+                  - LabelText
+                    - StaticText "Small"
+                - generic
+                  - radio "Standard" [checked=true, ref=e615]
+                  - LabelText
+                    - StaticText "Standard"
+                - generic
+                  - radio "Large" [checked=false, ref=e616]
+                  - LabelText
+                    - StaticText "Large"
+        - generic
+          - StaticText "Width"
+          - list
+            - listitem [level=1]
+              - form
+                - generic
+                  - radio "Standard" [checked=true, ref=e617]
+                  - LabelText
+                    - StaticText "Standard"
+                - generic
+                  - radio "Wide" [checked=false, ref=e618]
+                  - LabelText
+                    - StaticText "Wide"
+        - generic
+          - StaticText "Color"
+          - list
+            - listitem [level=1]
+              - form
+                - generic
+                  - radio "Automatic" [checked=false, ref=e619]
+                  - LabelText
+                    - StaticText "Automatic"
+                - generic
+                  - radio "Light" [checked=true, ref=e620]
+                  - LabelText
+                    - StaticText "Light"
+                - generic
+                  - radio "Dark" [checked=false, ref=e621]
+                  - LabelText
+                    - StaticText "Dark"
+    - generic "iOS 18"
+      - StaticText "From Wikipedia, the free encyclopedia"
+      - generic
+        - generic
+          - table
+            - row
+              - columnheader "iOS 18" [ref=e112]
+            - row
+              - cell "Version of the iOS operating system" [ref=e113]
+                - StaticText "Version of the "
+                - link "iOS" [ref=e234]
+                - StaticText " operating system"
+            - row
+              - cell
+                - link [ref=e235]
+                  - image
+            - row
+              - cell "iOS 18 home screen iOS 18 home screen on an iPhone 16" [ref=e114]
+                - link "iOS 18 home screen" [ref=e236]
+                  - image "iOS 18 home screen"
+                - generic
+                  - StaticText "iOS 18 home screen on an "
+                  - link "iPhone 16" [ref=e484]
+            - row
+              - rowheader "Developer" [ref=e115]
+                - link "Developer" [ref=e237]
+              - cell "Apple" [ref=e116]
+                - link "Apple" [ref=e238]
+            - row
+              - rowheader "Written in" [ref=e117]
+                - link "Written in" [ref=e239]
+              - cell "C, C++, Objective-C, Swift, assembly language" [ref=e118]
+                - link "C" [ref=e240]
+                - StaticText ", "
+                - link "C++" [ref=e241]
+                - StaticText ", "
+                - link "Objective-C" [ref=e242]
+                - StaticText ", "
+                - link "Swift" [ref=e243]
+                - StaticText ", "
+                - link "assembly language" [ref=e244]
+            - row
+              - rowheader "OS family" [ref=e119]
+              - cell "iOS" [ref=e120]
+                - link "iOS" [ref=e245]
+            - row
+              - rowheader "Source model" [ref=e121]
+              - cell "Closed with open-source components" [ref=e122]
+                - link "Closed" [ref=e246]
+                - StaticText " with "
+                - link "open-source" [ref=e247]
+                - StaticText " components"
+            - row
+              - rowheader "General availability" [ref=e123]
+                - link "General availability" [ref=e248]
+                  - StaticText "General"
+                  - LineBreak "\n"
+                  - StaticText "availability"
+              - cell "September16, 2024; 22 months ago" [ref=e124]
+                - StaticText "September16, 2024; 22 months ago"
+            - row
+              - rowheader "Latest release" [ref=e125]
+                - link "Latest release" [ref=e249]
+              - cell "18.7.8 (iPhone 11 and later)[1] (April22, 2026; 2 months ago) [±] 18.7.9 (iPhone XS and XR models only)[2] (May11, 2026; 2 months ago) [±]" [ref=e126]
+                - StaticText "18.7.8 (iPhone 11 and later)"
+                - superscript
+                  - link "[1]" [ref=e485]
+                    - generic
+                - StaticText " (April22, 2026; 2 months ago) "
+                - link "[±]" [ref=e250]
+                  - StaticText "[±]"
+                - LineBreak "\n"
+                - StaticText "18.7.9 (iPhone XS and XR models only)"
+                - superscript
+                  - link "[2]" [ref=e486]
+                    - generic
+                - StaticText " (May11, 2026; 2 months ago) "
+                - link "[±]" [ref=e251]
+                  - StaticText "[±]"
+            - row
+              - rowheader "Available in" [ref=e127]
+              - cell "42 languages[3]" [ref=e128]
+                - StaticText "42 languages"
+                - superscript
+                  - link "[3]" [ref=e487]
+                    - generic
+            - row
+              - cell "[show] List of languages" [ref=e129]
+                - button "[show]" [expanded=false, ref=e252]
+                  - StaticText "["
+                  - StaticText "show"
+                  - StaticText "]"
+                - StaticText "List of languages"
+            - row
+              - rowheader "Update method" [ref=e130]
+              - cell "Software update" [ref=e131]
+                - link "Software update" [ref=e253]
+            - row
+              - rowheader "Kernel type" [ref=e132]
+                - link "Kernel" [ref=e254]
+                - StaticText " type"
+              - cell "Hybrid (XNU)" [ref=e133]
+                - link "Hybrid" [ref=e255]
+                - StaticText " ("
+                - link "XNU" [ref=e256]
+                - StaticText ")"
+            - row
+              - rowheader "License" [ref=e134]
+                - link "License" [ref=e257]
+              - cell "Proprietary software with open-source components" [ref=e135]
+                - link "Proprietary software" [ref=e258]
+                - StaticText " with open-source components"
+            - row
+              - rowheader "Preceded by" [ref=e136]
+              - cell "iOS 17" [ref=e137]
+                - link "iOS 17" [ref=e259]
+            - row
+              - rowheader "Succeeded by" [ref=e138]
+              - cell "iOS 26" [ref=e139]
+                - link "iOS 26" [ref=e260]
+            - row
+              - rowheader "Official website" [ref=e140]
+              - cell "iOS 18 at the Wayback Machine (archived September 5, 2025)" [ref=e141]
+                - link "iOS 18" [ref=e261]
+                - StaticText " at the "
+                - link "Wayback Machine" [ref=e262]
+                - StaticText " (archived September 5, 2025)"
+            - row
+              - rowheader "Tagline" [ref=e142]
+              - cell "Yours. Truly." [ref=e143]
+            - row
+              - columnheader "Support status" [ref=e144]
+            - row
+              - cell "Receiving security updates for iPhones that do not support versions beyond iOS 18. Widespread third-party app support." [ref=e145]
+            - row
+              - columnheader "Articles in the series" [ref=e146]
+            - row
+              - cell "iPadOS 18 (derivative for iPad)" [ref=e147]
+                - link "iPadOS 18" [ref=e263]
+                - StaticText " (derivative for "
+                - link "iPad" [ref=e264]
+                - StaticText ")"
+          - paragraph
+            - StaticText "iOS 18"
+            - StaticText " is the "
+            - link "eighteenth major release" [ref=e59]
+            - StaticText " of "
+            - link "Apple" [ref=e60]
+            - StaticText "'s "
+            - link "iOS" [ref=e61]
+            - StaticText " operating system for the "
+            - link "iPhone" [ref=e62]
+            - StaticText "."
+            - superscript
+              - link "[4]" [ref=e148]
+                - generic
+                  - StaticText "["
+                  - StaticText "4"
+                  - StaticText "]"
+            - superscript
+              - link "[5]" [ref=e149]
+                - generic
+                  - StaticText "["
+                  - StaticText "5"
+                  - StaticText "]"
+            - superscript
+              - link "[6]" [ref=e150]
+                - generic
+                  - StaticText "["
+                  - StaticText "6"
+                  - StaticText "]"
+            - superscript
+              - link "[7]" [ref=e151]
+                - generic
+                  - StaticText "["
+                  - StaticText "7"
+                  - StaticText "]"
+            - superscript
+              - link "[8]" [ref=e152]
+                - generic
+                  - StaticText "["
+                  - StaticText "8"
+                  - StaticText "]"
+            - StaticText " It was announced on June 10, 2024, at the 2024 "
+            - link "Worldwide Developers Conference" [ref=e63]
+            - StaticText " (WWDC), and made publicly available on September 16, 2024, as a free software update for supported iOS devices."
+            - superscript
+              - link "[8]" [ref=e153]
+                - generic
+                  - StaticText "["
+                  - StaticText "8"
+                  - StaticText "]"
+            - StaticText " It is the direct successor to "
+            - link "iOS 17" [ref=e64]
+            - StaticText " and was announced alongside "
+            - link "iPadOS 18" [ref=e65]
+            - StaticText ", "
+            - link "macOS Sequoia" [ref=e66]
+            - StaticText ", "
+            - link "watchOS 11" [ref=e67]
+            - StaticText ", "
+            - link "visionOS 2" [ref=e68]
+            - StaticText ", and "
+            - link "tvOS 18" [ref=e69]
+            - StaticText "."
+          - paragraph
+            - StaticText "iOS 18 is the last version of iOS that features a "
+            - link "flat design" [ref=e70]
+            - StaticText " style, as that design style was replaced with "
+            - link "Liquid Glass" [ref=e71]
+            - StaticText " in its successor, "
+            - link "iOS 26" [ref=e72]
+            - StaticText ", which was released on September 15, 2025."
+            - superscript
+              - link "[9]" [ref=e154]
+                - generic
+                  - StaticText "["
+                  - StaticText "9"
+                  - StaticText "]"
+        - region "Features" [ref=e14]
+          - generic
+            - heading "Features" [level=2, ref=e73]
+            - link "edit" [ref=e74]
+          - region "Apple Intelligence" [ref=e43]
+            - generic
+              - heading "Apple Intelligence" [level=3, ref=e155]
+              - link "edit" [ref=e156]
+            - note
+              - StaticText "Main article: "
+              - link "Apple Intelligence" [ref=e157]
+            - paragraph
+              - StaticText "The Apple Intelligence platform is available in iOS 18.1 and beyond, on the "
+              - link "iPhone 15 Pro" [ref=e158]
+              - StaticText " and iPhone 15 Pro Max models as well as the "
+              - link "iPhone 16" [ref=e159]
+              - StaticText " and "
+              - link "iPhone 16 Pro" [ref=e160]
+              - StaticText " models. Apple Intelligence adds "
+              - link "artificial intelligence" [ref=e161]
+              - StaticText " (AI) capabilities and "
+              - link "large language model" [ref=e162]
+              - StaticText " integrations to "
+              - link "Siri" [ref=e163]
+              - StaticText " and other operating system functions, such as the "
+              - link "Photos" [ref=e164]
+              - StaticText " app and image creation tools."
+              - superscript
+                - link "[4]" [ref=e265]
+                  - generic
+                    - StaticText "["
+                    - StaticText "4"
+                    - StaticText "]"
+              - superscript
+                - link "[10]" [ref=e266]
+                  - generic
+                    - StaticText "["
+                    - StaticText "10"
+                    - StaticText "]"
+              - superscript
+                - link "[11]" [ref=e267]
+                  - generic
+                    - StaticText "["
+                    - StaticText "11"
+                    - StaticText "]"
+              - superscript
+                - link "[12]" [ref=e268]
+                  - generic
+                    - StaticText "["
+                    - StaticText "12"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "Apple's Intelligence features are set to be introduced gradually across several forthcoming updates. These features were not included in the initial release of the iPhone 16 models."
+              - superscript
+                - link "[13]" [ref=e269]
+                  - generic
+                    - StaticText "["
+                    - StaticText "13"
+                    - StaticText "]"
+          - region "Calculator" [ref=e44]
+            - generic
+              - heading "Calculator" [level=3, ref=e165]
+              - link "edit" [ref=e166]
+            - note
+              - StaticText "Main article: "
+              - link "Calculator (Apple)" [ref=e167]
+            - paragraph
+              - StaticText "iOS 18's calculator introduces Math Notes, a new feature that allows users to perform and track calculations on separate sheets, solve "
+              - link "mathematical equations" [ref=e168]
+              - StaticText ", and "
+              - link "plot functions on graphs" [ref=e169]
+              - StaticText ". With integrated handwriting recognition, Math Notes automatically evaluates user input and displays the results in their own handwriting. The redesigned Calculator app, now shared between iOS and "
+              - link "iPadOS" [ref=e170]
+              - StaticText ", marks the first time an official calculator has been available for iPad."
+              - superscript
+                - link "[14]" [ref=e270]
+                  - generic
+                    - StaticText "["
+                    - StaticText "14"
+                    - StaticText "]"
+          - region "Messages" [ref=e45]
+            - generic
+              - heading "Messages" [level=3, ref=e171]
+              - link "edit" [ref=e172]
+            - note
+              - StaticText "Main article: "
+              - link "Messages (Apple)" [ref=e173]
+            - paragraph
+              - StaticText "iOS 18 supports "
+              - link "Rich Communication Services" [ref=e174]
+              - StaticText " (RCS) on supported conversations, including support for read receipts and higher-quality multimedia sharing across various platforms. As with "
+              - link "SMS" [ref=e175]
+              - StaticText ", it is designated with green message bubbles and buttons to distinguish it from blue "
+              - link "iMessage" [ref=e176]
+              - StaticText " conversations."
+              - superscript
+                - link "[15]" [ref=e271]
+                  - generic
+                    - StaticText "["
+                    - StaticText "15"
+                    - StaticText "]"
+              - superscript
+                - link "[16]" [ref=e272]
+                  - generic
+                    - StaticText "["
+                    - StaticText "16"
+                    - StaticText "]"
+              - StaticText " Availability of RCS messaging varies by carrier availability and compatibility."
+              - superscript
+                - link "[17]" [ref=e273]
+                  - generic
+                    - StaticText "["
+                    - StaticText "17"
+                    - StaticText "]"
+              - StaticText " Apple previously refused the adoption of RCS in iOS."
+              - superscript
+                - link "[18]" [ref=e274]
+                  - generic
+                    - StaticText "["
+                    - StaticText "18"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "In 2022, after being questioned about RCS potentially coming to iPhone to increase compatibility with "
+              - link "Android" [ref=e177]
+              - StaticText ", "
+              - link "Tim Cook" [ref=e178]
+              - StaticText " said that iPhone users were not expressing interest in RCS and instead suggested that a solution would be to switch to an iPhone to use iMessage. The person who asked the question followed up, explaining that they use an iPhone while their mom uses an Android phone, to which Tim Cook jokingly replied \"Buy your mom an iPhone\" to large controversy."
+              - superscript
+                - link "[19]" [ref=e275]
+                  - generic
+                    - StaticText "["
+                    - StaticText "19"
+                    - StaticText "]"
+              - StaticText " The quote was later cited in an "
+              - link "anti-trust" [ref=e179]
+              - StaticText " lawsuit against Apple Inc. filed by the "
+              - link "United States Department of Justice" [ref=e180]
+              - StaticText "."
+              - superscript
+                - link "[20]" [ref=e276]
+                  - generic
+                    - StaticText "["
+                    - StaticText "20"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "iOS 18.4 added RCS support for more carriers."
+              - superscript
+                - link "[21]" [ref=e277]
+                  - generic
+                    - StaticText "["
+                    - StaticText "21"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "In iMessage, animated effects can be applied to any letter, word, or phrase, and text formatting such as bold, italic, underline, and strikethrough can be applied to any part of the text as well."
+              - superscript
+                - link "[22]" [ref=e278]
+                  - generic
+                    - StaticText "["
+                    - StaticText "22"
+                    - StaticText "]"
+              - StaticText " Both can be used simultaneously but cannot be used with the same selected text, however."
+          - region "Photos" [ref=e46]
+            - generic
+              - heading "Photos" [level=3, ref=e181]
+              - link "edit" [ref=e182]
+            - note
+              - StaticText "Main article: "
+              - link "Photos (Apple)" [ref=e183]
+            - paragraph
+              - StaticText "iOS 18 includes a significant redesign of the Photos app."
+              - superscript
+                - link "[23]" [ref=e279]
+                  - generic
+                    - StaticText "["
+                    - StaticText "23"
+                    - StaticText "]"
+              - superscript
+                - link "[24]" [ref=e280]
+                  - generic
+                    - StaticText "["
+                    - StaticText "24"
+                    - StaticText "]"
+              - StaticText " Slideshows known as collections are now automatically generated and visible at the top of the screen."
+              - superscript
+                - link "[25]" [ref=e281]
+                  - generic
+                    - StaticText "["
+                    - StaticText "25"
+                    - StaticText "]"
+              - StaticText " Support for encoding and decoding the "
+              - link "ISO 21496-1" [ref=e184]
+              - StaticText " gain map standard for "
+              - link "HDR" [ref=e185]
+              - StaticText " images was added, which allows for cross-platform HDR compatibility while remaining backwards compatible with "
+              - link "SDR" [ref=e186]
+              - StaticText " displays."
+              - superscript
+                - link "[26]" [ref=e282]
+                  - generic
+                    - StaticText "["
+                    - StaticText "26"
+                    - StaticText "]"
+              - StaticText " This redesign has led to backlash from many users who find it too confusing and is said to be the most controversial change in iOS 18."
+              - superscript
+                - link "[27]" [ref=e283]
+                  - generic
+                    - StaticText "["
+                    - StaticText "27"
+                    - StaticText "]"
+              - superscript
+                - link "[28]" [ref=e284]
+                  - generic
+                    - StaticText "["
+                    - StaticText "28"
+                    - StaticText "]"
+          - region "Home screen" [ref=e47]
+            - generic
+              - heading "Home screen" [level=3, ref=e187]
+              - link "edit" [ref=e188]
+            - paragraph
+              - StaticText "iOS 18 allows users to customize the icon color as well as the icon position and size on the home screen."
+              - superscript
+                - link "[29]" [ref=e285]
+                  - generic
+                    - StaticText "["
+                    - StaticText "29"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "A toggle to activate dark mode icons for first-party apps and many third party ones was implemented."
+            - paragraph
+              - StaticText "Previous iOS versions arranged icons on a preset grid, but now users can place them anywhere."
+            - paragraph
+              - StaticText "In iOS 18, app widgets and some apps can now be enlarged or reduced as desired."
+            - paragraph
+              - StaticText "Many system icons were given gradients or had them removed."
+            - paragraph
+              - StaticText "In iOS 18, applications can now be locked or hidden. Locked apps require "
+              - link "passcode or biometric authentication" [ref=e189]
+              - StaticText " to run. Hidden apps are moved to a designated \"Hidden\" folder in the "
+              - link "App Library" [ref=e190]
+              - StaticText "; accessing that folder requires passcode or biometric authentication."
+              - superscript
+                - link "[30]" [ref=e286]
+                  - generic
+                    - StaticText "["
+                    - StaticText "30"
+                    - StaticText "]"
+              - StaticText " Hidden apps do not show in other places on the phone such as Siri Suggestions and the Settings app."
+            - paragraph
+              - StaticText "In iOS 18.1, a new feature was introduced which enables users to edit the iPhone home screen through iPhone Mirroring."
+              - superscript
+                - link "[31]" [ref=e287]
+                  - generic
+                    - StaticText "["
+                    - StaticText "31"
+                    - StaticText "]"
+              - superscript
+                - link "[32]" [ref=e288]
+                  - generic
+                    - StaticText "["
+                    - StaticText "32"
+                    - StaticText "]"
+          - region "Control Center" [ref=e48]
+            - generic
+              - heading "Control Center" [level=3, ref=e191]
+              - link "edit" [ref=e192]
+            - note
+              - StaticText "Main article: "
+              - link "Control Center (Apple)" [ref=e193]
+            - paragraph
+              - StaticText "iOS 18 comes with a redesign to the "
+              - link "Control Center" [ref=e194]
+              - StaticText ", allowing for multiple pages of controls, resizable buttons, and third-party controls."
+              - superscript
+                - link "[33]" [ref=e289]
+                  - generic
+                    - StaticText "["
+                    - StaticText "33"
+                    - StaticText "]"
+          - region "Passwords" [ref=e49]
+            - generic
+              - heading "Passwords" [level=3, ref=e195]
+              - link "edit" [ref=e196]
+            - note
+              - StaticText "Main article: "
+              - link "Passwords (Apple)" [ref=e197]
+            - paragraph
+              - StaticText "Apple introduced the "
+              - link "Passwords" [ref=e198]
+              - StaticText " app, a "
+              - link "password manager" [ref=e199]
+              - StaticText " aimed at simplifying password management for websites, applications, "
+              - link "Wi-Fi" [ref=e200]
+              - StaticText ", and verification codes."
+              - superscript
+                - link "[34]" [ref=e290]
+                  - generic
+                    - StaticText "["
+                    - StaticText "34"
+                    - StaticText "]"
+              - superscript
+                - link "[35]" [ref=e291]
+                  - generic
+                    - StaticText "["
+                    - StaticText "35"
+                    - StaticText "]"
+              - StaticText " This new app is heavily inspired by and replaces the Passwords section that was previously found in "
+              - link "Settings" [ref=e201]
+              - StaticText ", with the addition of Wi-Fi passwords. All existing passwords and codes in Settings are automatically moved to the Passwords app upon updating."
+          - region "recoveryOS" [ref=e50]
+            - generic
+              - heading "recoveryOS" [level=3, ref=e202]
+              - link "edit" [ref=e203]
+            - paragraph
+              - StaticText "iOS 18 includes recoveryOS for the "
+              - link "iPhone 16" [ref=e204]
+              - StaticText " series that allows users to restore "
+              - link "firmware" [ref=e205]
+              - StaticText " wirelessly from another iPhone 16. While all iPhone devices running iOS 18 are able to recover and restore firmware for an iPhone 16 device, wireless firmware recovery can only work between iPhone 16 devices."
+              - superscript
+                - link "[36]" [ref=e292]
+                  - generic
+                    - StaticText "["
+                    - StaticText "36"
+                    - StaticText "]"
+          - region "Others" [ref=e51]
+            - generic
+              - heading "Others" [level=3, ref=e206]
+              - link "edit" [ref=e207]
+            - figure
+              - link [ref=e208]
+                - image
+              - Figcaption
+                - StaticText "iOS 18 Settings on an "
+                - link "iPhone 14 Plus" [ref=e293]
+            - paragraph
+              - StaticText "With iOS 18.1, iOS allows the detection and display of battery health information of a non-Apple battery."
+              - superscript
+                - link "[37]" [ref=e294]
+                  - generic
+                    - StaticText "["
+                    - StaticText "37"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "On devices with an "
+              - link "OLED" [ref=e209]
+              - StaticText " display, there is a bulge animation when a hardware button is pressed."
+              - superscript
+                - link "[38]" [ref=e295]
+                  - generic
+                    - StaticText "["
+                    - StaticText "38"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "With iOS 18.2, users are able to share a link with others or airlines to track the location of "
+              - link "AirTags" [ref=e210]
+              - StaticText " or other accessories in the "
+              - link "Find My" [ref=e211]
+              - StaticText " app."
+              - superscript
+                - link "[39]" [ref=e296]
+                  - generic
+                    - StaticText "["
+                    - StaticText "39"
+                    - StaticText "]"
+              - superscript
+                - link "[40]" [ref=e297]
+                  - generic
+                    - StaticText "["
+                    - StaticText "40"
+                    - StaticText "]"
+              - superscript
+                - link "[41]" [ref=e298]
+                  - generic
+                    - StaticText "["
+                    - StaticText "41"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "Reports from law enforcement suggested that a new security feature was added that would reboot iPhones after 72 hours of inactivity to make it harder to break into,"
+              - superscript
+                - link "[42]" [ref=e299]
+                  - generic
+                    - StaticText "["
+                    - StaticText "42"
+                    - StaticText "]"
+              - superscript
+                - link "[43]" [ref=e300]
+                  - generic
+                    - StaticText "["
+                    - StaticText "43"
+                    - StaticText "]"
+              - StaticText " which researchers were able to confirm while looking at the code for iOS 18.1."
+              - superscript
+                - link "[44]" [ref=e301]
+                  - generic
+                    - StaticText "["
+                    - StaticText "44"
+                    - StaticText "]"
+              - superscript
+                - link "[45]" [ref=e302]
+                  - generic
+                    - StaticText "["
+                    - StaticText "45"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "iOS 18.2 allowed app developers such as "
+              - link "Truecaller" [ref=e212]
+              - StaticText " to add real-time Caller ID and spam-blocking."
+              - superscript
+                - link "[46]" [ref=e303]
+                  - generic
+                    - StaticText "["
+                    - StaticText "46"
+                    - StaticText "]"
+              - superscript
+                - link "[47]" [ref=e304]
+                  - generic
+                    - StaticText "["
+                    - StaticText "47"
+                    - StaticText "]"
+              - superscript
+                - link "[48]" [ref=e305]
+                  - generic
+                    - StaticText "["
+                    - StaticText "48"
+                    - StaticText "]"
+            - paragraph
+              - StaticText "With iOS 18.5, Apple introduced the 2025 Pride wallpaper."
+              - superscript
+                - link "[49]" [ref=e306]
+                  - generic
+                    - StaticText "["
+                    - StaticText "49"
+                    - StaticText "]"
+              - StaticText " This update also fixed several security vulnerabilities."
+              - superscript
+                - link "[50]" [ref=e307]
+                  - generic
+                    - StaticText "["
+                    - StaticText "50"
+                    - StaticText "]"
+        - region "Supported devices" [ref=e15]
+          - generic
+            - heading "Supported devices" [level=2, ref=e75]
+            - link "edit" [ref=e76]
+          - paragraph
+            - StaticText "iOS 18 requires a device with an "
+            - link "Apple A12 Bionic" [ref=e77]
+            - StaticText " processor or newer; all iPhones that support iOS 17 are also compatible with iOS 18. The "
+            - link "Apple Intelligence" [ref=e78]
+            - StaticText " feature requires an "
+            - link "Apple A17 Pro" [ref=e79]
+            - StaticText " processor or newer."
+            - superscript
+              - link "[10]" [ref=e213]
+                - generic
+                  - StaticText "["
+                  - StaticText "10"
+                  - StaticText "]"
+            - superscript
+              - link "[51]" [ref=e214]
+                - generic
+                  - StaticText "["
+                  - StaticText "51"
+                  - StaticText "]"
+            - StaticText " However, iPhones with an A12 Bionic or "
+            - link "A13 Bionic" [ref=e80]
+            - superscript
+              - link "[a]" [ref=e215]
+                - generic
+                  - StaticText "["
+                  - StaticText "a"
+                  - StaticText "]"
+            - StaticText " chip have limited support"
+            - superscript
+              - link "[b]" [ref=e216]
+                - generic
+                  - StaticText "["
+                  - StaticText "b"
+                  - StaticText "]"
+            - StaticText " while iPhones with an "
+            - link "A14 Bionic" [ref=e81]
+            - StaticText " to "
+            - link "A16" [ref=e82]
+            - StaticText " chip"
+            - superscript
+              - link "[c]" [ref=e217]
+                - generic
+                  - StaticText "["
+                  - StaticText "c"
+                  - StaticText "]"
+            - StaticText " are fully supported but lack Apple Intelligence."
+          - paragraph
+            - StaticText "iPhones that support iOS 18 are:"
+          - table
+            - caption
+            - rowgroup
+              - row
+                - columnheader "Supported Device" [ref=e308] clickable [cursor:pointer, tabindex]
+                - columnheader "Chipset" [ref=e309] clickable [cursor:pointer, tabindex]
+                - columnheader "Apple Intelligence support" [ref=e310] clickable [cursor:pointer, tabindex]
+            - rowgroup
+              - row
+                - cell "iPhone XS & XS Max" [ref=e311]
+                  - link "iPhone XS & XS Max" [ref=e488]
+                - cell "A12" [ref=e312]
+                - cell "No" [ref=e313]
+                  - image "No"
+              - row
+                - cell "iPhone XR" [ref=e314]
+                  - link "iPhone XR" [ref=e489]
+                - cell "A12" [ref=e315]
+                - cell "No" [ref=e316]
+                  - image "No"
+              - row
+                - cell "iPhone 11" [ref=e317]
+                  - link "iPhone 11" [ref=e490]
+                - cell "A13" [ref=e318]
+                - cell "No" [ref=e319]
+                  - image "No"
+              - row
+                - cell "iPhone 11 Pro & 11 Pro Max" [ref=e320]
+                  - link "iPhone 11 Pro & 11 Pro Max" [ref=e491]
+                - cell "A13" [ref=e321]
+                - cell "No" [ref=e322]
+                  - image "No"
+              - row
+                - cell "iPhone SE (2nd generation)" [ref=e323]
+                  - link "iPhone SE (2nd generation)" [ref=e492]
+                - cell "A13" [ref=e324]
+                - cell "No" [ref=e325]
+                  - image "No"
+              - row
+                - cell "iPhone 12 & 12 Mini" [ref=e326]
+                  - link "iPhone 12 & 12 Mini" [ref=e493]
+                - cell "A14" [ref=e327]
+                - cell "No" [ref=e328]
+                  - image "No"
+              - row
+                - cell "iPhone 12 Pro & 12 Pro Max" [ref=e329]
+                  - link "iPhone 12 Pro & 12 Pro Max" [ref=e494]
+                - cell "A14" [ref=e330]
+                - cell "No" [ref=e331]
+                  - image "No"
+              - row
+                - cell "iPhone 13 & 13 Mini" [ref=e332]
+                  - link "iPhone 13 & 13 Mini" [ref=e495]
+                - cell "A15" [ref=e333]
+                - cell "No" [ref=e334]
+                  - image "No"
+              - row
+                - cell "iPhone 13 Pro & 13 Pro Max" [ref=e335]
+                  - link "iPhone 13 Pro & 13 Pro Max" [ref=e496]
+                - cell "A15" [ref=e336]
+                - cell "No" [ref=e337]
+                  - image "No"
+              - row
+                - cell "iPhone SE (3rd generation)" [ref=e338]
+                  - link "iPhone SE (3rd generation)" [ref=e497]
+                - cell "A15" [ref=e339]
+                - cell "No" [ref=e340]
+                  - image "No"
+              - row
+                - cell "iPhone 14 & 14 Plus" [ref=e341]
+                  - link "iPhone 14 & 14 Plus" [ref=e498]
+                - cell "A15" [ref=e342]
+                - cell "No" [ref=e343]
+                  - image "No"
+              - row
+                - cell "iPhone 14 Pro & 14 Pro Max" [ref=e344]
+                  - link "iPhone 14 Pro & 14 Pro Max" [ref=e499]
+                - cell "A16" [ref=e345]
+                - cell "No" [ref=e346]
+                  - image "No"
+              - row
+                - cell "iPhone 15 & 15 Plus" [ref=e347]
+                  - link "iPhone 15 & 15 Plus" [ref=e500]
+                - cell "A16" [ref=e348]
+                - cell "No" [ref=e349]
+                  - image "No"
+              - row
+                - cell "iPhone 15 Pro & Pro Max" [ref=e350]
+                  - link "iPhone 15 Pro & Pro Max" [ref=e501]
+                - cell "A17 Pro" [ref=e351]
+                - cell "Yes" [ref=e352]
+                  - image "Yes"
+              - row
+                - cell "iPhone 16 & 16 Plus" [ref=e353]
+                  - link "iPhone 16 & 16 Plus" [ref=e502]
+                - cell "A18" [ref=e354]
+                - cell "Yes" [ref=e355]
+                  - image "Yes"
+              - row
+                - cell "iPhone 16 Pro & 16 Pro Max" [ref=e356]
+                  - link "iPhone 16 Pro & 16 Pro Max" [ref=e503]
+                - cell "A18 Pro" [ref=e357]
+                - cell "Yes" [ref=e358]
+                  - image "Yes"
+              - row
+                - cell "iPhone 16e" [ref=e359]
+                  - link "iPhone 16e" [ref=e504]
+                - cell "A18" [ref=e360]
+                - cell "Yes" [ref=e361]
+                  - image "Yes"
+            - rowgroup
+        - region "Version history" [ref=e16]
+          - generic
+            - heading "Version history" [level=2, ref=e83]
+            - link "edit" [ref=e84]
+          - table
+            - rowgroup
+              - row
+                - columnheader "Version" [ref=e362]
+                - columnheader "Build" [ref=e363]
+                - columnheader "Release date" [ref=e364]
+                - columnheader "Notes" [ref=e365]
+              - row
+                - rowheader "18.0" [ref=e366]
+                - cell "22A3351" [ref=e367]
+                - cell "September 20, 2024" [ref=e368]
+                  - StaticText "September 20, 2024"
+                - cell "Initial release for iPhone 16 and iPhone 16 Pro lineup" [ref=e369]
+                  - StaticText "Initial release for "
+                  - link "iPhone 16" [ref=e505]
+                  - StaticText " and "
+                  - link "iPhone 16 Pro" [ref=e506]
+                  - StaticText " lineup"
+              - row
+                - cell "22A3354" [ref=e370]
+                - cell "September 16, 2024" [ref=e371]
+                  - StaticText "September 16, 2024"
+                - cell "Developer release notes" [ref=e372]
+                  - link "Developer release notes" [ref=e507]
+              - row
+                - rowheader "18.0.1" [ref=e373]
+                - cell "22A3370" [ref=e374]
+                - cell "October 3, 2024" [ref=e375]
+                  - StaticText "October 3, 2024"
+                - cell
+              - row
+                - rowheader "18.1" [ref=e376]
+                - cell "22B83" [ref=e377]
+                - cell "October 28, 2024" [ref=e378]
+                  - StaticText "October 28, 2024"
+                - cell "Developer release notes" [ref=e379]
+                  - link "Developer release notes" [ref=e508]
+              - row
+                - rowheader "18.1.1" [ref=e380]
+                - cell "22B91" [ref=e381]
+                - cell "November 19, 2024" [ref=e382]
+                  - StaticText "November 19, 2024"
+                - cell
+              - row
+                - rowheader "18.2" [ref=e383]
+                - cell "22C152" [ref=e384]
+                - cell "December 11, 2024" [ref=e385]
+                  - StaticText "December 11, 2024"
+                - cell "Developer release notes" [ref=e386]
+                  - link "Developer release notes" [ref=e509]
+              - row
+                - rowheader "18.2.1" [ref=e387]
+                - cell "22C161" [ref=e388]
+                - cell "January 6, 2025" [ref=e389]
+                  - StaticText "January 6, 2025"
+                - cell
+              - row
+                - rowheader "18.3" [ref=e390]
+                - cell "22D63" [ref=e391]
+                - cell "January 27, 2025" [ref=e392]
+                  - StaticText "January 27, 2025"
+                - cell "Developer release notes" [ref=e393]
+                  - link "Developer release notes" [ref=e510]
+              - row
+                - cell "22D64" [ref=e394]
+                - cell "February 3, 2025" [ref=e395]
+                  - StaticText "February 3, 2025"
+                - cell "iPhone 11 and iPhone 11 Pro models only[52]" [ref=e396]
+                  - link "iPhone 11" [ref=e511]
+                  - StaticText " and "
+                  - link "iPhone 11 Pro" [ref=e512]
+                  - StaticText " models only"
+                  - superscript
+                    - link "[52]" [ref=e524]
+              - row
+                - cell "22D8063" [ref=e397]
+                - cell "February 28, 2025" [ref=e398]
+                  - StaticText "February 28, 2025"
+                - cell "Initial release for the iPhone 16e" [ref=e399]
+                  - StaticText "Initial release for the "
+                  - link "iPhone 16e" [ref=e513]
+              - row
+                - rowheader "18.3.1" [ref=e400]
+                - cell "22D72" [ref=e401]
+                - cell "February 10, 2025" [ref=e402]
+                  - StaticText "February 10, 2025"
+                - cell
+              - row
+                - cell "22D8075" [ref=e403]
+                - cell "February 19, 2025" [ref=e404]
+                  - StaticText "February 19, 2025"
+                - cell "Day one update for iPhone 16e only" [ref=e405]
+                  - StaticText "Day one update for "
+                  - link "iPhone 16e" [ref=e514]
+                  - StaticText " only"
+              - row
+                - rowheader "18.3.2" [ref=e406]
+                - cell "22D82" [ref=e407]
+                - cell "March 11, 2025" [ref=e408]
+                  - StaticText "March 11, 2025"
+                - cell
+              - row
+                - cell "22D8082" [ref=e409]
+                - cell "iPhone 16e only" [ref=e410]
+                  - link "iPhone 16e" [ref=e515]
+                  - StaticText " only"
+              - row
+                - rowheader "18.4" [ref=e411]
+                - cell "22E240" [ref=e412]
+                - cell "March 31, 2025[53]" [ref=e413]
+                  - StaticText "March 31, 2025"
+                  - superscript
+                    - link "[53]" [ref=e525]
+                - cell "Developer release notes" [ref=e414]
+                  - link "Developer release notes" [ref=e516]
+              - row
+                - rowheader "18.4.1" [ref=e415]
+                - cell "22E252" [ref=e416]
+                - cell "April 16, 2025[54]" [ref=e417]
+                  - StaticText "April 16, 2025"
+                  - superscript
+                    - link "[54]" [ref=e526]
+                - cell
+              - row
+                - rowheader "18.5" [ref=e418]
+                - cell "22F76" [ref=e419]
+                - cell "May 12, 2025[55]" [ref=e420]
+                  - StaticText "May 12, 2025"
+                  - superscript
+                    - link "[55]" [ref=e527]
+                - cell "Developer release notes" [ref=e421]
+                  - link "Developer release notes" [ref=e517]
+              - row
+                - rowheader "18.6" [ref=e422]
+                - cell "22G86" [ref=e423]
+                - cell "July 29, 2025[56]" [ref=e424]
+                  - StaticText "July 29, 2025"
+                  - superscript
+                    - link "[56]" [ref=e528]
+                - cell "Developer release notes" [ref=e425]
+                  - link "Developer release notes" [ref=e518]
+              - row
+                - rowheader "18.6.1" [ref=e426]
+                - cell "22G90" [ref=e427]
+                - cell "August 14, 2025[57]" [ref=e428]
+                  - StaticText "August 14, 2025"
+                  - superscript
+                    - link "[57]" [ref=e529]
+                - cell "Re-enabled Blood Oxygen feature on Apple Watch" [ref=e429]
+                  - StaticText "Re-enabled Blood Oxygen feature on "
+                  - link "Apple Watch" [ref=e519]
+              - row
+                - rowheader "18.6.2" [ref=e430]
+                - cell "22G100" [ref=e431]
+                - cell "August 20, 2025" [ref=e432]
+                  - StaticText "August 20, 2025"
+                - cell
+              - row
+                - rowheader "18.7" [ref=e433]
+                - cell "22H20" [ref=e434]
+                - cell "September 15, 2025" [ref=e435]
+                  - StaticText "September 15, 2025"
+                - cell "OTA only for newer devices, IPSW released for iPhone XR and XS models only, with OTA remaining available [58] [59] [60]" [ref=e436]
+                  - StaticText "OTA only for newer devices, IPSW released for iPhone XR and XS models only, with OTA remaining available "
+                  - superscript
+                    - link "[58]" [ref=e530]
+                  - StaticText " "
+                  - superscript
+                    - link "[59]" [ref=e531]
+                  - StaticText " "
+                  - superscript
+                    - link "[60]" [ref=e532]
+              - row
+                - rowheader "18.7.1" [ref=e437]
+                - cell "22H31" [ref=e438]
+                - cell "September 29, 2025" [ref=e439]
+                  - StaticText "September 29, 2025"
+              - row
+                - rowheader "18.7.2" [ref=e440]
+                - cell "22H124" [ref=e441]
+                - cell "November 5, 2025" [ref=e442]
+                  - StaticText "November 5, 2025"
+              - row
+                - rowheader "18.7.3" [ref=e443]
+                - cell "22H217" [ref=e444]
+                - cell "December 12, 2025" [ref=e445]
+                  - StaticText "December 12, 2025"
+                - cell "Released for all devices on beta channels and removed from beta channels shortly after, officially released for iPhone XR and XS models only[61]" [ref=e446]
+                  - StaticText "Released for all devices on beta channels and removed from beta channels shortly after, officially released for iPhone XR and XS models only"
+                  - superscript
+                    - link "[61]" [ref=e533]
+              - row
+                - rowheader "18.7.4" [ref=e447]
+                - cell "22H218" [ref=e448]
+                - cell "January 26, 2026" [ref=e449]
+                  - StaticText "January 26, 2026"
+                - cell "iPhone XR and XS models only" [ref=e450]
+              - row
+                - rowheader "18.7.5" [ref=e451]
+                - cell "22H311" [ref=e452]
+                - cell "February 11, 2026" [ref=e453]
+                  - StaticText "February 11, 2026"
+              - row
+                - rowheader "18.7.6" [ref=e454]
+                - cell "22H320" [ref=e455]
+                - cell "March 4, 2026" [ref=e456]
+                  - StaticText "March 4, 2026"
+              - row
+                - rowheader "18.7.7" [ref=e457]
+                - cell "22H333" [ref=e458]
+                - cell "March 24, 2026" [ref=e459]
+                  - StaticText "March 24, 2026"
+              - row
+                - cell "22H340" [ref=e460]
+                - cell "April 1, 2026" [ref=e461]
+                  - StaticText "April 1, 2026"
+                - cell "OTA only for newer devices" [ref=e462]
+              - row
+                - rowheader "18.7.8" [ref=e463]
+                - cell "22H352" [ref=e464]
+                - cell "April 22, 2026" [ref=e465]
+                  - StaticText "April 22, 2026"
+              - row
+                - rowheader "18.7.9" [ref=e466]
+                - cell "22H355" [ref=e467]
+                - cell "May 11, 2026" [ref=e468]
+                  - StaticText "May 11, 2026"
+                - cell "iPhone XR and XS models only" [ref=e469]
+              - row
+                - cell "Legend: Unsupported Latest version Preview version" [ref=e470]
+                  - generic
+                    - StaticText "Legend:"
+                    - StaticText "Unsupported"
+                    - StaticText "Latest version"
+                    - StaticText "Preview version"
+          - paragraph
+            - StaticText "Apple initially limited updates for devices eligible for "
+            - link "iOS 26" [ref=e85]
+            - StaticText " to version 18.7.2. However, following the slow adoption of iOS 26 (largely driven by the controversial "
+            - link "Liquid Glass" [ref=e86]
+            - StaticText " interface) and the emergence of the DarkSword exploit, the company reversed course and took the unusual step of expanding iOS 18.7.7 (originally released only for the iPhone XS and XR) to all newer iPhone models to address the security threat."
+            - superscript
+              - link "[62]" [ref=e218]
+                - generic
+                  - StaticText "["
+                  - StaticText "62"
+                  - StaticText "]"
+            - StaticText " Apple later did the same for iOS 18.7.8."
+          - paragraph
+            - generic
+              - StaticText "See Apple's official "
+              - link "release notes" [ref=e219]
+              - StaticText " and official "
+              - link "security update contents" [ref=e220]
+              - StaticText "."
+        - region "Reception" [ref=e17]
+          - generic
+            - heading "Reception" [level=2, ref=e87]
+            - link "edit" [ref=e88]
+          - paragraph
+            - StaticText "Reception of iOS 18 was mixed to positive from critics and users; it was praised for its deep personalization and new satellite features but criticized for its numerous bugs from the initial versions and the gradual rollout of AI features."
+        - region "See also" [ref=e18]
+          - generic
+            - heading "See also" [level=2, ref=e89]
+            - link "edit" [ref=e90]
+          - list
+            - listitem [level=1]
+              - ListMarker "• "
+              - link "Apple Intelligence" [ref=e221]
+            - listitem [level=1]
+              - ListMarker "• "
+              - link "Artificial intelligence" [ref=e222]
+            - listitem [level=1]
+              - ListMarker "• "
+              - link "iPadOS 18" [ref=e223]
+            - listitem [level=1]
+              - ListMarker "• "
+              - link "macOS Sequoia" [ref=e224]
+            - listitem [level=1]
+              - ListMarker "• "
+              - link "tvOS 18" [ref=e225]
+            - listitem [level=1]
+              - ListMarker "• "
+              - link "visionOS 2" [ref=e226]
+            - listitem [level=1]
+              - ListMarker "• "
+              - link "watchOS 11" [ref=e227]
+        - region "Notes" [ref=e19]
+          - generic
+            - heading "Notes" [level=2, ref=e91]
+            - link "edit" [ref=e92]
+          - list
+            - listitem [level=1]
+              - ListMarker "a. "
+              - link "Jump up" [ref=e534]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - link "iPhone 11" [ref=e535]
+                - StaticText ", "
+                - link "11 Pro" [ref=e536]
+                - StaticText ", 11 Pro Max, and "
+                - link "the second-generation SE" [ref=e537]
+            - listitem [level=1]
+              - ListMarker "b. "
+              - link "Jump up" [ref=e538]
+                - StaticText "^"
+              - StaticText " "
+              - StaticText "Messages via Satellite, and certain Live Audio Transcription enhancements are not available on iPhones older than the iPhone 12 series."
+            - listitem [level=1]
+              - ListMarker "c. "
+              - link "Jump up" [ref=e539]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - link "iPhone 12" [ref=e540]
+                - StaticText ", 12 Mini, "
+                - link "12 Pro" [ref=e541]
+                - StaticText ", and 12 Pro Max"
+        - region "References" [ref=e20]
+          - generic
+            - heading "References" [level=2, ref=e93]
+            - link "edit" [ref=e94]
+          - list
+            - listitem [level=1]
+              - ListMarker "1. "
+              - link "Jump up" [ref=e542]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"About the security content of iOS 18.7.8 and iPadOS 18.7.8\"" [ref=e622]
+                  - StaticText ". "
+                  - StaticText "Apple Support"
+                  - StaticText ". April 22, 2026."
+            - listitem [level=1]
+              - ListMarker "2. "
+              - link "Jump up" [ref=e543]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"About the security content of iOS 18.7.9 and iPadOS 18.7.9\"" [ref=e623]
+                  - StaticText ". "
+                  - StaticText "Apple Support"
+                  - StaticText ". May 11, 2026."
+            - listitem [level=1]
+              - ListMarker "3. "
+              - link "Jump up" [ref=e544]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"iPhone 16 and iPhone 16 Plus - Technical Specifications\"" [ref=e624]
+                  - StaticText ". "
+                  - StaticText "Apple"
+                  - StaticText ". "
+                  - link "Archived" [ref=e625]
+                  - StaticText " from the original on February 19, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "March 1,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "4. "
+              - generic
+                - StaticText "^ "
+                - link "Jump up to: " [ref=e545]
+                  - StaticText "a"
+                  - StaticText "Jump up to:"
+                  - StaticText "  "
+                - link [ref=e546]
+                  - StaticText "b"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"iOS 18: Everything We Know\"" [ref=e626]
+                  - StaticText ". "
+                  - StaticText "MacRumors"
+                  - StaticText ". January 12, 2024. "
+                  - link "Archived" [ref=e627]
+                  - StaticText " from the original on January 15, 2024."
+            - listitem [level=1]
+              - ListMarker "5. "
+              - link "Jump up" [ref=e547]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Peter, Kostadinov (June 10, 2024). "
+                  - link "\"iOS 18: Release date predictions, anticipated features, and compatible iPhones\"" [ref=e628]
+                  - StaticText ". "
+                  - link "Tom's Guide" [ref=e735]
+                  - StaticText ". "
+                  - link "Archived" [ref=e629]
+                  - StaticText " from the original on June 10, 2024."
+            - listitem [level=1]
+              - ListMarker "6. "
+              - link "Jump up" [ref=e548]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Miller, Chance (June 10, 2024). "
+                  - link "\"iOS 18 is coming today: Here's everything we know\"" [ref=e630]
+                  - StaticText ". "
+                  - StaticText "9to5Mac"
+                  - StaticText ". "
+                  - link "Archived" [ref=e631]
+                  - StaticText " from the original on June 10, 2024."
+            - listitem [level=1]
+              - ListMarker "7. "
+              - link "Jump up" [ref=e549]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Sareena, Dayaram (June 10, 2024). "
+                  - link "\"iOS 18: New Features, Siri AI, Apple Intelligence and More Expected at WWDC\"" [ref=e632]
+                  - StaticText ". "
+                  - link "CNET" [ref=e736]
+                  - StaticText ". "
+                  - link "Archived" [ref=e633]
+                  - StaticText " from the original on June 10, 2024."
+            - listitem [level=1]
+              - ListMarker "8. "
+              - generic
+                - StaticText "^ "
+                - link "Jump up to: " [ref=e550]
+                  - StaticText "a"
+                  - StaticText "Jump up to:"
+                  - StaticText "  "
+                - link [ref=e551]
+                  - StaticText "b"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"iOS 18\"" [ref=e634]
+                  - StaticText ". "
+                  - StaticText "Apple"
+                  - StaticText ". "
+                  - link "Archived" [ref=e635]
+                  - StaticText " from the original on September 15, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "April 26,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "9. "
+              - link "Jump up" [ref=e552]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"OS - iOS 26\"" [ref=e636]
+                  - StaticText ". "
+                  - StaticText "Apple"
+                  - StaticText ". "
+                  - link "Archived" [ref=e637]
+                  - StaticText " from the original on August 6, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "July 8,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "10. "
+              - generic
+                - StaticText "^ "
+                - link "Jump up to: " [ref=e553]
+                  - StaticText "a"
+                  - StaticText "Jump up to:"
+                  - StaticText "  "
+                - link [ref=e554]
+                  - StaticText "b"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Prospero, Mike (June 10, 2024). "
+                  - link "\"Here are the devices that will support Apple Intelligence — no older iPhones allowed\"" [ref=e638]
+                  - StaticText ". "
+                  - StaticText "Tom's Guide"
+                  - StaticText ". "
+                  - link "Archived" [ref=e639]
+                  - StaticText " from the original on June 11, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "June 10,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "11. "
+              - link "Jump up" [ref=e555]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Adorno, José (January 4, 2024). "
+                  - link "\"iOS 18: Release date, AI, supported iPhones, and everything we know\"" [ref=e640]
+                  - StaticText ". "
+                  - StaticText "Boy Genius Report"
+                  - StaticText ". "
+                  - link "Archived" [ref=e641]
+                  - StaticText " from the original on January 15, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "January 15,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "12. "
+              - link "Jump up" [ref=e556]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Apple Intelligence\"" [ref=e642]
+                  - StaticText ". "
+                  - StaticText "Apple"
+                  - StaticText ". "
+                  - link "Archived" [ref=e643]
+                  - StaticText " from the original on June 13, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "April 26,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "13. "
+              - link "Jump up" [ref=e557]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Spence, Ewan. "
+                  - link "\"Apple's New iPhone 16 Pro Delivers Delight And Disappointment\"" [ref=e644]
+                  - StaticText ". "
+                  - StaticText "Forbes"
+                  - StaticText ". "
+                  - link "Archived" [ref=e645]
+                  - StaticText " from the original on September 23, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "September 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "14. "
+              - link "Jump up" [ref=e558]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Solve math with Math Notes in Calculator on iPhone\"" [ref=e646]
+                  - StaticText ". "
+                  - StaticText "Apple Support"
+                  - StaticText ". "
+                  - link "Archived" [ref=e647]
+                  - StaticText " from the original on September 18, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "September 18,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "15. "
+              - link "Jump up" [ref=e559]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Johnson, Allison (June 10, 2024). "
+                  - link "\"Apple is bringing RCS to the iPhone in iOS 18\"" [ref=e648]
+                  - StaticText ". "
+                  - StaticText "The Verge"
+                  - StaticText ". "
+                  - link "Archived" [ref=e649]
+                  - StaticText " from the original on June 10, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "June 10,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "16. "
+              - link "Jump up" [ref=e560]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Miller, Chance (November 17, 2023). "
+                  - link "\"RCS messages will use green bubbles, Apple confirms\"" [ref=e650]
+                  - StaticText ". "
+                  - StaticText "9to5Mac"
+                  - StaticText ". "
+                  - link "Archived" [ref=e651]
+                  - StaticText " from the original on November 18, 2023"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 19,"
+                    - StaticText " 2023"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "17. "
+              - link "Jump up" [ref=e561]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Apple officially rolls out RCS for iPhone, but many carriers still don't support it\"" [ref=e652]
+                  - StaticText ". "
+                  - StaticText "ZDNET"
+                  - StaticText ". "
+                  - link "Archived" [ref=e653]
+                  - StaticText " from the original on September 19, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "September 19,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "18. "
+              - link "Jump up" [ref=e562]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Ulanoff, Lance (November 16, 2023). "
+                  - link "\"Hell freezes over – Apple to support RCS messages from Android phones next year\"" [ref=e654]
+                  - StaticText ". "
+                  - StaticText "TechRadar"
+                  - StaticText ". "
+                  - link "Archived" [ref=e655]
+                  - StaticText " from the original on September 13, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "August 27,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "19. "
+              - link "Jump up" [ref=e563]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Lawler, Richard (September 8, 2022). "
+                  - link "\"Tim Cook says 'buy your mom an iPhone' if you want to end green bubbles\"" [ref=e656]
+                  - StaticText ". "
+                  - StaticText "The Verge"
+                  - StaticText ". "
+                  - link "Archived" [ref=e657]
+                  - StaticText " from the original on September 8, 2022"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "July 21,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "20. "
+              - link "Jump up" [ref=e564]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Bitter, Alex (March 22, 2024). "
+                  - link "\"Watch Tim Cook's famous 'Buy your mom an iPhone' quip that caught the attention of the Justice Department\"" [ref=e658]
+                  - StaticText ". "
+                  - StaticText "Business Insider"
+                  - StaticText ". "
+                  - link "Archived" [ref=e659]
+                  - StaticText " from the original on July 21, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "July 21,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "21. "
+              - link "Jump up" [ref=e565]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Christoffel, Ryan (March 5, 2025). "
+                  - link "\"iOS 18.4 brings RCS messaging to some of the last big carrier holdouts\"" [ref=e660]
+                  - StaticText ". "
+                  - StaticText "9To5Mac"
+                  - StaticText ". "
+                  - link "Archived" [ref=e661]
+                  - StaticText " from the original on March 6, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "March 19,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "22. "
+              - link "Jump up" [ref=e566]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Rossignol, Joe (June 10, 2024). "
+                  - link "\"iMessage on iOS 18 Features Bold, Underline, Italics, and Text Effects\"" [ref=e662]
+                  - StaticText ". "
+                  - StaticText "MacRumors"
+                  - StaticText ". "
+                  - link "Archived" [ref=e663]
+                  - StaticText " from the original on October 8, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "October 15,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "23. "
+              - link "Jump up" [ref=e567]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"iOS 18 Preview\"" [ref=e664]
+                  - StaticText ". "
+                  - StaticText "Apple"
+                  - StaticText ". "
+                  - link "Archived" [ref=e665]
+                  - StaticText " from the original on June 10, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "June 10,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "24. "
+              - link "Jump up" [ref=e568]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Bell, Karissa (June 10, 2024). "
+                  - link "\"Apple redesigned the Photos app in iOS 18 to intelligently organize your memories\"" [ref=e666]
+                  - StaticText ". "
+                  - link "Engadget" [ref=e737]
+                  - StaticText ". "
+                  - link "Archived" [ref=e667]
+                  - StaticText " from the original on July 16, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "July 4,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "25. "
+              - link "Jump up" [ref=e569]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Younker, Scott (July 8, 2024). "
+                  - link "\"iOS 18 Photos — Apple explains the biggest redesign in years\"" [ref=e668]
+                  - StaticText ". "
+                  - StaticText "Tom's Guide"
+                  - StaticText ". "
+                  - link "Archived" [ref=e669]
+                  - StaticText " from the original on July 16, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "July 16,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "26. "
+              - link "Jump up" [ref=e570]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Mishaal, Rahman (October 29, 2024). "
+                  - link "\"Google and Apple are making HDR photos work better on Android and iOS\"" [ref=e670]
+                  - StaticText ". "
+                  - StaticText "Android Authority"
+                  - StaticText ". "
+                  - link "Archived" [ref=e671]
+                  - StaticText " from the original on January 29, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 11,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "27. "
+              - link "Jump up" [ref=e571]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Lloyd Coombes (August 11, 2024). "
+                  - link "\"User backlash has reportedly caused Apple to rethink iOS 18's Photos redesign\"" [ref=e672]
+                  - StaticText ". "
+                  - StaticText "iMore"
+                  - StaticText ". "
+                  - link "Archived" [ref=e673]
+                  - StaticText " from the original on November 21, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "28. "
+              - link "Jump up" [ref=e572]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Mark Wilson (September 18, 2024). "
+                  - link "\"Hate the new iOS 18 Photos app? Try these fixes to make it more like the old version\"" [ref=e674]
+                  - StaticText ". "
+                  - StaticText "TechRadar"
+                  - StaticText ". "
+                  - link "Archived" [ref=e675]
+                  - StaticText " from the original on November 19, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "29. "
+              - link "Jump up" [ref=e573]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"What to Expect From iOS 18, Apple's Biggest iOS Update Yet - iDevice Central\"" [ref=e676]
+                  - StaticText ". "
+                  - StaticText "iDevice Central"
+                  - StaticText ". March 27, 2024. "
+                  - link "Archived" [ref=e677]
+                  - StaticText " from the original on March 27, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "June 10,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "30. "
+              - link "Jump up" [ref=e574]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Clover, Juli (June 10, 2024). "
+                  - link "\"iOS 18 Lets You Lock and Hide Your Apps for Added Privacy\"" [ref=e678]
+                  - StaticText ". "
+                  - StaticText "MacRumors"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "31. "
+              - link "Jump up" [ref=e575]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Mishra, Prakruti (August 14, 2024). "
+                  - link "\"Apple adds home screen management to iPhone mirroring in new betas: Report\"" [ref=e679]
+                  - StaticText ". "
+                  - link "Business Standard" [ref=e738]
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "32. "
+              - link "Jump up" [ref=e576]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "McAuliffe, Zachary (August 16, 2024). "
+                  - link "\"Every Way You Can Customize Your iPhone's Home Screen in the iOS 18 Betas\"" [ref=e680]
+                  - StaticText ". "
+                  - link "CNET" [ref=e739]
+                  - StaticText ". "
+                  - link "Archived" [ref=e681]
+                  - StaticText " from the original on August 14, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "August 14,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "33. "
+              - link "Jump up" [ref=e577]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Hardwick, Tim (June 10, 2024). "
+                  - link "\"iOS 18: New Control Center Features Multiple Customizable Screens\"" [ref=e682]
+                  - StaticText ". "
+                  - StaticText "MacRumors"
+                  - StaticText ". "
+                  - link "Archived" [ref=e683]
+                  - StaticText " from the original on June 10, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "June 11,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "34. "
+              - link "Jump up" [ref=e578]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Tibken, Shara; "
+                  - link "Stern, Joanna" [ref=e684]
+                  - StaticText " (June 11, 2024). "
+                  - link "\"Password App, iPad Calculator, Scheduled Text Messages: What's Coming Soon to Your Apple Devices\"" [ref=e740]
+                  - StaticText ". "
+                  - link "The Wall Street Journal" [ref=e741]
+                  - StaticText ". "
+                  - link "Archived" [ref=e685]
+                  - StaticText " from the original on July 16, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "June 11,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "35. "
+              - link "Jump up" [ref=e579]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Spangler, Todd (June 11, 2024). "
+                  - link "\"Apple iOS 18: What's New in the Latest iPhone Software Release\"" [ref=e686]
+                  - StaticText ". "
+                  - link "Variety" [ref=e742]
+                  - StaticText ". "
+                  - link "Archived" [ref=e687]
+                  - StaticText " from the original on July 6, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "July 4,"
+                    - StaticText " 2024"
+                  - StaticText ". "
+                  - generic
+                    - StaticText "\""
+                    - StaticText "The new Passwords app provides a single place to access passwords, passkeys, Wi-Fi passwords and verification codes. The app also includes alerts for users regarding common security weaknesses, such as passwords that are easily guessed or used multiple times, as well as those that appear in known data leaks."
+                    - StaticText "\""
+            - listitem [level=1]
+              - ListMarker "36. "
+              - link "Jump up" [ref=e580]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Shivam, Harsh (September 18, 2024). "
+                  - link "\"Technology news: iPhone 16 allows wireless firmware recovery using another iPhone: Report\"" [ref=e688]
+                  - StaticText ". "
+                  - link "Business Standard" [ref=e743]
+                  - StaticText ". "
+                  - link "Archived" [ref=e689]
+                  - StaticText " from the original on September 18, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "September 18,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "37. "
+              - link "Jump up" [ref=e581]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"iPhone Repair: Impact of iOS 18.1 on Aftermarket Parts\"" [ref=e690]
+                  - StaticText ". November 7, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 14,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "38. "
+              - link "Jump up" [ref=e582]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"iOS 18 Adds Pop-Out Bezel Animation When Pressing iPhone Buttons\"" [ref=e691]
+                  - StaticText ". "
+                  - StaticText "MacRumors"
+                  - StaticText ". June 11, 2024. "
+                  - link "Archived" [ref=e692]
+                  - StaticText " from the original on April 3, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "April 17,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "39. "
+              - link "Jump up" [ref=e583]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Apple's Find My enables sharing location of lost items with third parties\"" [ref=e693]
+                  - StaticText ". "
+                  - StaticText "Apple Newsroom"
+                  - StaticText ". "
+                  - link "Archived" [ref=e694]
+                  - StaticText " from the original on November 23, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "40. "
+              - link "Jump up" [ref=e584]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Apple Announces iOS 18.2's New AirTag Location Sharing Feature Coming to These 15+ Airlines\"" [ref=e695]
+                  - StaticText ". "
+                  - StaticText "MacRumors"
+                  - StaticText ". November 11, 2024. "
+                  - link "Archived" [ref=e696]
+                  - StaticText " from the original on November 30, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "41. "
+              - link "Jump up" [ref=e585]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Miller, Chance (November 11, 2024). "
+                  - link "\"Apple teams up with airlines for new 'Share Item Location' AirTags feature in iOS 18.2\"" [ref=e697]
+                  - StaticText ". "
+                  - StaticText "9to5Mac"
+                  - StaticText ". "
+                  - link "Archived" [ref=e698]
+                  - StaticText " from the original on November 13, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "42. "
+              - link "Jump up" [ref=e586]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Kantra, Suzanne (November 21, 2024). "
+                  - link "\"Apple's Secret iOS 18 Security Update Makes iPhones Safer Than Ever\"" [ref=e699]
+                  - StaticText ". "
+                  - StaticText "techlicious"
+                  - StaticText ". "
+                  - link "Archived" [ref=e700]
+                  - StaticText " from the original on November 21, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "43. "
+              - link "Jump up" [ref=e587]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Pritchard, Tom (November 15, 2024). "
+                  - link "\"iOS 18 will force your iPhone to reboot after 3 days — here's why that matters\"" [ref=e701]
+                  - StaticText ". "
+                  - StaticText "Tom's Guide"
+                  - StaticText ". "
+                  - link "Archived" [ref=e702]
+                  - StaticText " from the original on November 26, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "44. "
+              - link "Jump up" [ref=e588]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Espósito, Filipe (November 18, 2024). "
+                  - link "\"Researcher reverse engineers iPhone's Inactivity Reboot feature\"" [ref=e703]
+                  - StaticText ". "
+                  - StaticText "9to5Mac"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "45. "
+              - link "Jump up" [ref=e589]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Reverse Engineering iOS 18 Inactivity Reboot\"" [ref=e704]
+                  - StaticText ". "
+                  - StaticText "Reverse Engineering iOS 18 Inactivity Reboot"
+                  - StaticText ". "
+                  - link "Archived" [ref=e705]
+                  - StaticText " from the original on November 22, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 23,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "46. "
+              - link "Jump up" [ref=e590]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"'Your iPhone will never be the same': Truecaller updates iOS app with big features\"" [ref=e706]
+                    - StaticText "\""
+                    - StaticText "'Your iPhone will never be the same': Truecaller updates iOS app with big features\""
+                  - StaticText ". "
+                  - StaticText "Business Today"
+                  - StaticText ". January 22, 2025. "
+                  - link "Archived" [ref=e707]
+                  - StaticText " from the original on January 22, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "January 22,"
+                    - StaticText " 2025"
+                  - StaticText ". "
+                  - generic
+                    - StaticText "\""
+                    - StaticText "CEO of Truecaller: \"We are proud that, 15 years after our inception, we can offer iOS users the same world-class Caller ID and spam-blocking experience as Android users.\""
+                    - StaticText "\""
+            - listitem [level=1]
+              - ListMarker "47. "
+              - link "Jump up" [ref=e591]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Singh, Jagmeet; Mehta, Ivan (January 22, 2025). "
+                  - link "\"Truecaller brings real-time caller ID to iPhone users\"" [ref=e708]
+                  - StaticText ". "
+                  - StaticText "TechCrunch"
+                  - StaticText ". "
+                  - link "Archived" [ref=e709]
+                  - StaticText " from the original on January 22, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "January 22,"
+                    - StaticText " 2025"
+                  - StaticText ". "
+                  - generic
+                    - StaticText "\""
+                    - StaticText "The company was able to implement the feature because Apple introduced Live Caller ID Lookup in iOS 18, allowing third-party caller ID apps to securely make a call to their server to get information about the caller"
+                    - StaticText "\""
+            - listitem [level=1]
+              - ListMarker "48. "
+              - link "Jump up" [ref=e592]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Truecaller Finally Brings Real-Time Caller ID to iPhones – How to Use\"" [ref=e710]
+                  - StaticText ". "
+                  - StaticText "News9live"
+                  - StaticText ". January 22, 2025. "
+                  - link "Archived" [ref=e711]
+                  - StaticText " from the original on January 22, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "January 22,"
+                    - StaticText " 2025"
+                  - StaticText ". "
+                  - generic
+                    - StaticText "\""
+                    - StaticText "Truecaller's latest update brings real-time caller ID and spam-blocking features to iPhones with iOS 18.2 and above."
+                    - StaticText "\""
+            - listitem [level=1]
+              - ListMarker "49. "
+              - link "Jump up" [ref=e593]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Apple introduces the 2025 Pride Collection\"" [ref=e712]
+                  - StaticText ". "
+                  - StaticText "Apple Newsroom (India)"
+                  - StaticText ". "
+                  - link "Archived" [ref=e713]
+                  - StaticText " from the original on May 18, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "May 25,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "50. "
+              - link "Jump up" [ref=e594]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"About the security content of iOS 18.5 and iPadOS 18.5\"" [ref=e714]
+                  - StaticText ". "
+                  - StaticText "Apple Support"
+                  - StaticText ". "
+                  - link "Archived" [ref=e715]
+                  - StaticText " from the original on July 12, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "July 11,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "51. "
+              - link "Jump up" [ref=e595]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"iOS 18 Preview\"" [ref=e716]
+                  - StaticText ". "
+                  - StaticText "Apple"
+                  - StaticText ". "
+                  - link "Archived" [ref=e717]
+                  - StaticText " from the original on June 10, 2024"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "September 8,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "52. "
+              - link "Jump up" [ref=e596]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Clover, Juli (February 3, 2025). "
+                  - link "\"Apple Releases New Version of iOS 18.3 for iPhone 11\"" [ref=e718]
+                  - StaticText ". "
+                  - link "MacRumors" [ref=e744]
+                  - StaticText ". "
+                  - link "Archived" [ref=e719]
+                  - StaticText " from the original on February 4, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "February 3,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "53. "
+              - link "Jump up" [ref=e597]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Clover, Juli (March 31, 2025). "
+                  - link "\"Apple Releases iOS 18.4 with Priority Notifications, Ambient Music, New Emoji and More\"" [ref=e720]
+                  - StaticText ". "
+                  - link "MacRumors" [ref=e745]
+                  - StaticText ". "
+                  - link "Archived" [ref=e721]
+                  - StaticText " from the original on March 31, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "March 31,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "54. "
+              - link "Jump up" [ref=e598]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Clover, Juli (April 16, 2025). "
+                  - link "\"Apple Releases iOS 18.4.1 with Bug Fixes\"" [ref=e722]
+                  - StaticText ". "
+                  - link "MacRumors" [ref=e746]
+                  - StaticText ". "
+                  - link "Archived" [ref=e723]
+                  - StaticText " from the original on April 16, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "April 16,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "55. "
+              - link "Jump up" [ref=e599]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - StaticText "Peters, Jay (May 12, 2025). "
+                  - link "\"iOS 18.5 is out now\"" [ref=e724]
+                  - StaticText ". "
+                  - StaticText "The Verge"
+                  - StaticText ". "
+                  - link "Archived" [ref=e725]
+                  - StaticText " from the original on May 13, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "May 12,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "56. "
+              - link "Jump up" [ref=e600]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Apple Releases iOS 18.6 With Photos Bug Fix\"" [ref=e726]
+                  - StaticText ". "
+                  - StaticText "MacRumors"
+                  - StaticText ". July 29, 2025. "
+                  - link "Archived" [ref=e727]
+                  - StaticText " from the original on July 29, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "July 29,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "57. "
+              - link "Jump up" [ref=e601]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"An update on Blood Oxygen for Apple Watch in the U.S.\"" [ref=e728]
+                  - StaticText " "
+                  - StaticText "Apple"
+                  - StaticText ". August 14, 2025. "
+                  - link "Archived" [ref=e729]
+                  - StaticText " from the original on August 14, 2025"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "August 14,"
+                    - StaticText " 2025"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "58. "
+              - link "Jump up" [ref=e602]
+                - StaticText "^"
+              - generic
+                - generic
+                  - link "\"Choose an IPSW for iOS 18.7\"" [ref=e730]
+                  - StaticText ". IPSW website"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "October 28,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "59. "
+              - link "Jump up" [ref=e603]
+                - StaticText "^"
+              - generic
+                - generic
+                  - link "\"Choose an IPSW for iOS 18.7.1\"" [ref=e731]
+                  - StaticText ". IPSW website"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "October 28,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "60. "
+              - link "Jump up" [ref=e604]
+                - StaticText "^"
+              - generic
+                - generic
+                  - link "\"Choose an IPSW for iOS 18.7.2\"" [ref=e732]
+                  - StaticText ". IPSW website"
+                  - generic
+                    - StaticText ". Retrieved "
+                    - StaticText "November 19,"
+                    - StaticText " 2024"
+                  - StaticText "."
+            - listitem [level=1]
+              - ListMarker "61. "
+              - link "Jump up" [ref=e605]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Apple security releases\"" [ref=e733]
+                  - StaticText ". "
+                  - StaticText "Apple Support"
+                  - StaticText ". "
+                  - generic
+                    - StaticText "\""
+                    - StaticText "iOS 18.7.3... Available for iPhone XS, iPhone XS Max, iPhone XR..."
+                    - StaticText "\""
+            - listitem [level=1]
+              - ListMarker "62. "
+              - link "Jump up" [ref=e606]
+                - StaticText "^"
+              - StaticText " "
+              - generic
+                - generic
+                  - link "\"Apple Issues Rare iOS 18 Security Update to Protect Against DarkSword Exploit\"" [ref=e734]
+                  - StaticText ". April 2026."
+          - StaticText "Preceded"
+          - StaticText "by"
+          - link "iOS 17" [ref=e95]
+          - generic
+            - StaticText "iOS 18"
+            - LineBreak "\n"
+            - StaticText "2024"
+          - StaticText "Succeeded"
+          - StaticText "by"
+          - link "iOS 26" [ref=e96]
+          - navigation "iOS, iPadOS and other iOS-based products" [ref=e52]
+            - table
+              - row
+                - columnheader "[show] v· t· e iOS, iPadOS and other iOS-based products" [ref=e471]
+                  - button "[show]" [expanded=false, ref=e520]
+                    - StaticText "["
+                    - StaticText "show"
+                    - StaticText "]"
+                  - list
+                    - listitem [level=1]
+                      - link "v" [ref=e747]
+                    - listitem [level=1]
+                      - link "t" [ref=e748]
+                    - listitem [level=1]
+                      - link "e" [ref=e749]
+                  - generic
+                    - link "iOS" [ref=e607]
+                    - StaticText ", "
+                    - link "iPadOS" [ref=e608]
+                    - StaticText " and other iOS-based products"
+              - row
+              - row
+              - row
+              - row
+              - row
+              - row
+          - navigation "Darwin-derived operating systems" [ref=e53]
+            - table
+              - row
+                - columnheader "[show] v· t· e Darwin-derived operating systems" [ref=e472]
+                  - button "[show]" [expanded=false, ref=e521]
+                    - StaticText "["
+                    - StaticText "show"
+                    - StaticText "]"
+                  - list
+                    - listitem [level=1]
+                      - link "v" [ref=e750]
+                    - listitem [level=1]
+                      - link "t" [ref=e751]
+                    - listitem [level=1]
+                      - link "e" [ref=e752]
+                  - generic
+                    - link "Darwin" [ref=e609]
+                    - StaticText "-"
+                    - link "derived" [ref=e610]
+                    - StaticText " "
+                    - link "operating systems" [ref=e611]
+              - row
+              - row
+              - row
+              - row
+          - navigation "Software by Apple" [ref=e54]
+            - table
+              - row
+                - columnheader "[show] v· t· e Software by Apple" [ref=e473]
+                  - button "[show]" [expanded=false, ref=e522]
+                    - StaticText "["
+                    - StaticText "show"
+                    - StaticText "]"
+                  - list
+                    - listitem [level=1]
+                      - link "v" [ref=e753]
+                    - listitem [level=1]
+                      - link "t" [ref=e754]
+                    - listitem [level=1]
+                      - link "e" [ref=e755]
+                  - generic
+                    - StaticText "Software by "
+                    - link "Apple" [ref=e612]
+              - row
+              - row
+              - row
+              - row
+              - row
+              - row
+              - row
+              - row
+              - row
+              - row
+              - row
+          - navigation "Apple Inc." [ref=e55]
+            - table
+              - row
+                - columnheader "[show] v· t· e Apple Inc." [ref=e474]
+                  - button "[show]" [expanded=false, ref=e523]
+                    - StaticText "["
+                    - StaticText "show"
+                    - StaticText "]"
+                  - list
+                    - listitem [level=1]
+                      - link "v" [ref=e756]
+                    - listitem [level=1]
+                      - link "t" [ref=e757]
+                    - listitem [level=1]
+                      - link "e" [ref=e758]
+                  - link "Apple Inc." [ref=e613]
+      - generic
+        - link "Categories" [ref=e56]
+        - StaticText ": "
+        - list
+          - listitem [level=1]
+            - link "IOS" [ref=e228]
+          - listitem [level=1]
+            - link "2024 software" [ref=e229]
+          - listitem [level=1]
+            - link "Applications of artificial intelligence" [ref=e230]
+          - listitem [level=1]
+            - link "Mobile operating systems" [ref=e231]
+          - listitem [level=1]
+            - link "Products introduced in 2024" [ref=e232]
+          - listitem [level=1]
+            - link "Proprietary operating systems" [ref=e233]
+  - contentinfo
+    - list
+      - listitem [level=1]
+      - listitem [level=1]
+        - link "Parsoid" [ref=e21]
+      - listitem [level=1]
+        - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e22]
+        - link "Terms of Use" [ref=e23]
+        - link "Privacy Policy" [ref=e24]
+        - link "Wikimedia Foundation, Inc." [ref=e25]
+    - list
+      - listitem [level=1]
+        - link "Privacy policy" [ref=e26]
+      - listitem [level=1]
+        - link "About Wikipedia" [ref=e27]
+      - listitem [level=1]
+        - link "Disclaimers" [ref=e28]
+      - listitem [level=1]
+        - link "Contact Wikipedia" [ref=e29]
+      - listitem [level=1]
+        - link "Legal & safety contacts" [ref=e30]
+      - listitem [level=1]
+        - link "Code of Conduct" [ref=e31]
+      - listitem [level=1]
+        - link "Developers" [ref=e32]
+      - listitem [level=1]
+        - link "Statistics" [ref=e33]
+      - listitem [level=1]
+        - link "Cookie statement" [ref=e34]
+      - listitem [level=1]
+        - link "Mobile view" [ref=e35]
+    - list
+      - listitem [level=1]
+        - link "Wikimedia Foundation" [ref=e36]
+      - listitem [level=1]
+        - link "Powered by MediaWiki" [ref=e37]

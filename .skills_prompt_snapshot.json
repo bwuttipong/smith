@@ -234,8 +234,12 @@
       7367
     ],
     "qmd/SKILL.md": [
-      1779519910000000000,
-      3076
+      1784450929936117382,
+      3850
+    ],
+    "macos/macos-system-diagnostics/SKILL.md": [
+      1784462688931803748,
+      3197
     ],
     "discord/SKILL.md": [
       1779051768660498864,
@@ -290,8 +294,8 @@
       12462
     ],
     "software-development/building-agent-os/SKILL.md": [
-      1783234267252336494,
-      2270
+      1784450357998008514,
+      8062
     ],
     "software-development/hermes-s6-container-supervision/SKILL.md": [
       1779720656000000000,
@@ -304,6 +308,10 @@
     "software-development/systematic-debugging/SKILL.md": [
       1781714982000000000,
       11433
+    ],
+    "software-development/node-abi-mismatch-debugging/SKILL.md": [
+      1784462729751409277,
+      3876
     ],
     "software-development/plan/SKILL.md": [
       1781828385000000000,
@@ -446,8 +454,8 @@
       706
     ],
     "hermes-desktop-plugins/SKILL.md": [
-      1784346186210205660,
-      6888
+      1784451954113921968,
+      8849
     ],
     "mcp/DESCRIPTION.md": [
       1779286310000000000,
@@ -578,7 +586,7 @@
       6318
     ],
     "creative/comfyui/SKILL.md": [
-      1779286310000000000,
+      1779286310393307943,
       24287
     ],
     "creative/baoyu-infographic/SKILL.md": [
@@ -653,6 +661,10 @@
       1779286310000000000,
       9304
     ],
+    "communication/master-small-talk-introvert/SKILL.md": [
+      1784461084604540723,
+      4023
+    ],
     "communication/user-communication-preferences/SKILL.md": [
       1782729872391237892,
       8270
@@ -666,8 +678,8 @@
       1883
     ],
     "computer-use/SKILL.md": [
-      1782220844000000000,
-      11179
+      1784451954113053179,
+      14088
     ],
     "humanizer/SKILL.md": [
       1779875424000000000,
@@ -1027,6 +1039,19 @@
       "category": "coding-agents",
       "frontmatter_name": "coding-agents",
       "description": "Use when delegating implementation work to an autonomous ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "master-small-talk-introvert",
+      "category": "communication",
+      "frontmatter_name": "master-small-talk-introvert",
+      "description": "Practice method for mastering small talk as an introvert....",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -1800,6 +1825,19 @@
       "category": "line",
       "frontmatter_name": "line",
       "description": "LINE Messaging API webhook handler for Smith (Work)",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "macos-system-diagnostics",
+      "category": "macos",
+      "frontmatter_name": "macos-system-diagnostics",
+      "description": "Investigate macOS system resource usage — RAM/memory, top...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],
@@ -3146,6 +3184,19 @@
       "category": "software-development",
       "frontmatter_name": "hermes-s6-container-supervision",
       "description": "Modify, debug, or extend the s6-overlay supervision tree ...",
+      "platforms": [],
+      "conditions": {
+        "fallback_for_toolsets": [],
+        "requires_toolsets": [],
+        "fallback_for_tools": [],
+        "requires_tools": []
+      }
+    },
+    {
+      "skill_name": "node-abi-mismatch-debugging",
+      "category": "software-development",
+      "frontmatter_name": "node-abi-mismatch-debugging",
+      "description": "Diagnose and fix NODE_MODULE_VERSION mismatches when a No...",
       "platforms": [],
       "conditions": {
         "fallback_for_toolsets": [],

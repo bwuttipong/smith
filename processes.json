@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "session_id": "proc_533517a157c8",
+    "command": "cd /Users/Jeff/Workspaces/agentos/source/public && python3 -m http.server 8899",
+    "pid": 6009,
+    "pid_scope": "host",
+    "host_start_time": 178447764597,
+    "cwd": "/Users/Jeff/Smith",
+    "started_at": 1784477645.9733691,
+    "task_id": "default",
+    "session_key": "f6998c30-3274-46d9-b428-75c6cf4642c3",
+    "watcher_platform": "",
+    "watcher_chat_id": "",
+    "watcher_user_id": "",
+    "watcher_user_name": "",
+    "watcher_thread_id": "",
+    "watcher_message_id": "",
+    "watcher_interval": 0,
+    "notify_on_complete": false,
+    "watch_patterns": []
+  }
+]

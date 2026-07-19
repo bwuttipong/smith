@@ -1,0 +1,1436 @@
+- generic
+  - banner
+    - generic
+      - link "Google News" [ref=e18]
+        - StaticText "News"
+      - search
+        - combobox "Search for topics, locations & sources" [expanded=false, ref=e19]: Detroit Michigan
+          - StaticText "Detroit Michigan"
+        - button "Advanced search" [ref=e1]
+          - image
+        - button "Clear search" [ref=e2]
+          - image
+        - button "Search" [ref=e3]
+          - image
+      - generic
+        - button "Help" [expanded=false, ref=e37]
+      - generic
+        - button "Settings" [expanded=false, ref=e38]
+      - generic
+        - button "Google apps" [expanded=false, ref=e39]
+          - StaticText "  "
+        - link "Sign in" [ref=e4]
+          - StaticText "  "
+          - StaticText "Sign in"
+    - navigation
+      - tablist
+        - tab "Home" [ref=e5]
+          - tab "Home" [ref=e20]
+        - tab "For you" [ref=e6]
+          - tab "For you" [ref=e21]
+        - tab "Following" [ref=e7]
+          - tab "Following" [ref=e22]
+        - tab "U.S." [ref=e8]
+          - tab "U.S." [ref=e23]
+        - tab "World" [ref=e9]
+          - tab "World" [ref=e24]
+        - tab "Local" [ref=e10]
+          - tab "Local" [ref=e25]
+        - tab "Business" [ref=e11]
+          - tab "Business" [ref=e26]
+        - tab "Technology" [ref=e12]
+          - tab "Technology" [ref=e27]
+        - tab "Entertainment" [ref=e13]
+          - tab "Entertainment" [ref=e28]
+        - tab "Sports" [ref=e14]
+          - tab "Sports" [ref=e29]
+        - tab "Science" [ref=e15]
+          - tab "Science" [ref=e30]
+        - tab "Health" [ref=e16]
+          - tab "Health" [ref=e31]
+  - generic
+    - main
+      - generic
+        - generic
+          - generic
+            - generic
+              - StaticText "ClickOnDetroit | WDIV Local 4"
+              - generic
+                - button "More - Wildfire smoke returns to Metro Detroit for the second half of the weekend" [expanded=false, ref=e144]
+            - link "Wildfire smoke returns to Metro Detroit for the second half of the weekend - ClickOnDetroit | WDIV Local 4 - 2 hours ago - By Christina Burkhart" [ref=e42]
+              - StaticText "Wildfire smoke returns to Metro Detroit for the second half of the weekend"
+        - time
+          - StaticText "2 hours ago"
+        - separator
+        - StaticText "By Christina Burkhart"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Detroit's air quality improves, but it still ranks among U.S. worst" [expanded=false, ref=e145]
+              - link "Detroit's air quality improves, but it still ranks among U.S. worst - The Detroit News - 1 hour ago - By Max Reinhart" [ref=e43]
+                - StaticText "Detroit's air quality improves, but it still ranks among U.S. worst"
+          - time
+            - StaticText "1 hour ago"
+          - separator
+          - StaticText "By Max Reinhart"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Air quality improves little by little; possible storms tonight and Saturday" [expanded=false, ref=e146]
+              - link "Air quality improves little by little; possible storms tonight and Saturday - FOX 2 Detroit - 2 days ago - By Megan Ziegler" [ref=e44]
+                - StaticText "Air quality improves little by little; possible storms tonight and Saturday"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Megan Ziegler"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - Southeast Michigan looks eerie as wildfire smoke smothers region" [expanded=false, ref=e147]
+              - link "Southeast Michigan looks eerie as wildfire smoke smothers region - Detroit Free Press - 3 days ago" [ref=e45]
+                - StaticText "Southeast Michigan looks eerie as wildfire smoke smothers region"
+          - time
+            - StaticText "3 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Planet Detroit"
+                - generic
+                  - button "More - Detroit air quality to improve Saturday, but relief may be short-lived" [expanded=false, ref=e148]
+              - link "Detroit air quality to improve Saturday, but relief may be short-lived - Planet Detroit - Yesterday - By Brian Allnutt" [ref=e46]
+                - StaticText "Detroit air quality to improve Saturday, but relief may be short-lived"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Brian Allnutt"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Dense wildfire smoke blankets Detroit; air quality alert continues Friday in Michigan" [expanded=false, ref=e149]
+              - link "Dense wildfire smoke blankets Detroit; air quality alert continues Friday in Michigan - CBS News - 2 days ago - By Ahmad Bajjey" [ref=e47]
+                - StaticText "Dense wildfire smoke blankets Detroit; air quality alert continues Friday in Michigan"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Ahmad Bajjey"
+        - link "News about Detroit • smoke • wildfire" [ref=e32]
+          - heading "News about Detroit • smoke • wildfire" [level=3, ref=e40]
+          - image
+        - separator
+        - generic
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Canadian wildfire smoke rolls into downtown Detroit overnight" [expanded=false, ref=e150]
+              - link "Canadian wildfire smoke rolls into downtown Detroit overnight - FOX 2 Detroit - 3 days ago - By Robin Murdoch & David Komer" [ref=e48]
+                - StaticText "Canadian wildfire smoke rolls into downtown Detroit overnight"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Robin Murdoch & David Komer"
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - Michigan air quality updates: Wildfire smoke upends metro Detroit" [expanded=false, ref=e151]
+              - link "Michigan air quality updates: Wildfire smoke upends metro Detroit - Detroit Free Press - 2 days ago - By Natalie Davies" [ref=e49]
+                - StaticText "Michigan air quality updates: Wildfire smoke upends metro Detroit"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Natalie Davies"
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Detroit led world with most polluted air due to smoke much of Thursday" [expanded=false, ref=e152]
+              - link "Detroit led world with most polluted air due to smoke much of Thursday - The Detroit News - 2 days ago - By Charles Ramirez" [ref=e50]
+                - StaticText "Detroit led world with most polluted air due to smoke much of Thursday"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Charles Ramirez"
+        - generic
+          - generic
+            - generic
+              - StaticText "Patch"
+              - generic
+                - button "More - Multiple Shot Outside Detroit Church: Reports" [expanded=false, ref=e153]
+            - link "Multiple Shot Outside Detroit Church: Reports - Patch - Yesterday - By Dylan Siwicki" [ref=e51]
+              - StaticText "Multiple Shot Outside Detroit Church: Reports"
+        - time
+          - StaticText "Yesterday"
+        - separator
+        - StaticText "By Dylan Siwicki"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WXYZ Channel 7"
+                - generic
+                  - button "More - 'Protect yourself': Covenant House Michigan hands out masks amid toxic smoke" [expanded=false, ref=e154]
+              - link "'Protect yourself': Covenant House Michigan hands out masks amid toxic smoke - WXYZ Channel 7 - 17 hours ago - By Darren Cunningham" [ref=e52]
+                - StaticText "'Protect yourself': Covenant House Michigan hands out masks amid toxic smoke"
+          - time
+            - StaticText "17 hours ago"
+          - separator
+          - StaticText "By Darren Cunningham"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Mike Cox drops out of race for Michigan governor" [expanded=false, ref=e155]
+              - link "Mike Cox drops out of race for Michigan governor - The Detroit News - Yesterday" [ref=e53]
+                - StaticText "Mike Cox drops out of race for Michigan governor"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "NBC News"
+                - generic
+                  - button "More - Bernie Sanders and AOC bring anti-establishment fight to Michigan" [expanded=false, ref=e156]
+              - link "Bernie Sanders and AOC bring anti-establishment fight to Michigan - NBC News - 3 hours ago - By Henry J. Gomez" [ref=e54]
+                - StaticText "Bernie Sanders and AOC bring anti-establishment fight to Michigan"
+          - time
+            - StaticText "3 hours ago"
+          - separator
+          - StaticText "By Henry J. Gomez"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Wildfire smoke triggers statewide air quality alert in Michigan for Sunday" [expanded=false, ref=e157]
+              - link "Wildfire smoke triggers statewide air quality alert in Michigan for Sunday - CBS News - 2 hours ago - By Stacey DuFord & Ahmad Bajjey" [ref=e55]
+                - StaticText "Wildfire smoke triggers statewide air quality alert in Michigan for Sunday"
+          - time
+            - StaticText "2 hours ago"
+          - separator
+          - StaticText "By Stacey DuFord & Ahmad Bajjey"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Wildfire Consequences and Boxwood fatalities | Brother Nature" [expanded=false, ref=e158]
+              - link "Wildfire Consequences and Boxwood fatalities | Brother Nature - FOX 2 Detroit - 13 hours ago - By Megan Ziegler" [ref=e56]
+                - StaticText "Wildfire Consequences and Boxwood fatalities | Brother Nature"
+          - time
+            - StaticText "13 hours ago"
+          - separator
+          - StaticText "By Megan Ziegler"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WILX"
+                - generic
+                  - button "More - Detroit registers worst air quality in the world among major cities as wildfire smoke blankets Michigan" [expanded=false, ref=e159]
+              - link "Detroit registers worst air quality in the world among major cities as wildfire smoke blankets Michigan - WILX - 3 days ago - By Seth Wells" [ref=e57]
+                - StaticText "Detroit registers worst air quality in the world among major cities as wildfire smoke blankets Michigan"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Seth Wells"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Sports Illustrated"
+                - generic
+                  - button "More - The One Thing the Detroit Pistons Still Need To Win an NBA Championship" [expanded=false, ref=e160]
+              - link "The One Thing the Detroit Pistons Still Need To Win an NBA Championship - Sports Illustrated - 5 hours ago" [ref=e58]
+                - StaticText "The One Thing the Detroit Pistons Still Need To Win an NBA Championship"
+          - time
+            - StaticText "5 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Abdul El-Sayed joined by Bernie Sanders, AOC at Detroit rally" [expanded=false, ref=e161]
+              - link "Abdul El-Sayed joined by Bernie Sanders, AOC at Detroit rally - The Detroit News - 3 hours ago - By Katy Kildee" [ref=e59]
+                - StaticText "Abdul El-Sayed joined by Bernie Sanders, AOC at Detroit rally"
+          - time
+            - StaticText "3 hours ago"
+          - separator
+          - StaticText "By Katy Kildee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Planet Detroit"
+                - generic
+                  - button "More - Detroit air quality is worst in city’s recorded history from Canadian wildfires" [expanded=false, ref=e162]
+              - link "Detroit air quality is worst in city’s recorded history from Canadian wildfires - Planet Detroit - 2 days ago - By Brian Allnutt & Dustin Blitchok" [ref=e60]
+                - StaticText "Detroit air quality is worst in city’s recorded history from Canadian wildfires"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Brian Allnutt & Dustin Blitchok"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Detroit's air quality is second-worst in the world Thursday, ranked as hazardous" [expanded=false, ref=e163]
+              - link "Detroit's air quality is second-worst in the world Thursday, ranked as hazardous - CBS News - 3 days ago - By Paula Wethington & Vytas Reid" [ref=e61]
+                - StaticText "Detroit's air quality is second-worst in the world Thursday, ranked as hazardous"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Paula Wethington & Vytas Reid"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - Wildfire Smoke Continues to Impact Metro Detroit; Severe Storm Risk Returns Saturday" [expanded=false, ref=e164]
+              - link "Wildfire Smoke Continues to Impact Metro Detroit; Severe Storm Risk Returns Saturday - ClickOnDetroit | WDIV Local 4 - 2 days ago - By Ashlee Baracy" [ref=e62]
+                - StaticText "Wildfire Smoke Continues to Impact Metro Detroit; Severe Storm Risk Returns Saturday"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Ashlee Baracy"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Air Quality Alert" [expanded=false, ref=e165]
+              - link "Air Quality Alert - FOX 2 Detroit - 12 hours ago - By Nathan Vicar" [ref=e63]
+                - StaticText "Air Quality Alert"
+          - time
+            - StaticText "12 hours ago"
+          - separator
+          - StaticText "By Nathan Vicar"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Indy Eleven soccer loses to Detroit City FC" [expanded=false, ref=e166]
+              - link "Indy Eleven soccer loses to Detroit City FC - The Detroit News - 43 minutes ago" [ref=e64]
+                - StaticText "Indy Eleven soccer loses to Detroit City FC"
+          - time
+            - StaticText "43 minutes ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - Metro Detroit enveloped in smoke amid ongoing Canadian wildfires" [expanded=false, ref=e167]
+              - link "Metro Detroit enveloped in smoke amid ongoing Canadian wildfires - ClickOnDetroit | WDIV Local 4 - 3 days ago - By Jenny Sherman" [ref=e65]
+                - StaticText "Metro Detroit enveloped in smoke amid ongoing Canadian wildfires"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Jenny Sherman"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Flamenco class at Detroit's Michigan Science Center during Concert of Colors" [expanded=false, ref=e168]
+              - link "Flamenco class at Detroit's Michigan Science Center during Concert of Colors - The Detroit News - 6 hours ago - By Katy Kildee" [ref=e66]
+                - StaticText "Flamenco class at Detroit's Michigan Science Center during Concert of Colors"
+          - time
+            - StaticText "6 hours ago"
+          - separator
+          - StaticText "By Katy Kildee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - America 250 celebrations at Thunder Over Michigan" [expanded=false, ref=e169]
+              - link "America 250 celebrations at Thunder Over Michigan - The Detroit News - 5 hours ago" [ref=e67]
+                - StaticText "America 250 celebrations at Thunder Over Michigan"
+          - time
+            - StaticText "5 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Smoke starts to clear as Detroit air quality still worst in world again" [expanded=false, ref=e170]
+              - link "Smoke starts to clear as Detroit air quality still worst in world again - The Detroit News - Yesterday - By Charles Ramirez & Max Reinhart" [ref=e68]
+                - StaticText "Smoke starts to clear as Detroit air quality still worst in world again"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Charles Ramirez & Max Reinhart"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Haze hovers over Detroit, southeast Michigan from Canada wildfires" [expanded=false, ref=e171]
+              - link "Haze hovers over Detroit, southeast Michigan from Canada wildfires - The Detroit News - 3 days ago" [ref=e69]
+                - StaticText "Haze hovers over Detroit, southeast Michigan from Canada wildfires"
+          - time
+            - StaticText "3 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "instagram.com"
+                - generic
+                  - button "More - A look at downtown Detroit covered in a dense haze for the second straight day July 17, 2026, due to wildfire smoke from Canada and Minnesota. Officials extended the statewide air quality alert in Michigan through Saturday, July 18, as wildfire smoke is expec" [expanded=false, ref=e172]
+              - link "A look at downtown Detroit covered in a dense haze for the second straight day July 17, 2026, due to wildfire smoke from Canada and Minnesota. Officials extended the statewide air quality alert in Michigan through Saturday, July 18, as wildfire smoke is expec - instagram.com - 2 days ago" [ref=e70]
+                - StaticText "A look at downtown Detroit covered in a dense haze for the second straight day July 17, 2026, due to wildfire smoke from Canada and Minnesota. Officials extended the statewide air quality alert in Michigan through Saturday, July 18, as wildfire smoke is expec"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - Michigan air quality improves Saturday but expected to decline Sunday" [expanded=false, ref=e173]
+              - link "Michigan air quality improves Saturday but expected to decline Sunday - Detroit Free Press - 11 hours ago - By Natalie Davies" [ref=e71]
+                - StaticText "Michigan air quality improves Saturday but expected to decline Sunday"
+          - time
+            - StaticText "11 hours ago"
+          - separator
+          - StaticText "By Natalie Davies"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "instagram.com"
+                - generic
+                  - button "More - The wildfire haze is making some people cancel trips Up North or curb planned outdoor activities. 📸 David Rodriguez-Munoz, Detroit Free Press" [expanded=false, ref=e174]
+              - link "The wildfire haze is making some people cancel trips Up North or curb planned outdoor activities. 📸 David Rodriguez-Munoz, Detroit Free Press - instagram.com - 7 hours ago" [ref=e72]
+                - StaticText "The wildfire haze is making some people cancel trips Up North or curb planned outdoor activities. 📸 David Rodriguez-Munoz, Detroit Free Press"
+          - time
+            - StaticText "7 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Air Quality conditions to slowly improve Friday" [expanded=false, ref=e175]
+              - link "Air Quality conditions to slowly improve Friday - FOX 2 Detroit - 2 days ago - By Megan Ziegler" [ref=e73]
+                - StaticText "Air Quality conditions to slowly improve Friday"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Megan Ziegler"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - It's Abdul El Sayed vs. billionaires, Bernie Sanders says in Detroit" [expanded=false, ref=e176]
+              - link "It's Abdul El Sayed vs. billionaires, Bernie Sanders says in Detroit - Detroit Free Press - 1 hour ago - By Clara Hendrickson" [ref=e74]
+                - StaticText "It's Abdul El Sayed vs. billionaires, Bernie Sanders says in Detroit"
+          - time
+            - StaticText "1 hour ago"
+          - separator
+          - StaticText "By Clara Hendrickson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Flamenco class during Concert of Colors at Michigan Science Center" [expanded=false, ref=e177]
+              - link "Flamenco class during Concert of Colors at Michigan Science Center - The Detroit News - 6 hours ago - By Katy Kildee" [ref=e75]
+                - StaticText "Flamenco class during Concert of Colors at Michigan Science Center"
+          - time
+            - StaticText "6 hours ago"
+          - separator
+          - StaticText "By Katy Kildee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - Air quality concerns continue before chances for severe weather move into Metro Detroit this weekend" [expanded=false, ref=e178]
+              - link "Air quality concerns continue before chances for severe weather move into Metro Detroit this weekend - ClickOnDetroit | WDIV Local 4 - Yesterday - By Bryan Schuerman, M.Ed." [ref=e76]
+                - StaticText "Air quality concerns continue before chances for severe weather move into Metro Detroit this weekend"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Bryan Schuerman, M.Ed."
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "More - The wildfire haze is making some people cancel trips Up North or curb planned outdoor activities. 📸 David Rodriguez-Munoz, Detroit Free Press" [expanded=false, ref=e179]
+              - link "The wildfire haze is making some people cancel trips Up North or curb planned outdoor activities. 📸 David Rodriguez-Munoz, Detroit Free Press - facebook.com - 2 hours ago" [ref=e77]
+                - StaticText "The wildfire haze is making some people cancel trips Up North or curb planned outdoor activities. 📸 David Rodriguez-Munoz, Detroit Free Press"
+          - time
+            - StaticText "2 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Detroit's air ranks worst in the world amid wildfire smoke" [expanded=false, ref=e180]
+              - link "Detroit's air ranks worst in the world amid wildfire smoke - FOX 2 Detroit - 3 days ago - By David Komer" [ref=e78]
+                - StaticText "Detroit's air ranks worst in the world amid wildfire smoke"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By David Komer"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - Canadian wildfire smoke triggers statewide Michigan air quality alert" [expanded=false, ref=e181]
+              - link "Canadian wildfire smoke triggers statewide Michigan air quality alert - ClickOnDetroit | WDIV Local 4 - 3 days ago - By Amaya Kuznicki" [ref=e79]
+                - StaticText "Canadian wildfire smoke triggers statewide Michigan air quality alert"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Amaya Kuznicki"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - Argument at Detroit funeral escalates to shooting; police quickly respond" [expanded=false, ref=e182]
+              - link "Argument at Detroit funeral escalates to shooting; police quickly respond - ClickOnDetroit | WDIV Local 4 - Yesterday - By Khalil Maycock" [ref=e80]
+                - StaticText "Argument at Detroit funeral escalates to shooting; police quickly respond"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Khalil Maycock"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Planet Detroit"
+                - generic
+                  - button "More - What to do when Detroit air is polluted with wildfire smoke" [expanded=false, ref=e183]
+              - link "What to do when Detroit air is polluted with wildfire smoke - Planet Detroit - 3 days ago - By Isabelle Tavares" [ref=e81]
+                - StaticText "What to do when Detroit air is polluted with wildfire smoke"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Isabelle Tavares"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - How long will wildfire smoke cloak Detroit, Michigan? Expert weighs in" [expanded=false, ref=e184]
+              - link "How long will wildfire smoke cloak Detroit, Michigan? Expert weighs in - The Detroit News - 2 days ago - By Charles Ramirez & Carol Thompson" [ref=e82]
+                - StaticText "How long will wildfire smoke cloak Detroit, Michigan? Expert weighs in"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Charles Ramirez & Carol Thompson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WXYZ Channel 7"
+                - generic
+                  - button "More - Metro Detroit Weather: Smoky skies Sunday, air quality impacted" [expanded=false, ref=e185]
+              - link "Metro Detroit Weather: Smoky skies Sunday, air quality impacted - WXYZ Channel 7 - 4 days ago - By Marisa Woloszyn" [ref=e83]
+                - StaticText "Metro Detroit Weather: Smoky skies Sunday, air quality impacted"
+          - time
+            - StaticText "4 days ago"
+          - separator
+          - StaticText "By Marisa Woloszyn"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Michigan air quality forces more cancellations, delays" [expanded=false, ref=e186]
+              - link "Michigan air quality forces more cancellations, delays - The Detroit News - Yesterday - By Charles Ramirez & Alyssa Tisch" [ref=e84]
+                - StaticText "Michigan air quality forces more cancellations, delays"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Charles Ramirez & Alyssa Tisch"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Closings, cancellations issued for Friday in Metro Detroit over Michigan's poor air quality" [expanded=false, ref=e187]
+              - link "Closings, cancellations issued for Friday in Metro Detroit over Michigan's poor air quality - CBS News - 2 days ago - By Paula Wethington" [ref=e85]
+                - StaticText "Closings, cancellations issued for Friday in Metro Detroit over Michigan's poor air quality"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Paula Wethington"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - 4Warn Weather Alert: Dangerous smoke clears in time for strong storms in Metro Detroit" [expanded=false, ref=e188]
+              - link "4Warn Weather Alert: Dangerous smoke clears in time for strong storms in Metro Detroit - ClickOnDetroit | WDIV Local 4 - 2 days ago - By Ron Hilliard" [ref=e86]
+                - StaticText "4Warn Weather Alert: Dangerous smoke clears in time for strong storms in Metro Detroit"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Ron Hilliard"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Air Quality conditions to slowly improve Friday" [expanded=false, ref=e189]
+              - link "Air Quality conditions to slowly improve Friday - FOX 2 Detroit - 2 days ago - By Stephanie Mead & Nissen Jack" [ref=e87]
+                - StaticText "Air Quality conditions to slowly improve Friday"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Stephanie Mead & Nissen Jack"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - Why is it smoky today? Wildfire smoke has Detroit air quality among world's worst" [expanded=false, ref=e190]
+              - link "Why is it smoky today? Wildfire smoke has Detroit air quality among world's worst - Detroit Free Press - 3 days ago - By Jenna Prestininzi & Sarah Moore" [ref=e88]
+                - StaticText "Why is it smoky today? Wildfire smoke has Detroit air quality among world's worst"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Jenna Prestininzi & Sarah Moore"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Poor air quality in Metro Detroit impacts concerts, festivals and other activities" [expanded=false, ref=e191]
+              - link "Poor air quality in Metro Detroit impacts concerts, festivals and other activities - The Detroit News - 2 days ago - By Alyssa Tisch & Melody Baetens" [ref=e89]
+                - StaticText "Poor air quality in Metro Detroit impacts concerts, festivals and other activities"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Alyssa Tisch & Melody Baetens"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Detroit's air quality is the worst in the world Friday; air quality alert extended to Saturday" [expanded=false, ref=e192]
+              - link "Detroit's air quality is the worst in the world Friday; air quality alert extended to Saturday - CBS News - 2 days ago - By Paula Wethington, Ahmad Bajjey & Vytas Reid" [ref=e90]
+                - StaticText "Detroit's air quality is the worst in the world Friday; air quality alert extended to Saturday"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Paula Wethington, Ahmad Bajjey & Vytas Reid"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WXYZ Channel 7"
+                - generic
+                  - button "More - Detroit has the worst air quality in the world for the 2nd straight day" [expanded=false, ref=e193]
+              - link "Detroit has the worst air quality in the world for the 2nd straight day - WXYZ Channel 7 - 2 days ago" [ref=e91]
+                - StaticText "Detroit has the worst air quality in the world for the 2nd straight day"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Air quality improves little by little; possible storms tonight and Saturday" [expanded=false, ref=e194]
+              - link "Air quality improves little by little; possible storms tonight and Saturday - FOX 2 Detroit - 2 days ago" [ref=e92]
+                - StaticText "Air quality improves little by little; possible storms tonight and Saturday"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WXYZ Channel 7"
+                - generic
+                  - button "More - Here are the closures & cancellations Friday due to wildfire smoke in metro Detroit" [expanded=false, ref=e195]
+              - link "Here are the closures & cancellations Friday due to wildfire smoke in metro Detroit - WXYZ Channel 7 - 2 days ago" [ref=e93]
+                - StaticText "Here are the closures & cancellations Friday due to wildfire smoke in metro Detroit"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - Detroit woman charged after 2022 attack in which victim was allegedly beaten, run over" [expanded=false, ref=e196]
+              - link "Detroit woman charged after 2022 attack in which victim was allegedly beaten, run over - ClickOnDetroit | WDIV Local 4 - Yesterday" [ref=e94]
+                - StaticText "Detroit woman charged after 2022 attack in which victim was allegedly beaten, run over"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - Multiple people shot outside church on Detroit’s west side" [expanded=false, ref=e197]
+              - link "Multiple people shot outside church on Detroit’s west side - ClickOnDetroit | WDIV Local 4 - Yesterday - By Brandon Carr" [ref=e95]
+                - StaticText "Multiple people shot outside church on Detroit’s west side"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Brandon Carr"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - More wildfire smoke moving in" [expanded=false, ref=e198]
+              - link "More wildfire smoke moving in - CBS News - 4 hours ago" [ref=e96]
+                - StaticText "More wildfire smoke moving in"
+          - time
+            - StaticText "4 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Closing and cancellation announcements related to Michigan's poor air quality" [expanded=false, ref=e199]
+              - link "Closing and cancellation announcements related to Michigan's poor air quality - CBS News - 3 days ago - By Paula Wethington" [ref=e97]
+                - StaticText "Closing and cancellation announcements related to Michigan's poor air quality"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Paula Wethington"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Michigan air quality expected to improve Saturday: Hour-by-hour forecast" [expanded=false, ref=e200]
+              - link "Michigan air quality expected to improve Saturday: Hour-by-hour forecast - The Detroit News - Yesterday" [ref=e98]
+                - StaticText "Michigan air quality expected to improve Saturday: Hour-by-hour forecast"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "vox.com"
+                - generic
+                  - button "More - How the Michigan Senate primary became a battle for Democrats’ soul" [expanded=false, ref=e201]
+              - link "How the Michigan Senate primary became a battle for Democrats’ soul - vox.com - 15 hours ago - By Astead Herndon" [ref=e99]
+                - StaticText "How the Michigan Senate primary became a battle for Democrats’ soul"
+          - time
+            - StaticText "15 hours ago"
+          - separator
+          - StaticText "By Astead Herndon"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - 71-inch sturgeon found on road in West Michigan, DNR says; investigation underway" [expanded=false, ref=e202]
+              - link "71-inch sturgeon found on road in West Michigan, DNR says; investigation underway - CBS News - 9 hours ago - By Nick Lentz" [ref=e100]
+                - StaticText "71-inch sturgeon found on road in West Michigan, DNR says; investigation underway"
+          - time
+            - StaticText "9 hours ago"
+          - separator
+          - StaticText "By Nick Lentz"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Haaretz"
+                - generic
+                  - button "More - AIPAC takes center stage at Michigan primary rally headlined by Sanders, AOC" [expanded=false, ref=e203]
+              - link "AIPAC takes center stage at Michigan primary rally headlined by Sanders, AOC - Haaretz - 2 hours ago - By Etan Nechin" [ref=e101]
+                - StaticText "AIPAC takes center stage at Michigan primary rally headlined by Sanders, AOC"
+          - time
+            - StaticText "2 hours ago"
+          - separator
+          - StaticText "By Etan Nechin"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - 4 shot outside Detroit church during funeral; officer shoots armed suspect, Chief Bettison says" [expanded=false, ref=e204]
+              - link "4 shot outside Detroit church during funeral; officer shoots armed suspect, Chief Bettison says - ClickOnDetroit | WDIV Local 4 - Yesterday" [ref=e102]
+                - StaticText "4 shot outside Detroit church during funeral; officer shoots armed suspect, Chief Bettison says"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WXYZ Channel 7"
+                - generic
+                  - button "More - 5 people, including suspect, shot outside Detroit church having funeral service" [expanded=false, ref=e205]
+              - link "5 people, including suspect, shot outside Detroit church having funeral service - WXYZ Channel 7 - Yesterday - By Natalia Escalante & Megan Lee" [ref=e103]
+                - StaticText "5 people, including suspect, shot outside Detroit church having funeral service"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Natalia Escalante & Megan Lee"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - 2026 has seen ousters of Democratic incumbents. Could Shri Thanedar be next?" [expanded=false, ref=e206]
+              - link "2026 has seen ousters of Democratic incumbents. Could Shri Thanedar be next? - Detroit Free Press - 4 hours ago - By Clara Hendrickson" [ref=e104]
+                - StaticText "2026 has seen ousters of Democratic incumbents. Could Shri Thanedar be next?"
+          - time
+            - StaticText "4 hours ago"
+          - separator
+          - StaticText "By Clara Hendrickson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Detroit Metro Airport official cancels plans for lounge with cigar-smoking area" [expanded=false, ref=e207]
+              - link "Detroit Metro Airport official cancels plans for lounge with cigar-smoking area - CBS News - 10 hours ago - By Nick Lentz" [ref=e105]
+                - StaticText "Detroit Metro Airport official cancels plans for lounge with cigar-smoking area"
+          - time
+            - StaticText "10 hours ago"
+          - separator
+          - StaticText "By Nick Lentz"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "MLive.com"
+                - generic
+                  - button "More - Detroit Forecast: Haze blanketing Southeast Michigan isn’t going anywhere" [expanded=false, ref=e208]
+              - link "Detroit Forecast: Haze blanketing Southeast Michigan isn’t going anywhere - MLive.com - 3 days ago - By Tanda Gmiter" [ref=e106]
+                - StaticText "Detroit Forecast: Haze blanketing Southeast Michigan isn’t going anywhere"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Tanda Gmiter"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Where to find N95 masks in Michigan" [expanded=false, ref=e209]
+              - link "Where to find N95 masks in Michigan - The Detroit News - 2 days ago - By Max Reinhart" [ref=e107]
+                - StaticText "Where to find N95 masks in Michigan"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Max Reinhart"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - Detroit crime hits decades-low as Michigan governor candidates debate how to keep progress going" [expanded=false, ref=e210]
+              - link "Detroit crime hits decades-low as Michigan governor candidates debate how to keep progress going - ClickOnDetroit | WDIV Local 4 - 2 days ago - By Ty Steele" [ref=e108]
+                - StaticText "Detroit crime hits decades-low as Michigan governor candidates debate how to keep progress going"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Ty Steele"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - ‘The Odyssey’: Matt Damon talks preparing for this iconic role" [expanded=false, ref=e211]
+              - link "‘The Odyssey’: Matt Damon talks preparing for this iconic role - FOX 2 Detroit - 2 days ago - By Megan Ziegler" [ref=e109]
+                - StaticText "‘The Odyssey’: Matt Damon talks preparing for this iconic role"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Megan Ziegler"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Planet Detroit"
+                - generic
+                  - button "More - Michigan environmental news: Environmental group slams Line 5 tunnel permit decisions" [expanded=false, ref=e212]
+              - link "Michigan environmental news: Environmental group slams Line 5 tunnel permit decisions - Planet Detroit - 2 days ago - By Dustin Blitchok" [ref=e110]
+                - StaticText "Michigan environmental news: Environmental group slams Line 5 tunnel permit decisions"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Dustin Blitchok"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Severe storms possible Saturday in Southeast Michigan as wildfire smoke clears out" [expanded=false, ref=e213]
+              - link "Severe storms possible Saturday in Southeast Michigan as wildfire smoke clears out - CBS News - Yesterday - By Ahmad Bajjey" [ref=e111]
+                - StaticText "Severe storms possible Saturday in Southeast Michigan as wildfire smoke clears out"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Ahmad Bajjey"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - Sunday's Michigan Jazz Festival expands focus on young artists" [expanded=false, ref=e214]
+              - link "Sunday's Michigan Jazz Festival expands focus on young artists - Detroit Free Press - 16 hours ago - By Duante Beddingfield" [ref=e112]
+                - StaticText "Sunday's Michigan Jazz Festival expands focus on young artists"
+          - time
+            - StaticText "16 hours ago"
+          - separator
+          - StaticText "By Duante Beddingfield"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "More - Michigan voters will weigh in on key statewide primary contests, along with legislative and local races. Here's how to find out what's on your ballot. See link below ⬇️ 📸 David Rodriguez Munoz, Detroit Free Press" [expanded=false, ref=e215]
+              - link "Michigan voters will weigh in on key statewide primary contests, along with legislative and local races. Here's how to find out what's on your ballot. See link below ⬇️ 📸 David Rodriguez Munoz, Detroit Free Press - facebook.com - Yesterday" [ref=e113]
+                - StaticText "Michigan voters will weigh in on key statewide primary contests, along with legislative and local races. Here's how to find out what's on your ballot. See link below ⬇️ 📸 David Rodriguez Munoz, Detroit Free Press"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Encyclopedia Britannica"
+                - generic
+                  - button "More - Gordie Howe International Bridge" [expanded=false, ref=e216]
+              - link "Gordie Howe International Bridge - Encyclopedia Britannica - 2 days ago" [ref=e114]
+                - StaticText "Gordie Howe International Bridge"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - Southeast Michigan looks eerie as wildfire smoke covers region: See the photos" [expanded=false, ref=e217]
+              - link "Southeast Michigan looks eerie as wildfire smoke covers region: See the photos - Detroit Free Press - 2 days ago" [ref=e115]
+                - StaticText "Southeast Michigan looks eerie as wildfire smoke covers region: See the photos"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "MLive.com"
+                - generic
+                  - button "More - Detroit has the worst air quality of any major city in the world from wildfire smoke and it’s not even close" [expanded=false, ref=e218]
+              - link "Detroit has the worst air quality of any major city in the world from wildfire smoke and it’s not even close - MLive.com - 2 days ago - By Edward Pevos" [ref=e116]
+                - StaticText "Detroit has the worst air quality of any major city in the world from wildfire smoke and it’s not even close"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Edward Pevos"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Michigan athletics probe recommendations to be released, chair says" [expanded=false, ref=e219]
+              - link "Michigan athletics probe recommendations to be released, chair says - The Detroit News - 2 days ago - By Sarah Atwood" [ref=e117]
+                - StaticText "Michigan athletics probe recommendations to be released, chair says"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Sarah Atwood"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - 3 of Michigan’s largest electric utilities under investigation over response to recent storms" [expanded=false, ref=e220]
+              - link "3 of Michigan’s largest electric utilities under investigation over response to recent storms - ClickOnDetroit | WDIV Local 4 - 2 days ago - By Samantha Sayles" [ref=e118]
+                - StaticText "3 of Michigan’s largest electric utilities under investigation over response to recent storms"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Samantha Sayles"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Hanford Sentinel"
+                - generic
+                  - button "More - Wildfire smoke lingers over Metro Detroit, Michigan. How long will it last?" [expanded=false, ref=e221]
+              - link "Wildfire smoke lingers over Metro Detroit, Michigan. How long will it last? - Hanford Sentinel - 3 days ago - By Charles Ramirez & Carol Thompson" [ref=e119]
+                - StaticText "Wildfire smoke lingers over Metro Detroit, Michigan. How long will it last?"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Charles Ramirez & Carol Thompson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Planet Detroit"
+                - generic
+                  - button "More - VOICES: Wildfire smoke exposes a hard truth — why staying indoors isn't enough in Michigan" [expanded=false, ref=e222]
+              - link "VOICES: Wildfire smoke exposes a hard truth — why staying indoors isn't enough in Michigan - Planet Detroit - 2 days ago" [ref=e120]
+                - StaticText "VOICES: Wildfire smoke exposes a hard truth — why staying indoors isn't enough in Michigan"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "BridgeDetroit"
+                - generic
+                  - button "More - Detroit offers masks, respite to help protect residents from effects of Canadian wildfires" [expanded=false, ref=e223]
+              - link "Detroit offers masks, respite to help protect residents from effects of Canadian wildfires - BridgeDetroit - 2 days ago - By Christine Ferretti" [ref=e121]
+                - StaticText "Detroit offers masks, respite to help protect residents from effects of Canadian wildfires"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Christine Ferretti"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Our brutal weather stretch continues with more heat, smoke" [expanded=false, ref=e224]
+              - link "Our brutal weather stretch continues with more heat, smoke - FOX 2 Detroit - 3 days ago - By Nissen Jack" [ref=e122]
+                - StaticText "Our brutal weather stretch continues with more heat, smoke"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Nissen Jack"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WXYZ Channel 7"
+                - generic
+                  - button "More - Catholic revival event comes to Detroit for first time with procession through downtown" [expanded=false, ref=e225]
+              - link "Catholic revival event comes to Detroit for first time with procession through downtown - WXYZ Channel 7 - 2 days ago - By Ruta Ulcinaite" [ref=e123]
+                - StaticText "Catholic revival event comes to Detroit for first time with procession through downtown"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Ruta Ulcinaite"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - Wildfire smoke is choking Michigan. Experts warn it'll keep happening." [expanded=false, ref=e226]
+              - link "Wildfire smoke is choking Michigan. Experts warn it'll keep happening. - Detroit Free Press - Yesterday - By Keith Matheny" [ref=e124]
+                - StaticText "Wildfire smoke is choking Michigan. Experts warn it'll keep happening."
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Keith Matheny"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Detroit Free Press"
+                - generic
+                  - button "More - Michigan air quality updates: What's closed Friday due to wildfire smoke" [expanded=false, ref=e227]
+              - link "Michigan air quality updates: What's closed Friday due to wildfire smoke - Detroit Free Press - Yesterday - By Natalie Davies & Sarah Moore" [ref=e125]
+                - StaticText "Michigan air quality updates: What's closed Friday due to wildfire smoke"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Natalie Davies & Sarah Moore"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WXYZ Channel 7"
+                - generic
+                  - button "More - Man found shot & killed inside vehicle outside of Oak Park music studio" [expanded=false, ref=e228]
+              - link "Man found shot & killed inside vehicle outside of Oak Park music studio - WXYZ Channel 7 - Yesterday - By Ruta Ulcinaite" [ref=e126]
+                - StaticText "Man found shot & killed inside vehicle outside of Oak Park music studio"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Ruta Ulcinaite"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Read full results of The News' Michigan Democratic primary poll" [expanded=false, ref=e229]
+              - link "Read full results of The News' Michigan Democratic primary poll - The Detroit News - 3 days ago - By Chad Livengood" [ref=e127]
+                - StaticText "Read full results of The News' Michigan Democratic primary poll"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Chad Livengood"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "A to Z Sports"
+                - generic
+                  - button "More - Grok simulates the Detroit Lions' 2026 season, game results, statistical leaders, and a crazy deep playoff run" [expanded=false, ref=e230]
+              - link "Grok simulates the Detroit Lions' 2026 season, game results, statistical leaders, and a crazy deep playoff run - A to Z Sports - 12 hours ago - By Mike Payton" [ref=e128]
+                - StaticText "Grok simulates the Detroit Lions' 2026 season, game results, statistical leaders, and a crazy deep playoff run"
+          - time
+            - StaticText "12 hours ago"
+          - separator
+          - StaticText "By Mike Payton"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Feds investigate 3 Michigan school districts on alleged sexual assault" [expanded=false, ref=e231]
+              - link "Feds investigate 3 Michigan school districts on alleged sexual assault - The Detroit News - 2 days ago - By Jennifer Pignolet" [ref=e129]
+                - StaticText "Feds investigate 3 Michigan school districts on alleged sexual assault"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Jennifer Pignolet"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "facebook.com"
+                - generic
+                  - button "More - BREAKING: After railing against President Donald Trump's pick of U.S. Rep. John James, R-Shelby Township, to be Michigan’s next governor, former Attorney General Mike Cox ended his Republican gubernatorial campaign and vowed to support the preside" [expanded=false, ref=e232]
+              - link "BREAKING: After railing against President Donald Trump's pick of U.S. Rep. John James, R-Shelby Township, to be Michigan’s next governor, former Attorney General Mike Cox ended his Republican gubernatorial campaign and vowed to support the preside - facebook.com - 17 hours ago" [ref=e130]
+                - StaticText "BREAKING: After railing against President Donald Trump's pick of U.S. Rep. John James, R-Shelby Township, to be Michigan’s next governor, former Attorney General Mike Cox ended his Republican gubernatorial campaign and vowed to support the preside"
+          - time
+            - StaticText "17 hours ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Michigan regents don't address Warde Manuel's future or athletics probe" [expanded=false, ref=e233]
+              - link "Michigan regents don't address Warde Manuel's future or athletics probe - The Detroit News - 2 days ago - By Sarah Atwood" [ref=e131]
+                - StaticText "Michigan regents don't address Warde Manuel's future or athletics probe"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Sarah Atwood"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Midland Daily News"
+                - generic
+                  - button "More - Wildfire smoke hangs over Michigan. Here’s how to know when it’s dangerous" [expanded=false, ref=e234]
+              - link "Wildfire smoke hangs over Michigan. Here’s how to know when it’s dangerous - Midland Daily News - Yesterday - By Crystal Huggins" [ref=e132]
+                - StaticText "Wildfire smoke hangs over Michigan. Here’s how to know when it’s dangerous"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Crystal Huggins"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "WXYZ Channel 7"
+                - generic
+                  - button "More - Detroit has the worst air quality in the world from Canadian wildfire smoke, IQAir says" [expanded=false, ref=e235]
+              - link "Detroit has the worst air quality in the world from Canadian wildfire smoke, IQAir says - WXYZ Channel 7 - 3 days ago" [ref=e133]
+                - StaticText "Detroit has the worst air quality in the world from Canadian wildfire smoke, IQAir says"
+          - time
+            - StaticText "3 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Why Michigan's cyclosporiasis cases are exploding" [expanded=false, ref=e236]
+              - link "Why Michigan's cyclosporiasis cases are exploding - FOX 2 Detroit - 2 days ago - By Nissen Jack" [ref=e134]
+                - StaticText "Why Michigan's cyclosporiasis cases are exploding"
+          - time
+            - StaticText "2 days ago"
+          - separator
+          - StaticText "By Nissen Jack"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Michigan cyclosporiasis case numbers top 4,300, state health officials say" [expanded=false, ref=e237]
+              - link "Michigan cyclosporiasis case numbers top 4,300, state health officials say - CBS News - 3 days ago - By Paula Wethington & Joseph Buczek" [ref=e135]
+                - StaticText "Michigan cyclosporiasis case numbers top 4,300, state health officials say"
+          - time
+            - StaticText "3 days ago"
+          - separator
+          - StaticText "By Paula Wethington & Joseph Buczek"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "The Detroit News"
+                - generic
+                  - button "More - Michigan's cyclosporiasis case total tops 5,000" [expanded=false, ref=e238]
+              - link "Michigan's cyclosporiasis case total tops 5,000 - The Detroit News - Yesterday - By Anne Snabes" [ref=e136]
+                - StaticText "Michigan's cyclosporiasis case total tops 5,000"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Anne Snabes"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - Mike Cox ends Michigan governor campaign after Donald Trump’s endorsement of John James" [expanded=false, ref=e239]
+              - link "Mike Cox ends Michigan governor campaign after Donald Trump’s endorsement of John James - ClickOnDetroit | WDIV Local 4 - Yesterday" [ref=e137]
+                - StaticText "Mike Cox ends Michigan governor campaign after Donald Trump’s endorsement of John James"
+          - time
+            - StaticText "Yesterday"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Michigan senator warns Trump's election remarks could draw supporters to Detroit-area voting centers" [expanded=false, ref=e240]
+              - link "Michigan senator warns Trump's election remarks could draw supporters to Detroit-area voting centers - CBS News - Yesterday - By Paula Wethington" [ref=e138]
+                - StaticText "Michigan senator warns Trump's election remarks could draw supporters to Detroit-area voting centers"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Paula Wethington"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "FOX 2 Detroit"
+                - generic
+                  - button "More - Cyclosporiasis Michigan outbreak: Cases rise to 5,002 Friday" [expanded=false, ref=e241]
+              - link "Cyclosporiasis Michigan outbreak: Cases rise to 5,002 Friday - FOX 2 Detroit - 2 days ago" [ref=e139]
+                - StaticText "Cyclosporiasis Michigan outbreak: Cases rise to 5,002 Friday"
+          - time
+            - StaticText "2 days ago"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Michigan Advance"
+                - generic
+                  - button "More - Wildfire smoke creates health concerns across Michigan, resulting in closures and cancellations" [expanded=false, ref=e242]
+              - link "Wildfire smoke creates health concerns across Michigan, resulting in closures and cancellations - Michigan Advance - Yesterday - By Kyle Davidson" [ref=e140]
+                - StaticText "Wildfire smoke creates health concerns across Michigan, resulting in closures and cancellations"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Kyle Davidson"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "Sports Illustrated"
+                - generic
+                  - button "More - How this Magic guard bounces back from poor postseason" [expanded=false, ref=e243]
+              - link "How this Magic guard bounces back from poor postseason - Sports Illustrated - 15 hours ago - By Matt Hanifan" [ref=e141]
+                - StaticText "How this Magic guard bounces back from poor postseason"
+          - time
+            - StaticText "15 hours ago"
+          - separator
+          - StaticText "By Matt Hanifan"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "ClickOnDetroit | WDIV Local 4"
+                - generic
+                  - button "More - First lawsuit filed in Taco Bell Cyclospora outbreak as cases climb over 5,000 in Michigan" [expanded=false, ref=e244]
+              - link "First lawsuit filed in Taco Bell Cyclospora outbreak as cases climb over 5,000 in Michigan - ClickOnDetroit | WDIV Local 4 - Yesterday - By Lauren Kostiuk" [ref=e142]
+                - StaticText "First lawsuit filed in Taco Bell Cyclospora outbreak as cases climb over 5,000 in Michigan"
+          - time
+            - StaticText "Yesterday"
+          - separator
+          - StaticText "By Lauren Kostiuk"
+        - generic
+          - separator
+          - generic
+            - generic
+              - generic
+                - StaticText "CBS News"
+                - generic
+                  - button "More - Severe storms possible Saturday in Southeast Michigan" [expanded=false, ref=e245]
+              - link "Severe storms possible Saturday in Southeast Michigan - CBS News - Yesterday" [ref=e143]
+      - complementary
+        - generic
+          - heading "Detroit Michigan" [level=2, ref=e33]
+          - button "Save this search - Detroit Michigan" [ref=e41]
+        - heading "Topics" [level=2, ref=e17]
+        - separator
+        - generic
+          - link "Detroit Public Schools Community District" [ref=e34]
+        - generic
+          - link "Detroit" [ref=e35]
+        - generic
+          - link "Michigan Central" [ref=e36]
