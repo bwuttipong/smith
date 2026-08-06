@@ -53,12 +53,69 @@ def todoist_label_map() -> dict[str, str]:
         return {}
 
 
-def todoist_top() -> list[str]:
-    raw = run(["todoist", "tasks", "--json"], timeout=10)
+def todoist_tasks_api() -> list[dict] | None:
+    """Fetch ALL active tasks via Todoist REST API (preferred)."""
+    token = os.environ.get("TODOIST_API_TOKEN") or os.environ.get("TODOIST_TOKEN")
+    if not token:
+        env_file = Path(__file__).resolve().parent.parent / ".env"
+        try:
+            for line in env_file.read_text().splitlines():
+                line = line.strip()
+                if line.startswith("TODOIST_API_TOKEN="):
+                    token = line.split("=", 1)[1].strip().strip('"').strip("'")
+                    break
+        except Exception:
+            pass
+    if not token:
+        return None
     try:
-        tasks = json.loads(raw)
+        req = urllib.request.Request(
+            "https://api.todoist.com/rest/v2/tasks",
+            headers={"Authorization": f"Bearer {token}"},
+        )
+        with urllib.request.urlopen(req, timeout=10) as r:
+            return json.loads(r.read().decode())
     except Exception:
-        return []
+        return None
+
+def todoist_tasks_all() -> list[dict]:
+    """All active tasks: REST API first, then per-project CLI fallback."""
+    tasks = todoist_tasks_api()
+    if tasks is not None:
+        return tasks
+    out: list[dict] = []
+    proj_raw = run(["todoist", "projects", "--json"], timeout=10)
+    try:
+        projects = json.loads(proj_raw)
+    except Exception:
+        projects = []
+    seen: set[str] = set()
+    for p in projects:
+        raw = run(["todoist", "tasks", "-p", p.get("name", ""), "--json"], timeout=10)
+        try:
+            for t in json.loads(raw):
+                if t.get("id") not in seen:
+                    seen.add(str(t.get("id")))
+                    out.append(t)
+        except Exception:
+            continue
+    return out
+
+ONBOARDING_MARKERS = [
+    "perform a workday shutdown", "todoist integrations", "explore todoist",
+    "connect my work calendar", "adapt my _work_ routines",
+    "add all my **work** tasks", "check my work emails", "review my day and plan ahead",
+    "take the productivity method quiz", "learn the basics",
+    "download additional free apps", "getting started guide",
+]
+
+def is_onboarding(t: dict) -> bool:
+    content = clean_task(t.get("content", "")).lower()
+    return any(clean_task(m).lower() in content for m in ONBOARDING_MARKERS)
+
+def todoist_top() -> list[str]:
+    raw = None
+    tasks = todoist_tasks_all()
     labels = todoist_label_map()
 
     def task_labels(t: dict) -> set[str]:
@@ -78,12 +135,13 @@ def todoist_top() -> list[str]:
             return 1
         return 2
 
-    # Filter uncompleted top-level tasks
+    # Filter uncompleted top-level tasks, drop onboarding cruft
     top = [
         t for t in tasks
         if not t.get("parentId")
+        and not t.get("checked")
         and "done" not in task_labels(t)
-        and not clean_task(t.get("content", "")).lower().startswith(("perform a workday", "todoist integrations", "explore todoist"))
+        and not is_onboarding(t)
     ]
     top.sort(key=lambda t: (due_rank(t), -int(t.get("priority", 1)), t.get("childOrder", 999)))
     out = []
