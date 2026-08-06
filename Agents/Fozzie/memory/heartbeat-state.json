@@ -1,0 +1,15 @@
+{
+  "lastChecks": {
+    "email": null,
+    "calendar": null,
+    "weather": null,
+    "todoist": null,
+    "health": null,
+    "stocks": null
+  },
+  "lastMorningBriefing": null,
+  "lastEveningShutdown": null,
+  "lastHeartbeat": null,
+  "initialized": "2026-05-19T10:30:00+07:00",
+  "updated": "2026-05-22T10:30:00+07:00"
+}
