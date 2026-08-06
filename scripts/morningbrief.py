@@ -54,7 +54,7 @@ def todoist_label_map() -> dict[str, str]:
 
 
 def todoist_top() -> list[str]:
-    raw = run(["todoist", "tasks", "-p", "Work", "--json"], timeout=10)
+    raw = run(["todoist", "tasks", "--json"], timeout=10)
     try:
         tasks = json.loads(raw)
     except Exception:
@@ -72,13 +72,13 @@ def todoist_top() -> list[str]:
             day = dt.date.fromisoformat(d[:10])
         except Exception:
             return 3
-        if day < TODAY:
-            return 0
         if day == TODAY:
+            return 0
+        if day < TODAY:
             return 1
         return 2
 
-    # Todoist API/CLI priority: 4 is highest, 1 is normal.
+    # Filter uncompleted top-level tasks
     top = [
         t for t in tasks
         if not t.get("parentId")
@@ -92,10 +92,14 @@ def todoist_top() -> list[str]:
         if not name:
             continue
         due = t.get("due") or {}
-        tag = ""
-        if due.get("string"):
+        d_str = due.get("date", "")[:10]
+        if d_str == str(TODAY):
+            due_text = due.get("string") or ""
+            tag = f" — Today ({due_text})" if due_text else " — Today"
+            out.append(f"{name}{tag}")
+        elif due.get("string"):
             tag = f" — {due['string']}"
-        out.append(f"{name}{tag}")
+            out.append(f"{name}{tag}")
         if len(out) == 5:
             break
     return out
