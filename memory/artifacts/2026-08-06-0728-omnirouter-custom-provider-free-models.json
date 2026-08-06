@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-08-06T07:28:39.106229+07:00",
+  "endpoint": "http://127.0.0.1:20128/v1",
+  "total_models": 220,
+  "free_candidate_count": 3,
+  "opencode_named_model_count": 8,
+  "opencode_named_models": [
+    "opencode/big-pickle",
+    "opencode/deepseek-v4-flash-free",
+    "opencode/mimo-v2.5-free",
+    "opencode/ling-3.0-flash-free",
+    "opencode/nemotron-3-ultra-free",
+    "opencode/north-mini-code-free",
+    "opencode/laguna-s-2.1-free",
+    "opencode/longcat-2.0-free"
+  ],
+  "available_free_models": [
+    "auto/coding:free",
+    "kc/openrouter/free",
+    "kilocode/openrouter/free"
+  ],
+  "status_counts": {
+    "200": 3
+  },
+  "results": [
+    {
+      "model": "auto/coding:free",
+      "owned_by": "combo",
+      "type": null,
+      "pricing": null,
+      "ok": true,
+      "status": 200,
+      "elapsed": 5.53,
+      "reply": "OK"
+    },
+    {
+      "model": "kc/openrouter/free",
+      "owned_by": "kilocode",
+      "type": null,
+      "pricing": null,
+      "ok": true,
+      "status": 200,
+      "elapsed": 1.79,
+      "reply": "OK"
+    },
+    {
+      "model": "kilocode/openrouter/free",
+      "owned_by": "kilocode",
+      "type": null,
+      "pricing": null,
+      "ok": true,
+      "status": 200,
+      "elapsed": 0.02,
+      "reply": "OK"
+    }
+  ]
+}

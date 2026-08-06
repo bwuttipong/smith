@@ -1,0 +1,91 @@
+{
+  "timestamp": "2026-08-06T07:29:06.884112+07:00",
+  "endpoint": "http://127.0.0.1:20128/v1",
+  "tested_count": 8,
+  "available_models": [],
+  "status_counts": {
+    "403": 8
+  },
+  "results": [
+    {
+      "model": "opencode/big-pickle",
+      "owned_by": "opencode",
+      "type": null,
+      "pricing": null,
+      "ok": false,
+      "status": 403,
+      "elapsed": 3.75,
+      "error": "{\"error\":{\"message\":\"[403]: <!doctype html>\",\"type\":\"permission_error\",\"code\":\"insufficient_quota\"}}"
+    },
+    {
+      "model": "opencode/deepseek-v4-flash-free",
+      "owned_by": "opencode",
+      "type": null,
+      "pricing": null,
+      "ok": false,
+      "status": 403,
+      "elapsed": 3.7,
+      "error": "{\"error\":{\"message\":\"[403]: <!doctype html>\",\"type\":\"permission_error\",\"code\":\"insufficient_quota\"}}"
+    },
+    {
+      "model": "opencode/mimo-v2.5-free",
+      "owned_by": "opencode",
+      "type": null,
+      "pricing": null,
+      "ok": false,
+      "status": 403,
+      "elapsed": 3.71,
+      "error": "{\"error\":{\"message\":\"[403]: <!doctype html>\",\"type\":\"permission_error\",\"code\":\"insufficient_quota\"}}"
+    },
+    {
+      "model": "opencode/ling-3.0-flash-free",
+      "owned_by": "opencode",
+      "type": null,
+      "pricing": null,
+      "ok": false,
+      "status": 403,
+      "elapsed": 3.69,
+      "error": "{\"error\":{\"message\":\"[403]: <!doctype html>\",\"type\":\"permission_error\",\"code\":\"insufficient_quota\"}}"
+    },
+    {
+      "model": "opencode/nemotron-3-ultra-free",
+      "owned_by": "opencode",
+      "type": null,
+      "pricing": null,
+      "ok": false,
+      "status": 403,
+      "elapsed": 3.66,
+      "error": "{\"error\":{\"message\":\"[403]: <!doctype html>\",\"type\":\"permission_error\",\"code\":\"insufficient_quota\"}}"
+    },
+    {
+      "model": "opencode/north-mini-code-free",
+      "owned_by": "opencode",
+      "type": null,
+      "pricing": null,
+      "ok": false,
+      "status": 403,
+      "elapsed": 0.71,
+      "error": "{\"error\":{\"message\":\"[403]: <!doctype html>\",\"type\":\"permission_error\",\"code\":\"insufficient_quota\"}}"
+    },
+    {
+      "model": "opencode/laguna-s-2.1-free",
+      "owned_by": "opencode",
+      "type": null,
+      "pricing": null,
+      "ok": false,
+      "status": 403,
+      "elapsed": 0.7,
+      "error": "{\"error\":{\"message\":\"[403]: <!doctype html>\",\"type\":\"permission_error\",\"code\":\"insufficient_quota\"}}"
+    },
+    {
+      "model": "opencode/longcat-2.0-free",
+      "owned_by": "opencode",
+      "type": null,
+      "pricing": null,
+      "ok": false,
+      "status": 403,
+      "elapsed": 0.72,
+      "error": "{\"error\":{\"message\":\"[403]: <!doctype html>\",\"type\":\"permission_error\",\"code\":\"insufficient_quota\"}}"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "page": "3a80da1b-1be6-80c6-be91-e1d40dd3151f",
+  "url": "https://app.notion.com/p/Weekly-System-Maintenance-3a80da1b1be680c6be91e1d40dd3151f?v=3630da1b1be68052a4ec000c64318fe5&source=copy_link",
+  "properties": {
+    "Assignee": {
+      "id": "F%7D%7Bp",
+      "type": "people",
+      "people": [
+        {
+          "object": "user",
+          "id": "363d872b-594c-8145-b815-00023f7331d0",
+          "name": "Wuttipong Thongmon",
+          "avatar_url": "https://lh3.googleusercontent.com/a/ACg8ocIC15t8PxNPfJ_QNsjYE2D5hHHF5eCX5xtvH7g4ZhO_OLiaLrzK=s100",
+          "type": "person",
+          "person": {
+            "email": "bed.wuttipong@gmail.com",
+            "email_verified": true
+          }
+        }
+      ]
+    },
+    "Status": {
+      "id": "dcfj",
+      "type": "status",
+      "status": {
+        "id": "2882bc4e-da9f-4eb2-a695-c9b64a3c9899",
+        "name": "Not started",
+        "color": "default"
+      }
+    },
+    "Due date": {
+      "id": "zfqj",
+      "type": "date",
+      "date": null
+    },
+    "Task name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Weekly System Maintenance",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Weekly System Maintenance",
+          "href": null
+        }
+      ]
+    },
+    "Checked": {
+      "id": "c5d29aae-face-4d0d-beb5-3c0689123e7b",
+      "type": "checkbox",
+      "checkbox": false
+    }
+  },
+  "blocks": []
+}

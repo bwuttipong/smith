@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Workspace Review Dashboard</title>
+  <style>
+    * { box-sizing: border-box; }
+    :root {
+      --bg: #080a12;
+      --panel: rgba(255,255,255,.08);
+      --panel-strong: rgba(255,255,255,.13);
+      --text: #f6f7fb;
+      --muted: #aab0c5;
+      --gold: #f6d365;
+      --cyan: #75e6ff;
+      --pink: #ff8fbd;
+      --green: #8effc1;
+      --red: #ff7a90;
+      --line: rgba(255,255,255,.15);
+      --shadow: 0 24px 80px rgba(0,0,0,.45);
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 15% 10%, rgba(117,230,255,.25), transparent 28rem),
+        radial-gradient(circle at 80% 0%, rgba(255,143,189,.22), transparent 30rem),
+        radial-gradient(circle at 55% 90%, rgba(246,211,101,.16), transparent 34rem),
+        var(--bg);
+      overflow-x: hidden;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size: 54px 54px;
+      mask-image: linear-gradient(to bottom, black, transparent 85%);
+    }
+    .wrap { width: min(1180px, calc(100% - 36px)); margin: 0 auto; padding: 32px 0 56px; }
+    .hero {
+      position: relative;
+      display: grid;
+      grid-template-columns: 1.4fr .8fr;
+      gap: 22px;
+      align-items: stretch;
+      margin-bottom: 22px;
+    }
+    .glass {
+      background: linear-gradient(145deg, rgba(255,255,255,.13), rgba(255,255,255,.055));
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(22px);
+    }
+    .intro { padding: 34px; min-height: 310px; position: relative; overflow: hidden; }
+    .intro::after {
+      content: "";
+      position: absolute;
+      right: -80px; top: -80px;
+      width: 260px; height: 260px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(246,211,101,.34), transparent 68%);
+    }
+    .eyebrow { color: var(--cyan); text-transform: uppercase; letter-spacing: .18em; font-size: 12px; font-weight: 800; }
+    h1 { margin: 16px 0 12px; font-size: clamp(42px, 6vw, 82px); line-height: .9; letter-spacing: -.07em; }
+    .subtitle { color: var(--muted); max-width: 650px; font-size: 18px; line-height: 1.65; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+    button, .pill {
+      border: 0;
+      border-radius: 999px;
+      padding: 12px 16px;
+      color: #081019;
+      background: var(--gold);
+      font-weight: 850;
+      cursor: pointer;
+      transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+    }
+    button:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(246,211,101,.22); }
+    .ghost { color: var(--text); background: rgba(255,255,255,.1); border: 1px solid var(--line); }
+    .score { padding: 26px; display: grid; align-content: space-between; }
+    .score-ring {
+      width: 178px; height: 178px; border-radius: 50%; margin: 0 auto 18px;
+      display: grid; place-items: center;
+      background: conic-gradient(var(--green) 0 72%, rgba(255,255,255,.13) 72% 100%);
+      position: relative;
+    }
+    .score-ring::before { content: ""; position: absolute; inset: 14px; border-radius: 50%; background: #10131f; border: 1px solid var(--line); }
+    .score-ring span { position: relative; font-size: 46px; font-weight: 900; letter-spacing: -.06em; }
+    .score p { color: var(--muted); line-height: 1.55; text-align: center; margin: 0; }
+    .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 18px; }
+    .card { padding: 22px; border-radius: 24px; background: rgba(255,255,255,.075); border: 1px solid var(--line); box-shadow: 0 16px 60px rgba(0,0,0,.25); backdrop-filter: blur(18px); }
+    .wide { grid-column: span 7; }
+    .side { grid-column: span 5; }
+    .full { grid-column: 1 / -1; }
+    h2 { margin: 0 0 14px; font-size: 22px; letter-spacing: -.03em; }
+    .muted { color: var(--muted); }
+    .taxonomy { display: grid; gap: 10px; }
+    .node { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 13px 14px; border-radius: 16px; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.09); }
+    .node b { font-size: 15px; }
+    .badge { font-size: 12px; color: var(--muted); border: 1px solid rgba(255,255,255,.14); padding: 5px 9px; border-radius: 999px; white-space: nowrap; }
+    .callouts { display: grid; gap: 14px; }
+    .callout { padding: 16px; border-radius: 18px; background: rgba(255,255,255,.07); border-left: 4px solid var(--cyan); }
+    .callout.warn { border-left-color: var(--red); }
+    .callout.good { border-left-color: var(--green); }
+    .callout h3 { margin: 0 0 6px; font-size: 16px; }
+    .callout p { margin: 0; color: var(--muted); line-height: 1.5; }
+    .database-row { display: grid; grid-template-columns: 160px 1fr auto; gap: 12px; align-items: center; padding: 15px; border-radius: 18px; background: rgba(255,255,255,.07); margin-top: 10px; }
+    .meter { height: 9px; border-radius: 999px; background: rgba(255,255,255,.13); overflow: hidden; }
+    .meter i { display: block; height: 100%; background: linear-gradient(90deg, var(--cyan), var(--green)); border-radius: inherit; }
+    .kanban { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+    .lane { min-height: 210px; padding: 14px; border-radius: 20px; background: rgba(0,0,0,.18); border: 1px solid rgba(255,255,255,.1); }
+    .lane h3 { margin: 0 0 12px; font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .12em; }
+    .task { padding: 13px; border-radius: 15px; background: rgba(255,255,255,.09); margin-bottom: 10px; border: 1px solid rgba(255,255,255,.09); }
+    .task b { display: block; margin-bottom: 5px; font-size: 14px; }
+    .task small { color: var(--muted); line-height: 1.35; display: block; }
+    .footer { margin-top: 18px; color: var(--muted); text-align: center; font-size: 13px; }
+    dialog {
+      width: min(720px, calc(100% - 28px));
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 28px;
+      color: var(--text);
+      background: linear-gradient(145deg, #171b2c, #0d101b);
+      box-shadow: 0 40px 120px rgba(0,0,0,.65);
+      padding: 0;
+    }
+    dialog::backdrop { background: rgba(0,0,0,.58); backdrop-filter: blur(7px); }
+    .modal-head { padding: 24px 24px 0; display: flex; justify-content: space-between; gap: 16px; align-items: start; }
+    .modal-body { padding: 16px 24px 24px; color: var(--muted); line-height: 1.65; }
+    .x { background: rgba(255,255,255,.1); color: var(--text); width: 38px; height: 38px; padding: 0; }
+    @media (max-width: 880px) {
+      .hero, .grid, .kanban { grid-template-columns: 1fr; }
+      .wide, .side, .full { grid-column: auto; }
+      .database-row { grid-template-columns: 1fr; }
+      h1 { font-size: 46px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="intro glass">
+        <div class="eyebrow">Notion AI Workspace Review</div>
+        <h1>Make the empty temple useful.</h1>
+        <p class="subtitle">The workspace has a strong map, but it needs operational databases before it becomes a system. Build Projects, Prompts, and Agents first; then let every page earn its keep.</p>
+        <div class="actions">
+          <button id="openPlan">Open build plan</button>
+          <button class="ghost" id="toggleFocus">Highlight priorities</button>
+        </div>
+      </div>
+      <aside class="score glass">
+        <div>
+          <div class="score-ring"><span>72</span></div>
+          <p>Good structure, weak operating layer. Elegant bones; not enough muscle yet.</p>
+        </div>
+        <span class="pill" style="justify-self:center;margin-top:20px;">API review succeeded</span>
+      </aside>
+    </section>
+
+    <section class="grid">
+      <div class="card wide">
+        <h2>Observed structure</h2>
+        <div class="taxonomy">
+          <div class="node"><b>🏠 Dashboard</b><span class="badge">needs content</span></div>
+          <div class="node"><b>🤖 Agent Factory</b><span class="badge">12 child pages</span></div>
+          <div class="node"><b>🧠 Prompt Library</b><span class="badge">Coding · Research · Writing · SQL</span></div>
+          <div class="node"><b>📚 Research</b><span class="badge">providers · models · benchmarks</span></div>
+          <div class="node"><b>⚙️ Configurations</b><span class="badge">APIs · Models · Settings</span></div>
+          <div class="node"><b>🚀 Projects</b><span class="badge">should become command center</span></div>
+        </div>
+      </div>
+
+      <div class="card side">
+        <h2>Review verdict</h2>
+        <div class="callouts">
+          <div class="callout good"><h3>Strong taxonomy</h3><p>Agents, prompts, research, configs, projects, docs, and experiments are separated cleanly.</p></div>
+          <div class="callout warn"><h3>Too many shells</h3><p>32 child pages are likely placeholders. That looks tidy until work needs somewhere real to land.</p></div>
+          <div class="callout"><h3>Database gap</h3><p>No visible databases means no reliable status, reuse, testing history, or dashboard views.</p></div>
+        </div>
+      </div>
+
+      <div class="card full priority-zone">
+        <h2>Build these three databases first</h2>
+        <div class="database-row"><b>Projects</b><div class="meter"><i style="width:92%"></i></div><span class="badge">command center</span></div>
+        <div class="database-row"><b>Prompts</b><div class="meter"><i style="width:78%"></i></div><span class="badge">reuse layer</span></div>
+        <div class="database-row"><b>Agents</b><div class="meter"><i style="width:84%"></i></div><span class="badge">spec + tests</span></div>
+      </div>
+
+      <div class="card full">
+        <h2>Operating dashboard preview</h2>
+        <div class="kanban">
+          <div class="lane"><h3>Today</h3><div class="task"><b>Create Projects DB</b><small>Status, next action, owner, due date, related agent, verification link.</small></div></div>
+          <div class="lane"><h3>This week</h3><div class="task"><b>Prompt Library fields</b><small>Use case, model, status, last tested, quality notes.</small></div></div>
+          <div class="lane"><h3>Blocked</h3><div class="task"><b>Empty pages</b><small>Archive or hide until each one has a real job.</small></div></div>
+          <div class="lane"><h3>Active agents</h3><div class="task"><b>Agent spec template</b><small>Purpose, tools, inputs, outputs, guardrails, test cases, deployment path.</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <p class="footer">Built with Hermes-Apollo · 2 creations · Our AgentOS</p>
+  </main>
+
+  <dialog id="planDialog">
+    <div class="modal-head">
+      <div>
+        <div class="eyebrow">Recommended next move</div>
+        <h2 style="margin-top:10px;">Build the operating layer, not more pages.</h2>
+      </div>
+      <button class="x" id="closePlan">×</button>
+    </div>
+    <div class="modal-body">
+      <p>Start with the Projects database as the command center. Then connect Prompts and Agents to it, so every reusable prompt and agent spec has status, ownership, test notes, and a verification trail.</p>
+      <p>My opinion: hide the placeholder pages until they become useful. Empty productivity temples are how systems become haunted houses.</p>
+    </div>
+  </dialog>
+
+  <script>
+    const dialog = document.getElementById('planDialog');
+    document.getElementById('openPlan').addEventListener('click', () => dialog.showModal());
+    document.getElementById('closePlan').addEventListener('click', () => dialog.close());
+    document.getElementById('toggleFocus').addEventListener('click', (event) => {
+      document.querySelector('.priority-zone').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      document.querySelector('.priority-zone').style.outline = '3px solid rgba(246,211,101,.8)';
+      event.currentTarget.textContent = 'Priorities highlighted';
+    });
+  </script>
+</body>
+</html>

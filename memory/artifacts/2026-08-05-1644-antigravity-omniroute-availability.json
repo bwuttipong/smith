@@ -1,0 +1,239 @@
+{
+  "timestamp": "2026-08-05T16:44:55.150105+07:00",
+  "endpoint": "http://localhost:20128/v1",
+  "model_count": 30,
+  "available_count": 12,
+  "status_counts": {
+    "200": 12,
+    "502": 3,
+    "SKIP": 1,
+    "404": 2,
+    "429": 12
+  },
+  "available_models": [
+    "antigravity/gemini-3.6-flash-low",
+    "antigravity/gemini-3.5-flash-low",
+    "antigravity/gemini-pro-agent",
+    "antigravity/claude-sonnet-4-6",
+    "antigravity/gemini-2.5-flash",
+    "antigravity/gemini-3.6-flash-high",
+    "antigravity/gemini-3.6-flash-medium",
+    "antigravity/claude-opus-4-6-thinking",
+    "antigravity/gemini-3.1-flash-lite",
+    "antigravity/gemini-2.5-flash-thinking",
+    "antigravity/gemini-2.5-flash-lite",
+    "antigravity/gemini-3.1-pro-low"
+  ],
+  "results": [
+    {
+      "model": "antigravity/gemini-3.6-flash-low",
+      "ok": true,
+      "status": 200,
+      "elapsed": 1.72,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gemini-3.5-flash-low",
+      "ok": true,
+      "status": 200,
+      "elapsed": 1.39,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gemini-pro-agent",
+      "ok": true,
+      "status": 200,
+      "elapsed": 11.49,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/claude-sonnet-4-6",
+      "ok": true,
+      "status": 200,
+      "elapsed": 2.35,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gemini-2.5-flash",
+      "ok": true,
+      "status": 200,
+      "elapsed": 1.15,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gemini-3.6-flash-high",
+      "ok": true,
+      "status": 200,
+      "elapsed": 1.99,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gemini-3.6-flash-medium",
+      "ok": true,
+      "status": 200,
+      "elapsed": 1.1,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/claude-opus-4-6-thinking",
+      "ok": true,
+      "status": 200,
+      "elapsed": 2.72,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gemini-3.5-flash-extra-low",
+      "ok": false,
+      "status": 502,
+      "elapsed": 1.45,
+      "error": "{\"error\":{\"message\":\"[antigravity/gemini-3.5-flash-extra-low] upstream returned an empty response without usable output\",\"type\":\"upstream_response_error\",\"code\":\"upstream_empty_response\"}}"
+    },
+    {
+      "model": "antigravity/gemini-3-flash-agent",
+      "ok": false,
+      "status": 502,
+      "elapsed": 1.82,
+      "error": "{\"error\":{\"message\":\"[antigravity/gemini-3-flash-agent] upstream returned an empty response without usable output\",\"type\":\"upstream_response_error\",\"code\":\"upstream_empty_response\"}}"
+    },
+    {
+      "model": "antigravity/gemini-3.1-flash-lite",
+      "ok": true,
+      "status": 200,
+      "elapsed": 1.34,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gemini-2.5-flash-thinking",
+      "ok": true,
+      "status": 200,
+      "elapsed": 1.48,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gemini-2.5-flash-lite",
+      "ok": true,
+      "status": 200,
+      "elapsed": 0.88,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gpt-oss-120b-medium",
+      "ok": false,
+      "status": 502,
+      "elapsed": 0.68,
+      "error": "{\"error\":{\"message\":\"[antigravity/gpt-oss-120b-medium] upstream returned an empty response without usable output\",\"type\":\"upstream_response_error\",\"code\":\"upstream_empty_response\"}}"
+    },
+    {
+      "model": "antigravity/gemini-3.1-pro-low",
+      "ok": true,
+      "status": 200,
+      "elapsed": 4.37,
+      "reply": "OK"
+    },
+    {
+      "model": "antigravity/gemini-3.1-flash-image",
+      "ok": false,
+      "status": "SKIP",
+      "elapsed": 0,
+      "note": "image/non-chat model; not tested on chat endpoint"
+    },
+    {
+      "model": "antigravity/claude-sonnet-4-6-low",
+      "ok": false,
+      "status": 404,
+      "elapsed": 0.47,
+      "error": "{\"error\":{\"message\":\"[404]: Antigravity upstream error (404)\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
+    },
+    {
+      "model": "antigravity/claude-sonnet-4-6-medium",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.01,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-sonnet-4-6-medium are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-sonnet-4-6-medium\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "antigravity/claude-sonnet-4-6-high",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.01,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-sonnet-4-6-high are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-sonnet-4-6-high\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "antigravity/claude-opus-4-6-thinking-low",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.01,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-opus-4-6-thinking-low are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-opus-4-6-thinking-low\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "antigravity/claude-opus-4-6-thinking-medium",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-opus-4-6-thinking-medium are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-opus-4-6-thinking-medium\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "antigravity/claude-opus-4-6-thinking-high",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-opus-4-6-thinking-high are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-opus-4-6-thinking-high\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "no-think/antigravity/claude-sonnet-4-6",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-sonnet-4-6 are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-sonnet-4-6\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "no-think/antigravity/claude-opus-4-6-thinking",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-opus-4-6-thinking are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-opus-4-6-thinking\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "no-think/antigravity/claude-sonnet-4-6-low",
+      "ok": false,
+      "status": 404,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"No active credentials for provider: antigravity\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}"
+    },
+    {
+      "model": "no-think/antigravity/claude-sonnet-4-6-medium",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-sonnet-4-6-medium are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-sonnet-4-6-medium\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "no-think/antigravity/claude-sonnet-4-6-high",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-sonnet-4-6-high are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-sonnet-4-6-high\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "no-think/antigravity/claude-opus-4-6-thinking-low",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-opus-4-6-thinking-low are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-opus-4-6-thinking-low\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "no-think/antigravity/claude-opus-4-6-thinking-medium",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-opus-4-6-thinking-medium are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-opus-4-6-thinking-medium\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    },
+    {
+      "model": "no-think/antigravity/claude-opus-4-6-thinking-high",
+      "ok": false,
+      "status": 429,
+      "elapsed": 0.0,
+      "error": "{\"error\":{\"message\":\"All credentials for model claude-opus-4-6-thinking-high are cooling down\",\"type\":\"rate_limit_error\",\"code\":\"model_cooldown\",\"model\":\"claude-opus-4-6-thinking-high\",\"reset_seconds\":120,\"retry_after\":\"2026-08-05T09:47:31.768Z\",\"credentials_cooling\":1}}"
+    }
+  ]
+}

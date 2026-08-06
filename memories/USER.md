@@ -1,21 +1,23 @@
-Token-conscious — disables crons to save tokens.
+Work: TPN Flexpak ERP Mgr (VB.NET/SQL2019). Laptop blocks AI. Use formal Thai email (เรียน... ลงชื่อ) for Vacharapong.
 §
-ERP Manager at TPN Flexpak: Khun Vacharapong. Use formal Thai email format when drafting to him (เรียน ... เรื่อง ... ลงชื่อ).
+English Growing: one-line fixes; spelling วุฒิพงษ์; short corrections welcomed.
 §
-Location: Chon Buri. Cost-conscious model routing (free→local→paid). opencode-go/minimax-m3 = 3x token usage.
+AgentOS lives at ~/Workspaces/agentos/source; Next.js dashboard on localhost:3737.
 §
-Active English idiom learner — tests phrases conversationally (e.g. "hit on the road" → "hit the road"). Appreciates quick one-line corrections.
+Coding prefs: wants working code over scaffolding, independent verification, and concrete fallback plans; coder/Claude must actually build AgentOS apps.
 §
-Twitter/X cookies configured for agent-reach at ~/Smith/agent-reach/.env. twitter-cli v0.8.5 installed. Can search, read tweets, timeline, articles, user profiles.
+Payday: 8th and 22nd of each month. User wants reminders when they forget.
 §
-User Info: **Project**: ~/Workspaces/agentos — Agent OS dashboard + standards framework. Runs at localhost:3737 (Next.js + Tailwind + Framer Motion).
+Style: concise, no fluff; short English correction when useful.
 §
-User Preferences: wants WORKING code, not just file/folder scaffolding. Will call out if you only build structure. Prioritize functional features over documentation.
+Owns bestwuttipong.dev + Cloudflare Tunnel; wants Smith reachable through LINE bot.
 §
-User Info: **Vault**: ~/Library/CloudStorage/OneDrive-Personal/Apps/remotely-save/Wuttipong Vault. Has Julian Goldie SEO/Agent OS folder with setup docs.
+Use Notion To-do for daily progress. Weekly System Maintenance template duplicated Fridays midnight.
 §
-Thai name spelling: วุฒิพงษ์ (not วุฒิพงศ์)
+Gmail/Cal: himalaya (App PW) & local CalDAV (vdirsyncer/khal) offline; no gog/X API.
 §
-Interests: FIFA World Cup / football fan, follows Polymarket prediction markets, checks X trending topics regularly.
+Prefers Smith as an invited collaborator in Todoist (smith-agent@agentmail.to) so Smith appears as a distinct team member with avatar/comments.
 §
-IT policy: company laptop, no software installs without IT approval. Prefers English in casual chat context (not Thai).
+Prefers OmniRoute over 9router; stop 9router when switching; direct action + verification.
+§
+Avoids pasting secrets in chat; prefers secure/mobile credential workflows, and wants Smith to grab browser auth via OpenCLI/Browser Bridge when possible rather than manual header/cookie extraction.
