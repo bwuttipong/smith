@@ -1,0 +1,15 @@
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/bin/Debug/net10.0/string-substrings
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/bin/Debug/net10.0/string-substrings.deps.json
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/bin/Debug/net10.0/string-substrings.runtimeconfig.json
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/bin/Debug/net10.0/string-substrings.dll
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/bin/Debug/net10.0/string-substrings.pdb
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/string-substrings.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/string-substrings.AssemblyInfoInputs.cache
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/string-substrings.AssemblyInfo.cs
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/string-substrings.csproj.CoreCompileInputs.cache
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/string-substrings.sourcelink.json
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/string-substrings.dll
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/refint/string-substrings.dll
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/string-substrings.pdb
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/string-substrings.genruntimeconfig.cache
+/Users/Jeff/Smith/workspaces/csharp-interview/string-substrings/obj/Debug/net10.0/ref/string-substrings.dll

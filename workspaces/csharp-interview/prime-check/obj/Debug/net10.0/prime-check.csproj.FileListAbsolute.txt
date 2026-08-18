@@ -1,0 +1,15 @@
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/bin/Debug/net10.0/prime-check
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/bin/Debug/net10.0/prime-check.deps.json
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/bin/Debug/net10.0/prime-check.runtimeconfig.json
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/bin/Debug/net10.0/prime-check.dll
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/bin/Debug/net10.0/prime-check.pdb
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/prime-check.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/prime-check.AssemblyInfoInputs.cache
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/prime-check.AssemblyInfo.cs
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/prime-check.csproj.CoreCompileInputs.cache
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/prime-check.sourcelink.json
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/prime-check.dll
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/refint/prime-check.dll
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/prime-check.pdb
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/prime-check.genruntimeconfig.cache
+/Users/Jeff/Smith/workspaces/csharp-interview/prime-check/obj/Debug/net10.0/ref/prime-check.dll

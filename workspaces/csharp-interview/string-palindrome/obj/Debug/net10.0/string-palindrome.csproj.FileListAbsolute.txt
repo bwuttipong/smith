@@ -1,0 +1,15 @@
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/bin/Debug/net10.0/string-palindrome
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/bin/Debug/net10.0/string-palindrome.deps.json
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/bin/Debug/net10.0/string-palindrome.runtimeconfig.json
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/bin/Debug/net10.0/string-palindrome.dll
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/bin/Debug/net10.0/string-palindrome.pdb
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/string-palindrome.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/string-palindrome.AssemblyInfoInputs.cache
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/string-palindrome.AssemblyInfo.cs
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/string-palindrome.csproj.CoreCompileInputs.cache
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/string-palindrome.sourcelink.json
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/string-palindrome.dll
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/refint/string-palindrome.dll
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/string-palindrome.pdb
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/string-palindrome.genruntimeconfig.cache
+/Users/Jeff/Smith/workspaces/csharp-interview/string-palindrome/obj/Debug/net10.0/ref/string-palindrome.dll
